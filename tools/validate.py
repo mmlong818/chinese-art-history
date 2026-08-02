@@ -215,7 +215,9 @@ def main():
 
     n_works = sum(1 for _, (k, _) in views.items() if k == "work")
     print("=" * 62)
-    print("index.html  %.1f MB / %d views" % (len(html) / 1048576.0, len(views)))
+    # 字符数不等于字节数（中文在 UTF-8 中占 3 字节），两者都报，避免误读
+    print("index.html  %.1f MB / %.1f M 字符 / %d views"
+          % (os.path.getsize(path) / 1048576.0, len(html) / 1048576.0, len(views)))
     print("  画家 %d 家 %s" % (n_artists, dict(by_cat)))
     print("  作品 %d 件（不足 3 件的画家 %d 家）" % (n_works, len(thin)))
     print("  事件 %d 条（覆盖 %d/%d 家）" % (len(events), len(ev_covered), n_artists))

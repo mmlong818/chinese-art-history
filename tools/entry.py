@@ -5,13 +5,18 @@
 反向抽成数据会有损。故不重建整站生成器，只提供"安全地往里加一条"的能力：
 
   python tools/entry.py artist  --id liusongnian --name 刘松年 --pinyin "Liú Sōngnián" \
-      --cat 绘画 --chip 绘画 --era 宋 --sub "南宋" --one-line "南宋四家,暗门刘" \
+      --cat 绘画 --small 绘 --sub "南宋" --one-line "南宋四家,暗门刘" \
       --after artist-litang --fragment frag.html
   python tools/entry.py work    --id liusongnian-01 --title 四景山水图 --artist liusongnian \
       --tag "画作 南宋" --meta "绢本设色·故宫博物院" --desc "四季组画典范" --fragment frag.html
   python tools/entry.py event   --id lsn-jinshi --title 进耕织图赐金带 --artist liusongnian \
-      --tag "事件 宁宗朝" --desc "其生平唯一的宫廷高光" --fragment frag.html
+      --tag "事件 宁宗朝" --meta "宁宗朝 · 赐金带" --desc "其生平唯一的宫廷高光" \
+      --fragment frag.html
   python tools/entry.py resync                      # 只重算计数，不加内容
+
+  --after 指插在哪位画家之后（如 artist-litang），决定其在首页与侧栏中的位置。
+  --small 是侧栏索引里的单字：绘 / 书 / 篆 / 雕。
+  --chip 可选，卡片上显示的类别文字，默认同 --cat。
 
 计数（首页图录 / 筛选器 / 朝代分组 / 侧栏 / title / 面包屑 / 页脚）一律由
 实际卡片重新推导后回写，不做数字的字符串替换——避免手工同步时漏改。
