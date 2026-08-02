@@ -55,7 +55,16 @@ def load():
 
 
 def save(h):
-    io.open(INDEX, "w", encoding="utf-8", newline="").write(h)
+    """先写临时文件再原子替换。
+
+    直接以 "w" 打开会立即截断 index.html——写入中途失败就只剩 git 能救；
+    且本地起 http server 预览时，Windows 会锁住刚被请求过的文件，
+    直接写会 EINVAL 失败。os.replace 两个问题一起解决。
+    """
+    tmp = INDEX + ".tmp"
+    with io.open(tmp, "w", encoding="utf-8", newline="") as f:
+        f.write(h)
+    os.replace(tmp, INDEX)
 
 
 def sub_once(h, old, new, why):
