@@ -22,6 +22,7 @@ import io
 import os
 import re
 import subprocess
+import time
 import sys
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -64,7 +65,15 @@ def save(h):
     tmp = INDEX + ".tmp"
     with io.open(tmp, "w", encoding="utf-8", newline="") as f:
         f.write(h)
-    os.replace(tmp, INDEX)
+    for attempt in range(5):  # 预览服务器可能正占着句柄，短暂重试
+        try:
+            os.replace(tmp, INDEX)
+            return
+        except PermissionError:
+            if attempt == 4:
+                os.remove(tmp)
+                sys.exit("index.html 被占用（本地预览服务器？），请关掉后重试。原文件未改动。")
+            time.sleep(0.4)
 
 
 def sub_once(h, old, new, why):
