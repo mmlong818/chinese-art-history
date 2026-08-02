@@ -109,6 +109,18 @@ def check_counts(html, views):
     return n, by_cat
 
 
+CRUMB_KIND = {"绘画": "画家", "书法": "书法家", "篆刻": "篆刻家", "雕刻": "雕塑家"}
+
+
+def check_crumb_kinds(html):
+    """面包屑里的身份必须与首页卡片的类别一致（曾全部硬编码为"画家"）。"""
+    cat = dict(re.findall(r'<a class="acard" data-go="(artist-[^"]+)" data-cat="([^"]+)"', html))
+    for vid, kind, _ in re.findall(r'"(artist-[^"]+)": \["([^"]+)", "([^"]+)"\]', html):
+        want = CRUMB_KIND.get(cat.get(vid))
+        if want and kind != want:
+            err("面包屑身份不符 %s: 标「%s」，卡片类别为「%s」" % (vid, kind, cat[vid]))
+
+
 def check_sections(views):
     """每家画家须具备十二维体例。"""
     for vid, (kind, seg) in views.items():
@@ -158,6 +170,7 @@ def main():
 
     n_links = check_links(html, views)
     n_artists, by_cat = check_counts(html, views)
+    check_crumb_kinds(html)
     check_sections(views)
     by_artist, thin = check_works(views)
     events, ev_covered = check_events(views)
