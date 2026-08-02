@@ -152,13 +152,28 @@ def check_works(views):
     return by_artist, thin
 
 
-def check_events(views):
-    """事件实体覆盖率(设计为画家/事件/画作三类互链)。"""
+EVENT_SECTIONS = ["事件经过", "字段", "争议字段"]
+
+
+def check_events(views, html):
+    """事件实体覆盖率(设计为画家/事件/画作三类互链)，兼查事件条目体例。"""
     events = [v for v, (k, _) in views.items() if k == "event"]
     covered = set()
     for vid, (kind, seg) in views.items():
         if kind == "artist" and re.search(r'data-go="event-', seg):
             covered.add(vid)
+    for vid in events:
+        seg = views[vid][1]
+        heads = re.sub(r'<[^>]+>', '', " | ".join(re.findall(r'<h2[^>]*>(.*?)</h2>', seg, re.S)))
+        miss = [s for s in EVENT_SECTIONS if s not in heads]
+        if miss:
+            err("事件 %s 缺区块: %s" % (vid, "/".join(miss)))
+        if '<a class="backlink"' not in seg:
+            err("事件 %s 无返回链接" % vid)
+        if "<footer>" not in seg:
+            err("事件 %s 无来源脚注" % vid)
+        if not re.search(r'class="ixcard" data-go="%s"' % re.escape(vid), html):
+            err("事件 %s 未被任何画家条目的索引区块收录" % vid)
     return events, covered
 
 
@@ -173,7 +188,7 @@ def main():
     check_crumb_kinds(html)
     check_sections(views)
     by_artist, thin = check_works(views)
-    events, ev_covered = check_events(views)
+    events, ev_covered = check_events(views, html)
 
     n_works = sum(1 for _, (k, _) in views.items() if k == "work")
     print("=" * 62)
