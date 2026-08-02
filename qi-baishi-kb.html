@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>齐白石 · 美术史知识库（画家 / 事件 / 画作 互链）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF7F0; --surface:#FFFFFF; --ink:#211E18; --muted:#6B6459; --faint:#9C948682;
+    --faint2:#9C9486; --line:#E7E1D4; --line-soft:#EFEADF;
+    --seal:#B23A2E; --seal-soft:#F6E7E2;
+    --t-artist:#9A6A2E; --t-artist-bg:#F3EBDD;
+    --t-event:#3E7C74; --t-event-bg:#E5F0EC;
+    --t-work:#B23A2E; --t-work-bg:#F6E7E2;
+    --ok-fg:#2C7A4B; --ok-bg:#E8F1EB; --ok-line:#C4DCCB;
+    --warn-fg:#9C6310; --warn-bg:#FAF0D9; --warn-line:#E9D6A6;
+    --neu-fg:#6B6459; --neu-bg:#F0EDE4; --neu-line:#DcD5C6;
+    --dep-fg:#A8392E; --dep-bg:#F7E9E6; --dep-line:#E8C9C3;
+    --serif:"Noto Serif SC",Georgia,serif;
+    --sans:"Noto Sans SC",system-ui,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+    font-size:15.5px;line-height:1.7;-webkit-font-smoothing:antialiased}
+  a{color:var(--seal);text-decoration:none;cursor:pointer}
+  a:hover{text-decoration:underline}
+
+  /* top bar */
+  .topbar{position:sticky;top:0;z-index:30;border-bottom:1px solid var(--line);
+    background:rgba(250,247,240,.92);backdrop-filter:blur(8px)}
+  .topbar .in{max-width:1200px;margin:0 auto;padding:0 24px;height:56px;
+    display:flex;align-items:center;justify-content:space-between;gap:16px}
+  .brand{display:flex;align-items:center;gap:10px;font-family:var(--mono);
+    font-size:12.5px;color:var(--muted);white-space:nowrap}
+  .brand .sealmini{width:22px;height:22px;border:1.5px solid var(--seal);border-radius:4px;
+    color:var(--seal);font-family:var(--serif);font-weight:700;font-size:13px;
+    display:flex;align-items:center;justify-content:center}
+  .crumb{font-family:var(--mono);font-size:12.5px;color:var(--faint2);
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .crumb b{color:var(--ink);font-weight:500}
+  .menu-btn{display:none;border:1px solid var(--line);background:var(--surface);
+    border-radius:8px;padding:6px 10px;font-family:var(--mono);font-size:12px;color:var(--muted);cursor:pointer}
+
+  .shell{max-width:1200px;margin:0 auto;padding:0 24px;
+    display:grid;grid-template-columns:236px 1fr;gap:40px;align-items:start}
+
+  /* sidebar index */
+  aside{position:sticky;top:76px;padding:26px 0 40px;font-size:14px;max-height:calc(100vh - 90px);overflow:auto}
+  aside .grp{margin-bottom:20px}
+  aside .grp-h{font-family:var(--mono);font-size:11px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--faint2);margin:0 0 9px;
+    display:flex;align-items:center;gap:7px}
+  aside .grp-h .ct{margin-left:auto;color:var(--faint2)}
+  aside .ix{display:block;padding:7px 11px;border-radius:8px;color:var(--ink);
+    border:1px solid transparent;line-height:1.35;margin:2px 0}
+  aside .ix small{display:block;font-family:var(--mono);font-size:10.5px;color:var(--faint2);margin-top:1px}
+  aside .ix:hover{background:var(--surface);text-decoration:none;border-color:var(--line)}
+  aside .ix.active{background:var(--surface);border-color:var(--line)}
+  aside .ix.active{box-shadow:inset 3px 0 0 var(--seal);padding-left:14px}
+
+  main{min-width:0;padding:28px 0 90px}
+
+  /* in-page table of contents (artist dossier) */
+  .toc{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 30px;padding:16px 0 22px;border-bottom:1px solid var(--line)}
+  .toc a{font-family:var(--mono);font-size:11.5px;color:var(--muted);border:1px solid var(--line);
+    background:var(--surface);border-radius:6px;padding:5px 10px}
+  .toc a:hover{border-color:var(--seal);color:var(--seal);text-decoration:none}
+  .toc a .n{color:var(--seal);margin-right:5px}
+
+  /* entity header */
+  .ehead{border-bottom:1px solid var(--line);padding-bottom:22px;margin-bottom:30px}
+  .etype{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);
+    font-size:11px;letter-spacing:.08em;padding:4px 10px;border-radius:6px;margin-bottom:14px}
+  .etype .seal{width:16px;height:16px;border-radius:3px;display:flex;align-items:center;
+    justify-content:center;font-family:var(--serif);font-weight:700;font-size:10px;color:#fff}
+  .t-artist .etype,.etype.t-artist{background:var(--t-artist-bg);color:var(--t-artist)}
+  .t-event .etype,.etype.t-event{background:var(--t-event-bg);color:var(--t-event)}
+  .t-work .etype,.etype.t-work{background:var(--t-work-bg);color:var(--t-work)}
+  .etype.t-artist .seal{background:var(--t-artist)} .etype.t-event .seal{background:var(--t-event)} .etype.t-work .seal{background:var(--t-work)}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(30px,5vw,46px);
+    line-height:1.12;margin:0;letter-spacing:.01em}
+  h1 .en{display:block;font-family:var(--mono);font-size:13px;color:var(--faint2);
+    font-weight:400;margin-top:8px;letter-spacing:.02em}
+  .subline{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:16px;
+    font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+  .subline b{color:var(--ink);font-weight:500}
+  .backlink{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);
+    font-size:12px;color:var(--muted);margin-bottom:14px}
+  .backlink:hover{color:var(--seal)}
+
+  /* sections */
+  section.blk{margin:0 0 38px;scroll-margin-top:72px}
+  .sh{display:flex;align-items:baseline;gap:12px;margin:0 0 16px;
+    padding-bottom:10px;border-bottom:1px solid var(--line)}
+  .sh .no{font-family:var(--mono);font-size:12px;color:var(--seal)}
+  h2{font-family:var(--serif);font-weight:600;font-size:21px;margin:0}
+  h2 .en{font-family:var(--mono);font-size:11.5px;color:var(--faint2);font-weight:400;margin-left:8px}
+  .lead{color:var(--muted);font-size:14.5px;margin:-4px 0 18px}
+
+  /* sub-heading inside a dimension block */
+  .subh{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--faint2);margin:24px 0 8px;display:flex;align-items:center;gap:8px}
+  .subh::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--t-artist)}
+  .t-work .subh::before{background:var(--t-work)} .t-event .subh::before{background:var(--t-event)}
+  .subh:first-child{margin-top:0}
+
+  /* field rows */
+  .field{display:grid;grid-template-columns:172px 1fr;gap:18px;
+    padding:12px 0;border-bottom:1px solid var(--line-soft)}
+  .field:last-child{border-bottom:0}
+  .fkey{font-size:14px;color:var(--ink)}
+  .fkey .en{display:block;font-family:var(--mono);font-size:10.5px;color:var(--faint2);margin-top:2px}
+  .fval{font-size:14.5px}
+  .fval .sub{color:var(--muted);font-size:13px}
+  .fval p{margin:0 0 8px} .fval p:last-child{margin-bottom:0}
+
+  /* data table */
+  .tbl{width:100%;border-collapse:collapse;font-size:13.5px;margin:2px 0 4px}
+  .tbl th{text-align:left;font-family:var(--mono);font-size:10px;letter-spacing:.05em;
+    color:var(--faint2);font-weight:500;padding:8px 10px;border-bottom:1px solid var(--line);
+    text-transform:uppercase;white-space:nowrap}
+  .tbl td{padding:9px 10px;border-bottom:1px solid var(--line-soft);vertical-align:top;line-height:1.55}
+  .tbl tr:last-child td{border-bottom:0}
+  .tbl td.k{font-weight:500;white-space:nowrap;color:var(--ink)}
+  .tbl td .sub{color:var(--muted);font-size:12.5px;display:block;margin-top:2px}
+  .tbl .yrcell{font-family:var(--mono);color:var(--t-event);white-space:nowrap}
+  .tbl-wrap{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface)}
+
+  /* quote stack */
+  .quote{border:1px solid var(--line);border-left:3px solid var(--seal);border-radius:0 8px 8px 0;
+    background:var(--surface);padding:12px 16px;margin:0 0 10px}
+  .quote:last-child{margin-bottom:0}
+  .quote .q{font-family:var(--serif);font-size:15.5px;color:var(--ink);line-height:1.6}
+  .quote .q::before{content:"“";color:var(--faint2)} .quote .q::after{content:"”";color:var(--faint2)}
+  .quote .m{font-family:var(--mono);font-size:11px;color:var(--faint2);margin-top:7px;
+    display:flex;flex-wrap:wrap;gap:6px 14px}
+
+  /* badges */
+  .badge{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);
+    font-size:10.5px;line-height:1;padding:4px 8px;border-radius:5px;border:1px solid;
+    white-space:nowrap;vertical-align:middle}
+  .badge .d{width:6px;height:6px;border-radius:50%}
+  .b-ok{color:var(--ok-fg);background:var(--ok-bg);border-color:var(--ok-line)} .b-ok .d{background:var(--ok-fg)}
+  .b-warn{color:var(--warn-fg);background:var(--warn-bg);border-color:var(--warn-line)} .b-warn .d{background:var(--warn-fg)}
+  .b-neu{color:var(--neu-fg);background:var(--neu-bg);border-color:var(--neu-line)} .b-neu .d{background:var(--neu-fg)}
+  .b-dep{color:var(--dep-fg);background:var(--dep-bg);border-color:var(--dep-line)} .b-dep .d{background:var(--dep-fg)}
+  .src{font-family:var(--mono);font-size:11px;color:var(--muted)}
+  .gap{font-family:var(--mono);font-size:11.5px;color:var(--faint2);font-style:italic}
+
+  /* index cards (cross links) */
+  .ixcards{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .ixcard{display:block;background:var(--surface);border:1px solid var(--line);
+    border-radius:11px;padding:15px 16px;color:var(--ink)}
+  .ixcard:hover{text-decoration:none;border-color:var(--seal);transform:translateY(-1px);
+    transition:.15s;box-shadow:0 4px 16px rgba(120,90,60,.07)}
+  .ixcard .tag{font-family:var(--mono);font-size:10px;letter-spacing:.06em;padding:2px 7px;
+    border-radius:4px;display:inline-block;margin-bottom:9px}
+  .ixcard .tag.ev{background:var(--t-event-bg);color:var(--t-event)}
+  .ixcard .tag.wk{background:var(--t-work-bg);color:var(--t-work)}
+  .ixcard .ti{font-family:var(--serif);font-size:17px;font-weight:600;line-height:1.25}
+  .ixcard .meta{font-family:var(--mono);font-size:11px;color:var(--faint2);margin-top:4px}
+  .ixcard .ds{font-size:13px;color:var(--muted);margin-top:8px;line-height:1.55}
+  .arrowg{color:var(--seal);font-family:var(--mono)}
+
+  /* timeline */
+  .tl{margin:0;padding:0;list-style:none}
+  .tl li{display:grid;grid-template-columns:104px 1fr;gap:18px;padding:9px 0;
+    border-bottom:1px solid var(--line-soft)}
+  .tl li:last-child{border-bottom:0}
+  .tl .yr{font-family:var(--mono);font-size:12.5px;color:var(--t-event)}
+  .tl .ev{font-size:14px}
+  .tl .ev .pl{color:var(--muted);font-size:12.5px}
+
+  /* statement stack */
+  .stmt-field{margin-bottom:22px}
+  .stmt-field:last-child{margin-bottom:0}
+  .stmt-q{display:flex;align-items:baseline;gap:11px;margin:0 0 10px;flex-wrap:wrap}
+  .stmt-q h3{font-family:var(--serif);font-size:17px;font-weight:600;margin:0}
+  .stmt-q .qk{font-family:var(--mono);font-size:10.5px;color:var(--faint2)}
+  .stmt{border:1px solid var(--line);border-left-width:3px;border-radius:8px;
+    background:var(--surface);padding:13px 16px;margin:0 0 8px}
+  .stmt:last-child{margin-bottom:0}
+  .stmt.adopt{border-left-color:var(--ok-fg)}
+  .stmt.disp{border-left-color:var(--warn-fg)}
+  .stmt.pend{border-left-color:var(--neu-line)}
+  .stmt.dep{border-left-color:var(--dep-fg);opacity:.74}
+  .stmt .val{font-size:14.5px;font-weight:500;margin:0 0 3px}
+  .stmt.dep .val{text-decoration:line-through;text-decoration-color:var(--dep-fg)}
+  .stmt .note{font-size:13px;color:var(--muted);margin:0 0 9px}
+  .stmt .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+
+  /* legend / overview cards */
+  .ov{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+    border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:8px}
+  .ov div{background:var(--surface);padding:15px}
+  .ov .n{font-family:var(--serif);font-size:24px;font-weight:600;line-height:1.05}
+  .ov .k{font-family:var(--mono);font-size:10.5px;color:var(--muted);margin-top:6px}
+
+  /* the twelve screens grid */
+  .screens{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+    border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  .screens div{background:var(--surface);padding:11px 13px;font-family:var(--serif);font-size:14px}
+  .screens div span{display:block;font-family:var(--mono);font-size:10px;color:var(--faint2)}
+
+  .note-box{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--t-event);
+    border-radius:0 8px 8px 0;padding:13px 16px;font-size:13.5px;color:var(--muted)}
+  .note-box b{color:var(--ink)}
+  .note-box.seal{border-left-color:var(--seal)}
+
+  .view{display:none}
+  .view.active{display:block}
+  @media(prefers-reduced-motion:no-preference){
+    .view.active{animation:fade .45s ease both}
+    @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+
+  footer{border-top:1px solid var(--line);margin-top:20px;padding:22px 0 50px;
+    font-family:var(--mono);font-size:11.5px;color:var(--faint2);line-height:1.7}
+
+  @media(max-width:880px){
+    .shell{grid-template-columns:1fr;gap:0}
+    aside{position:fixed;top:56px;left:0;right:0;bottom:0;z-index:25;background:var(--paper);
+      padding:18px 24px;overflow:auto;display:none;border-top:1px solid var(--line);max-height:none}
+    aside.open{display:block}
+    .menu-btn{display:block}
+    .ixcards,.ov{grid-template-columns:1fr}
+    .screens{grid-template-columns:1fr 1fr}
+    .field{grid-template-columns:1fr;gap:4px;padding:13px 0}
+    .tl li{grid-template-columns:84px 1fr;gap:12px}
+    .tbl{font-size:13px} .tbl th,.tbl td{padding:7px 8px}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="in">
+  <span class="brand"><span class="sealmini">齐</span>美术史知识库</span>
+  <span class="crumb" id="crumb">知识库 › 画家 · <b>齐白石</b></span>
+  <button class="menu-btn" id="menuBtn">索引 ☰</button>
+</div></div>
+
+<div class="shell">
+
+  <aside id="sidebar">
+    <div class="grp">
+      <p class="grp-h">画家 / artist <span class="ct">1</span></p>
+      <a class="ix" data-go="artist-qbs">齐白石<small>Qi Baishi · 1864–1957</small></a>
+    </div>
+    <div class="grp">
+      <p class="grp-h">关键事件 / events <span class="ct">4</span></p>
+      <a class="ix" data-go="event-1917">法源寺识陈师曾<small>1917 · 北京</small></a>
+      <a class="ix" data-go="event-bianfa">衰年变法<small>约 1919–1928</small></a>
+      <a class="ix" data-go="event-1922">东京中日联合绘画展<small>1922 · 东京</small></a>
+      <a class="ix" data-go="event-honors">人民艺术家 · 国际和平奖<small>1953 / 1955</small></a>
+    </div>
+    <div class="grp">
+      <p class="grp-h">画作 / artworks <span class="ct">3</span></p>
+      <a class="ix" data-go="work-shanshui">山水十二条屏<small>1925 · 9.315 亿</small></a>
+      <a class="ix" data-go="work-washeng">蛙声十里出山泉<small>1951 · 老舍命题</small></a>
+      <a class="ix" data-go="work-songbai">松柏高立图·篆书四言联<small>1946 · 4.255 亿</small></a>
+    </div>
+  </aside>
+
+  <main>
+
+  <!-- ============ 画家：齐白石 ============ -->
+  <div class="view active t-artist" id="artist-qbs">
+    <div class="ehead">
+      <span class="etype t-artist"><span class="seal">画</span>画家 · ARTIST:qi-baishi</span>
+      <h1>齐白石<span class="en">Qí Báishí</span></h1>
+      <div class="subline">
+        <span><b>1864–1957</b></span>
+        <span>籍贯 <b>湖南湘潭</b></span>
+        <span>身份 <b>画家 · 书法 · 篆刻 · 诗</b></span>
+        <span>领域 <b>大写意花鸟 · 红花墨叶</b></span>
+      </div>
+    </div>
+
+    <nav class="toc">
+      <a href="#" data-jump="s01"><span class="n">01</span>概览</a>
+      <a href="#" data-jump="s02"><span class="n">02</span>基础档案</a>
+      <a href="#" data-jump="s03"><span class="n">03</span>人生轨迹</a>
+      <a href="#" data-jump="s04"><span class="n">04</span>人物关系</a>
+      <a href="#" data-jump="s05"><span class="n">05</span>创作体系</a>
+      <a href="#" data-jump="s06"><span class="n">06</span>历史坐标</a>
+      <a href="#" data-jump="s07"><span class="n">07</span>世俗生活</a>
+      <a href="#" data-jump="s08"><span class="n">08</span>八卦与传奇</a>
+      <a href="#" data-jump="s09"><span class="n">09</span>语录库</a>
+      <a href="#" data-jump="s10"><span class="n">10</span>关键事件</a>
+      <a href="#" data-jump="s11"><span class="n">11</span>代表作 / 作品总表</a>
+      <a href="#" data-jump="s12"><span class="n">12</span>争议字段</a>
+    </nav>
+
+    <!-- 01 概览 -->
+    <section class="blk" id="s01">
+      <div class="sh"><span class="no">01</span><h2>概览 <span class="en">overview</span></h2></div>
+      <div class="ov">
+        <div><div class="n">诗书画印</div><div class="k">四绝兼擅</div></div>
+        <div><div class="n">~3000+</div><div class="k">市面流通作品（估）</div></div>
+        <div><div class="n">9.315 亿</div><div class="k">个人拍卖纪录（2017）</div></div>
+        <div><div class="n">93 岁</div><div class="k">享年（署款体系存异）</div></div>
+      </div>
+      <p class="lead" style="margin-top:14px">从乡间"芝木匠"到一代宗师；五旬后定居北京、经陈师曾点拨而"衰年变法"，自创"红花墨叶"，以虾、蟹、草虫、花卉名世。本条目按 MD 七维档案体例展开，并索引其 4 个关键事件与 3 幅代表作（每幅为独立画作 wiki）。</p>
+      <div class="note-box seal" style="margin-top:14px">一句话张力：<b>一个用一辈子证明"匠人也能成为大师"的人</b>——在"文人"与"画匠"、"雅"与"俗"、"似"与"不似"之间反复撕扯，最终把三组对立熔成一体。</div>
+    </section>
+
+    <!-- 02 基础档案 -->
+    <section class="blk" id="s02">
+      <div class="sh"><span class="no">02</span><h2>基础档案 <span class="en">profile</span></h2></div>
+
+      <p class="subh">标识 · identity</p>
+      <div class="field"><div class="fkey">实体 ID<span class="en">entity id</span></div><div class="fval"><span class="src">ARTIST:qi-baishi</span></div></div>
+      <div class="field"><div class="fkey">标准名<span class="en">standard name</span></div><div class="fval">齐白石　<span class="badge b-ok"><span class="d"></span>官方采纳</span></div></div>
+      <div class="field"><div class="fkey">名 · 字 · 号<span class="en">names</span></div><div class="fval">原名纯芝（乳名阿芝），字渭清；后名璜，字濒生<br><span class="sub">号：白石（白石山人）、寄萍老人、木居士、三百石印富翁、借山吟馆主者、杏子坞老民、齐大</span></div></div>
+      <div class="field"><div class="fkey">籍贯 / 国籍<span class="en">origin</span></div><div class="fval">湖南湘潭白石铺杏子坞星斗塘<br><span class="sub">出生、成长、晚年定居北京；中国籍。"白石"号即取自家乡白石铺地名</span></div></div>
+      <div class="field"><div class="fkey">生<span class="en">born</span></div><div class="fval">1864-01-01（农历癸亥年十一月廿二）　<span class="badge b-warn"><span class="d"></span>有争议（见 §12）</span></div></div>
+      <div class="field"><div class="fkey">卒<span class="en">died</span></div><div class="fval">1957-09-16　<span class="sub">北京</span>　<span class="badge b-ok"><span class="d"></span>已验证</span></div></div>
+
+      <p class="subh">外貌 · appearance</p>
+      <div class="field"><div class="fkey">体貌<span class="en">physique</span></div><div class="fval">清瘦、中等身量；晚年标志形象为长白须、瓜皮帽（或软帽）、圆框眼镜，目光清矍。存世大量晚年照片与自画像可证。<br><span class="sub">青壮年时期外貌的同时代细描较少，多据照片与门人回忆</span>　<span class="badge b-neu"><span class="d"></span>据影像/回忆</span></div></div>
+
+      <p class="subh">性格 · temperament</p>
+      <div class="field"><div class="fkey">主导特质<span class="en">traits</span></div><div class="fval"><p>勤勉自律（"不教一日闲过"，晚年仍日课）；念旧重乡情（号多取自家乡景物）；精明节俭、对钱财极敏感（门贴润格、明码标价、防伪，详见 §07）。</p><p>外人眼中倔强自尊、敏感谨慎——早年以木匠出身进京画坛遇冷，养成"画吾自画、不求同群"的执拗。　<span class="badge b-neu"><span class="d"></span>多源归纳</span></p></div></div>
+
+      <p class="subh">健康 · health</p>
+      <div class="field"><div class="fkey">总体<span class="en">general</span></div><div class="fval">幼年体弱（祖母、母亲忧其多病），成年后体质转健；以高寿著称，享年约 93 岁，晚年精力旺盛仍能作大幅。</div></div>
+      <div class="field"><div class="fkey">晚年与死因<span class="en">late / death</span></div><div class="fval">晚年渐衰，1957 年 9 月 16 日病逝于北京。具体病程的权威记载有限。<span class="gap"> · 详尽病史暂无统一可靠资料</span></div></div>
+    </section>
+
+    <!-- 03 人生轨迹 -->
+    <section class="blk" id="s03">
+      <div class="sh"><span class="no">03</span><h2>人生轨迹 <span class="en">life course</span></h2></div>
+
+      <p class="subh">家庭出身 · origin</p>
+      <div class="field"><div class="fkey">家世<span class="en">family</span></div><div class="fval">湘潭贫农家庭，世代务农。祖父齐万秉（识字、教其认字）、父齐贳政（老实木讷的农人）、母周氏（精明持家）。齐白石为长子，下有弟妹。<br><span class="sub">影响：贫寒与劳作塑造其勤俭、务实；农家与乡野经验成为其虾蟹草虫花果题材的根。</span></div></div>
+
+      <p class="subh">童年 · childhood</p>
+      <div class="field"><div class="fkey">早年<span class="en">early years</span></div><div class="fval">体弱多病，牧牛砍柴；外祖父周雨若办蒙馆，入读约半年因贫辍学。自幼喜涂画，以习字描红之纸背偷画。<br><span class="sub">与后期关联：牧牛砍柴的乡野记忆、对虫鱼花鸟的近距离观察，构成其一生题材库。</span></div></div>
+
+      <p class="subh">教育与训练 · training</p>
+      <div class="field"><div class="fkey">手艺学徒<span class="en">apprenticeship</span></div><div class="fval">约 15 岁学粗木作，后转学雕花细木工，人称"芝木匠"；借得《芥子园画谱》反复勾摹，是其绘画自学起点。</div></div>
+      <div class="field"><div class="fkey">拜师<span class="en">mentors</span></div><div class="fval">27 岁拜胡沁园（工笔花鸟草虫）、陈少蕃（诗文）；37 岁拜晚清名儒王闿运（湘绮）。详见 §04 师承。</div></div>
+
+      <p class="subh">生涯分期 · periods</p>
+      <div class="tbl-wrap"><table class="tbl">
+        <tr><th>时期</th><th>时间</th><th>核心特征</th><th>代表 / 标志</th></tr>
+        <tr><td class="k">木匠—民间画师</td><td class="yrcell">~1877–1888</td><td>雕花木工，临《芥子园》，画神像、仕女谋生</td><td>"芝木匠""齐美人"</td></tr>
+        <tr><td class="k">拜师—乡贤画家</td><td class="yrcell">1889–1901</td><td>诗书画印全面修习，乡里"独步一时"</td><td>龙山诗社社长</td></tr>
+        <tr><td class="k">五出五归—远游</td><td class="yrcell">1902–1916</td><td>游历半个中国，写生开阔，作《借山图》</td><td>《借山图册》</td></tr>
+        <tr><td class="k">定居北京—衰年变法</td><td class="yrcell">1917–1928</td><td>遇冷→变法，自创红花墨叶</td><td><a data-go="event-bianfa">衰年变法</a></td></tr>
+        <tr><td class="k">盛年—巅峰</td><td class="yrcell">1929–1948</td><td>风格成熟、画名大盛、价高</td><td><a data-go="work-shanshui">山水十二条屏</a></td></tr>
+        <tr><td class="k">晚年—宗师</td><td class="yrcell">1949–1957</td><td>国家荣誉加身，仍日课作画</td><td><a data-go="event-honors">人民艺术家</a></td></tr>
+      </table></div>
+
+      <p class="subh">编年 · biography timeline</p>
+      <ul class="tl">
+        <li><span class="yr">1864</span><span class="ev">生于湘潭杏子坞贫农家，乳名阿芝</span></li>
+        <li><span class="yr">1870</span><span class="ev">入蒙馆半年，因贫辍学，务农砍柴牧牛</span></li>
+        <li><span class="yr">1877</span><span class="ev">学木工，后改雕花木工，人称"芝木匠"<span class="pl"> · 临《芥子园画谱》</span></span></li>
+        <li><span class="yr">1889</span><span class="ev">拜胡沁园、陈少蕃为师，得名"璜"号"濒生"，始以卖画为生</span></li>
+        <li><span class="yr">1894</span><span class="ev">与友组龙山诗社、被推为社长；以仕女人物在乡里"独步一时"</span></li>
+        <li><span class="yr">1899</span><span class="ev">拜晚清名儒王闿运（湘绮）为师，列"王门三匠"</span></li>
+        <li><span class="yr">1902–16</span><span class="ev">"五出五归"远游，开阔眼界，积稿成《借山图》</span></li>
+        <li><span class="yr">1917</span><span class="ev">避乡乱赴京，居法源寺，识陈师曾<span class="pl"> → 见事件</span></span></li>
+        <li><span class="yr">1919</span><span class="ev">正式定居北京；娶副室胡宝珠；自此"衰年变法"<span class="pl"> → 见事件</span></span></li>
+        <li><span class="yr">1922</span><span class="ev">作品由陈师曾携往东京参展，名价骤增<span class="pl"> → 见事件</span></span></li>
+        <li><span class="yr">1925</span><span class="ev">作《山水十二条屏》<span class="pl"> → 见画作</span></span></li>
+        <li><span class="yr">1926</span><span class="ev">应林风眠之聘，任教北京艺专（林1926年3月就任北京艺专校长即聘，1927年林离任）</span></li>
+        <li><span class="yr">1936</span><span class="ev">游四川后"自加两岁"，此后署款年龄大于实际</span></li>
+        <li><span class="yr">1937</span><span class="ev">北京沦陷后辞教深居，门贴"画不卖与官家，窃恐不祥"</span></li>
+        <li><span class="yr">1940</span><span class="ev">原配陈春君于湘潭老家病逝</span></li>
+        <li><span class="yr">1944</span><span class="ev">副室胡宝珠病逝</span></li>
+        <li><span class="yr">1946</span><span class="ev">作《松柏高立图·篆书四言联》<span class="pl"> → 见画作</span></span></li>
+        <li><span class="yr">1951</span><span class="ev">为老舍作《蛙声十里出山泉》<span class="pl"> → 见画作</span></span></li>
+        <li><span class="yr">1953</span><span class="ev">获"人民艺术家"称号，任中国美协主席<span class="pl"> → 见事件</span></span></li>
+        <li><span class="yr">1957</span><span class="ev">任北京中国画院首任名誉院长；9 月 16 日病逝北京</span></li>
+      </ul>
+
+      <p class="subh">地理迁移 · migration</p>
+      <div class="tbl-wrap"><table class="tbl">
+        <tr><th>时间</th><th>迁移</th><th>原因 / 影响</th></tr>
+        <tr><td class="yrcell">1902–16</td><td>"五出五归"游陕、桂、粤、苏等地</td><td>友人之邀与避乱；写生积稿，山水从程式转向真景</td></tr>
+        <tr><td class="yrcell">1917</td><td>湘潭 → 北京</td><td>避家乡兵匪之乱；遇陈师曾，命运转折</td></tr>
+        <tr><td class="yrcell">1919</td><td>正式定居北京</td><td>家乡持续动乱，决意北上立足；开启变法</td></tr>
+      </table></div>
+
+      <p class="subh">关键转折 · turning points</p>
+      <div class="field"><div class="fkey">三次转折<span class="en">pivots</span></div><div class="fval"><p>① <b>由匠入艺</b>（1889 拜师）：从手艺人转向文人画师路径。</p><p>② <b>识陈师曾</b>（1917）：被劝"自创风格"，催生变法。</p><p>③ <b>衰年变法</b>（约 1919–28）：五旬后推翻旧我，确立标志面貌。</p></div></div>
+
+      <p class="subh">死亡情境 · death</p>
+      <div class="field"><div class="fkey">离世<span class="en">passing</span></div><div class="fval">1957 年 9 月 16 日病逝于北京，享年约 93 岁（按公历生卒）。身后备极哀荣，葬于北京。<span class="gap"> · 临终言语等细节暂无统一可靠记载</span></div></div>
+    </section>
+
+    <!-- 04 人物关系 -->
+    <section class="blk" id="s04">
+      <div class="sh"><span class="no">04</span><h2>人物关系 <span class="en">relationships</span></h2></div>
+      <div class="note-box" style="margin-bottom:18px"><b>关系图谱总览：</b>齐白石的关系网呈"乡土底盘 + 京华贵人"双层结构——底层是湖南师友与庞大家族，上层是进京后陈师曾、徐悲鸿等"贵人"的提携，二者共同把一个木匠推上宗师之位。</div>
+
+      <p class="subh">师长与前辈 · teachers</p>
+      <div class="tbl-wrap"><table class="tbl">
+        <tr><th>人物</th><th>身份</th><th>学到了什么</th></tr>
+        <tr><td class="k">萧芗陔 / 文少可</td><td>民间画像师</td><td>早年肖像（"描容"）技艺</td></tr>
+        <tr><td class="k">胡沁园</td><td>乡贤、工笔花鸟草虫</td><td>工笔花鸟草虫；齐称其"生平第一知己"</td></tr>
+        <tr><td class="k">陈少蕃</td><td>塾师</td><td>诗文经史，文化底子</td></tr>
+        <tr><td class="k">王闿运（湘绮）</td><td>晚清名儒</td><td>诗学与士林身份，列"王门三匠"</td></tr>
+      </table></div>
+
+      <p class="subh">朋友与同行 · circle</p>
+      <div class="tbl-wrap"><table class="tbl">
+        <tr><th>人物</th><th>关系</th><th>一句话</th></tr>
+        <tr><td class="k"><a data-go="event-1917">陈师曾</a></td><td>挚友 · 贵人</td><td>劝其变法的关键人，"君无我不进，我无君则退"</td></tr>
+        <tr><td class="k">徐悲鸿</td><td>知己 · 伯乐</td><td>三请出山、聘为艺专教授，极推其写意状物</td></tr>
+        <tr><td class="k">梅兰芳</td><td>友 · 半师生</td><td>向齐学画草虫；齐亦为梅作画，交谊深</td></tr>
+        <tr><td class="k">张大千</td><td>同侪</td><td>"南张北齐"并称（更多为画坛并提，私交平平）</td></tr>
+        <tr><td class="k">林风眠</td><td>同事</td><td>任北京艺专校长时聘齐任教</td></tr>
+        <tr><td class="k">樊樊山、胡佩衡</td><td>诗友 / 画友</td><td>京华交游圈，定润格、助声名</td></tr>
+        <tr><td class="k"><a data-go="work-washeng">老舍</a></td><td>友 · 命题人</td><td>出题求画，催生《蛙声十里出山泉》</td></tr>
+      </table></div>
+
+      <p class="subh">学生与追随者 · students</p>
+      <div class="field"><div class="fkey">入室弟子<span class="en">disciples</span></div><div class="fval">李可染、李苦禅、王雪涛、娄师白、周铁衡等；梅兰芳从其学画工虫。教诲名言"学我者生，似我者死"。</div></div>
+
+      <p class="subh">家人 · family</p>
+      <div class="tbl-wrap"><table class="tbl">
+        <tr><th>人物</th><th>关系</th><th>一句话概括</th></tr>
+        <tr><td class="k">陈春君</td><td>原配</td><td>少年结发，长年守湘潭老家持家，1940 年病逝</td></tr>
+        <tr><td class="k">胡宝珠</td><td>副室</td><td>1919 年随侍北京，伴其盛年，1944 年病逝</td></tr>
+        <tr><td class="k">齐良琨（子如）</td><td>三子</td><td>入陈半丁门下，最受器重，惜早逝</td></tr>
+        <tr><td class="k">良迟 / 良巳 / 良末</td><td>诸子</td><td>多能承家学作画</td></tr>
+        <tr><td class="k">齐良芷</td><td>五女</td><td>承父艺、传齐派花鸟</td></tr>
+      </table>
+      <div style="padding:8px 10px;border-top:1px solid var(--line-soft)"><span class="src">育有七子，子女多人能画；家族即一个小画派。各房生卒与排行的细节记载略有出入。</span></div></div>
+
+      <p class="subh">对手与争议对象 · rivals</p>
+      <div class="field"><div class="fkey">画坛之争<span class="en">friction</span></div><div class="fval">进京初期画风遇冷、被"京派"正统轻视为"匠";"匠"与"文人"之辩贯穿其声誉史（见 §06 争议）。无明确个人化的宿敌记载。<span class="gap"> · 具体交恶事件暂无可靠资料</span></div></div>
+
+      <p class="subh">赞助人与买家 · patrons</p>
+      <div class="field"><div class="fkey">市场关系<span class="en">market ties</span></div><div class="fval">早期靠胡沁园等乡贤引荐；进京后经陈师曾、徐悲鸿等抬举，并通过琉璃厂南纸店、明码润格直接面向买家（详见 §07 定价）。陈子林（《山水十二条屏》受赠者）、收藏家郭秀仪（入室女弟子）等为重要藏家。</div></div>
+
+      <p class="subh">模特 · models</p>
+      <div class="field"><div class="fkey">模特<span class="en">models</span></div><div class="fval">以花鸟草虫、山水为主，传统人物"模特"概念不强；早年画仕女（"齐美人")、神像多凭画谱与民间程式，草虫则以写生观察为本。<span class="gap"> · 长期固定模特暂无可靠资料</span></div></div>
+    </section>
+
+    <!-- 05 创作体系 -->
+    <section class="blk" id="s05">
+      <div class="sh"><span class="no">05</span><h2>创作体系 <span class="en">art system</span></h2></div>
+
+      <p class="subh">流派 · school</p>
+      <div class="field"><div class="fkey">归属<span class="en">school</span></div><div class="fval">大写意花鸟（文人写意一脉），自创"红花墨叶"派；上承徐渭、八大山人、石涛、金农，近受吴昌硕海派金石写意影响。自我认同更重"诗人/文人"身份。</div></div>
+
+      <p class="subh">擅长题材 · subjects</p>
+      <div class="field"><div class="fkey">题材<span class="en">subjects</span></div><div class="fval">虾、蟹、草虫（工虫尤精）、花卉蔬果、山水、人物（早年仕女、晚年钟馗等）。标志符号：<b>墨虾</b>。"为万虫写照，为百鸟传神"。</div></div>
+
+      <p class="subh">风格演变 · evolution</p>
+      <div class="tbl-wrap"><table class="tbl">
+        <tr><th>阶段</th><th>时间</th><th>风格特征</th><th>转变原因</th></tr>
+        <tr><td class="k">摹习期</td><td class="yrcell">早年</td><td>《芥子园》程式、工笔仕女神像</td><td>自学起步、谋生需求</td></tr>
+        <tr><td class="k">远游写生</td><td class="yrcell">1902–16</td><td>山水脱程式，转向真景</td><td>"五出五归"开阔眼界</td></tr>
+        <tr><td class="k">冷逸期</td><td class="yrcell">~1917</td><td>追步八大山人，冷逸清简</td><td>个人偏好，但京华遇冷</td></tr>
+        <tr><td class="k">红花墨叶</td><td class="yrcell">1919–28</td><td>纯红与浓墨并置、雅俗共赏</td><td><a data-go="event-bianfa">衰年变法</a>，陈师曾劝导 + 吴昌硕影响</td></tr>
+        <tr><td class="k">成熟期</td><td class="yrcell">1929 后</td><td>"似与不似之间"，工写结合臻熟</td><td>变法成果沉淀</td></tr>
+      </table></div>
+
+      <p class="subh">技法 · technique</p>
+      <div class="field"><div class="fkey">用笔用墨<span class="en">brush & ink</span></div><div class="fval">大写意阔笔与工细虫翅并置（"工虫花卉"工写结合）；以金石篆籀笔法入画，线条苍辣；浓淡墨色控制极精——画虾以淡墨写身、浓墨点睛与虾枪，写出半透明与弹动感。</div></div>
+      <div class="field"><div class="fkey">设色<span class="en">color</span></div><div class="fval">"红花墨叶"——以洋红、曙红一类纯艳之色作花，浓墨作叶，强对比、明快直接，打破文人画忌艳的成规。</div></div>
+
+      <p class="subh">颜料与材料 · materials</p>
+      <div class="field"><div class="fkey">材料<span class="en">materials</span></div><div class="fval">生宣、水墨；偏好鲜明洋红等矿物/化学颜料以求纯艳。<span class="gap"> · 具体颜料品牌/配方的独家记载有限</span></div></div>
+
+      <p class="subh">工作方式 · working habits</p>
+      <div class="field"><div class="fkey">习惯<span class="en">habits</span></div><div class="fval">高度自律、日课不辍（"不教一日闲过"，偶因故停笔次日补课）；产量极高（毕生作画数千乃至上万、治印千余、存诗三千余）；亲力亲为、对作画材料与流程亲自掌控（与其节俭性格一致）。</div></div>
+
+      <p class="subh">创作理念 · philosophy</p>
+      <div class="field"><div class="fkey">画论<span class="en">credo</span></div><div class="fval"><p>"作画妙在似与不似之间，太似为媚俗，不似为欺世。"——其美学总纲。</p><p>"画吾自画"、"不求同群"；主张写真情真景、反对一味摹古。更多原话见 §09 语录库。</p></div></div>
+
+      <p class="subh">主题执念 · obsessions</p>
+      <div class="field"><div class="fkey">反复母题<span class="en">recurring</span></div><div class="fval">墨虾（毕生锤炼、由形似到神似的范本）、草虫、不倒翁（讽喻官场）、寻常蔬果（白菜、桃、荔枝，"清白"与乡愁）、钟馗与不倒翁的世情寓意。象征常带平民视角的诙谐与讽刺。</div></div>
+    </section>
+
+    <!-- 06 历史坐标 -->
+    <section class="blk" id="s06">
+      <div class="sh"><span class="no">06</span><h2>历史坐标 <span class="en">historical position</span></h2></div>
+
+      <p class="subh">时代背景 · era</p>
+      <div class="tbl-wrap"><table class="tbl">
+        <tr><th>时段</th><th>大势</th><th>对画家的影响</th></tr>
+        <tr><td class="yrcell">1864 生</td><td>晚清，太平天国余波</td><td>生于乱世贫农家，无缘科举正途</td></tr>
+        <tr><td class="yrcell">1911</td><td>辛亥革命、清亡</td><td>士绅秩序松动，民间画师有了上升缝隙</td></tr>
+        <tr><td class="yrcell">1917 后</td><td>民国军阀混战</td><td>家乡兵匪之乱迫其进京，命运转折</td></tr>
+        <tr><td class="yrcell">1937–45</td><td>抗战、北京沦陷</td><td>闭门谢客、拒为日伪作画，气节之举</td></tr>
+        <tr><td class="yrcell">1949 后</td><td>新中国成立</td><td>"人民艺术家"，雅俗共赏的画风受推崇</td></tr>
+      </table></div>
+
+      <p class="subh">艺术史位置 · canon position</p>
+      <div class="field"><div class="fkey">承 / 开 / 传<span class="en">lineage</span></div><div class="fval"><p>承接：徐渭、八大山人、石涛、金农、吴昌硕的写意—金石脉络。</p><p>开创：自创"红花墨叶"，把民间趣味与文人写意熔为雅俗共赏一格。</p><p>传递：影响李可染、李苦禅等一代，奠定 20 世纪大写意花鸟主流。</p></div></div>
+
+      <p class="subh">同代比较 · peers</p>
+      <div class="tbl-wrap"><table class="tbl">
+        <tr><th>对照</th><th>并称</th><th>异同</th></tr>
+        <tr><td class="k">吴昌硕</td><td>"南吴北齐"</td><td>同为金石写意大家；吴更古厚书卷，齐更鲜活民间</td></tr>
+        <tr><td class="k">黄宾虹</td><td>"南黄北齐"</td><td>山水之对照；黄重浑厚华滋，齐重简笔真景</td></tr>
+        <tr><td class="k">张大千</td><td>"南张北齐"</td><td>名望并提；张博涉古今、齐专精写意</td></tr>
+      </table></div>
+
+      <p class="subh">生前评价 · contemporary reception</p>
+      <div class="field"><div class="fkey">同行名家<span class="en">peers</span></div><div class="fval">陈师曾赞"思想新奇""不拘前人绳墨"；林纾"南吴北齐，可以媲美"；徐悲鸿引为知己、极重其功力；李铁夫言当时真画家唯齐、吴二人。　<span class="badge b-ok"><span class="d"></span>正面为主</span></div></div>
+
+      <p class="subh">身后评价 · posthumous</p>
+      <div class="field"><div class="fkey">地位<span class="en">standing</span></div><div class="fval">1963 年被公推为"世界文化名人"；常列"20 世纪中国画十大家"且多居首；近年屡创拍卖天价，公认国际知名度最高的近现代中国画家之一。　<span class="badge b-neu"><span class="d"></span>学术/市场共识</span></div></div>
+
+      <p class="subh">历史贡献 · contribution</p>
+      <div class="field"><div class="fkey">首创/突破<span class="en">breakthroughs</span></div><div class="fval">① 红花墨叶，打破文人画忌艳；② 工虫花卉的工写结合；③ 把平民题材与诙谐讽喻引入高雅花鸟；④ 篆刻单刀直入自成猛利一格。</div></div>
+
+      <p class="subh">争议与批评 · critique</p>
+      <div class="field"><div class="fkey">技法之议<span class="en">critique</span></div><div class="fval">有论者认为其画技法看似简单、晚年应酬多产而有重复（"行画"之议）；多数认为其格调"大俗大雅"、难以摹仿。　<span class="badge b-warn"><span class="d"></span>批评/争议</span></div></div>
+      <div class="field"><div class="fkey">身份之辩<span class="en">debate</span></div><div class="fval">"匠"与"文人"、雅与俗之辩长期存在，折射 20 世纪中国画现代转型中的价值之争。　<span class="badge b-warn"><span class="d"></span>争议</span></div></div>
+    </section>
+
+    <!-- 07 世俗生活 -->
+    <section class="blk" id="s07">
+      <div class="sh"><span class="no">07</span><h2>世俗生活 <span class="en">worldly life</span></h2></div>
+
+      <p class="subh">经济状况 · finances</p>
+      <div class="tbl-wrap"><table class="tbl">
+        <tr><th>阶段</th><th>收入来源</th><th>状态 / 影响</th></tr>
+        <tr><td class="k">早年</td><td>木工、画神像仕女</td><td>贫寒糊口，养成节俭习性</td></tr>
+        <tr><td class="k">乡居</td><td>卖画刻印、置田</td><td>渐有积蓄，乡里小康</td></tr>
+        <tr><td class="k">进京初</td><td>卖画刻印</td><td>画风遇冷、价低，处境窘迫</td></tr>
+        <tr><td class="k">1922 后</td><td>画价大涨</td><td>东京展后"卖画生涯一天比一天兴盛"</td></tr>
+        <tr><td class="k">盛年—晚年</td><td>高价卖画</td><td>富足，仍极度节俭、精于理财</td></tr>
+      </table></div>
+
+      <p class="subh">定价与市场 · pricing</p>
+      <div class="field"><div class="fkey">明码润格<span class="en">price list</span></div><div class="fval">以在门上张贴"润格"（明码标价）著称，按尺论价、概不赊欠，并防伪、防代笔。把卖画当作堂堂正正的营生，是其"匠人本色 + 市场意识"的体现。</div></div>
+
+      <p class="subh">生活方式 · lifestyle</p>
+      <div class="field"><div class="fkey">起居<span class="en">daily life</span></div><div class="fval">定居北京后长居跨车胡同寓所，生活简朴、规律，以作画刻印为日常。饮食起居清淡节俭。</div></div>
+
+      <p class="subh">怪癖与习惯 · quirks</p>
+      <div class="field"><div class="fkey">轶闻<span class="en">anecdotes</span></div><div class="fval">以"节俭近吝"的故事流传：钥匙不离身、亲自掌管财物、待客点心有数、对润银分文必究等（多为流传轶事，细节不一）。自律到"不教一日闲过"。　<span class="badge b-warn"><span class="d"></span>轶事/细节存异</span></div></div>
+
+      <p class="subh">社会身份 · roles</p>
+      <div class="field"><div class="fkey">身份<span class="en">roles</span></div><div class="fval">画家之外：诗人（结龙山诗社、出诗集）、篆刻家、美术教育者（北京艺专教授）；晚年任中国美协主席、北京中国画院名誉院长。</div></div>
+
+      <p class="subh">宗教与信仰 · belief</p>
+      <div class="field"><div class="fkey">信仰<span class="en">faith</span></div><div class="fval">无明确宗教归属；别号"木居士""寄萍老人"等带佛道色彩，更多是文人寄托而非笃信。<span class="gap"> · 确切信仰实践暂无可靠资料</span></div></div>
+
+      <p class="subh">政治立场 · politics</p>
+      <div class="field"><div class="fkey">态度<span class="en">stance</span></div><div class="fval">总体疏离政治、守平民本分；抗战期间以闭门谢客、拒为日伪权贵作画表明气节（门贴"画不卖与官家，窃恐不祥"）。新中国后接受国家荣誉、任公职。</div></div>
+    </section>
+
+    <!-- 08 八卦与传奇 -->
+    <section class="blk" id="s08">
+      <div class="sh"><span class="no">08</span><h2>八卦与传奇 <span class="en">legends & gossip</span></h2></div>
+
+      <p class="subh">名人交集 / 离奇 · encounters</p>
+      <div class="tbl-wrap"><table class="tbl">
+        <tr><th>事件</th><th>简述</th><th>可信度</th></tr>
+        <tr><td class="k">毕加索临齐</td><td>经张仃所赠《齐白石画册》，毕加索研习临摹；张大千访其居见满室仿作，毕氏盛赞齐为东方了不起的画家</td><td><span class="badge b-warn"><span class="d"></span>逸事/部分存疑</span></td></tr>
+        <tr><td class="k">"我不敢去中国"</td><td>流传"我不敢去中国，因为有齐白石"之语，带逸闻夸张色彩，难以坐实</td><td><span class="badge b-warn"><span class="d"></span>难坐实</span></td></tr>
+        <tr><td class="k">梅兰芳学画</td><td>京剧名伶梅兰芳拜齐学画工虫，二人交谊深，留有趣谈</td><td><span class="badge b-ok"><span class="d"></span>较可靠</span></td></tr>
+        <tr><td class="k">"白石贺介石"</td><td>1946 年为蒋介石六十寿作《松柏高立图》，名字成趣谈</td><td><span class="badge b-neu"><span class="d"></span>见画作页</span></td></tr>
+      </table></div>
+
+      <p class="subh">气节传奇 · integrity tale</p>
+      <div class="note-box seal" style="margin-bottom:18px">抗战北京沦陷期间，齐白石闭门谢客，门贴告白"画不卖与官家，窃恐不祥""中外长官要买白石之画者，用代表人可矣，不必亲驾到门"，甚至挂出"白石已死"以拒强索——成为其人格的传奇注脚。</div>
+
+      <p class="subh">未解之谜 · mysteries</p>
+      <div class="tbl-wrap"><table class="tbl">
+        <tr><th>谜团</th><th>各方说法</th><th>主流观点</th></tr>
+        <tr><td class="k">生年</td><td>1863 / 1864</td><td>实为农历→公历换算差异，通行 1864（见 §12）</td></tr>
+        <tr><td class="k">自加两岁</td><td>1936 游蜀后署款年龄+2</td><td>"瞒天过海"避厄，晚年款龄需 −2 校正</td></tr>
+        <tr><td class="k">山水十二条屏两套</td><td>1925 套 vs 1932 套孰高</td><td>学术分歧，见画作页争议</td></tr>
+        <tr><td class="k">代笔/行画</td><td>晚年多产是否有代笔/重复</td><td>有"行画"之议，整体真伪以鉴定为准</td></tr>
+      </table></div>
+    </section>
+
+    <!-- 09 语录库 -->
+    <section class="blk" id="s09">
+      <div class="sh"><span class="no">09</span><h2>语录库 <span class="en">quotations</span></h2></div>
+      <div class="quote"><p class="q">作画妙在似与不似之间，太似为媚俗，不似为欺世。</p><p class="m"><span>主题 · 画论总纲</span><span>来源：齐白石自述</span></p></div>
+      <div class="quote"><p class="q">不教一日闲过。</p><p class="m"><span>主题 · 勤勉自勉</span><span>来源：自书座右铭</span></p></div>
+      <div class="quote"><p class="q">我诗第一，印第二，字第三，画第四。</p><p class="m"><span>主题 · 自评排序</span><span>来源：齐白石自述（见 §12 争议）</span></p></div>
+      <div class="quote"><p class="q">扫除凡格总难能，十载关门始变更。</p><p class="m"><span>主题 · 衰年变法</span><span>来源：自题诗</span></p></div>
+      <div class="quote"><p class="q">学我者生，似我者死。</p><p class="m"><span>主题 · 教诲门人</span><span>对象：李可染等</span></p></div>
+      <div class="quote"><p class="q">君无我不进，我无君则退。</p><p class="m"><span>主题 · 忆陈师曾</span><span>语境：悼念知己</span></p></div>
+      <div class="quote"><p class="q">画不卖与官家，窃恐不祥。</p><p class="m"><span>主题 · 抗战气节</span><span>来源：沦陷期门贴</span></p></div>
+    </section>
+
+    <!-- 10 关键事件 -->
+    <section class="blk" id="s10">
+      <div class="sh"><span class="no">10</span><h2>关键事件索引 <span class="en">linked events</span></h2></div>
+      <div class="ixcards">
+        <a class="ixcard" data-go="event-1917"><span class="tag ev">事件 1917</span><div class="ti">法源寺识陈师曾</div><div class="meta">北京 · 转折点</div><div class="ds">陈师曾劝其自创风格，直接促成衰年变法。<span class="arrowg"> →</span></div></a>
+        <a class="ixcard" data-go="event-bianfa"><span class="tag ev">事件 约1919–28</span><div class="ti">衰年变法</div><div class="meta">十载关门 · 红花墨叶</div><div class="ds">确立"似与不似之间"，奠定标志风格。<span class="arrowg"> →</span></div></a>
+        <a class="ixcard" data-go="event-1922"><span class="tag ev">事件 1922</span><div class="ti">东京中日联合绘画展</div><div class="meta">东京 · 名价骤增</div><div class="ds">在京遇冷的画作在东瀛被抢购一空。<span class="arrowg"> →</span></div></a>
+        <a class="ixcard" data-go="event-honors"><span class="tag ev">事件 1953/55</span><div class="ti">人民艺术家 · 国际和平奖</div><div class="meta">国家荣誉</div><div class="ds">文化部授衔、当选美协主席、获国际和平奖。<span class="arrowg"> →</span></div></a>
+      </div>
+    </section>
+
+    <!-- 11 代表作 / 作品总表 -->
+    <section class="blk" id="s11">
+      <div class="sh"><span class="no">11</span><h2>代表作索引 <span class="en">linked artworks · 各为独立 wiki</span></h2></div>
+      <div class="ixcards">
+        <a class="ixcard" data-go="work-shanshui"><span class="tag wk">画作 1925</span><div class="ti">山水十二条屏</div><div class="meta">设色纸本 · 180×47cm×12</div><div class="ds">2017 保利 9.315 亿元，全球最贵中国艺术品。<span class="arrowg"> →</span></div></a>
+        <a class="ixcard" data-go="work-washeng"><span class="tag wk">画作 1951</span><div class="ti">蛙声十里出山泉</div><div class="meta">纸本水墨 · 老舍命题</div><div class="ds">画中无蛙、以蝌蚪写蛙声的意境名作。<span class="arrowg"> →</span></div></a>
+        <a class="ixcard" data-go="work-songbai"><span class="tag wk">画作 1946</span><div class="ti">松柏高立图·篆书四言联</div><div class="meta">266×100cm · 现存最大尺幅</div><div class="ds">2011 嘉德 4.255 亿元，前一代纪录。<span class="arrowg"> →</span></div></a>
+      </div>
+
+      <p class="subh" style="margin-top:26px">作品总表 · catalogue（节选，★=已建独立 wiki）</p>
+      <div class="tbl-wrap"><table class="tbl">
+        <tr><th>年份</th><th>作品</th><th>类型</th><th>现藏 / 备注</th></tr>
+        <tr><td class="yrcell">~1910s</td><td>借山图册</td><td>山水写生册</td><td>远游写生集成，北京画院藏</td></tr>
+        <tr><td class="yrcell">1925</td><td>★ <a data-go="work-shanshui">山水十二条屏</a></td><td>设色纸本·条屏</td><td>2017 保利 9.315 亿，私人</td></tr>
+        <tr><td class="yrcell">1946</td><td>★ <a data-go="work-songbai">松柏高立图·篆书四言联</a></td><td>设色纸本·巨幅</td><td>2011 嘉德 4.255 亿，私人</td></tr>
+        <tr><td class="yrcell">1951</td><td>★ <a data-go="work-washeng">蛙声十里出山泉</a></td><td>纸本水墨</td><td>中国现代文学馆</td></tr>
+        <tr><td class="yrcell">不一</td><td>墨虾（多本）</td><td>水墨</td><td>标志题材，多家机构藏</td></tr>
+        <tr><td class="yrcell">不一</td><td>不倒翁 / 草虫册</td><td>水墨设色</td><td>世情寓意与工虫代表</td></tr>
+      </table>
+      <div style="padding:8px 10px;border-top:1px solid var(--line-soft)"><span class="src">齐白石存世作品数千计，此处仅列代表性条目；完整编年总表为后续扩充项。</span></div></div>
+
+      <div class="note-box" style="margin-top:14px">标志题材 <b>虾（墨虾）</b>：齐白石毕生反复锤炼，由形似走向以淡墨浓墨写出虾体之透明与弹动，"似与不似"的范本，可另立作品系列实体。</div>
+    </section>
+
+    <!-- 12 争议字段 -->
+    <section class="blk" id="s12">
+      <div class="sh"><span class="no">12</span><h2>争议字段 <span class="en">contested · 多版本陈述</span></h2></div>
+      <p class="lead">同一字段挂载并存的多条陈述，各带来源与状态；权重决定默认显示，不删除其余。</p>
+
+      <div class="stmt-field">
+        <div class="stmt-q"><h3>诗书画印 自评排序</h3><span class="qk">field · self_ranking</span></div>
+        <div class="stmt adopt"><p class="val">自评：诗一、印二、字三、画四</p><p class="note">齐白石本人多次申明，重其文人诗心身份。北京画院等据其原话采录。</p><div class="meta"><span class="src">来源：齐白石自述 / 北京画院</span><span class="badge b-ok"><span class="d"></span>本人原话</span></div></div>
+        <div class="stmt disp"><p class="val">实应"画第一"，自评系自抬诗印</p><p class="note">陈子展当面不以为然，认为其画水平居首；范曾亦言"老实说，齐白石还是画第一"。属对自评的反驳。</p><div class="meta"><span class="src">来源：陈子展、范曾等</span><span class="badge b-warn"><span class="d"></span>有争议</span></div></div>
+      </div>
+
+      <div class="stmt-field">
+        <div class="stmt-q"><h3>生年</h3><span class="qk">field · birth_year</span></div>
+        <div class="stmt adopt"><p class="val">1864 年（公历元旦）</p><p class="note">对应农历癸亥年十一月廿二。北京画院等通行采用公历 1864-01-01。</p><div class="meta"><span class="src">来源：北京画院 · 通行</span><span class="badge b-ok"><span class="d"></span>官方采纳</span></div></div>
+        <div class="stmt disp"><p class="val">1863 年</p><p class="note">部分资料按农历纪年或"清同治二年"记为 1863；与公历换算所致，并非真有两个生日。</p><div class="meta"><span class="src">来源：部分传记 / 农历纪年</span><span class="badge b-warn"><span class="d"></span>有争议（换算差异）</span></div></div>
+      </div>
+      <div class="stmt-field">
+        <div class="stmt-q"><h3>署款年龄 / 享年</h3><span class="qk">field · stated_age</span></div>
+        <div class="stmt adopt"><p class="val">实际享年约 93 岁（1864→1957）</p><p class="note">按公历生卒计。1936 年游蜀后"自加两岁"（瞒天过海），故其晚年画作署款年龄普遍比实际大 2 岁。</p><div class="meta"><span class="src">来源：年表 + 自述</span><span class="badge b-ok"><span class="d"></span>已验证</span></div></div>
+        <div class="stmt disp"><p class="val">自称 / 署款偏大；亦见"享年 94/95"等</p><p class="note">受自加两岁影响，画上落款与部分流传说法年龄偏大，需按 −2 校正。</p><div class="meta"><span class="src">来源：画作署款 / 各家记载</span><span class="badge b-warn"><span class="d"></span>有争议（需换算）</span></div></div>
+      </div>
+    </section>
+
+    <footer>实体 ARTIST:qi-baishi　|　维度体例：MD 七维（基础档案 / 人生轨迹 / 人物关系 / 创作体系 / 历史坐标 / 世俗生活 / 八卦传奇）+ 语录库　|　主要来源：北京画院、中国美术馆、《白石老人自述》、郎绍君研究、保利/嘉德拍卖记录、张仃/张大千所记毕加索逸事　|　内容截至 2026-06</footer>
+  </div>
+
+  <!-- ============ 事件：识陈师曾 ============ -->
+  <div class="view t-event" id="event-1917">
+    <a class="backlink" data-go="artist-qbs">← 返回 画家 · 齐白石</a>
+    <div class="ehead">
+      <span class="etype t-event"><span class="seal">事</span>事件 · EVENT:1917-meet-chen</span>
+      <h1>法源寺识陈师曾</h1>
+      <div class="subline"><span>时间 <b>1917 年夏</b></span><span>地点 <b>北京 · 法源寺</b></span><span>类型 <b>转折点</b></span></div>
+    </div>
+    <section class="blk">
+      <div class="sh"><span class="no">01</span><h2>事件经过 <span class="en">summary</span></h2></div>
+      <p>齐白石为避家乡兵匪之乱赴京，寓居法源寺，靠卖画刻印维生而画风遇冷。陈师曾在琉璃厂南纸店见到其篆刻，深为赏识，专程造访结交，赞其画"思想新奇""不拘前人绳墨，富有个性"，并劝其自创风格、不必媚俗。逆境中的齐白石深受鼓舞，二人遂成莫逆。</p>
+      <div class="note-box" style="margin-top:14px">齐白石后评二人交谊：<b>"君无我不进，我无君则退。"</b> 陈师曾 1923 年病逝（年 48），齐白石痛悼"我如没有师曾的提携，画名不会有今天"。</div>
+    </section>
+    <section class="blk">
+      <div class="sh"><span class="no">02</span><h2>字段 <span class="en">fields</span></h2></div>
+      <div class="field"><div class="fkey">关联画家<span class="en">artist</span></div><div class="fval"><a data-go="artist-qbs">齐白石</a></div></div>
+      <div class="field"><div class="fkey">关键人物<span class="en">person</span></div><div class="fval">陈师曾（陈衡恪，1876–1923）<span class="sub"> · 陈寅恪之兄</span></div></div>
+      <div class="field"><div class="fkey">直接影响<span class="en">leads to</span></div><div class="fval"><a data-go="event-bianfa">衰年变法</a>、<a data-go="event-1922">1922 东京展</a></div></div>
+    </section>
+    <section class="blk">
+      <div class="sh"><span class="no">03</span><h2>争议字段 <span class="en">contested</span></h2></div>
+      <div class="stmt-field">
+        <div class="stmt-q"><h3>是否"偶遇"</h3><span class="qk">field · how_they_met</span></div>
+        <div class="stmt adopt"><p class="val">陈师曾慕名造访，结为知己</p><p class="note">据《白石老人自述》，二人在京相识、意气相投。</p><div class="meta"><span class="src">来源：白石老人自述（一手）</span><span class="badge b-ok"><span class="d"></span>已验证</span></div></div>
+        <div class="stmt pend"><p class="val">背后有湘籍士绅人脉铺垫，非纯属偶然</p><p class="note">近年研究指出齐白石与王闿运门下、湖南士绅圈的渊源，使"偶遇"带有必然性。属补充性解读。</p><div class="meta"><span class="src">来源：近年专题研究</span><span class="badge b-neu"><span class="d"></span>待校验 / 补充</span></div></div>
+      </div>
+    </section>
+    <footer>实体 EVENT:1917-meet-chen　|　来源：《白石老人自述》、北京画院、相关研究</footer>
+  </div>
+
+  <!-- ============ 事件：衰年变法 ============ -->
+  <div class="view t-event" id="event-bianfa">
+    <a class="backlink" data-go="artist-qbs">← 返回 画家 · 齐白石</a>
+    <div class="ehead">
+      <span class="etype t-event"><span class="seal">事</span>事件 · EVENT:shuainian-bianfa</span>
+      <h1>衰年变法</h1>
+      <div class="subline"><span>时间 <b>约 1919–1928</b></span><span>"十载关门"</span><span>成果 <b>红花墨叶</b></span></div>
+    </div>
+    <section class="blk">
+      <div class="sh"><span class="no">01</span><h2>事件经过 <span class="en">summary</span></h2></div>
+      <p>年逾五旬的齐白石在北京画坛遇冷——他追步八大山人的冷逸画风不受市场青睐，而吴昌硕一派带金石趣味的大写意花鸟正盛行。受陈师曾劝导与吴昌硕影响，他决意"大变"，"画吾自画"而"不求同群"，闭门苦修约十年，自创"红花墨叶"一派：纯红与浓墨并置、对比强烈，确立"作画妙在似与不似之间"的画论。变法奠定了其标志面貌与画坛地位，被视为 20 世纪中国画理论与实践结合的范例。</p>
+      <div class="note-box" style="margin-top:14px">齐白石自述变法之志：<b>"扫除凡格总难能，十载关门始变更。"</b></div>
+    </section>
+    <section class="blk">
+      <div class="sh"><span class="no">02</span><h2>字段 <span class="en">fields</span></h2></div>
+      <div class="field"><div class="fkey">关联画家<span class="en">artist</span></div><div class="fval"><a data-go="artist-qbs">齐白石</a></div></div>
+      <div class="field"><div class="fkey">推动者<span class="en">catalysts</span></div><div class="fval">陈师曾（劝导）；吴昌硕（取法对象）</div></div>
+      <div class="field"><div class="fkey">取法<span class="en">drawn from</span></div><div class="fval">徐渭、石涛、金农、黄瘿瓢；放下临摹近 20 年的八大山人</div></div>
+      <div class="field"><div class="fkey">代表成果<span class="en">key work</span></div><div class="fval"><a data-go="work-shanshui">《山水十二条屏》</a>（1925，变法期）</div></div>
+    </section>
+    <section class="blk">
+      <div class="sh"><span class="no">03</span><h2>争议字段 <span class="en">contested</span></h2></div>
+      <div class="stmt-field">
+        <div class="stmt-q"><h3>起始年份</h3><span class="qk">field · start_year</span></div>
+        <div class="stmt adopt"><p class="val">约 1919 年（定居北京后）</p><p class="note">多数年表以正式定居北京、转入大写意为起点。</p><div class="meta"><span class="src">来源：通行年表</span><span class="badge b-ok"><span class="d"></span>已验证</span></div></div>
+        <div class="stmt disp"><p class="val">1917 年 / 54–55 岁起</p><p class="note">亦有以 1917 初到北京、或以"五十四岁后"计起者；"十载"为概称，画风系渐变。</p><div class="meta"><span class="src">来源：多家论述</span><span class="badge b-warn"><span class="d"></span>有争议（口径不同）</span></div></div>
+      </div>
+    </section>
+    <footer>实体 EVENT:shuainian-bianfa　|　来源：北京画院、白石老人自述、郎绍君研究</footer>
+  </div>
+
+  <!-- ============ 事件：东京展 ============ -->
+  <div class="view t-event" id="event-1922">
+    <a class="backlink" data-go="artist-qbs">← 返回 画家 · 齐白石</a>
+    <div class="ehead">
+      <span class="etype t-event"><span class="seal">事</span>事件 · EVENT:1922-tokyo</span>
+      <h1>东京中日联合绘画展</h1>
+      <div class="subline"><span>时间 <b>1922 年</b></span><span>地点 <b>东京府厅工艺馆</b></span><span>类型 <b>市场转折</b></span></div>
+    </div>
+    <section class="blk">
+      <div class="sh"><span class="no">01</span><h2>事件经过 <span class="en">summary</span></h2></div>
+      <p>陈师曾应日本画家荒木十亩、渡边晨亩之邀赴日，携齐白石数件作品参加中日联合绘画展览会。在北京备受冷落的画作在东京被高价抢购一空，并有作品入选转往巴黎的展览。齐白石自述此后"卖画生涯一天比一天兴盛起来"，画名与画价由此骤增——这是他由地方画家走向全国乃至国际声誉、并完成市场化的关键节点。</p>
+    </section>
+    <section class="blk">
+      <div class="sh"><span class="no">02</span><h2>字段 <span class="en">fields</span></h2></div>
+      <div class="field"><div class="fkey">关联画家<span class="en">artist</span></div><div class="fval"><a data-go="artist-qbs">齐白石</a></div></div>
+      <div class="field"><div class="fkey">关键人物<span class="en">person</span></div><div class="fval">陈师曾（携画赴日、推介）</div></div>
+      <div class="field"><div class="fkey">承接事件<span class="en">follows</span></div><div class="fval"><a data-go="event-1917">识陈师曾</a> → <a data-go="event-bianfa">衰年变法</a></div></div>
+      <div class="field"><div class="fkey">影响<span class="en">impact</span></div><div class="fval">画价大涨、声名鹊起；市场化、国际化转折　<span class="badge b-ok"><span class="d"></span>已验证</span></div></div>
+    </section>
+    <footer>实体 EVENT:1922-tokyo　|　来源：白石老人自述、北京画院</footer>
+  </div>
+
+  <!-- ============ 事件：荣誉 ============ -->
+  <div class="view t-event" id="event-honors">
+    <a class="backlink" data-go="artist-qbs">← 返回 画家 · 齐白石</a>
+    <div class="ehead">
+      <span class="etype t-event"><span class="seal">事</span>事件 · EVENT:honors-1953-1955</span>
+      <h1>人民艺术家 · 国际和平奖</h1>
+      <div class="subline"><span>时间 <b>1953 / 1955</b></span><span>类型 <b>国家与国际荣誉</b></span></div>
+    </div>
+    <section class="blk">
+      <div class="sh"><span class="no">01</span><h2>事件经过 <span class="en">summary</span></h2></div>
+      <p>新中国成立后，齐白石获得一系列推崇：1953 年由文化部授予"人民艺术家"荣誉称号，并当选中国美术家协会首任主席；其作品风格雅俗共赏，对在国内外推广中国画贡献甚大。1955 年度，他获世界和平理事会颁发的国际和平奖（1956 年颁授）。1957 年北京中国画院（今北京画院）成立，公推其为首任名誉院长；同年 9 月 16 日病逝。</p>
+    </section>
+    <section class="blk">
+      <div class="sh"><span class="no">02</span><h2>字段 <span class="en">fields</span></h2></div>
+      <div class="field"><div class="fkey">关联画家<span class="en">artist</span></div><div class="fval"><a data-go="artist-qbs">齐白石</a></div></div>
+      <div class="field"><div class="fkey">授予机构<span class="en">bodies</span></div><div class="fval">文化部 · 中国美术家协会 · 世界和平理事会 · 北京画院</div></div>
+      <div class="field"><div class="fkey">荣誉清单<span class="en">honors</span></div><div class="fval">人民艺术家（1953）· 德意志民主共和国艺术科学院通讯院士（1955）· 国际和平奖（1955 年度/1956 颁，奖证鸽子为毕加索所绘）· 北京中国画院名誉院长（1957）· 世界文化名人（1963 追誉）</div></div>
+    </section>
+    <section class="blk">
+      <div class="sh"><span class="no">03</span><h2>争议字段 <span class="en">contested</span></h2></div>
+      <div class="stmt-field">
+        <div class="stmt-q"><h3>国际和平奖年份</h3><span class="qk">field · peace_prize_year</span></div>
+        <div class="stmt adopt"><p class="val">1955 年度授予，1956 年颁授</p><p class="note">奖项归属年份与颁授年份不同，故来源中 1955 / 1956 并见，实为同一事。</p><div class="meta"><span class="src">来源：多家记载</span><span class="badge b-ok"><span class="d"></span>已澄清</span></div></div>
+      </div>
+    </section>
+    <footer>实体 EVENT:honors-1953-1955　|　来源：北京画院、中国美协、媒体记载</footer>
+  </div>
+
+  <!-- ============ 画作：山水十二条屏 ============ -->
+  <div class="view t-work" id="work-shanshui">
+    <a class="backlink" data-go="artist-qbs">← 返回 画家 · 齐白石</a>
+    <div class="ehead">
+      <span class="etype t-work"><span class="seal">作</span>画作 · WORK:shanshui-12</span>
+      <h1>山水十二条屏</h1>
+      <div class="subline"><span>作者 <a data-go="artist-qbs"><b>齐白石</b></a></span><span><b>1925</b></span><span>设色纸本 · 立轴</span><span>180×47cm ×12</span></div>
+    </div>
+
+    <section class="blk">
+      <div class="sh"><span class="no">01</span><h2>基础信息 <span class="en">identity</span></h2></div>
+      <div class="field"><div class="fkey">实体 ID<span class="en">entity id</span></div><div class="fval"><span class="src">WORK:shanshui-12</span></div></div>
+      <div class="field"><div class="fkey">名称<span class="en">title</span></div><div class="fval">山水十二条屏<span class="sub"> · 亦称《山水十二屏》</span></div></div>
+      <div class="field"><div class="fkey">类型 / 媒材<span class="en">type</span></div><div class="fval">中国画 · 设色纸本 · 十二条屏（立轴）</div></div>
+      <div class="field"><div class="fkey">尺寸<span class="en">size</span></div><div class="fval">每屏纵 180cm × 横 47cm，共 12 屏</div></div>
+      <div class="field"><div class="fkey">系列归属<span class="en">series</span></div><div class="fval">齐白石山水"十二条屏"题材；存世两套之一（见 §06 争议）</div></div>
+      <div class="field"><div class="fkey">作者<span class="en">artist</span></div><div class="fval"><a data-go="artist-qbs">齐白石</a>　<span class="badge b-ok"><span class="d"></span>真迹</span></div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">02</span><h2>创作背景 <span class="en">background</span></h2></div>
+      <div class="field"><div class="fkey">创作情境<span class="en">context</span></div><div class="fval">作于 1925 年，正值<a data-go="event-bianfa">衰年变法</a>期（约变法第四年）；齐白石定居北京、画名渐起，山水正脱"四王"程式转向写真山真水。</div></div>
+      <div class="field"><div class="fkey">缘起 / 委托<span class="en">commission</span></div><div class="fval">为北平名医陈子林祝寿所作<span class="sub"> · 第十二屏《板塘荷香》题"子林仁兄"</span></div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">03</span><h2>画面分析 <span class="en">visual analysis</span></h2></div>
+      <p class="lead">十二屏各为独立山水，每屏自题诗、钤印，"诗书画印"四绝俱全：</p>
+      <div class="screens">
+        <div>江上人家<span>屏 1</span></div><div>石岩双影<span>屏 2</span></div><div>板桥孤帆<span>屏 3</span></div>
+        <div>柏树森森<span>屏 4</span></div><div>远岸余霞<span>屏 5</span></div><div>松树白屋<span>屏 6</span></div>
+        <div>杏花草堂<span>屏 7</span></div><div>杉树楼台<span>屏 8</span></div><div>烟深帆影<span>屏 9</span></div>
+        <div>山中春雨<span>屏 10</span></div><div>红树白泉<span>屏 11</span></div><div>板塘荷香<span>屏 12</span></div>
+      </div>
+      <div class="field" style="margin-top:16px"><div class="fkey">构图<span class="en">composition</span></div><div class="fval">脱离"四王"层叠程式，多取平远、简净布局，大胆留白；十二屏并置时气象恢弘而各屏独立成境。</div></div>
+      <div class="field"><div class="fkey">色彩与笔墨<span class="en">color & ink</span></div><div class="fval">勾勒与泼墨相融，间施鲜艳着色（如红树、余霞），明快而不失文人韵致。</div></div>
+      <div class="field"><div class="fkey">文本元素<span class="en">text</span></div><div class="fval">每屏自题诗并钤印，画、诗、书、印互为表里。</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">04</span><h2>技法与创新 <span class="en">technique</span></h2></div>
+      <div class="field"><div class="fkey">画法<span class="en">method</span></div><div class="fval">写真山真水，融远游印象、写生经验与前人模式于一炉；以简笔写意取代繁复皴擦。</div></div>
+      <div class="field"><div class="fkey">学术评价<span class="en">appraisal</span></div><div class="fval">郎绍君认为此组熔远游印象、写生、前人模式与北京创作经验于一炉，<span class="sub">标志齐白石山水画的成熟</span></div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">05</span><h2>来源与流转 <span class="en">provenance</span></h2></div>
+      <div class="field"><div class="fkey">递藏<span class="en">chain</span></div><div class="fval">陈子林 → 黄琪翔、郭秀仪夫妇（郭为齐白石入室女弟子）珍藏约半世纪 → 2017 上拍</div></div>
+      <div class="field"><div class="fkey">著录展览<span class="en">records</span></div><div class="fval">流传有序，著录 20 余次；1954 年首次公开展出，1958 年遗作展全数展出</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">06</span><h2>评价与影响 / 市场 <span class="en">market & impact</span></h2></div>
+      <div class="field"><div class="fkey">成交<span class="en">sale</span></div><div class="fval"><b>9.315 亿元人民币</b>（约 1.41 亿美元）　<span class="badge b-ok"><span class="d"></span>已验证</span></div></div>
+      <div class="field"><div class="fkey">场次<span class="en">auction</span></div><div class="fval">2017-12-17 北京保利秋拍<span class="sub"> · 4.5 亿起拍，8.1 亿落槌，加 15% 佣金</span></div></div>
+      <div class="field"><div class="fkey">纪录意义<span class="en">significance</span></div><div class="fval">全球最贵中国艺术品；首件成交破 1 亿美元的中国艺术品；齐白石个人纪录</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">07</span><h2>观看指南 <span class="en">viewing guide</span></h2></div>
+      <div class="field"><div class="fkey">第一眼<span class="en">first look</span></div><div class="fval">十二条并置的恢弘气象，简净而见格局。</div></div>
+      <div class="field"><div class="fkey">常见误解<span class="en">misread</span></div><div class="fval">误以为是一幅连续长卷——实为十二屏各自独立成境，可分可合。</div></div>
+      <div class="field"><div class="fkey">值得注意<span class="en">look closer</span></div><div class="fval">每屏的自题诗与钤印；以及简笔如何"写真山"而非套用古人皴法。</div></div>
+      <div class="field"><div class="fkey">最佳观看<span class="en">best viewing</span></div><div class="fval">十二条同列时方见整体气象，单看一屏会失其阵势。</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">08</span><h2>争议字段 <span class="en">contested</span></h2></div>
+      <div class="stmt-field">
+        <div class="stmt-q"><h3>存世两套，孰为最高成就</h3><span class="qk">field · best_set</span></div>
+        <div class="stmt adopt"><p class="val">1925 这套（保利拍出）：民间唯一一套、盛年集大成</p><p class="note">为民间收藏唯一一套，递藏与著录清晰。</p><div class="meta"><span class="src">来源：保利 / 孙炜等</span><span class="badge b-ok"><span class="d"></span>已验证（存世两套）</span></div></div>
+        <div class="stmt disp"><p class="val">1932 这套（重庆三峡博物馆）技法更成熟</p><p class="note">林木、程武彦等认为为川军王缵绪所作的 1932 套属变法后更成熟之作，艺术价值更高。属学术分歧。</p><div class="meta"><span class="src">来源：林木 / 程武彦</span><span class="badge b-warn"><span class="d"></span>有争议（学术分歧）</span></div></div>
+      </div>
+    </section>
+    <footer>实体 WORK:shanshui-12　|　作者 <a data-go="artist-qbs">齐白石</a>　|　来源：北京保利、中新网、郎绍君研究</footer>
+  </div>
+
+  <!-- ============ 画作：蛙声十里出山泉 ============ -->
+  <div class="view t-work" id="work-washeng">
+    <a class="backlink" data-go="artist-qbs">← 返回 画家 · 齐白石</a>
+    <div class="ehead">
+      <span class="etype t-work"><span class="seal">作</span>画作 · WORK:washeng-10li</span>
+      <h1>蛙声十里出山泉</h1>
+      <div class="subline"><span>作者 <a data-go="artist-qbs"><b>齐白石</b></a></span><span><b>1951</b></span><span>纸本水墨设色 · 立轴</span></div>
+    </div>
+
+    <section class="blk">
+      <div class="sh"><span class="no">01</span><h2>基础信息 <span class="en">identity</span></h2></div>
+      <div class="field"><div class="fkey">实体 ID<span class="en">entity id</span></div><div class="fval"><span class="src">WORK:washeng-10li</span></div></div>
+      <div class="field"><div class="fkey">类型 / 媒材<span class="en">type</span></div><div class="fval">中国画 · 纸本水墨设色 · 立轴</div></div>
+      <div class="field"><div class="fkey">署款<span class="en">inscription</span></div><div class="fval">题"蛙声十里出山泉 · 查初白句 · 老舍仁兄教画"，款"九十一白石"</div></div>
+      <div class="field"><div class="fkey">作者<span class="en">artist</span></div><div class="fval"><a data-go="artist-qbs">齐白石</a>　<span class="badge b-ok"><span class="d"></span>真迹</span></div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">02</span><h2>创作背景 <span class="en">background</span></h2></div>
+      <div class="field"><div class="fkey">命题<span class="en">commission</span></div><div class="fval">老舍命题求画，取清·查慎行（查初白）《次实君溪边步月韵》诗句"蛙声十里出山泉"</div></div>
+      <div class="field"><div class="fkey">合作关系<span class="en">collab</span></div><div class="fval">2011 年北京画院披露老舍原信，证实老舍主动给出构思（只画蝌蚪、不画蛙），实为"出题—作画"的接力创作</div></div>
+      <div class="field"><div class="fkey">创作情境<span class="en">context</span></div><div class="fval">作于 1951 年，齐白石晚年（署"九十一"，实际约 87 岁）；时与老舍交谊深厚。</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">03</span><h2>画面分析 <span class="en">visual analysis</span></h2></div>
+      <p>远山以石青点出，山涧乱石以浓墨写就，一道急流自上而下泻出，水中六只蝌蚪摇尾顺流。<b>画中并无青蛙</b>——以蝌蚪引人联想画外蛙鸣，天与水大片留白。此即"无蛙而蛙声可想"的通感构思，被视为"诗中有画、画中有诗"的意境典范。</p>
+      <div class="field" style="margin-top:14px"><div class="fkey">构图与留白<span class="en">composition</span></div><div class="fval">竖式纵深，水流贯通上下；大片留白即"声音"与"十里"的空间。</div></div>
+      <div class="field"><div class="fkey">符号与隐喻<span class="en">symbol</span></div><div class="fval">蝌蚪→蛙的时间联想 + 听觉通感；以"看得见的蝌蚪"唤起"听得见的蛙声"。</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">04</span><h2>技法与创新 <span class="en">technique</span></h2></div>
+      <div class="field"><div class="fkey">手法<span class="en">method</span></div><div class="fval">浓墨写乱石、淡墨写急流、石青点远山、焦墨点蝌蚪；以极简物象调度通感，是文人意境与写意笔墨的高度结合。</div></div>
+      <div class="field"><div class="fkey">创新<span class="en">innovation</span></div><div class="fval">"画声音"——以视觉缺位（无蛙）实现听觉在场，命题画里少见的通感巧思。</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">05</span><h2>来源与流转 <span class="en">provenance</span></h2></div>
+      <div class="field"><div class="fkey">递藏<span class="en">chain</span></div><div class="fval">齐白石赠老舍 → 2013 年由老舍之子舒乙代表家属捐献国家</div></div>
+      <div class="field"><div class="fkey">现藏<span class="en">collection</span></div><div class="fval">中国现代文学馆　<span class="badge b-ok"><span class="d"></span>官方采纳</span></div></div>
+      <div class="field"><div class="fkey">市场<span class="en">market</span></div><div class="fval">非卖品（捐赠国家），无拍卖记录</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">06</span><h2>评价与影响 <span class="en">impact</span></h2></div>
+      <div class="field"><div class="fkey">衍生<span class="en">legacy</span></div><div class="fval">1960 年上海美术电影制片厂据此拍摄《小蝌蚪找妈妈》；1980 年入选纪念邮票，成为家喻户晓的意境名作。</div></div>
+      <div class="field"><div class="fkey">为什么重要<span class="en">why important</span></div><div class="fval">"诗中有画、画中有诗"的范本，也是名家"出题—作画"接力创作的经典个案。</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">07</span><h2>观看指南 <span class="en">viewing guide</span></h2></div>
+      <div class="field"><div class="fkey">第一眼<span class="en">first look</span></div><div class="fval">简净的山涧急流，几只蝌蚪顺流而下。</div></div>
+      <div class="field"><div class="fkey">常见误解<span class="en">misread</span></div><div class="fval">在画里"找青蛙"——画中根本没有蛙，蛙声在画外、在想象里。</div></div>
+      <div class="field"><div class="fkey">值得注意<span class="en">look closer</span></div><div class="fval">大片留白不是"没画"，而是"声音"与"十里"的空间；蝌蚪的方向暗示水流与时间。</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">08</span><h2>争议字段 <span class="en">contested</span></h2></div>
+      <div class="stmt-field">
+        <div class="stmt-q"><h3>尺寸</h3><span class="qk">field · dimensions</span></div>
+        <div class="stmt adopt"><p class="val">约 129 × 34 cm</p><p class="note">多数著录记纵约 129cm。</p><div class="meta"><span class="src">来源：多家著录</span><span class="badge b-ok"><span class="d"></span>已验证</span></div></div>
+        <div class="stmt disp"><p class="val">129 × 33 cm</p><p class="note">横向尺寸 33/34cm 各处记载略有出入。</p><div class="meta"><span class="src">来源：部分资料</span><span class="badge b-warn"><span class="d"></span>有争议（著录差异）</span></div></div>
+      </div>
+      <div class="stmt-field">
+        <div class="stmt-q"><h3>署款"九十一"与实际年龄</h3><span class="qk">field · stated_age</span></div>
+        <div class="stmt adopt"><p class="val">署"九十一白石"，实际约 87 岁</p><p class="note">受齐白石"自加两岁"影响，画上年龄需 −2 校正。<a data-go="artist-qbs">见画家争议字段</a>。</p><div class="meta"><span class="src">来源：年表交叉</span><span class="badge b-ok"><span class="d"></span>已澄清</span></div></div>
+      </div>
+    </section>
+    <footer>实体 WORK:washeng-10li　|　作者 <a data-go="artist-qbs">齐白石</a>　|　来源：中国现代文学馆、北京画院、舒乙文、百度百科</footer>
+  </div>
+
+  <!-- ============ 画作：松柏高立图 ============ -->
+  <div class="view t-work" id="work-songbai">
+    <a class="backlink" data-go="artist-qbs">← 返回 画家 · 齐白石</a>
+    <div class="ehead">
+      <span class="etype t-work"><span class="seal">作</span>画作 · WORK:songbai-gaoli</span>
+      <h1>松柏高立图·篆书四言联</h1>
+      <div class="subline"><span>作者 <a data-go="artist-qbs"><b>齐白石</b></a></span><span><b>1946</b></span><span>设色纸本 · 立轴 + 篆书对联</span></div>
+    </div>
+
+    <section class="blk">
+      <div class="sh"><span class="no">01</span><h2>基础信息 <span class="en">identity</span></h2></div>
+      <div class="field"><div class="fkey">实体 ID<span class="en">entity id</span></div><div class="fval"><span class="src">WORK:songbai-gaoli</span></div></div>
+      <div class="field"><div class="fkey">构成<span class="en">composition</span></div><div class="fval">画《松柏高立图》+ 篆书四言对联"人生长寿，天下太平"（书画合璧）</div></div>
+      <div class="field"><div class="fkey">尺寸<span class="en">size</span></div><div class="fval">画 纵 266 × 横 100cm；对联 各 264.5 × 65.8cm<span class="sub"> · 现存齐白石最大尺幅作品</span></div></div>
+      <div class="field"><div class="fkey">署款<span class="en">inscription</span></div><div class="fval">款"八十六岁齐璜"；另有自题七言一首（松鹰主题）</div></div>
+      <div class="field"><div class="fkey">作者<span class="en">artist</span></div><div class="fval"><a data-go="artist-qbs">齐白石</a>　<span class="badge b-ok"><span class="d"></span>真迹</span></div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">02</span><h2>创作背景 <span class="en">background</span></h2></div>
+      <div class="field"><div class="fkey">缘起<span class="en">commission</span></div><div class="fval">作于抗战胜利后，为蒋介石（蒋中正）六十寿庆所作<span class="sub"> · "白石贺介石"成趣谈</span></div></div>
+      <div class="field"><div class="fkey">创作情境<span class="en">context</span></div><div class="fval">齐白石晚年（署"八十六岁"）巨幅之作；抗战甫胜，借松柏、雄鹰寄"长寿太平"之祝。</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">03</span><h2>画面分析 <span class="en">visual analysis</span></h2></div>
+      <p>画面一松一柏交错，苍鹰昂首傲立于松枝。鹰以浓墨焦墨阔笔点出主羽尾羽、焦墨勾喙点睛，目光如炬；松以淡墨、柏以浓墨，姿态虬曲。"鹰"谐"英"、寓英雄，"松柏"喻长寿——合为"松柏围英（鹰）"之意。以篆书笔法写松柏，金石气与写实之神并见。</p>
+      <div class="field" style="margin-top:14px"><div class="fkey">符号与隐喻<span class="en">symbol</span></div><div class="fval">鹰=英（雄）；松柏=长寿；配联"人生长寿，天下太平"——祝寿与时局祈愿双关。</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">04</span><h2>技法与创新 <span class="en">technique</span></h2></div>
+      <div class="field"><div class="fkey">用笔<span class="en">brush</span></div><div class="fval">焦墨阔笔写鹰之主羽尾羽、焦墨勾喙点睛；以篆书笔法写松柏枝干，金石线条入画。</div></div>
+      <div class="field"><div class="fkey">书画合璧<span class="en">painting + couplet</span></div><div class="fval">巨幅画作配篆书四言联，画、书、印一体呈现，是其"四绝"在大尺幅上的总展。</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">05</span><h2>来源与流转 <span class="en">provenance</span></h2></div>
+      <div class="field"><div class="fkey">递藏<span class="en">chain</span></div><div class="fval">2005 年由美国旧金山私人释出回流；画与联曾分置，藏家刘益谦先购画、后配联合璧 → 2011 上拍</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">06</span><h2>评价与影响 / 市场 <span class="en">market & impact</span></h2></div>
+      <div class="field"><div class="fkey">成交<span class="en">sale</span></div><div class="fval"><b>4.255 亿元人民币</b>　<span class="badge b-ok"><span class="d"></span>已验证</span></div></div>
+      <div class="field"><div class="fkey">场次<span class="en">auction</span></div><div class="fval">2011-05-22 中国嘉德春拍"大观——中国书画珍品之夜"<span class="sub"> · 8800 万起拍，3.7 亿落槌，加 15% 佣金</span></div></div>
+      <div class="field"><div class="fkey">纪录意义<span class="en">significance</span></div><div class="fval">当时创齐白石个人及中国近现代书画拍卖纪录，后被 <a data-go="work-shanshui">《山水十二条屏》</a>（2017）超越</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">07</span><h2>观看指南 <span class="en">viewing guide</span></h2></div>
+      <div class="field"><div class="fkey">第一眼<span class="en">first look</span></div><div class="fval">巨幅之上，雄鹰高立松柏，气势逼人。</div></div>
+      <div class="field"><div class="fkey">常见误解<span class="en">misread</span></div><div class="fval">当成单纯的吉祥祝寿画——它实有"鹰=英、贺寿庆"的政治语境（蒋介石六十寿）。</div></div>
+      <div class="field"><div class="fkey">值得注意<span class="en">look closer</span></div><div class="fval">松柏枝干的篆籀笔法、鹰目的焦墨点睛；画与联合璧才是完整作品。</div></div>
+    </section>
+
+    <section class="blk">
+      <div class="sh"><span class="no">08</span><h2>争议字段 <span class="en">contested</span></h2></div>
+      <div class="stmt-field">
+        <div class="stmt-q"><h3>创作年份</h3><span class="qk">field · year</span></div>
+        <div class="stmt adopt"><p class="val">1946 年</p><p class="note">题款署"八十六岁齐璜"，多数记为 1946（抗战胜利后）。</p><div class="meta"><span class="src">来源：维基 / 嘉德 / 题款</span><span class="badge b-ok"><span class="d"></span>已验证</span></div></div>
+        <div class="stmt disp"><p class="val">1945 年</p><p class="note">部分资料以"抗战胜利之 1945"记年，与署款换算存在一年出入。</p><div class="meta"><span class="src">来源：部分报道</span><span class="badge b-warn"><span class="d"></span>有争议</span></div></div>
+      </div>
+    </section>
+    <footer>实体 WORK:songbai-gaoli　|　作者 <a data-go="artist-qbs">齐白石</a>　|　来源：中国嘉德、维基百科、艺术媒体</footer>
+  </div>
+
+  </main>
+</div>
+
+<script>
+(function(){
+  var views = document.querySelectorAll('.view');
+  var ixs = document.querySelectorAll('aside .ix');
+  var crumb = document.getElementById('crumb');
+  var sidebar = document.getElementById('sidebar');
+  var menuBtn = document.getElementById('menuBtn');
+
+  var labels = {
+    'artist-qbs':['画家','齐白石'],
+    'event-1917':['事件','法源寺识陈师曾'],
+    'event-bianfa':['事件','衰年变法'],
+    'event-1922':['事件','东京中日联合绘画展'],
+    'event-honors':['事件','人民艺术家 · 国际和平奖'],
+    'work-shanshui':['画作','山水十二条屏'],
+    'work-washeng':['画作','蛙声十里出山泉'],
+    'work-songbai':['画作','松柏高立图·篆书四言联']
+  };
+
+  function show(id){
+    if(!labels[id]) id = 'artist-qbs';
+    views.forEach(function(v){ v.classList.toggle('active', v.id===id); });
+    ixs.forEach(function(a){ a.classList.toggle('active', a.getAttribute('data-go')===id); });
+    var L = labels[id];
+    crumb.innerHTML = '知识库 › '+L[0]+' · <b>'+L[1]+'</b>';
+    if(sidebar) sidebar.classList.remove('open');
+    window.scrollTo({top:0,behavior:'auto'});
+    if(location.hash !== '#'+id){ history.replaceState(null,'','#'+id); }
+  }
+
+  document.addEventListener('click', function(e){
+    var jump = e.target.closest('[data-jump]');
+    if(jump){ e.preventDefault(); var el=document.getElementById(jump.getAttribute('data-jump'));
+      if(el){ el.scrollIntoView({behavior:'smooth',block:'start'}); } return; }
+    var t = e.target.closest('[data-go]');
+    if(t){ e.preventDefault(); show(t.getAttribute('data-go')); }
+  });
+  if(menuBtn){ menuBtn.addEventListener('click', function(){ sidebar.classList.toggle('open'); }); }
+  window.addEventListener('hashchange', function(){ show(location.hash.replace('#','')); });
+
+  show(location.hash ? location.hash.replace('#','') : 'artist-qbs');
+})();
+</script>
+</body>
+</html>
