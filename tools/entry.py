@@ -158,6 +158,17 @@ def _resync_meta_and_eras(h, by_cat, changes):
     return h2
 
 
+def _resync_event_count(h, changes):
+    """首页编纂方针里的事件条目数，由实际事件 view 数推导。"""
+    n = len(re.findall(r'<div class="view t-event" id="', h))
+    new, k = re.subn(r'(<b class="ct-events">)\d+(</b>)', r"\g<1>%d\g<2>" % n, h, count=1)
+    if k != 1:
+        sys.exit("FAIL [计数·事件条目数] 匹配 %d 次" % k)
+    if new != h:
+        changes.append("首页事件条目数")
+    return new
+
+
 def resync(h):
     cards = _cards(h)
     by_cat = {}
@@ -166,6 +177,7 @@ def resync(h):
     changes = []
     h = _resync_totals(h, len(cards), by_cat, changes)
     h = _resync_meta_and_eras(h, by_cat, changes)
+    h = _resync_event_count(h, changes)
     return h, changes
 
 
