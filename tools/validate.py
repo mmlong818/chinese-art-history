@@ -133,6 +133,22 @@ def check_sections(views):
             err("画家 %s 缺维度: %s" % (vid, "/".join(miss)))
 
 
+# 传世作品确不足 3 件者——经 2026-08 逐家核实，属史实上限而非编纂缺口。
+# 不要试图"补齐"：硬凑第三件只会产出站不住的条目。
+CEILING = {
+    "artist-daikui": "作品全佚，仅存文献记载",
+    "artist-guhongzhong": "仅《韩熙载夜宴图》一件传世",
+    "artist-huangquan": "仅《写生珍禽图》一件可靠",
+    "artist-sunguoting": "仅《书谱》一件可靠",
+    "artist-wangximeng": "仅《千里江山图》一件传世",
+    "artist-wudaozi": "无真迹传世；《孔子行教像》碑不早于明代，原作已佚",
+    "artist-yanghuizhi": "塑壁多毁，可考者极少",
+    "artist-zhangxuan": "传世确只两件，余十余件文献有载而全佚",
+    "artist-zhangzeduan": "可确证者仅《清明上河图》",
+    "artist-zhiyong": "《真草千字文》墨迹本与刻本，实为一作两本",
+}
+
+
 def check_works(views):
     """每件作品须回链作者；每位画家至少 1 件作品条目。"""
     by_artist = defaultdict(list)
@@ -149,6 +165,8 @@ def check_works(views):
         if not by_artist.get(a):
             err("画家 %s 无任何作品条目" % a)
     thin = sorted(a for a in artists if len(by_artist.get(a, [])) < 3)
+    for a in sorted(set(CEILING) - set(artists)):
+        warn("CEILING 名单中的 %s 已不在画家条目里，请清理" % a)
     return by_artist, thin
 
 
@@ -230,7 +248,16 @@ def main():
     print("-" * 62)
     print("%d errors, %d warnings" % (len(errors), len(warnings)))
     if thin:
-        print("待加深(<3 件作品): " + ", ".join(t.replace("artist-", "") for t in thin))
+        ceiling = [t for t in thin if t in CEILING]
+        todo = [t for t in thin if t not in CEILING]
+        if ceiling:
+            print("已达史实上限(<3 件但补不了): "
+                  + ", ".join(t.replace("artist-", "") for t in ceiling))
+        if todo:
+            print("待加深(<3 件且有补充空间): "
+                  + ", ".join(t.replace("artist-", "") for t in todo))
+        else:
+            print("  ——不足 3 件者已全部核实为史实上限，无待补项")
     return 1 if errors else 0
 
 
