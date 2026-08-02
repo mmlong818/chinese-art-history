@@ -152,6 +152,28 @@ def check_works(views):
     return by_artist, thin
 
 
+FOREIGN_BLOCKS = [
+    ((0x0400, 0x04FF), "西里尔"), ((0x0370, 0x03FF), "希腊"),
+    ((0x0590, 0x05FF), "希伯来"), ((0x0600, 0x06FF), "阿拉伯"),
+    ((0x3040, 0x30FF), "假名"), ((0xAC00, 0xD7AF), "谚文"),
+]
+
+
+def check_homoglyphs(html):
+    """查混入的外文同形字。
+
+    曾在实体 ID 里发现西里尔 а/н/о 冒充拉丁 a/n/o——肉眼不可辨，
+    却使该 ID 无法被检索到。片假名中点「・」冒充「·」同理。
+    """
+    for i, ch in enumerate(html):
+        o = ord(ch)
+        for (lo, hi), name in FOREIGN_BLOCKS:
+            if lo <= o <= hi:
+                ctx = re.sub(r"\s+", " ", html[max(0, i - 40):i + 40])
+                err("混入%s字符 U+%04X %r @%d: ...%s..." % (name, o, ch, i, ctx))
+                break
+
+
 EVENT_SECTIONS = ["事件经过", "字段", "争议字段"]
 
 
@@ -186,6 +208,7 @@ def main():
     n_links = check_links(html, views)
     n_artists, by_cat = check_counts(html, views)
     check_crumb_kinds(html)
+    check_homoglyphs(html)
     check_sections(views)
     by_artist, thin = check_works(views)
     events, ev_covered = check_events(views, html)
