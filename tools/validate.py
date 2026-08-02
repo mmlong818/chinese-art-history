@@ -18,7 +18,7 @@ CANON_SECTIONS = [
 ]
 
 # 体例自定义、经确认保留的条目
-SECTION_EXEMPT = {"artist-fushan"}
+SECTION_EXEMPT = set()
 
 if hasattr(sys.stdout, "reconfigure"):  # Windows 控制台默认 GBK，中文会乱码
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
