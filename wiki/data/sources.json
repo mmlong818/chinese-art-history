@@ -226,6 +226,15 @@
       "verified": true
     },
     {
+      "id": "baoji-bronze-museum",
+      "title": "宝鸡青铜器博物院",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.bjqtq.com/",
+      "authority": "何尊等宝鸡出土西周青铜器的收藏方。仅有 HTML 页面，无公开 API，本库无法编程核查，凡引用须记具体藏品页 URL 供人工核对。",
+      "verified": true
+    },
+    {
       "id": "wikidata",
       "title": "Wikidata",
       "kind": "reference",
@@ -235,6 +244,33 @@
       "verified": true
     },
     {
+      "id": "yungang-academy",
+      "title": "云冈研究院",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "云冈石窟的官方管理与研究机构，窟龛编号、分期研究与保护记录的主要依据。",
+      "note": "本库未核实其官网地址与页面内容，仅作机构指认；影像与具体数据须人工核对。",
+      "verified": false
+    },
+    {
+      "id": "maijishan-institute",
+      "title": "麦积山石窟艺术研究所",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "麦积山石窟的官方保护研究机构，窟龛编号与历代重修层记录的主要依据。",
+      "note": "本库未核实其官网地址与页面内容，仅作机构指认；影像与具体数据须人工核对。",
+      "verified": false
+    },
+    {
+      "id": "dazu-academy",
+      "title": "大足石刻研究院",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "大足石刻的官方管理与研究机构，龛窟编号、题记录文与保护记录的主要依据。",
+      "note": "本库未核实其官网地址与页面内容，仅作机构指认；影像与具体数据须人工核对。",
+      "verified": false
+    },
+    {
       "id": "wikimedia",
       "title": "Wikimedia Commons",
       "kind": "reference",
@@ -242,6 +278,33 @@
       "url": "https://commons.wikimedia.org/",
       "license": "各图不同，取 extmetadata.LicenseShortName",
       "authority": "公版器物与书画的图像来源之一。**必须核作者字段**：文件名分不出原件与摹本，也分不出器物照片与论该器物的旧书扫描页。三维物件的照片著作权属摄影者，常为 CC BY-SA 而非 PD，不得压成 PD。",
+      "verified": true
+    },
+    {
+      "id": "tuhua-jianwen-zhi",
+      "title": "图画见闻志",
+      "authors": "郭若虚（北宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "承《历代名画记》体例而续其后，是了解五代与北宋前期画坛的主要依据。「黄家富贵、徐熙野逸」的对置出此一系——须注意该对置是宋人建立的分类框架，不应回填为五代人的自我认同。本书同时是 treatise 条目，既是信源也是研究对象。",
+      "verified": true
+    },
+    {
+      "id": "huachanshi-suibi",
+      "title": "画禅室随笔",
+      "authors": "董其昌（明）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "「南北宗」论出此。**这是本库最需小心引用的一部**：它是理论建构而非史实描述，却主导了此后三百年的画史书写与正典取舍。本库把它当作研究对象，不当作分类工具使用。",
+      "verified": true
+    },
+    {
+      "id": "kugua-heshang-hualuyu",
+      "title": "苦瓜和尚画语录",
+      "authors": "石涛（清）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "「一画」之说与「搜尽奇峰打草稿」出此。文辞晦涩，历来注解分歧极大，「一画」究竟何指至今无共识——凡引用须并陈主要几说，不得择一为定论。",
       "verified": true
     }
   ]

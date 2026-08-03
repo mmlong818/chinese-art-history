@@ -218,19 +218,91 @@ def images(c, rep):
         rep("图像", f"{len(remote)} 个条目的缩略图仍是外链，未落盘：{remote[:6]}")
 
 
+def image_files(c, rep):
+    """盘上的图与条目引用的图是否对得上。
+
+    两个方向都要查，性质完全不同：
+
+    **条目引用但盘上无** —— 这是伪造的出处。西洋库出过一次：字段齐全、格式全对、
+    许可写 PD，但那个文件根本不存在，元数据是凭记忆生成的。schema.py 已把这条
+    升为 ERROR（编出来的 URL 与真 URL 在 JSON 里是同一种字符串，只有文件在不在
+    能证伪）。这里再报一次，便于一眼看总量。
+
+    **盘上有但无人引用** —— 这是孤儿，多为取图时试错留下的，或条目改写后弃用的。
+    不是错误，但会随时间累积成几百兆无用文件，且让人分不清哪张真在用。
+    注意：批次进行中时，agent 已取图而条目未落盘也会显示为孤儿，不要急着删。
+    """
+    from pathlib import Path
+    d = Path(__file__).parent / "static" / "img"
+    if not d.exists():
+        return
+    have = {f.name for f in d.iterdir() if f.is_file()}
+    used = set()
+    for kind, eid, o in c.all_entities():
+        for im in _images_in_obj(o):
+            t = str(im.get("thumb", ""))
+            if t.startswith("img/"):
+                used.add(t[4:])
+    missing = sorted(used - have)
+    orphan = sorted(have - used)
+    if missing:
+        rep("图像", f"**条目引用但盘上无 {len(missing)} 个**——这类是编造的出处，"
+                    f"schema.py 已报 ERROR：{missing[:6]}")
+    if orphan:
+        rep("图像", f"孤儿图 {len(orphan)} 个（盘上有、无条目引用）："
+                    f"{orphan[:8]}{'…' if len(orphan) > 8 else ''}"
+                    f"——批次进行中属正常，收工后再清")
+
+
+def _images_in_obj(o):
+    if isinstance(o, dict):
+        if "thumb" in o and "source" in o:
+            yield o
+        for v in o.values():
+            yield from _images_in_obj(v)
+    elif isinstance(o, list):
+        for v in o:
+            yield from _images_in_obj(v)
+
+
+# 照录馆方记录的字段名。这些行的值是引文，必须保留原文，译了就没法核对。
+QUOTED_KEYS = ("原题", "馆方", "入藏", "藏品号", "credit", "原文", "英文题")
+
+
+def _text_translatable(bs):
+    """只取「本该是中文」的文本，跳过照录的馆方字段。
+
+    误报实例：耀州窑那条的 basics 里，`原题`『Bowl with carved floral decoration』、
+    `馆方文化断代`『China, probably from the Yaozhou kilns…』都是**引文**，
+    照录才对——而且那句 probably 正是本库据以标「推定」而非确定归属的依据。
+    把引文算作「未译」，等于罚一个做对了的条目。
+    """
+    out = []
+    for b in bs or []:
+        out += [b.get("text", ""), b.get("what", "")] + list(b.get("items", []))
+        for row in b.get("rows", []):
+            if isinstance(row, list) and len(row) == 2:
+                if any(k in str(row[0]) for k in QUOTED_KEYS):
+                    continue          # 照录字段，跳过
+                out.append(row[1])
+            elif isinstance(row, dict):
+                out.append(row.get("text", ""))
+    return "".join(str(x) for x in out)
+
+
 def foreign(c, rep):
     """夹在中文里的成段英文，以及不该出现的西里尔／希腊字母。"""
     for kind, eid, o in c.all_entities():
         for sid, bs in o.get("sections", {}).items():
-            t = _text(bs)
-            if not t:
-                continue
-            for run in CYR_GREEK.findall(t):
+            # 西里尔／希腊一律要查，连引文里也不该有
+            for run in CYR_GREEK.findall(_text(bs)):
                 rep("外文", f"{kind}/{eid}.{sid} 混入西里尔/希腊字母：{run!r}")
-            if len(LATIN.findall(t)) > len(t) * 0.4:
-                found = {w for w in FUNCTION_WORDS if re.search(rf"\b{w}\b", t.lower())}
-                if len(found) >= 4:
-                    rep("未译", f"{kind}/{eid}.{sid} 夹有成段英文（虚词 {sorted(found)[:5]}）")
+            t = _text_translatable(bs)
+            if not t or len(LATIN.findall(t)) <= len(t) * 0.4:
+                continue
+            found = {w for w in FUNCTION_WORDS if re.search(rf"\b{w}\b", t.lower())}
+            if len(found) >= 4:
+                rep("未译", f"{kind}/{eid}.{sid} 夹有成段英文（虚词 {sorted(found)[:5]}）")
 
 
 ORDER = ("范围", "覆盖", "待编", "重复", "稀薄", "单源", "信源", "态度",
@@ -246,7 +318,8 @@ def main():
         findings[kind].append(msg)
 
     for check in (scope, dupes, thin, sourcing, epistemics, dating_health,
-                  rubbing_health, relayer_health, verification, images, foreign):
+                  rubbing_health, relayer_health, verification, images,
+                  image_files, foreign):
         check(c, rep)
 
     print(" · ".join(f"{k} {v}" for k, v in c.stats().items()) + "\n")

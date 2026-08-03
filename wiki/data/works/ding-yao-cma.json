@@ -1,0 +1,80 @@
+{
+  "schema": "work/1",
+  "id": "ding-yao-cma",
+  "title": "定窑白釜刻花波浪鸭纹碗",
+  "title_orig": "Bowl with Ducks among Waves and Reeds",
+  "kind": "陶瓷",
+  "period": "northern-song",
+  "year": "约 12 世纪（北宋晚期）",
+  "year_sort": 1150,
+  "medium": "白瓷，牙白釜，刻花装饰",
+  "size": "直径 20.3 厘米，通高 5.4 厘米",
+  "holder": "克利夫兰美术馆（藏品号 1929.995）",
+  "cma_id": 111515,
+  "classes": ["ding-yao"],
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://www.clevelandart.org/art/1929.995",
+    "credit": "Dudley P. Allen Fund",
+    "license": "CC0",
+    "thumb": "img/ding-yao-cma-800.jpg",
+    "full": "https://openaccess-cdn.clevelandart.org/1929.995/1929.995_full.tif",
+    "w": 1263,
+    "h": 751,
+    "alt": "定窑白釜刻花波浪鸭纹碗，克利夫兰美术馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "cleveland", "note": "藏品记录、年代、产地、尺寸，逐项照录"},
+    {"ref": "wangxun-zhongguo-meishushi", "note": "定窑刻花与覆烧工艺的一般性描述"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Bowl with Ducks among Waves and Reeds"],
+        ["馆方年代", "1100s"],
+        ["馆方文化断代", "China, Hebei province, Quyang, Northern Song dynasty (960–1127)"],
+        ["工艺", "馆方记 cream-glazed porcelain with incised decoration, Ding ware"],
+        ["尺寸", "直径 20.3 × 通高 5.4 厘米"],
+        ["现藏", "克利夫兰美术馆，藏品号 1929.995"],
+        ["入藏", "Dudley P. Allen Fund"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "以上各项**照录馆方藏品记录**，未作改写，馆方直接标出窑址所在的曲阳县。", "src": "cleveland"}
+    ],
+    "form": [
+      {"t": "p", "text": "碗心刻划波浪与芦苇纹，其间点缀游鸭，是定窑北宋时期常见的水禽题材刻花装饰。刻花以斜刀刻出宽窄不一的线条，再辅以细密的篦划纹表现水波，是定窑区别于印花装饰的一项典型技法。"},
+      {"t": "stmt", "state": "adopt", "text": "「鸭戏波纹」一类题材在定窑刻花碗中反复出现，说明这是当时定窑作坊掌握的一套成熟母题，不是孤例创作——这也是本库把「器形序列」列为断代依据之一的原因：同类母题反复出现，才能建立起可比对的序列。"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "馆方记录未提及铭文或刻款，此件亦无镶口等后配痕迹的说明，本库不作推断"}
+    ],
+    "technique": [
+      {"t": "p", "text": "定窑北宋盛期以刻花、篦划花为主要装饰手法：先以斜刀刻出主纹，再用细密的梳齿状工具（篦）划出辅助纹理，两者结合形成层次感。金代以后印花（模印）逐渐取代刻花成为主流，本件属刻花，风格特征与北宋盛期相符。"},
+      {"t": "stmt", "state": "pend", "text": "定窑另有「覆烧」组合装烧工艺，会在口沿留下无釜的「芒口」；本件口沿状况馆方公开图版未清晰呈现，本库不作断言是否属覆烧产品。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "本件为传世流散品，无出土记录。定窑窑址（河北曲阳涧磁村、燕山村）的分期序列靠考古调查确立，为此类刻花碗的类型学比对提供基准，但本件本身与具体地层无直接对应"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠",
+       "text": "定窑无铭文传统，断代依据是刻花与篦划花风格、碗形圈足特征，与涧磁村窑址出土的北宋盛期标准器比对得来。定窑分期序列在陶瓷类型学中已相当成熟，故列「较可靠」。",
+       "src": "cleveland"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "由 Dudley P. Allen Fund 资助购入克利夫兰美术馆，入藏年份早于馆方现有编号体系明确记载的多数中国陶瓷藏品。"},
+      {"t": "gap", "text": "入藏之前的递藏链，馆方公开记录未详述"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "定窑刻花碗宜近观碗心，斜刀刻线的深浅变化在侧光下最为明显。",
+        "注意口沿是否有釜层缺失（芒口）——这是判断是否属覆烧产品的直观线索。",
+        "与同期耀州窑刻花瓷对照观看，能直观感受南北青瓷、白瓷两条装饰传统的差异。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "disp", "text": "南宋以后是否存在延续定窑工艺的「南定」窑口，及其与定窑本身的关系，学界仍有讨论，并存不同意见，详见 [[class:ding-yao|定窑]] 类目条目。"},
+      {"t": "gap", "text": "本件是否属覆烧产品（是否带芒口），本库据现有图版不作断言"}
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "shang-gui-met",
+  "title": "青铜簋",
+  "title_orig": "Food Serving Vessel (Gui)",
+  "kind": "青铜",
+  "period": "erlitou-shang",
+  "year": "约前 12 世纪",
+  "year_sort": -1150,
+  "medium": "青铜",
+  "size": "高 11.7 × 两耳间宽 23.5 × 口径 15.9 × 足径 12.1 厘米",
+  "holder": "大都会艺术博物馆（藏品号 62.217）",
+  "met_id": 44617,
+  "classes": ["gui"],
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/44617",
+    "credit": "Gift of Count and Countess Bernard d'Escayrac, 1962",
+    "license": "PD",
+    "thumb": "img/shang-gui-met-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DP218261.jpg",
+    "w": 600,
+    "h": 450,
+    "alt": "商代青铜簋，大都会艺术博物馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "met", "note": "藏品记录、年代、尺寸、断代与判权，逐项照录"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "簋的形制与用途背景"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Food Serving Vessel (Gui)"],
+        ["馆方年代", "12th century BCE"],
+        ["馆方断代", "Shang dynasty (ca. 1600–1046 BCE)"],
+        ["材质", "Bronze（青铜）"],
+        ["尺寸", "高 11.7 厘米；两耳间宽 23.5 厘米；口径 15.9 厘米；足径 12.1 厘米"],
+        ["现藏", "大都会艺术博物馆，藏品号 62.217"],
+        ["入藏", "Gift of Count and Countess Bernard d'Escayrac, 1962"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "本条目核查等级为「馆藏官方核实」：以上各项照录馆方藏品记录，未作改写。", "src": "met"}
+    ],
+    "form": [
+      {"t": "p", "text": "圆体，深腹，矮圈足；两侧各一兽首鋬耳，耳下垂小珥。口沿下与圈足各饰一周纹带，主纹带以细密云雷纹为地，其上分布数枚圆凸乳丁，并在双耳之间的器腹正面饰一浮雕兽首。整体造型简洁，无扉棱、无盖。"},
+      {"t": "stmt", "state": "dep", "text": "腹部正面的浮雕兽首，本库依通则称「兽面纹」，不采宋人《宣和博古图》一系的「饕餮纹」旧称——理由见「鼎」条目与本库通则。", "src": "xuanhe-bogu-tu"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "馆方公开记录未提及铭文，本库不作推断"}
+    ],
+    "technique": [
+      {"t": "p", "text": "块范法铸造，双耳与器身应为分铸后铸接或一次浑铸。"},
+      {"t": "stmt", "state": "pend", "text": "具体铸造工艺（分铸或浑铸）馆方公开记录未及，本库不作断言。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "1962 年以私人赠礼入藏，出土地点与脉络未见记录——传世流散品的常见状况"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠", "year": "约前 12 世纪",
+       "text": "矮圈足、兽首鋬耳、腹部单周云雷地兽首纹带，是商代晚期簋的常见形制配置；馆方标年代即殷墟中晚期。无铭文、无地层可依，故列「器形序列」／「较可靠」。",
+       "src": "met"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "1962 年由 Bernard d'Escayrac 伯爵夫妇捐赠入藏。"},
+      {"t": "gap", "text": "早期流转不明"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "双耳、无扉棱、无盖的简洁形制，与后来西周中期出现的四耳簋、方座簋相比更早，可作为判断簋形制早晚的入门例子，与「簋」器类条目的分期演变对照。",
+        "可与本库另一条无自由图版的「利簋」对读，体会有铭与无铭同类器在证据等级上的差别——同为簋，一件靠器形序列（较可靠），一件靠长篇铭文（确证）。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "gap", "text": "出土脉络与早期递藏不明"},
+      {"t": "stmt", "state": "pend", "text": "铸造工艺细节缺检测支撑。"}
+    ]
+  }
+}

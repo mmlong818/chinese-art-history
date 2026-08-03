@@ -1,0 +1,80 @@
+{
+  "schema": "work/1",
+  "id": "shufu-yao-met",
+  "title": "枢府卵白釜印花菊纹高足杯",
+  "title_orig": "Stem Cup with Chrysanthemum Scroll (Shufu ware)",
+  "kind": "陶瓷",
+  "period": "yuan",
+  "year": "约 14 世纪（元）",
+  "year_sort": 1330,
+  "medium": "卵白釜瓷（枢府瓷），模印装饰",
+  "size": "直径 13 厘米",
+  "holder": "大都会艺术博物馆（藏品号 25.222.5）",
+  "met_id": 42487,
+  "classes": ["jingdezhen-yao"],
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/42487",
+    "credit": "Fletcher Fund, 1925",
+    "license": "PD",
+    "thumb": "img/shufu-yao-met-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DP222087.jpg",
+    "w": 468,
+    "h": 624,
+    "alt": "枢府卵白釜印花菊纹高足杯，大都会艺术博物馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "met", "note": "藏品记录、年代、工艺，逐项照录"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "枢府瓷与元代浮梁瓷局的一般性描述"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Stem Cup with Chrysanthemum Scroll"],
+        ["馆方年代", "14th century"],
+        ["馆方文化断代", "China"],
+        ["工艺", "馆方记 Porcelain with molded decoration under transparent glaze (Jingdezhen Shufu ware)"],
+        ["尺寸", "直径 5 1/8 in.（13 厘米）"],
+        ["现藏", "大都会艺术博物馆，藏品号 25.222.5"],
+        ["入藏", "Fletcher Fund, 1925"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "以上各项**照录馆方藏品记录**，未作改写。馆方在工艺一项直接写明「Jingdezhen Shufu ware」，即枢府瓷。", "src": "met"}
+    ],
+    "form": [
+      {"t": "p", "text": "高足杯，杯身模印缠枝菊纹，釜色呈乳浊的淡青白色（俗称「卵白釜」，因釜色近似鸭蛋壳内壁而得名），与元青花的釜下彩绘装饰路线完全不同，走的是釜色本身与模印浮纹结合的路子。"}
+    ],
+    "inscription": [
+      {"t": "p", "text": "枢府瓷之得名，是因部分同类器物内壁模印「枢府」二字（指枢密院），标示其为官署定烧用瓷；本件馆方记录未提及是否带「枢府」二字模印，本库不作断言此件具体是否属该细分类。"},
+      {"t": "stmt", "state": "pend", "text": "「枢府」二字模印的有无，是判断某件卵白釜器是否属官方定烧「枢府瓷」严格意义上的核心依据；本件缺这一确证，只能笼统归入卵白釜瓷这一大类。"}
+    ],
+    "technique": [
+      {"t": "p", "text": "卵白釜瓷是元代景德镇在传统青白瓷（影青）基础上发展出的新釜色路线：釜层加厚，透明度降低，呈乳浊的淡青白色。装饰以模印（阳文或阴文）为主，纹样较青花更为含蓄内敛。"},
+      {"t": "stmt", "state": "adopt", "text": "元代景德镇几乎同时发展出青花（釜下彩绘、外销与内销并重）与卵白釜（釜色装饰、部分供官署定烧）两条路线，说明这一时期的景德镇窑业已具备同时支撑多条技术路线的产能与组织能力，不是单一作坊各自为战。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "本件为传世流散品，无出土记录。景德镇窑址（湖田、落马桥等）出土的同类卵白釜瓷片为器形与纹样的类型学比对提供基准，但本件本身与具体地层无直接对应"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠",
+       "text": "卵白釜瓷断代依据是釜色、模印纹样风格与已知元代景德镇窑址出土标准器的比对。缠枝菊纹与本件的高足杯造型是元代卵白釜瓷常见组合，比对基准较为明确，故列「较可靠」。",
+       "src": "met"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "1925 年由 Fletcher Fund 资助购入大都会艺术博物馆。"},
+      {"t": "gap", "text": "入藏之前的递藏链不明"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "留意釜色的乳浊质感——卵白釜的「白」不是纯白，而是带一层温润的浑浊感，与明代甜白釜的通透感不同。",
+        "与本库元青花条目并观，见 [[work:yuan-qinghua-cma|元青花狮耳盖罐]]，比较同期景德镇两条截然不同的技术路线。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "本件是否带「枢府」二字模印（即是否属严格意义上的官署定烧枢府瓷）缺确证，本库不作断言。"},
+      {"t": "stmt", "state": "disp", "text": "「枢府瓷」一名的使用范围，学界存在从严（仅指带「枢府」模印的官署定烧器）与从宽（泛指同类卵白釜瓷）两种用法并存的情况。本条目标题沿用较宽泛的通行用法，本件是否属严格意义上的官署定烧枢府瓷尚缺确证，两种用法孰为「标准」本身尚无定论，本库不代为裁断以何者为准。"},
+      {"t": "gap", "text": "本件无出土记录"}
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "work/1",
+  "id": "zhou-he-met",
+  "title": "青铜盉",
+  "title_orig": "Spouted Ritual Water Vessel (He)",
+  "kind": "青铜",
+  "period": "western-zhou",
+  "year": "约前 11 世纪晚期",
+  "year_sort": -1030,
+  "medium": "青铜",
+  "size": "高 28.6 厘米；连流鋬宽 23.5 厘米",
+  "holder": "大都会艺术博物馆（藏品号 24.72.5a, b）",
+  "met_id": 42168,
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/42168",
+    "credit": "Munsey Fund, 1931",
+    "license": "PD",
+    "thumb": "img/zhou-he-met-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DP219726.jpg",
+    "w": 469,
+    "h": 625,
+    "alt": "西周青铜盉，大都会艺术博物馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "met", "note": "藏品记录、年代、尺寸、断代与判权，逐项照录"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "盉的用途与形制背景"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Spouted Ritual Water Vessel (He)"],
+        ["馆方年代", "late 11th century BCE"],
+        ["馆方文化断代", "Western Zhou dynasty (1046–771 BCE)"],
+        ["材质", "Bronze（青铜）"],
+        ["尺寸", "高 28.6 厘米；宽（连流与鋬）23.5 厘米"],
+        ["现藏", "大都会艺术博物馆，藏品号 24.72.5a, b"],
+        ["入藏", "Munsey Fund, 1931"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "本条目核查等级为「馆藏官方核实」：以上各项照录馆方藏品记录，未作改写。馆方将年代定语与文化断代分列两项——前者写「前 11 世纪晚期」，后者径写「西周」，本条目一并照录，二者的接榫处即本条目争议字段所记。", "src": "met"}
+    ],
+    "form": [
+      {"t": "p", "text": "鼓腹分裆，三足呈矮柱状微外撇；一侧有细长管状流，另一侧置鋬耳；盖顶置环钮，以链状钮环与鋬耳相连——防止盖丢失或倾覆的常见设计。盖与颈部饰简洁线刻纹带，腹部下方近素面。"},
+      {"t": "gap", "text": "盖与颈部纹带的具体母题，本库依现有图版分辨不确，不勉强判定"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "馆方公开记录未提及铭文，本库不作推断"}
+    ],
+    "technique": [
+      {"t": "p", "text": "块范法铸造，盖钮与鋬耳间的链环连接需分铸后组装，是西周有盖容器常见的防脱落设计。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "1931 年经 Munsey Fund 购藏，出土地点与脉络未见记录"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠", "year": "约前 11 世纪晚期",
+       "text": "馆方器物年代标「前 11 世纪晚期」，恰处商周之交（前 1046 年）附近；馆方文化断代径标「Western Zhou dynasty」，本条目据此定为西周早期。但商末周初同类盉的形制延续性很强，仅凭器形无法排除其铸于商末的可能——这正是「器形序列」这一档依据的固有局限，故本库仍列「较可靠」而非更高等级。",
+       "src": "met"},
+      {"t": "stmt", "state": "disp", "text": "馆方年代描述本身存在一处接榫：物件年代写「前 11 世纪晚期」，文化断代写「西周（前 1046–771）」——二者交界正落在武王克商之年附近，馆方未说明是依何种依据把它划入西周而非商末。本库照录两项，不代馆方裁断。"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "1931 年经 Munsey Fund 购藏。"},
+      {"t": "gap", "text": "早期流转不明"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "盖与鋬耳间的链环是西周盉常见的防脱落设计，可留意其活动方式。",
+        "流口的长度与角度，是判断使用方式（斟酒或沃盥净手）的线索。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "disp", "text": "年代恰处商周之交，馆方定为西周，但仅凭器形序列本身不足以排除商末铸造的可能，详见「断代依据」节。"},
+      {"t": "gap", "text": "出土脉络不明"}
+    ]
+  }
+}

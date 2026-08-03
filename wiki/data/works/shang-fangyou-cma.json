@@ -1,0 +1,81 @@
+{
+  "schema": "work/1",
+  "id": "shang-fangyou-cma",
+  "title": "青铜方卣",
+  "title_orig": "Square Wine Container (Fangyou)",
+  "kind": "青铜",
+  "period": "erlitou-shang",
+  "year": "约前 1250 – 前 1046",
+  "year_sort": -1150,
+  "medium": "青铜",
+  "size": "26.7 × 13.4 厘米",
+  "holder": "克利夫兰美术馆（藏品号 1963.103）",
+  "cma_id": 138689,
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://www.clevelandart.org/art/1963.103",
+    "credit": "John L. Severance Fund",
+    "license": "CC0",
+    "thumb": "img/shang-fangyou-cma-800.jpg",
+    "full": "https://openaccess-cdn.clevelandart.org/1963.103/1963.103_full.tif",
+    "w": 637,
+    "h": 893,
+    "alt": "商代青铜方卣，克利夫兰美术馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "cleveland", "note": "藏品记录、年代、尺寸、判权与馆方说明文字，逐项照录"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "卣类容器的形制背景"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Square Wine Container (Fangyou)"],
+        ["馆方年代", "c. 1250–1046 BCE"],
+        ["馆方文化断代", "China, Henan province, probably Anyang, Shang dynasty (c. 1600–c. 1046 BCE), Anyang phase (c. 1250–1046 BCE)"],
+        ["材质", "青铜（馆方记 bronze）"],
+        ["尺寸", "26.7 × 13.4 厘米"],
+        ["现藏", "克利夫兰美术馆，藏品号 1963.103"],
+        ["入藏", "John L. Severance Fund"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "本条目核查等级为「馆藏官方核实」：以上各项照录馆方藏品记录，未作改写。", "src": "cleveland"},
+      {"t": "stmt", "state": "adopt", "text": "方体在商代卣类容器中属较少见的一类——多数卣为圆体或椭圆体，方体对合范精度的要求更高，馆方说明称其代表商代晚期青铜工艺「艺术精妙与技术高超的充分绽放」。", "src": "cleveland"}
+    ],
+    "form": [
+      {"t": "p", "text": "方体带盖，盖顶置钮；器身两侧各一环，套连一道拱形提梁，提梁可绕环活动。器身四面以扉棱分为四区，每区饰一对相向的长冠鸟纹；地纹为细密云雷纹。圈足外撇，足部另饰一周纹带。"},
+      {"t": "stmt", "state": "adopt", "text": "馆方说明将主纹称为「crested birds（夔凤纹）」，与本库通称的「兽面纹」（兽首正面对称构图）是不同的纹样系统，不宜混称。此处依馆方说明径称「夔凤纹」。", "src": "cleveland"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "馆方记录 inscribed 字段为空，本条目视为无铭"}
+    ],
+    "technique": [
+      {"t": "p", "text": "块范法铸造。提梁的活动结构须分铸后以环钮连接组装，是商代晚期卣类容器常见的复合铸造方式。"},
+      {"t": "stmt", "state": "pend", "text": "具体分铸顺序与工序缺检测支撑，本库不作断言。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "馆方标「可能出自安阳」，但未给出具体出土单位或同出器物，本库不作进一步推断"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠", "year": "约前 1250 – 前 1046",
+       "text": "方体、四道扉棱、夔凤纹与云雷纹地的组合，是殷墟晚期（Anyang phase）卣类器物的典型配置，馆方标年代正落在此范围。无铭文、无地层佐证，故不能列为确证，列「较可靠」。",
+       "src": "cleveland"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "1963 年经 John L. Severance Fund 购藏。"},
+      {"t": "gap", "text": "入藏之前的递藏与出境经过不明"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "提梁能否活动、扉棱是否贯通全器，是判断卣类器物铸造方式的入手点。",
+        "方体在商代同类器物中较少见，可与常见的圆体、椭圆体卣对照，体会形制的多样性。",
+        "克利夫兰的中国部藏品多为 CC0，可自由取用高清图自行比对。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "出土地点仅标「可能安阳」，缺具体单位与同出器物记录。"},
+      {"t": "stmt", "state": "dep", "text": "「卣」为宋代金石学者据《宣和博古图》一系文献比附礌记而定的器类名，商人自身如何称呼这类带提梁的盛酒容器，现有材料未见直接证据——部分同类青铜器铭文中自称为「彝」等泛称，与后世「卣」之名不必相同。本库沿用「卣」「方卣」仅取其通行分类之便，不代表这就是商人的本名。", "src": "xuanhe-bogu-tu"},
+      {"t": "gap", "text": "早期递藏与出境经过不明"}
+    ]
+  }
+}

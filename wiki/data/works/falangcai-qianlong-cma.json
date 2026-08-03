@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "falangcai-qianlong-cma",
+  "title": "乾隆珐琅彩锦鸡花卉纹瓶",
+  "title_orig": "Vase with Golden Pheasants",
+  "kind": "陶瓷",
+  "period": "qing",
+  "year": "1736 – 1795（清乾隆）",
+  "year_sort": 1765,
+  "medium": "珐琅彩瓷，宫廷造办处彩绘",
+  "size": "通高 18.6 × 宽 10.5 厘米",
+  "holder": "克利夫兰美术馆（藏品号 1971.145）",
+  "cma_id": 145937,
+  "classes": ["jingdezhen-yao"],
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://www.clevelandart.org/art/1971.145",
+    "credit": "John L. Severance Fund",
+    "license": "CC0",
+    "thumb": "img/falangcai-qianlong-cma-800.jpg",
+    "full": "https://openaccess-cdn.clevelandart.org/1971.145/1971.145_full.tif",
+    "w": 595,
+    "h": 893,
+    "alt": "乾隆珐琅彩锦鸡花卉纹瓶，克利夫兰美术馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "cleveland", "note": "藏品记录、年代、工艺、尺寸，逐项照录，馆方说明文字明确指出珐琅彩工艺与欧洲影响"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "珐琅彩在清代宫廷用瓷体系中的位置"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Vase with Golden Pheasants"],
+        ["馆方年代", "1736–95"],
+        ["馆方分期", "China, Jiangxi province, Jingdezhen kilns, Qing dynasty (1644–1911), Qianlong mark and period (1736–95)"],
+        ["工艺", "馆方记 porcelain painted in polychrome enamels over transparent glaze"],
+        ["尺寸", "通高 18.6 × 宽 10.5 厘米"],
+        ["现藏", "克利夫兰美术馆，藏品号 1971.145"],
+        ["入藏", "John L. Severance Fund"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "以上各项**照录馆方藏品记录**。馆方说明文字明确使用「falangcai」一词，并指出画面中花鸟题材的精细晕染、明暗处理反映了欧洲传教士画家在清宫的影响，特别提到郎世宁（Giuseppe Castiglione，1688–1766）对乾隆朝宫廷画风的巨大影响。", "src": "cleveland"}
+    ],
+    "form": [
+      {"t": "p", "text": "瓶身绘锦鸡与花卉，锦鸡羽毛以细腻的明暗渐变表现立体质感，花瓣边缘有柔和的晕染层次——这种强调光影与体积的画法，是珐琅彩区别于传统中国陶瓷装饰「以线为主」审美的一项关键特征。"}
+    ],
+    "inscription": [
+      {"t": "p", "text": "馆方将本件归为「乾隆年款」一类，珐琅彩瓷惯例于底部书年款（多为蓝料或红料楷书「大清乾隆年制」）。本件具体年款文字与位置，馆方公开图版未清晰展示底部，本库不逐字核对。"}
+    ],
+    "technique": [
+      {"t": "p", "text": "珐琅彩工艺的关键在于分工：素胎（有时为不施纹饰的白釜瓷）在景德镇烧成后运至北京，由宫廷造办处（珐琅作）的宫廷画师另行彩绘、入炉低温烧成。彩料采用一批源自欧洲的珐琅料配方，色彩层次可实现渐变晕染，是「西画东传」在工艺美术领域的直接产物。"},
+      {"t": "stmt", "state": "adopt", "text": "这一点值得特别说明：多数珐琅彩瓷严格说是「半件景德镇产品」——胎体产自景德镇，但决定其最终面貌的彩绘工序完全在北京宫廷完成，与本库同批其他条目（元青花、五彩、粉彩等从设计到烧成全程在景德镇完成）的生产逻辑不同。本库仍将其归入 [[class:jingdezhen-yao|景德镇窑]] 类目，是取其胎体产地，而非否认这一跨地域协作的事实。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "本件为传世宫廷用瓷，无出土记录。珐琅彩瓷的生产集中于北京宫廷造办处而非景德镇本地，窑址考古对此类器物的比对贡献有限，主要依据仍是清宫内务府的档案记录（本库未逐一核对相关档案）"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "铭文", "conf": "较可靠",
+       "text": "馆方依据器物年款结合彩料工艺、画风特征判定为乾隆朝。珐琅彩瓷的宫廷造办处生产背景使其比多数官窑瓷有更明确的宫廷档案可循，但本库未独立核对具体档案，仅照录馆方判断，故列「较可靠」而非「确证」。",
+       "src": "cleveland"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "由 John L. Severance Fund 资助购入克利夫兰美术馆。"},
+      {"t": "gap", "text": "本件从清宫流出至入藏克利夫兰之间的具体经过，馆方公开记录未详述"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "留意羽毛与花瓣的明暗渐变——这是判断珐琅彩与粉彩、五彩等其他清代彩瓷的一项直观区别，珐琅彩的渐变通常更细腻、更接近西洋绘画的光影处理。",
+        "与本库粉彩条目并观，见 [[work:fencai-qianlong-cma|乾隆粉彩九桃纹瓶]]，比较同为乾隆朝两条不同彩瓷路线的差异。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "珐琅彩的具体分工细节（哪些素胎完全在景德镇完成、哪些工序涉及北京与景德镇之间的往返）在部分器物上仍有讨论，本条目不作过细区分。"},
+      {"t": "stmt", "state": "disp", "text": "珐琅彩因存世稀少、市场价值高昂，清末民国以来仿製与新做旧作品数量可观，是否为清宫造办处真品需综合彩料、画风、款识等多方面考订。馆方与本库均据既有著录判断本件为真品，但珐琅彩类文物的真伪鉴定本身是清代宫廷瓷器研究中长期存在的难点，不同鉴定者对个别存疑器物的意见并不总能取得一致，本库不代为独立鉴定，仅照录馆方判断。"},
+      {"t": "gap", "text": "本件无出土记录，从清宫流出的具体经过不明"}
+    ]
+  }
+}

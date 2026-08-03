@@ -1,0 +1,81 @@
+{
+  "schema": "work/1",
+  "id": "chenghua-doucai-npm",
+  "title": "成化斗彩鸡缸杯",
+  "title_orig": "Porcelain chicken cup in doucai painted enamels",
+  "kind": "陶瓷",
+  "period": "ming",
+  "year": "1465 – 1487（明成化）",
+  "year_sort": 1475,
+  "medium": "斗彩瓷，釜下青花勾线、釜上彩料填色",
+  "size": "馆方未在图像元数据中列出具体尺寸",
+  "holder": "台北故宫博物院（藏品号 故瓷 005190）",
+  "classes": ["jingdezhen-yao"],
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Porcelain_chicken_cup_in_doucai_painted_enamels.tif",
+    "credit": "国立故宫博物院（台北）开放资料，藏品号 故瓷 005190，经 Wikimedia Commons 转发",
+    "license": "CC BY 4.0",
+    "attribution_required": true,
+    "thumb": "img/chenghua-doucai-npm-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Porcelain_chicken_cup_in_doucai_painted_enamels.tif",
+    "w": 3000,
+    "h": 2250,
+    "alt": "成化斗彩鸡缸杯，台北故宫博物院藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "npm-taipei", "note": "藏品记录、年代、藏品号，经 Wikimedia Commons 转发的开放资料页核对"},
+    {"ref": "wikimedia", "note": "图像元数据（extmetadata）中的机构来源信息"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "斗彩工艺与成化官窑瓷的一般性描述"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "斗彩雞缸杯 / Porcelain chicken cup in doucai painted enamels"],
+        ["馆方年代", "Chenghua reign (1465–1487)"],
+        ["馆方分期", "Ming dynasty"],
+        ["现藏", "台北故宫博物院，藏品号 故瓷 005190"],
+        ["图像来源", "台北故宫博物院开放资料，经 Wikimedia Commons 转发，CC BY 4.0"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "本件图像与年代信息经由 Wikimedia Commons 的图像元数据（extmetadata）核对，其 ImageDescription 字段直接注明「National Palace Museum, accession number 故瓷005190」，Credit 字段链接指向台北故宫开放资料专页——本库据此判定这是台北故宫官方开放数据，不是 Commons 用户自行上传的不明来源图片。", "src": "npm-taipei"},
+      {"t": "stmt", "state": "adopt", "text": "「成化斗彩鸡缸杯」是中国陶瓷史上被仿制、复制次数最多的器形之一——清代雍正、乾隆两朝宫廷都曾专门仿烧，近现代市场上的仿品与复刻品更是不计其数。本条目所指为台北故宫藏、断代为成化本朝的一件，读者若在市场或其他场合见到「鸡缸杯」，不应默认其年代等同本件。"}
+    ],
+    "form": [
+      {"t": "p", "text": "杯身绘子母鸡与花卉，构图疏朗写实，鸡群姿态各异（引颈、觅食、护雏），是成化斗彩传世精品中反复出现的经典母题，也是「鸡缸杯」这一俗称的由来。"}
+    ],
+    "inscription": [
+      {"t": "p", "text": "成化斗彩官窑瓷惯例于底部书年款（六字双行「大明成化年制」或四字「成化年制」，青花楷书），是判断成化官窑瓷断代的重要依据之一。本件底部年款的具体文字与书体，本库未见馆方逐字著录的公开说明，不作断言，仅照录馆方对其归属年代的判断。"},
+      {"t": "stmt", "state": "pend", "text": "由于「鸡缸杯」历代仿制极多且部分仿品刻意模仿成化年款，年款本身在这类器物上的证据力须结合胎釜、彩料等其他特征综合判断，不能单独作为确证依据。"}
+    ],
+    "technique": [
+      {"t": "p", "text": "斗彩工艺：先以青花在坏体上勾画纹样轮廓线，施透明釜高温烧成后，再于釜上按轮廓填绘彩料（矿物颜料），经低温二次烧成。「斗彩」之名即指釜下青花与釜上彩料两次施彩「斗合」而成的效果，是成化朝在宣德青花基础上发展出的新技术路线。"},
+      {"t": "stmt", "state": "adopt", "text": "斗彩与本库另一件条目所涉的「五彩」（见 [[work:wucai-jiajing-cma|嘉靖五彩云龙赶珠纹罐]]）容易被混同，区别在于：斗彩必有釜下青花轮廓线打底，彩料填在轮廓线内；五彩多数直接在釜上以彩料勾线并填色，不依赖釜下青花轮廓。两者是成化以后景德镇官窑发展出的两条不同上彩路线。"}
+    ],
+    "excavation": [
+      {"t": "p", "text": "本件为传世宫廷收藏（清宫旧藏，今归台北故宫），无出土记录。但景德镇珠山御窑遗址出土的成化官窑瓷片（含大量因不合格而被打碎掩埋的落选品）为成化斗彩的胎釜、彩料与年款书写风格提供了重要的比对基准，也是近数十年判断传世成化斗彩真伪最重要的新增证据来源之一。"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "铭文", "conf": "较可靠",
+       "text": "台北故宫将本件归为成化年制，通常依据即器物底部年款结合胎釜、彩料特征综合判断。鉴于成化斗彩历代仿制极多（含清代雍正、乾隆宫廷仿品与近现代市场仿品），年款本身不能单独构成确证，须结合馆方长期典藏与历次学术比对的综合判断，故列「较可靠」而非「确证」。",
+       "src": "npm-taipei"},
+      {"t": "stmt", "state": "pend", "text": "本库未能独立核对本件年款书体与胎釜特征的具体细节，此处的断代结论完全依赖台北故宫的官方归属，未经本库进一步交叉核实。"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "据馆藏号「故瓷」编号体系，本件应属清宫旧藏传承体系，后随故宫文物南迁、迁台而入藏台北故宫博物院。"},
+      {"t": "gap", "text": "本件从成化朝入宫到清宫旧藏之间的具体流转经过，本库未见公开记录，不作推断"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "台北故宫博物院是观看本件实物及系统了解成化斗彩传世体系的首选去处。",
+        "留意子母鸡的姿态与彩料的填色是否严格贴合釜下青花轮廓线——这是判断斗彩工艺完成度的直观入门线索。",
+        "若关注仿品与真品的区别，可留意后仿鸡缸杯在鸡冠彩料呈色、姿态僵硬程度上与成化本朝器的差异，但具体鉴定须依赖实物比对，本库不提供鉴定结论。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "disp", "text": "「成化斗彩鸡缸杯」历代仿制数量庞大，清代雍正、乾隆宫廷仿品与近现代市场仿品均大量存在，本条目所述仅针对台北故宫藏、断代为成化本朝的这一件，不代表所有以此名流通的器物均属同一年代。"},
+      {"t": "gap", "text": "本件年款的具体文字与书体细节，本库未见公开逐字著录，不作断言"}
+    ]
+  }
+}

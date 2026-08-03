@@ -1,0 +1,80 @@
+{
+  "schema": "work/1",
+  "id": "shang-gong-met",
+  "title": "青铜觥",
+  "title_orig": "Wine Pouring Vessel (Gong)",
+  "kind": "青铜",
+  "period": "erlitou-shang",
+  "year": "约前 13 – 前 11 世纪",
+  "year_sort": -1200,
+  "medium": "青铜",
+  "size": "高 21.6 厘米",
+  "holder": "大都会艺术博物馆（藏品号 43.25.4）",
+  "met_id": 44781,
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/44781",
+    "credit": "Rogers Fund, 1943",
+    "license": "PD",
+    "thumb": "img/shang-gong-met-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DP140733.jpg",
+    "w": 600,
+    "h": 450,
+    "alt": "商代青铜觥，大都会艺术博物馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "met", "note": "藏品记录、年代、尺寸、断代与判权，逐项照录"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "觥类容器的形制背景"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Wine Pouring Vessel (Gong)"],
+        ["馆方年代", "13th–11th century BCE"],
+        ["馆方断代", "Shang dynasty (ca. 1600–1046 BCE)"],
+        ["馆方产地", "China (Henan Province, possibly Anyang)"],
+        ["材质", "Bronze（青铜）"],
+        ["尺寸", "高 21.6 厘米"],
+        ["现藏", "大都会艺术博物馆，藏品号 43.25.4"],
+        ["入藏", "Rogers Fund, 1943"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "本条目核查等级为「馆藏官方核实」：以上各项照录馆方藏品记录，未作改写。", "src": "met"}
+    ],
+    "form": [
+      {"t": "p", "text": "器身呈弧长舟形，前端昂起为兽首状流口，后端鋬柄顶端亦饰一小兽首，鋬柄向下卷曲成钩形。器腹满饰细密线刻纹样，中段可辨一似羽翼的斜向纹饰单元，与一方框内凸饰的圆点。"},
+      {"t": "gap", "text": "馆方公开记录未逐项标注纹样母题，本库仅据图版所见轮廓描述，未做进一步纹样考订，不勉强判定具体名称"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "馆方公开记录未提及铭文，本库不作推断"}
+    ],
+    "technique": [
+      {"t": "p", "text": "块范法铸造，兽首流口、鋬柄与器身的组合应为分铸后接铸。"},
+      {"t": "stmt", "state": "pend", "text": "具体铸造工艺缺检测支撑，本库不作断言。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "馆方标产地「河南省，可能安阳」为馆方推测，未给出具体出土单位或同出器物"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠", "year": "约前 13 – 前 11 世纪",
+       "text": "兽形带流带鋬的容器流行于商代晚期，馆方标年代跨 13 至 11 世纪 BCE，涵盖商末至商周之交。无铭文、无地层佐证，故列「器形序列」／「较可靠」。",
+       "src": "met"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "1943 年经 Rogers Fund 购藏。"},
+      {"t": "gap", "text": "早期流转不明"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "兽形流口的造型与朝向，是判断此类容器年代与地域归属的重要线索。",
+        "本库暂未设「觥」器类条目——它与匜、兕觥等相邻器类的边界，是留待后续补齐的空白。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "dep", "text": "「觥」同样是宋代金石学一系（如《宣和博古图》）所定的器类名，商人自铭是否也用此字自称并无直接证据。它与匜、兕觥等相邻器类之间的形制边界，历来是青铜器分类学中悬而未决的问题——不同学者（如容庚、陈梦家等）先后提出的分类标准并不完全一致，本库暂未设「觥」器类条目正是这一分类边界未定的直接反映，沿用「觥」这一通行译法／定名，不代表该边界已有共识。", "src": "xuanhe-bogu-tu"},
+      {"t": "gap", "text": "出土地点仅标「可能安阳」，缺具体单位"},
+      {"t": "gap", "text": "纹饰母题的确切名称未经进一步考订"}
+    ]
+  }
+}

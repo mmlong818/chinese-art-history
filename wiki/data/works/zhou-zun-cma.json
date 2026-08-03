@@ -1,0 +1,83 @@
+{
+  "schema": "work/1",
+  "id": "zhou-zun-cma",
+  "title": "青铜尊",
+  "title_orig": "Wine Vessel (Zun)",
+  "kind": "青铜",
+  "period": "western-zhou",
+  "year": "约前 1000",
+  "year_sort": -1000,
+  "medium": "青铜",
+  "size": "通高 29.5 厘米",
+  "holder": "克利夫兰美术馆（藏品号 1951.151）",
+  "cma_id": 128157,
+  "classes": ["zun"],
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://www.clevelandart.org/art/1951.151",
+    "credit": "Gift from Howard Hollis and Company",
+    "license": "CC0",
+    "thumb": "img/zhou-zun-cma-800.jpg",
+    "full": "https://openaccess-cdn.clevelandart.org/1951.151/1951.151_full.tif",
+    "w": 880,
+    "h": 893,
+    "alt": "西周青铜尊，克利夫兰美术馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "cleveland", "note": "藏品记录、年代、尺寸、判权与馆方说明文字，逐项照录"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "尊的形制演变背景"},
+    {"ref": "xuanhe-bogu-tu", "note": "纹样旧称的来源"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Wine Vessel (Zun)"],
+        ["馆方年代", "c. 1000 BCE"],
+        ["馆方文化断代", "China, Western Zhou dynasty (c. 1046–771 BCE)"],
+        ["材质", "青铜（馆方记 bronze）"],
+        ["尺寸", "通高 29.5 厘米"],
+        ["现藏", "克利夫兰美术馆，藏品号 1951.151"],
+        ["入藏", "Howard Hollis and Company 惠赠"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "本条目核查等级为「馆藏官方核实」：以上各项照录馆方藏品记录，未作改写。", "src": "cleveland"},
+      {"t": "stmt", "state": "adopt", "text": "馆方说明特别指出这是一件西周器：商亡而周人并未废止祭祀与铸铜礼制，但纹样的精神面貌已换了一副气象——这正是本库把「作者无名，但器主有名」列为西周分期关键词之外，另一条值得记的线索：连纹样的表现方式也在变。", "src": "cleveland"}
+    ],
+    "form": [
+      {"t": "p", "text": "喇叭形大口外撇，颈部渐收，肩腹鼓出，圈足外扬；全器四道纵向凸棱（扉棱）纵贯器身，等分为四区。肩腹主纹带饰牛首正面纹，双角外卷上翘，双目以圆凸表示；纹带上下另饰几何或云雷地纹。馆方说明称，外撇喇叭口下配合四道扉棱，造成一种张力与气势。"},
+      {"t": "stmt", "state": "dep", "text": "凸目、双角的兽首正面纹样，宋以来金石学一系统称「饕餮纹」（见《宣和博古图》）。此器纹样明确可辨为牛首形态，本库依可辨形态径称「牛首纹」；若形态不可辨，则用泛称「兽面纹」——两种情形都不采「饕餮纹」，理由与本库「鼎」条目所述相同：商周人如何称呼这类纹样并无记载，沿用宋人命名等于把宋代的理解叠在器物上。", "src": "xuanhe-bogu-tu"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "馆方记录 inscribed 字段为空，本条目视为无铭"}
+    ],
+    "technique": [
+      {"t": "p", "text": "块范法铸造。四道扉棱可能是合范线经修饰强化后的装饰化处理——西周青铜器常见做法，把铸造工艺本身留下的痕迹转化为纹饰的一部分。"},
+      {"t": "stmt", "state": "pend", "text": "具体分铸或浑铸的工艺细节缺检测支撑，本库不作断言。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "出土地点与出土脉络不明，传世流散品的常见状况"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠", "year": "约前 1000",
+       "text": "喇叭口大尊在西周早期沿续商末形制，牛首纹与扉棱组合是西周早期常见配置；馆方标年代约前 1000 年，即西周早期偏后。无铭文、无出土地层可依，故不能列为确证，列「较可靠」。",
+       "src": "cleveland"},
+      {"t": "stmt", "state": "adopt", "text": "此件与本库「簋」「爵」「鼎」诸条目一样，靠器形序列断代，不能因为它体量大、纹样精，就把可靠度悄悄拔高。"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "1951 年由 Howard Hollis and Company 惠赠入藏。"},
+      {"t": "gap", "text": "入藏之前的递藏链与出境经过不明"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "喇叭口的开合角度与扉棱的凸起高度，是判断尊类器物年代的重要标尺，可与「尊」器类条目的分期演变对照。",
+        "从正面看牛首双角与双目的对称构图，是理解「兽面纹类」纹样组织逻辑的入门例子。",
+        "克利夫兰的中国部藏品多为 CC0，可自由取用高清图自行比对。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "disp", "text": "「饕餮纹」「兽面纹」「牛首纹」等命名与分类边界，涉及能否用后世词汇描述前代纹样，本库取「牛首纹／兽面纹」并注明「饕餮纹」来源。"},
+      {"t": "gap", "text": "出土脉络与早期递藏不明"}
+    ]
+  }
+}

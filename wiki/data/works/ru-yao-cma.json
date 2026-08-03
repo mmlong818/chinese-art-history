@@ -1,0 +1,83 @@
+{
+  "schema": "work/1",
+  "id": "ru-yao-cma",
+  "title": "汝窑天青釜洗",
+  "title_orig": "Brush Washer (Ru ware)",
+  "kind": "陶瓷",
+  "period": "northern-song",
+  "year": "约 1086 – 1127（北宋晚期）",
+  "year_sort": 1100,
+  "medium": "香灰胎，天青釜，满釜支烧",
+  "size": "馆方未在公开页面单列尺寸，仅记器型为洗",
+  "holder": "克利夫兰美术馆（藏品号 1957.40）",
+  "cma_id": 134843,
+  "classes": ["ru-yao"],
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://www.clevelandart.org/art/1957.40",
+    "credit": "John L. Severance Fund",
+    "license": "CC0",
+    "thumb": "img/ru-yao-cma-800.jpg",
+    "full": "https://openaccess-cdn.clevelandart.org/1957.40/1957.40_full.tif",
+    "w": 900,
+    "h": 514,
+    "alt": "汝窑天青釜洗，克利夫兰美术馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "cleveland", "note": "藏品记录、年代、产地、材质，逐项照录"},
+    {"ref": "kaogu-wenwu", "note": "清凉寺窑址发掘报告，本条目产地认定的依据"},
+    {"ref": "wangxun-zhongguo-meishushi", "note": "汝窑釜色与支烧工艺的一般性描述"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Brush Washer (Ru ware)"],
+        ["馆方年代", "late 1000s–1127"],
+        ["馆方文化断代", "China, Henan Province, Baofeng, Qingliangsi, Northern Song dynasty (960–1127)"],
+        ["工艺", "馆方记 porcelaneous stoneware, Ru ware"],
+        ["现藏", "克利夫兰美术馆，藏品号 1957.40"],
+        ["入藏", "John L. Severance Fund"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "以上各项**照录馆方藏品记录**，未作改写。馆方直接把窑址标到「宝丰清凉寺」这一级——这在欧美公立馆藏的汝窑标注里并不常见，多数馆方只笼统标「Ru ware」或「Song dynasty」，能标到具体窑址说明馆方参考了清凉寺窑址确认后的最新研究。", "src": "cleveland"},
+      {"t": "stmt", "state": "adopt", "text": "汝窑传世稀少，两岸故宫与英国大维德基金会集中了绝大多数已知实例。此件是本库在西方公立馆藏中找到的、带明确「Ru ware」标注且可自由取用高清图的例子，不代表汝窑传世常态。"}
+    ],
+    "form": [
+      {"t": "p", "text": "器为洗（文房用具，盛水以供涤笔），敞口、浅腹，通体满釜、素面无纹饰。汝窑器物普遍以釜色与造型取胜，装饰性纹样极少，这件洗即是典型例子。"},
+      {"t": "gap", "text": "馆方公开页面未列具体口径、高度尺寸，本库不作推算"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "馆方记录未提及铭文或刻款，汝窑器物本就极少带铭——这是宋代宫廷用瓷的常态，不构成疑点"}
+    ],
+    "technique": [
+      {"t": "p", "text": "满釜支烧：器物通体挂釜，仅底部留极细小的支钉痕（俗称「芝麻挣钉」），代价是烧造难度高、成品率低，与耀州窑、龙泉窑等圈足露胎正烧的做法不同。"},
+      {"t": "stmt", "state": "pend", "text": "本件底部支钉的具体数量与排布，馆方公开记录未详述，本库据现有图版不作精确统计。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "本件为传世流散品，无出土记录。汝窑窑址本身（河南宝丰清凉寺）经 1987 – 2000 年代多次考古发掘确认，但此件与具体发掘地层无直接对应关系——传世器物的产地认定依赖的是与窑址出土标准器的类型学比对，不是这件器物本身被挖出来"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠",
+       "text": "汝窑无铭文传统，本件断代依据是与清凉寺窑址出土标准器（釜色、支烧痕、造型）的类型学比对。清凉寺窑址发掘后，这套比对基准比发掘前的「凭传世品互相比对」更为坚实，故列「较可靠」而非「确证」。",
+       "src": "kaogu-wenwu"},
+      {"t": "stmt", "state": "adopt", "text": "1127 年靖康之变后汝窑窑事随北宋宫廷体系瓦解而终止，这为汝窑器物提供了一个相对明确的年代上限——凡确认为汝窑正统产品者，年代不会晚于此。"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "由 John L. Severance Fund 资助购入克利夫兰美术馆。"},
+      {"t": "gap", "text": "入藏之前的递藏链，馆方公开记录未详述，本库不作推断"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "汝窑釜色的微妙层次极难通过屏幕呈现，若有机会见实物，务必留意光线角度变化下釜面色调的浮动。",
+        "支钉痕在底部，需要留意馆方图版是否含底部视角——多数网页图仅展示正面。",
+        "两岸故宫与英国大维德基金会（今归大英博物馆）藏有绝大多数已知汝窑实例，若欲系统观看，应以此三处为主，本条目所在的克利夫兰馆藏为补充。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "disp", "text": "汝窑实际烧造年数与传世总数均无定论，详见 [[class:ru-yao|汝窑]] 类目条目「争议字段」一节。"},
+      {"t": "stmt", "state": "pend", "text": "本件底部支烧痕的具体细节缺高清图支撑，本库不作精确描述。"},
+      {"t": "gap", "text": "本件入藏前的流转经过不明"}
+    ]
+  }
+}
