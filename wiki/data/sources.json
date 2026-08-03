@@ -1,0 +1,248 @@
+{
+  "schema": "sources/1",
+  "note": "信源分四级。条目里的 [[src:id]] 必须指向此处已登记的 id，否则校验器报死链。tier 越小越接近一手。凡 isbn 或版次未经核实者一律留空，不填猜测值——填错的书目会被下游当成核过的引用。",
+  "tiers": {
+    "1": "一手：馆藏官方记录、考古报告、器物自铭、传世原件",
+    "2": "学术公开：可自由查阅且由专业机构或学者署名",
+    "3": "通史与专著：纸质出版，本库分期与正典取舍的依据",
+    "4": "二手转引：百科与结构化数据，仅作线索与交叉参考，不单独作为事实依据"
+  },
+  "items": [
+    {
+      "id": "zhongguo-meishu-jianshi",
+      "title": "中国美术简史",
+      "authors": "中央美术学院美术史系 中国美术史教研室 编",
+      "publisher": "中国青年出版社 / 高等教育出版社（增订本）",
+      "kind": "survey",
+      "tier": 3,
+      "spine": true,
+      "authority": "本库分期骨架的首要依据。国内美术院校通用教材，章节划分即通行分期；本库的九纪元十七分期以其为底，五代与辽金单列则是本库的操作性细分。",
+      "note": "版次与 ISBN 未核实，故留空。",
+      "verified": false
+    },
+    {
+      "id": "wangxun-zhongguo-meishushi",
+      "title": "中国美术史",
+      "authors": "王逊",
+      "kind": "survey",
+      "tier": 3,
+      "spine": true,
+      "authority": "分期与作品评断的交叉核对。成书早、体例严，对早期材料的处理尤为审慎。",
+      "note": "版次与出版社未核实。",
+      "verified": false
+    },
+    {
+      "id": "sullivan-arts-of-china",
+      "title": "The Arts of China",
+      "title_zh": "中国艺术史",
+      "authors": "Michael Sullivan（苏立文）",
+      "publisher": "University of California Press",
+      "kind": "survey",
+      "tier": 3,
+      "spine": true,
+      "authority": "英文通史的标准本，用于与国内教材交叉核对分期。其对石窟、陶瓷、青铜的比重高于国内绘画本位的通史，本库把非书画材料列为一等实体，参照了这一取向。",
+      "note": "版次与 ISBN 未核实。",
+      "verified": false
+    },
+    {
+      "id": "clunas-art-in-china",
+      "title": "Art in China",
+      "title_zh": "中国艺术",
+      "authors": "Craig Clunas（柯律格）",
+      "publisher": "Oxford University Press",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "方法论上的对照本。它不按朝代而按「墓葬、庙宇、宫廷、士人、市场」五种使用场域重组中国艺术史，提醒本库：朝代分期是行政框架，不是艺术生产的实际单位。本库仍用朝代分期（便于检索），但在条目内说明使用场域。",
+      "note": "版次与 ISBN 未核实。",
+      "verified": false
+    },
+    {
+      "id": "three-thousand-years",
+      "title": "中国绘画三千年",
+      "authors": "杨新、班宗华（Richard Barnhart）、聂崇正、高居翰（James Cahill）、郎绍君、武佩圣 合著",
+      "publisher": "外文出版社 / Yale University Press",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "中美学者合著的绘画通史，两种学术传统在同一部书里并置，可用来看出同一件作品在不同框架下的不同读法。",
+      "note": "版次与 ISBN 未核实。",
+      "verified": false
+    },
+    {
+      "id": "lidai-minghua-ji",
+      "title": "历代名画记",
+      "authors": "张彦远（唐）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "现存最早的系统绘画史，唐以前画史的主要依据。**注意**：张彦远所述多为转录前人著录，其可靠度需逐条评估；凡仅见于此书者本库标 pend 或 disp。本书同时是 treatise 条目，既是信源也是研究对象。",
+      "verified": true
+    },
+    {
+      "id": "xuanhe-huapu",
+      "title": "宣和画谱",
+      "authors": "佚名（北宋宣和年间敕编）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "北宋御府藏画目录，是判断宋代画家地位与作品流传的关键一手材料。但它记录的是御府所藏，不等于当时画坛全貌，且编纂带有明确的品第意图。",
+      "verified": true
+    },
+    {
+      "id": "linquan-gaozhi",
+      "title": "林泉高致",
+      "authors": "郭熙（北宋），郭思 编",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "山水画理论的核心文本，「三远」（高远、深远、平远）出此。本库作品条目的「画面分析」凡涉及空间处理者，以其范畴为描述框架。",
+      "verified": true
+    },
+    {
+      "id": "guhuapinlu",
+      "title": "古画品录",
+      "authors": "谢赫（南齐）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "「六法」出此，是中国绘画批评的起点。注意：六法的断句与释义自唐以来即有异说，尤其「气韵生动」四字如何读，本库并陈不裁断。",
+      "verified": true
+    },
+    {
+      "id": "xuanhe-bogu-tu",
+      "title": "宣和博古图",
+      "authors": "王黼 等（北宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "北宋青铜器图录，宋代金石学的代表成果。**「饕餮纹」一类纹样命名出自此书一系**——沿用它等于把宋人的理解叠在商周器物上，本库改称「兽面纹」并注明旧称来源。",
+      "verified": true
+    },
+    {
+      "id": "kaogu-wenwu",
+      "title": "《考古》《文物》《考古学报》等考古期刊",
+      "kind": "report",
+      "tier": 1,
+      "authority": "出土器物的断代、地层与共出关系的一手依据。本库凡填 dating 块且 basis 为『地层』『共出器物』者，须能追到具体报告。",
+      "note": "本库无法逐篇在线核实，凡引用须在条目内写明期号与页码，标 verification=memory 直至人工核过。",
+      "verified": true
+    },
+    {
+      "id": "dpm",
+      "title": "故宫博物院",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.dpm.org.cn/",
+      "authority": "中国书画与宫廷工艺最重要的收藏机构。数字藏品页可查，**但无公开 API**（2026-08-04 实测仅 HTML），本库无法编程核查，凡引用须记具体藏品页 URL 供人工核对。图像一般不开放自由授权。",
+      "verified": true
+    },
+    {
+      "id": "npm-taipei",
+      "title": "国立故宫博物院（台北）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.npm.gov.tw/",
+      "authority": "宋元书画与宫廷器物的另一半核心收藏。**实测 SSL 证书链验证失败**，本库脚本无法访问；须人工在浏览器中核对。",
+      "verified": true
+    },
+    {
+      "id": "nmc",
+      "title": "中国国家博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.chnmuseum.cn/",
+      "authority": "后母戊鼎等重器的收藏方。仅有 HTML 页面，无公开 API。",
+      "verified": true
+    },
+    {
+      "id": "shanghai-museum",
+      "title": "上海博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.shanghaimuseum.net/",
+      "authority": "青铜与书画的重要收藏。**实测 SSL 握手超时**，脚本无法访问，须人工核对。",
+      "verified": true
+    },
+    {
+      "id": "dunhuang-academy",
+      "title": "敦煌研究院 · 数字敦煌",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.e-dunhuang.com/",
+      "authority": "莫高窟洞窟的官方影像与考古记录。有网页浏览，无公开 API；影像使用须依其授权条款，本库默认按 in-situ 处理不自行取图。",
+      "verified": true
+    },
+    {
+      "id": "cleveland",
+      "title": "Cleveland Museum of Art（克利夫兰美术馆）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://openaccess-api.clevelandart.org/",
+      "license": "多为 CC0",
+      "authority": "本库对流散海外中国文物的首选可核信源。完整开放 API，中国部藏品的 share_license_status 直接给出判权结论，元数据含文化断代、材质、尺寸与藏品号，图像带宽高。实测可直接编程核查与取图。",
+      "verified": true
+    },
+    {
+      "id": "met",
+      "title": "The Metropolitan Museum of Art（大都会博物馆）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/",
+      "authority": "亚洲部（departmentId=6）藏中国文物甚丰，检索与单件 API 均无需密钥，isPublicDomain 为判权字段。实测可用。",
+      "verified": true
+    },
+    {
+      "id": "harvard-art",
+      "title": "Harvard Art Museums",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://iiif.harvardartmuseums.org/",
+      "authority": "IIIF manifest 公开可读，藏中国绘画与青铜。实测 manifest 可直连。",
+      "verified": true
+    },
+    {
+      "id": "freer-sackler",
+      "title": "National Museum of Asian Art（原弗利尔与赛克勒美术馆）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://asia.si.edu/",
+      "authority": "史密森学会下的亚洲艺术馆，藏中国绘画与青铜极精，开放取用政策为 CC0。",
+      "note": "其 API 走 Smithsonian Open Access，需 api.data.gov 密钥，本库尚未接入。",
+      "verified": true
+    },
+    {
+      "id": "smarthistory",
+      "title": "Smarthistory",
+      "kind": "open",
+      "tier": 2,
+      "url": "https://smarthistory.org/",
+      "license": "CC BY-NC-SA 4.0",
+      "authority": "由艺术史学者署名撰写的开放教材，含中国艺术部分。可自由查阅且可核对作者，在无法取得纸质教材原文时作同级替代。",
+      "verified": true
+    },
+    {
+      "id": "met-timeline",
+      "title": "Heilbrunn Timeline of Art History",
+      "title_zh": "海尔布伦艺术史年表",
+      "publisher": "The Metropolitan Museum of Art",
+      "kind": "open",
+      "tier": 2,
+      "url": "https://www.metmuseum.org/essays/timeline-of-art-history",
+      "authority": "馆方学者撰写的分期论文与年表，完全免费。朝代起止与器类演变的第二道核对。",
+      "verified": true
+    },
+    {
+      "id": "wikidata",
+      "title": "Wikidata",
+      "kind": "reference",
+      "tier": 4,
+      "url": "https://www.wikidata.org/",
+      "authority": "结构化交叉参考，中文标签检索可用（实测「八大山人」→ Q198097）。仅用于抓明显错的年代与提供线索，不可单独作为事实依据。有出入时以馆藏页或考古报告为准。",
+      "verified": true
+    },
+    {
+      "id": "wikimedia",
+      "title": "Wikimedia Commons",
+      "kind": "reference",
+      "tier": 4,
+      "url": "https://commons.wikimedia.org/",
+      "license": "各图不同，取 extmetadata.LicenseShortName",
+      "authority": "公版器物与书画的图像来源之一。**必须核作者字段**：文件名分不出原件与摹本，也分不出器物照片与论该器物的旧书扫描页。三维物件的照片著作权属摄影者，常为 CC BY-SA 而非 PD，不得压成 PD。",
+      "verified": true
+    }
+  ]
+}

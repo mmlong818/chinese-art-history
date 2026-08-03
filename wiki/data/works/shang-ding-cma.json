@@ -1,0 +1,85 @@
+{
+  "schema": "work/1",
+  "id": "shang-ding-cma",
+  "title": "青铜鼎",
+  "title_orig": "Tripod Cauldron (Ding)",
+  "kind": "青铜",
+  "period": "erlitou-shang",
+  "year": "约前 1200 – 前 1100",
+  "year_sort": -1150,
+  "medium": "青铜",
+  "size": "通高 14.3 厘米，宽 12.5 厘米",
+  "holder": "克利夫兰美术馆（藏品号 1960.288）",
+  "cma_id": 136423,
+  "classes": ["ding"],
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://www.clevelandart.org/art/1960.288",
+    "credit": "Gift of the John Huntington Art and Polytechnic Trust",
+    "license": "CC0",
+    "thumb": "img/shang-ding-cma-800.jpg",
+    "full": "https://openaccess-cdn.clevelandart.org/1960.288/1960.288_full.tif",
+    "w": 948,
+    "h": 893,
+    "alt": "商代青铜鼎，克利夫兰美术馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "cleveland", "note": "藏品记录、年代、尺寸与判权，逐项照录"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "鼎的形制序列与礼制背景"},
+    {"ref": "xuanhe-bogu-tu", "note": "纹样旧称的来源"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Tripod Cauldron (Ding)"],
+        ["馆方年代", "1200–1100 BCE"],
+        ["馆方文化断代", "China, Shang dynasty (c. 1600–c. 1046 BCE)"],
+        ["材质", "青铜（馆方记 bronze）"],
+        ["尺寸", "通高 14.3 × 宽 12.5 厘米"],
+        ["现藏", "克利夫兰美术馆，藏品号 1960.288"],
+        ["入藏", "John Huntington Art and Polytechnic Trust 捐赠"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "以上各项**照录馆方藏品记录**，未作改写。本条目核查等级为「馆藏官方核实」，即指此。", "src": "cleveland"},
+      {"t": "stmt", "state": "adopt", "text": "这是一件小型鼎——通高仅 14.3 厘米。多数人对「商代鼎」的印象来自后母戊鼎那样的重器，但传世商鼎以中小型为多，此件更接近常态。"}
+    ],
+    "form": [
+      {"t": "p", "text": "圆腹，三足，双立耳。器身饰兽面纹，以云雷纹填地。这是商代中晚期鼎的常见配置。"},
+      {"t": "stmt", "state": "dep", "text": "旧称「饕餮纹」。此名出自宋人《宣和博古图》一系，商人如何称呼这类纹样并无记载——沿用宋人命名，等于把宋代的理解叠在商代器物上。本库改称「兽面纹」，并在此注明旧称来源。", "src": "xuanhe-bogu-tu"},
+      {"t": "gap", "text": "纹样的具体分区与地纹细节，本库未据高清图逐一比对"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "馆方记录未提及铭文，本库不作推断——无铭是商代中小型器的常态，不构成疑点"}
+    ],
+    "technique": [
+      {"t": "p", "text": "商代青铜器以块范法铸造：先制泥模，翻出外范与内范，合范浇铸。器表常见范线，足与耳多为一次铸成或分铸后接铸。"},
+      {"t": "stmt", "state": "pend", "text": "本件的具体铸造工艺（一次浑铸或分铸接铸）须据器表范线与 X 光检测判断，馆方公开记录未及，本库不作断言。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "出土地点与出土脉络不明。传世流散品多无出土记录——这是流散文物的普遍状况，也是它们在断代上先天弱于科学发掘品的原因"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠", "year": "约前 1200 – 前 1100",
+       "text": "馆方给出的年代区间依据器形与纹样在商代青铜器序列中的位置。无铭文、无出土地层可依，故不能列为确证；但器形序列在商代青铜研究中已相当成熟，故列「较可靠」。",
+       "src": "cleveland"},
+      {"t": "stmt", "state": "adopt", "text": "这正是本库为何要求断代必附依据：同样写「商代」，靠铭文、靠地层、靠器形序列得来的可靠性完全不同。此件属第三种。"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "1960 年由 John Huntington Art and Polytechnic Trust 捐赠入克利夫兰美术馆。"},
+      {"t": "gap", "text": "入藏之前的递藏链与出境经过，馆方公开记录未详述，本库不作推断"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "小器要近看。14 厘米的鼎，纹样单元相应细密，远观只见轮廓。",
+        "注意三足与器腹的接合处——那里最容易看出范线与铸造方式。",
+        "克利夫兰的中国部藏品多为 CC0，可自由取用高清图自行比对。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "disp", "text": "「饕餮纹」与「兽面纹」的命名之争，涉及能否用后世词汇描述前代器物。本库取后者并注明前者来源。"},
+      {"t": "stmt", "state": "pend", "text": "铸造工艺细节缺检测支撑。"},
+      {"t": "gap", "text": "出土脉络与早期递藏不明"}
+    ]
+  }
+}
