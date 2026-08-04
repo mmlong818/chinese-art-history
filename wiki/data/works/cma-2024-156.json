@@ -1,0 +1,75 @@
+{
+  "schema": "work/1",
+  "id": "cma-2024-156",
+  "depth": "record",
+  "title": "A Large Painted Striding Horse（2024.156）",
+  "title_orig": "",
+  "kind": "陶瓷",
+  "period": "sui-tang",
+  "holder": "克利夫兰美术馆（藏品号 2024.156）",
+  "year": "700–800s",
+  "size": "Overall: 78.1 x 80 x 22.2 cm (30 3/4 x 31 1/2 x 8 3/4 in.)",
+  "medium": "Pottery with white slip and mineral colors",
+  "one_line": "克利夫兰美术馆藏陶瓷，馆方断代作「700–800s」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 2024.156"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "A Large Painted Striding Horse"
+          ],
+          [
+            "馆方文化断代",
+            "China, Tang dynasty (618–907)"
+          ],
+          [
+            "馆方年代",
+            "700–800s"
+          ],
+          [
+            "材质／技法",
+            "Pottery with white slip and mineral colors"
+          ],
+          [
+            "尺寸",
+            "Overall: 78.1 x 80 x 22.2 cm (30 3/4 x 31 1/2 x 8 3/4 in.)"
+          ],
+          [
+            "入藏说明",
+            "Nancy F. and Joseph P. Keithley Collection Gift"
+          ],
+          [
+            "藏品号",
+            "2024.156"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/2024.156"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → sui-tang；器类归入依据仅为：type=Ceramic。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

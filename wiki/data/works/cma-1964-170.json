@@ -1,0 +1,75 @@
+{
+  "schema": "work/1",
+  "id": "cma-1964-170",
+  "depth": "record",
+  "title": "Arrow Vase with Persian Inscriptions and Floral Scrolls（1964.170）",
+  "title_orig": "",
+  "kind": "陶瓷",
+  "period": "ming",
+  "holder": "克利夫兰美术馆（藏品号 1964.170）",
+  "year": "1506–21",
+  "size": "Diameter: 10.7 cm (4 3/16 in.); Overall: 26 cm (10 1/4 in.)",
+  "medium": "porcelain with underglaze cobalt blue decoration",
+  "one_line": "克利夫兰美术馆藏陶瓷，馆方断代作「1506–21」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 1964.170"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Arrow Vase with Persian Inscriptions and Floral Scrolls"
+          ],
+          [
+            "馆方文化断代",
+            "China, Jiangxi province, Jingdezhen kilns, Ming dynasty (1368-1644), Zhengde mark and reign (1505-1521)"
+          ],
+          [
+            "馆方年代",
+            "1506–21"
+          ],
+          [
+            "材质／技法",
+            "porcelain with underglaze cobalt blue decoration"
+          ],
+          [
+            "尺寸",
+            "Diameter: 10.7 cm (4 3/16 in.); Overall: 26 cm (10 1/4 in.)"
+          ],
+          [
+            "入藏说明",
+            "Severance and Greta Millikin Collection"
+          ],
+          [
+            "藏品号",
+            "1964.170"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/1964.170"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Ceramic。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "cma-2025-35",
+  "depth": "record",
+  "title": "雙喜字（2025.35）",
+  "title_orig": "Double Happiness Character",
+  "kind": "版画",
+  "period": "qing",
+  "holder": "克利夫兰美术馆（藏品号 2025.35）",
+  "year": "1736–95",
+  "size": "93.7 x 54 cm (36 7/8 x 21 1/4 in.)",
+  "medium": "Polychrome woodblock print; ink and color on paper",
+  "one_line": "克利夫兰美术馆藏版画，馆方断代作「1736–95」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 2025.35"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Double Happiness Character"
+          ],
+          [
+            "馆方原题（中）",
+            "雙喜字"
+          ],
+          [
+            "馆方文化断代",
+            "China, Qing dynasty (1644–1911), Qianlong reign (1736–95)"
+          ],
+          [
+            "馆方年代",
+            "1736–95"
+          ],
+          [
+            "材质／技法",
+            "Polychrome woodblock print; ink and color on paper"
+          ],
+          [
+            "尺寸",
+            "93.7 x 54 cm (36 7/8 x 21 1/4 in.)"
+          ],
+          [
+            "入藏说明",
+            "Purchase from the J. H. Wade Fund"
+          ],
+          [
+            "藏品号",
+            "2025.35"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/2025.35"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Print。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

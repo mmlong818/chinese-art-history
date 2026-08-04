@@ -1,0 +1,75 @@
+{
+  "schema": "work/1",
+  "id": "cma-1957-29",
+  "depth": "record",
+  "title": "Jar（1957.29）",
+  "title_orig": "",
+  "kind": "陶瓷",
+  "period": "liao-jin",
+  "holder": "克利夫兰美术馆（藏品号 1957.29）",
+  "year": "900s",
+  "size": "Diameter: 12.8 x 12.5 cm (5 1/16 x 4 15/16 in.); Overall: 12.5 cm (4 15/16 in.)",
+  "medium": "white porcelain with combed and incised decoration",
+  "one_line": "克利夫兰美术馆藏陶瓷，馆方断代作「900s」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 1957.29"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Jar"
+          ],
+          [
+            "馆方文化断代",
+            "Northeast China, Liao dynasty (916-1125)"
+          ],
+          [
+            "馆方年代",
+            "900s"
+          ],
+          [
+            "材质／技法",
+            "white porcelain with combed and incised decoration"
+          ],
+          [
+            "尺寸",
+            "Diameter: 12.8 x 12.5 cm (5 1/16 x 4 15/16 in.); Overall: 12.5 cm (4 15/16 in.)"
+          ],
+          [
+            "入藏说明",
+            "John L. Severance Fund"
+          ],
+          [
+            "藏品号",
+            "1957.29"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/1957.29"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → liao-jin；器类归入依据仅为：type=Ceramic。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

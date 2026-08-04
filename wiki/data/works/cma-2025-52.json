@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "cma-2025-52",
+  "depth": "record",
+  "title": "南海普陀⼭勝景（2025.52）",
+  "title_orig": "Beautiful Scenery of Putuoshan on the Southern Sea",
+  "kind": "版画",
+  "period": "qing",
+  "holder": "克利夫兰美术馆（藏品号 2025.52）",
+  "year": "1700s",
+  "size": "Image: 97 x 54.4 cm (38 3/16 x 21 7/16 in.); Overall: 102.5 x 63 cm (40 3/8 x 24 13/16 in.)",
+  "medium": "Printed in two shades of black and colored by hand",
+  "one_line": "克利夫兰美术馆藏版画，馆方断代作「1700s」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 2025.52"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Beautiful Scenery of Putuoshan on the Southern Sea"
+          ],
+          [
+            "馆方原题（中）",
+            "南海普陀⼭勝景"
+          ],
+          [
+            "馆方文化断代",
+            "China, Qing dynasty (1644–1911), Qianlong reign (1736–95)"
+          ],
+          [
+            "馆方年代",
+            "1700s"
+          ],
+          [
+            "材质／技法",
+            "Printed in two shades of black and colored by hand"
+          ],
+          [
+            "尺寸",
+            "Image: 97 x 54.4 cm (38 3/16 x 21 7/16 in.); Overall: 102.5 x 63 cm (40 3/8 x 24 13/16 in.)"
+          ],
+          [
+            "入藏说明",
+            "Purchase from the J. H. Wade Fund"
+          ],
+          [
+            "藏品号",
+            "2025.52"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/2025.52"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Print。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "cma-2025-20",
+  "depth": "record",
+  "title": "華清宮李⽩醉酒寫詩（2025.20）",
+  "title_orig": "Li Bai Writes a Poem Whilst Drunk In Huaqing Palace",
+  "kind": "版画",
+  "period": "qing",
+  "holder": "克利夫兰美术馆（藏品号 2025.20）",
+  "year": "1700s",
+  "size": "Print only: 101.4 x 49 cm (39 15/16 x 19 5/16 in.); Overall: 177.1 x 62.2 cm (69 3/4 x 24 1/2 in.); with knobs: 67.8 cm (26 11/16 in.)",
+  "medium": "Hanging scroll; polychrome woodblock print; ink and color on paper",
+  "one_line": "克利夫兰美术馆藏版画，馆方断代作「1700s」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 2025.20"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Li Bai Writes a Poem Whilst Drunk In Huaqing Palace"
+          ],
+          [
+            "馆方原题（中）",
+            "華清宮李⽩醉酒寫詩"
+          ],
+          [
+            "馆方文化断代",
+            "China, Qing dynasty (1644–1911)"
+          ],
+          [
+            "馆方年代",
+            "1700s"
+          ],
+          [
+            "材质／技法",
+            "Hanging scroll; polychrome woodblock print; ink and color on paper"
+          ],
+          [
+            "尺寸",
+            "Print only: 101.4 x 49 cm (39 15/16 x 19 5/16 in.); Overall: 177.1 x 62.2 cm (69 3/4 x 24 1/2 in.); with knobs: 67.8 cm (26 11/16 in.)"
+          ],
+          [
+            "入藏说明",
+            "Purchase from the J. H. Wade Fund"
+          ],
+          [
+            "藏品号",
+            "2025.20"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/2025.20"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Print。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "work/1",
+  "id": "wd-q139385223",
+  "depth": "record",
+  "title": "清院本清明上河圖　卷",
+  "kind": "画作",
+  "period": "qing",
+  "holder": "国立故宫博物院（台北）",
+  "one_line": "国立故宫博物院（台北）藏画作。**本条为著录级**：照录 Wikidata 的结构化记录，未作阐释。",
+  "verification": "wikidata",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "wikidata",
+      "note": "结构化记录 Q139385223"
+    },
+    {
+      "ref": "npm-taipei",
+      "note": "现藏机构；官方藏品页须人工核对"
+    }
+  ],
+  "image_status": "no-free-image",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "题名（Wikidata 标签）",
+            "清院本清明上河圖　卷"
+          ],
+          [
+            "创作者",
+            "宫廷画家"
+          ],
+          [
+            "现藏",
+            "国立故宫博物院（台北）"
+          ],
+          [
+            "Wikidata",
+            "Q139385223"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "Wikidata 条目：https://www.wikidata.org/wiki/Q139385223"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上照录 Wikidata 的结构化记录，本库未作独立核校，亦未就断代、归属、真伪作任何判断。分期归入依据仅为：P571 年代 1736 → qing。**Wikidata 的错误率不低于本库**——已累计九例假值与误指（占位生卒、活动年代被当生卒、同名误指），引用本条前须回核馆方官方页。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "Wikidata 未记该件断代所依据的证据类型。**填本库断代十档的任何一档，都是替它作了它没作的声明**，故此处留空。"
+      }
+    ]
+  }
+}

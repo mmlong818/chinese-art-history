@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "cma-2020-278-3",
+  "depth": "record",
+  "title": "非山非水之三（2020.278.3）",
+  "title_orig": "Neither Mountain nor Water 3",
+  "kind": "版画",
+  "period": "contemporary",
+  "holder": "克利夫兰美术馆（藏品号 2020.278.3）",
+  "year": "2016",
+  "size": "61 x 97 cm (24 x 38 3/16 in.)",
+  "medium": "Woodblock print, printed on xuan paper with water-soluble ink",
+  "one_line": "克利夫兰美术馆藏版画，馆方断代作「2016」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 2020.278.3"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Neither Mountain nor Water 3"
+          ],
+          [
+            "馆方原题（中）",
+            "非山非水之三"
+          ],
+          [
+            "馆方文化断代",
+            "China"
+          ],
+          [
+            "馆方年代",
+            "2016"
+          ],
+          [
+            "材质／技法",
+            "Woodblock print, printed on xuan paper with water-soluble ink"
+          ],
+          [
+            "尺寸",
+            "61 x 97 cm (24 x 38 3/16 in.)"
+          ],
+          [
+            "入藏说明",
+            "The Sarah Stern Michael Fund"
+          ],
+          [
+            "藏品号",
+            "2020.278.3"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/2020.278.3"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 2016–2020 唯一落入 contemporary；器类归入依据仅为：type=Print。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

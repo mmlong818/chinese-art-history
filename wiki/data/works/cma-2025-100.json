@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "cma-2025-100",
+  "depth": "record",
+  "title": "蘇州閶⾨景（2025.100）",
+  "title_orig": "View of Changmen Gate in Suzhou",
+  "kind": "版画",
+  "period": "qing",
+  "holder": "克利夫兰美术馆（藏品号 2025.100）",
+  "year": "1700s",
+  "size": "Image: 34.6 x 52 cm (13 5/8 x 20 1/2 in.); Overall: 110 x 66.4 cm (43 5/16 x 26 1/8 in.); Overall with knobs: 110 x 71.8 cm (43 5/16 x 28 1/4 in.)",
+  "medium": "Hanging scroll; printed in two shades of black and red ink",
+  "one_line": "克利夫兰美术馆藏版画，馆方断代作「1700s」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 2025.100"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "View of Changmen Gate in Suzhou"
+          ],
+          [
+            "馆方原题（中）",
+            "蘇州閶⾨景"
+          ],
+          [
+            "馆方文化断代",
+            "China, Suzhou, Qing dynasty (1644–1911)"
+          ],
+          [
+            "馆方年代",
+            "1700s"
+          ],
+          [
+            "材质／技法",
+            "Hanging scroll; printed in two shades of black and red ink"
+          ],
+          [
+            "尺寸",
+            "Image: 34.6 x 52 cm (13 5/8 x 20 1/2 in.); Overall: 110 x 66.4 cm (43 5/16 x 26 1/8 in.); Overall with knobs: 110 x 71.8 cm (43 5/16 x 28 1/4 in.)"
+          ],
+          [
+            "入藏说明",
+            "Purchase from the J. H. Wade Fund"
+          ],
+          [
+            "藏品号",
+            "2025.100"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/2025.100"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Print。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

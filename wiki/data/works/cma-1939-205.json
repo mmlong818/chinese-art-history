@@ -1,0 +1,75 @@
+{
+  "schema": "work/1",
+  "id": "cma-1939-205",
+  "depth": "record",
+  "title": "Bottle Vase with Dragons and Waves（1939.205）",
+  "title_orig": "",
+  "kind": "陶瓷",
+  "period": "qing",
+  "holder": "克利夫兰美术馆（藏品号 1939.205）",
+  "year": "1736–95",
+  "size": "Overall: 35.5 cm (14 in.)",
+  "medium": "Porcelain decorated in underglaze cobalt blue and copper red",
+  "one_line": "克利夫兰美术馆藏陶瓷，馆方断代作「1736–95」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 1939.205"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Bottle Vase with Dragons and Waves"
+          ],
+          [
+            "馆方文化断代",
+            "China, Jiangxi province, Jingdezhen kilns, Qing dynasty (1644-1911), Qianlong mark and reign (1736-95)"
+          ],
+          [
+            "馆方年代",
+            "1736–95"
+          ],
+          [
+            "材质／技法",
+            "Porcelain decorated in underglaze cobalt blue and copper red"
+          ],
+          [
+            "尺寸",
+            "Overall: 35.5 cm (14 in.)"
+          ],
+          [
+            "入藏说明",
+            "Gift of Mrs. Howard M. Hanna, Mrs. Paul Moore, and Leonard C. Hanna Jr., in memory of Leonard C. Hanna"
+          ],
+          [
+            "藏品号",
+            "1939.205"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/1939.205"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Ceramic。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

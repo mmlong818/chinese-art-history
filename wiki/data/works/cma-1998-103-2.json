@@ -1,0 +1,75 @@
+{
+  "schema": "work/1",
+  "id": "cma-1998-103-2",
+  "depth": "record",
+  "title": "Attacking the Camp at Gatan Ola: from Battle Scenes of the Quelling of Rebellions in the Western Region, with Imperial Poems（1998.103.2）",
+  "title_orig": "",
+  "kind": "版画",
+  "period": "qing",
+  "holder": "克利夫兰美术馆（藏品号 1998.103.2）",
+  "year": "c. 1765–74; poem dated 1755",
+  "size": "Overall: 51 x 87 cm (20 1/16 x 34 1/4 in.)",
+  "medium": "etching, mounted in album form, 16 leaves plus two additional leaves of inscriptions",
+  "one_line": "克利夫兰美术馆藏版画，馆方断代作「c. 1765–74; poem dated 1755」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 1998.103.2"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Attacking the Camp at Gatan Ola: from Battle Scenes of the Quelling of Rebellions in the Western Region, with Imperial Poems"
+          ],
+          [
+            "馆方文化断代",
+            "China, Qing dynasty (1644–1911), Qianlong reign (1736–95)"
+          ],
+          [
+            "馆方年代",
+            "c. 1765–74; poem dated 1755"
+          ],
+          [
+            "材质／技法",
+            "etching, mounted in album form, 16 leaves plus two additional leaves of inscriptions"
+          ],
+          [
+            "尺寸",
+            "Overall: 51 x 87 cm (20 1/16 x 34 1/4 in.)"
+          ],
+          [
+            "入藏说明",
+            "John L. Severance Fund"
+          ],
+          [
+            "藏品号",
+            "1998.103.2"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/1998.103.2"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Print。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

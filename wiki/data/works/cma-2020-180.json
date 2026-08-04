@@ -1,0 +1,75 @@
+{
+  "schema": "work/1",
+  "id": "cma-2020-180",
+  "depth": "record",
+  "title": "Yellow-Glazed Bowl（2020.180）",
+  "title_orig": "",
+  "kind": "陶瓷",
+  "period": "ming",
+  "holder": "克利夫兰美术馆（藏品号 2020.180）",
+  "year": "1505–21",
+  "size": "Overall: 8 x 18.9 cm (3 1/8 x 7 7/16 in.)",
+  "medium": "Porcelain with monochrome yellow glaze",
+  "one_line": "克利夫兰美术馆藏陶瓷，馆方断代作「1505–21」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 2020.180"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Yellow-Glazed Bowl"
+          ],
+          [
+            "馆方文化断代",
+            "China, Jiangxi province, Jingdezhen kilns, Ming dynasty (1368–1644), Zhengde mark and reign (1505–21)"
+          ],
+          [
+            "馆方年代",
+            "1505–21"
+          ],
+          [
+            "材质／技法",
+            "Porcelain with monochrome yellow glaze"
+          ],
+          [
+            "尺寸",
+            "Overall: 8 x 18.9 cm (3 1/8 x 7 7/16 in.)"
+          ],
+          [
+            "入藏说明",
+            "Nancy F. and Joseph P. Keithley Collection Gift"
+          ],
+          [
+            "藏品号",
+            "2020.180"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/2020.180"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Ceramic。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

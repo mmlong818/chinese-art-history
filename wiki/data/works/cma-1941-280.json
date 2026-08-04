@@ -1,0 +1,75 @@
+{
+  "schema": "work/1",
+  "id": "cma-1941-280",
+  "depth": "record",
+  "title": "Branch with Pomegranate（1941.280）",
+  "title_orig": "",
+  "kind": "版画",
+  "period": "qing",
+  "holder": "克利夫兰美术馆（藏品号 1941.280）",
+  "year": "18th Century",
+  "size": "Overall: 28.1 x 24.4 cm (11 1/16 x 9 5/8 in.)",
+  "medium": "color woodblock print",
+  "one_line": "克利夫兰美术馆藏版画，馆方断代作「18th Century」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 1941.280"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Branch with Pomegranate"
+          ],
+          [
+            "馆方文化断代",
+            "China, Qing dynasty (1644-1911)"
+          ],
+          [
+            "馆方年代",
+            "18th Century"
+          ],
+          [
+            "材质／技法",
+            "color woodblock print"
+          ],
+          [
+            "尺寸",
+            "Overall: 28.1 x 24.4 cm (11 1/16 x 9 5/8 in.)"
+          ],
+          [
+            "入藏说明",
+            "Edward L. Whittemore Fund"
+          ],
+          [
+            "藏品号",
+            "1941.280"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/1941.280"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Print。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "cma-1969-123",
+  "depth": "record",
+  "title": "仿董巨山水圖（1969.123）",
+  "title_orig": "Landscape in the Style of Dong Yuan and Juran",
+  "kind": "画作",
+  "period": "qing",
+  "holder": "克利夫兰美术馆（藏品号 1969.123）",
+  "year": "c. 1650",
+  "size": "Image: 216.6 x 57.3 cm (85 1/4 x 22 9/16 in.); Overall: 285.8 x 75.5 cm (112 1/2 x 29 3/4 in.); with knobs: 258.8 x 90.1 cm (101 7/8 x 35 1/2 in.)",
+  "medium": "hanging scroll, ink with white pigment on silk",
+  "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 1650」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 1969.123"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Landscape in the Style of Dong Yuan and Juran"
+          ],
+          [
+            "馆方原题（中）",
+            "仿董巨山水圖"
+          ],
+          [
+            "馆方文化断代",
+            "China, Qing dynasty (1644-1911)"
+          ],
+          [
+            "馆方年代",
+            "c. 1650"
+          ],
+          [
+            "材质／技法",
+            "hanging scroll, ink with white pigment on silk"
+          ],
+          [
+            "尺寸",
+            "Image: 216.6 x 57.3 cm (85 1/4 x 22 9/16 in.); Overall: 285.8 x 75.5 cm (112 1/2 x 29 3/4 in.); with knobs: 258.8 x 90.1 cm (101 7/8 x 35 1/2 in.)"
+          ],
+          [
+            "入藏说明",
+            "Andrew R. and Martha Holden Jennings Fund"
+          ],
+          [
+            "藏品号",
+            "1969.123"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/1969.123"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

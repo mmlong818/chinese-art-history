@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "cma-2025-564",
+  "depth": "record",
+  "title": "衛生合作社（2025.564）",
+  "title_orig": "Healthcare Cooperative",
+  "kind": "版画",
+  "period": "late-qing-republic",
+  "holder": "克利夫兰美术馆（藏品号 2025.564）",
+  "year": "1944",
+  "size": "16.5 x 24.1 cm (6 1/2 x 9 1/2 in.)",
+  "medium": "Woodblock print; oil-based ink on paper",
+  "one_line": "克利夫兰美术馆藏版画，馆方断代作「1944」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 2025.564"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Healthcare Cooperative"
+          ],
+          [
+            "馆方原题（中）",
+            "衛生合作社"
+          ],
+          [
+            "馆方文化断代",
+            "China"
+          ],
+          [
+            "馆方年代",
+            "1944"
+          ],
+          [
+            "材质／技法",
+            "Woodblock print; oil-based ink on paper"
+          ],
+          [
+            "尺寸",
+            "16.5 x 24.1 cm (6 1/2 x 9 1/2 in.)"
+          ],
+          [
+            "入藏说明",
+            "Sundry Art - Miscellaneous Fund"
+          ],
+          [
+            "藏品号",
+            "2025.564"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/2025.564"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 1944–1944 唯一落入 late-qing-republic；器类归入依据仅为：type=Print。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

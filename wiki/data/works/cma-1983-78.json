@@ -1,0 +1,75 @@
+{
+  "schema": "work/1",
+  "id": "cma-1983-78",
+  "depth": "record",
+  "title": "Jar with Handles: Yue ware（1983.78）",
+  "title_orig": "",
+  "kind": "陶瓷",
+  "period": "sui-tang",
+  "holder": "克利夫兰美术馆（藏品号 1983.78）",
+  "year": "c. 800s",
+  "size": "Diameter: 22 cm (8 11/16 in.); Overall: 17.8 x 22.5 cm (7 x 8 7/8 in.)",
+  "medium": "gray stoneware with iron glaze",
+  "one_line": "克利夫兰美术馆藏陶瓷，馆方断代作「c. 800s」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 1983.78"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Jar with Handles: Yue ware"
+          ],
+          [
+            "馆方文化断代",
+            "China, Tang dynasty (618-907)"
+          ],
+          [
+            "馆方年代",
+            "c. 800s"
+          ],
+          [
+            "材质／技法",
+            "gray stoneware with iron glaze"
+          ],
+          [
+            "尺寸",
+            "Diameter: 22 cm (8 11/16 in.); Overall: 17.8 x 22.5 cm (7 x 8 7/8 in.)"
+          ],
+          [
+            "入藏说明",
+            "The Severance and Greta Millikin Purchase Fund"
+          ],
+          [
+            "藏品号",
+            "1983.78"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/1983.78"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → sui-tang；器类归入依据仅为：type=Ceramic。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

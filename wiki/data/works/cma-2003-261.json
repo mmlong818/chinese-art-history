@@ -1,0 +1,75 @@
+{
+  "schema": "work/1",
+  "id": "cma-2003-261",
+  "depth": "record",
+  "title": "Small Dish with Yellow Enamel（2003.261）",
+  "title_orig": "",
+  "kind": "陶瓷",
+  "period": "qing",
+  "holder": "克利夫兰美术馆（藏品号 2003.261）",
+  "year": "1736–95",
+  "size": "Diameter: 8.8 cm (3 7/16 in.); Overall: 3 cm (1 3/16 in.)",
+  "medium": "enameled porcelain",
+  "one_line": "克利夫兰美术馆藏陶瓷，馆方断代作「1736–95」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 2003.261"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Small Dish with Yellow Enamel"
+          ],
+          [
+            "馆方文化断代",
+            "China, Qing dynasty (1644-1911), Qianlong mark and reign (1735-1795)"
+          ],
+          [
+            "馆方年代",
+            "1736–95"
+          ],
+          [
+            "材质／技法",
+            "enameled porcelain"
+          ],
+          [
+            "尺寸",
+            "Diameter: 8.8 cm (3 7/16 in.); Overall: 3 cm (1 3/16 in.)"
+          ],
+          [
+            "入藏说明",
+            "Bequest of Nicholas J. Velloney"
+          ],
+          [
+            "藏品号",
+            "2003.261"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/2003.261"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Ceramic。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

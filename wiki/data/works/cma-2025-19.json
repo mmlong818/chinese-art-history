@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "cma-2025-19",
+  "depth": "record",
+  "title": "清鉴秋冬美境（2025.19）",
+  "title_orig": "Beautiful Autumn and Winter Landscapes",
+  "kind": "版画",
+  "period": "qing",
+  "holder": "克利夫兰美术馆（藏品号 2025.19）",
+  "year": "1736–95",
+  "size": "Print only: 93.3 x 53.5 cm (36 3/4 x 21 1/16 in.); Overall with mount: 182.2 x 64 cm (71 3/4 x 25 3/16 in.)",
+  "medium": "Hanging scroll; woodblock print; ink on paper",
+  "one_line": "克利夫兰美术馆藏版画，馆方断代作「1736–95」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 2025.19"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Beautiful Autumn and Winter Landscapes"
+          ],
+          [
+            "馆方原题（中）",
+            "清鉴秋冬美境"
+          ],
+          [
+            "馆方文化断代",
+            "China, Qing dynasty (1644–1911), Qianlong reign (1736–95)"
+          ],
+          [
+            "馆方年代",
+            "1736–95"
+          ],
+          [
+            "材质／技法",
+            "Hanging scroll; woodblock print; ink on paper"
+          ],
+          [
+            "尺寸",
+            "Print only: 93.3 x 53.5 cm (36 3/4 x 21 1/16 in.); Overall with mount: 182.2 x 64 cm (71 3/4 x 25 3/16 in.)"
+          ],
+          [
+            "入藏说明",
+            "Purchase from the J. H. Wade Fund"
+          ],
+          [
+            "藏品号",
+            "2025.19"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/2025.19"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Print。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}
