@@ -934,6 +934,46 @@
       "authority": "柯律格对 2005 年伦敦皇家艺术学院该展的评论，**与已登记的其专著 `clunas-art-in-china` 是两回事**——此文批评的正是大展如何以帝王视角组织中国艺术的叙事，是本库「选件即判断」的当代例证。",
       "note": "题名已确认，全文未获，未据以立事实。",
       "verified": false
+    },
+    {
+      "id": "suzhou-museum",
+      "title": "苏州博物馆",
+      "kind": "primary",
+      "tier": 1,
+      "url": "https://www.szmuseum.com/",
+      "authority": "苏州博物馆藏品。吴门画派故地，明清书画与文人清玩藏量可观。**无公开 API**，藏品须记官方页 URL 供人工核对，verification 最高标 wikidata。",
+      "verified": false,
+      "note": "无公开 API，须人工核对官方藏品页。"
+    },
+    {
+      "id": "nelson-atkins",
+      "title": "The Nelson-Atkins Museum of Art（纳尔逊-艾金斯艺术博物馆）",
+      "kind": "primary",
+      "tier": 1,
+      "url": "https://art.nelson-atkins.org/",
+      "authority": "堪萨斯城，藏有极重要的中国绘画——李成《晴峦萧寺图》、许道宁《渔父图》、乔仲常《后赤壁赋图》等北宋名件多在此。**是本库那个「不对称」的又一例证**：北宋山水的若干关键实物不在中国而在美国中西部一座城市。本机 Eagle 图库亦有该馆专门目录（87 张），是待开发的接口之一。",
+      "verified": false,
+      "note": "无公开 API，须人工核对官方藏品页。"
+    },
+    {
+      "id": "osaka-museum-fine-arts",
+      "title": "大阪市立美術館",
+      "kind": "primary",
+      "tier": 1,
+      "url": "https://www.osaka-art-museum.jp/",
+      "authority": "藏有极重要的中国绘画，多出阿部房次郎旧藏——燕文贵《江山楼观图》、宫素然《明妃出塞图》、《五星二十八星宿神形图》等本库条目所据实物皆在此。**无公开 API**；且实测未能查到可直引的单件藏品页 URL，藏品须人工核对。这是本库那个「不对称」的又一面：**唐宋绘画的若干关键实物在日本**，而日本各馆的数字化开放程度与欧美相差甚远。",
+      "verified": false,
+      "note": "无可直引的单件藏品页，须人工核对。"
+    },
+    {
+      "id": "tnm-tokyo",
+      "title": "東京国立博物館（ColBase）",
+      "kind": "primary",
+      "tier": 1,
+      "url": "https://colbase.nich.go.jp/",
+      "authority": "藏李氏《潇湘卧游图》等南宋名件。ColBase 是日本国立文化财机构的联合检索平台，**有 API 但实测其字段中并无展览史与递藏**（见 MUSEUMS.md），故只能作年代与现藏的交叉参考，不能替代馆方档案。",
+      "verified": false,
+      "note": "无可直引的单件藏品页，须人工核对。"
     }
   ]
 }

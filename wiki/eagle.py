@@ -172,6 +172,9 @@ def find(q, limit=30):
     hit = [i for i in items
            if q in i["name"] or q in " ".join(i["tags"]) or q in " ".join(i["paths"])]
     flat = [i for i in hit if i["use"] == "flat"]
+    # 按宽度降序——同一题目下各张尺寸差得远（同一卷有 600px 的整段也有 170px 的局部），
+    # 让最大的排在最前，免得撰写者随手取到最小那张。
+    hit.sort(key=lambda i: (i["use"] != "flat", -(i["w"] or 0)))
     print(f"「{q}」命中 {len(hit)} 张（其中平面翻拍 {len(flat)} 张可作图版候选）\n")
     for i in hit[:limit]:
         mark = "可发布" if i["use"] == "flat" else "仅参考"
@@ -246,16 +249,98 @@ def gaps(least=12):
         print(f"  …另 {len(miss)-90} 项")
 
 
+DOUBAN_URL = "https://img9.doubanio.com/view/photo/l/public/{pid}.jpg"
+DB_ID = re.compile(r"^p\d{6,}$")
+
+
+def export(pid, work_id, credit, seen, dry=False):
+    """把一张平面翻拍落到 static/img/ 并打印 image 块。
+
+    四道闸，一道都不能省：
+
+    一、**只导出判为 flat 的条目。**实拍是摄影者的作品，工具层拒绝，
+       不留给撰写者临时判断——判断放在会累的人身上，迟早会松。
+
+    二、**必须给 `--seen`，一句话描述你在图上真看到了什么。**
+       实测发现：目录名判不出「是否忠实翻拍」。同一批豆瓣素材里，
+       《浮玉山居图》那张是正投影、无环境的干净平面复制；
+       「故宫博物院所藏书法」那张是纸沿卷曲、略带角度的局部特写；
+       而「高逸图卷和人物画」那张**是展柜实拍（上下可见展柜横栏），
+       且画面内容根本不是高逸图**——那个目录是合集，混着别的人物画。
+       **展柜实拍不属忠实翻拍，拍摄者有著作权；合集目录会张冠李戴。**
+       所以这个判断只能逐图目验。此参数写不出来，就是没看过。
+       它同时落为 image.alt，本来就该有。
+
+    三、**w/h 从落盘文件直读**，不信索引里的数字。
+
+    四、**source_url 用豆瓣图床直链**（已实测 /l 与 /raw 同一文件），
+       留下原始链接是署名义务的一部分，也是这条记录可被第三方复核的前提。
+    """
+    import shutil
+    sys.path.insert(0, str(WIKI))
+    from fetchimg import _jpeg_size
+
+    items = load()
+    hit = [i for i in items if i["name"] == pid]
+    if not hit:
+        sys.exit(f"索引里没有 {pid}")
+    it = hit[0]
+    if it["use"] != "flat":
+        sys.exit(f"{pid} 判为实拍（{it['paths'][0] if it['paths'] else '?'}）——"
+                 f"那是摄影者的作品，本工具不导出。二维书画的忠实翻拍才可用。")
+    if not DB_ID.match(pid):
+        sys.exit(f"{pid} 不是豆瓣照片 ID，无法给出可复核的出处链接，不导出")
+
+    if len(str(seen or "").strip()) < 12:
+        sys.exit("--seen 须写一句话描述你在图上真看到了什么（须能说明不是展柜实拍、"
+                 "且画面确为该件）——写不出来就是没看过，本工具不代你下这个判断")
+    src = Path(it["file"])
+    if not src.exists():
+        sys.exit(f"文件不在：{src}")
+    w, h = _jpeg_size(src)
+    if not (w and h):
+        sys.exit(f"读不出 {src.name} 的像素尺寸，不导出——w/h 缺失会使长宽比预留失效")
+    dst = WIKI / "static" / "img" / f"{work_id}-{w}.jpg"
+    block = {
+        "source": "douban",
+        "source_url": DOUBAN_URL.format(pid=pid),
+        "credit": credit,
+        "license": "PD",
+        "thumb": f"img/{dst.name}",
+        "w": w, "h": h,
+        "alt": seen,
+        "note": (f"二维作品的忠实翻拍，不产生新的著作权，故按 PD 处理；"
+                 f"原始文件为豆瓣相册所存 {w}×{h} 显示件（实测该图床 /l 与 /raw "
+                 f"为同一文件，上游无更大版本）。**此为图示级，足以辨认作品，"
+                 f"不足以论笔墨。**"),
+    }
+    print(json.dumps(block, ensure_ascii=False, indent=2))
+    if dry:
+        return
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(src, dst)
+    print(f"\n已落盘 static/img/{dst.name}（{dst.stat().st_size:,} B）")
+
+
 def main():
-    ap = argparse.ArgumentParser(description="本机 Eagle 图库索引（只读，不导出图片）")
+    ap = argparse.ArgumentParser(description="本机 Eagle 图库索引（只读；export 只导平面翻拍）")
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("index")
     f = sub.add_parser("find"); f.add_argument("q"); f.add_argument("--limit", type=int, default=30)
     sub.add_parser("match")
     g = sub.add_parser("gaps"); g.add_argument("--least", type=int, default=12)
+    x = sub.add_parser("export")
+    x.add_argument("pid"); x.add_argument("--id", required=True, dest="work_id")
+    x.add_argument("--credit", required=True,
+                   help="署名。须写明原件现藏机构，例如「上海博物馆藏；豆瓣相册转录」")
+    x.add_argument("--seen", required=True,
+                   help="先用 Read 看过这张图，再一句话描述画面：是正投影的平面复制"
+                        "还是展柜实拍？画面内容确为该件吗？此句将落为 image.alt")
+    x.add_argument("--dry", action="store_true")
     a = ap.parse_args()
     {"index": lambda: build(), "find": lambda: find(a.q, a.limit),
-     "match": match, "gaps": lambda: gaps(a.least)}[a.cmd]()
+     "match": match, "gaps": lambda: gaps(a.least),
+     "export": lambda: export(a.pid, a.work_id, a.credit, a.seen, a.dry)}[a.cmd]()
 
 
 if __name__ == "__main__":
