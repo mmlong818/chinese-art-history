@@ -34,6 +34,7 @@ import re
 import sys
 import time
 import unicodedata
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -155,13 +156,26 @@ def pick_kind(t, medium):
     return None, f"type={t!r} 无对应 kind"
 
 
-def _get(url, tries=4):
+def _get(url, tries=7):
+    """带退避重试。**Wikidata 与 WDQS 都在限流**（WDQS 实测 1 请求/分钟，
+    报错里明说该规则是故障期加的），所以退避要长、次数要多：
+    2→4→8→16→32→64 秒，且遇 429 时读 Retry-After。
+    一次限流失败就放弃，会把「被限流」误报成「无此数据」——那是最坏的结论。"""
     delay = 2.0
     for i in range(tries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=60) as r:
+            with urllib.request.urlopen(req, timeout=90) as r:
                 return json.loads(r.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            if i == tries - 1:
+                raise
+            wait = delay
+            ra = e.headers.get("Retry-After") if e.headers else None
+            if ra and str(ra).isdigit():
+                wait = max(delay, float(ra))
+            time.sleep(wait)
+            delay *= 2
         except Exception:
             if i == tries - 1:
                 raise
@@ -358,6 +372,267 @@ def cma(limit=50, apply=False):
             print(json.dumps(made[0], ensure_ascii=False, indent=2)[:900])
 
 
+
+# ── Wikidata：国内各馆藏品 + 艺术家 ────────────────────────────────────────
+#
+# **这一路是为纠偏而加的。**若作品九成来自克利夫兰，本库实质上是「克利夫兰中国
+# 藏品目录」冒充中国美术史；更坏的是，它会把本库自己反复讲的那个不对称——
+# 流散文物数据齐备、国内重器无从核——**从一个被记录的事实变成一个被复制的结构**。
+#
+# Wikidata 里确有大量国内馆藏的结构化记录，且带故宫的真实藏品号
+# （秋郊饮马图 故00005866、步辇图 新00119106、五牛图 新00087179）。
+# 实测 150 条故宫藏品的字段覆盖：中文标签 99%、藏品号 98%、
+# 创作者 21%、图像 20%、**年代仅 13%**。
+# 年代是 `period` 的来源，所以摄入率受它限制——**没年代又没可用创作者的一律跳过**。
+#
+# 另：WDQS（SPARQL 端点）在故障期，实测限流到 1 请求/分钟；
+# 故这里走 CirrusSearch（`haswbstatement:`）+ `wbgetentities`，两者都不经 WDQS。
+# **过滤是否真生效必须用对照查验**：以不存在的 QID 查得 0 条才算生效——
+# 本项目已有两次「过滤没生效而返回全库总量」的实例（芝加哥 place_of_origin、
+# 我最初那次 haswbstatement 的怀疑）。
+
+WD_API = "https://www.wikidata.org/w/api.php"
+WD_GAP = 2.5   # 秒。比克利夫兰慢一倍——Wikidata 这两天在限流
+
+# 现藏机构 QID → (本库信源 id, 馆名)。经检索 API 逐一核过，不是猜的。
+WD_MUSEUMS = {
+    "Q2047427": ("dpm", "故宫博物院"),
+    "Q540668": ("npm-taipei", "国立故宫博物院（台北）"),
+    "Q1051293": ("shanghai-museum", "上海博物馆"),
+    "Q1074318": ("nmc", "中国国家博物馆"),
+    "Q1278762": ("zhejiang-museum", "浙江省博物馆"),
+    "Q4391403": ("hubei-museum", "湖北省博物馆"),
+    "Q1151210": ("shaanxi-history-museum", "陕西历史博物馆"),
+}
+
+# P31 → kind。Q17362920 是「維基媒體重複頁面」标记项，**不是艺术品，必须排除**。
+WD_KIND = {
+    "Q3305213": "画作", "Q2026188": "画作", "Q22669850": "书法",
+    "Q75837457": "版画", "Q11060274": "版画",
+    "Q1348059": "画作",              # 手卷
+    "Q98276829": "陶瓷", "Q17379525": "陶瓷", "Q14745": "家具",
+}
+# 明确拒绝映射的类型。**「太泛」与「未收录」是两种不同的拒绝理由，都要写下来**，
+# 否则下一个人会以为只是漏了：
+#   Q17362920 維基媒體重複頁面 —— 不是艺术品，是维护用的标记项
+#   Q2342494  收藏品          —— 「有收藏价值之物」，材质与门类什么都没说
+#   Q49848    文献            —— 映射成「书法」就是发明；它可能只是一份文书
+#   Q1368     貨幣            —— 本库无「钱币」这一 kind；加一个是范围决定，不顺手做
+WD_SKIP_TYPE = {"Q17362920", "Q2342494", "Q49848", "Q1368"}
+# 「金属物体」太泛，须按材质判——与克利夫兰 Metalwork 同一处理
+WD_METAL = "Q11646939"
+WD_MATERIAL = {"Q34095": "青铜", "Q37756": "青铜", "Q897": "金银器",
+               "Q1090": "金银器", "Q753": "金银器"}
+
+
+def _wd(**kw):
+    kw.setdefault("format", "json")
+    return _get(WD_API + "?" + urllib.parse.urlencode(kw))
+
+
+def wd_ids(qid, want, control=True):
+    """枚举现藏该馆的条目 QID。**先用不存在的 QID 做对照,确认过滤真生效。**"""
+    if control:
+        c = _wd(action="query", list="search",
+                srsearch="haswbstatement:P195=Q999999999", srnamespace=0, srlimit=1)
+        if c["query"]["searchinfo"]["totalhits"] != 0:
+            sys.exit("对照查得非 0——haswbstatement 过滤未生效，拒绝摄入")
+    out, off = [], 0
+    while len(out) < want:
+        d = _wd(action="query", list="search", srsearch=f"haswbstatement:P195={qid}",
+                srnamespace=0, srlimit=50, sroffset=off)
+        got = [h["title"] for h in d["query"]["search"]]
+        if not got:
+            break
+        out += got
+        off += 50
+        time.sleep(WD_GAP)
+    return out[:want]
+
+
+def _claim(cl, pid):
+    for c in cl.get(pid, []):
+        v = c.get("mainsnak", {}).get("datavalue", {}).get("value")
+        if v is not None:
+            return v
+    return None
+
+
+def _qid(v):
+    return v.get("id") if isinstance(v, dict) else None
+
+
+def _year_of(v):
+    if not isinstance(v, dict) or not v.get("time"):
+        return None
+    m = re.match(r"([+-])(\d{1,5})-", str(v["time"]))
+    if not m:
+        return None
+    y = int(m.group(2))
+    return -y if m.group(1) == "-" else y
+
+
+def _artist_index():
+    """本库艺术家：中文名 → (id, period)。用于据创作者补出分期。"""
+    idx = {}
+    for f in (WIKI / "data" / "artists").glob("*.json"):
+        d = json.loads(f.read_text(encoding="utf-8"))
+        if d.get("name"):
+            idx[d["name"]] = (d["id"], d.get("period"))
+    return idx
+
+
+def period_by_year(y):
+    fits = [pid for pid, (s, e) in SPANS.items()
+            if s is not None and e is not None and s <= y <= e]
+    return fits[0] if len(fits) == 1 else None
+
+
+def wd_build(e, mus_qid, artists, label_cache):
+    qid = e["id"]
+    cl = e.get("claims", {})
+    t = _qid(_claim(cl, "P31"))
+    if t in WD_SKIP_TYPE:
+        return None, "维基媒体重复页面标记项，非艺术品"
+    kind = WD_KIND.get(t)
+    if not kind and t == WD_METAL:
+        mat = _qid(_claim(cl, "P186"))
+        kind = WD_MATERIAL.get(mat)
+        if not kind:
+            return None, f"金属物体但材质 {mat} 判不出青铜或金银"
+    if not kind:
+        return None, f"P31={t} 无对应 kind"
+    lab = e.get("labels", {})
+    name = ((lab.get("zh") or lab.get("zh-hans") or lab.get("zh-hant") or {}).get("value")
+            or (lab.get("en") or {}).get("value"))
+    if not name:
+        return None, "无标签"
+
+    # 分期：先用 P571 的年份；无则看创作者是否为本库已有艺术家，借其分期
+    pid = None
+    why = ""
+    y = _year_of(_claim(cl, "P571"))
+    if y is not None:
+        pid = period_by_year(y)
+        why = f"P571 年代 {y} → {pid}" if pid else ""
+    if not pid:
+        cq = _qid(_claim(cl, "P170"))
+        cname = label_cache.get(cq)
+        if cname and cname in artists:
+            aid, ap = artists[cname]
+            if ap:
+                pid, why = ap, f"创作者「{cname}」为本库已有条目，借其分期 {ap}"
+    if not pid:
+        return None, "无年代且创作者不在本库，分期判不出"
+
+    src_id, mus_name = WD_MUSEUMS[mus_qid]
+    acc = _claim(cl, "P217")
+    cq = _qid(_claim(cl, "P170"))
+    cname = label_cache.get(cq)
+    artist_id = artists.get(cname, (None, None))[0] if cname else None
+
+    d = {
+        "schema": "work/1", "id": "wd-" + qid.lower(), "depth": "record",
+        "title": f"{name}（{acc}）" if acc else name,
+        "kind": kind, "period": pid,
+        "holder": f"{mus_name}" + (f"（藏品号 {acc}）" if acc else ""),
+        "one_line": (f"{mus_name}藏{kind}。**本条为著录级**："
+                     f"照录 Wikidata 的结构化记录，未作阐释。"),
+        "verification": "wikidata",
+        "updated": "2026-08-05",
+        "sources": [{"ref": "wikidata", "note": f"结构化记录 {qid}"},
+                    {"ref": src_id, "note": "现藏机构；官方藏品页须人工核对"}],
+        "image_status": "no-free-image",
+        "sections": {
+            "basics": [
+                {"t": "kv", "rows": [r for r in [
+                    ["题名（Wikidata 标签）", name],
+                    ["创作者", cname or ""],
+                    ["现藏", mus_name],
+                    ["藏品号", str(acc or "")],
+                    ["Wikidata", qid],
+                ] if r[1]]},
+                {"t": "p", "text": f"Wikidata 条目：https://www.wikidata.org/wiki/{qid}"},
+                {"t": "stmt", "state": "pend",
+                 "text": ("**本条为著录级条目。**以上照录 Wikidata 的结构化记录，"
+                          "本库未作独立核校，亦未就断代、归属、真伪作任何判断。"
+                          f"分期归入依据仅为：{why}。"
+                          "**Wikidata 的错误率不低于本库**——已累计九例假值与误指"
+                          "（占位生卒、活动年代被当生卒、同名误指），"
+                          "引用本条前须回核馆方官方页。")},
+            ],
+            "dating": [
+                {"t": "gap",
+                 "text": ("Wikidata 未记该件断代所依据的证据类型。**填本库断代十档的任何一档，"
+                          "都是替它作了它没作的声明**，故此处留空。")},
+            ],
+        },
+    }
+    if artist_id:
+        d["artist"] = artist_id
+    return d, None
+
+
+def wd_works(quota, apply=False):
+    """按馆分配额摄入，**不让任何一家占多数**。"""
+    ids, _ = existing()
+    artists = _artist_index()
+    made, skipped = [], collections.Counter()
+    for mq, (src_id, mus) in WD_MUSEUMS.items():
+        want = quota.get(mq, 0)
+        if not want:
+            continue
+        print(f"── {mus}：目标 {want} 条")
+        qids = wd_ids(mq, want * 6)      # 摄入率约两成，故多取几倍候选
+        got = 0
+        # 先批量取标签，供「创作者是否在本库」判断
+        label_cache = {}
+        for i in range(0, len(qids), 40):
+            if got >= want:
+                break
+            d = _wd(action="wbgetentities", ids="|".join(qids[i:i + 40]),
+                    props="labels|claims", languages="zh|zh-hans|zh-hant|en")
+            ents = list((d.get("entities") or {}).values())
+            # 补取创作者标签
+            creators = {_qid(_claim(e.get("claims", {}), "P170")) for e in ents}
+            creators = [x for x in creators if x and x not in label_cache]
+            for j in range(0, len(creators), 40):
+                cd = _wd(action="wbgetentities", ids="|".join(creators[j:j + 40]),
+                         props="labels", languages="zh|zh-hans|zh-hant|en")
+                for cq, ce in (cd.get("entities") or {}).items():
+                    cl_ = ce.get("labels", {})
+                    label_cache[cq] = ((cl_.get("zh") or cl_.get("zh-hans")
+                                        or cl_.get("zh-hant") or cl_.get("en")
+                                        or {}).get("value"))
+                time.sleep(WD_GAP)
+            for e in ents:
+                if got >= want:
+                    break
+                if not e.get("id"):
+                    continue
+                w, why = wd_build(e, mq, artists, label_cache)
+                if not w:
+                    skipped[re.sub(r"[：:].*", "", why)] += 1
+                    continue
+                if w["id"] in ids:
+                    skipped["id 重复"] += 1
+                    continue
+                ids.add(w["id"])
+                made.append(w)
+                got += 1
+            time.sleep(WD_GAP)
+        print(f"   得 {got} 条")
+    print(f"\n合计 {len(made)} 条；跳过 {sum(skipped.values())}")
+    for k, v in skipped.most_common(8):
+        print(f"   {v:>5}  {k}")
+    if apply:
+        for w in made:
+            (WIKI / "data" / "works" / f'{w["id"]}.json').write_text(
+                json.dumps(w, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"已写入 {len(made)} 个文件")
+    return made
+
+
 def main():
     ap = argparse.ArgumentParser(description="批量摄入著录级条目（判不出就不摄入）")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -365,9 +640,15 @@ def main():
     c = sub.add_parser("cma")
     c.add_argument("--limit", type=int, default=50)
     c.add_argument("--apply", action="store_true")
+    w = sub.add_parser("wd")
+    w.add_argument("--per", type=int, default=100,
+                   help="每馆配额；分散来源，不让任何一家占多数")
+    w.add_argument("--apply", action="store_true")
     a = ap.parse_args()
     if a.cmd == "survey":
         survey(a.pages)
+    elif a.cmd == "wd":
+        wd_works({q: a.per for q in WD_MUSEUMS}, a.apply)
     else:
         cma(a.limit, a.apply)
 
