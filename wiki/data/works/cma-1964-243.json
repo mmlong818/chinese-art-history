@@ -1,0 +1,75 @@
+{
+  "schema": "work/1",
+  "id": "cma-1964-243",
+  "depth": "record",
+  "title": "Screen with European Figures (obverse) and Landscape (reverse) with Stand（1964.243）",
+  "title_orig": "",
+  "kind": "家具",
+  "period": "qing",
+  "holder": "克利夫兰美术馆（藏品号 1964.243）",
+  "year": "1736–95",
+  "size": "Painting only: 35.7 x 32.4 cm (14 1/16 x 12 3/4 in.); height with stand: 65.8 cm (25 7/8 in.); screen only: 44.3 x 47.6 x 1.5 cm (17 7/16 x 18 3/4 x 9/16 in.)",
+  "medium": "painted enamel, glass painting, and cast-iron stand",
+  "one_line": "克利夫兰美术馆藏家具，馆方断代作「1736–95」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 1964.243"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Screen with European Figures (obverse) and Landscape (reverse) with Stand"
+          ],
+          [
+            "馆方文化断代",
+            "China, Beijing palace workshops, Qing Dynasty (1644-1911), Qianlong reign (1736-1795)"
+          ],
+          [
+            "馆方年代",
+            "1736–95"
+          ],
+          [
+            "材质／技法",
+            "painted enamel, glass painting, and cast-iron stand"
+          ],
+          [
+            "尺寸",
+            "Painting only: 35.7 x 32.4 cm (14 1/16 x 12 3/4 in.); height with stand: 65.8 cm (25 7/8 in.); screen only: 44.3 x 47.6 x 1.5 cm (17 7/16 x 18 3/4 x 9/16 in.)"
+          ],
+          [
+            "入藏说明",
+            "Severance and Greta Millikin Collection"
+          ],
+          [
+            "藏品号",
+            "1964.243"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/1964.243"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Furniture and woodwork。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

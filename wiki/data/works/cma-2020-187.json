@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "cma-2020-187",
+  "depth": "record",
+  "title": "絞釉盤（2020.187）",
+  "title_orig": "Flat Dish Made of Marbled Clay",
+  "kind": "陶瓷",
+  "period": "northern-song",
+  "holder": "克利夫兰美术馆（藏品号 2020.187）",
+  "year": "960–1234",
+  "size": "Diameter: 16.8 cm (6 5/8 in.)",
+  "medium": "Stoneware with marbled clay and transparent glaze",
+  "one_line": "克利夫兰美术馆藏陶瓷，馆方断代作「960–1234」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 2020.187"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Flat Dish Made of Marbled Clay"
+          ],
+          [
+            "馆方原题（中）",
+            "絞釉盤"
+          ],
+          [
+            "馆方文化断代",
+            "North or Central China, Northern Song (960–1127) or Jin dynasty (1115–1234)"
+          ],
+          [
+            "馆方年代",
+            "960–1234"
+          ],
+          [
+            "材质／技法",
+            "Stoneware with marbled clay and transparent glaze"
+          ],
+          [
+            "尺寸",
+            "Diameter: 16.8 cm (6 5/8 in.)"
+          ],
+          [
+            "入藏说明",
+            "Nancy F. and Joseph P. Keithley Collection Gift"
+          ],
+          [
+            "藏品号",
+            "2020.187"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/2020.187"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → northern-song；器类归入依据仅为：type=Ceramic。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

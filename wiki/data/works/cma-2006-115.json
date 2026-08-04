@@ -1,0 +1,75 @@
+{
+  "schema": "work/1",
+  "id": "cma-2006-115",
+  "depth": "record",
+  "title": "Earth Landscape（2006.115）",
+  "title_orig": "",
+  "kind": "画作",
+  "period": "contemporary",
+  "holder": "克利夫兰美术馆（藏品号 2006.115）",
+  "year": "c. 2004",
+  "size": "Painting: 87.6 x 177.8 cm (34 1/2 x 70 in.)",
+  "medium": "Horizontal flat mount; ink and color on paper",
+  "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 2004」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 2006.115"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Earth Landscape"
+          ],
+          [
+            "馆方文化断代",
+            "China"
+          ],
+          [
+            "馆方年代",
+            "c. 2004"
+          ],
+          [
+            "材质／技法",
+            "Horizontal flat mount; ink and color on paper"
+          ],
+          [
+            "尺寸",
+            "Painting: 87.6 x 177.8 cm (34 1/2 x 70 in.)"
+          ],
+          [
+            "入藏说明",
+            "Norman O. Stone and Ella A. Stone Memorial Fund"
+          ],
+          [
+            "藏品号",
+            "2006.115"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/2006.115"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 2002–2006 唯一落入 contemporary；器类归入依据仅为：type=Painting。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

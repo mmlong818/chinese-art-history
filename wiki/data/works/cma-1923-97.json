@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "cma-1923-97",
+  "depth": "record",
+  "title": "佛頭（1923.97）",
+  "title_orig": "Head of Buddha",
+  "kind": "石雕",
+  "period": "wei-jin-nanbei",
+  "holder": "克利夫兰美术馆（藏品号 1923.97）",
+  "year": "c. 570",
+  "size": "Overall: 62.2 x 54.6 cm (24 1/2 x 21 1/2 in.)",
+  "medium": "limestone",
+  "one_line": "克利夫兰美术馆藏石雕，馆方断代作「c. 570」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 1923.97"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Head of Buddha"
+          ],
+          [
+            "馆方原题（中）",
+            "佛頭"
+          ],
+          [
+            "馆方文化断代",
+            "China, Hebei province, northern Xiangtangshan caves, South cave, Northern Qi dynasty (550-577)"
+          ],
+          [
+            "馆方年代",
+            "c. 570"
+          ],
+          [
+            "材质／技法",
+            "limestone"
+          ],
+          [
+            "尺寸",
+            "Overall: 62.2 x 54.6 cm (24 1/2 x 21 1/2 in.)"
+          ],
+          [
+            "入藏说明",
+            "Gift of C. T. Loo"
+          ],
+          [
+            "藏品号",
+            "1923.97"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/1923.97"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → wei-jin-nanbei；器类归入依据仅为：Sculpture + 石质。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

@@ -24,8 +24,9 @@ from pathlib import Path
 
 import render as r
 from schema import (ARTIST_GENERATED, ARTIST_SECTIONS, CLASS_SECTIONS, DISPUTES,
-                    EVENT_SECTIONS, IMAGE_STATUS, SITE_SECTIONS, TREATISE_SECTIONS,
-                    WORK_KIND_GROUP, WORK_SECTIONS, Corpus, validate)
+                    EVENT_SECTIONS, IMAGE_STATUS, RECORD_SECTIONS, SITE_SECTIONS,
+                    TREATISE_SECTIONS, WORK_KIND_GROUP, WORK_SECTIONS, Corpus,
+                    depth_of, validate)
 
 ROOT = Path(__file__).parent
 DIST = ROOT / "dist"
@@ -221,12 +222,22 @@ def page_work(w, c):
     notes = {"dating": "依据与可靠度并列，不只给年份",
              "relayers": "今日所见常为叠压层，非原作原貌",
              "rubbings": "研究对象常是拓本而非原石"}
+    # 著录级必须在页面上说出来。**不标出来就等于宣称它也经过了完整级那套审查**——
+    # 而它只是照录了馆方字段，没有人读过材料、做过取舍。
+    rec = ""
+    if depth_of(w) == "record":
+        spec = RECORD_SECTIONS
+        rec = ('<p class="depth-note"><span class="dn-tag">著录级</span>'
+               '本条只照录结构化来源（馆方记录）实际载明的内容——题名、年代、现藏、'
+               '材质、尺寸、藏品号与图版出处。**未作论述与阐释，未下四态判断，'
+               '断代依据亦非本库所判**。它与本库的完整级条目是两种体裁，'
+               '不是同一体裁的详略之别。</p>')
     body = (f'<main class="split">{plate}<div class="app"><div class="app-in">'
             f'<h1 class="app-h1">{r.e(w["title"])}'
             f'<span class="app-o">{r.e(w.get("title_orig", ""))}</span></h1>'
             f'<p class="app-by">{owner}'
             f'{" · " + r.e(w.get("year","")) if w.get("year") else ""}'
-            f' · {r.chip(w.get("kind",""))}</p>'
+            f' · {r.chip(w.get("kind",""))}</p>{rec}'
             f'{_toc(spec, w)}{_sections(w, spec, d, c, notes)}'
             f'{r.section("details", "细部", dets) if dets else ""}{_srcbar(w, d, c)}'
             f'<p class="backlink">{("← 返回 " + owner) if owner else ""}</p>'

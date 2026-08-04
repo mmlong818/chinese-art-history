@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "cma-1925-135",
+  "depth": "record",
+  "title": "陶炉上的力士搏虎浮雕（1925.135）",
+  "title_orig": "Panel from Model Cooking Stove: Lancer Jousting with a Tiger",
+  "kind": "陶瓷",
+  "period": "qin-han",
+  "holder": "克利夫兰美术馆（藏品号 1925.135）",
+  "year": "100–1 BCE",
+  "size": "Overall: 11.9 x 31.1 x 1.9 cm (4 11/16 x 12 1/4 x 3/4 in.)",
+  "medium": "earthenware with impressed relief decoration",
+  "one_line": "克利夫兰美术馆藏陶瓷，馆方断代作「100–1 BCE」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 1925.135"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Panel from Model Cooking Stove: Lancer Jousting with a Tiger"
+          ],
+          [
+            "馆方原题（中）",
+            "陶炉上的力士搏虎浮雕"
+          ],
+          [
+            "馆方文化断代",
+            "China, from a tomb in Xi'an, Shaanxi province, Western Han dynasty (206 BCE–8 CE)"
+          ],
+          [
+            "馆方年代",
+            "100–1 BCE"
+          ],
+          [
+            "材质／技法",
+            "earthenware with impressed relief decoration"
+          ],
+          [
+            "尺寸",
+            "Overall: 11.9 x 31.1 x 1.9 cm (4 11/16 x 12 1/4 x 3/4 in.)"
+          ],
+          [
+            "入藏说明",
+            "Charles W. Harkness Endowment Fund"
+          ],
+          [
+            "藏品号",
+            "1925.135"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/1925.135"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qin-han；器类归入依据仅为：type=Ceramic。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

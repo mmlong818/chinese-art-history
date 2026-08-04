@@ -150,9 +150,16 @@ ARTIST_CAT = {"绘画", "书法", "篆刻", "雕塑"}
 
 # work 的维度按 kind 分派。不给每种材质造一套，归成五组。
 WORK_KIND_GROUP = {
-    "画作": "书画", "书法": "书画", "篆刻": "书画",
+    # 「版画」是清点馆藏时才发现漏掉的：克利夫兰中国部抽样 500 件里 Print 占 98 件，
+    # 全库估计约五百。佛经版画、明清小说插图、年画、《芥子园画传》一类图谱，
+    # **是中国美术史的实质门类而本库原先整个没有**。归书画组：它是平面作品，
+    # 那一组的维度（画面分析／技法与材料／题跋与鉴藏）正对得上。
+    "画作": "书画", "书法": "书画", "篆刻": "书画", "版画": "书画",
+    # 「珐琅」同为清点时补入：掐丝珐琅与画珐琅在明清宫廷工艺里自成一路，
+    # 材质与工序都不能归入金银器或陶瓷。
     "青铜": "器物", "陶瓷": "器物", "玉器": "器物", "漆器": "器物",
     "织绣": "器物", "金银器": "器物", "家具": "器物", "竹木牙角": "器物",
+    "珐琅": "器物",
     "碑刻": "石刻", "摩崖": "石刻", "画像石": "石刻", "经幢": "石刻",
     "壁画": "窟寺", "塑像": "窟寺",
     "石雕": "雕塑", "木雕": "雕塑", "铜佛": "雕塑",
@@ -527,8 +534,14 @@ def _check_sections(obj, spec, where, c, out):
     if not isinstance(secs, dict):
         out.append(Problem("ERROR", where, "缺 sections 对象"))
         return
+    # 著录级只要 basics，且**不要求 disputes**——它不作阐释，就没有可争之处；
+    # 强求一个争议字段只会逼出空话或编造的争议。
+    if depth_of(obj) == "record":
+        spec, need_disputes = RECORD_SECTIONS, False
+    else:
+        need_disputes = True
     known = {s for s, _ in spec} | {DISPUTES[0]}
-    for sid, label in list(spec) + [DISPUTES]:
+    for sid, label in (list(spec) + ([DISPUTES] if need_disputes else [])):
         if sid not in secs:
             out.append(Problem("ERROR", where, f"缺必备维度 {sid}（{label}）"))
         else:
@@ -569,6 +582,39 @@ def _has(secs, sid, t):
     return any(b.get("t") == t for b in secs.get(sid, []))
 
 
+# ── 条目深度：两种体裁，不是完整与残缺 ────────────────────────────────────
+#
+# 要把本库做到数千条，不可能每条都是十二维、每个断言带四态的写法——
+# 而**若不把深度差别标出来，整套认知标注就成了装饰**：读者会以为五千条都经过了
+# 那种审查，实则绝大多数只是照录了馆方说了什么。
+#
+# 所以分两级，并且要认清它们的分别不在「写得多少」，而在**有没有人做过判断**：
+#
+#   full    完整级。十二维／五组维度俱全，断言带四态，断代附依据与可靠度，
+#           争议并陈。**有人读过材料、做过取舍。**
+#   record  著录级。只记结构化来源实际说了什么：题名、年代、现藏、材质、尺寸、
+#           藏品号、图、出处链接。**不写论述、不作阐释、不下四态判断**——
+#           因为确实没人做过，写了就是假的。
+#
+# 关键的一条：**著录级不是完整级的残缺版，是另一种体裁。**它断言得少，
+# 就不该看起来断言得多。同一条原则本库已用过两次——
+# 「图示级」标记（600px 认得出是哪件、不足以论笔墨），
+# `no-free-image` 与 `copyright` 的分别（一个断言已公版、一个断言仍在保护期）。
+#
+# 著录级仍受那三条硬约束（断代／重修层／拓本谱系），但可用 `gap` 满足，
+# 而那个 gap 是真话：**馆方给了年代，却没有公布这个年代依据什么**。
+DEPTH = {
+    "full": "完整级：维度俱全，断言带四态，断代附依据",
+    "record": "著录级：只照录结构化来源，未作阐释与判断",
+}
+RECORD_SECTIONS = [("basics", "基础信息")]
+
+
+def depth_of(obj):
+    """缺 `depth` 视为 full——现有条目都是手写的完整条目，默认不能反过来。"""
+    return obj.get("depth") or "full"
+
+
 def validate(c):
     out = [Problem("ERROR", str(f), f"JSON 语法错误——{msg}") for f, msg in c.broken]
 
@@ -593,6 +639,8 @@ def validate(c):
     for wid, wk in c.works.items():
         w = f"work/{wid}"
         _check_common(wk, w, c, out, ["title", "kind", "period", "holder"])
+        if depth_of(wk) not in DEPTH:
+            out.append(Problem("ERROR", w, f"depth {wk.get('depth')!r} 须为 {sorted(DEPTH)} 之一"))
         kind = wk.get("kind")
         group = WORK_KIND_GROUP.get(kind)
         if not group:

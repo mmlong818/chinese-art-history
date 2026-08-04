@@ -74,9 +74,14 @@ def dupes(c, rep):
 
     按标题单独去重会误报——中国美术史撞名极多（历代都有《山水图》《墨竹图》），
     真正可疑的是同一作者名下重复。"""
+    from schema import depth_of
     titles, thumbs = defaultdict(list), defaultdict(list)
     for w in c.works.values():
-        titles[(w["title"], w.get("artist") or w.get("site"))].append(w["id"])
+        # 著录级豁免同名检查：馆方题名极多重复（同一批里三件都叫
+        # Bodhisattva Guanyin），而它们确是三件不同的物，藏品号已附在题名里作区分。
+        # 报出来只会淹掉真正的重复。
+        if depth_of(w) != "record":
+            titles[(w["title"], w.get("artist") or w.get("site"))].append(w["id"])
         im = w.get("image") or {}
         if im.get("thumb"):
             thumbs[im["thumb"]].append(w["id"])
@@ -104,15 +109,26 @@ def thin(c, rep):
 
 
 def sourcing(c, rep):
+    """信源多寡。**著录级条目豁免「单源」这一条**——
+
+    它照录的就是某一家馆方的记录，引一个源正是它的性质；要求它引两个，
+    只会逼出为凑数而添的第二个源。要求多源的理由（免于单一视角）
+    只对做过判断的完整级条目成立。"""
+    from schema import depth_of
     used = Counter()
+    rec = 0
     for kind, eid, o in c.all_entities():
         refs = {s["ref"] for s in o.get("sources", []) if isinstance(s, dict) and s.get("ref")}
         used.update(refs)
-        if len(refs) < MIN_SOURCES:
+        if depth_of(o) == "record":
+            rec += 1
+        elif len(refs) < MIN_SOURCES:
             rep("单源", f"{kind}/{eid} 只引了 {len(refs)} 个信源")
         for b in _blocks(o):
             if b.get("src"):
                 used[b["src"]] += 1
+    if rec:
+        rep("信源", f"{rec} 条著录级条目按其性质只引馆方一个源，已豁免单源检查")
     never = sorted(c.src_ids - set(used))
     if never:
         rep("信源", f"{len(never)} 个已登记但从未被引用：{never}")
@@ -324,7 +340,31 @@ def foreign(c, rep):
 
 
 ORDER = ("范围", "覆盖", "待编", "重复", "稀薄", "单源", "信源", "态度",
-         "断代", "拓本", "重修", "核查", "图像", "外文", "未译")
+         "断代", "拓本", "重修", "核查", "图像", "外文", "未译", "深度")
+
+def depth_mix(c, rep):
+    """条目深度构成。**这一项存在的理由是防自欺。**
+
+    要把本库做到数千条，绝大多数必然是著录级——只照录馆方字段、无人做过判断。
+    那本身没问题，**但若不把比例摊在明面上，「本库每条断言都带认知标注」这句话
+    就会从事实变成广告**。所以这里报绝对数与占比，并在完整级占比过低时明说。
+    """
+    from schema import depth_of
+    import collections
+    n = collections.Counter()
+    for kind, eid, o in c.all_entities():
+        if kind != "work":
+            continue
+        n[depth_of(o)] += 1
+    tot = sum(n.values()) or 1
+    rep("深度", "作品条目：" + "、".join(
+        f"{k} {v}（{v*100//tot}%）" for k, v in n.most_common()))
+    full = n.get("full", 0)
+    if n.get("record") and full * 100 // tot < 20:
+        rep("深度", f"完整级仅占 {full*100//tot}%——**本库的认知标注只覆盖了这一小部分**。"
+                    f"著录级条目未经取舍，不可当作已审查过的内容引用；"
+                    f"对外描述本库时须说明这个比例。")
+
 ACTIONABLE = ("范围", "重复", "稀薄", "外文", "未译")
 
 
@@ -337,7 +377,7 @@ def main():
 
     for check in (scope, dupes, thin, sourcing, epistemics, dating_health,
                   rubbing_health, relayer_health, verification, images,
-                  image_files, foreign):
+                  image_files, foreign, depth_mix):
         check(c, rep)
 
     print(" · ".join(f"{k} {v}" for k, v in c.stats().items()) + "\n")

@@ -1,0 +1,79 @@
+{
+  "schema": "work/1",
+  "id": "cma-2012-99",
+  "depth": "record",
+  "title": "文村記事（2012.99）",
+  "title_orig": "Last Days of Village Wen",
+  "kind": "画作",
+  "period": "contemporary",
+  "holder": "克利夫兰美术馆（藏品号 2012.99）",
+  "year": "2011",
+  "size": "Painting only: 34.6 x 657.8 cm (13 5/8 x 259 in.); Painting only: 34.6 x 610.8 cm (13 5/8 x 240 1/2 in.)",
+  "medium": "Pair of handscrolls; ink and color on Xuan paper",
+  "one_line": "克利夫兰美术馆藏画作，馆方断代作「2011」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 2012.99"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Last Days of Village Wen"
+          ],
+          [
+            "馆方原题（中）",
+            "文村記事"
+          ],
+          [
+            "馆方文化断代",
+            "China"
+          ],
+          [
+            "馆方年代",
+            "2011"
+          ],
+          [
+            "材质／技法",
+            "Pair of handscrolls; ink and color on Xuan paper"
+          ],
+          [
+            "尺寸",
+            "Painting only: 34.6 x 657.8 cm (13 5/8 x 259 in.); Painting only: 34.6 x 610.8 cm (13 5/8 x 240 1/2 in.)"
+          ],
+          [
+            "入藏说明",
+            "The Severance and Greta Millikin Purchase Fund"
+          ],
+          [
+            "藏品号",
+            "2012.99"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/2012.99"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 2011–2011 唯一落入 contemporary；器类归入依据仅为：type=Painting。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

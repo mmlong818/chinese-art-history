@@ -1,0 +1,75 @@
+{
+  "schema": "work/1",
+  "id": "cma-1959-130",
+  "depth": "record",
+  "title": "Stele with Maitreya and Attendants（1959.130）",
+  "title_orig": "",
+  "kind": "石雕",
+  "period": "wei-jin-nanbei",
+  "holder": "克利夫兰美术馆（藏品号 1959.130）",
+  "year": "500",
+  "size": "Overall: 94.6 x 54.6 cm (37 1/4 x 21 1/2 in.)",
+  "medium": "gray limestone",
+  "one_line": "克利夫兰美术馆藏石雕，馆方断代作「500」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录，藏品号 1959.130"
+    }
+  ],
+  "image_status": "pending",
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题（英）",
+            "Stele with Maitreya and Attendants"
+          ],
+          [
+            "馆方文化断代",
+            "China, Northern Wei dynasty (386-534)"
+          ],
+          [
+            "馆方年代",
+            "500"
+          ],
+          [
+            "材质／技法",
+            "gray limestone"
+          ],
+          [
+            "尺寸",
+            "Overall: 94.6 x 54.6 cm (37 1/4 x 21 1/2 in.)"
+          ],
+          [
+            "入藏说明",
+            "Gift of Severance and Greta Millikin"
+          ],
+          [
+            "藏品号",
+            "1959.130"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://clevelandart.org/art/1959.130"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → wei-jin-nanbei；器类归入依据仅为：Sculpture + 石质。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  }
+}

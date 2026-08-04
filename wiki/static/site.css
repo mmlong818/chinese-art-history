@@ -546,3 +546,17 @@ blockquote cite { display: block; font: 400 12.5px var(--mono); font-style: norm
   .kv th { width: auto; }
   .tl li { grid-template-columns: minmax(0, 1fr); gap: 2px; }
 }
+
+/* ── 著录级标记：把「我们知道到什么程度」写在页面上 ─────────────────────────
+   著录级条目只照录馆方字段，没有人读过材料做过取舍。**不标出来就等于宣称它也
+   经过了完整级那套审查。**做成通栏提示而非小徽章，因为它限定的是整条目的性质，
+   不是某一句话。与「图示级」标记同理：都是往下限定，不是勋章。            */
+
+.depth-note { display: grid; gap: 5px; margin: 14px 0 18px; padding: 11px 14px;
+  border: 1px dashed var(--line); border-left: 3px solid var(--muted);
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  font-size: 13px; line-height: 1.7; color: var(--muted); }
+.dn-tag { font: 500 11px var(--mono); color: var(--ink); letter-spacing: .04em; }
+.card .dn-mini { font: 400 10px var(--mono); color: var(--faint);
+  border: 1px dashed var(--line); border-radius: 2px; padding: 1px 4px;
+  justify-self: start; margin-top: 3px; }
