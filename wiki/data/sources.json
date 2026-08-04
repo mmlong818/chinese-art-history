@@ -974,6 +974,26 @@
       "authority": "藏李氏《潇湘卧游图》等南宋名件。ColBase 是日本国立文化财机构的联合检索平台，**有 API 但实测其字段中并无展览史与递藏**（见 MUSEUMS.md），故只能作年代与现藏的交叉参考，不能替代馆方档案。",
       "verified": false,
       "note": "无可直引的单件藏品页，须人工核对。"
+    },
+    {
+      "id": "artic",
+      "title": "Art Institute of Chicago（芝加哥艺术博物馆）",
+      "kind": "primary",
+      "tier": 1,
+      "url": "https://api.artic.edu/",
+      "authority": "亚洲部藏中国文物。**其公开 API 无需密钥即返回 `provenance_text`、`exhibition_history`、`publication_history` 三栏**——这是继克利夫兰之后本库第二条可编程的馆方档案通道，且它另有 `place_of_origin` 可直接筛产地，比大都会只有部门可筛更可靠。**注意**：三栏的覆盖率不均，同一批检索里有的件三栏全有、有的一栏也无；`provenance_text` 是整段自由文本而非分段列表，本库不代它切分（切错比不切更坏）。",
+      "note": "2026-08-05 实测无需 API key。",
+      "verified": true
+    },
+    {
+      "id": "chen-mengjia-yinzhou-tonqi",
+      "title": "美帝国主义劫掠的我国殷周铜器集录（日文版作《殷周青銅器分類圖録》）",
+      "authors": "陈梦家编，科学出版社 1962；日文版松丸道雄编，东京 1977",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "流散于美国的殷周青铜器的系统集录，是这一类器物的基础工具书。**这部书本身就是本库那个「不对称」的缩影**：流散器物的学术记录由中国学者编成，冠以 1962 年的政治书名，其后经松丸道雄的日文版（题作《殷周青铜器分类图录》，英文副题 A Corpus of Chinese Bronzes in American Collections）成为国际通用的工具书——**记录者、命名者与流通者分属三方**。**注意**：书名属 1962 年的口径，本库按通则标明评价属何时；而其著录与分类工作的学术价值独立于书名，两者须分开评。芝加哥艺术博物馆的 publication_history 字段里可见此书的引用链。",
+      "note": "版次与页码未逐一核实；日文版与中文原稿的异同亦未核。",
+      "verified": false
     }
   ]
 }

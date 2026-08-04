@@ -27,8 +27,11 @@
 无需 key）与史密森尼国立亚洲艺术博物馆（递藏逐条带日期与档案编号，全 CC0，须申请 key，
 字段详尽度胜过克利夫兰）。逐家实测细节见 `MUSEUMS.md`。
 
-所以本工具目前只做克利夫兰一家，不是因为别家没有，而是**做一家能做实的，
-胜过对五家都半通不通**。接下一家的顺序按数据质量：史密森尼 → 芝加哥 → 南京博物院。
+**已接两家**：克利夫兰（`scan`/`show`/`write`/`write-all`）与芝加哥
+（`artic-find`/`artic-show`/`artic-write`，实测无需 API key）。
+史密森尼数据质量最好（递藏逐条带日期与档案编号、全 CC0），**但卡在一把免费
+API 密钥上**：DEMO_KEY 为共享演示键，实测连续 429，配额已被用光；
+正式密钥须以邮箱在 api.data.gov 注册，非本工具能自行取得。待密钥到手再接。
 
 —— 展览史为什么是一等证据 ——
 
@@ -57,6 +60,10 @@ for _s in (sys.stdout, sys.stderr):
 
 DATA = Path(__file__).parent / "data"
 CMA_API = "https://openaccess-api.clevelandart.org/api/artworks"
+ARTIC_API = "https://api.artic.edu/api/v1/artworks"
+ARTIC_FIELDS = ("id,title,artist_display,date_display,place_of_origin,medium_display,"
+                "dimensions,credit_line,provenance_text,exhibition_history,"
+                "publication_history,is_public_domain,department_title,inscriptions")
 UA = "china-art-history-archive/0.1 (archival metadata; contact via repo)"
 GAP = 1.5   # 秒。串行，宁可慢——并发把核查通道压死过一次，不再犯
 
@@ -305,6 +312,124 @@ def write_all(dry=False):
     print(f"\n共写入 {total} 个块")
 
 
+
+# ── 芝加哥艺术博物馆：第二条可编程的档案通道 ────────────────────────────────
+#
+# 实测 2026-08-05：无需 API key，返回 provenance_text／exhibition_history／
+# publication_history 三栏，另有 place_of_origin 可直接筛产地。
+# **与克利夫兰的关键差别**：那边 provenance 是分段列表（每段带 date 与
+# description），这边是**整段自由文本**。所以本库不代它切分——
+# 切错比不切更坏，递藏链的分段本身就是史料判断，不是字符串处理。
+
+
+def artic_fetch(oid):
+    return _get(f"{ARTIC_API}/{oid}?fields={ARTIC_FIELDS}")["data"]
+
+
+ARTIC_YEAR = re.compile(r"\b(1[6-9]\d{2}|20[0-2]\d)\b")
+
+
+def artic_blocks(d, src="artic"):
+    """转块。exhibition_history 是多行自由文本，按行切；provenance_text 不切。"""
+    out = []
+    url = f"https://www.artic.edu/artworks/{d.get('id')}"
+
+    for line in str(d.get("exhibition_history") or "").splitlines():
+        t = _clean(line)
+        if len(t) < 8:
+            continue
+        m = ARTIC_YEAR.search(t)
+        out.append({"t": "exhib", "when": m.group(1) if m else "",
+                    "title": t[:160], "text": "" if len(t) <= 160 else t,
+                    "src": src, "url": url})
+
+    pv = _clean(d.get("provenance_text"))
+    if pv:
+        out.append({"t": "prov", "when": "见馆方档案原文（未分段）",
+                    "text": pv, "src": src, "url": url})
+    return out
+
+
+def artic_show(oid):
+    d = artic_fetch(oid)
+    print(f"{d.get('title')}  |  {d.get('date_display')}  |  {d.get('id')}")
+    print(f"https://www.artic.edu/artworks/{d.get('id')}")
+    print(f"产地 {d.get('place_of_origin')!r} · 部门 {d.get('department_title')!r} · "
+          f"公版 {d.get('is_public_domain')}")
+    if str(d.get("place_of_origin") or "").strip().lower() != "china":
+        print("  ⚠ 产地非 China——本库范围是中国美术史，取用前须自行判断是否越界")
+    for k, label in (("provenance_text", "递藏（整段）"),
+                     ("exhibition_history", "展览史"),
+                     ("publication_history", "著录"),
+                     ("inscriptions", "题识")):
+        v = _clean(d.get(k))
+        print(f"\n── {label} " + "─" * 44)
+        print("  " + (v[:1200] if v else "—"))
+    return d
+
+
+def artic_write(oid, eid, dry=False):
+    p, kind = _entry_path(eid)
+    if p is None:
+        sys.exit(f"找不到条目 {eid}")
+    if kind != "works":
+        print(f"{eid}: 是 {kind} 条目，不挂单件的递藏与展览史")
+        return 0
+    d = json.loads(p.read_text(encoding="utf-8"))
+    md = artic_fetch(oid)
+    # 防错挂：与克利夫兰同一形状的闸——条目里必须真的出现这个馆藏号或 artic id
+    if str(oid) not in json.dumps(d, ensure_ascii=False):
+        sys.exit(f"{eid} 里没有出现 artic id {oid}，拒绝写入——"
+                 f"先确认两者确指同一件物，不要凭 id 相似就挂")
+    blocks = artic_blocks(md)
+    if not blocks:
+        print(f"{eid}: 芝加哥无递藏与展览史记录，不写入（这本身是事实）")
+        return 0
+    secs = d.setdefault("sections", {})
+    key = next((k for k in SECTION_ORDER if k in secs), None)
+    if key is None:
+        sys.exit(f"{eid} 无可承接的维度")
+    have = {(b.get("t"), b.get("title") or b.get("text"))
+            for b in secs[key] if isinstance(b, dict)}
+    fresh = [b for b in blocks
+             if (b["t"], b.get("title") or b.get("text")) not in have]
+    if not fresh:
+        print(f"{eid}: 已挂接，无新增")
+        return 0
+    print(f"{eid} ← artic {oid}  "
+          f"展览 {sum(1 for b in fresh if b['t']=='exhib')} · "
+          f"递藏 {sum(1 for b in fresh if b['t']=='prov')}  → 维度「{key}」")
+    if not dry:
+        secs[key].extend(fresh)
+        p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return len(fresh)
+
+
+def artic_find(q, limit=8):
+    """只列**产地为中国、公版、且三栏至少有一栏有货**的件——否则挂不上东西。"""
+    url = (f"{ARTIC_API}/search?q={urllib.parse.quote(q)}&limit=40"
+           f"&fields={ARTIC_FIELDS}")
+    data = _get(url).get("data", [])
+    hits = 0
+    print(f"芝加哥检索「{q}」——只列产地中国、公版、且有档案可挂的件\n")
+    for o in data:
+        if str(o.get("place_of_origin") or "").strip().lower() != "china":
+            continue
+        if not o.get("is_public_domain"):
+            continue
+        has = [k for k in ("provenance_text", "exhibition_history", "publication_history")
+               if _clean(o.get(k))]
+        if not has:
+            continue
+        hits += 1
+        print(f"  {o['id']:>7}  {_clean(o.get('title'))[:52]}")
+        print(f"           {_clean(o.get('date_display'))[:44]} · 有 {'／'.join(has)}")
+        if hits >= limit:
+            break
+    if not hits:
+        print("  无符合条件者（或该批全无档案字段）")
+
+
 def main():
     ap = argparse.ArgumentParser(description="馆方深层档案采集（目前仅克利夫兰）")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -313,6 +438,11 @@ def main():
     w = sub.add_parser("write"); w.add_argument("acc"); w.add_argument("eid")
     w.add_argument("--dry", action="store_true")
     wa = sub.add_parser("write-all"); wa.add_argument("--dry", action="store_true")
+    af = sub.add_parser("artic-find"); af.add_argument("q")
+    af.add_argument("--limit", type=int, default=8)
+    ash = sub.add_parser("artic-show"); ash.add_argument("oid")
+    aw = sub.add_parser("artic-write"); aw.add_argument("oid"); aw.add_argument("eid")
+    aw.add_argument("--dry", action="store_true")
     a = ap.parse_args()
 
     if a.cmd == "scan":
@@ -321,6 +451,12 @@ def main():
         show(a.acc)
     elif a.cmd == "write":
         write(a.acc, a.eid, dry=a.dry)
+    elif a.cmd == "artic-find":
+        artic_find(a.q, a.limit)
+    elif a.cmd == "artic-show":
+        artic_show(a.oid)
+    elif a.cmd == "artic-write":
+        artic_write(a.oid, a.eid, dry=a.dry)
     else:
         write_all(dry=a.dry)
 
