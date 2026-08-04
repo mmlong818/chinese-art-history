@@ -1,0 +1,75 @@
+{
+  "schema": "artist/1",
+  "id": "wd-q6139444",
+  "depth": "record",
+  "name": "李邕",
+  "cat": "书法",
+  "period": "sui-tang",
+  "one_line": "隋唐书法。**本条为著录级**：照录 Wikidata 结构化记录，未作阐释。",
+  "verification": "wikidata",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "wikidata",
+      "note": "结构化记录 Q6139444"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "Wikidata 标签",
+            "李邕"
+          ],
+          [
+            "生年（Wikidata）",
+            "678"
+          ],
+          [
+            "卒年（Wikidata）",
+            "747"
+          ],
+          [
+            "职业（Wikidata）",
+            "书法"
+          ],
+          [
+            "国籍/政权声明（Wikidata）",
+            "唐朝"
+          ],
+          [
+            "Wikidata 描述",
+            "唐朝书法家，曾任北海太守（674年－746年）"
+          ],
+          [
+            "QID",
+            "Q6139444"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "Wikidata 条目：https://www.wikidata.org/wiki/Q6139444"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上照录 Wikidata 的结构化记录，本库未作独立核校，亦未就生平、师承、风格作任何判断。分期归入依据仅为：生卒 678–747 唯一落入 sui-tang；生卒依据：生 678、卒 747。**Wikidata 的中国古代人物记录有两类已知系统性错误**：（一）生卒不详者的『活动年代』常被渲染成生卒——本条已用整百年、生卒同年、与所属政权年代冲突三项规则过滤，但落在朝代范围内、数值本身不可疑的活动年代（如史书『开元天宝间供奉』一类记载）机械规则拦不住，仍可能混入；（二）同名误指。引用本条前须回核原始文献或权威工具书。"
+      }
+    ]
+  },
+  "birth": 678,
+  "death": 747,
+  "portrait": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:北海太守公李邕.jpg",
+    "credit": "Wikimedia Commons",
+    "license": "CC0",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/%E5%8C%97%E6%B5%B7%E5%A4%AA%E5%AE%88%E5%85%AC%E6%9D%8E%E9%82%95.jpg/960px-%E5%8C%97%E6%B5%B7%E5%A4%AA%E5%AE%88%E5%85%AC%E6%9D%8E%E9%82%95.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%E5%8C%97%E6%B5%B7%E5%A4%AA%E5%AE%88%E5%85%AC%E6%9D%8E%E9%82%95.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 800,
+    "h": 918
+  }
+}

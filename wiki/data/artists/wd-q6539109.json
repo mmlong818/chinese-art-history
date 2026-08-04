@@ -1,0 +1,75 @@
+{
+  "schema": "artist/1",
+  "id": "wd-q6539109",
+  "depth": "record",
+  "name": "李松松",
+  "cat": "绘画",
+  "period": "contemporary",
+  "one_line": "新中国前期绘画。**本条为著录级**：照录 Wikidata 结构化记录，未作阐释。",
+  "verification": "wikidata",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "wikidata",
+      "note": "结构化记录 Q6539109"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "Wikidata 标签",
+            "李松松"
+          ],
+          [
+            "生年（Wikidata）",
+            "1973"
+          ],
+          [
+            "职业（Wikidata）",
+            "绘画"
+          ],
+          [
+            "国籍/政权声明（Wikidata）",
+            "中华人民共和国"
+          ],
+          [
+            "Wikidata 描述",
+            "Chinese painter (born 1973)"
+          ],
+          [
+            "QID",
+            "Q6539109"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "Wikidata 条目：https://www.wikidata.org/wiki/Q6539109"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上照录 Wikidata 的结构化记录，本库未作独立核校，亦未就生平、师承、风格作任何判断。分期归入依据仅为：仅生年 1973 可用，唯一落入 prc-early；生卒依据：生 1973。**Wikidata 的中国古代人物记录有两类已知系统性错误**：（一）生卒不详者的『活动年代』常被渲染成生卒——本条已用整百年、生卒同年、与所属政权年代冲突三项规则过滤，但落在朝代范围内、数值本身不可疑的活动年代（如史书『开元天宝间供奉』一类记载）机械规则拦不住，仍可能混入；（二）同名误指。引用本条前须回核原始文献或权威工具书。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**分期已改依活动期。**原按生年 1973 落入 `prc-early`，而生年落在哪一期与其活动在哪一期常不是同一期——生于 1942 者的创作生涯全在 1949 之后。本条以「生年 +40」作成熟期的**约值**（2013）定期，**这是推定而非考据**：确切的活动起讫本库未核，故此陈述标为待校。"
+      }
+    ]
+  },
+  "birth": 1973,
+  "portrait": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:HK HKCEC Wan Chai 蘇富比 Sotheby's Preview 拍賣 預展 Oil paint Lot 1041 SOLD new building 李鬆鬆 LI Songsong Oct-2013.JPG",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/HK_HKCEC_Wan_Chai_%E8%98%87%E5%AF%8C%E6%AF%94_Sotheby%27s_Preview_%E6%8B%8D%E8%B3%A3_%E9%A0%90%E5%B1%95_Oil_paint_Lot_1041_SOLD_new_building_%E6%9D%8E%E9%AC%86%E9%AC%86_LI_Songsong_Oct-2013.JPG/960px-HK_HKCEC_Wan_Chai_%E8%98%87%E5%AF%8C%E6%AF%94_Sotheby%27s_Preview_%E6%8B%8D%E8%B3%A3_%E9%A0%90%E5%B1%95_Oil_paint_Lot_1041_SOLD_new_building_%E6%9D%8E%E9%AC%86%E9%AC%86_LI_Songsong_Oct-2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2e/HK_HKCEC_Wan_Chai_%E8%98%87%E5%AF%8C%E6%AF%94_Sotheby%27s_Preview_%E6%8B%8D%E8%B3%A3_%E9%A0%90%E5%B1%95_Oil_paint_Lot_1041_SOLD_new_building_%E6%9D%8E%E9%AC%86%E9%AC%86_LI_Songsong_Oct-2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 800,
+    "h": 600
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "artist/1",
+  "id": "wd-q15941339",
+  "depth": "record",
+  "name": "盧藏用",
+  "cat": "书法",
+  "period": "sui-tang",
+  "one_line": "隋唐书法。**本条为著录级**：照录 Wikidata 结构化记录，未作阐释。",
+  "verification": "wikidata",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "wikidata",
+      "note": "结构化记录 Q15941339"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "Wikidata 标签",
+            "盧藏用"
+          ],
+          [
+            "生年（Wikidata）",
+            "664"
+          ],
+          [
+            "卒年（Wikidata）",
+            "713"
+          ],
+          [
+            "职业（Wikidata）",
+            "书法"
+          ],
+          [
+            "国籍/政权声明（Wikidata）",
+            "唐朝"
+          ],
+          [
+            "Wikidata 描述",
+            "Tang dynasty person (died c. 713)"
+          ],
+          [
+            "QID",
+            "Q15941339"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "Wikidata 条目：https://www.wikidata.org/wiki/Q15941339"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上照录 Wikidata 的结构化记录，本库未作独立核校，亦未就生平、师承、风格作任何判断。分期归入依据仅为：生卒 664–713 唯一落入 sui-tang；生卒依据：生 664（P569 无引用来源）、卒 713（P570 无引用来源）。**Wikidata 的中国古代人物记录有两类已知系统性错误**：（一）生卒不详者的『活动年代』常被渲染成生卒——本条已用整百年、生卒同年、与所属政权年代冲突三项规则过滤，但落在朝代范围内、数值本身不可疑的活动年代（如史书『开元天宝间供奉』一类记载）机械规则拦不住，仍可能混入；（二）同名误指。引用本条前须回核原始文献或权威工具书。"
+      }
+    ]
+  },
+  "birth": 664,
+  "death": 713,
+  "portrait": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:清丁觀鵬墨妙珠林（戌） 冊 盧藏用 (cropped).png",
+    "credit": "Wikimedia Commons",
+    "license": "PD",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/%E6%B8%85%E4%B8%81%E8%A7%80%E9%B5%AC%E5%A2%A8%E5%A6%99%E7%8F%A0%E6%9E%97%EF%BC%88%E6%88%8C%EF%BC%89_%E5%86%8A_%E7%9B%A7%E8%97%8F%E7%94%A8_%28cropped%29.png/960px-%E6%B8%85%E4%B8%81%E8%A7%80%E9%B5%AC%E5%A2%A8%E5%A6%99%E7%8F%A0%E6%9E%97%EF%BC%88%E6%88%8C%EF%BC%89_%E5%86%8A_%E7%9B%A7%E8%97%8F%E7%94%A8_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/%E6%B8%85%E4%B8%81%E8%A7%80%E9%B5%AC%E5%A2%A8%E5%A6%99%E7%8F%A0%E6%9E%97%EF%BC%88%E6%88%8C%EF%BC%89_%E5%86%8A_%E7%9B%A7%E8%97%8F%E7%94%A8_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 800,
+    "h": 1215
+  }
+}

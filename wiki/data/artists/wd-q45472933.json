@@ -1,0 +1,75 @@
+{
+  "schema": "artist/1",
+  "id": "wd-q45472933",
+  "depth": "record",
+  "name": "翁嵩年",
+  "cat": "绘画",
+  "period": "qing",
+  "one_line": "清绘画。**本条为著录级**：照录 Wikidata 结构化记录，未作阐释。",
+  "verification": "wikidata",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "wikidata",
+      "note": "结构化记录 Q45472933"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "Wikidata 标签",
+            "翁嵩年"
+          ],
+          [
+            "生年（Wikidata）",
+            "1647"
+          ],
+          [
+            "卒年（Wikidata）",
+            "1728"
+          ],
+          [
+            "职业（Wikidata）",
+            "绘画"
+          ],
+          [
+            "国籍/政权声明（Wikidata）",
+            "清朝"
+          ],
+          [
+            "Wikidata 描述",
+            "Qing dynasty person CBDB = 87229 (1647–1728)"
+          ],
+          [
+            "QID",
+            "Q45472933"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "Wikidata 条目：https://www.wikidata.org/wiki/Q45472933"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上照录 Wikidata 的结构化记录，本库未作独立核校，亦未就生平、师承、风格作任何判断。分期归入依据仅为：生卒 1647–1728 唯一落入 qing；生卒依据：生 1647、卒 1728。**Wikidata 的中国古代人物记录有两类已知系统性错误**：（一）生卒不详者的『活动年代』常被渲染成生卒——本条已用整百年、生卒同年、与所属政权年代冲突三项规则过滤，但落在朝代范围内、数值本身不可疑的活动年代（如史书『开元天宝间供奉』一类记载）机械规则拦不住，仍可能混入；（二）同名误指。引用本条前须回核原始文献或权威工具书。"
+      }
+    ]
+  },
+  "birth": 1647,
+  "death": 1728,
+  "portrait": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:禹之鼎翁嵩年负土图卷.jpg",
+    "credit": "Wikimedia Commons",
+    "license": "PD",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/%E7%A6%B9%E4%B9%8B%E9%BC%8E%E7%BF%81%E5%B5%A9%E5%B9%B4%E8%B4%9F%E5%9C%9F%E5%9B%BE%E5%8D%B7.jpg/960px-%E7%A6%B9%E4%B9%8B%E9%BC%8E%E7%BF%81%E5%B5%A9%E5%B9%B4%E8%B4%9F%E5%9C%9F%E5%9B%BE%E5%8D%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bd/%E7%A6%B9%E4%B9%8B%E9%BC%8E%E7%BF%81%E5%B5%A9%E5%B9%B4%E8%B4%9F%E5%9C%9F%E5%9B%BE%E5%8D%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 800,
+    "h": 75
+  }
+}

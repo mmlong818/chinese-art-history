@@ -1,0 +1,75 @@
+{
+  "schema": "artist/1",
+  "id": "wd-q3566068",
+  "depth": "record",
+  "name": "王谷祥",
+  "cat": "绘画、书法",
+  "period": "ming",
+  "one_line": "明绘画、书法。**本条为著录级**：照录 Wikidata 结构化记录，未作阐释。",
+  "verification": "wikidata",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "wikidata",
+      "note": "结构化记录 Q3566068"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "Wikidata 标签",
+            "王谷祥"
+          ],
+          [
+            "生年（Wikidata）",
+            "1501"
+          ],
+          [
+            "卒年（Wikidata）",
+            "1568"
+          ],
+          [
+            "职业（Wikidata）",
+            "绘画、书法"
+          ],
+          [
+            "国籍/政权声明（Wikidata）",
+            "明朝"
+          ],
+          [
+            "Wikidata 描述",
+            "明代画家"
+          ],
+          [
+            "QID",
+            "Q3566068"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "Wikidata 条目：https://www.wikidata.org/wiki/Q3566068"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上照录 Wikidata 的结构化记录，本库未作独立核校，亦未就生平、师承、风格作任何判断。分期归入依据仅为：生卒 1501–1568 唯一落入 ming；生卒依据：生 1501、卒 1568。**Wikidata 的中国古代人物记录有两类已知系统性错误**：（一）生卒不详者的『活动年代』常被渲染成生卒——本条已用整百年、生卒同年、与所属政权年代冲突三项规则过滤，但落在朝代范围内、数值本身不可疑的活动年代（如史书『开元天宝间供奉』一类记载）机械规则拦不住，仍可能混入；（二）同名误指。引用本条前须回核原始文献或权威工具书。"
+      }
+    ]
+  },
+  "birth": 1501,
+  "death": 1568,
+  "portrait": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:'Narcissus, Plum Blossoms and Rock' by Wang Guxiang, Honolulu Museum of Art, 2303.1.JPG",
+    "credit": "Wikimedia Commons",
+    "license": "PD",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/%27Narcissus%2C_Plum_Blossoms_and_Rock%27_by_Wang_Guxiang%2C_Honolulu_Museum_of_Art%2C_2303.1.JPG/960px-%27Narcissus%2C_Plum_Blossoms_and_Rock%27_by_Wang_Guxiang%2C_Honolulu_Museum_of_Art%2C_2303.1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/07/%27Narcissus%2C_Plum_Blossoms_and_Rock%27_by_Wang_Guxiang%2C_Honolulu_Museum_of_Art%2C_2303.1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 800,
+    "h": 383
+  }
+}

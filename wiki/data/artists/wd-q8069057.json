@@ -1,0 +1,75 @@
+{
+  "schema": "artist/1",
+  "id": "wd-q8069057",
+  "depth": "record",
+  "name": "曾梵志",
+  "cat": "绘画",
+  "period": "contemporary",
+  "one_line": "新中国前期绘画。**本条为著录级**：照录 Wikidata 结构化记录，未作阐释。",
+  "verification": "wikidata",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "wikidata",
+      "note": "结构化记录 Q8069057"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "Wikidata 标签",
+            "曾梵志"
+          ],
+          [
+            "生年（Wikidata）",
+            "1964"
+          ],
+          [
+            "职业（Wikidata）",
+            "绘画"
+          ],
+          [
+            "国籍/政权声明（Wikidata）",
+            "中华人民共和国"
+          ],
+          [
+            "Wikidata 描述",
+            "曾梵志，1964年出生于湖北武汉市。1991年毕业于湖北美术学院油画系。二十世纪九十年代，曾梵志的创作以其独特的语言风格和敏锐的社会批判，受到评论界广泛的赞誉，也得到社会民众的持续关注。曾梵志参与了一系列国际和国内重要的艺术展事，包括首届广州双年展、广州三年展、威尼斯双年展等，并在上海美术馆、苏州美术馆、新加坡美术馆、保加利亚国立美术馆、法国Saint-Etienne 当代艺术博物馆等知名艺术机构举办了个人展览。曾梵志被认为是当代中国较具代表性和国际影响的艺术家之一。"
+          ],
+          [
+            "QID",
+            "Q8069057"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "Wikidata 条目：https://www.wikidata.org/wiki/Q8069057"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上照录 Wikidata 的结构化记录，本库未作独立核校，亦未就生平、师承、风格作任何判断。分期归入依据仅为：仅生年 1964 可用，唯一落入 prc-early；生卒依据：生 1964。**Wikidata 的中国古代人物记录有两类已知系统性错误**：（一）生卒不详者的『活动年代』常被渲染成生卒——本条已用整百年、生卒同年、与所属政权年代冲突三项规则过滤，但落在朝代范围内、数值本身不可疑的活动年代（如史书『开元天宝间供奉』一类记载）机械规则拦不住，仍可能混入；（二）同名误指。引用本条前须回核原始文献或权威工具书。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**分期已改依活动期。**原按生年 1964 落入 `prc-early`，而生年落在哪一期与其活动在哪一期常不是同一期——生于 1942 者的创作生涯全在 1949 之后。本条以「生年 +40」作成熟期的**约值**（2004）定期，**这是推定而非考据**：确切的活动起讫本库未核，故此陈述标为待校。"
+      }
+    ]
+  },
+  "birth": 1964,
+  "portrait": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:HK Wan Chai 君悅酒店 Grand Hyatt Hotel 保利集團 Poly Auction Exhibition sign 4-Apr-2013.JPG",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/HK_Wan_Chai_%E5%90%9B%E6%82%85%E9%85%92%E5%BA%97_Grand_Hyatt_Hotel_%E4%BF%9D%E5%88%A9%E9%9B%86%E5%9C%98_Poly_Auction_Exhibition_sign_4-Apr-2013.JPG/960px-HK_Wan_Chai_%E5%90%9B%E6%82%85%E9%85%92%E5%BA%97_Grand_Hyatt_Hotel_%E4%BF%9D%E5%88%A9%E9%9B%86%E5%9C%98_Poly_Auction_Exhibition_sign_4-Apr-2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/94/HK_Wan_Chai_%E5%90%9B%E6%82%85%E9%85%92%E5%BA%97_Grand_Hyatt_Hotel_%E4%BF%9D%E5%88%A9%E9%9B%86%E5%9C%98_Poly_Auction_Exhibition_sign_4-Apr-2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 800,
+    "h": 600
+  }
+}

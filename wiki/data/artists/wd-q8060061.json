@@ -1,0 +1,65 @@
+{
+  "schema": "artist/1",
+  "id": "wd-q8060061",
+  "depth": "record",
+  "name": "袁滋",
+  "cat": "书法",
+  "period": "sui-tang",
+  "one_line": "隋唐书法。**本条为著录级**：照录 Wikidata 结构化记录，未作阐释。",
+  "verification": "wikidata",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "wikidata",
+      "note": "结构化记录 Q8060061"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "Wikidata 标签",
+            "袁滋"
+          ],
+          [
+            "生年（Wikidata）",
+            "739"
+          ],
+          [
+            "卒年（Wikidata）",
+            "818"
+          ],
+          [
+            "职业（Wikidata）",
+            "书法"
+          ],
+          [
+            "国籍/政权声明（Wikidata）",
+            "唐朝"
+          ],
+          [
+            "Wikidata 描述",
+            "Chinese chancellor"
+          ],
+          [
+            "QID",
+            "Q8060061"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "Wikidata 条目：https://www.wikidata.org/wiki/Q8060061"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上照录 Wikidata 的结构化记录，本库未作独立核校，亦未就生平、师承、风格作任何判断。分期归入依据仅为：生卒 739–818 唯一落入 sui-tang；生卒依据：生 739（P569 无引用来源）、卒 818（P570 无引用来源）。**Wikidata 的中国古代人物记录有两类已知系统性错误**：（一）生卒不详者的『活动年代』常被渲染成生卒——本条已用整百年、生卒同年、与所属政权年代冲突三项规则过滤，但落在朝代范围内、数值本身不可疑的活动年代（如史书『开元天宝间供奉』一类记载）机械规则拦不住，仍可能混入；（二）同名误指。引用本条前须回核原始文献或权威工具书。"
+      }
+    ]
+  },
+  "birth": 739,
+  "death": 818
+}
