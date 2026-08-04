@@ -26,55 +26,171 @@
   "verification": "museum",
   "updated": "2026-08-04",
   "sources": [
-    {"ref": "cleveland", "note": "藏品记录、年代、文化断代与判权，逐项照录——馆方文化断代同时列「可能来自粟特」与「中国唐代」两项"},
-    {"ref": "zhongguo-meishu-jianshi", "note": "唐代联珠纹锦的丝路背景"},
-    {"ref": "sullivan-arts-of-china", "note": "英文通史对丝路纺织品产地问题的处理方式，用于评价史对照"}
+    {
+      "ref": "cleveland",
+      "note": "藏品记录、年代、文化断代与判权，逐项照录——馆方文化断代同时列「可能来自粟特」与「中国唐代」两项"
+    },
+    {
+      "ref": "zhongguo-meishu-jianshi",
+      "note": "唐代联珠纹锦的丝路背景"
+    },
+    {
+      "ref": "sullivan-arts-of-china",
+      "note": "英文通史对丝路纺织品产地问题的处理方式，用于评价史对照"
+    }
   ],
   "sections": {
     "basics": [
-      {"t": "kv", "rows": [
-        ["原题", "Child's Coat with Ducks in Pearl Medallions"],
-        ["馆方年代", "700s"],
-        ["馆方文化断代", "\"Probably Sogdia (present-day Uzbekistan)\" 与 \"China, Tang dynasty\" 并列"],
-        ["材质", "丝，纬面斜纹重组织（馆方记 weft-faced compound twill weave, samite）"],
-        ["尺寸", "肩宽 84.5 × 后领至下摆长 51.4 厘米"],
-        ["现藏", "克利夫兰美术馆，藏品号 1996.2.1"],
-        ["入藏", "1996 年购自 Sara Tremayne, Ltd.，伦敦"]
-      ]},
-      {"t": "stmt", "state": "adopt", "text": "以上各项照录馆方藏品记录，两项文化断代并列的处理方式亦照录不作取舍，详见「争议字段」。核查等级为「馆藏官方核实」。", "src": "cleveland"},
-      {"t": "stmt", "state": "adopt", "text": "「联珠纹」指以圆珠连缀成环、环内填入对禽、对兽或人物图案的织锦纹样，图式源自波斯萨珊系统，经粟特商队与工匠沿丝路传入中国，唐代大量采用，是中古丝路物质文化交流最直接的图像证据之一。"}
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "原题",
+            "Child's Coat with Ducks in Pearl Medallions"
+          ],
+          [
+            "馆方年代",
+            "700s"
+          ],
+          [
+            "馆方文化断代",
+            "\"Probably Sogdia (present-day Uzbekistan)\" 与 \"China, Tang dynasty\" 并列"
+          ],
+          [
+            "材质",
+            "丝，纬面斜纹重组织（馆方记 weft-faced compound twill weave, samite）"
+          ],
+          [
+            "尺寸",
+            "肩宽 84.5 × 后领至下摆长 51.4 厘米"
+          ],
+          [
+            "现藏",
+            "克利夫兰美术馆，藏品号 1996.2.1"
+          ],
+          [
+            "入藏",
+            "1996 年购自 Sara Tremayne, Ltd.，伦敦"
+          ]
+        ]
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "以上各项照录馆方藏品记录，两项文化断代并列的处理方式亦照录不作取舍，详见「争议字段」。核查等级为「馆藏官方核实」。",
+        "src": "cleveland"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "「联珠纹」指以圆珠连缀成环、环内填入对禽、对兽或人物图案的织锦纹样，图式源自波斯萨珊系统，经粟特商队与工匠沿丝路传入中国，唐代大量采用，是中古丝路物质文化交流最直接的图像证据之一。"
+      }
     ],
     "form": [
-      {"t": "p", "text": "圆形联珠环内为一对相向而立的鸭形图案，环外以小联珠与几何纹填地，通身重复排列。整体设色与纹样布局是典型的联珠纹锦程式——图案单元靠织机的重复织造自然循环，不同于绘画或刺绣可以逐笔自由构图。"}
+      {
+        "t": "p",
+        "text": "圆形联珠环内为一对相向而立的鸭形图案，环外以小联珠与几何纹填地，通身重复排列。整体设色与纹样布局是典型的联珠纹锦程式——图案单元靠织机的重复织造自然循环，不同于绘画或刺绣可以逐笔自由构图。"
+      }
     ],
     "inscription": [
-      {"t": "gap", "text": "馆方记录未见铭文或题记，纺织品本身极少见此类文字材料"}
+      {
+        "t": "gap",
+        "text": "馆方记录未见铭文或题记，纺织品本身极少见此类文字材料"
+      }
     ],
     "technique": [
-      {"t": "p", "text": "馆方记为「纬面斜纹重组织」（weft-faced compound twill, 即 samite），是以两组或以上纬线在一组经线上交织，通过纬线的显隐织出图案的技法，需要较复杂的提花装置控制经线的分组与提沉。这是与本库另立的宋代缂丝条目不同的织造原理——联珠纹锦靠重复循环的提花组织织成大幅面料，缂丝则逐色逐块「通经断纬」织出不重复的独立画面，二者在效率与用途上分工明确：锦适合成匹生产制衣，缂丝适合摹画名迹。"},
-      {"t": "stmt", "state": "adopt", "text": "重组织提花锦的图案是靠机具设定后重复织出的，一旦织机的经线穿综与纹版（或提花装置）设定完成，同一图案可以连续织出成匹布料——这是「锦」能够大量供应唐代宫廷与丝路贸易需求的技术前提，与雕漆、缂丝那种「每一件都需重新耗费全部工时」的生产逻辑形成对照，也是本库把这两类织物分立条目、分别讨论工艺经济学的原因。"}
+      {
+        "t": "p",
+        "text": "馆方记为「纬面斜纹重组织」（weft-faced compound twill, 即 samite），是以两组或以上纬线在一组经线上交织，通过纬线的显隐织出图案的技法，需要较复杂的提花装置控制经线的分组与提沉。这是与本库另立的宋代缂丝条目不同的织造原理——联珠纹锦靠重复循环的提花组织织成大幅面料，缂丝则逐色逐块「通经断纬」织出不重复的独立画面，二者在效率与用途上分工明确：锦适合成匹生产制衣，缂丝适合摹画名迹。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "重组织提花锦的图案是靠机具设定后重复织出的，一旦织机的经线穿综与纹版（或提花装置）设定完成，同一图案可以连续织出成匹布料——这是「锦」能够大量供应唐代宫廷与丝路贸易需求的技术前提，与雕漆、缂丝那种「每一件都需重新耗费全部工时」的生产逻辑形成对照，也是本库把这两类织物分立条目、分别讨论工艺经济学的原因。"
+      }
     ],
     "excavation": [
-      {"t": "gap", "text": "馆方记录未见出土信息，本库未查得该件购自伦敦古董商之前的更早来源——中古丝路纺织品因干燥地区（如新疆、中亚墓葬与遗址）保存条件特殊，流散市场上常见但多缺科学发掘记录，是普遍状况"}
+      {
+        "t": "gap",
+        "text": "馆方记录未见出土信息，本库未查得该件购自伦敦古董商之前的更早来源——中古丝路纺织品因干燥地区（如新疆、中亚墓葬与遗址）保存条件特殊，流散市场上常见但多缺科学发掘记录，是普遍状况"
+      }
     ],
     "dating": [
-      {"t": "dating", "basis": "器形序列", "conf": "较可靠",
-       "text": "馆方年代定为唐代（700s），依据是联珠纹样式与同类已发掘丝路纺织品（如新疆吐鲁番阿斯塔那墓群出土的联珠纹锦）在图案与织造组织上的比对，未见出土地层或文字纪年支持。",
-       "src": "cleveland"}
+      {
+        "t": "dating",
+        "basis": "器形序列",
+        "conf": "较可靠",
+        "text": "馆方年代定为唐代（700s），依据是联珠纹样式与同类已发掘丝路纺织品（如新疆吐鲁番阿斯塔那墓群出土的联珠纹锦）在图案与织造组织上的比对，未见出土地层或文字纪年支持。",
+        "src": "cleveland"
+      }
     ],
     "provenance": [
-      {"t": "p", "text": "1996 年由克利夫兰美术馆购自伦敦古董商 Sara Tremayne, Ltd.，此前递藏不明。"},
-      {"t": "gap", "text": "入藏前的递藏链与出境经过不明"}
+      {
+        "t": "p",
+        "text": "1996 年由克利夫兰美术馆购自伦敦古董商 Sara Tremayne, Ltd.，此前递藏不明。"
+      },
+      {
+        "t": "gap",
+        "text": "馆方递藏档案可上溯至「?-1996」（见上：(Sara Tremayne, Ltd., London, UK, sold to the Cleveland Muse）。再往前——**尤其此物流出中国的经过、在华的藏家与出让情形**——仍无记录。西方馆的 provenance 通常自经手古董商起算，**商人之前的那一段恰是最要紧而最不可考的一段**：它是本库反复讲的那个不对称的另一半，缺的不是编纂功夫，是档案本身没有。"
+      },
+      {
+        "t": "exhib",
+        "when": "1997",
+        "title": "When Silk Was Gold: Central Asian & Chinese Textiles from the Cleveland and Metropolitan Museums of Art",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (October 26, 1997-January 4, 1998); The Metropolitan Museum of Art (organizer) (March 2-May 17, 1998).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1996.2.1"
+      },
+      {
+        "t": "exhib",
+        "when": "2012",
+        "title": "Islamic art rotation",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (December 3, 2012-December 9, 2013).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1996.2.1"
+      },
+      {
+        "t": "exhib",
+        "when": "2018",
+        "title": "The Splendor of Chinese Silk – Chinese Gallery Rotation 240a, 241c",
+        "text": "The Cleveland Museum of Art (organizer) (February 5-August 12, 2018).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1996.2.1"
+      },
+      {
+        "t": "prov",
+        "when": "?-1996",
+        "text": "(Sara Tremayne, Ltd., London, UK, sold to the Cleveland Museum of Art)",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1996.2.1"
+      },
+      {
+        "t": "prov",
+        "when": "1996-",
+        "text": "The Cleveland Museum of Art, Cleveland, OH",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1996.2.1"
+      }
     ],
     "viewing": [
-      {"t": "ul", "items": [
-        "留意联珠环与环内对鸭图案的重复循环方式，这是判断提花织物组织结构的直接入口。",
-        "可与本库缂丝条目并观，比较唐代提花锦与宋代缂丝两种织造逻辑的差异。"
-      ]}
+      {
+        "t": "ul",
+        "items": [
+          "留意联珠环与环内对鸭图案的重复循环方式，这是判断提花织物组织结构的直接入口。",
+          "可与本库缂丝条目并观，比较唐代提花锦与宋代缂丝两种织造逻辑的差异。"
+        ]
+      }
     ],
     "disputes": [
-      {"t": "stmt", "state": "disp", "text": "馆方文化断代并列「可能来自粟特（今乌兹别克斯坦）」与「中国唐代」两项，未作取舍。这类联珠纹锦究竟是粟特工匠在中亚本土织造后经贸易输入中原，还是唐代境内工坊仿制粟特纹样织造，学界长期并存两说，且不同个案可能各有不同答案——纹样的粟特系统起源与织造地点是两个不同的问题，不能因图案是外来的就断定实物也是外来的。本库照录馆方并列处理，不代本库判断。"},
-      {"t": "gap", "text": "入藏前的递藏与出境经过不明"}
+      {
+        "t": "stmt",
+        "state": "disp",
+        "text": "馆方文化断代并列「可能来自粟特（今乌兹别克斯坦）」与「中国唐代」两项，未作取舍。这类联珠纹锦究竟是粟特工匠在中亚本土织造后经贸易输入中原，还是唐代境内工坊仿制粟特纹样织造，学界长期并存两说，且不同个案可能各有不同答案——纹样的粟特系统起源与织造地点是两个不同的问题，不能因图案是外来的就断定实物也是外来的。本库照录馆方并列处理，不代本库判断。"
+      },
+      {
+        "t": "gap",
+        "text": "入藏前的递藏与出境经过不明"
+      }
     ]
   }
 }

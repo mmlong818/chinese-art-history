@@ -74,7 +74,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "现存最早的系统绘画史，唐以前画史的主要依据。**注意**：张彦远所述多为转录前人著录，其可靠度需逐条评估；凡仅见于此书者本库标 pend 或 disp。本书同时是 treatise 条目，既是信源也是研究对象。",
-      "verified": true
+      "verified": true,
+      "url": "https://zh.wikisource.org/wiki/%E6%AD%B7%E4%BB%A3%E5%90%8D%E7%95%AB%E8%A8%98",
+      "note": "全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。"
     },
     {
       "id": "xuanhe-huapu",
@@ -83,7 +85,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "北宋御府藏画目录，是判断宋代画家地位与作品流传的关键一手材料。但它记录的是御府所藏，不等于当时画坛全貌，且编纂带有明确的品第意图。",
-      "verified": true
+      "verified": true,
+      "url": "https://zh.wikisource.org/wiki/%E5%AE%A3%E5%92%8C%E7%95%AB%E8%AD%9C",
+      "note": "全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。"
     },
     {
       "id": "linquan-gaozhi",
@@ -92,7 +96,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "山水画理论的核心文本，「三远」（高远、深远、平远）出此。本库作品条目的「画面分析」凡涉及空间处理者，以其范畴为描述框架。",
-      "verified": true
+      "verified": true,
+      "url": "https://zh.wikisource.org/wiki/%E6%9E%97%E6%B3%89%E9%AB%98%E8%87%B4",
+      "note": "全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。"
     },
     {
       "id": "guhuapinlu",
@@ -101,7 +107,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "「六法」出此，是中国绘画批评的起点。注意：六法的断句与释义自唐以来即有异说，尤其「气韵生动」四字如何读，本库并陈不裁断。",
-      "verified": true
+      "verified": true,
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%A4%E7%95%AB%E5%93%81%E9%8C%84",
+      "note": "全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。"
     },
     {
       "id": "xuanhe-bogu-tu",
@@ -317,7 +325,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "承《历代名画记》体例而续其后，是了解五代与北宋前期画坛的主要依据。「黄家富贵、徐熙野逸」的对置出此一系——须注意该对置是宋人建立的分类框架，不应回填为五代人的自我认同。本书同时是 treatise 条目，既是信源也是研究对象。",
-      "verified": true
+      "verified": true,
+      "url": "https://zh.wikisource.org/wiki/%E5%9C%96%E7%95%AB%E8%A6%8B%E8%81%9E%E5%BF%97",
+      "note": "全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。"
     },
     {
       "id": "huachanshi-suibi",
@@ -326,7 +336,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "「南北宗」论出此。**这是本库最需小心引用的一部**：它是理论建构而非史实描述，却主导了此后三百年的画史书写与正典取舍。本库把它当作研究对象，不当作分类工具使用。",
-      "verified": true
+      "verified": true,
+      "url": "https://zh.wikisource.org/wiki/%E7%95%AB%E7%A6%AA%E5%AE%A4%E9%9A%A8%E7%AD%86",
+      "note": "全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。"
     },
     {
       "id": "kugua-heshang-hualuyu",
@@ -335,7 +347,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "「一画」之说与「搜尽奇峰打草稿」出此。文辞晦涩，历来注解分歧极大，「一画」究竟何指至今无共识——凡引用须并陈主要几说，不得择一为定论。",
-      "verified": true
+      "verified": true,
+      "url": "https://zh.wikisource.org/wiki/%E8%8B%A6%E7%93%9C%E5%92%8C%E5%B0%9A%E7%95%AB%E8%AA%9E%E9%8C%84",
+      "note": "全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。"
     },
     {
       "id": "yingzao-xueshe-huikan",
@@ -384,8 +398,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "清末碑学理论的集大成之作，系统抬高北碑、贬抑帖学，是碑学论述后来定型为「碑帖对立」叙事的关键推手之一。本库引用时注明：其立论有明确的立场倾向，不等同于对碑帖关系的中立描述。",
-      "note": "版次未核实。",
-      "verified": false
+      "note": "版次未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E5%BB%A3%E8%97%9D%E8%88%9F%E9%9B%99%E6%A5%AB"
     },
     {
       "id": "yizhou-shuang-ji",
@@ -394,8 +409,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "碑学理论早期的系统化著作，早于康有为《广艺舟双楫》，与阮元「南北书派论」同为碑学理论奠基文献。本库用以区分「碑学理论的提出」与「碑学书家的创作实践」两条线索。",
-      "note": "版次未核实。",
-      "verified": false
+      "note": "版次未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E8%97%9D%E8%88%9F%E9%9B%99%E6%A5%AB"
     },
     {
       "id": "nanbei-shupai-lun",
@@ -404,8 +420,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "碑学理论的源头性文献，早于包世臣、康有为，将书法史分为南北两派并抑帖扬碑。本库引用时注明：这一二分本身是阮元的理论建构，其与乾嘉考据、金石出土的关系，见 [[period:qing]] 争议字段。",
-      "note": "版次未核实。",
-      "verified": false
+      "note": "版次未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%97%E5%8C%97%E6%9B%B8%E6%B4%BE%E8%AB%96"
     },
     {
       "id": "dongpo-tiba",
@@ -444,8 +461,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "记魏晋名士言行的早期文本，戴逵「乘兴而行，兴尽而返，何必见戴」等逸事的主要出处。本库注意：此书性质近于品评轶闻的汇编，非严格传记，所记戴逵行事细节须与画史类记载分别对待。",
-      "note": "版次未核实。",
-      "verified": false
+      "note": "版次未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%96%E8%AA%AA%E6%96%B0%E8%AA%9E"
     },
     {
       "id": "biaozhun-caoshu",
@@ -552,8 +570,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "唐代最重要的书法品评著作，创「神品、妙品、能品」三品制评历代书家，是本库处理唐人对前代及当代书家评价语的主要一手依据。**注意**：品评本身是主观褒贬，本库引用其评语时标明出自此书，不当作客观事实转述。",
-      "note": "版次未核实。",
-      "verified": false
+      "note": "版次未核实。 全文链接为维基文库（开篇文字已抽验）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E6%9B%B8%E6%96%B7"
     },
     {
       "id": "guo-moruo-lanting-zhenwei",
@@ -584,8 +603,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "二十四史之一，636–648 年官修，是顾恺之等东晋人物生平的主要正史依据。**注意**：成书距东晋已两百余年，多取材《世说新语》一类文学性笔记整合而成，本库标其可信度低于同时代一手材料，凡仅见于此书者一律标待校验。",
-      "note": "版次未核实。",
-      "verified": false
+      "note": "版次未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8"
     },
     {
       "id": "tangchao-minghua-lu",
@@ -594,8 +614,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "现存最早专记唐代画家的品评之书，早于《历代名画记》，以神、妙、能、逸四品排列唐代画家，是张萱、周昉、吴道子等人品第与逸事的重要一手出处之一。",
-      "note": "版次未核实。",
-      "verified": false
+      "note": "版次未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E5%94%90%E6%9C%9D%E5%90%8D%E7%95%AB%E9%8C%84"
     },
     {
       "id": "mifu-huashi",
@@ -604,7 +625,7 @@
       "kind": "primary",
       "tier": 1,
       "authority": "米芾据自身鉴藏经验所记的品评札记，「董源平淡天真多」等评语出此，是判断董源、巨然在北宋士人圈评价的关键一手材料。**注意**：属个人鉴藏笔记而非系统史著，品第带明显个人好恶，本库引用其评语时标明出自米芾一家之见。",
-      "note": "版次与辑本未核实。",
+      "note": "版次与辑本未核实。 维基文库有同名页「畫史」，但此二字为通名，未抽验该页是否即米芾此书，故暂不给链接——链错比不链更坏。",
       "verified": false
     },
     {
@@ -614,8 +635,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "品评北宋（及入宋前）画家的专著，体例近《唐朝名画录》，是巨然籍贯、师承等条目「河内/江宁异说」的信源之一。",
-      "note": "版次未核实。",
-      "verified": false
+      "note": "版次未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E8%81%96%E6%9C%9D%E5%90%8D%E7%95%AB%E8%A9%95"
     },
     {
       "id": "jiu-tangshu",
@@ -624,8 +646,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "二十四史之一，后晋官修，是阎立本、吴道子、王维等唐代人物仕历与卒年的主要正史依据。成书距初盛唐已两百年上下，本库标其可信度高于笔记类转述，但仍须与《历代名画记》等画史文献分别评估。",
-      "note": "版次未核实。",
-      "verified": false
+      "note": "版次未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8"
     },
     {
       "id": "xin-tangshu",
@@ -634,8 +657,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "北宋官修，体例较《旧唐书》更严，本库与《旧唐书》交叉参照唐代人物的仕历与卒年，二书偶有出入处标明。",
-      "note": "版次未核实。",
-      "verified": false
+      "note": "版次未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8"
     },
     {
       "id": "mifu-shushi",
@@ -644,7 +668,7 @@
       "kind": "primary",
       "tier": 1,
       "authority": "米芾记其所见历代墨迹的札记，是北宋人亲见晋唐书迹的少数直接记录之一——尤其他对当时所见「王羲之」诸帖的真伪判语，是今日讨论唐摹与刻帖谱系时极难替代的一手证词。**注意**：与《画史》同为个人鉴藏笔记，品第带明显个人好恶，且他本人亦被指有以摹易真之事，本库引其判语时标明出自米芾一家之见。",
-      "note": "版次与辑本未核实。",
+      "note": "版次与辑本未核实。 维基文库有同名页「書史」，但此二字为通名，未抽验该页是否即米芾此书，故暂不给链接——链错比不链更坏。",
       "verified": false
     },
     {
@@ -654,8 +678,9 @@
       "kind": "primary",
       "tier": 1,
       "authority": "米芾元祐年间所记「目睹」与「的闻」两类书迹的清单，**其价值恰在于他自己把两类分开**——亲见者与耳闻者不混为一谈，这正是本库四态区分的古代先例。可据以考北宋时若干晋唐名迹的存亡与藏处。",
-      "note": "版次与辑本未核实。",
-      "verified": false
+      "note": "版次与辑本未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E5%AF%B6%E7%AB%A0%E5%BE%85%E8%A8%AA%E9%8C%84"
     },
     {
       "id": "tang-hou-huajian",
@@ -664,7 +689,250 @@
       "kind": "primary",
       "tier": 1,
       "authority": "元人论历代绘画的鉴识之书，对晋唐宋名家逐一评断并多记其时所见真伪情形，是元代鉴藏眼光的代表性文献，亦是考宋元之际画迹流传的重要一手材料。**注意**：其品评框架已受元人复古趣味影响，不宜径当作所论各代当时的评价。",
+      "note": "版次与辑本未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E7%95%AB%E9%91%92"
+    },
+    {
+      "id": "bifa-ji",
+      "title": "笔法记",
+      "authors": "旧题荆浩（五代）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "以问答体论山水笔法，「六要」（气、韵、思、景、笔、墨）出此，是山水画论从谢赫六法转出的关键一环。**注意**：托名荆浩，其成书年代与作者归属历来有疑，本库引用时须标明此点，不可径以荆浩本人之说论其画。",
+      "note": "版次与辑本未核实。 全文链接为维基文库（开篇文字已抽验）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E7%AD%86%E6%B3%95%E8%A8%98"
+    },
+    {
+      "id": "yizhou-minghua-lu",
+      "title": "益州名画录",
+      "authors": "黄休复（北宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "专记唐至宋初蜀地画家的地方性画录，「逸格」置于神、妙、能三品之上即出此书，是评价体系由技艺转向人格的重要节点，亦是考西蜀绘画（黄筌一系）的首要材料。",
+      "note": "版次与辑本未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E7%9B%8A%E5%B7%9E%E5%90%8D%E7%95%AB%E9%8C%84"
+    },
+    {
+      "id": "huaji",
+      "title": "画继",
+      "authors": "邓椿（南宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "续《图画见闻志》而作，记北宋熙宁至南宋乾道间画家，对宣和画院与徽宗朝画事记载尤详，是考院体形成的一手材料。",
+      "note": "版次与辑本未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E7%95%AB%E7%B9%BC"
+    },
+    {
+      "id": "tuhui-baojian",
+      "title": "图绘宝鉴",
+      "authors": "夏文彦（元）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "元人所编历代画家传录，采辑前代画史而成，流传极广。**注意**：多处转录前书而未注出处，且有讹误，属汇编性质，本库引其记载时不视同一手著录。",
+      "note": "版次与辑本未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E5%9C%96%E7%B9%AA%E5%AF%B6%E9%91%91"
+    },
+    {
+      "id": "shupu",
+      "title": "书谱",
+      "authors": "孙过庭（唐）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "既是孙过庭本人的草书墨迹，又是唐代最重要的书论——**一件东西同时是作品与文献**，本库分立 work 与 treatise 两条，各以其自身的证据标准处理。论「执使转用」与王羲之父子优劣，为后世书论所本。",
+      "note": "版次与辑本未核实。 全文链接为维基文库（开篇文字已抽验）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E6%9B%B8%E8%AD%9C"
+    },
+    {
+      "id": "fashu-yaolu",
+      "title": "法书要录",
+      "authors": "张彦远（唐）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "张彦远（《历代名画记》作者）所辑六朝至唐书论汇编，《书品》《书断》等多赖此书保存——**今日所见诸多早期书论皆经其手转录**，故其取舍本身即影响了后世对书法史的认识。",
+      "note": "版次与辑本未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E6%B3%95%E6%9B%B8%E8%A6%81%E9%8C%84"
+    },
+    {
+      "id": "xuanhe-shupu",
+      "title": "宣和书谱",
+      "authors": "北宋宣和内府敕编",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "与《宣和画谱》并行的内府藏书法著录，记所藏历代墨迹及书家小传。**注意**：与画谱同例，著录数字反映的是宣和内府一时之藏，不等于当时存世总量，本库引用时受此限制约束。",
+      "note": "版次与辑本未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E5%AE%A3%E5%92%8C%E6%9B%B8%E8%AD%9C"
+    },
+    {
+      "id": "shiqu-baoji",
+      "title": "石渠宝笈",
+      "authors": "清乾隆敕编（初编 1745）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "清宫书画著录的集大成之作，今两岸故宫藏品的递藏链条多赖此书接续。**注意**：入录即经乾隆内府鉴定，而其鉴定结论屡有失误（《富春山居图》以子明卷为真、无用师卷为伪即著例），本库引其著录以证递藏，不以其判真伪。",
       "note": "版次与辑本未核实。",
+      "verified": false
+    },
+    {
+      "id": "peiwenzhai-shuhua-pu",
+      "title": "佩文斋书画谱",
+      "authors": "孙岳颁等奉敕编（清 1708）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "百卷类书，汇辑历代书画论述、传记与著录，是检索古代书画文献的基本工具书。**注意**：属类编转录，引用时应尽可能回溯其所据原书。",
+      "note": "版次与辑本未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E4%BD%A9%E6%96%87%E9%BD%8B%E6%9B%B8%E7%95%AB%E8%AD%9C"
+    },
+    {
+      "id": "jieziyuan-huazhuan",
+      "title": "芥子园画传",
+      "authors": "王概等（清，初集 1679）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "分门别类的绘画技法图谱，树石人物各有程式范本，**它塑造了此后三百年学画者的入门视觉经验**，其影响远及日本。既是技法文献，也是研究绘画程式化与传播的关键对象。",
+      "note": "版次与辑本未核实。",
+      "verified": false
+    },
+    {
+      "id": "hua-shanshui-xu",
+      "title": "画山水序",
+      "authors": "宗炳（南朝宋 375–443）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "中国最早的山水画论之一，「澄怀味象」「竖划三寸，当千仞之高」出此，是山水尚未独立成科时已有的理论准备。文短而地位重。",
+      "note": "版次与辑本未核实。",
+      "verified": false
+    },
+    {
+      "id": "xu-huapin",
+      "title": "续画品",
+      "authors": "姚最（南朝陈）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "续谢赫《古画品录》而作，对谢赫的品第多有修正，是六朝画品体系内部存在分歧的直接证据。**注意**：书名与作者归属另有异说。",
+      "note": "版次与辑本未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E7%BA%8C%E7%95%AB%E5%93%81"
+    },
+    {
+      "id": "liaoshi",
+      "title": "辽史",
+      "authors": "元 脱脱等修",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "元修正史之一，考辽代职官、舆服、礼制的基本文献，辽代绘画与工艺的制度背景多赖此书。**注意**：辽史成书仓促、史源单薄，向被视为二十四史中较薄弱者，本库引用时不视为无可置疑。",
+      "note": "版次与辑本未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E9%81%BC%E5%8F%B2"
+    },
+    {
+      "id": "jinshi",
+      "title": "金史",
+      "authors": "元 脱脱等修",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "元修正史之一，记金代典章与人物，王庭筠等金代文人书画家的仕历赖此可考。",
+      "note": "版次与辑本未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E9%87%91%E5%8F%B2"
+    },
+    {
+      "id": "songshi",
+      "title": "宋史",
+      "authors": "元 脱脱等修",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "元修正史之一，本库引以考两宋人物仕历与制度。《奸臣传》收蔡京，是「苏黄米蔡」之「蔡」指谁一争的关键背景。",
+      "note": "版次与辑本未核实。 全文链接为维基文库（书名唯一）；所据底本与版次未核实，引具体文句时须回校纸本。",
+      "verified": false,
+      "url": "https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2"
+    },
+    {
+      "id": "zeng-houyi-mu-baogao",
+      "title": "曾侯乙墓（发掘报告）",
+      "authors": "湖北省博物馆编，文物出版社 1989",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "战国早期曾国国君墓的正式发掘报告，编钟、尊盘、漆棺等器物的出土位置、共出关系与测量数据以此为准——**有正式报告的墓葬，其断代依据可达「地层」「共出器物」等级**，这与传世器物只能靠器形序列判断有本质差别。",
+      "note": "版次与辑本未核实。",
+      "verified": false
+    },
+    {
+      "id": "zhongguo-taoci-shi",
+      "title": "中国陶瓷史",
+      "authors": "中国硅酸盐学会编，文物出版社 1982",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "窑口分期与工艺演变的通行框架，本库陶瓷类目的分期依据。",
+      "note": "版次与辑本未核实。",
+      "verified": false
+    },
+    {
+      "id": "ma-chengyuan-zhongguo-qingtongqi",
+      "title": "中国青铜器",
+      "authors": "马承源主编，上海古籍出版社",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "青铜器器类、形制序列与铭文释读的通行专著，本库器类条目与器形断代的主要依据。",
+      "note": "版次与辑本未核实。",
+      "verified": false
+    },
+    {
+      "id": "wu-hung-double-screen",
+      "title": "The Double Screen: Medium and Representation in Chinese Painting",
+      "authors": "巫鸿（Wu Hung），1996",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "专论《重屏会棋图》一类「画中有屏、屏中有画」的图像自指结构，是把绘画媒材本身当作论题的奠基性研究。本库论及重屏结构处应引此书，而非把该结构当作不待论证的观察。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "scaglia-aesthetics-internationalism",
+      "title": "The Aesthetics of Internationalism: Culture and Politics on Display at the 1935–1936 International Exhibition of Chinese Art",
+      "authors": "Ilaria Scaglia, Journal of World History 26:1 (2015)",
+      "kind": "survey",
+      "tier": 2,
+      "authority": "1935–36 伦敦中国艺术国际展览会的核心专题论文，把该展放在两战之间国际主义与文化外交的语境里看。本库引以支撑「选件即判断」——**哪些东西被选去代表中国，是当时的政治与美学合力决定的**，不是自古如此。",
+      "note": "卷期与页码未逐一核实。",
+      "verified": true
+    },
+    {
+      "id": "huang-there-and-back",
+      "title": "There and Back Again: Material Objects at the First International Exhibitions of Chinese Art in Shanghai, London, and Nanjing, 1935–1936",
+      "authors": "Ellen Huang, Journal of World History 23:1 (2012)",
+      "kind": "survey",
+      "tier": 2,
+      "authority": "同一场展览的另一视角，兼及上海预展与南京展。**本库仅确认题名与刊出信息，未获全文**，故不据以立具体事实，只作线索登记。",
+      "note": "题名已确认，全文未获，未据以立事实。",
+      "verified": false
+    },
+    {
+      "id": "yiyan-wang-modern-art-modern-china",
+      "title": "Modern Art for a Modern China",
+      "authors": "Yiyan Wang, Routledge",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "含 1929 年第一届全国美术展览会与「二徐论战」（徐悲鸿与徐志摩关于现代主义的争论）专章，本库该事件条目的主要依据之一。",
+      "note": "题名已确认，全文未获，未据以立事实。",
+      "verified": false
+    },
+    {
+      "id": "clunas-lrb-china-2005",
+      "title": "评「盛世华章：康雍乾三代」展（London Review of Books）",
+      "authors": "Craig Clunas（柯律格）",
+      "kind": "survey",
+      "tier": 2,
+      "authority": "柯律格对 2005 年伦敦皇家艺术学院该展的评论，**与已登记的其专著 `clunas-art-in-china` 是两回事**——此文批评的正是大展如何以帝王视角组织中国艺术的叙事，是本库「选件即判断」的当代例证。",
+      "note": "题名已确认，全文未获，未据以立事实。",
       "verified": false
     }
   ]

@@ -17,7 +17,7 @@
 import html
 import re
 
-from schema import (BADGES, DATING_BASIS, DATING_CONF, LINK_RE,
+from schema import (BADGES, BLOCKS, DATING_BASIS, DATING_CONF, LINK_RE,
                     RUBBING_EDITIONS, STMT_STATES, license_ok, LICENSE_BLOCKED)
 
 KIND_PATH = {"artist": "artists", "work": "works", "site": "sites",
@@ -113,6 +113,16 @@ def _block(b, depth, c):
         return _rubbing(b, depth, c)
     if t == "colophon":
         return _colophon(b, depth, c)
+    if t == "prov":
+        return _prov(b, depth, c)
+    if t == "exhib":
+        return _exhib(b, depth, c)
+    # 契约里声明了、这里却没有渲染器的块，从前会静默返回空字符串——
+    # schema 放行、build 报 0 WARN、内容凭空消失，哪里都不报错。
+    # 那是最坏的一种失败，所以宁可让构建当场炸掉。
+    if t in BLOCKS:
+        raise ValueError(f"块类型 {t!r} 已在 schema.BLOCKS 中声明，但 render.py 无渲染器——"
+                         f"加块类型必须同时加渲染器，否则数据会被静默丢弃")
     return ""
 
 
@@ -169,6 +179,44 @@ def _colophon(b, depth, c):
     return (f'<div class="colophon"><div class="cl-head">'
             f'<span class="cl-by">{e(b["by"])}</span>{when}{seals}</div>'
             f'<div class="cl-body">{inline(b["text"], depth, c)}</div></div>')
+
+
+def _archive_src(b, depth):
+    """馆方档案块的出处标记：既指回本库的信源页，也直链那一件的藏品页。
+
+    只写 `[cleveland]` 等于要读者自己去馆里搜一遍。**留下原始链接是署名义务的
+    一部分**（CC BY-SA 要求署名，「适当引用」要求指明出处），也是这条记录能被
+    第三方复核的前提——本库全部认知等级的意义都建立在「可复核」上。
+    """
+    out = ""
+    if b.get("src"):
+        out += (f'<a class="ref-src" href="{up(depth)}about.html#src-{e(b["src"])}">'
+                f'[{e(b["src"])}]</a>')
+    if b.get("url"):
+        out += (f'<a class="ref-src" href="{e(b["url"])}" target="_blank" '
+                f'rel="noopener">藏品页 ↗</a>')
+    return out
+
+
+def _prov(b, depth, c):
+    """递藏。做成竖向链条，因为它就是一条链——断在哪里比经过谁更要紧。
+
+    与 colophon 刻意做得不像：题跋是**刻在物件上**的证据（朱印、宣纸底），
+    递藏是**物件之外**的机构档案。两者证据性质不同，看起来就不该一样。
+    """
+    return (f'<div class="prov"><span class="pv-when">{e(b["when"])}</span>'
+            f'<span class="pv-body">{inline(b["text"], depth, c)}'
+            f'{_archive_src(b, depth)}</span></div>')
+
+
+def _exhib(b, depth, c):
+    """展览史。年份立在左侧成一列，因为要看的正是时间分布——
+    一件东西哪几十年被反复展出、哪几十年没人碰，本身就是接受史。"""
+    note = (f'<span class="ex-note">{inline(b["text"], depth, c)}</span>'
+            if b.get("text") else "")
+    return (f'<div class="exhib"><span class="ex-when">{e(b["when"] or "年份不详")}</span>'
+            f'<span class="ex-body"><span class="ex-title">{inline(b["title"], depth, c)}</span>'
+            f'{note}{_archive_src(b, depth)}</span></div>')
 
 
 # ── 图像 ──────────────────────────────────────────────────────────────────

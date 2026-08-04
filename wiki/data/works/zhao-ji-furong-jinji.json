@@ -10,7 +10,18 @@
   "year_sort": 1122,
   "medium": "绢本设色立轴",
   "holder": "故宫博物院（北京）",
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E8%B5%B5%E4%BD%B6%E8%8A%99%E8%93%89%E9%94%A6%E9%B8%A1%E5%9B%BE%E8%BD%B4.png",
+    "credit": "赵佶 / 故宫博物院「名画记」数字发布 / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/zhao-ji-furong-jinji-800.png",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/%E8%B5%B5%E4%BD%B6%E8%8A%99%E8%93%89%E9%94%A6%E9%B8%A1%E5%9B%BE%E8%BD%B4.png",
+    "w": 960,
+    "h": 1347,
+    "alt": "赵佶《芙蓉锦鸡图》，故宫博物院藏"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -65,7 +76,7 @@
         "细看锦鸡尾羽每根的走向与色彩变化，以及芙蓉花瓣由外向内的粉白晕染层次。",
         "留意左下角押款与花押的位置与写法，与《[[work:zhao-ji-ruihe|瑞鹤图]]》的「御书」葫芦印对照，可比较赵佶不同作品上钤印/署款方式的异同。"
       ]},
-      {"t": "gap", "text": "故宫博物院（北京）无公开 API，本库亦未能在 Wikimedia Commons、大都会、克利夫兰等自由授权渠道找到本件的可信图版，故本条目暂未附图；读者可查故宫博物院官方网站或该院数字文物库核对原件信息"}
+      {"t": "gap", "text": "故宫博物院（北京）无公开 API，本条目图版经故宫博物院「名画记」数字发布经 Wikimedia Commons 转载取得（见 image 字段），但未经本库直接向该院数字文物库交叉核对完整元数据，读者仍可查故宫博物院官方网站核对原件信息"}
     ],
     "disputes": [
       {"t": "stmt", "state": "adopt", "text": "**主流著录立场**：故宫博物院及多数展览、出版物将本件标为徽宗御笔真迹，「宣和殿御制并书」款与「天下一人」花押均视为其标志性签署方式；与《听琴图》那样存在公开三方鉴定分歧（郑珉中主真迹、谢稚柳与徐邦达主院人代笔）不同，本件在现有文献里很少被单独列为专门的真伪争议案例。", "src": "wangxun-zhongguo-meishushi"},

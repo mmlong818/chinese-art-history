@@ -11,7 +11,9 @@
   "size": "直径 14.7 厘米，通高 12.9 厘米",
   "holder": "克利夫兰美术馆（藏品号 1989.291）",
   "cma_id": 154700,
-  "classes": ["jingdezhen-yao"],
+  "classes": [
+    "jingdezhen-yao"
+  ],
   "image": {
     "source": "cleveland",
     "source_url": "https://www.clevelandart.org/art/1989.291",
@@ -26,54 +28,158 @@
   "verification": "museum",
   "updated": "2026-08-04",
   "sources": [
-    {"ref": "cleveland", "note": "藏品记录、年代、工艺、尺寸，逐项照录"},
-    {"ref": "zhongguo-meishu-jianshi", "note": "五彩工艺在明代嘉靖万历官窑瓷中的位置"}
+    {
+      "ref": "cleveland",
+      "note": "藏品记录、年代、工艺、尺寸，逐项照录"
+    },
+    {
+      "ref": "zhongguo-meishu-jianshi",
+      "note": "五彩工艺在明代嘉靖万历官窑瓷中的位置"
+    }
   ],
   "sections": {
     "basics": [
-      {"t": "kv", "rows": [
-        ["原题", "Jar with Dragons Pursuing Flaming Jewels"],
-        ["馆方年代", "1522–66"],
-        ["馆方分期", "China, Jiangxi province, Jingdezhen kilns, Ming dynasty (1368–1644), Jiajing mark and reign (1522–66)"],
-        ["工艺", "馆方记 porcelain with wucai (five color) overglaze enamel decoration"],
-        ["尺寸", "直径 14.7 × 通高 12.9 厘米"],
-        ["现藏", "克利夫兰美术馆，藏品号 1989.291"],
-        ["入藏", "Bequest of Mrs. Severance A. Millikin"]
-      ]},
-      {"t": "stmt", "state": "adopt", "text": "以上各项**照录馆方藏品记录**，未作改写。馆方直接把工艺写作「wucai (five color)」，与本库中文条目名「五彩」对应。", "src": "cleveland"}
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "原题",
+            "Jar with Dragons Pursuing Flaming Jewels"
+          ],
+          [
+            "馆方年代",
+            "1522–66"
+          ],
+          [
+            "馆方分期",
+            "China, Jiangxi province, Jingdezhen kilns, Ming dynasty (1368–1644), Jiajing mark and reign (1522–66)"
+          ],
+          [
+            "工艺",
+            "馆方记 porcelain with wucai (five color) overglaze enamel decoration"
+          ],
+          [
+            "尺寸",
+            "直径 14.7 × 通高 12.9 厘米"
+          ],
+          [
+            "现藏",
+            "克利夫兰美术馆，藏品号 1989.291"
+          ],
+          [
+            "入藏",
+            "Bequest of Mrs. Severance A. Millikin"
+          ]
+        ]
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "以上各项**照录馆方藏品记录**，未作改写。馆方直接把工艺写作「wucai (five color)」，与本库中文条目名「五彩」对应。",
+        "src": "cleveland"
+      }
     ],
     "form": [
-      {"t": "p", "text": "罐身绘云龙赶珠纹，龙形矫健，云纹与火焰纹以浓烈的红、黄、绿等彩料层层叠绘，色彩饱和度高、对比强烈，是嘉靖朝五彩瓷追求视觉张力的典型风格。"}
+      {
+        "t": "p",
+        "text": "罐身绘云龙赶珠纹，龙形矫健，云纹与火焰纹以浓烈的红、黄、绿等彩料层层叠绘，色彩饱和度高、对比强烈，是嘉靖朝五彩瓷追求视觉张力的典型风格。"
+      }
     ],
     "inscription": [
-      {"t": "p", "text": "馆方将本件归为「嘉靖年款」一类，通常指底部青花楷书六字双行「大明嘉靖年制」年款。本件具体年款文字，馆方公开图版未清晰展示底部细节，本库不逐字核对，仅照录馆方归属判断。"}
+      {
+        "t": "p",
+        "text": "馆方将本件归为「嘉靖年款」一类，通常指底部青花楷书六字双行「大明嘉靖年制」年款。本件具体年款文字，馆方公开图版未清晰展示底部细节，本库不逐字核对，仅照录馆方归属判断。"
+      }
     ],
     "technique": [
-      {"t": "p", "text": "五彩工艺：多数直接在釜上以彩料勾线并填色（部分辅以釜下青花打底，但不像斗彩那样以青花轮廓线为必要步骤），经低温二次烧成，色彩种类多、对比强烈是其视觉特征。"},
-      {"t": "stmt", "state": "adopt", "text": "五彩与本库另一件条目所涉的成化「斗彩」（见 [[work:chenghua-doucai-npm|成化斗彩鸡缸杯]]）常被并提，区别在于：斗彩的彩料填色严格依附于釜下青花轮廓线，风格偏疏朗淡雅；五彩不完全依赖釜下轮廓，色彩层次更浓烈饱满，是成化以后景德镇官窑发展出的另一条上彩路线，嘉靖、万历两朝是五彩的盛期。"}
+      {
+        "t": "p",
+        "text": "五彩工艺：多数直接在釜上以彩料勾线并填色（部分辅以釜下青花打底，但不像斗彩那样以青花轮廓线为必要步骤），经低温二次烧成，色彩种类多、对比强烈是其视觉特征。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "五彩与本库另一件条目所涉的成化「斗彩」（见 [[work:chenghua-doucai-npm|成化斗彩鸡缸杯]]）常被并提，区别在于：斗彩的彩料填色严格依附于釜下青花轮廓线，风格偏疏朗淡雅；五彩不完全依赖釜下轮廓，色彩层次更浓烈饱满，是成化以后景德镇官窑发展出的另一条上彩路线，嘉靖、万历两朝是五彩的盛期。"
+      }
     ],
     "excavation": [
-      {"t": "gap", "text": "本件为传世流散品，无出土记录。景德镇珠山御窑遗址出土的嘉靖官窑瓷片为器形、彩料与年款书写风格提供比对基准，但本件本身与具体地层无直接对应"}
+      {
+        "t": "gap",
+        "text": "本件为传世流散品，无出土记录。景德镇珠山御窑遗址出土的嘉靖官窑瓷片为器形、彩料与年款书写风格提供比对基准，但本件本身与具体地层无直接对应"
+      }
     ],
     "dating": [
-      {"t": "dating", "basis": "铭文", "conf": "较可靠",
-       "text": "馆方依据器物年款结合彩料、器形特征判定为嘉靖官窑瓷。年款本身存在明清官窑瓷普遍的「寄托款」风险，本库未独立核对具体书体细节，故列「较可靠」而非「确证」。",
-       "src": "cleveland"}
+      {
+        "t": "dating",
+        "basis": "铭文",
+        "conf": "较可靠",
+        "text": "馆方依据器物年款结合彩料、器形特征判定为嘉靖官窑瓷。年款本身存在明清官窑瓷普遍的「寄托款」风险，本库未独立核对具体书体细节，故列「较可靠」而非「确证」。",
+        "src": "cleveland"
+      }
     ],
     "provenance": [
-      {"t": "p", "text": "由 Mrs. Severance A. Millikin 遗赠入藏克利夫兰美术馆。"},
-      {"t": "gap", "text": "入藏之前的递藏链不明"}
+      {
+        "t": "p",
+        "text": "由 Mrs. Severance A. Millikin 遗赠入藏克利夫兰美术馆。"
+      },
+      {
+        "t": "gap",
+        "text": "馆方递藏档案可上溯至「年份不详」（见上：(Ralph Chait, New York, NY, sold to Severance and Greta Mill）。再往前——**尤其此物流出中国的经过、在华的藏家与出让情形**——仍无记录。西方馆的 provenance 通常自经手古董商起算，**商人之前的那一段恰是最要紧而最不可考的一段**：它是本库反复讲的那个不对称的另一半，缺的不是编纂功夫，是档案本身没有。"
+      },
+      {
+        "t": "exhib",
+        "when": "1990",
+        "title": "The Severance and Greta Millikin Collection",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (July 5-September 2, 1990).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1989.291"
+      },
+      {
+        "t": "prov",
+        "when": "年份不详",
+        "text": "(Ralph Chait, New York, NY, sold to Severance and Greta Millikin)",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1989.291"
+      },
+      {
+        "t": "prov",
+        "when": "?-1989",
+        "text": "Severance A. [1895-1985] and Greta [Marguerite Steckerl] Millikin [1903-1989], Cleveland, OH, given to the Cleveland Museum of Art",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1989.291"
+      },
+      {
+        "t": "prov",
+        "when": "1989-",
+        "text": "The Cleveland Museum of Art, Cleveland, OH",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1989.291"
+      }
     ],
     "viewing": [
-      {"t": "ul", "items": [
-        "留意彩料的层次与浓烈程度，与本库成化斗彩条目的疏朗淡雅风格对照观看，能直观感受两条上彩路线的差异。",
-        "云龙纹的火焰珠形态在嘉靖、万历两朝五彩瓷中反复出现，是判断这一时期五彩瓷题材偏好的直观线索。"
-      ]}
+      {
+        "t": "ul",
+        "items": [
+          "留意彩料的层次与浓烈程度，与本库成化斗彩条目的疏朗淡雅风格对照观看，能直观感受两条上彩路线的差异。",
+          "云龙纹的火焰珠形态在嘉靖、万历两朝五彩瓷中反复出现，是判断这一时期五彩瓷题材偏好的直观线索。"
+        ]
+      }
     ],
     "disputes": [
-      {"t": "stmt", "state": "pend", "text": "本件年款是否为嘉靖本朝书写，本库未独立核对，仅照录馆方判断。"},
-      {"t": "stmt", "state": "disp", "text": "明清官窑瓷普遍存在「寄托款」现象——本朝或后朝仿烧他朝器物并寄托其年款以示追慕，是瓷器鉴定界长期关注且常有不同意见的判定难点，嘉靖五彩这类风格鲜明、后世仿製众多的品类尤易涉及此类争议。本件年款是否确系嘉靖本朝书写、抑或后朝寄托款，本库未独立核对书体细节，不代为鉴定，仅照录馆方判断。"},
-      {"t": "gap", "text": "本件无出土记录"}
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "本件年款是否为嘉靖本朝书写，本库未独立核对，仅照录馆方判断。"
+      },
+      {
+        "t": "stmt",
+        "state": "disp",
+        "text": "明清官窑瓷普遍存在「寄托款」现象——本朝或后朝仿烧他朝器物并寄托其年款以示追慕，是瓷器鉴定界长期关注且常有不同意见的判定难点，嘉靖五彩这类风格鲜明、后世仿製众多的品类尤易涉及此类争议。本件年款是否确系嘉靖本朝书写、抑或后朝寄托款，本库未独立核对书体细节，不代为鉴定，仅照录馆方判断。"
+      },
+      {
+        "t": "gap",
+        "text": "本件无出土记录"
+      }
     ]
   }
 }

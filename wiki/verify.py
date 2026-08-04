@@ -35,6 +35,14 @@ import time
 import urllib.parse
 import urllib.request
 
+# Windows 终端默认走本地码页，中文输出会变乱码——一个看不懂的报错等于没报错。
+for _s in (sys.stdout, sys.stderr):
+    try:
+        _s.reconfigure(encoding="utf-8")
+    except (AttributeError, ValueError):
+        pass
+
+
 UA = "china-art-history-archive/0.1 (build-time fact check; contact via repo)"
 WD_API = "https://www.wikidata.org/w/api.php"
 CMA_API = "https://openaccess-api.clevelandart.org/api/artworks/"

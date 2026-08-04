@@ -24,66 +24,255 @@
   "verification": "museum",
   "updated": "2026-08-04",
   "sources": [
-    {"ref": "cleveland", "note": "馆方藏品记录逐条核实：题名 Mt. Qingbian，1617 年，纸本立轴，藏品号 1980.10，share_license_status=CC0"},
-    {"ref": "huachanshi-suibi", "note": "董其昌仿古方法论的出处，本件是其实践实证"},
-    {"ref": "zhongguo-meishu-jianshi", "note": "晚明仿古山水的通行叙述"},
-    {"ref": "three-thousand-years", "note": "本件构图形式特征的现代论述"}
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录逐条核实：题名 Mt. Qingbian，1617 年，纸本立轴，藏品号 1980.10，share_license_status=CC0"
+    },
+    {
+      "ref": "huachanshi-suibi",
+      "note": "董其昌仿古方法论的出处，本件是其实践实证"
+    },
+    {
+      "ref": "zhongguo-meishu-jianshi",
+      "note": "晚明仿古山水的通行叙述"
+    },
+    {
+      "ref": "three-thousand-years",
+      "note": "本件构图形式特征的现代论述"
+    }
   ],
   "sections": {
     "basics": [
-      {"t": "kv", "rows": [
-        ["作者", "董其昌"],
-        ["材质", "纸本水墨"],
-        ["形制", "立轴"],
-        ["尺寸", "画心 225 × 67.6 cm；连裱 355 × 92.7 cm（馆方数据）"],
-        ["款识", "有董其昌本人款署与纪年，1617 年"],
-        ["现藏", "克利夫兰艺术博物馆，藏品号 1980.10"]
-      ]},
-      {"t": "dating", "basis": "款识", "conf": "确证",
-       "text": "本件有董其昌本人署款与明确纪年（1617），证据充分。董其昌习惯在作品上明确署年，这与宋人山水多不署年、须靠藏款或风格推定的情况形成鲜明对照——本身即是明代书画署款惯例演变的一个体现。"},
-      {"t": "stmt", "state": "adopt", "text": "本件题名与元代王蒙名作《青卞隐居图》（今藏上海博物馆）呼应，是董其昌「仿古而非临摹」方法论的典型实例：他借用王蒙青卞山题材与部分构图元素，但整体笔墨语言与空间处理是his own的重新组织，不是对王蒙原作的忠实摹写。", "src": "huachanshi-suibi"}
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "作者",
+            "董其昌"
+          ],
+          [
+            "材质",
+            "纸本水墨"
+          ],
+          [
+            "形制",
+            "立轴"
+          ],
+          [
+            "尺寸",
+            "画心 225 × 67.6 cm；连裱 355 × 92.7 cm（馆方数据）"
+          ],
+          [
+            "款识",
+            "有董其昌本人款署与纪年，1617 年"
+          ],
+          [
+            "现藏",
+            "克利夫兰艺术博物馆，藏品号 1980.10"
+          ]
+        ]
+      },
+      {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "确证",
+        "text": "本件有董其昌本人署款与明确纪年（1617），证据充分。董其昌习惯在作品上明确署年，这与宋人山水多不署年、须靠藏款或风格推定的情况形成鲜明对照——本身即是明代书画署款惯例演变的一个体现。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "本件题名与元代王蒙名作《青卞隐居图》（今藏上海博物馆）呼应，是董其昌「仿古而非临摹」方法论的典型实例：他借用王蒙青卞山题材与部分构图元素，但整体笔墨语言与空间处理是his own的重新组织，不是对王蒙原作的忠实摹写。",
+        "src": "huachanshi-suibi"
+      }
     ],
     "commission": [
-      {"t": "p", "text": "无明确题跋说明具体委托背景，属其个人创作，无特定受画人记载。"},
-      {"t": "gap", "text": "具体创作背景材料不足"}
+      {
+        "t": "p",
+        "text": "无明确题跋说明具体委托背景，属其个人创作，无特定受画人记载。"
+      },
+      {
+        "t": "gap",
+        "text": "具体创作背景材料不足"
+      }
     ],
     "reading": [
-      {"t": "p", "text": "画面山石层叠堆积，以近乎抽象的方式组织画面节奏，空间处理不追求写实的纵深透视，而是通过石块、林木的平面化排布营造整体的构成感——这种处理方式与南宋院体、明代浙派的写实性空间经营形成鲜明对比。"},
-      {"t": "stmt", "state": "adopt", "text": "**本件评价须与「南北宗」理论分开处理**：本件笔墨的构成性与形式创造力，是可以脱离「南北宗」理论单独评价的风格事实——不因董其昌是这套理论的提出者就默认本件必然是「正宗」的典范，也不因後世对「南北宗」理论的批评就反向贬低本件的形式成就，见 [[artist:dong-qichang|董其昌]] 条目「概览」与「创作体系」两节的分寸。", "src": "three-thousand-years"}
+      {
+        "t": "p",
+        "text": "画面山石层叠堆积，以近乎抽象的方式组织画面节奏，空间处理不追求写实的纵深透视，而是通过石块、林木的平面化排布营造整体的构成感——这种处理方式与南宋院体、明代浙派的写实性空间经营形成鲜明对比。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "**本件评价须与「南北宗」理论分开处理**：本件笔墨的构成性与形式创造力，是可以脱离「南北宗」理论单独评价的风格事实——不因董其昌是这套理论的提出者就默认本件必然是「正宗」的典范，也不因後世对「南北宗」理论的批评就反向贬低本件的形式成就，见 [[artist:dong-qichang|董其昌]] 条目「概览」与「创作体系」两节的分寸。",
+        "src": "three-thousand-years"
+      }
     ],
     "technique": [
-      {"t": "ul", "items": [
-        "**以书入画的用笔**：山石轮廓与皴笔带有明显的行草书笔势，提按顿挫分明，是董其昌「以书入画」主张最直接的技法体现。",
-        "**平面化的构图组织**：石块层叠堆积不追求纵深透视的写实感，更近于一种二维平面上的形式构成，这一点在二十世纪西方学者论述中常被特别提出讨论。",
-        "**仿古而非摹古**：取王蒙青卞山题材与部分皴法特征，但整体章法与笔墨质感是董其昌自己的语言，不是对原作的忠实复制。"
-      ]},
-      {"t": "gap", "text": "用纸用墨的科技检测数据本库未见，克利夫兰博物馆的公开元数据未提供此类细节"}
+      {
+        "t": "ul",
+        "items": [
+          "**以书入画的用笔**：山石轮廓与皴笔带有明显的行草书笔势，提按顿挫分明，是董其昌「以书入画」主张最直接的技法体现。",
+          "**平面化的构图组织**：石块层叠堆积不追求纵深透视的写实感，更近于一种二维平面上的形式构成，这一点在二十世纪西方学者论述中常被特别提出讨论。",
+          "**仿古而非摹古**：取王蒙青卞山题材与部分皴法特征，但整体章法与笔墨质感是董其昌自己的语言，不是对原作的忠实复制。"
+        ]
+      },
+      {
+        "t": "gap",
+        "text": "用纸用墨的科技检测数据本库未见，克利夫兰博物馆的公开元数据未提供此类细节"
+      }
     ],
     "colophons": [
-      {"t": "colophon", "by": "董其昌（自题）", "when": "1617", "seals": ["董其昌印（等，具体印文待核）"],
-       "text": "本件有董其昌本人题款，说明创作年代与借鉴对象（王蒙），是本件断代与仿古脉络的直接一手证据。"},
-      {"t": "gap", "text": "题跋全文与鉴藏印印文的逐条核对，须据克利夫兰艺术博物馆官方数据库核对"}
+      {
+        "t": "colophon",
+        "by": "董其昌（自题）",
+        "when": "1617",
+        "seals": [
+          "董其昌印（等，具体印文待核）"
+        ],
+        "text": "本件有董其昌本人题款，说明创作年代与借鉴对象（王蒙），是本件断代与仿古脉络的直接一手证据。"
+      },
+      {
+        "t": "gap",
+        "text": "题跋全文与鉴藏印印文的逐条核对，须据克利夫兰艺术博物馆官方数据库核对"
+      }
     ],
     "provenance": [
-      {"t": "p", "text": "1980 年经 Leonard C. Hanna Jr. 基金入藏克利夫兰艺术博物馆。"},
-      {"t": "stmt", "state": "pend", "text": "入藏之前的具体递藏经过，本库尚未核实，不作推测。"},
-      {"t": "gap", "text": "入藏前的完整递藏链，待核"}
+      {
+        "t": "p",
+        "text": "1980 年经 Leonard C. Hanna Jr. 基金入藏克利夫兰艺术博物馆。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "入藏之前的具体递藏经过，本库尚未核实，不作推测。"
+      },
+      {
+        "t": "gap",
+        "text": "馆方递藏档案可上溯至「1800s」（见上：Li Enqing 李恩慶 [19th century]）。再往前——**尤其此物流出中国的经过、在华的藏家与出让情形**——仍无记录。西方馆的 provenance 通常自经手古董商起算，**商人之前的那一段恰是最要紧而最不可考的一段**：它是本库反复讲的那个不对称的另一半，缺的不是编纂功夫，是档案本身没有。"
+      },
+      {
+        "t": "exhib",
+        "when": "1959",
+        "title": "1000 Jahre Chinesische Malerei",
+        "text": "Haus der Kunst, Munich, Mùnich, Germany (organizer) (October 16-December 13, 1959).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1980.10"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting",
+        "text": "The Nelson-Atkins Museum of Art (November 7, 1980-January 4, 1981); The Cleveland Museum of Art (February 11-March 29, 1981); Tokyo National Museum (October 4-November 17, 1982); The Asia Society Museum, New York, NY (December 3, 1982-February 28, 1983).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1980.10"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Year in Review: 1980",
+        "text": "The Cleveland Museum of Art (organizer) (June 24-July 19, 1981).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1980.10"
+      },
+      {
+        "t": "exhib",
+        "when": "1987",
+        "title": "Mountains, Rocks, and Water: Landscape Painting in Asia",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (October 2-December 13, 1987).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1980.10"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art",
+        "text": "Nara National Museum (organizer) (February 21-March 29, 1998); Suntory Museum of Art (April 28-June 21, 1998).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1980.10"
+      },
+      {
+        "t": "exhib",
+        "when": "2009",
+        "title": "Streams and Mountains Without End: Asian Art and the Legacy of Sherman E. Lee at the Cleveland Museum of Art",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (June 27-August 23, 2009).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1980.10"
+      },
+      {
+        "t": "exhib",
+        "when": "2015",
+        "title": "Chinese Landscape Duets of Arnold Chang and Michael Cherney",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (July 12, 2015-February 7, 2016).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1980.10"
+      },
+      {
+        "t": "exhib",
+        "when": "2018",
+        "title": "The Arts of Dong Qichang",
+        "text": "Shanghai Museum, Shanghai, China (organizer) (December 7, 2018-March 10, 2019).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1980.10"
+      },
+      {
+        "t": "prov",
+        "when": "1800s",
+        "text": "Li Enqing 李恩慶 [19th century]",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1980.10"
+      },
+      {
+        "t": "prov",
+        "when": "?–1980",
+        "text": "(Wan-go H. C. Weng 翁萬戈 [1918–2020], Lyme, NH, sold to the Cleveland Museum of Art)",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1980.10"
+      },
+      {
+        "t": "prov",
+        "when": "1980–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1980.10"
+      }
     ],
     "reception": [
-      {"t": "p", "text": "本件是西方收藏中董其昌仿古山水最重要的代表作之一，二十世纪以来（尤其高居翰等西方汉学家的论述）常被用以讨论董其昌绘画的形式创造性与现代性关联。"},
-      {"t": "stmt", "state": "disp", "text": "**分寸提醒**：本件在西方学界受到的高度重视，一定程度上与二十世纪西方现代艺术史对「形式自律」「构成性」的理论兴趣有关——这是一种特定的、带有时代烙印的欣赏视角，本库记录这一接受史事实，但不把它等同于本件在明清当时鉴藏语境中的评价地位（明清鉴藏更看重笔墨的书卷气与「士气」，评价标准并不完全相同）。", "src": "three-thousand-years"}
+      {
+        "t": "p",
+        "text": "本件是西方收藏中董其昌仿古山水最重要的代表作之一，二十世纪以来（尤其高居翰等西方汉学家的论述）常被用以讨论董其昌绘画的形式创造性与现代性关联。"
+      },
+      {
+        "t": "stmt",
+        "state": "disp",
+        "text": "**分寸提醒**：本件在西方学界受到的高度重视，一定程度上与二十世纪西方现代艺术史对「形式自律」「构成性」的理论兴趣有关——这是一种特定的、带有时代烙印的欣赏视角，本库记录这一接受史事实，但不把它等同于本件在明清当时鉴藏语境中的评价地位（明清鉴藏更看重笔墨的书卷气与「士气」，评价标准并不完全相同）。",
+        "src": "three-thousand-years"
+      }
     ],
     "viewing": [
-      {"t": "ul", "items": [
-        "先退远看整体的平面化构成感，感受山石堆叠营造的抽象节奏，而非寻找写实的空间纵深。",
-        "再近看皴笔用笔的书法性笔势，体会「以书入画」的具体图像证据。",
-        "可与上海博物馆藏王蒙《青卞隐居图》对读（本库未核实该件图版授权情况），理解董其昌「仿古而非临摹」的具体操作方式。"
-      ]},
-      {"t": "gap", "text": "无"}
+      {
+        "t": "ul",
+        "items": [
+          "先退远看整体的平面化构成感，感受山石堆叠营造的抽象节奏，而非寻找写实的空间纵深。",
+          "再近看皴笔用笔的书法性笔势，体会「以书入画」的具体图像证据。",
+          "可与上海博物馆藏王蒙《青卞隐居图》对读（本库未核实该件图版授权情况），理解董其昌「仿古而非临摹」的具体操作方式。"
+        ]
+      },
+      {
+        "t": "gap",
+        "text": "无"
+      }
     ],
     "disputes": [
-      {"t": "stmt", "state": "disp", "text": "本件在二十世纪西方学界受到的高度评价，多大程度上反映其在明清当时的实际地位、多大程度上是现代形式主义理论投射的结果，本库并陈两种视角，不裁断孰为「正确」的评价框架。", "src": "three-thousand-years"},
-      {"t": "gap", "text": "入藏前递藏链与题跋全文，均待进一步核对馆方数据库"}
+      {
+        "t": "stmt",
+        "state": "disp",
+        "text": "本件在二十世纪西方学界受到的高度评价，多大程度上反映其在明清当时的实际地位、多大程度上是现代形式主义理论投射的结果，本库并陈两种视角，不裁断孰为「正确」的评价框架。",
+        "src": "three-thousand-years"
+      },
+      {
+        "t": "gap",
+        "text": "入藏前递藏链与题跋全文，均待进一步核对馆方数据库"
+      }
     ]
   }
 }

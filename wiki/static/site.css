@@ -348,6 +348,36 @@ blockquote cite { display: block; font: 400 12.5px var(--mono); font-style: norm
   border-radius: 2px; padding: 3px 5px; background: var(--seal-soft); }
 .cl-body { font-size: 14.5px; color: var(--muted); }
 
+/* ── 递藏：竖向一条链。刻意不像题跋 ─────────────────────────────────────
+   题跋是刻在物件上的证据（朱印、宣纸底），递藏是物件之外的机构档案。
+   证据性质不同，看起来就不该一样：这里用等宽字与细连线，取档案登记簿的样子，
+   而且左侧连线故意画通——因为要看的正是这条链在哪里断掉。               */
+
+.prov { display: grid; grid-template-columns: 9.5em 1fr; gap: 14px; align-items: baseline;
+  position: relative; padding: 7px 0 7px 16px; }
+.prov::before { content: ""; position: absolute; left: 3px; top: 0; bottom: 0;
+  border-left: 1px solid var(--line); }
+.prov:first-of-type::before { top: 50%; }
+.prov:last-of-type::before { bottom: 50%; }
+.prov::after { content: ""; position: absolute; left: 0; top: calc(50% - 3px);
+  width: 7px; height: 7px; border-radius: 50%; background: var(--surface);
+  border: 1px solid var(--muted); }
+.pv-when { font: 500 12px var(--mono); color: var(--muted); }
+.pv-body { font-size: 14.5px; }
+
+/* ── 展览史：年份成列，看的就是时间分布 ─────────────────────────────────
+   一件东西哪几十年被反复展出、哪几十年没人碰，本身就是接受史。
+   1935 年伦敦那批东西此后八十年一直被当作代表作——「名作」名单有相当部分
+   是展览造出来的，不是自古如此。所以年份必须能一眼扫下来。          */
+
+.exhib { display: grid; grid-template-columns: 4.5em 1fr; gap: 14px; align-items: baseline;
+  padding: 8px 0; border-top: 1px solid var(--line-soft); }
+.exhib:first-of-type { border-top: 0; }
+.ex-when { font: 500 13px var(--mono); color: var(--t-work, var(--muted)); }
+.ex-title { display: block; font-size: 14.5px; }
+.ex-note { display: block; font: 400 11.5px/1.75 var(--mono); color: var(--faint);
+  margin-top: 3px; }
+
 /* ── 图像：一律坐在暖黑底上 ─────────────────────────────────────────── */
 
 .ph { display: block; position: relative; overflow: hidden; background: var(--plate-2);

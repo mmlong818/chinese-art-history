@@ -11,7 +11,9 @@
   "size": "口径 15.6 厘米，通高 39.4 × 宽 37.5 厘米",
   "holder": "克利夫兰美术馆（藏品号 1962.154）",
   "cma_id": 137198,
-  "classes": ["jingdezhen-yao"],
+  "classes": [
+    "jingdezhen-yao"
+  ],
   "image": {
     "source": "cleveland",
     "source_url": "https://www.clevelandart.org/art/1962.154",
@@ -26,57 +28,217 @@
   "verification": "museum",
   "updated": "2026-08-04",
   "sources": [
-    {"ref": "cleveland", "note": "藏品记录、年代、产地、尺寸、钴料来源，逐项照录"},
-    {"ref": "met-timeline", "note": "元青花绝对年代框架（大维德花瓶、新安沉船）"},
-    {"ref": "sullivan-arts-of-china", "note": "元青花外销与蒙古帝国内部贸易网络"}
+    {
+      "ref": "cleveland",
+      "note": "藏品记录、年代、产地、尺寸、钴料来源，逐项照录"
+    },
+    {
+      "ref": "met-timeline",
+      "note": "元青花绝对年代框架（大维德花瓶、新安沉船）"
+    },
+    {
+      "ref": "sullivan-arts-of-china",
+      "note": "元青花外销与蒙古帝国内部贸易网络"
+    }
   ],
   "sections": {
     "basics": [
-      {"t": "kv", "rows": [
-        ["原题", "Jar with Lion-Head Handles"],
-        ["馆方年代", "1300s"],
-        ["馆方文化断代", "China, Jiangxi Province, Jingdezhen, Yuan dynasty (1271–1368)"],
-        ["工艺", "馆方记 porcelain with underglaze painted decoration"],
-        ["尺寸", "口径 15.6 厘米；通高 39.4 × 宽 37.5 厘米"],
-        ["现藏", "克利夫兰美术馆，藏品号 1962.154"],
-        ["入藏", "John L. Severance Fund"]
-      ]},
-      {"t": "stmt", "state": "adopt", "text": "以上各项**照录馆方藏品记录**。馆方说明文字明确指出：这类元代青花瓷「不晚于 1330 年代」已投入生产，钴料进口自伊朗（可能来自卡尚一带），云肩纹与凤鸟纹母题可在同期伊尔汗国（1256–1353）的装饰艺术中找到对应——这件罐子本身即是蒙古帝国内部跨欧亚贸易与技术流动的物证。", "src": "cleveland"}
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "原题",
+            "Jar with Lion-Head Handles"
+          ],
+          [
+            "馆方年代",
+            "1300s"
+          ],
+          [
+            "馆方文化断代",
+            "China, Jiangxi Province, Jingdezhen, Yuan dynasty (1271–1368)"
+          ],
+          [
+            "工艺",
+            "馆方记 porcelain with underglaze painted decoration"
+          ],
+          [
+            "尺寸",
+            "口径 15.6 厘米；通高 39.4 × 宽 37.5 厘米"
+          ],
+          [
+            "现藏",
+            "克利夫兰美术馆，藏品号 1962.154"
+          ],
+          [
+            "入藏",
+            "John L. Severance Fund"
+          ]
+        ]
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "以上各项**照录馆方藏品记录**。馆方说明文字明确指出：这类元代青花瓷「不晚于 1330 年代」已投入生产，钴料进口自伊朗（可能来自卡尚一带），云肩纹与凤鸟纹母题可在同期伊尔汗国（1256–1353）的装饰艺术中找到对应——这件罐子本身即是蒙古帝国内部跨欧亚贸易与技术流动的物证。",
+        "src": "cleveland"
+      }
     ],
     "form": [
-      {"t": "p", "text": "罐身饰云肩纹（云头形开光）、缠枝花卷草纹与凤鸟纹，双狮头形耳，通体满绘、层次繁密，是元代青花瓷典型的满密构图风格——与明代青花讲究留白疏朗的构图习惯明显不同。"}
+      {
+        "t": "p",
+        "text": "罐身饰云肩纹（云头形开光）、缠枝花卷草纹与凤鸟纹，双狮头形耳，通体满绘、层次繁密，是元代青花瓷典型的满密构图风格——与明代青花讲究留白疏朗的构图习惯明显不同。"
+      }
     ],
     "inscription": [
-      {"t": "gap", "text": "无纪年铭文，元青花器物本就以纪年铭文极为罕见著称——现存带确切纪年铭文的元青花仅屈指可数的几件（如著名的「大维德花瓶」，底部有 1351 年供养铭文），本件不属此类"}
+      {
+        "t": "gap",
+        "text": "无纪年铭文，元青花器物本就以纪年铭文极为罕见著称——现存带确切纪年铭文的元青花仅屈指可数的几件（如著名的「大维德花瓶」，底部有 1351 年供养铭文），本件不属此类"
+      }
     ],
     "technique": [
-      {"t": "p", "text": "钴料为釜下绘制，覆透明釜后高温一次烧成，即「青花」工艺。馆方说明本件所用钴料进口自伊朗，与本土产钴料相比呈色更浓艳，是判断元青花等级与产地网络的一项技术指标。"},
-      {"t": "stmt", "state": "adopt", "text": "青花工艺本身（釜下钴料彩绘）并非元代发明，唐代已有雏形，但元代景德镇把它做成了成熟的、可大规模生产且能满足蒙古帝国内部与海外市场需求的商品——这是「元青花」之所以重要的原因，不是工艺本身的首创性。"}
+      {
+        "t": "p",
+        "text": "钴料为釜下绘制，覆透明釜后高温一次烧成，即「青花」工艺。馆方说明本件所用钴料进口自伊朗，与本土产钴料相比呈色更浓艳，是判断元青花等级与产地网络的一项技术指标。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "青花工艺本身（釜下钴料彩绘）并非元代发明，唐代已有雏形，但元代景德镇把它做成了成熟的、可大规模生产且能满足蒙古帝国内部与海外市场需求的商品——这是「元青花」之所以重要的原因，不是工艺本身的首创性。"
+      }
     ],
     "excavation": [
-      {"t": "p", "text": "本件为传世流散品，无出土记录。但元青花作为一个整体类别的存在与年代框架，很大程度上依赖 20 世纪以来的窑址发掘与沉船考古——详见「断代依据」一节。"}
+      {
+        "t": "p",
+        "text": "本件为传世流散品，无出土记录。但元青花作为一个整体类别的存在与年代框架，很大程度上依赖 20 世纪以来的窑址发掘与沉船考古——详见「断代依据」一节。"
+      }
     ],
     "dating": [
-      {"t": "dating", "basis": "器形序列", "conf": "较可靠",
-       "text": "元青花的绝对年代框架建立得相当晚：1929 年英国学者 R. L. Hobson 首次提出「大维德花瓶」（底部有 1351 年供养铭文）可能代表一类成熟的元代青花瓷，但这一判断在当时并未获得广泛认可，学界长期怀疑元代是否存在如此成熟的青花生产。1952 年 John Pope 系统整理大维德花瓶及土耳其托普卡帕、伊朗阿德比尔宫两处收藏中的同类器物，才初步确立了「至正型」元青花的风格标准。此后 1976 年韩国新安沉船（元代沉船，出水大量元代瓷器）与景德镇珠山、落马桥等窑址的考古发掘，进一步以实物地层与共出器物印证并细化了这套年代框架。本件的断代即建立在这套逐步累积、并非一次性确立的比对体系之上，故列「较可靠」而非「确证」。",
-       "src": "met-timeline"},
-      {"t": "stmt", "state": "disp", "text": "「元青花」这一类别本身的认识史，就是一部因海外沉船与窑址发掘而反复改写的历史：从二十世纪初几乎无人相信元代已有成熟青花瓷，到今天成为中国陶瓷史的核心章节，靠的不是文献重新解读，而是一件一件实物证据（大维德花瓶的铭文、新安沉船的整船出水、窑址地层）陆续浮现。本条目的断代依据须结合这一段认识史一并理解，不能只看年代数字本身。"}
+      {
+        "t": "dating",
+        "basis": "器形序列",
+        "conf": "较可靠",
+        "text": "元青花的绝对年代框架建立得相当晚：1929 年英国学者 R. L. Hobson 首次提出「大维德花瓶」（底部有 1351 年供养铭文）可能代表一类成熟的元代青花瓷，但这一判断在当时并未获得广泛认可，学界长期怀疑元代是否存在如此成熟的青花生产。1952 年 John Pope 系统整理大维德花瓶及土耳其托普卡帕、伊朗阿德比尔宫两处收藏中的同类器物，才初步确立了「至正型」元青花的风格标准。此后 1976 年韩国新安沉船（元代沉船，出水大量元代瓷器）与景德镇珠山、落马桥等窑址的考古发掘，进一步以实物地层与共出器物印证并细化了这套年代框架。本件的断代即建立在这套逐步累积、并非一次性确立的比对体系之上，故列「较可靠」而非「确证」。",
+        "src": "met-timeline"
+      },
+      {
+        "t": "stmt",
+        "state": "disp",
+        "text": "「元青花」这一类别本身的认识史，就是一部因海外沉船与窑址发掘而反复改写的历史：从二十世纪初几乎无人相信元代已有成熟青花瓷，到今天成为中国陶瓷史的核心章节，靠的不是文献重新解读，而是一件一件实物证据（大维德花瓶的铭文、新安沉船的整船出水、窑址地层）陆续浮现。本条目的断代依据须结合这一段认识史一并理解，不能只看年代数字本身。"
+      }
     ],
     "provenance": [
-      {"t": "p", "text": "由 John L. Severance Fund 资助购入克利夫兰美术馆。"},
-      {"t": "gap", "text": "入藏之前的递藏链，馆方公开记录未详述"}
+      {
+        "t": "p",
+        "text": "由 John L. Severance Fund 资助购入克利夫兰美术馆。"
+      },
+      {
+        "t": "gap",
+        "text": "馆方递藏档案可上溯至「?–1962」（见上：(J.T. Tai and Co., Inc., New York, NY, sold to the Cleveland）。再往前——**尤其此物流出中国的经过、在华的藏家与出让情形**——仍无记录。西方馆的 provenance 通常自经手古董商起算，**商人之前的那一段恰是最要紧而最不可考的一段**：它是本库反复讲的那个不对称的另一半，缺的不是编纂功夫，是档案本身没有。"
+      },
+      {
+        "t": "exhib",
+        "when": "1962",
+        "title": "Year in Review - 1962",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (October 24-November 25, 1962).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1962.154"
+      },
+      {
+        "t": "exhib",
+        "when": "1968",
+        "title": "Chinese Art Under the Mongols: The Yuan Dynasty (1279–1368)",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (October 2-November 24, 1968).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1962.154"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "The World of Ceramics: Masterpieces from the Cleveland Museum of Art",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (June 20-August 22, 1982).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1962.154"
+      },
+      {
+        "t": "exhib",
+        "when": "1985",
+        "title": "Printing in Color",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (September 10-November 17, 1985).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1962.154"
+      },
+      {
+        "t": "exhib",
+        "when": "1985",
+        "title": "The Twain Shall Meet",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (October 30, 1985-January 5, 1986).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1962.154"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (September 17, 1991-January 5, 1992).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1962.154"
+      },
+      {
+        "t": "exhib",
+        "when": "2002",
+        "title": "The Legacy of Genghis Khan: Courtly Art and Culture in Western Asia 1256-1353",
+        "text": "The Metropolitan Museum of Art, New York, NY (organizer) (October 28, 2002-February 16, 2003); Los Angeles County Museum of Art, Los Angeles, CA (April 13-July 27, 2003).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1962.154"
+      },
+      {
+        "t": "exhib",
+        "when": "2009",
+        "title": "Streams and Mountains Without End: Asian Art and the Legacy of Sherman E. Lee at the Cleveland Museum of Art",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (June 27-August 23, 2009).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1962.154"
+      },
+      {
+        "t": "prov",
+        "when": "?–1962",
+        "text": "(J.T. Tai and Co., Inc., New York, NY, sold to the Cleveland Museum of Art)",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1962.154"
+      },
+      {
+        "t": "prov",
+        "when": "1962–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1962.154"
+      }
     ],
     "viewing": [
-      {"t": "ul", "items": [
-        "留意钴料呈色的浓艳程度与晕散效果，这是判断进口钴料（「苏麻离青」一类说法）与本土钴料的直观入门线索。",
-        "云肩纹开光的构图方式可与同期伊斯兰世界金属器、纺织品纹样对照，感受蒙古帝国内部的跨地域艺术交流。",
-        "与本库枢府卵白釜条目并观，见 [[work:shufu-yao-met|枢府卵白釜印花菊纹高足杯]]，比较元代景德镇同期两条不同的官用瓷路线。"
-      ]}
+      {
+        "t": "ul",
+        "items": [
+          "留意钴料呈色的浓艳程度与晕散效果，这是判断进口钴料（「苏麻离青」一类说法）与本土钴料的直观入门线索。",
+          "云肩纹开光的构图方式可与同期伊斯兰世界金属器、纺织品纹样对照，感受蒙古帝国内部的跨地域艺术交流。",
+          "与本库枢府卵白釜条目并观，见 [[work:shufu-yao-met|枢府卵白釜印花菊纹高足杯]]，比较元代景德镇同期两条不同的官用瓷路线。"
+        ]
+      }
     ],
     "disputes": [
-      {"t": "stmt", "state": "disp", "text": "元青花的年代框架与外销脉络近数十年因海外沉船（新安沉船等）与景德镇窑址发掘而大幅改写，此前学界一度怀疑元代是否存在成熟的青花瓷生产，详见「断代依据」一节。"},
-      {"t": "stmt", "state": "pend", "text": "本件云肩纹、凤鸟纹母题与伊尔汗国装饰艺术的关系，属风格类比而非直接的传播路径证据，本库不作过度引申。"},
-      {"t": "gap", "text": "本件无出土记录，早期流转经过不明"}
+      {
+        "t": "stmt",
+        "state": "disp",
+        "text": "元青花的年代框架与外销脉络近数十年因海外沉船（新安沉船等）与景德镇窑址发掘而大幅改写，此前学界一度怀疑元代是否存在成熟的青花瓷生产，详见「断代依据」一节。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "本件云肩纹、凤鸟纹母题与伊尔汗国装饰艺术的关系，属风格类比而非直接的传播路径证据，本库不作过度引申。"
+      },
+      {
+        "t": "gap",
+        "text": "本件无出土记录，早期流转经过不明"
+      }
     ]
   }
 }

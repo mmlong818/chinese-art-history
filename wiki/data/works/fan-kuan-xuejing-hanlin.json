@@ -9,7 +9,18 @@
   "year_sort": 1015,
   "medium": "绢本水墨立轴（三拼绢）",
   "holder": "天津博物院",
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Xuejinghanlintu.jpg",
+    "credit": "传范宽 / 天津博物院 / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/fan-kuan-xuejing-hanlin-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Xuejinghanlintu.jpg",
+    "w": 960,
+    "h": 1155,
+    "alt": "传范宽《雪景寒林图》，天津博物院藏"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -62,7 +73,7 @@
         "对照阅读时，留意本件的萧瑟静态气氛与《溪山行旅图》的行旅动态之间的差异，思考风格比对判断所依赖的到底是哪些具体形式特征。",
         "天津博物院官网可查该馆藏品信息，但本库未核实其是否提供高清可自由使用的图版。"
       ]},
-      {"t": "gap", "text": "天津博物院无公开 API，本库无法编程核查亦无法取图；读者可查该馆官方网站或线下展览核对原件信息与最新研究进展"}
+      {"t": "gap", "text": "天津博物院无公开 API，本库无法编程核查其官方藏品页；本条目图版经 Wikimedia Commons 转载取得（见 image 字段），但未经本库直接向该馆官方页面交叉核对完整元数据，读者仍可查该馆官方网站或线下展览核对原件信息与最新研究进展"}
     ],
     "disputes": [
       {"t": "stmt", "state": "disp", "text": "**归属问题是本件的核心争议**：本件是否确为范宽真迹，完全依赖与《溪山行旅图》的风格比对，证据等级为本库标注体系中最弱一档（风格比对，存疑）。本库不否定学界的归属倾向，但明确标注其证据地位不及有藏款支持的作品。", "src": "zhongguo-meishu-jianshi"},

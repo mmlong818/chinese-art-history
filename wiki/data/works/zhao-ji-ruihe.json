@@ -10,7 +10,18 @@
   "year_sort": 1112,
   "medium": "绢本设色手卷",
   "holder": "辽宁省博物馆",
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E7%91%9E%E9%B9%A4%E5%9B%BE%EF%BC%88%E4%BA%AE%E7%89%88%EF%BC%89.jpg",
+    "credit": "赵佶 / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/zhao-ji-ruihe-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/ce/%E7%91%9E%E9%B9%A4%E5%9B%BE%EF%BC%88%E4%BA%AE%E7%89%88%EF%BC%89.jpg",
+    "w": 960,
+    "h": 656,
+    "alt": "赵佶《瑞鹤图》，宣德门上空群鹤盘旋，辽宁省博物馆藏"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -68,7 +79,7 @@
         "再看两只立于鸱尾之上、久立不去的白鹤——这是全卷最具政治神学意味的细节。",
         "最后转向左半瘦金体诗序，读其自述目击经过，再回看画面，体会「目击其祥」的叙事感。"
       ]},
-      {"t": "gap", "text": "辽宁省博物馆无公开 API，本库亦未能在 Wikimedia Commons、大都会、克利夫兰等自由授权渠道找到本件的可信图版（Commons 检索结果多为无关古籍书影扫描），故本条目暂未附图；读者可查辽宁省博物馆官方网站或该馆数字展览核对原件信息"}
+      {"t": "gap", "text": "辽宁省博物馆无公开 API，本条目图版取自 Wikimedia Commons 转载的公有领域影像（见 image 字段），未经本库直接向该馆官方页交叉核对完整元数据，具体尺寸与款印细节仍标待核；读者可另查辽宁省博物馆官方网站或该馆数字展览核对原件信息"}
     ],
     "disputes": [
       {"t": "stmt", "state": "disp", "text": "**是否为赵佶亲笔**：本件是理解 [[artist:zhao-ji|赵佶]]条目「创作体系」一节所列判据框架的具体案例。支持亲笔的因素：题材为具体、私人性质的目击事件纪实，不易被想象为提前设计的院体程式化产出；诗序笔性与其他确证的瘦金体法帖高度一致；画面构图将界画与花鸟叙事融为一体，在宋代宫廷绘画中具有个人化的独特性。但这些因素支持的是「本件证据相对充分」，不构成排除画院画家参与执行部分细节（尤其鹤羽的精细双钩填彩这类耗时工序）可能性的确证——本库倾向认为，即便如此，本件在赵佶名下诸作中仍属证据等级最高的一类，与《[[work:zhao-ji-furong-jinji|芙蓉锦鸡图]]》的证据等级不宜等同看待，后者的技法性质使其更难排除画院代笔的可能。", "src": "zhongguo-meishu-jianshi"},

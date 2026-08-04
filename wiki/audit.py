@@ -287,9 +287,16 @@ def _text_translatable(bs):
     `馆方文化断代`『China, probably from the Yaozhou kilns…』都是**引文**，
     照录才对——而且那句 probably 正是本库据以标「推定」而非确定归属的依据。
     把引文算作「未译」，等于罚一个做对了的条目。
+
+    `prov`／`exhib` 同理且更彻底：**原文本身就是那个事实**。
+    「J. J. Klejman Gallery, New York」这类人名商号译了就错；展览的英文名就是
+    那场展览的名字，译出来等于发明一个不存在的中文名。递藏链尤其如此——
+    它记的是谁在何时经手，改写就不再是档案。
     """
     out = []
     for b in bs or []:
+        if b.get("t") in ("prov", "exhib"):
+            continue
         out += [b.get("text", ""), b.get("what", "")] + list(b.get("items", []))
         for row in b.get("rows", []):
             if isinstance(row, list) and len(row) == 2:

@@ -25,56 +25,199 @@
   "verification": "museum",
   "updated": "2026-08-04",
   "sources": [
-    {"ref": "cleveland", "note": "克利夫兰美术馆藏品记录：creation_date 明确纪年 1638，share_license_status 为 CC0，accession 1961.89，creditline: Mr. and Mrs. William H. Marlatt Fund"},
-    {"ref": "zhongguo-meishu-jianshi", "note": "陈洪绶「高古奇骇」人物变形美学的通行技法描述"}
+    {
+      "ref": "cleveland",
+      "note": "克利夫兰美术馆藏品记录：creation_date 明确纪年 1638，share_license_status 为 CC0，accession 1961.89，creditline: Mr. and Mrs. William H. Marlatt Fund"
+    },
+    {
+      "ref": "zhongguo-meishu-jianshi",
+      "note": "陈洪绶「高古奇骇」人物变形美学的通行技法描述"
+    }
   ],
   "sections": {
     "basics": [
-      {"t": "kv", "rows": [
-        ["作者", "陈洪绶"],
-        ["年代", "1638 年（明崇祯十一年，据克利夫兰美术馆官方藏品记录纪年）"],
-        ["材质", "绢本设色"],
-        ["形制", "立轴"],
-        ["尺寸", "画心 172.8 × 55.7 cm；连裱边、轴头共 293.9 × 79 cm（克利夫兰美术馆官方记录）"],
-        ["现藏", "克利夫兰美术馆，藏品号 1961.89"]
-      ]},
-      {"t": "stmt", "state": "disp", "text": "本件年代本库据克利夫兰美术馆官方藏品记录取 1638 年（明确纪年，非约数）。旧库转录版本曾将本件系于「约1650」，与馆方记录不符，本库不采旧库说法——见 [[artist:chen-hongshou]] 争议字段，这是本次迁移中本库对旧库的一处实质性年代纠正。"},
-      {"t": "p", "text": "画题「宣文君授经」指前秦韦逞之母宋氏（因其子官爵封「宣文君」而通称宣文君），西晋末年战乱中携家学典籍南渡，晚年设帏讲授《周官礼》，是中国古代女性传经的著名典故。"}
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "作者",
+            "陈洪绶"
+          ],
+          [
+            "年代",
+            "1638 年（明崇祯十一年，据克利夫兰美术馆官方藏品记录纪年）"
+          ],
+          [
+            "材质",
+            "绢本设色"
+          ],
+          [
+            "形制",
+            "立轴"
+          ],
+          [
+            "尺寸",
+            "画心 172.8 × 55.7 cm；连裱边、轴头共 293.9 × 79 cm（克利夫兰美术馆官方记录）"
+          ],
+          [
+            "现藏",
+            "克利夫兰美术馆，藏品号 1961.89"
+          ]
+        ]
+      },
+      {
+        "t": "stmt",
+        "state": "disp",
+        "text": "本件年代本库据克利夫兰美术馆官方藏品记录取 1638 年（明确纪年，非约数）。旧库转录版本曾将本件系于「约1650」，与馆方记录不符，本库不采旧库说法——见 [[artist:chen-hongshou]] 争议字段，这是本次迁移中本库对旧库的一处实质性年代纠正。"
+      },
+      {
+        "t": "p",
+        "text": "画题「宣文君授经」指前秦韦逞之母宋氏（因其子官爵封「宣文君」而通称宣文君），西晋末年战乱中携家学典籍南渡，晚年设帏讲授《周官礼》，是中国古代女性传经的著名典故。"
+      }
     ],
     "commission": [
-      {"t": "gap", "text": "具体创作缘由、是否为受托委作，本库尚未核实一手材料，克利夫兰美术馆官方记录未提供委托背景信息"}
+      {
+        "t": "gap",
+        "text": "具体创作缘由、是否为受托委作，本库尚未核实一手材料，克利夫兰美术馆官方记录未提供委托背景信息"
+      }
     ],
     "reading": [
-      {"t": "p", "text": "画面以宣文君设帏授经为主题，人物造型延续陈洪绶一贯的高古夸张手法——人物比例修长、面部线条古拙，与同时代仕女画的秀媚一路形成对照。以历史女性知识传承者为题材，在陈洪绶存世作品中属于相对少见的女性历史人物题材。"},
-      {"t": "stmt", "state": "pend", "text": "本件的具体图像程式（授经场景的人物配置、器具道具等细节）本库尚未据高清图版逐一核对，此处仅作题材与风格的一般性描述，不作细读式图像分析，以防脱离图版本身的猜测性解读。"}
+      {
+        "t": "p",
+        "text": "画面以宣文君设帏授经为主题，人物造型延续陈洪绶一贯的高古夸张手法——人物比例修长、面部线条古拙，与同时代仕女画的秀媚一路形成对照。以历史女性知识传承者为题材，在陈洪绶存世作品中属于相对少见的女性历史人物题材。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "本件的具体图像程式（授经场景的人物配置、器具道具等细节）本库尚未据高清图版逐一核对，此处仅作题材与风格的一般性描述，不作细读式图像分析，以防脱离图版本身的猜测性解读。"
+      }
     ],
     "technique": [
-      {"t": "ul", "items": [
-        "**人物造型**：延续「高古奇骇」变形手法，人物修长古拙，与陈洪绶其他历史高士题材（如《陶渊明故事图》）技法一贯。",
-        "**设色**：绢本设色，色调沉稳，与其纯水墨的版画底稿工作形成材质与技法上的对照。"
-      ]},
-      {"t": "gap", "text": "具体颜料成分与绢本状况，本库未见科技检测数据"}
+      {
+        "t": "ul",
+        "items": [
+          "**人物造型**：延续「高古奇骇」变形手法，人物修长古拙，与陈洪绶其他历史高士题材（如《陶渊明故事图》）技法一贯。",
+          "**设色**：绢本设色，色调沉稳，与其纯水墨的版画底稿工作形成材质与技法上的对照。"
+        ]
+      },
+      {
+        "t": "gap",
+        "text": "具体颜料成分与绢本状况，本库未见科技检测数据"
+      }
     ],
     "colophons": [
-      {"t": "gap", "text": "本件的题款释文、鉴藏印记与后世题跋，克利夫兰美术馆公开记录未详列，本库尚未取得完整著录"}
+      {
+        "t": "gap",
+        "text": "本件的题款释文、鉴藏印记与后世题跋，克利夫兰美术馆公开记录未详列，本库尚未取得完整著录"
+      }
     ],
     "provenance": [
-      {"t": "stmt", "state": "adopt", "text": "近代入藏记录明确：由 Mr. and Mrs. William H. Marlatt Fund 资助购藏，1961 年入藏克利夫兰美术馆（藏品号 1961.89）——这一节的近代流转记录清晰可查，是本件相对于陈洪绶多数国内藏品（本库因故宫、上海博物馆等无公开 API 而无法编程核查）的优势之一。"},
-      {"t": "gap", "text": "1961年入藏之前的更早递藏史，本库尚未核对"}
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "近代入藏记录明确：由 Mr. and Mrs. William H. Marlatt Fund 资助购藏，1961 年入藏克利夫兰美术馆（藏品号 1961.89）——这一节的近代流转记录清晰可查，是本件相对于陈洪绶多数国内藏品（本库因故宫、上海博物馆等无公开 API 而无法编程核查）的优势之一。"
+      },
+      {
+        "t": "gap",
+        "text": "馆方递藏档案可上溯至「年份不详」（见上：Wan Chengzi 萬承紫 [1775–after 1837]）。再往前——**尤其此物流出中国的经过、在华的藏家与出让情形**——仍无记录。西方馆的 provenance 通常自经手古董商起算，**商人之前的那一段恰是最要紧而最不可考的一段**：它是本库反复讲的那个不对称的另一半，缺的不是编纂功夫，是档案本身没有。"
+      },
+      {
+        "t": "exhib",
+        "when": "1961",
+        "title": "Year in Review (1961)",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (November 1-26, 1961).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1961.89"
+      },
+      {
+        "t": "exhib",
+        "when": "1967",
+        "title": "Fantastics and Eccentrics in Chinese Painting",
+        "text": "The Asia Society Museum, New York, NY (organizer) (March 23-May 28, 1967); Los Angeles County Museum of Art, Los Angeles, CA (June 20-August 13, 1967); Fine Arts Museums of San Francisco, de Young Museum, San Francisco, CA (September 15-November 5, 1967).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1961.89"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art",
+        "text": "Nara National Museum (organizer) (February 21-March 29, 1998); Suntory Museum of Art (April 28-June 21, 1998).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1961.89"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "Six Dynasties of Chinese Painting (Chinese art rotation)",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (November 10, 2023-May 5, 2024).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1961.89"
+      },
+      {
+        "t": "prov",
+        "when": "年份不详",
+        "text": "Wan Chengzi 萬承紫 [1775–after 1837]",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1961.89"
+      },
+      {
+        "t": "prov",
+        "when": "年份不详",
+        "text": "Xu Weiren 徐渭仁 [1788–1853]",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1961.89"
+      },
+      {
+        "t": "prov",
+        "when": "early 20th century",
+        "text": "Sun Zutong 孫祖同 [1894–1937]",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1961.89"
+      },
+      {
+        "t": "prov",
+        "when": "?–1961",
+        "text": "(C. C. Wang 王季遷 [1907–2003], New York, NY, sold to the Cleveland Museum of Art)",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1961.89"
+      },
+      {
+        "t": "prov",
+        "when": "1961–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1961.89"
+      }
     ],
     "reception": [
-      {"t": "p", "text": "本件是陈洪绶晚年历史题材人物画的代表作之一，克利夫兰美术馆作为西方重要的中国艺术收藏机构，其藏品记录为本库提供了可编程核查、且明确纪年的证据基础，弥补了陈洪绶国内藏品因缺乏公开 API 而难以交叉核对具体年代的缺口。"}
+      {
+        "t": "p",
+        "text": "本件是陈洪绶晚年历史题材人物画的代表作之一，克利夫兰美术馆作为西方重要的中国艺术收藏机构，其藏品记录为本库提供了可编程核查、且明确纪年的证据基础，弥补了陈洪绶国内藏品因缺乏公开 API 而难以交叉核对具体年代的缺口。"
+      }
     ],
     "viewing": [
-      {"t": "ul", "items": [
-        "留意人物比例与面部线条的「高古」处理，与同时代仕女画的秀美一路对照着看。",
-        "结合「宣文君授经」的典故背景理解画面——这是一个关于战乱中文化传承的题材，不是单纯的仕女生活场景。"
-      ]},
-      {"t": "gap", "text": "本库已取得馆方自由授权图版（见 image 字段），暂无需另行说明缺图原因"}
+      {
+        "t": "ul",
+        "items": [
+          "留意人物比例与面部线条的「高古」处理，与同时代仕女画的秀美一路对照着看。",
+          "结合「宣文君授经」的典故背景理解画面——这是一个关于战乱中文化传承的题材，不是单纯的仕女生活场景。"
+        ]
+      },
+      {
+        "t": "gap",
+        "text": "本库已取得馆方自由授权图版（见 image 字段），暂无需另行说明缺图原因"
+      }
     ],
     "disputes": [
-      {"t": "stmt", "state": "disp", "text": "创作年代：本库据克利夫兰美术馆官方记录取 1638 年，与部分旧转录版本「约1650」的说法不符，本库以馆方一手记录为准，不采后者，见「基础信息」。"},
-      {"t": "gap", "text": "题款释文、鉴藏印记与1961年之前的递藏史，全部待核"}
+      {
+        "t": "stmt",
+        "state": "disp",
+        "text": "创作年代：本库据克利夫兰美术馆官方记录取 1638 年，与部分旧转录版本「约1650」的说法不符，本库以馆方一手记录为准，不采后者，见「基础信息」。"
+      },
+      {
+        "t": "gap",
+        "text": "题款释文、鉴藏印记与1961年之前的递藏史，全部待核"
+      }
     ]
   }
 }

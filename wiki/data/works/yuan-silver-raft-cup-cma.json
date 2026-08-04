@@ -11,7 +11,9 @@
   "size": "通高约 16 厘米",
   "holder": "克利夫兰美术馆（藏品号 1977.7）",
   "cma_id": 149146,
-  "classes": ["zanke"],
+  "classes": [
+    "zanke"
+  ],
   "image": {
     "source": "cleveland",
     "source_url": "https://www.clevelandart.org/art/1977.7",
@@ -26,56 +28,231 @@
   "verification": "museum",
   "updated": "2026-08-04",
   "sources": [
-    {"ref": "cleveland", "note": "藏品记录、铭文释文与判权，逐项照录"},
-    {"ref": "zhongguo-meishu-jianshi", "note": "元代金银器的工艺背景与银槎题材"}
+    {
+      "ref": "cleveland",
+      "note": "藏品记录、铭文释文与判权，逐项照录"
+    },
+    {
+      "ref": "zhongguo-meishu-jianshi",
+      "note": "元代金银器的工艺背景与银槎题材"
+    }
   ],
   "sections": {
     "basics": [
-      {"t": "kv", "rows": [
-        ["原题", "Raft Cup"],
-        ["馆方年代", "1300s–1400s"],
-        ["馆方文化断代", "China, Yuan (1271-1368) or early Ming dynasty (1368-1644)"],
-        ["材质", "银，锤揲成形、錾刻纹饰"],
-        ["尺寸", "通高约 16 厘米"],
-        ["现藏", "克利夫兰美术馆，藏品号 1977.7"],
-        ["入藏", "1976 年苏富比伦敦拍卖会（第 224 号拍品），1977 年入藏"]
-      ]},
-      {"t": "stmt", "state": "adopt", "text": "以上各项照录馆方藏品记录。核查等级为「馆藏官方核实」。", "src": "cleveland"},
-      {"t": "stmt", "state": "adopt", "text": "馆方将年代概括为「元或明早期（1300s–1400s）」，但器身錾刻的铭文本身已给出确切纪年（详见「铭文释读」），本条目据铭文将年代坐实为 1345 年，比馆方概括区间更精确——这类馆方摘要年代与器物自身铭文不完全一致的情况，是本库要求「照录馆方记录」与「据条目自身证据独立断代」两者并存、互相校核的一个实例。"}
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "原题",
+            "Raft Cup"
+          ],
+          [
+            "馆方年代",
+            "1300s–1400s"
+          ],
+          [
+            "馆方文化断代",
+            "China, Yuan (1271-1368) or early Ming dynasty (1368-1644)"
+          ],
+          [
+            "材质",
+            "银，锤揲成形、錾刻纹饰"
+          ],
+          [
+            "尺寸",
+            "通高约 16 厘米"
+          ],
+          [
+            "现藏",
+            "克利夫兰美术馆，藏品号 1977.7"
+          ],
+          [
+            "入藏",
+            "1976 年苏富比伦敦拍卖会（第 224 号拍品），1977 年入藏"
+          ]
+        ]
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "以上各项照录馆方藏品记录。核查等级为「馆藏官方核实」。",
+        "src": "cleveland"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "馆方将年代概括为「元或明早期（1300s–1400s）」，但器身錾刻的铭文本身已给出确切纪年（详见「铭文释读」），本条目据铭文将年代坐实为 1345 年，比馆方概括区间更精确——这类馆方摘要年代与器物自身铭文不完全一致的情况，是本库要求「照录馆方记录」与「据条目自身证据独立断代」两者并存、互相校核的一个实例。"
+      }
     ],
     "form": [
-      {"t": "p", "text": "整器锤揲成一段树根状浮槎（木筏）形态，槎上端塑一人物凭槎回望，槎身细部以錾刻表现树皮纹理与枝节起伏。造型取材于「乘槎泛河」的传说——相传有人乘木筏溯流而上，直抵天河，与织女、牵牛相遇——是元代金银器少见的、直接叙事化的立体造型题材，不同于多数金银器以平面纹饰为主的装饰逻辑。"}
+      {
+        "t": "p",
+        "text": "整器锤揲成一段树根状浮槎（木筏）形态，槎上端塑一人物凭槎回望，槎身细部以錾刻表现树皮纹理与枝节起伏。造型取材于「乘槎泛河」的传说——相传有人乘木筏溯流而上，直抵天河，与织女、牵牛相遇——是元代金银器少见的、直接叙事化的立体造型题材，不同于多数金银器以平面纹饰为主的装饰逻辑。"
+      }
     ],
     "inscription": [
-      {"t": "p", "text": "器身錾刻篆书铭文，自署「碧山」并纪年「乙酉年」，即元顺帝至正五年（1345）。铭文全文（馆方英译）大意为：银槎杯，制于至正乙酉年；欲赴银河者为天所阻；曾有一人，不畏艰险，闯入银海；然而他未曾从天上织机带回锦缎，只带回一块曾用以支撑织机的石头。"},
-      {"t": "stmt", "state": "adopt", "text": "「碧山」二字历来被认作元代银工朱碧山的自署——朱碧山以制作银槎杯著称，除本件外另有传世同类器物（含北京故宫博物院所藏一件），本库对朱碧山的生平细节（籍贯、生卒年、作坊归属等）未逐一核实，不作展开，仅据本件器身铭文本身与馆方记录成文。"}
+      {
+        "t": "p",
+        "text": "器身錾刻篆书铭文，自署「碧山」并纪年「乙酉年」，即元顺帝至正五年（1345）。铭文全文（馆方英译）大意为：银槎杯，制于至正乙酉年；欲赴银河者为天所阻；曾有一人，不畏艰险，闯入银海；然而他未曾从天上织机带回锦缎，只带回一块曾用以支撑织机的石头。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "「碧山」二字历来被认作元代银工朱碧山的自署——朱碧山以制作银槎杯著称，除本件外另有传世同类器物（含北京故宫博物院所藏一件），本库对朱碧山的生平细节（籍贯、生卒年、作坊归属等）未逐一核实，不作展开，仅据本件器身铭文本身与馆方记录成文。"
+      }
     ],
     "technique": [
-      {"t": "p", "text": "银料经锤揲（锤打延展成形）塑出树根状器身的凹凸起伏，再以錾刻工具在银面上刻画树皮、枝节与人物细部。锤揲与錾刻是中国金银器最基本的两套技法：前者决定器物的立体造型，后者负责表面纹饰的深浅层次，何家村窖藏、法门寺地宫出土的唐代金银器（本库另立条目）同样以这两项技法为主体，说明这套技法体系在唐至元的数百年间基本稳定延续。"},
-      {"t": "stmt", "state": "adopt", "text": "把树根的自然起伏与人物形象直接锤揲、錾刻在一件酒具上，对匠人立体造型能力的要求高于平面纹饰的錾刻——这也是银槎杯这一题材历来被视为元代金银器代表作的技术原因，而不只是因为造型别致。"}
+      {
+        "t": "p",
+        "text": "银料经锤揲（锤打延展成形）塑出树根状器身的凹凸起伏，再以錾刻工具在银面上刻画树皮、枝节与人物细部。锤揲与錾刻是中国金银器最基本的两套技法：前者决定器物的立体造型，后者负责表面纹饰的深浅层次，何家村窖藏、法门寺地宫出土的唐代金银器（本库另立条目）同样以这两项技法为主体，说明这套技法体系在唐至元的数百年间基本稳定延续。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "把树根的自然起伏与人物形象直接锤揲、錾刻在一件酒具上，对匠人立体造型能力的要求高于平面纹饰的錾刻——这也是银槎杯这一题材历来被视为元代金银器代表作的技术原因，而不只是因为造型别致。"
+      }
     ],
     "excavation": [
-      {"t": "gap", "text": "传世品，非科学发掘所得，馆方记录未见出土信息"}
+      {
+        "t": "gap",
+        "text": "传世品，非科学发掘所得，馆方记录未见出土信息"
+      }
     ],
     "dating": [
-      {"t": "dating", "basis": "铭文", "conf": "确证",
-       "text": "器身錾刻铭文自署年款「乙酉年」，与「碧山」之署名及诗文风格合看，可坐实为元顺帝至正五年（1345），断代无异议，列「确证」。",
-       "src": "cleveland"},
-      {"t": "stmt", "state": "adopt", "text": "馆方藏品记录给出的概括年代（1300s–1400s，元或明早期）比铭文本身给出的精确纪年更保守，这提示查阅馆藏数据库时不能只看摘要字段，铭文原文与释文往往包含摘要字段未能反映的精确信息。"}
+      {
+        "t": "dating",
+        "basis": "铭文",
+        "conf": "确证",
+        "text": "器身錾刻铭文自署年款「乙酉年」，与「碧山」之署名及诗文风格合看，可坐实为元顺帝至正五年（1345），断代无异议，列「确证」。",
+        "src": "cleveland"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "馆方藏品记录给出的概括年代（1300s–1400s，元或明早期）比铭文本身给出的精确纪年更保守，这提示查阅馆藏数据库时不能只看摘要字段，铭文原文与释文往往包含摘要字段未能反映的精确信息。"
+      }
     ],
     "provenance": [
-      {"t": "p", "text": "据馆方记录，此器曾入藏清宫（乾隆朝内府收藏），此后归英国将领 Robert Biddulph 爵士（约 1860/1861 年后），继归著名中国瓷器收藏家 Percival David 爵士（1935 年前后至 1964 年），身后由其妻 Lady David 继承，1976 年经苏富比伦敦拍卖（12 月 14 日，第 224 号拍品）售出，1977 年由克利夫兰美术馆购入。"},
-      {"t": "stmt", "state": "adopt", "text": "从清宫内府到英国收藏家、再到北美博物馆，这条递藏链是十九至二十世纪中国宫廷旧藏经战乱与市场流转进入西方收藏体系的典型路径，与本库毛公鼎条目所述的迁台路径是同一时期中国文物外流现象的另一种走向。"}
+      {
+        "t": "p",
+        "text": "据馆方记录，此器曾入藏清宫（乾隆朝内府收藏），此后归英国将领 Robert Biddulph 爵士（约 1860/1861 年后），继归著名中国瓷器收藏家 Percival David 爵士（1935 年前后至 1964 年），身后由其妻 Lady David 继承，1976 年经苏富比伦敦拍卖（12 月 14 日，第 224 号拍品）售出，1977 年由克利夫兰美术馆购入。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "从清宫内府到英国收藏家、再到北美博物馆，这条递藏链是十九至二十世纪中国宫廷旧藏经战乱与市场流转进入西方收藏体系的典型路径，与本库毛公鼎条目所述的迁台路径是同一时期中国文物外流现象的另一种走向。"
+      },
+      {
+        "t": "exhib",
+        "when": "1977",
+        "title": "Year in Review: 1977",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (December 28, 1977-January 22, 1978).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1977.7"
+      },
+      {
+        "t": "exhib",
+        "when": "1988",
+        "title": "Realm of the Immortals: Daoism in the Arts of China",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (February 10-April 10, 1988).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1977.7"
+      },
+      {
+        "t": "exhib",
+        "when": "1994",
+        "title": "All That Glitters: Great Silver Vessels in Cleveland's Collection",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (November 23, 1994-January 8, 1995).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1977.7"
+      },
+      {
+        "t": "exhib",
+        "when": "2009",
+        "title": "Streams and Mountains Without End: Asian Art and the Legacy of Sherman E. Lee at the Cleveland Museum of Art",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (June 27-August 23, 2009).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1977.7"
+      },
+      {
+        "t": "exhib",
+        "when": "2018",
+        "title": "Power and Possession: Chinese Calligraphy and Inscribed Objects – Chinese Gallery Rotation 240a, 241c",
+        "text": "The Cleveland Museum of Art (organizer) (August 13, 2018-February 3, 2019).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1977.7"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (September 10, 2023-January 7, 2024).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1977.7"
+      },
+      {
+        "t": "prov",
+        "when": "年份不详",
+        "text": "Palace Collection of the Qianlong Emperor, Beijing, China",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1977.7"
+      },
+      {
+        "t": "prov",
+        "when": "1860 or 1861–at least 1915",
+        "text": "General Sir Robert Biddulph [1835–1918]",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1977.7"
+      },
+      {
+        "t": "prov",
+        "when": "by 1935–1964",
+        "text": "Sir Percival David [1892–1964], London, England, by descent to his wife Lady David",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1977.7"
+      },
+      {
+        "t": "prov",
+        "when": "1964–1976?",
+        "text": "Lady Sheila Jane Yorke Hardy David [1914–?], London, England",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1977.7"
+      },
+      {
+        "t": "prov",
+        "when": "December 14, 1976",
+        "text": "(Sotheby's, London, England, 14 December, 1976, lot 224, sold to the Cleveland Museum of Art)",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1977.7"
+      },
+      {
+        "t": "prov",
+        "when": "1977–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1977.7"
+      }
     ],
     "viewing": [
-      {"t": "ul", "items": [
-        "留意槎身树皮纹理的錾刻层次与人物姿态的立体处理，这是判断银槎杯工艺水平的核心入口。",
-        "可与本库何家村窖藏、法门寺地宫两件唐代金银器条目并观，比较锤揲与錾刻技法在唐、元两代的延续与差异。"
-      ]}
+      {
+        "t": "ul",
+        "items": [
+          "留意槎身树皮纹理的錾刻层次与人物姿态的立体处理，这是判断银槎杯工艺水平的核心入口。",
+          "可与本库何家村窖藏、法门寺地宫两件唐代金银器条目并观，比较锤揲与錾刻技法在唐、元两代的延续与差异。"
+        ]
+      }
     ],
     "disputes": [
-      {"t": "stmt", "state": "pend", "text": "「碧山」是否确指元代银工朱碧山本人，以及朱碧山的具体生平，本库未逐一核实，仅据器身铭文与馆方记录成文，不作坐实。"},
-      {"t": "stmt", "state": "pend", "text": "馆方摘要年代（1300s–1400s，元或明早期）与铭文纪年（1345）不完全一致，本库据铭文取更精确年代，但对馆方摘要年代的编目逻辑不作推断。"}
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "「碧山」是否确指元代银工朱碧山本人，以及朱碧山的具体生平，本库未逐一核实，仅据器身铭文与馆方记录成文，不作坐实。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "馆方摘要年代（1300s–1400s，元或明早期）与铭文纪年（1345）不完全一致，本库据铭文取更精确年代，但对馆方摘要年代的编目逻辑不作推断。"
+      }
     ]
   }
 }

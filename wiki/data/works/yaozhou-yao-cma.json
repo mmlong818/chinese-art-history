@@ -25,54 +25,151 @@
   "verification": "museum",
   "updated": "2026-08-04",
   "sources": [
-    {"ref": "cleveland", "note": "藏品记录、年代、产地推定、尺寸，逐项照录"},
-    {"ref": "wangxun-zhongguo-meishushi", "note": "耀州窑刻花工艺的一般性描述"}
+    {
+      "ref": "cleveland",
+      "note": "藏品记录、年代、产地推定、尺寸，逐项照录"
+    },
+    {
+      "ref": "wangxun-zhongguo-meishushi",
+      "note": "耀州窑刻花工艺的一般性描述"
+    }
   ],
   "sections": {
     "basics": [
-      {"t": "kv", "rows": [
-        ["原题", "Bowl with carved floral decoration"],
-        ["馆方年代", "1100s"],
-        ["馆方文化断代", "China, probably from the Yaozhou kilns, Shaanxi Province, Northern Song dynasty (960–1127)"],
-        ["工艺", "馆方记 Glazed porcelain, Northern Celadon ware"],
-        ["尺寸", "直径 22.6 × 通高 7.5 厘米"],
-        ["现藏", "克利夫兰美术馆，藏品号 1969.226"],
-        ["入藏", "Gift of Mr. and Mrs. Severance A. Millikin"]
-      ]},
-      {"t": "stmt", "state": "adopt", "text": "以上各项**照录馆方藏品记录**。需要特别留意的是馆方用词——「probably from the Yaozhou kilns」（推定产自耀州窑），不是确定归属。本条目标题也据此标「推定」，不把馆方的谨慎表述改写成确定判断。", "src": "cleveland"}
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "原题",
+            "Bowl with carved floral decoration"
+          ],
+          [
+            "馆方年代",
+            "1100s"
+          ],
+          [
+            "馆方文化断代",
+            "China, probably from the Yaozhou kilns, Shaanxi Province, Northern Song dynasty (960–1127)"
+          ],
+          [
+            "工艺",
+            "馆方记 Glazed porcelain, Northern Celadon ware"
+          ],
+          [
+            "尺寸",
+            "直径 22.6 × 通高 7.5 厘米"
+          ],
+          [
+            "现藏",
+            "克利夫兰美术馆，藏品号 1969.226"
+          ],
+          [
+            "入藏",
+            "Gift of Mr. and Mrs. Severance A. Millikin"
+          ]
+        ]
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "以上各项**照录馆方藏品记录**。需要特别留意的是馆方用词——「probably from the Yaozhou kilns」（推定产自耀州窑），不是确定归属。本条目标题也据此标「推定」，不把馆方的谨慎表述改写成确定判断。",
+        "src": "cleveland"
+      }
     ],
     "form": [
-      {"t": "p", "text": "碗心刻划缠枝花卷草纹，刀法犀利，线条边缘锋利如刻，是耀州窑刻花装饰「刀刀见泥」风格的典型表现——与南方龙泉窑圆钝含蓄的刻花手法形成鲜明对比。"}
+      {
+        "t": "p",
+        "text": "碗心刻划缠枝花卷草纹，刀法犀利，线条边缘锋利如刻，是耀州窑刻花装饰「刀刀见泥」风格的典型表现——与南方龙泉窑圆钝含蓄的刻花手法形成鲜明对比。"
+      }
     ],
     "inscription": [
-      {"t": "gap", "text": "无铭文或刻款"}
+      {
+        "t": "gap",
+        "text": "无铭文或刻款"
+      }
     ],
     "technique": [
-      {"t": "p", "text": "耀州窑刻花以斜刀深刻、刀锋锐利为特征，纹样边缘轮廓分明，釜层较薄，能清楚透出刻痕的深浅层次；这与龙泉窑厚釜圆刀的效果差异明显，也是本库把二者列为易混淆而需分辨的一对窑口的原因，详见 [[class:longquan-yao|龙泉窑]] 条目「分辨点」一节。"}
+      {
+        "t": "p",
+        "text": "耀州窑刻花以斜刀深刻、刀锋锐利为特征，纹样边缘轮廓分明，釜层较薄，能清楚透出刻痕的深浅层次；这与龙泉窑厚釜圆刀的效果差异明显，也是本库把二者列为易混淆而需分辨的一对窑口的原因，详见 [[class:longquan-yao|龙泉窑]] 条目「分辨点」一节。"
+      }
     ],
     "excavation": [
-      {"t": "gap", "text": "本件为传世流散品，无出土记录，馆方对产地的「推定」本身即说明缺乏能一锤定音的比对依据（如窑址出土同类标准器或铭文）"}
+      {
+        "t": "gap",
+        "text": "本件为传世流散品，无出土记录，馆方对产地的「推定」本身即说明缺乏能一锤定音的比对依据（如窑址出土同类标准器或铭文）"
+      }
     ],
     "dating": [
-      {"t": "dating", "basis": "风格比对", "conf": "存疑",
-       "text": "馆方标注「probably from the Yaozhou kilns」，即产地归属本身依据的是釜色、刻花风格与已知耀州窑（陕西铜川黄堡镇）产品的比对，而非铭文、地层或共出器物等更硬的依据。本库据校验器规则，风格比对一律不判「确证」，此处进一步判为「存疑」，因为馆方自己的表述已带有不确定语气。",
-       "src": "cleveland"},
-      {"t": "stmt", "state": "adopt", "text": "这正是本库要求断代必附依据的意义所在：把馆方原话里的「probably」直接翻译成中文陈述句「耀州窑」，等于替馆方做出了它自己都没有做出的确定判断。"}
+      {
+        "t": "dating",
+        "basis": "风格比对",
+        "conf": "存疑",
+        "text": "馆方标注「probably from the Yaozhou kilns」，即产地归属本身依据的是釜色、刻花风格与已知耀州窑（陕西铜川黄堡镇）产品的比对，而非铭文、地层或共出器物等更硬的依据。本库据校验器规则，风格比对一律不判「确证」，此处进一步判为「存疑」，因为馆方自己的表述已带有不确定语气。",
+        "src": "cleveland"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "这正是本库要求断代必附依据的意义所在：把馆方原话里的「probably」直接翻译成中文陈述句「耀州窑」，等于替馆方做出了它自己都没有做出的确定判断。"
+      }
     ],
     "provenance": [
-      {"t": "p", "text": "由 Mr. and Mrs. Severance A. Millikin 捐赠入藏。"},
-      {"t": "gap", "text": "入藏之前的递藏链不明"}
+      {
+        "t": "p",
+        "text": "由 Mr. and Mrs. Severance A. Millikin 捐赠入藏。"
+      },
+      {
+        "t": "gap",
+        "text": "馆方递藏档案可上溯至「?-1969」（见上：(Estate of Manuel R. Permut [1909-1969], Shaker Heights, OH,）。再往前——**尤其此物流出中国的经过、在华的藏家与出让情形**——仍无记录。西方馆的 provenance 通常自经手古董商起算，**商人之前的那一段恰是最要紧而最不可考的一段**：它是本库反复讲的那个不对称的另一半，缺的不是编纂功夫，是档案本身没有。"
+      },
+      {
+        "t": "exhib",
+        "when": "1970",
+        "title": "Year in Review: 1969",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (January 27-February 22, 1970).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1969.226"
+      },
+      {
+        "t": "prov",
+        "when": "?-1969",
+        "text": "(Estate of Manuel R. Permut [1909-1969], Shaker Heights, OH, sold to the Cleveland Museum of Art)",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1969.226"
+      },
+      {
+        "t": "prov",
+        "when": "1969-",
+        "text": "The Cleveland Museum of Art, Cleveland, OH, 1969-present",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1969.226"
+      }
     ],
     "viewing": [
-      {"t": "ul", "items": [
-        "留意刻花线条的锐利程度与釜层厚度——这是本库判断「像耀州」而非「确定是耀州」的直观依据，读者亦可自行比对。",
-        "与本库定窑、龙泉窑条目并观，能建立起宋代北方刻花（耀州）、白瓷刻花（定窑）与南方厚釜刻花（龙泉）三条装饰传统的直观区别。"
-      ]}
+      {
+        "t": "ul",
+        "items": [
+          "留意刻花线条的锐利程度与釜层厚度——这是本库判断「像耀州」而非「确定是耀州」的直观依据，读者亦可自行比对。",
+          "与本库定窑、龙泉窑条目并观，能建立起宋代北方刻花（耀州）、白瓷刻花（定窑）与南方厚釜刻花（龙泉）三条装饰传统的直观区别。"
+        ]
+      }
     ],
     "disputes": [
-      {"t": "stmt", "state": "pend", "text": "本件产地归属为馆方推定而非确定，本库不做进一步坐实，亦不排除其他北方青瓷窑口的可能性。"},
-      {"t": "stmt", "state": "disp", "text": "同类青釜刻花器，在传世品与早期著录中历来存在窑口归属之争——除耀州窑本身外，陕西、河南境内同属「耀州窑系」的临汝窑、宜阳窑等窑口亦烧造风格极为接近的刻花青釜器，仅凭釜色与刀法风格，在窑系内部精确坐实到某一具体窑口本就存在困难。这也是馆方措辞审慎地用「probably」而非确定判断的深层原因，不只是这一件器物的孤立情况。"},
-      {"t": "gap", "text": "本件无出土记录，早期流转经过不明"}
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "本件产地归属为馆方推定而非确定，本库不做进一步坐实，亦不排除其他北方青瓷窑口的可能性。"
+      },
+      {
+        "t": "stmt",
+        "state": "disp",
+        "text": "同类青釜刻花器，在传世品与早期著录中历来存在窑口归属之争——除耀州窑本身外，陕西、河南境内同属「耀州窑系」的临汝窑、宜阳窑等窑口亦烧造风格极为接近的刻花青釜器，仅凭釜色与刀法风格，在窑系内部精确坐实到某一具体窑口本就存在困难。这也是馆方措辞审慎地用「probably」而非确定判断的深层原因，不只是这一件器物的孤立情况。"
+      },
+      {
+        "t": "gap",
+        "text": "本件无出土记录，早期流转经过不明"
+      }
     ]
   }
 }

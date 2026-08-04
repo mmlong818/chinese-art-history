@@ -11,7 +11,9 @@
   "size": "通高 51.4 厘米",
   "holder": "克利夫兰美术馆（藏品号 1944.184.1）",
   "cma_id": 123609,
-  "classes": ["jingdezhen-yao"],
+  "classes": [
+    "jingdezhen-yao"
+  ],
   "image": {
     "source": "cleveland",
     "source_url": "https://www.clevelandart.org/art/1944.184.1",
@@ -26,54 +28,151 @@
   "verification": "museum",
   "updated": "2026-08-04",
   "sources": [
-    {"ref": "cleveland", "note": "藏品记录、年代、工艺、尺寸，逐项照录"},
-    {"ref": "zhongguo-meishu-jianshi", "note": "粉彩工艺与九桃纹母题的一般性描述"}
+    {
+      "ref": "cleveland",
+      "note": "藏品记录、年代、工艺、尺寸，逐项照录"
+    },
+    {
+      "ref": "zhongguo-meishu-jianshi",
+      "note": "粉彩工艺与九桃纹母题的一般性描述"
+    }
   ],
   "sections": {
     "basics": [
-      {"t": "kv", "rows": [
-        ["原题", "Vase with Peaches"],
-        ["馆方年代", "1736–95"],
-        ["馆方分期", "China, Jiangxi province, Jingdezhen, Qing dynasty (1644–1911), Qianlong mark and period (1736–1795)"],
-        ["工艺", "馆方记 porcelain with famille rose overglaze enamel decoration"],
-        ["尺寸", "通高 51.4 厘米"],
-        ["现藏", "克利夫兰美术馆，藏品号 1944.184.1"],
-        ["入藏", "Elisabeth Severance Prentiss Collection"]
-      ]},
-      {"t": "stmt", "state": "adopt", "text": "以上各项**照录馆方藏品记录**。「famille rose」是西方对「粉彩」的通行称呼（因粉红色调常见于此类彩瓷而得名），本库条目名沿用中文通行称谓「粉彩」。", "src": "cleveland"}
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "原题",
+            "Vase with Peaches"
+          ],
+          [
+            "馆方年代",
+            "1736–95"
+          ],
+          [
+            "馆方分期",
+            "China, Jiangxi province, Jingdezhen, Qing dynasty (1644–1911), Qianlong mark and period (1736–1795)"
+          ],
+          [
+            "工艺",
+            "馆方记 porcelain with famille rose overglaze enamel decoration"
+          ],
+          [
+            "尺寸",
+            "通高 51.4 厘米"
+          ],
+          [
+            "现藏",
+            "克利夫兰美术馆，藏品号 1944.184.1"
+          ],
+          [
+            "入藏",
+            "Elisabeth Severance Prentiss Collection"
+          ]
+        ]
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "以上各项**照录馆方藏品记录**。「famille rose」是西方对「粉彩」的通行称呼（因粉红色调常见于此类彩瓷而得名），本库条目名沿用中文通行称谓「粉彩」。",
+        "src": "cleveland"
+      }
     ],
     "form": [
-      {"t": "p", "text": "瓶身绘桃树与九枚寿桃，枝叶蟠曲，是清代宫廷用瓷中极常见的祝寿题材——「九桃」谐音、桃本身的仙寿寓意，使这一图案成为乾隆朝陈设用瓷的固定母题之一，传世同类「九桃瓶」不止一件。"}
+      {
+        "t": "p",
+        "text": "瓶身绘桃树与九枚寿桃，枝叶蟠曲，是清代宫廷用瓷中极常见的祝寿题材——「九桃」谐音、桃本身的仙寿寓意，使这一图案成为乾隆朝陈设用瓷的固定母题之一，传世同类「九桃瓶」不止一件。"
+      }
     ],
     "inscription": [
-      {"t": "p", "text": "馆方将本件归为「乾隆年款」一类，粉彩官窑瓷惯例底部书年款（青花或矶红楷书「大清乾隆年制」）。本件具体年款文字，馆方公开图版未清晰展示底部，本库不逐字核对。"}
+      {
+        "t": "p",
+        "text": "馆方将本件归为「乾隆年款」一类，粉彩官窑瓷惯例底部书年款（青花或矶红楷书「大清乾隆年制」）。本件具体年款文字，馆方公开图版未清晰展示底部，本库不逐字核对。"
+      }
     ],
     "technique": [
-      {"t": "p", "text": "粉彩工艺在传统釜上彩料中加入含铅的「玻璃白」，使彩料呈半透明状，色调可由深至浅渐变过渡，视觉效果柔和粉润，是清代在珐琅彩技术影响下、由景德镇本地工匠发展出的一条更易大量生产的彩瓷路线。"},
-      {"t": "stmt", "state": "adopt", "text": "粉彩与珐琅彩（见 [[work:falangcai-qianlong-cma|乾隆珐琅彩锦鸡花卉纹瓶]]）的关系值得说明：粉彩的渐变技法直接受珐琅彩启发，但粉彩从设计到彩绘、烧成全程可在景德镇完成，不需要素胎运京、宫廷造办处彩绘的跨地域工序——这使粉彩得以摆脱珐琅彩「产量注定小」的限制，成为清代中期以后景德镇外销与内销市场上产量最大的彩瓷品类之一。"}
+      {
+        "t": "p",
+        "text": "粉彩工艺在传统釜上彩料中加入含铅的「玻璃白」，使彩料呈半透明状，色调可由深至浅渐变过渡，视觉效果柔和粉润，是清代在珐琅彩技术影响下、由景德镇本地工匠发展出的一条更易大量生产的彩瓷路线。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "粉彩与珐琅彩（见 [[work:falangcai-qianlong-cma|乾隆珐琅彩锦鸡花卉纹瓶]]）的关系值得说明：粉彩的渐变技法直接受珐琅彩启发，但粉彩从设计到彩绘、烧成全程可在景德镇完成，不需要素胎运京、宫廷造办处彩绘的跨地域工序——这使粉彩得以摆脱珐琅彩「产量注定小」的限制，成为清代中期以后景德镇外销与内销市场上产量最大的彩瓷品类之一。"
+      }
     ],
     "excavation": [
-      {"t": "gap", "text": "本件为传世流散品，无出土记录。景德镇珠山御窑遗址出土的乾隆官窑瓷片为器形与彩料工艺提供比对基准，但本件本身与具体地层无直接对应"}
+      {
+        "t": "gap",
+        "text": "本件为传世流散品，无出土记录。景德镇珠山御窑遗址出土的乾隆官窑瓷片为器形与彩料工艺提供比对基准，但本件本身与具体地层无直接对应"
+      }
     ],
     "dating": [
-      {"t": "dating", "basis": "铭文", "conf": "较可靠",
-       "text": "馆方依据器物年款结合彩料、器形特征判定为乾隆官窑瓷。本库未独立核对具体年款书体细节，仅照录馆方判断，故列「较可靠」而非「确证」。",
-       "src": "cleveland"}
+      {
+        "t": "dating",
+        "basis": "铭文",
+        "conf": "较可靠",
+        "text": "馆方依据器物年款结合彩料、器形特征判定为乾隆官窑瓷。本库未独立核对具体年款书体细节，仅照录馆方判断，故列「较可靠」而非「确证」。",
+        "src": "cleveland"
+      }
     ],
     "provenance": [
-      {"t": "p", "text": "属 Elisabeth Severance Prentiss Collection，后归入克利夫兰美术馆。"},
-      {"t": "gap", "text": "入藏之前的递藏链不明"}
+      {
+        "t": "p",
+        "text": "属 Elisabeth Severance Prentiss Collection，后归入克利夫兰美术馆。"
+      },
+      {
+        "t": "gap",
+        "text": "馆方递藏档案可上溯至「?–1944」（见上：Mrs. Francis F. [Elisabeth Severance Allen] Prentiss [1865–1）。再往前——**尤其此物流出中国的经过、在华的藏家与出让情形**——仍无记录。西方馆的 provenance 通常自经手古董商起算，**商人之前的那一段恰是最要紧而最不可考的一段**：它是本库反复讲的那个不对称的另一半，缺的不是编纂功夫，是档案本身没有。"
+      },
+      {
+        "t": "exhib",
+        "when": "1975",
+        "title": "Chinese Textiles and Ceramics",
+        "text": "Cleveland Public Library, Cleveland, OH (organizer) (January 13-May 9, 1975).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1944.184.1"
+      },
+      {
+        "t": "prov",
+        "when": "?–1944",
+        "text": "Mrs. Francis F. [Elisabeth Severance Allen] Prentiss [1865–1944], Cleveland, OH, bequest to the Cleveland Museum of Art",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1944.184.1"
+      },
+      {
+        "t": "prov",
+        "when": "1944–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1944.184.1"
+      }
     ],
     "viewing": [
-      {"t": "ul", "items": [
-        "留意桃叶与花瓣的渐变层次，与珐琅彩、五彩对照观看，能直观感受三条清代彩瓷技术路线的差异。",
-        "「九桃」题材在乾隆朝陈设用瓷中反复出现，可留意本件与其他馆藏同题材器物在构图、桃形排布上的差异。"
-      ]}
+      {
+        "t": "ul",
+        "items": [
+          "留意桃叶与花瓣的渐变层次，与珐琅彩、五彩对照观看，能直观感受三条清代彩瓷技术路线的差异。",
+          "「九桃」题材在乾隆朝陈设用瓷中反复出现，可留意本件与其他馆藏同题材器物在构图、桃形排布上的差异。"
+        ]
+      }
     ],
     "disputes": [
-      {"t": "stmt", "state": "pend", "text": "本件年款是否为乾隆本朝书写，本库未独立核对，仅照录馆方判断。"},
-      {"t": "stmt", "state": "disp", "text": "清代官窑瓷普遍存在「寄托款」现象——本朝仿烧他朝器物并寄托早期年款以示追慕，乾隆年款尤其在晚清、民国时期被大量仿烧沿用（收藏界所称「光绪仿乾隆」一类现象）。本件年款是否确系乾隆本朝书写、抑或后朝寄托或仿款，是瓷器鉴定中常见的争议点，本库未独立核对书体细节，不代为鉴定真伪，仅照录馆方判断。"},
-      {"t": "gap", "text": "本件无出土记录"}
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "本件年款是否为乾隆本朝书写，本库未独立核对，仅照录馆方判断。"
+      },
+      {
+        "t": "stmt",
+        "state": "disp",
+        "text": "清代官窑瓷普遍存在「寄托款」现象——本朝仿烧他朝器物并寄托早期年款以示追慕，乾隆年款尤其在晚清、民国时期被大量仿烧沿用（收藏界所称「光绪仿乾隆」一类现象）。本件年款是否确系乾隆本朝书写、抑或后朝寄托或仿款，是瓷器鉴定中常见的争议点，本库未独立核对书体细节，不代为鉴定真伪，仅照录馆方判断。"
+      },
+      {
+        "t": "gap",
+        "text": "本件无出土记录"
+      }
     ]
   }
 }

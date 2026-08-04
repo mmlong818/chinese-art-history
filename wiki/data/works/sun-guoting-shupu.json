@@ -11,7 +11,19 @@
   "medium": "草书；纸本墨迹长卷，纵约 26.5 cm，横约 900.8 cm",
   "holder": "台北故宫博物院",
   "classes": ["caoshu"],
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Calligraphy_by_Sun_Guoting_-_Img3_large.jpg",
+    "credit": "孙过庭 / 台北故宫博物院 / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/sun-guoting-shupu-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/10/Calligraphy_by_Sun_Guoting_-_Img3_large.jpg",
+    "w": 960,
+    "h": 26,
+    "alt": "孙过庭《书谱》墨迹长卷全卷，台北故宫博物院藏",
+    "note": "原卷为极狭长手卷（原图宽高比约36:1），800px 缩略图按比例压缩后仅高26像素，字迹细节须查原图或台北故宫官方页面。"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -60,9 +72,9 @@
       {"t": "ul", "items": [
         "阅读《书谱》时可将其同时作为「草书范本」与「书学理论文本」两种材料对待——文本内容与书写风格互为参照，是这件作品独有的阅读方式。",
         "全卷体量较大（约三百五十余行），完整通览有助于体会孙过庭本人主张的「五乖五合」创作状态论在实际书写节奏上的体现。",
-        "本库无该件自由授权图版：台北故宫博物院官网实测 SSL 证书链验证失败，本库脚本无法访问；检索大都会博物馆亚洲部相关关键词（含英文题名），仅见后世其他书家临写《千字文》一类无关作品，未见《书谱》本身的自由授权复制品，image_status 标为无自由图版，非编纂遗漏。"
+        "台北故宫博物院官网本身实测 SSL 证书链验证失败，本库脚本无法直连访问；本库现有图版取自 Wikimedia Commons 转载的台北故宫官方展览页面全卷照片（faithful photographic reproduction），见 image 字段。"
       ]},
-      {"t": "gap", "text": "本库尚缺该件高清可信图版；台北故宫官网无法编程访问，需人工核对"}
+      {"t": "gap", "text": "现有图版为压缩后的极狭长缩略图，字迹细节仍需查原图或台北故宫官方页面核对"}
     ],
     "disputes": [
       {"t": "stmt", "state": "disp", "text": "**《书谱》是否完整传世**：部分学者据自序「分为三品」推测原书体量更大或有续卷，今传本仅为序文部分；启功等学者认为现存卷文意连贯完整，即是完整的序文本身，非残卷。本库并陈不裁断。"},

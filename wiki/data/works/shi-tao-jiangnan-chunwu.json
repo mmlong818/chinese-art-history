@@ -24,63 +24,235 @@
   "verification": "museum",
   "updated": "2026-08-04",
   "sources": [
-    {"ref": "cleveland", "note": "馆方藏品记录逐条核实：题名 Spring Mist over Jiangnan，1697 年，纸本立轴，藏品号 1954.126，share_license_status=CC0"},
-    {"ref": "zhongguo-meishu-jianshi", "note": "石涛晚年扬州时期画风的通行叙述"},
-    {"ref": "kugua-heshang-hualuyu", "note": "「笔墨当随时代」主张与本件晚年风格的对读"}
+    {
+      "ref": "cleveland",
+      "note": "馆方藏品记录逐条核实：题名 Spring Mist over Jiangnan，1697 年，纸本立轴，藏品号 1954.126，share_license_status=CC0"
+    },
+    {
+      "ref": "zhongguo-meishu-jianshi",
+      "note": "石涛晚年扬州时期画风的通行叙述"
+    },
+    {
+      "ref": "kugua-heshang-hualuyu",
+      "note": "「笔墨当随时代」主张与本件晚年风格的对读"
+    }
   ],
   "sections": {
     "basics": [
-      {"t": "kv", "rows": [
-        ["作者", "石涛"],
-        ["材质", "纸本浅设色"],
-        ["形制", "立轴"],
-        ["尺寸", "画心 39 × 52 cm；连裱（带轴头）167 × 76 cm（馆方数据）"],
-        ["款识", "有石涛本人款署，纪年 1697"],
-        ["现藏", "克利夫兰艺术博物馆，藏品号 1954.126"],
-        ["入藏", "1954 年，John L. Severance 基金购藏"]
-      ]},
-      {"t": "dating", "basis": "款识", "conf": "确证",
-       "text": "本件有石涛本人署款与明确纪年（1697），证据充分。此时石涛已近晚年，定居扬州前后，是理解其成熟期风格的重要实证。"},
-      {"t": "stmt", "state": "adopt", "text": "本件创作于石涛还俗、定居扬州前后的阶段，画风比早中期更趋松秀简淡，可与《[[work:shi-tao-souzhen-qifeng|搜尽奇峰打草稿图]]》（1691）对照，观察其晚年风格的细微演变，见 [[artist:shi-tao|石涛]] 条目「人生轨迹」一节。"}
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "作者",
+            "石涛"
+          ],
+          [
+            "材质",
+            "纸本浅设色"
+          ],
+          [
+            "形制",
+            "立轴"
+          ],
+          [
+            "尺寸",
+            "画心 39 × 52 cm；连裱（带轴头）167 × 76 cm（馆方数据）"
+          ],
+          [
+            "款识",
+            "有石涛本人款署，纪年 1697"
+          ],
+          [
+            "现藏",
+            "克利夫兰艺术博物馆，藏品号 1954.126"
+          ],
+          [
+            "入藏",
+            "1954 年，John L. Severance 基金购藏"
+          ]
+        ]
+      },
+      {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "确证",
+        "text": "本件有石涛本人署款与明确纪年（1697），证据充分。此时石涛已近晚年，定居扬州前后，是理解其成熟期风格的重要实证。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "本件创作于石涛还俗、定居扬州前后的阶段，画风比早中期更趋松秀简淡，可与《[[work:shi-tao-souzhen-qifeng|搜尽奇峰打草稿图]]》（1691）对照，观察其晚年风格的细微演变，见 [[artist:shi-tao|石涛]] 条目「人生轨迹」一节。"
+      }
     ],
     "commission": [
-      {"t": "p", "text": "无明确题跋说明具体委托背景，推测属其晚年鬻画生涯中的一般性市场流通之作。"},
-      {"t": "gap", "text": "具体创作背景材料有限"}
+      {
+        "t": "p",
+        "text": "无明确题跋说明具体委托背景，推测属其晚年鬻画生涯中的一般性市场流通之作。"
+      },
+      {
+        "t": "gap",
+        "text": "具体创作背景材料有限"
+      }
     ],
     "reading": [
-      {"t": "p", "text": "画面表现江南春日雾霭迷蒙的景象，山形以湿笔渲染出朦胧氤氲的空气感，与《搜尽奇峰打草稿图》奇崛硬朗的造型形成对照，展示石涛画风中柔和抒情的一面。"},
-      {"t": "stmt", "state": "adopt", "text": "本件的雾霭渲染手法体现石涛「笔墨当随时代」主张的另一层含义——不固守某一种既定的「奇崛」标签化面貌，而是根据题材（江南春景）灵活调整笔墨语言，说明其个人风格内部也具有相当的弹性，不宜用单一的「奇峰怪石」印象概括其全部创作。", "src": "kugua-heshang-hualuyu"}
+      {
+        "t": "p",
+        "text": "画面表现江南春日雾霭迷蒙的景象，山形以湿笔渲染出朦胧氤氲的空气感，与《搜尽奇峰打草稿图》奇崛硬朗的造型形成对照，展示石涛画风中柔和抒情的一面。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "本件的雾霭渲染手法体现石涛「笔墨当随时代」主张的另一层含义——不固守某一种既定的「奇崛」标签化面貌，而是根据题材（江南春景）灵活调整笔墨语言，说明其个人风格内部也具有相当的弹性，不宜用单一的「奇峰怪石」印象概括其全部创作。",
+        "src": "kugua-heshang-hualuyu"
+      }
     ],
     "technique": [
-      {"t": "ul", "items": [
-        "**湿笔渲染表现雾气**：以饱含水分的笔触晕染表现春雾迷蒙的空气感，与其山水中常见的干笔皴擦形成对照。",
-        "**浅设色的运用**：淡雅的浅设色烘托江南春日的季节氛围，色彩处理克制而不艳丽。"
-      ]},
-      {"t": "gap", "text": "用纸用墨的科技检测数据本库未见"}
+      {
+        "t": "ul",
+        "items": [
+          "**湿笔渲染表现雾气**：以饱含水分的笔触晕染表现春雾迷蒙的空气感，与其山水中常见的干笔皴擦形成对照。",
+          "**浅设色的运用**：淡雅的浅设色烘托江南春日的季节氛围，色彩处理克制而不艳丽。"
+        ]
+      },
+      {
+        "t": "gap",
+        "text": "用纸用墨的科技检测数据本库未见"
+      }
     ],
     "colophons": [
-      {"t": "colophon", "by": "石涛（自题）", "when": "1697", "seals": ["石涛印（等，具体印文待核）"],
-       "text": "本件有石涛本人题款，说明创作年代，是本件断代的直接一手证据。"},
-      {"t": "gap", "text": "题跋全文与鉴藏印印文的逐条核对，须据克利夫兰艺术博物馆官方数据库核对"}
+      {
+        "t": "colophon",
+        "by": "石涛（自题）",
+        "when": "1697",
+        "seals": [
+          "石涛印（等，具体印文待核）"
+        ],
+        "text": "本件有石涛本人题款，说明创作年代，是本件断代的直接一手证据。"
+      },
+      {
+        "t": "gap",
+        "text": "题跋全文与鉴藏印印文的逐条核对，须据克利夫兰艺术博物馆官方数据库核对"
+      }
     ],
     "provenance": [
-      {"t": "p", "text": "1954 年经 John L. Severance 基金购藏入藏克利夫兰艺术博物馆。"},
-      {"t": "stmt", "state": "pend", "text": "入藏之前的具体递藏经过，本库尚未核实，不作推测。"},
-      {"t": "gap", "text": "入藏前的完整递藏链，待核"}
+      {
+        "t": "p",
+        "text": "1954 年经 John L. Severance 基金购藏入藏克利夫兰艺术博物馆。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "入藏之前的具体递藏经过，本库尚未核实，不作推测。"
+      },
+      {
+        "t": "gap",
+        "text": "馆方递藏档案可上溯至「年份不详」（见上：Li Songnian 李淞年 [19th century]）。再往前——**尤其此物流出中国的经过、在华的藏家与出让情形**——仍无记录。西方馆的 provenance 通常自经手古董商起算，**商人之前的那一段恰是最要紧而最不可考的一段**：它是本库反复讲的那个不对称的另一半，缺的不是编纂功夫，是档案本身没有。"
+      },
+      {
+        "t": "exhib",
+        "when": "1954",
+        "title": "Chinese Landscape Painting",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (November 5-December 26, 1954).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1954.126"
+      },
+      {
+        "t": "exhib",
+        "when": "1955",
+        "title": "Arts of China",
+        "text": "Lyman Allyn Art Museum, New London, CT (organizer) (October 30-December 4, 1955).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1954.126"
+      },
+      {
+        "t": "exhib",
+        "when": "1963",
+        "title": "Master of Landscape: East and West",
+        "text": "Munson Museum of Art, Utica, NY (organizer) (September 15-October 13, 1963); Memorial Art Gallery of the University of Rochester, Rochester, NY (November 1-December 1, 1963).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1954.126"
+      },
+      {
+        "t": "exhib",
+        "when": "1967",
+        "title": "Paintings by Tao-chi",
+        "text": "University of Michigan Museum of Art, Ann Arbor, MI (organizer) (August 13-September 29, 1967).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1954.126"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting",
+        "text": "The Nelson-Atkins Museum of Art (November 7, 1980-January 4, 1981); The Cleveland Museum of Art (February 11-March 29, 1981); Tokyo National Museum (October 4-November 17, 1982); The Asia Society Museum, New York, NY (December 3, 1982-February 28, 1983).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1954.126"
+      },
+      {
+        "t": "prov",
+        "when": "年份不详",
+        "text": "Li Songnian 李淞年 [19th century]",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1954.126"
+      },
+      {
+        "t": "prov",
+        "when": "年份不详",
+        "text": "He Yuanyu 何瑗玉 [1840–?]",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1954.126"
+      },
+      {
+        "t": "prov",
+        "when": "年份不详",
+        "text": "Lang Jingshan 郎靜山 [1892–1995]",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1954.126"
+      },
+      {
+        "t": "prov",
+        "when": "?–1954",
+        "text": "(Walter Hochstadter [1914–2007], New York, NY, sold to the Cleveland Museum of Art)",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1954.126"
+      },
+      {
+        "t": "prov",
+        "when": "1954–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/1954.126"
+      }
     ],
     "reception": [
-      {"t": "p", "text": "本件是西方收藏中石涛晚年风格的重要代表作，克利夫兰艺术博物馆的中国部藏品以开放获取（CC0）著称，本件是本库借助该馆资源获得高质量自由授权图版的直接受益个案。"},
-      {"t": "stmt", "state": "adopt", "text": "本件与本库另一件石涛作品《搜尽奇峰打草稿图》（故宫博物院，无自由图版）并置，恰好呈现了「西方馆藏中国文物可编程取图、中国本土馆藏中国文物取图困难」这一本库反复遇到的不对称现实。"}
+      {
+        "t": "p",
+        "text": "本件是西方收藏中石涛晚年风格的重要代表作，克利夫兰艺术博物馆的中国部藏品以开放获取（CC0）著称，本件是本库借助该馆资源获得高质量自由授权图版的直接受益个案。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "本件与本库另一件石涛作品《搜尽奇峰打草稿图》（故宫博物院，无自由图版）并置，恰好呈现了「西方馆藏中国文物可编程取图、中国本土馆藏中国文物取图困难」这一本库反复遇到的不对称现实。"
+      }
     ],
     "viewing": [
-      {"t": "ul", "items": [
-        "细看湿笔渲染的雾气处理，与《搜尽奇峰打草稿图》的硬朗造型对照，体会石涛风格的内部弹性。",
-        "留意浅设色的克制运用，理解石涛晚年山水色彩语言的一般特征。"
-      ]},
-      {"t": "gap", "text": "无"}
+      {
+        "t": "ul",
+        "items": [
+          "细看湿笔渲染的雾气处理，与《搜尽奇峰打草稿图》的硬朗造型对照，体会石涛风格的内部弹性。",
+          "留意浅设色的克制运用，理解石涛晚年山水色彩语言的一般特征。"
+        ]
+      },
+      {
+        "t": "gap",
+        "text": "无"
+      }
     ],
     "disputes": [
-      {"t": "gap", "text": "本件证据链完整，暂无重大争议；入藏前递藏细节待进一步核对馆方数据库"}
+      {
+        "t": "gap",
+        "text": "本件证据链完整，暂无重大争议；入藏前递藏细节待进一步核对馆方数据库"
+      }
     ]
   }
 }

@@ -11,7 +11,18 @@
   "medium": "行书；纸本墨迹卷，纵约 28.2 cm，横约 75.5 cm",
   "holder": "台北故宫博物院",
   "classes": ["xingshu"],
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Yan_Zhenqing_-_Draft_of_a_Requiem_to_My_Nephew.jpg",
+    "credit": "颜真卿 / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/yan-zhenqing-jizhi-wengao-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/70/Yan_Zhenqing_-_Draft_of_a_Requiem_to_My_Nephew.jpg",
+    "w": 960,
+    "h": 56,
+    "alt": "颜真卿《祭侄文稿》卷，台北故宫博物院藏（含后世题跋鉴藏印）"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -59,9 +70,9 @@
       {"t": "ul", "items": [
         "观看此卷时应留意笔速与涂改的对应关系——涂改集中处即情绪最激烈处，这是判断此稿「情感真实性」最直接的形式证据。",
         "与颜真卿碑刻代表作对照看：《祭侄文稿》是墨迹真迹，《多宝塔碑》《颜勤礼碑》是碑刻拓本，二者证据等级不同，不宜用同一标准笼统评价「颜真卿笔法」。",
-        "本库无该件自由授权图版：台北故宫博物院官网实测 SSL 证书链验证失败，本库脚本无法访问；检索大都会、克利夫兰等西方馆藏亦未见任何自由授权的复制品或高质量替代影像，image_status 标为无自由图版，非编纂遗漏。"
+        "台北故宫博物院官网本身实测 SSL 证书链验证失败，本库脚本无法直连访问；本库现有图版取自 Wikimedia Commons 上标注 PD-old-100 的全卷影像，见 image 字段。"
       ]},
-      {"t": "gap", "text": "本库尚缺该件高清可信图版；台北故宫官网无法编程访问，需人工核对"}
+      {"t": "gap", "text": "现有图版清晰度有限，题跋鉴藏印细节仍需查原图或台北故宫官方页面核对"}
     ],
     "disputes": [
       {"t": "stmt", "state": "disp", "text": "**「天下第二行书」的排序是否成立**：这一排序拿一件确证真迹与一批仅存摹本的作品相比较，混淆了不同的证据等级，部分当代学者对此提出方法论质疑。本库并陈不裁断，详见评价与影响一节。", "src": "wangxun-zhongguo-meishushi"},
