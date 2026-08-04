@@ -9,7 +9,19 @@
   "medium": "玉片、金丝",
   "size": "全套由头罩、上衣、裤筒、手套、鞋等部分组成，玉片总数逾两千片（本库未核实精确件数出处，据通行报道转引）",
   "holder": "河北博物院（河北满城汉墓出土，原属中山靖王刘胜墓）",
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Liu_Sheng%27s_Jade_Burial_Suit_with_Gold_Thread.jpg",
+    "credit": "Gary Todd / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/han-jade-suit-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Liu_Sheng%27s_Jade_Burial_Suit_with_Gold_Thread.jpg",
+    "w": 960,
+    "h": 640,
+    "alt": "金缕玉衣（刘胜），河北博物院藏",
+    "note": "摄影者 Gary Todd 拍摄于河北博物院展陈现场并主动声明公共领域（Commons 标注 PD，非本库压缩许可）"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -55,7 +67,7 @@
     "viewing": [
       {"t": "ul", "items": [
         "看玉衣要留意玉片之间的编缀方式与金丝走向，那是判断修复复原逻辑的关键，也是理解「玉衣如何真的把人体包裹起来」的入口。",
-        "本库无该件自由授权图版，河北博物院无公开 API 可供核验授权状态，须人工赴馆或查官方出版物核对。",
+        "条目图版取自参观者拍摄的展陈现场照片（摄影者自行声明 PD），如需权威著录仍请查河北博物院官方网站。",
         "与刘胜墓同出的长信宫灯、错金博山炉等器物一并参看，能更完整理解这座诸侯王墓的整体规格，玉衣不是孤立的展品。"
       ]},
       {"t": "gap", "text": "尚缺该件的高清细节图与逐片玉片编号图的出处"}

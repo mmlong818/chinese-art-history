@@ -10,7 +10,19 @@
   "size": "通高约 93.1 厘米，口径约 75.6 厘米，重约 201.5 千克（据常见著录转引，本库未独立核验）",
   "holder": "上海博物馆",
   "classes": ["ding"],
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Da_Ke_ding.jpg",
+    "credit": "Mountain / Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "attribution_required": true,
+    "thumb": "img/dake-ding-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/70/Da_Ke_ding.jpg",
+    "w": 960,
+    "h": 859,
+    "alt": "大克鼎，上海博物馆藏",
+    "note": "参观者 2006 年拍摄于上海博物馆展陈现场，非馆方官方摄影"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -56,7 +68,7 @@
         "上海博物馆常设展出，可赴馆参观原件并近距离读铭。",
         "可与藏于中国国家博物馆的大盂鼎对照——同出同族，分藏两地，是中国近现代文物递藏史的一个具体案例。"
       ]},
-      {"t": "gap", "text": "本库未取得可自由使用的授权图版；如需图像，请查上海博物馆官方网站或权威出版物图录"}
+      {"t": "gap", "text": "条目图版取自 Wikimedia Commons 参观者拍摄的展陈现场照片（CC BY-SA 3.0），非馆方官方摄影，如需权威图录仍请查上海博物馆官方网站"}
     ],
     "disputes": [
       {"t": "stmt", "state": "pend", "text": "「克」的私名与家族世系细节仍有讨论。"},

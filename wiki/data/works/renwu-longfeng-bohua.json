@@ -8,7 +8,18 @@
   "year_sort": -350,
   "medium": "绢帛，墨绘（先秦时期尚未形成后世意义上的『卷轴画』装裱形制）",
   "holder": "湖南博物院",
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Figure_with_Dragon_and_Phoenix_-_Google_Art_Project.jpg",
+    "credit": "战国楚墓出土 / Google Art Project / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/renwu-longfeng-bohua-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Figure_with_Dragon_and_Phoenix_-_Google_Art_Project.jpg",
+    "w": 960,
+    "h": 1246,
+    "alt": "《人物龙凤帛画》，长沙陈家大山楚墓出土，湖南博物院藏"
+  },
   "verification": "wikidata",
   "updated": "2026-08-04",
   "sources": [
@@ -53,7 +64,7 @@
     "viewing": [
       {"t": "ul", "items": [
         "现藏湖南博物院，常与马王堆汉墓出土的西汉帛画（见 [[work:mawangdui-lacquerware]] 同墓其他随葬品的说明）对照展出，便于理解楚地至西汉初帛画传统的延续与演变。",
-        "本库无该件自由授权图版，湖南博物院无公开 API 可供核验授权状态，须人工赴馆或查官方出版物核对。"
+        "本条目已取得自由授权图版（源自 Google Art Project 经 Wikimedia Commons 转载，见 image 字段），但该图版未经本库直接向湖南博物院官方藏品页交叉核对完整元数据。"
       ]},
       {"t": "gap", "text": "本库未取得该件官方藏品页的可核实 URL，读者可自行查湖南博物院官方网站核对"}
     ],

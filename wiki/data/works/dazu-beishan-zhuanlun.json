@@ -10,7 +10,18 @@
   "medium": "砂岩摩崖圆雕",
   "size": "窟内中央经藏柱与四壁造像共约十余尊",
   "holder": "原址（重庆大足区北山）",
-  "image_status": "in-situ",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dazu_2007_656.jpg",
+    "credit": "G41rn8 / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "attribution_required": true,
+    "thumb": "img/dazu-beishan-zhuanlun-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Dazu_2007_656.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 960,
+    "h": 1280,
+    "alt": "北山转轮经藏窟（第 136 窟）中心经藏柱"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -117,10 +128,6 @@
           "留意衣纹的纤巧处理与云冈、麦积山北朝造像的厚重贴体衣纹的差异，这是材料掌控成熟度提升而非材质本身变化的结果。",
           "「转轮经藏」为象征性雕刻，不具备实际转动功能，观看时不宜按实用机械装置理解。"
         ]
-      },
-      {
-        "t": "gap",
-        "text": "本库无自由授权图版：大足属原址不可移动文物，国内主管机构未开放影像授权，本库不自行取图。可至大足石刻研究院官方渠道查看"
       }
     ],
     "disputes": [

@@ -10,7 +10,18 @@
   "medium": "砂岩摩崖圆雕",
   "size": "立佛高约 15.5 米",
   "holder": "原址（山西大同云冈石窟第 18 窟）",
-  "image_status": "in-situ",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cave_18%2C_Yungang_Grottoes.jpg",
+    "credit": "Dudva / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/yungang-18-buddha-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Cave_18%2C_Yungang_Grottoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 960,
+    "h": 720,
+    "alt": "云冈第 18 窟立佛（千佛袈裟）"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -114,10 +125,6 @@
           "须靠近观察方能看清衣身千佛小像的细节，远观容易把「千佛袈裟」误看作普通的密集衣纹。",
           "与第 20 窟裸露的主尊对照，本窟仍处相对完整的窟室之内，观看角度更接近北魏原设计。"
         ]
-      },
-      {
-        "t": "gap",
-        "text": "本库无自由授权图版：云冈属原址不可移动文物，国内主管机构未开放影像授权，本库不自行取图。可至云冈研究院官方渠道查看"
       }
     ],
     "disputes": [

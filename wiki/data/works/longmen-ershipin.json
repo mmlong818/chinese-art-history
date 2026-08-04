@@ -9,7 +9,18 @@
   "year_sort": 500,
   "medium": "石灰岩造像题记",
   "holder": "原址（河南洛阳龙门，主要集中于古阳洞）",
-  "image_status": "in-situ",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Buddhist_Grottoes_at_Longmen-_Guyang_Grotto_Reliefs.jpg",
+    "credit": "Gary Todd / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/longmen-ershipin-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/Ancient_Buddhist_Grottoes_at_Longmen-_Guyang_Grotto_Reliefs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 960,
+    "h": 640,
+    "alt": "古阳洞内造像与题记所在的崖壁"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -151,7 +162,7 @@
       },
       {
         "t": "gap",
-        "text": "本库无自由授权图版；克利夫兰美术馆藏有龙门题记拓片，但实测其许可标为 Copyrighted，不可取用"
+        "text": "本库现有图版为古阳洞内造像与题记所在崖壁的整体照片，非某一品原石或拓本的可辨读近景；克利夫兰美术馆藏有龙门题记拓片，但实测其许可标为 Copyrighted，不可取用"
       }
     ],
     "disputes": [

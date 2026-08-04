@@ -10,7 +10,18 @@
   "medium": "石灰岩摩崖雕造",
   "size": "通高约 17.14 米，头高约 4 米，耳长约 1.9 米",
   "holder": "原址（河南洛阳龙门西山奉先寺）",
-  "image_status": "in-situ",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Buddhist_Grottoes_at_Longmen-_Fengxian_Temple%2C_Vairocana_Buddha.jpg",
+    "credit": "Gary Todd / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/longmen-lushena-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/10/Ancient_Buddhist_Grottoes_at_Longmen-_Fengxian_Temple%2C_Vairocana_Buddha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 960,
+    "h": 720,
+    "alt": "卢舍那大佛"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -120,10 +131,6 @@
           "注意两端力士与天王：动势最强、风化也最重，是判断整龛保存状况的着眼处。",
           "龛前今为露天，原有木构覆盖。今日所见的光照条件与唐人所见并不相同。"
         ]
-      },
-      {
-        "t": "gap",
-        "text": "本库无自由授权图版：龙门与敦煌一类原址不可移动文物，国内主管机构未开放影像授权，本库不自行取图。可至龙门石窟研究院官方渠道查看"
       }
     ],
     "disputes": [

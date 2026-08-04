@@ -9,7 +9,19 @@
   "medium": "素色平纹方孔纱（未染色蚕丝，单层无衬里）",
   "size": "长约 128 厘米，通袖长约 190 厘米，重约 49 克（另有一件重约 48 克，据通行报道转引，本库未核实原始称重记录出处）",
   "holder": "湖南博物院（马王堆一号汉墓出土）",
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E7%9B%B4%E8%A3%BE%E7%B4%A0%E7%BA%B1%E8%A5%8C%E8%A1%A3%2C_2018-09-28.jpg",
+    "credit": "Siyuwj / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "attribution_required": true,
+    "thumb": "img/mawangdui-silk-gauze-robe-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%E7%9B%B4%E8%A3%BE%E7%B4%A0%E7%BA%B1%E8%A5%8C%E8%A1%A3%2C_2018-09-28.jpg",
+    "w": 960,
+    "h": 641,
+    "alt": "直裾素纱襌衣，湖南博物院藏",
+    "note": "参观者 2018 年拍摄于湖南博物院展陈现场，非馆方官方摄影"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -55,7 +67,7 @@
     "viewing": [
       {"t": "ul", "items": [
         "展陈条件严格受限于文物保护要求，观展时留意展柜的温湿度与光照控制说明，这本身即是理解这类文物脆弱性的一部分。",
-        "本库无该件自由授权图版，湖南博物院无公开 API 可供核验授权状态，须人工赴馆或查官方出版物核对。",
+        "条目图版取自参观者拍摄的展陈现场照片（CC BY-SA 4.0），非馆方官方摄影，如需织造密度等精确数据仍请查湖南博物院官方出版物。",
         "与本库马王堆漆器条目并观，两者同出一墓、同受益于同一套密封地下环境，也同样面临出土后的保存挑战。"
       ]},
       {"t": "gap", "text": "尚缺该件的逐项织造密度数据与高清图版出处"}

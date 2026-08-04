@@ -10,7 +10,19 @@
   "size": "高约 38.5 厘米，口径约 28.6 厘米，重约 14.6 千克（据常见著录转引，本库未独立核验）",
   "holder": "宝鸡青铜器博物院",
   "classes": ["zun"],
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:He_Zun.jpg",
+    "credit": "幽灵巴尼 / Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "attribution_required": true,
+    "thumb": "img/he-zun-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d0/He_Zun.jpg",
+    "w": 600,
+    "h": 600,
+    "alt": "何尊，宝鸡青铜器博物院藏",
+    "note": "参观者 2014 年拍摄于展陈现场，非馆方官方摄影，原图分辨率较低"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -58,7 +70,7 @@
       {"t": "ul", "items": [
         "现常设展出于宝鸡青铜器博物院，是该院的镇馆之宝。"
       ]},
-      {"t": "gap", "text": "本库未取得可自由使用的授权图版；如需图像，请查宝鸡青铜器博物院官方网站或权威出版物图录"}
+      {"t": "gap", "text": "条目图版取自 Wikimedia Commons 参观者拍摄的展陈现场照片（CC BY-SA 3.0），分辨率较低，非馆方官方摄影，如需高清图版仍请查宝鸡青铜器博物院官方网站"}
     ],
     "disputes": [
       {"t": "stmt", "state": "disp", "text": "「宅兹中或（国）」的「中国」一词与今义不同，本库特别提示避免混同，详见「铭文释读」节。"},

@@ -10,7 +10,18 @@
   "medium": "砂岩摩崖浮雕与圆雕",
   "size": "中心塔柱通顶二层；浮雕三十余幅环绕塔柱与四壁",
   "holder": "原址（山西大同云冈石窟第 6 窟）",
-  "image_status": "in-situ",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%86%88%E7%9F%B3%E7%AA%9F%E4%B9%8B%E7%AC%AC%E5%85%AD%E7%AA%9F_07.jpg",
+    "credit": "Liuxingy / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "attribution_required": true,
+    "thumb": "img/yungang-6-reliefs-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/82/%E4%BA%91%E5%86%88%E7%9F%B3%E7%AA%9F%E4%B9%8B%E7%AC%AC%E5%85%AD%E7%AA%9F_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 960,
+    "h": 1440,
+    "alt": "云冈第 6 窟塔柱浮雕"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -126,10 +137,6 @@
           "对照第 18、20 窟的衣纹处理，可直接感受约二十年间云冈风格的汉化转变。",
           "窟前清代木构楼阁本身也值得观察，它不是北魏原构，却是本窟保存状况的重要变量。"
         ]
-      },
-      {
-        "t": "gap",
-        "text": "本库无自由授权图版：云冈属原址不可移动文物，国内主管机构未开放影像授权，本库不自行取图。可至云冈研究院官方渠道查看"
       }
     ],
     "disputes": [

@@ -11,7 +11,19 @@
   "size": "通高约 133 厘米，口长约 110 厘米，口宽约 78 厘米，重约 832.84 千克（据常见著录转引，本库未独立核验，早年亦有约 875 千克的旧估重数据流传，二者出入即因称重方式不同）",
   "holder": "中国国家博物馆",
   "classes": ["ding"],
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:HouMuWuDingFullView.jpg",
+    "credit": "Mlogic / Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "attribution_required": true,
+    "thumb": "img/houmuwu-ding-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/HouMuWuDingFullView.jpg",
+    "w": 960,
+    "h": 1250,
+    "alt": "后母戊鼎，中国国家博物馆藏",
+    "note": "参观者 2011 年拍摄于中国国家博物馆展陈现场，非馆方官方摄影"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -63,7 +75,7 @@
       {"t": "ul", "items": [
         "现常设展出于中国国家博物馆「古代中国」基本陈列，可赴馆参观原件。"
       ]},
-      {"t": "gap", "text": "本库未取得可自由使用的授权图版，无法在条目内配图；如需图像，请查中国国家博物馆官方网站或权威出版物图录，本库不代为转载"}
+      {"t": "gap", "text": "条目图版取自 Wikimedia Commons 参观者拍摄的展陈现场照片（CC BY-SA 3.0），非馆方官方摄影，如需权威图录仍请查中国国家博物馆官方网站或权威出版物"}
     ],
     "disputes": [
       {"t": "stmt", "state": "disp", "text": "「司母戊」与「后母戊」的释读之争，详见「铭文释读」节；2011 年国博改名一事本身也引发过公众与学界的讨论，本库并陈两说，不代为裁断。"},

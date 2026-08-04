@@ -10,7 +10,18 @@
   "medium": "砂岩摩崖圆雕",
   "size": "坐佛高约 13.7 米",
   "holder": "原址（山西大同云冈石窟第 20 窟）",
-  "image_status": "in-situ",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cave_20%2C_Yungang_Grottoes.jpg",
+    "credit": "Dudva / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/yungang-20-buddha-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/Cave_20%2C_Yungang_Grottoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 960,
+    "h": 720,
+    "alt": "云冈第 20 窟坐佛（露天大佛）"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -135,10 +146,6 @@
           "注意衣纹的平行阶梯状处理与云冈中期（如第 6 窟）褒衣博带式衣纹的差异，二者相隔约二十至三十年。",
           "崖面局部风化凹陷处，可留意是否残存原彩绘或贴金痕迹，但肉眼判断不可靠，不构成结论。"
         ]
-      },
-      {
-        "t": "gap",
-        "text": "本库无自由授权图版：云冈与莫高窟同属原址不可移动文物，国内主管机构未开放影像授权，本库不自行取图。可至云冈研究院官方渠道查看"
       }
     ],
     "disputes": [

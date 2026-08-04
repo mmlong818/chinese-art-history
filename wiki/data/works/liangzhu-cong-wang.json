@@ -10,7 +10,19 @@
   "size": "高约 8.8 厘米，射径 17.1 – 17.6 厘米，孔径约 4.9 厘米，重约 6.5 千克（本库未核实精确数据，据考古报告转引，下同）",
   "holder": "浙江省文物考古研究所 / 浙江省博物馆",
   "classes": ["cong"],
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jade_Cong_King%2C_2018-06-09_01.jpg",
+    "credit": "Siyuwj / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "attribution_required": true,
+    "thumb": "img/liangzhu-cong-wang-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Jade_Cong_King%2C_2018-06-09_01.jpg",
+    "w": 960,
+    "h": 641,
+    "alt": "玉琮王，浙江省博物馆展陈",
+    "note": "参观者 2018 年拍摄于浙江省博物馆展陈现场，非馆方官方摄影"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -60,7 +72,7 @@
       {"t": "ul", "items": [
         "浙江省博物馆孤山馆区或良渚遗址相关展陈常设此件（具体展出馆区以官方公告为准，本库未逐年核实），可近距离观察阴线深浅与转角处的浮雕层次。",
         "**看良渚玉器要看「磨」的痕迹，不要用看青铜或看画的眼光去找「刀法」**——转角浮雕的圆转过渡、阴线两侧的毛边，都是砣具与线具往复研磨留下的证据，与金属刻刀的爽利转折是两种完全不同的物理过程。",
-        "本库无该件自由授权图版；克利夫兰与大都会两馆藏有其他良渚文化玉璧、玉琮类器，可作纹样与工艺的旁证参看，但不可与玉琮王本身混为一谈。"
+        "条目图版取自参观者拍摄的展陈现场照片（CC BY-SA 4.0），非馆方官方摄影；克利夫兰与大都会两馆藏有其他良渚文化玉璧、玉琮类器，可作纹样与工艺的旁证参看，但不可与玉琮王本身混为一谈。"
       ]},
       {"t": "gap", "text": "尚缺该件的高清细节图与展陈现状记录"}
     ],

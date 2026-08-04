@@ -10,7 +10,18 @@
   "medium": "砂岩摩崖浮雕，通体贴金",
   "size": "崖面造像区约 88 平方米，习称一千零七只手（象征数，非逐一实数统计）",
   "holder": "原址（重庆大足区宝顶山大佛湾）",
-  "image_status": "in-situ",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E5%AE%9D%E9%A1%B6%E5%B1%B1%E5%8D%83%E6%89%8B%E8%A7%82%E9%9F%B3.JPG",
+    "credit": "Gisling / Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "attribution_required": true,
+    "thumb": "img/dazu-baoding-qianshou-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6e/%E5%AE%9D%E9%A1%B6%E5%B1%B1%E5%8D%83%E6%89%8B%E8%A7%82%E9%9F%B3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 960,
+    "h": 604,
+    "alt": "宝顶山千手观音"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -124,10 +135,6 @@
           "留意贴金层的新旧差异：修复后的贴金较为均匀鲜亮，与周边未修复崖面的风化色泽形成对比，这本身就是重修层的可见证据。",
           "本尊是本库示范「近年系统修复记录」的代表案例，可与云冈第 20 窟因崩塌暴露、年代不明的重修层对照阅读。"
         ]
-      },
-      {
-        "t": "gap",
-        "text": "本库无自由授权图版：大足属原址不可移动文物，国内主管机构未开放影像授权，本库不自行取图。可至大足石刻研究院官方渠道查看"
       }
     ],
     "disputes": [

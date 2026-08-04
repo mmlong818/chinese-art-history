@@ -10,7 +10,19 @@
   "size": "地宫共出金银器逾百件，另有琉璃器、丝织品等，本库未核实精确件数出处，据通行报道转引",
   "holder": "法门寺博物馆（陕西扶风法门寺塔基地宫出土）",
   "classes": ["zanke"],
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Famen_Si_May_2007_067.jpg",
+    "credit": "G41rn8 / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "attribution_required": true,
+    "thumb": "img/famen-temple-crypt-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/95/Famen_Si_May_2007_067.jpg",
+    "w": 960,
+    "h": 1492,
+    "alt": "法门寺地宫出土银鎏金莲花形盐台，唐代宫廷茶具之一",
+    "note": "图为地宫所出成套宫廷茶具中的银鎏金盐台一件，非地宫金银器全部；拍摄场合（常设展或巡展）本库未逐一核实，非馆方官方摄影"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -60,7 +72,7 @@
       {"t": "ul", "items": [
         "成套宝函宜按层级逐层理解其嵌套关系，单看最外层容易忽略内部逐层缩小、逐层加工的复杂度。",
         "银茶具一组建议与唐代饮茶方式的文献记载对照，理解碾茶、罗茶等工序的实际操作逻辑。",
-        "本库无该批金银器的自由授权图版，法门寺博物馆无公开 API 可供核验授权状态，须人工赴馆或查官方出版物核对。",
+        "条目图版取自参观者拍摄的展陈照片（CC BY-SA 4.0），仅为茶具中的银鎏金盐台一件，非馆方官方摄影，如需逐件著录仍请查法门寺博物馆官方出版物。",
         "与本库何家村窖藏条目并观，两者断代证据的强弱分布正好相反，适合对照理解「埋藏/封闭年代」与「器物制作年代」的区别。"
       ]},
       {"t": "gap", "text": "尚缺物账碑全文释读与逐件对应关系的高清图版及出处"}

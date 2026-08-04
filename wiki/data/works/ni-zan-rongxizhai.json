@@ -9,7 +9,18 @@
   "year_sort": 1372,
   "medium": "纸本水墨立轴",
   "holder": "台北故宫博物院",
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ni_Zan._The_Rongxi_Studio.1372._74%2C7x35%2C3._National_Palace_Museum%2C_Taipei.jpg",
+    "credit": "倪瓒 / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/ni-zan-rongxizhai-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ni_Zan._The_Rongxi_Studio.1372._74%2C7x35%2C3._National_Palace_Museum%2C_Taipei.jpg",
+    "w": 960,
+    "h": 1973,
+    "alt": "倪瓒《容膝斋图》立轴，台北故宫博物院藏"
+  },
   "verification": "wikidata",
   "updated": "2026-08-04",
   "sources": [
@@ -66,7 +77,7 @@
         "退开看留白。中景大片空水面积远超近景与远景之和，这是倪瓒式留白最典型的比例分配。",
         "读画题。「容膝斋」三字与陶渊明「审容膝之易安」的典故，是画面之外的第二层文本，不读题款只看构图会漏掉这一层。"
       ]},
-      {"t": "gap", "text": "本库无自由授权图版：本件藏于台北故宫博物院，该院官网实测存在 SSL 证书链验证问题，本库脚本无法访问（见 [[src:npm-taipei]]），须人工在浏览器中核对官方藏品页"}
+      {"t": "gap", "text": "本条目已取得自由授权图版（源自 Wikimedia Commons，见 image 字段，该文件描述标注尺寸 74.7×35.3 cm，与本库转录的通行数字接近但未逐一核对），本件官方藏品页仍因该院官网 SSL 证书链问题无法编程访问（见 [[src:npm-taipei]]），完整题跋释文与递藏细目须人工在浏览器中核对官方页"}
     ],
     "disputes": [
       {"t": "stmt", "state": "disp", "text": "空亭无人的解释：生平投射说与图式程式说并存，见「画面分析」一节，本库不裁断。"},

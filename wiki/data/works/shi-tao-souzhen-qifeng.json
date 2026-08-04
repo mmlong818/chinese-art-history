@@ -9,7 +9,18 @@
   "year_sort": 1691,
   "medium": "纸本水墨手卷",
   "holder": "故宫博物院",
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E7%9F%B3%E6%B6%9B%E6%90%9C%E5%B0%BD%E5%A5%87%E5%B3%B0%E5%9B%BE%E5%8D%B7.png",
+    "credit": "石涛 / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/shi-tao-souzhen-qifeng-800.png",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/cc/%E7%9F%B3%E6%B6%9B%E6%90%9C%E5%B0%BD%E5%A5%87%E5%B3%B0%E5%9B%BE%E5%8D%B7.png",
+    "w": 960,
+    "h": 68,
+    "alt": "石涛《搜尽奇峰打草稿图》手卷，故宫博物院藏"
+  },
   "verification": "wikidata",
   "updated": "2026-08-04",
   "sources": [
@@ -65,7 +76,7 @@
         "按手卷展观顺序观看山峰造型的奇崛变化，思考「搜尽奇峰」的具体图像落点。",
         "阅读长题（若有可靠释文），理解石涛本人对自己画学主张的直接陈述。"
       ]},
-      {"t": "gap", "text": "故宫博物院仅有 HTML 页面，无公开 API，本库无法编程核查亦无法取图；读者可查阅该馆官方网站或数字文物库核对原件信息"}
+      {"t": "gap", "text": "本条目图版取自 Wikimedia Commons（见 image 字段），故宫博物院本身仅有 HTML 页面、无公开 API，题跋全文逐字核对与官方著录数字仍待人工核对该馆官方网站或数字文物库"}
     ],
     "disputes": [
       {"t": "stmt", "state": "pend", "text": "本件是否可作为「一画」概念的确定图像化例证，本库不采取过度延伸的读法，见「评价与影响」一节。"},

@@ -11,7 +11,19 @@
   "size": "高约 28 厘米，口径约 22 厘米，重约 7.95 千克（据常见著录转引，本库未独立核验）",
   "holder": "中国国家博物馆",
   "classes": ["gui"],
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Western_Zhou_%22Li%22_Bronze_Gui.jpg",
+    "credit": "Gary Todd / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/li-gui-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/46/Western_Zhou_%22Li%22_Bronze_Gui.jpg",
+    "w": 960,
+    "h": 915,
+    "alt": "利簋，中国国家博物馆藏",
+    "note": "摄影者 Gary Todd 拍摄于展陈现场并主动声明公共领域（Commons 标注 PD，非本库压缩许可）"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -57,7 +69,7 @@
       {"t": "ul", "items": [
         "现常设展出于中国国家博物馆「古代中国」基本陈列，是「夏商周断代工程」相关叙述中反复被引用的关键实物。"
       ]},
-      {"t": "gap", "text": "本库未取得可自由使用的授权图版；如需图像，请查中国国家博物馆官方网站或权威出版物图录"}
+      {"t": "gap", "text": "条目图版取自 Wikimedia Commons 参观者拍摄的展陈现场照片（摄影者自行声明 PD），如需权威图录仍请查中国国家博物馆官方网站"}
     ],
     "disputes": [
       {"t": "stmt", "state": "disp", "text": "铭文所记「甲子日岁星」用以推算武王克商的绝对年代，通行前 1046 年说之外，学界另有前 1027 年、前 1044 年等十余种方案并存，本库不认为此争议已有定论，见「断代依据」节。"},

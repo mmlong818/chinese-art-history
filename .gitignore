@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 index.html.tmp
 wiki/dist/
+
+# 本机 Eagle 图库索引缓存：含本机绝对路径与个人收藏结构，不入公开仓库
+wiki/.eagle-index.json

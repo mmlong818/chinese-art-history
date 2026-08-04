@@ -12,7 +12,19 @@
   "classes": [
     "zun"
   ],
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_in_the_National_Museum_of_China_4.jpg",
+    "credit": "EditQ / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "attribution_required": true,
+    "thumb": "img/siyang-fangzun-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Bronze_in_the_National_Museum_of_China_4.jpg",
+    "w": 960,
+    "h": 1280,
+    "alt": "四羊方尊，中国国家博物馆藏",
+    "note": "参观者 2023 年拍摄于中国国家博物馆展陈现场，画面可见馆方展签「四羊青铜方尊」及展柜反光，非馆方官方摄影"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -150,7 +162,7 @@
       },
       {
         "t": "gap",
-        "text": "本库未取得可自由使用的授权图版；如需图像，请查中国国家博物馆官方网站或权威出版物图录"
+        "text": "条目图版取自 Wikimedia Commons 参观者拍摄的展陈现场照片（CC BY-SA 4.0），非馆方官方摄影，如需权威图录仍请查中国国家博物馆官方网站"
       }
     ],
     "disputes": [

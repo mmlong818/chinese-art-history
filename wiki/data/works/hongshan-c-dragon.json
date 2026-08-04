@@ -9,7 +9,19 @@
   "medium": "玉（岫岩玉一系软玉）",
   "size": "高约 26 厘米，通体呈 C 字形卷曲（本库未核实精确出处，据通行报道转引）",
   "holder": "中国国家博物馆",
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%8D%9A%E7%89%A9%E9%A6%86%E8%97%8F%E7%BA%A2%E5%B1%B1%E6%96%87%E5%8C%96%E7%8E%89%E9%BE%99201203.png",
+    "credit": "Amazingloong / Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "attribution_required": true,
+    "thumb": "img/hongshan-c-dragon-800.png",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%8D%9A%E7%89%A9%E9%A6%86%E8%97%8F%E7%BA%A2%E5%B1%B1%E6%96%87%E5%8C%96%E7%8E%89%E9%BE%99201203.png",
+    "w": 800,
+    "h": 800,
+    "alt": "玉龙（C 形龙），中国国家博物馆藏",
+    "note": "参观者 2012 年拍摄于中国国家博物馆展陈现场，非馆方官方摄影，展柜灯光造成整体偏黄绿色调"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -55,7 +67,7 @@
     "viewing": [
       {"t": "ul", "items": [
         "看这件要看整体的弧线与抛光面的光洁度——通体一气卷曲，找不到明显的分段接痕，说明良渚、红山两系玉工在「一体成形」上的追求是一致的。",
-        "本库无该件自由授权图版，中国国家博物馆无公开 API 可供核验授权状态，须人工赴馆或查官方出版物核对。"
+        "条目图版取自参观者拍摄的展陈现场照片（CC BY-SA 3.0），非馆方官方摄影。"
       ]},
       {"t": "gap", "text": "尚缺该件的高清细节图与实测数据出处"}
     ],

@@ -10,7 +10,19 @@
   "size": "窖藏共出金银器逾千件（含金银币、玉带、药材等），本库未核实精确件数出处，据通行报道转引",
   "holder": "陕西历史博物馆（西安何家村窖藏出土）",
   "classes": ["zanke"],
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tang_Gold_and_Silver_Flask_with_Dancing_Horse_%289949851325%29.jpg",
+    "credit": "Gary Todd / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/hejiacun-hoard-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Tang_Gold_and_Silver_Flask_with_Dancing_Horse_%289949851325%29.jpg",
+    "w": 960,
+    "h": 640,
+    "alt": "舞马衔杯纹银壶，陕西历史博物馆藏（何家村窖藏）",
+    "note": "摄影者 Gary Todd 拍摄于展陈现场并主动声明公共领域（Commons 标注 PD，非本库压缩许可）；图为窖藏中的一件银壶，非窖藏全部器物"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -61,7 +73,7 @@
     "viewing": [
       {"t": "ul", "items": [
         "舞马衔杯纹银壶宜结合《明皇杂录》等相关文献记载一并理解，单看器物容易忽略图像与史事的对应关系。",
-        "本库无该窖藏器物的自由授权图版，陕西历史博物馆无公开 API 可供核验授权状态，须人工赴馆或查官方出版物核对。",
+        "条目图版取自参观者拍摄的展陈照片（摄影者自行声明 PD），仅为舞马衔杯纹银壶一件，非窖藏全部器物，如需逐件著录仍请查陕西历史博物馆官方出版物。",
         "与本库法门寺地宫金银器条目并观，两者同属唐代金银器巅峰期的实物证据，但遗存性质（窖藏 / 佛教地宫）完全不同，断代逻辑也不同。"
       ]},
       {"t": "gap", "text": "尚缺窖藏器物的逐件著录、铭文释文与高清图版出处"}

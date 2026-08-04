@@ -10,7 +10,19 @@
   "year_sort": 1295,
   "medium": "纸本设色手卷",
   "holder": "国立故宫博物院（台北）",
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2_Zhao_Mengfu_Autumn_Colors_on_the_Qiao_and_Hua_Mountains_Handscroll%2C_ink_and_colors_on_paper%2C_28.4_x_93.2_cm_National_Palace_Museum%2C_Taipei..jpg",
+    "credit": "赵孟頫 / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/zhao-mengfu-quehua-qiuse-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/2_Zhao_Mengfu_Autumn_Colors_on_the_Qiao_and_Hua_Mountains_Handscroll%2C_ink_and_colors_on_paper%2C_28.4_x_93.2_cm_National_Palace_Museum%2C_Taipei..jpg",
+    "w": 960,
+    "h": 54,
+    "alt": "赵孟頫《鹊华秋色图》手卷，国立故宫博物院（台北）藏",
+    "note": "原卷为狭长手卷，此缩略图按比例压缩后仅高54像素，画面细节须查原图或故宫数位典藏页面"
+  },
   "verification": "wikidata",
   "updated": "2026-08-04",
   "sources": [
@@ -70,7 +82,7 @@
         "细看树石轮廓的书法性用笔，尝试辨认飞白与籀书笔意，理解「书画同源」说的具体图像落点。",
         "阅读卷末自题，理解本件「代人还乡」的独特创作缘由。"
       ]},
-      {"t": "gap", "text": "国立故宫博物院实测 SSL 证书链验证失败，本库脚本无法访问其官方页，亦未在西方馆藏或 Wikimedia Commons 检索到本件的自由授权图版——济南题材加之台北故宫的图像政策，使其成为本库六位画家十二件代表作中确凿的无图缺口之一；读者可查阅该馆官网或数位典藏系统"}
+      {"t": "gap", "text": "国立故宫博物院实测 SSL 证书链验证失败，本库脚本无法直连其官方页；但本条目已在 Wikimedia Commons 检索到本件的自由授权图版（见 image 字段），此前「确凿无图缺口」的判断随之修正——该图版未经本库直接向故宫官方页交叉核对完整元数据，读者可另查阅该馆官网或数位典藏系统核对"}
     ],
     "disputes": [
       {"t": "stmt", "state": "pend", "text": "本件是否应算作赵孟頫「古意」主张形成过程中的起点，抑或只是其众多复古实践中较著名的一例，本库不作过度的「起点」式叙事，仅记录其证据充分、断代确凿这一事实。"},
