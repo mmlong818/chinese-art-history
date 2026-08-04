@@ -378,6 +378,154 @@
       "verified": false
     },
     {
+      "id": "guangyi-zhoushuang-ji",
+      "title": "广艺舟双楫",
+      "authors": "康有为（清）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "清末碑学理论的集大成之作，系统抬高北碑、贬抑帖学，是碑学论述后来定型为「碑帖对立」叙事的关键推手之一。本库引用时注明：其立论有明确的立场倾向，不等同于对碑帖关系的中立描述。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "yizhou-shuang-ji",
+      "title": "艺舟双楫",
+      "authors": "包世臣（清）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "碑学理论早期的系统化著作，早于康有为《广艺舟双楫》，与阮元「南北书派论」同为碑学理论奠基文献。本库用以区分「碑学理论的提出」与「碑学书家的创作实践」两条线索。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "nanbei-shupai-lun",
+      "title": "南北书派论 / 北碑南帖论",
+      "authors": "阮元（清）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "碑学理论的源头性文献，早于包世臣、康有为，将书法史分为南北两派并抑帖扬碑。本库引用时注明：这一二分本身是阮元的理论建构，其与乾嘉考据、金石出土的关系，见 [[period:qing]] 争议字段。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "dongpo-tiba",
+      "title": "东坡题跋（苏轼文集所辑）",
+      "authors": "苏轼（北宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "苏轼论书画文字的主要辑录来源，本库引其书学自述均据此类题跋，非其系统专著。",
+      "note": "版次与辑本未核实，不同辑本文字互有出入。",
+      "verified": false
+    },
+    {
+      "id": "shangu-tiba",
+      "title": "山谷题跋（黄庭坚文集所辑）",
+      "authors": "黄庭坚（北宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "黄庭坚论书文字的主要辑录来源，其书学自述均据此类题跋。",
+      "note": "版次与辑本未核实。",
+      "verified": false
+    },
+    {
+      "id": "shuanghong-kan-ji",
+      "title": "霜红龛集",
+      "authors": "傅山（明末清初）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "傅山诗文集，「作字示儿孙」等书学自述均出此，是判断其书学主张与政治立场关系时唯一可靠的一手文字依据。",
+      "note": "版次与辑本未核实。",
+      "verified": false
+    },
+    {
+      "id": "shishuo-xinyu",
+      "title": "世说新语",
+      "authors": "刘义庆（南朝宋）编",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "记魏晋名士言行的早期文本，戴逵「乘兴而行，兴尽而返，何必见戴」等逸事的主要出处。本库注意：此书性质近于品评轶闻的汇编，非严格传记，所记戴逵行事细节须与画史类记载分别对待。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "biaozhun-caoshu",
+      "title": "标准草书",
+      "authors": "于右任 编",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "于右任晚年主持编订的草书规范化著作，是判断其书学主张（草书标准化以利实用）的核心一手材料，与其个人书作的艺术评价是两件事。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "zhuanke-xue",
+      "title": "篆刻学",
+      "authors": "邓散木",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "现代篆刻理论的系统教材，刀法（切刀、冲刀）、印材与篆刻史分期的常用依据之一，本库论篆刻技法体系时的主要参照。作者本人即本库收录的篆刻家，其理论主张与其创作实践可互相印证。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "yinxue-shi",
+      "title": "印学史",
+      "authors": "沙孟海",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "现代篆刻史研究的奠基性专著，浙派、皖派等流派划分的学术史梳理与反思均据此交叉核对——包括「流派划分定型较晚、系后世归拢」这一判断。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "lunshu-jueju",
+      "title": "论书绝句一百首",
+      "authors": "启功",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "启功以绝句形式系统评述历代书家书迹的著作，是判断其书学观点的主要一手材料。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "andrews-shen-century-crisis",
+      "title": "A Century in Crisis: Modernity and Tradition in the Art of Twentieth-Century China",
+      "title_zh": "危机世纪：二十世纪中国艺术中的现代性与传统",
+      "authors": "Julia F. Andrews（安雅兰）、Kuiyi Shen（沈揆一）",
+      "publisher": "Guggenheim Museum",
+      "kind": "survey",
+      "tier": 3,
+      "spine": true,
+      "authority": "古根海姆 1998 年同名展览的学术图录，是英语学界研究晚清民国至当代中国美术的核心通史之一，对留洋画家（徐悲鸿、林风眠、刘海粟）的教育路线分歧、岭南画派的「折衷」策略均有专章处理，且不预设某一时期官方定评为结论。",
+      "note": "版次与 ISBN 未核实。",
+      "verified": false
+    },
+    {
+      "id": "andrews-painters-politics",
+      "title": "Painters and Politics in the People's Republic of China, 1949-1979",
+      "title_zh": "中华人民共和国的画家与政治：1949-1979",
+      "authors": "Julia F. Andrews（安雅兰）",
+      "publisher": "University of California Press",
+      "kind": "survey",
+      "tier": 3,
+      "spine": true,
+      "authority": "系统梳理新中国前期历次美术运动与政治批判（国画改造、反右、文革）对画家个人处境影响的学术专著，本库处理本期「评价随口径反复」「境遇与作品质量不互相换算」时的主要参照。",
+      "note": "版次与 ISBN 未核实。",
+      "verified": false
+    },
+    {
+      "id": "sullivan-20th-century-china",
+      "title": "Art and Artists of Twentieth-Century China",
+      "title_zh": "二十世纪中国艺术与艺术家",
+      "authors": "Michael Sullivan（苏立文）",
+      "publisher": "University of California Press",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "苏立文另一部专论二十世纪中国美术的通史，与《The Arts of China》的通代概述互补，对个体艺术家生平与风格转变的记述较详。",
+      "note": "版次与 ISBN 未核实。",
+      "verified": false
+    },
+    {
       "id": "unesco-whc",
       "title": "UNESCO World Heritage Centre",
       "kind": "reference",
@@ -385,6 +533,139 @@
       "url": "https://whc.unesco.org/",
       "authority": "世界遗产名录的官方登记信息，用于核对遗址的申遗年份与官方认定范围，不单独作为形制或断代依据。",
       "verified": true
+    },
+    {
+      "id": "congwenjun-zhongguo-shufashi",
+      "title": "中国书法史（七卷本）",
+      "authors": "丛文俊 等 著",
+      "publisher": "江苏教育出版社",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "国内书法史研究的权威多卷本通史，按书体与朝代分卷，本库书法条目的分期与书体演变叙述以其为主要参照。",
+      "note": "具体卷次、版次与 ISBN 未核实，凡引用须注明所据卷次。",
+      "verified": false
+    },
+    {
+      "id": "zhang-huaiguan-shuduan",
+      "title": "书断",
+      "authors": "张怀瓘（唐）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "唐代最重要的书法品评著作，创「神品、妙品、能品」三品制评历代书家，是本库处理唐人对前代及当代书家评价语的主要一手依据。**注意**：品评本身是主观褒贬，本库引用其评语时标明出自此书，不当作客观事实转述。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "guo-moruo-lanting-zhenwei",
+      "title": "由王谢墓志的出土论到兰亭序的真伪",
+      "authors": "郭沫若",
+      "publisher": "《文物》1965 年第 6 期",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "1965 年「兰亭论辩」的发端文章。郭沫若据南京出土的东晋《王兴之墓志》《谢鲲墓志》等字迹与传世《兰亭序》书风差异过大为主要论据，推断今传《兰亭序》（尤其文字本身）非王羲之原作，引发是年书学界的公开论辩。",
+      "note": "具体页码未核实，本库转引自后续通史与专著的转述交叉核对。",
+      "verified": false
+    },
+    {
+      "id": "gao-erhi-lanting-bianyi",
+      "title": "《兰亭序》的真伪驳议",
+      "authors": "高二适",
+      "publisher": "《光明日报》1965 年",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "对郭沫若一文的正面反驳，是「兰亭论辩」另一方的代表性文献，经章士钊转呈、毛泽东批示「以坚持不同意见展开讨论」后得以公开发表，本身也是这场论辩如何进入公共讨论的史料。",
+      "note": "具体刊期日期未核实，本库转引自后续通史与专著的转述交叉核对。",
+      "verified": false
+    },
+    {
+      "id": "jinshu",
+      "title": "晋书",
+      "authors": "房玄龄 等（唐）奉敕修",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "二十四史之一，636–648 年官修，是顾恺之等东晋人物生平的主要正史依据。**注意**：成书距东晋已两百余年，多取材《世说新语》一类文学性笔记整合而成，本库标其可信度低于同时代一手材料，凡仅见于此书者一律标待校验。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "tangchao-minghua-lu",
+      "title": "唐朝名画录",
+      "authors": "朱景玄（唐）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "现存最早专记唐代画家的品评之书，早于《历代名画记》，以神、妙、能、逸四品排列唐代画家，是张萱、周昉、吴道子等人品第与逸事的重要一手出处之一。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "mifu-huashi",
+      "title": "画史",
+      "authors": "米芾（北宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "米芾据自身鉴藏经验所记的品评札记，「董源平淡天真多」等评语出此，是判断董源、巨然在北宋士人圈评价的关键一手材料。**注意**：属个人鉴藏笔记而非系统史著，品第带明显个人好恶，本库引用其评语时标明出自米芾一家之见。",
+      "note": "版次与辑本未核实。",
+      "verified": false
+    },
+    {
+      "id": "shengchao-minghua-ping",
+      "title": "圣朝名画评",
+      "authors": "刘道醇（北宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "品评北宋（及入宋前）画家的专著，体例近《唐朝名画录》，是巨然籍贯、师承等条目「河内/江宁异说」的信源之一。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "jiu-tangshu",
+      "title": "旧唐书",
+      "authors": "刘昫 等（后晋）奉敕修",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "二十四史之一，后晋官修，是阎立本、吴道子、王维等唐代人物仕历与卒年的主要正史依据。成书距初盛唐已两百年上下，本库标其可信度高于笔记类转述，但仍须与《历代名画记》等画史文献分别评估。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "xin-tangshu",
+      "title": "新唐书",
+      "authors": "欧阳修、宋祁 等（北宋）奉敕修",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "北宋官修，体例较《旧唐书》更严，本库与《旧唐书》交叉参照唐代人物的仕历与卒年，二书偶有出入处标明。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "mifu-shushi",
+      "title": "书史",
+      "authors": "米芾（北宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "米芾记其所见历代墨迹的札记，是北宋人亲见晋唐书迹的少数直接记录之一——尤其他对当时所见「王羲之」诸帖的真伪判语，是今日讨论唐摹与刻帖谱系时极难替代的一手证词。**注意**：与《画史》同为个人鉴藏笔记，品第带明显个人好恶，且他本人亦被指有以摹易真之事，本库引其判语时标明出自米芾一家之见。",
+      "note": "版次与辑本未核实。",
+      "verified": false
+    },
+    {
+      "id": "mifu-baozhang-daifang-lu",
+      "title": "宝章待访录",
+      "authors": "米芾（北宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "米芾元祐年间所记「目睹」与「的闻」两类书迹的清单，**其价值恰在于他自己把两类分开**——亲见者与耳闻者不混为一谈，这正是本库四态区分的古代先例。可据以考北宋时若干晋唐名迹的存亡与藏处。",
+      "note": "版次与辑本未核实。",
+      "verified": false
+    },
+    {
+      "id": "tang-hou-huajian",
+      "title": "画鉴",
+      "authors": "汤垕（元）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "元人论历代绘画的鉴识之书，对晋唐宋名家逐一评断并多记其时所见真伪情形，是元代鉴藏眼光的代表性文献，亦是考宋元之际画迹流传的重要一手材料。**注意**：其品评框架已受元人复古趣味影响，不宜径当作所论各代当时的评价。",
+      "note": "版次与辑本未核实。",
+      "verified": false
     }
   ]
 }

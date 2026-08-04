@@ -1,0 +1,87 @@
+{
+  "schema": "work/1",
+  "id": "ni-zan-yushan-linhe",
+  "title": "虞山林壑图",
+  "title_orig": "Woods and Valleys of Mount Yu",
+  "kind": "画作",
+  "artist": "ni-zan",
+  "period": "yuan",
+  "year": "1372",
+  "year_sort": 1372,
+  "medium": "纸本水墨立轴",
+  "holder": "大都会艺术博物馆（The Metropolitan Museum of Art）",
+  "met_id": 45636,
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/45636",
+    "credit": "Ex coll.: C. C. Wang Family, Gift of The Dillon Fund, 1973",
+    "license": "PD",
+    "thumb": "img/ni-zan-yushan-linhe-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DP-19459-002.jpg",
+    "w": 344,
+    "h": 623,
+    "alt": "倪瓒《虞山林壑图》，1372年，大都会艺术博物馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "met", "note": "大都会博物馆藏品记录：artistDisplayName 直接标注 Ni Zan（非 attributed to / after / in the style of），isPublicDomain=true，年款 dated 1372，原 C.C. Wang 家族旧藏，1973 年 Dillon Fund 捐赠入藏"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "倪瓒晚年折带皴与「一河两岸」图式的通行技法描述"},
+    {"ref": "wikidata", "note": "作者生卒的交叉核对"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["作者", "倪瓒"],
+        ["年代", "1372 年（款识纪年）"],
+        ["材质", "纸本水墨"],
+        ["形制", "立轴"],
+        ["尺寸", "画心 94.6 × 35.9 cm；连裱边、轴头共 208.3 × 62.5 cm（大都会博物馆官方记录）"],
+        ["现藏", "大都会艺术博物馆，藏品号 1973.120.8"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "大都会博物馆的藏品记录直接以「Ni Zan」标注作者，未加 attributed to / after / in the style of 一类限定语，isPublicDomain 字段为真——本库据此将 verification 标为 museum，是本库对倪瓒画作里少数可编程核查、且馆方未加保留限定语的一件。"},
+      {"t": "gap", "text": "中文题名「虞山林壑图」为通行译名/惯用标题，本库尚未逐一核对是否见于早期中文著录原文，或是否另有更早的中文题名版本——具体中文书画史著录出处待补"}
+    ],
+    "commission": [
+      {"t": "p", "text": "本件原属 C. C. Wang（王季迁）家族旧藏，是二十世纪中国书画收藏史上流传有绪的重要藏品；1973 年经 Dillon Fund 资助捐赠入藏大都会博物馆。"},
+      {"t": "gap", "text": "创作缘由、受画人身份等一手信息，本库尚未核对"}
+    ],
+    "reading": [
+      {"t": "p", "text": "构图延续倪瓒晚年「一河两岸」的基本骨架：近景坡岸疏木，中景留白为水，远景平缓山峦，笔墨疏简、墨色清淡，与同年所作《容膝斋图》（见 [[work:ni-zan-rongxizhai]]）风格高度一致，可与之互证同一年内的创作状态。"},
+      {"t": "stmt", "state": "adopt", "text": "本件与《容膝斋图》同署 1372 年年款，是判断倪瓒生命最后两年（卒于 1374）风格状态的一组重要参照——两件均藏于不同馆（大都会、台北故宫），使得研究者可以在不依赖同一机构叙述的情况下交叉比对同期风格。"}
+    ],
+    "technique": [
+      {"t": "ul", "items": [
+        "**皴法**：折带皴，侧锋方折，干笔为主。",
+        "**用墨**：墨色清淡，层次简省，符合其晚年「惜墨如金」的通行评价。",
+        "**纸本**：生纸，吸墨与运笔速度直接影响其惯用的干笔效果。"
+      ]},
+      {"t": "gap", "text": "本件的具体用纸检测数据，本库尚未取得"}
+    ],
+    "colophons": [
+      {"t": "colophon", "by": "倪瓒（自题）", "when": "1372年", "seals": ["具体印文待核"],
+       "text": "款识纪年，具体题诗全文本库尚未逐一核对大都会博物馆官方释文，此处不作全文引用，以防误引。"},
+      {"t": "gap", "text": "递藏印鉴与后世题跋的完整释文，须据大都会博物馆官方著录补入"}
+    ],
+    "provenance": [
+      {"t": "stmt", "state": "adopt", "text": "近代递藏链相对清晰：原属 C. C. Wang（王季迁）家族旧藏，1973 年经 Dillon Fund 捐赠入藏大都会博物馆——这一节的近代流转记录比多数倪瓒传世作品更完整、更易核查，是本件相对于《容膝斋图》一类台北故宫藏品的优势之一（后者本库因台北故宫官网 SSL 问题无法编程核查）。"},
+      {"t": "gap", "text": "1973 年以前、王季迁旧藏之前的更早递藏史，本库尚未核对"}
+    ],
+    "reception": [
+      {"t": "p", "text": "作为大都会博物馆藏倪瓒真迹之一，本件是西方学界（如班宗华 Richard Barnhart 等参与《中国绘画三千年》的学者）讨论倪瓒晚期风格时常引用的实例之一。"},
+      {"t": "gap", "text": "具体学术引用与展览史，本库尚未系统核对"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "与《容膝斋图》对照看：同一年所作，可比较两件在留白比例、树石组合上的细微差异。",
+        "留意题款位置：倪瓒的题字通常占据画面重要位置而非边角，书法用笔与画中线条同源。"
+      ]},
+      {"t": "gap", "text": "本库已取得馆方自由授权图版（见 image 字段），暂无需另行说明缺图原因"}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "中文题名「虞山林壑图」的具体出处与是否为学界通行标准译名，本库尚未逐一核对早期中文著录，不排除存在其他译法或题名版本。"},
+      {"t": "stmt", "state": "disp", "text": "真伪：倪瓒画风高度程式化、易于临仿，明清以来托名伪作极多；本件因近代递藏链相对清晰（王季迁旧藏、Dillon Fund 捐赠），且大都会博物馆未加限定语标注，属本库掌握证据较扎实的一件，但本库未独立核对更早期（近代以前）的递藏与鉴定意见。"},
+      {"t": "gap", "text": "更早期递藏与历代著录，待核"}
+    ]
+  }
+}

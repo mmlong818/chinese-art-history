@@ -146,14 +146,16 @@ def dating_health(c, rep):
     只有带铭文、碑记纪年、造像题记那一小部分。"""
     basis, conf = Counter(), Counter()
     weak_sure = []
-    for w in c.works.values():
-        for b in _blocks(w):
+    # 遍历全部实体，不止 works——遗址条目（石窟、墓葬）同样带 dating 块，
+    # 只数 works 会把整整一类断代漏掉，报出来的分布就不是全库分布。
+    for kind, eid, o in c.all_entities():
+        for b in _blocks(o):
             if b.get("t") != "dating":
                 continue
             basis[b.get("basis")] += 1
             conf[b.get("conf")] += 1
             if b.get("basis") in ("风格比对", "文献著录") and b.get("conf") == "确证":
-                weak_sure.append(w["id"])
+                weak_sure.append(f"{kind}/{eid}")
     if not basis:
         rep("断代", "尚无 dating 块")
         return
@@ -170,8 +172,11 @@ def dating_health(c, rep):
 def rubbing_health(c, rep):
     """拓本谱系健康度。石刻条目若只列近拓或翻刻而无早拓说明，证据力要打折。"""
     eds = Counter()
-    for w in c.works.values():
-        for b in _blocks(w):
+    # 同样遍历全部实体。书家条目里放拓本谱系是正当的——唐楷诸家的字迹本来就靠
+    # 碑与拓传下来，谱系写在人的条目里比写在某一件碑上更贴实情。只数 works 时
+    # 「宋拓」这一档整个消失，而健康度检查偏偏就看有没有早拓，等于自己蒙住眼。
+    for kind, eid, o in c.all_entities():
+        for b in _blocks(o):
             if b.get("t") == "rubbing":
                 eds[b.get("edition")] += 1
     if eds:

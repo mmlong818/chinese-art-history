@@ -123,6 +123,10 @@ ARTIST_SECTIONS = [
 ]
 ARTIST_GENERATED = [("works-index", "★ 代表作·独立条目"), ("works-table", "代表作总表")]
 
+# 艺术家门类。与 work.kind 分属两个词表——「画作」是物的类别，「绘画」是人的门类，
+# 二者不可混用。兼擅多门者以「、」并列，主业在前（米芾作「书法、绘画」）。
+ARTIST_CAT = {"绘画", "书法", "篆刻", "雕塑"}
+
 # work 的维度按 kind 分派。不给每种材质造一套，归成五组。
 WORK_KIND_GROUP = {
     "画作": "书画", "书法": "书画", "篆刻": "书画",
@@ -512,6 +516,12 @@ def validate(c):
         _check_common(a, w, c, out, ["name", "cat", "period", "one_line"])
         if a.get("period") and a["period"] not in c.periods:
             out.append(Problem("ERROR", w, f"period {a['period']!r} 不在 canon 中"))
+        # cat 原先只查存在不查取值，于是「画作」（那是 work.kind 的词）能混进来。
+        # 兼职多门者用「、」并列，顺序有意义（主业在前，米芾是书法在前），故只查成员不查序。
+        for part in str(a.get("cat") or "").split("、"):
+            if part and part not in ARTIST_CAT:
+                out.append(Problem("ERROR", w, f"cat {part!r} 不在词表中，可用：{sorted(ARTIST_CAT)}"
+                                               f"（多门以「、」并列，主业在前）"))
         _check_sections(a, ARTIST_SECTIONS, w, c, out)
 
     for wid, wk in c.works.items():

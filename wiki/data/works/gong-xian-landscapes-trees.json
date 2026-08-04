@@ -1,0 +1,84 @@
+{
+  "schema": "work/1",
+  "id": "gong-xian-landscapes-trees",
+  "title": "山水树石册",
+  "title_orig": "Landscapes and trees（大都会艺术博物馆英文题名）",
+  "kind": "画作",
+  "artist": "gong-xian",
+  "period": "qing",
+  "year": "约 1679",
+  "year_sort": 1679,
+  "medium": "水墨纸本册页（十二开）",
+  "holder": "大都会艺术博物馆",
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/41483",
+    "credit": "From the P. Y. and Kinmay W. Tang Family Collection, Gift of Wen and Constance Fong, in honor of Mr. and Mrs. Earl Morse",
+    "license": "PD",
+    "thumb": "img/gong-xian-landscapes-trees-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DP154033.jpg",
+    "w": 600,
+    "h": 497,
+    "alt": "山水树石册"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "met", "note": "馆方藏品记录逐条核实：题名 Landscapes and trees，约 1679 年，Album of twelve leaves; ink on paper，每开 6 1/4 × 7 1/2 in.（15.9 × 19.1 cm），藏品号 1979.499a–l，From the P. Y. and Kinmay W. Tang Family Collection, Gift of Wen and Constance Fong, in honor of Mr. and Mrs. Earl Morse"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "龚贤积墨山水（黑龚）风格的通行叙述"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["作者", "龚贤"],
+        ["材质", "水墨纸本"],
+        ["形制", "册页，十二开"],
+        ["尺寸", "每开 15.9 × 19.1 cm（6 1/4 × 7 1/2 in.，馆方数据）"],
+        ["现藏", "大都会艺术博物馆，藏品号 1979.499a–l"],
+        ["来源", "From the P. Y. and Kinmay W. Tang Family Collection, Gift of Wen and Constance Fong, in honor of Mr. and Mrs. Earl Morse"]
+      ]},
+      {"t": "stmt", "state": "pend", "text": "中文题名「山水树石册」为本库据英文题名 Landscapes and trees 意译拟定，并非该作原有的中文著录题名——馆方原始著录以英文题名为准，本库未见其对应的传世中文标题，读者引用请以英文题名或藏品号为准。"}
+    ],
+    "commission": [
+      {"t": "p", "text": "无题跋说明具体创作背景，馆方定年为约 1679 年，属推定年代，无特定受画人或委托记载。"},
+      {"t": "gap", "text": "具体创作背景与受画对象，材料不足"}
+    ],
+    "reading": [
+      {"t": "p", "text": "十二开分别以不同角度经营山石、树木与坡岸小景，册页形制使每开可独立成景，又能连续翻阅比较其积墨层次的变化，是观察龚贤如何在小尺幅内反复试验积墨浓淡的一批集中样本。"},
+      {"t": "stmt", "state": "adopt", "text": "与立轴或长卷相比，册页的小尺幅让积墨的层次变化更容易被逐开对照观察，本件可作为理解龚贤「层层加墨」具体操作过程的一份直观材料。", "src": "zhongguo-meishu-jianshi"}
+    ],
+    "technique": [
+      {"t": "ul", "items": [
+        "**积墨层叠**：各开均可见反复加墨、层层递进的痕迹，浓淡层次在小尺幅上清晰可辨。",
+        "**皴法**：综合运用披麻皴、解索皴等笔法组织山石与树木结构。",
+        "**留白与树石对比**：留白多集中于坡岸与云气处，与浓重积墨的山体、树丛形成节奏对比。"
+      ]},
+      {"t": "gap", "text": "用纸用墨的科技检测数据本库未见，大都会博物馆公开元数据未提供此类细节"}
+    ],
+    "colophons": [
+      {"t": "gap", "text": "馆方公开元数据未见逐开题跋与鉴藏印记录，本库未能查得本件的题跋全文与印文"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "原属 P. Y. and Kinmay W. Tang（唐氏）家族收藏，后经方闻（Wen Fong）与 Constance Fong 夫妇捐赠，为纪念 Earl Morse 夫妇，入藏大都会艺术博物馆。"},
+      {"t": "stmt", "state": "pend", "text": "入藏之前更早的具体递藏经过，本库尚未核实，不作推测。"},
+      {"t": "gap", "text": "入藏前的完整递藏链，待核"}
+    ],
+    "reception": [
+      {"t": "p", "text": "龚贤画史最常被引用的积墨代表作是《千岩万壑图》（南京博物院藏，约 1679 年前后，纸本水墨长卷）。"},
+      {"t": "stmt", "state": "disp", "text": "**本件并非《千岩万壑图》本身**：那件真迹现藏南京博物院，中国境内公藏机构对该件暂无公开 API 与可自由使用的授权图像，本库因此取不到其图版。本件是龚贤积墨山水同一路数、现藏大都会艺术博物馆且已获自由授权（PD）图像的另一真迹，形制为册页而非长卷，本库以此代表其「黑龚」层叠墨法在小尺幅上的具体操作，读者不应将本件误认为画史通行引用的《千岩万壑图》。"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "逐开对照观察，留意每开积墨浓淡层次的差异，体会龚贤在小尺幅内反复试验墨法的操作痕迹。",
+        "注意留白位置与浓重积墨区的节奏对比，而非仅关注单开的构图完整性。",
+        "可与《[[work:gong-xian-wintry-mountains|冬山图]]》对读，比较立轴与册页两种形制上积墨经营方式的差异。"
+      ]},
+      {"t": "gap", "text": "无"}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "中文题名「山水树石册」为本库意译，非原有中文著录题名，见「基础信息」一节说明。"},
+      {"t": "stmt", "state": "disp", "text": "本件是否足以代表龚贤画史通行所指的《千岩万壑图》一类积墨风格，本库明确说明二者并非同一件作品，选取本件仅因图像可得性，见「评价与影响」一节。"},
+      {"t": "gap", "text": "约 1679 年的断代系馆方风格推定，非确切纪年；题跋与鉴藏印细节均待核"}
+    ]
+  }
+}

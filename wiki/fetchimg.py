@@ -222,6 +222,7 @@ def from_wikimedia(fname, eid):
         return _strip((md.get(k) or {}).get("value", ""))
 
     thumb, size = _save(f"{COMMONS_REDIR}{urllib.parse.quote(fname)}&width=800", eid)
+    tw, th = _jpeg_size(IMGDIR / Path(thumb).name)
     credit = m("Artist") or m("Credit") or "Wikimedia Commons"
     img = {
         "source": "wikimedia",
@@ -231,7 +232,11 @@ def from_wikimedia(fname, eid):
         "attribution_required": (m("AttributionRequired") or "").lower() == "true",
         "thumb": thumb,
         "full": ii.get("url"),
-        "w": ii.get("width"), "h": ii.get("height"),
+        # w/h 描述的是 thumb 那个文件，不是 Commons 原图。
+        # 原图尺寸与缩略图长宽比相同，故不影响 aspect-ratio 预留；但 from_met／from_cma
+        # 记的都是落盘文件的实测尺寸，此处若填原图尺寸就成了三条路径各说一套。
+        # 另：Commons 的 width= 会吸附到固定档位（要 800 实得 960），所以只能实测。
+        "w": tw or ii.get("width"), "h": th or ii.get("height"),
     }
     return img, size, {"title": fname, "date": m("DateTimeOriginal")}
 
