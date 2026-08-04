@@ -1,0 +1,78 @@
+{
+  "schema": "work/1",
+  "id": "qing-embroidered-robe-met",
+  "title": "彩绣礼服",
+  "title_orig": "Woman's ceremonial robe",
+  "kind": "织绣",
+  "period": "qing",
+  "year": "18 世纪上半叶（清代）",
+  "year_sort": 1725,
+  "medium": "缎地丝线与金属线刺绣",
+  "size": "137.2 × 190.5 厘米",
+  "holder": "大都会艺术博物馆（藏品号 43.119）",
+  "met_id": 53715,
+  "classes": [],
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/53715",
+    "credit": "Anonymous Gift, 1943",
+    "license": "PD",
+    "thumb": "img/qing-embroidered-robe-met-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DT217474.jpg",
+    "w": 600,
+    "h": 480,
+    "alt": "清代彩绣礼服，大都会艺术博物馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "met", "note": "藏品记录、年代、材质与判权，逐项照录"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "清代宫廷刺绣的等级制度背景"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Woman's ceremonial robe"],
+        ["馆方年代", "first half 18th century"],
+        ["馆方分期", "Qing dynasty (1644–1911)"],
+        ["材质", "缎地丝线与金属线刺绣（馆方记 Silk and metallic thread embroidery on silk satin）"],
+        ["尺寸", "137.2 × 190.5 厘米"],
+        ["现藏", "大都会艺术博物馆，藏品号 43.119"],
+        ["入藏", "1943 年匿名捐赠"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "以上各项照录馆方藏品记录。核查等级为「馆藏官方核实」。", "src": "met"},
+      {"t": "stmt", "state": "adopt", "text": "清代宫廷与命妇服饰的等级由纹样、色彩与刺绣针法共同标示——这与本库鼎类目所述「列鼎制度以数量标示等级」是同一逻辑在不同材质上的体现：器物等级不靠单一指标判断，而靠一整套约定俗成的符号系统。"}
+    ],
+    "form": [
+      {"t": "p", "text": "缎地满绣，以丝线与金属线绣出花卉、云纹与吉祥图案，构图满密，色彩层次靠丝线的分层劈丝与多色晕染实现。"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "馆方记录未见织款或题记，服饰类刺绣极少见此类文字材料"}
+    ],
+    "technique": [
+      {"t": "p", "text": "在成品缎料上以针线直接绣制图案，不同于缂丝的「通经断纬」在织造阶段就决定图案，刺绣是在既有织物基底上叠加图案，理论上可局部拆改重绣，灵活度高于缂丝，但满绣一件礼服所需的针法种类（平针、打籽、盘金等）与劈丝配色的精细程度，同样要求长期的专门训练与耗费大量工时。"},
+      {"t": "stmt", "state": "adopt", "text": "把刺绣、缂丝、织锦三者并置，可以看到中国丝织美术内部并非单一工艺，而是至少三条并行的技术路线：织锦靠提花机具的重复织造，缂丝靠逐色断纬的一次性织造，刺绣靠成品基底上的二次加工。三者耗时与灵活度各不相同，适配的用途也不同——本库把它们分立条目，正是为了不把「丝织品」当成一个笼统的工艺类别处理。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "传世品，馆方记录未见出土信息"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠",
+       "text": "馆方定为 18 世纪上半叶、清代，依据是服饰形制、纹样与刺绣针法风格与已知清代宫廷及命妇服饰的比对，未见织款或明确纪年支持。",
+       "src": "met"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "1943 年由大都会艺术博物馆匿名捐赠入藏，此前递藏不明。"},
+      {"t": "gap", "text": "入藏前的递藏链不明"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "近看针法的分层与劈丝的细密程度，是判断刺绣工艺等级的直接入口。",
+        "可与本库缂丝、联珠纹锦条目并观，比较刺绣、缂织、提花三种丝织逻辑的差异。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "gap", "text": "具体使用者身份与场合不明，入藏前的递藏史不明"}
+    ]
+  }
+}

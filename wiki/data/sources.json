@@ -271,6 +271,36 @@
       "verified": false
     },
     {
+      "id": "hunan-museum",
+      "title": "湖南博物院",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.hnmuseum.com/",
+      "authority": "马王堆一号、三号汉墓出土漆器、丝织品的收藏与研究方，是本库判断这批有机质文物保存状况的第一手依据。",
+      "note": "本库未核实其官网 API 或数字藏品页的可编程访问方式，仅作机构指认；影像与具体数字须人工核对官方出版物或发掘报告。",
+      "verified": false
+    },
+    {
+      "id": "shaanxi-history-museum",
+      "title": "陕西历史博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "url": "http://www.sxhm.com/",
+      "authority": "何家村窖藏金银器的收藏方，藏品数量与窖藏性质研究的主要依据。",
+      "note": "本库未核实其官网 API 或数字藏品页的可编程访问方式，仅作机构指认；影像与具体数字须人工核对官方出版物或发掘简报。",
+      "verified": false
+    },
+    {
+      "id": "famen-temple-museum",
+      "title": "法门寺博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "url": "http://www.famensi.com/",
+      "authority": "法门寺地宫出土金银器、秘色瓷及《物账碑》的收藏与研究方，物账碑将出土器物与实物逐一对应，是本库同类材料中少见的可精确核验案例。",
+      "note": "本库未核实其官网 API 或数字藏品页的可编程访问方式，仅作机构指认；影像与具体数字须人工核对官方出版物或考古简报。",
+      "verified": false
+    },
+    {
       "id": "wikimedia",
       "title": "Wikimedia Commons",
       "kind": "reference",
@@ -305,6 +335,55 @@
       "kind": "primary",
       "tier": 1,
       "authority": "「一画」之说与「搜尽奇峰打草稿」出此。文辞晦涩，历来注解分歧极大，「一画」究竟何指至今无共识——凡引用须并陈主要几说，不得择一为定论。",
+      "verified": true
+    },
+    {
+      "id": "yingzao-xueshe-huikan",
+      "title": "中国营造学社汇刊",
+      "authors": "中国营造学社（朱启钤创办，梁思成、林徽因、刘敦桢等）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "1930 年代田野调查的一手报告，佛光寺、独乐寺、应县木塔等唐辽木构均由该社实测后始进入现代美术史与建筑史视野。本库记这批建筑的『被发现』，即指该社的调查活动，而非建筑本身晚出。",
+      "note": "版次与刊期未逐条核实，凡引用须注明具体调查年份。",
+      "verified": false
+    },
+    {
+      "id": "liang-sicheng-jianzhushi",
+      "title": "中国建筑史 / 图像中国建筑史",
+      "authors": "梁思成",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "营造学社调查成果的系统整理，是唐辽木构断代与形制序列的基础文献之一。佛光寺东大殿的发现与初步断代即出自梁思成 1937 年的实测报告。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "liu-dunzhen-gudai-jianzhushi",
+      "title": "中国古代建筑史",
+      "authors": "刘敦桢 主编",
+      "kind": "survey",
+      "tier": 2,
+      "authority": "国内建筑史通行教材，斗栱形制、梁架做法与开间比例序列的系统依据，用于本库判断木构建筑断代所据的形制证据。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "tongjun-jiangnan-yuanlin-zhi",
+      "title": "江南园林志",
+      "authors": "童寯",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "江南园林研究的奠基性著作，苏州园林的形制、叠山理水手法与营造沿革的核心一手依据。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "unesco-whc",
+      "title": "UNESCO World Heritage Centre",
+      "kind": "reference",
+      "tier": 4,
+      "url": "https://whc.unesco.org/",
+      "authority": "世界遗产名录的官方登记信息，用于核对遗址的申遗年份与官方认定范围，不单独作为形制或断代依据。",
       "verified": true
     }
   ]

@@ -49,18 +49,24 @@ def scope(c, rep):
     for w in c.works.values():
         if w.get("kind") not in WORK_KIND_GROUP:
             rep("范围", f'work/{w["id"]} 的 kind {w.get("kind")!r} 未定义')
+    # 「有无条目」要算**全部六类实体**，不能只算艺术家与作品。
+    # 曾经只算那两类，于是把已有 12 条事件的晚清民国、新中国前期、当代报成
+    # 「尚无任何条目」——这种误报会驱使人去给已覆盖的分期硬造条目，比漏报更坏。
     covered = {a["period"] for a in c.artists.values() if a.get("period")}
     wcov = {w["period"] for w in c.works.values() if w.get("period")}
+    anycov = {o["period"] for _, _, o in c.all_entities() if o.get("period")}
     anon = [p["name"] for p in c.periods_sorted()
             if p["id"] not in covered and p.get("anonymity")]
     todo = [p["name"] for p in c.periods_sorted()
-            if p["id"] not in (covered | wcov) and not p.get("anonymity")]
-    rep("覆盖", f"{len(covered)}/{len(c.periods)} 期有艺术家条目；"
-                f"{len(wcov)}/{len(c.periods)} 期有作品条目")
+            if p["id"] not in anycov and not p.get("anonymity")]
+    rep("覆盖", f"{len(anycov)}/{len(c.periods)} 期有条目（不限实体类）；"
+                f"其中艺术家 {len(covered)} 期、作品 {len(wcov)} 期")
     if anon:
         rep("覆盖", f'{len(anon)} 期无名可指，已写明署名状况（非欠账）：{"、".join(anon)}')
     if todo:
         rep("待编", f'{len(todo)} 期尚无任何条目：{"、".join(todo)}')
+    else:
+        rep("覆盖", "**十七期全部有条目**——本库在时间上已无空缺")
 
 
 def dupes(c, rep):

@@ -1,0 +1,76 @@
+{
+  "schema": "work/1",
+  "id": "dahuting-chuxing-bihua",
+  "title": "车马出行图（打虎亭二号汉墓壁画）",
+  "kind": "壁画",
+  "site": "dahuting-tomb",
+  "period": "qin-han",
+  "year": "东汉晚期",
+  "year_sort": 180,
+  "medium": "矿物颜料壁画（直接绘于墓室墙面）",
+  "holder": "原址（河南新密打虎亭汉墓博物馆二号墓）",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dahuting_Eastern_Han_Tombs_Mural_-_5.jpg",
+    "credit": "Gary Todd / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/dahuting-bihua-chuxing-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Dahuting_Eastern_Han_Tombs_Mural_-_5.jpg",
+    "w": 5184,
+    "h": 3456,
+    "alt": "打虎亭二号汉墓壁画现场照片",
+    "note": "摄影者自摄自公版发布的现场照片，非馆方官方图版，具体对应画面段落本库未逐一核实"
+  },
+  "verification": "memory",
+  "updated": "2026-08-04",
+  "sources": [
+    {"ref": "wikimedia", "note": "现场照片，摄影者 Gary Todd 公版发布"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "汉墓壁画的分期定位"},
+    {"ref": "kaogu-wenwu", "note": "打虎亭汉墓发掘简报，本库未核实具体期号页码"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["位置", "二号墓墓室墙面"],
+        ["内容", "车马出行、宴饮百戏等场面，色彩以红、黑、白等矿物颜料为主"],
+        ["技法", "直接绘于砖砌墙面，未见先施地仗层再施彩的复杂做法（本库未核实具体工艺细节）"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "与一号墓的石刻画像不同，这幅壁画直接以颜料在墙面作画，线条更为流畅自由，不受减地雕刻工序的限制，人物与车马的动态处理也因此与石刻画像形成对比。"}
+    ],
+    "placement": [
+      {"t": "p", "text": "壁画绘于二号墓墓室主要墙面，与一号墓画像石所在的对应结构位置大致相当，均处于墓室中人员活动或视线所及的主要空间，而非附属角落。"}
+    ],
+    "iconography": [
+      {"t": "p", "text": "车马出行图表现墓主生前的仪仗排场，与宴饮百戏等场面共同构成墓室壁画程序，是汉墓壁画与画像石中常见的题材，服务于彰显墓主身份地位与『事死如事生』的丧葬观念。"}
+    ],
+    "technique": [
+      {"t": "p", "text": "颜料直接施于墙面，未见明确的白粉地仗层记录（本库未核实相关技术检测报告），色彩保存至今仍较为鲜明，是河南汉墓壁画中保存状况较好的一例。"},
+      {"t": "gap", "text": "具体颜料成分与地仗工艺，本库未核实到检测报告"}
+    ],
+    "relayers": [
+      {"t": "relayer", "when": "东汉晚期（原作）", "what": "原始壁画绘制，今日壁画主体应属此层。", "evidence": "画面风格与墓葬形制、共出器物一致"},
+      {"t": "relayer", "when": "1960 年前后发掘后", "what": "墓葬发掘后，壁画基本保持出土时的原位，未见大规模揭取搬迁记录；原址加固并建保护性建筑，本库未核实具体加固工艺细节。", "evidence": "现状为原址陈列，非异地重装"},
+      {"t": "stmt", "state": "adopt", "text": "打虎亭二号墓壁画与永乐宫壁画的『整体搬迁』形成对照：前者发掘后基本原位保存，后者因水库工程被迫整体切割搬迁——同为『重修层』问题，干预程度可以相差极大，不能一概而论。"},
+      {"t": "gap", "text": "历次具体保护干预（如是否曾局部修复、补色）的技术记录，本库未核实"}
+    ],
+    "condition": [
+      {"t": "p", "text": "壁画整体保存较好，色彩仍可辨认，局部有褪色与墙面受潮痕迹，本库未核实具体病害评估报告。"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "共出器物", "conf": "存疑",
+       "text": "墓中未见纪年题记，年代依墓葬形制与共出器物类型学比对推定为东汉晚期，与一号墓年代相近，具体先后关系本库未核实。",
+       "src": "zhongguo-meishu-jianshi"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "可与一号墓的宴饮百戏画像石对照参观，体会同一时代、同一墓地内石刻与壁画两种技法的差异。",
+        "本图为摄影者自摄现场照片，色彩还原受拍摄光线影响，与实地观感可能有出入。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "墓主身份不可考，一号墓与二号墓墓主关系未能坐实。"},
+      {"t": "gap", "text": "具体颜料成分、地仗工艺与历次保护干预记录，本库均未核实"}
+    ]
+  }
+}
