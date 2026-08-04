@@ -148,14 +148,33 @@ def blocks_from(d, src="cleveland"):
 
 
 def _inscriptions(d):
+    """题识／款印。
+
+    克利夫兰用**三个**字段记铭文：`inscription`（原文）、
+    `inscription_translation`（译文）、`inscription_remark`（附注）。
+    实测 1938.13（父戊尊）只有译文一项、原文为 null——
+    原先只读 `inscription` 的写法把这件明明有铭的器物报成「题识 0 条」。
+    **「有铭而报无铭」比报错更坏**：撰写者会据此判断该器无铭，
+    而断代依据的等级恰恰系于此。三个字段都要收，并标明取的是哪一项。
+    """
     ins = []
     for i in (d.get("inscriptions") or []):
-        if isinstance(i, dict):
-            t = _clean(i.get("inscription") or i.get("description") or "")
-        else:
-            t = _clean(i)
-        if t:
-            ins.append(t)
+        if not isinstance(i, dict):
+            if _clean(i):
+                ins.append(_clean(i))
+            continue
+        orig = _clean(i.get("inscription"))
+        trans = _clean(i.get("inscription_translation"))
+        remark = _clean(i.get("inscription_remark"))
+        parts = []
+        if orig:
+            parts.append(orig)
+        if trans:
+            parts.append(f"［馆方译文］{trans}")
+        if remark:
+            parts.append(f"［馆方附注］{remark}")
+        if parts:
+            ins.append(" ".join(parts))
     return ins
 
 

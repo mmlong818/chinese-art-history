@@ -1,0 +1,106 @@
+{
+  "schema": "work/1",
+  "id": "jiuliandun-caihui-qi",
+  "title": "九连墩彩绘漆器",
+  "kind": "漆器",
+  "period": "spring-autumn-warring",
+  "year": "战国中期（与九连墩一号、二号墓同期）",
+  "year_sort": -350,
+  "medium": "木胎，多层髹漆彩绘，虎座鸟架鼓等大型器另施雕刻",
+  "size": "一批不同器形的组合，逐件尺寸不一，见「基础信息」一节说明",
+  "holder": "湖北省博物馆",
+  "site": "jiuliandun",
+  "classes": [],
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E8%99%8E%E5%BA%A7%E9%B8%9F%E6%9E%B6%E9%BC%93%EF%BC%88%E4%B9%9D%E8%BF%9E%E5%A2%A9%EF%BC%89.jpg",
+    "credit": "三十三画生 / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "attribution_required": true,
+    "thumb": "img/jiuliandun-caihui-qi-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E8%99%8E%E5%BA%A7%E9%B8%9F%E6%9E%B6%E9%BC%93%EF%BC%88%E4%B9%9D%E8%BF%9E%E5%A2%A9%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 960,
+    "h": 1440,
+    "alt": "虎座鸟架鼓，九连墩二号墓出土，湖北省博物馆藏",
+    "note": "上传者标注为『枣阳九连墩二号墓出土虎座鸟架鼓』，摄于湖北省博物馆展陈现场，非馆方官方摄影"
+  },
+  "verification": "memory",
+  "updated": "2026-08-05",
+  "sources": [
+    {"ref": "kaogu-wenwu", "note": "九连墩楚墓漆器出土简报与相关研究，本库未核实具体期号页码，仅作类别指认"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "楚系漆器工艺水平与母题在通史中的定位"},
+    {"ref": "wangxun-zhongguo-meishushi", "note": "交叉核对"},
+    {"ref": "wikidata", "note": "以『九连墩』检索未命中带材质／年代结构化字段的对应条目，仅命中墓地本身与若干学术文章，见 [[site:jiuliandun]] 来源说明"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["出土", "2002 年，湖北枣阳九连墩一号、二号楚墓"],
+        ["条目性质", "本条目为组合类条目，覆盖同批出土的多件不同器形彩绘漆器，非单一器物"],
+        ["已确认器形（据本库图像来源核实）", "虎座鸟架鼓（老虎伏卧承托双鸟架，架上悬鼓）、卧鹿（写实鹿形漆器，另接真实鹿角）、扁壶（表面绘蟠螭纹）等"],
+        ["现藏", "湖北省博物馆"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "本条目按『组合』而非逐件单立处理，理由是：本库掌握的可独立核实的具体器形（虎座鸟架鼓、卧鹿、彩绘扁壶等）均见于同一批出土漆器，彼此工艺、纹饰母题与断代依据高度一致，逐件单立会造成大量内容重复；但这不意味着本库认为这批漆器是『一件』器物——器形清单本身足以说明这是一组类型多样的随葬漆器群，具体总数与完整清单本库未核实，标为待校验。"},
+      {"t": "gap", "text": "该批漆器的完整件数、逐件出土位置（一号墓或二号墓、椁室哪一部分）本库未核实，仅能就已确认器形逐一描述"}
+    ],
+    "form": [
+      {"t": "p", "text": "虎座鸟架鼓是楚墓漆器中最具代表性的器形之一：以两只伏卧的漆木虎为底座，虎背上各立一只昂首的凤鸟，鸟身之间悬挂一面扁鼓，虎、鸟、鼓三者以榫接与绳系组合而成，通体髹黑漆为地，另以红、黄等色彩绘鳞片状纹样与几何纹。"},
+      {"t": "fig", "image": {
+        "source": "wikimedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:20230208_Painted_lacquer_reclining_deer_with_antlers.jpg",
+        "credit": "Windmemories / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "attribution_required": true,
+        "thumb": "img/jiuliandun-caihui-qi-deer-800.jpg",
+        "full": "https://upload.wikimedia.org/wikipedia/commons/8/83/20230208_Painted_lacquer_reclining_deer_with_antlers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "w": 960, "h": 1440,
+        "alt": "彩绘卧鹿漆器，九连墩楚墓出土，湖北省博物馆藏",
+        "note": "参观者 2023 年拍摄于湖北省博物馆展陈现场，摄影者标注属 Jiuliandun Tombs 分类；鹿角为另接的真实鹿角，非漆制"
+      }},
+      {"t": "p", "text": "卧鹿作伏卧回首状，鹿身通体髹漆，以朱漆或金彩绘卷云纹，头部另接真实鹿角，是楚墓漆器中常见的『漆木器接真材』做法——鹿角本身不施雕刻，直接取用天然鹿角安装于漆制鹿首之上，兼顾写实效果与工艺经济。"},
+      {"t": "fig", "image": {
+        "source": "wikimedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:20230208_Painted_lacquer_flat_flask_with_coiled_serpents.jpg",
+        "credit": "Windmemories / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "attribution_required": true,
+        "thumb": "img/jiuliandun-caihui-qi-flask-800.jpg",
+        "full": "https://upload.wikimedia.org/wikipedia/commons/b/b0/20230208_Painted_lacquer_flat_flask_with_coiled_serpents.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "w": 960, "h": 1439,
+        "alt": "彩绘扁壶（蟠螭纹），九连墩楚墓出土，湖北省博物馆藏",
+        "note": "参观者 2023 年拍摄于湖北省博物馆展陈现场，摄影者标注属 Jiuliandun Tombs 分类"
+      }},
+      {"t": "stmt", "state": "adopt", "text": "虎、鸟、鹿、蛇（扁壶所绘蟠螭近蛇形）等动物母题的组合运用，是楚地漆器区别于中原青铜器纹饰体系的鲜明特征——楚文化对这类想象性、装饰性动物形象的偏好，构成了本库『楚文化』作为独立风格单元的重要物证之一（参见 canon.json 春秋战国期 dispute 一节对『楚文化』边界争议的说明）。"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "本批已确认器形均未见铭刻文字，楚墓漆器一般不以铭文为断代或定名依据，与青铜礼器的证据结构不同"}
+    ],
+    "technique": [
+      {"t": "p", "text": "各器均以木胎斫制或雕刻出大形，表面多层髹漆为地（以黑漆最常见），再以朱漆、黄漆等彩绘纹样；虎座鸟架鼓等复合器另涉及多个木构件的榫接与绳系组装，是集雕刻、髹漆、彩绘、组装于一体的综合工艺。"},
+      {"t": "stmt", "state": "adopt", "text": "**这批漆器与本库马王堆漆器条目所述的工艺原理相同，均属木胎多层髹涂、彩绘的成熟工艺体系**（参见 [[work:mawangdui-lacquerware]] 工艺一节），但九连墩这批的年代早于马王堆漆器约一个半世纪，说明这套工艺路线至迟在战国中期的楚地已经确立，西汉初期长沙国的漆器工艺是这一楚系传统的延续而非独立起源，二者之间的技术传承关系值得进一步比较研究，本库暂不作定论。", "src": "kaogu-wenwu"}
+    ],
+    "excavation": [
+      {"t": "p", "text": "2002 年出土于九连墩一号、二号楚墓，两墓未经盗扰、椁室密闭较好，是这批漆器历经二千余年仍保存相当完好、彩绘颜色仍可辨识的直接原因，具体保存机制见 [[site:jiuliandun]] 保存与修复史一节。"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "共出器物", "conf": "确证",
+       "text": "九连墩一号、二号墓经正式科学考古发掘，墓葬未经盗扰，地层关系与随葬品共出位置有完整记录，本批漆器的年代直接系于墓葬本身的断代，达到本库共出器物／地层一档的较高可靠度，而非仅靠器形或纹饰风格比对——这与本库多数传世漆器（若有）只能靠器形序列断代的处境不同。",
+       "src": "kaogu-wenwu"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "出土后由湖北省博物馆保管、修复、研究，未经流散。"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "现常设展出于湖北省博物馆，馆内辟有『九连墩纪事』专题展陈单元。",
+        "条目主图与形制一节附图均取自参观者拍摄的展陈现场照片（Wikimedia Commons，许可分别为 CC BY-SA 4.0），非馆方官方摄影，如需逐件著录仍请查湖北省博物馆官方网站或发掘简报原文。",
+        "与本库马王堆漆器、素纱襌衣等条目并观，能更完整理解楚汉之际南方饱水墓葬对有机质随葬品保存的普遍意义，参见「工艺」一节。"
+      ]},
+      {"t": "gap", "text": "本库未取得该批漆器官方藏品页的可核实 URL，读者可自行查湖北省博物馆官方网站核对"}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "该批漆器的完整件数、逐件出土位置与正式著录清单，本库未核实，标为待校验。"},
+      {"t": "stmt", "state": "adopt", "text": "**本库把这批漆器同时作为『材质分布是埋藏环境产物』这一判断的例证。**九连墩地处南方，墓葬密闭饱水的环境使漆木器、丝织品等有机质材料得以大量保存；北方同期墓葬因埋藏环境干燥或渗水破坏，同类有机质随葬品留存概率远低于南方——今天我们看到的『战国秦汉材质分布』（南方漆器丝织品丰富、北方相对稀少），很大程度上是埋藏环境造成的保存偏倚，不能直接倒推为当时南北方的实际生产比例或工艺水平差异，与本库马王堆漆器条目「出土与著录」一节的判断相呼应。"}
+    ]
+  }
+}

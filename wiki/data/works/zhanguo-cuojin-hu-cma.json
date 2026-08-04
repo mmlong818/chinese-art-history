@@ -1,0 +1,87 @@
+{
+  "schema": "work/1",
+  "id": "zhanguo-cuojin-hu-cma",
+  "title": "错金青铜壶",
+  "title_orig": "Wine Vessel (Hu)",
+  "kind": "青铜",
+  "period": "spring-autumn-warring",
+  "year": "约前 400 – 前 375（战国早期）",
+  "year_sort": -390,
+  "medium": "青铜错金",
+  "size": "口径 10.1 厘米；通高 27.6 厘米",
+  "holder": "克利夫兰美术馆（藏品号 1929.984）",
+  "cma_id": 111506,
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://www.clevelandart.org/art/1929.984",
+    "credit": "Purchase from the J. H. Wade Fund",
+    "license": "CC0",
+    "thumb": "img/zhanguo-cuojin-hu-cma-800.jpg",
+    "full": "https://openaccess-cdn.clevelandart.org/1929.984/1929.984_full.tif",
+    "w": 1017,
+    "h": 893,
+    "alt": "战国错金青铜壶，克利夫兰美术馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {"ref": "cleveland", "note": "藏品记录、年代、判权、递藏、展览与著录，逐项照录"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "战国青铜礼制松动与工艺炫技的背景"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Wine Vessel (Hu)"],
+        ["馆方年代", "early 400s BCE"],
+        ["馆方文化断代", "China, Warring States period (475–221 BCE)"],
+        ["材质", "青铜错金（馆方记 bronze with gold inlay）"],
+        ["尺寸", "口径 10.1 厘米；直径 24.1 厘米；通高 27.6 厘米"],
+        ["现藏", "克利夫兰美术馆，藏品号 1929.984"],
+        ["入藏", "Purchase from the J. H. Wade Fund，1929 年购藏"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "本条目核查等级为「馆藏官方核实」：以上各项照录馆方藏品记录，未作改写。", "src": "cleveland"},
+      {"t": "stmt", "state": "adopt", "text": "馆方说明直言：铸造此器之时，青铜器正逐渐从礼制核心退为「财富与奢侈消费的象征」——这与本库「鼎」器类条目「分期演变」一节所记「春秋战国礼制松动、工艺炫技」是同一现象在壶类器物上的体现。", "src": "cleveland"}
+    ],
+    "form": [
+      {"t": "p", "text": "球腹圆壶，通体饰流畅的卷草纹与交缠的兽形纹样。工艺上先在器表铸出凹槽，再嵌入金丝／片，形成器身满布的曲线网络，视觉效果轻盈流动，与本库另一件克利夫兰藏西周壶（[[work:zhou-hu-cma|1944.61]]）的素面修长形成强烈对照。"},
+      {"t": "gap", "text": "馆方公开描述未逐一命名各纹样单元的具体母题，本库仅据图版所见轮廓转述，不勉强判定"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "馆方公开记录未提及铭文，本条目视为无铭"}
+    ],
+    "technique": [
+      {"t": "p", "text": "先于青铜器表铸出凹槽，再嵌入金丝／片，即「错金」工艺——与本库另一件克利夫兰藏错金银顶饰（[[work:zhanguo-dingshi-cma|1930.730]]）同属战国贵金属镶嵌传统，一为容器、一为车马仪仗附件，二者合观可见此工艺在不同器类上的通用性。"},
+      {"t": "stmt", "state": "pend", "text": "具体錾刻与镶嵌的工序顺序，馆方公开记录未详述，本库不作断言。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "馆方递藏档案称此器「在中国购得，供山中商会」，未给出具体出土地点或发掘单位，本库不作推断"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠", "year": "约前 400 – 前 375",
+       "text": "球腹圆壶配卷草纹错金装饰，是战国早期贵族奢侈用器的典型样式，馆方据此定年代。无铭文、无出土地层可依，故列「器形序列」／「较可靠」。",
+       "src": "cleveland"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "馆方递藏档案仅两段：「1929 年之前，在中国为山中商会（Yamanaka & Company）购得」；其后由山中商会纽约分号售予克利夫兰美术馆，1929 年入藏。"},
+      {"t": "stmt", "state": "disp", "text": "「Acquired in China for Yamanaka & Company」（在中国为山中商会购得）——这句话本身就是本库要强调的那种「记录到此为止」的典型措辞：谁经手、向谁购买、在何地购买，均未言明，只留下一个公司名称。山中商会（Yamanaka & Company）是二十世纪上半叶美日两地最重要的东亚艺术品经销商之一，其经手记录遍及欧美各大公私收藏，学界对其经营方式（包括部分个案中与盗掘出土物的关联）已有专门研究，但**本库检索范围内未见任何材料把这一件具体器物与某次具体的盗掘或走私事件相勾连**——本库据此明确记为「经手商行名称已知，具体经手方式不明」，不代入笼统的「劫掠」或「正常收藏」任一预设，理由见本批条目的通则说明。"},
+      {"t": "gap", "text": "此器出土的具体年代、地点与发掘方式，以及山中商会在华购得此器的具体经过，均无记录——这是本条目递藏链断裂的位置：不在「古董商之前」，而在「古董商本身如何取得」这一步。"},
+      {"t": "prov", "when": "1929 年之前", "text": "Acquired in China for Yamanaka & Company", "src": "cleveland", "url": "https://clevelandart.org/art/1929.984"},
+      {"t": "prov", "when": "?–1929", "text": "(Yamanaka & Company, New York, NY, sold to the Cleveland Museum of Art)", "src": "cleveland", "url": "https://clevelandart.org/art/1929.984"},
+      {"t": "prov", "when": "1929–", "text": "The Cleveland Museum of Art, Cleveland, OH", "src": "cleveland", "url": "https://clevelandart.org/art/1929.984"},
+      {"t": "exhib", "when": "1941", "title": "The Silver Jubilee Exhibition", "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (June 23-September 28, 1941).", "src": "cleveland", "url": "https://clevelandart.org/art/1929.984"},
+      {"t": "exhib", "when": "1962", "title": "Chinese Art of Late Eastern Chou Dynasty", "text": "Chinese Art Society of America, New York, NY (organizer) (November 13-December 15, 1962), catalogue by Emma C. Bunker.", "src": "cleveland", "url": "https://clevelandart.org/art/1929.984"},
+      {"t": "exhib", "when": "1990", "title": "Powerful Form and Potent Symbol: The Dragon in Asia", "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (July 24-November 25, 1990).", "src": "cleveland", "url": "https://clevelandart.org/art/1929.984"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "可与本库另一件克利夫兰藏西周壶（[[work:zhou-hu-cma|1944.61]]）对照，体会「壶」类器物从西周素面修长到战国镂刻错金的形制跨度——本库尚无「壶」器类条目，这两件是目前仅有的参照实例，建议后续补齐类目。",
+        "馆方著录提及此器见于陈梦家、松丸道雄《殷周青銅器分類図錄》以及 Jenny So 关于战国错金银器的专门研究，后者是哈佛大学博士论文与《大都会艺术博物馆·中国青铜时代》一书的作者，有兴趣可循此深入。",
+        "克利夫兰的中国部藏品多为 CC0，可自由取用高清图自行比对。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "「在中国为山中商会购得」一句未言明具体经手方式，本库不将其坐实为盗掘、走私或正常买卖中的任何一种，仅如实记录信息的缺口。"},
+      {"t": "gap", "text": "出土地点、发掘方式与山中商会购得此器的具体经过均不明"}
+    ]
+  }
+}

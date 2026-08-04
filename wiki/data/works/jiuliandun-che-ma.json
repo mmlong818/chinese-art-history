@@ -1,0 +1,77 @@
+{
+  "schema": "work/1",
+  "id": "jiuliandun-che-ma",
+  "title": "九连墩车马器",
+  "kind": "青铜",
+  "period": "spring-autumn-warring",
+  "year": "战国中期（与九连墩一号、二号墓同期）",
+  "year_sort": -350,
+  "medium": "青铜（车马构件），原有木质车体（已朽）",
+  "size": "两座车马坑合计车马器一批，逐件尺寸与总数本库未核实",
+  "holder": "湖北省博物馆",
+  "site": "jiuliandun",
+  "classes": [],
+  "image_status": "no-free-image",
+  "verification": "memory",
+  "updated": "2026-08-05",
+  "sources": [
+    {"ref": "kaogu-wenwu", "note": "九连墩楚墓车马坑发掘简报，本库未核实具体期号页码，仅作类别指认"},
+    {"ref": "ma-chengyuan-zhongguo-qingtongqi", "note": "东周车马器形制的交叉核对"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "东周车马制度在通史中的定位"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["出土", "2002 年，湖北枣阳九连墩一号、二号车马坑"],
+        ["车马坑一号", "位于一号墓（M1）以西 25.2 米，东西向，坑内葬 33 乘车、72 匹马，马头一律朝西，按南、北、中三组分置"],
+        ["车马坑二号", "位于车马坑一号以北 19.5 米，距二号墓（M2）西侧 25.2 米，坑内葬 8 乘车（其中 1 乘仅存车舆本体）"],
+        ["现藏", "湖北省博物馆"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "两座车马坑的坑位、朝向与车马数目，本库据湖北省博物馆『九连墩纪事』展陈说明牌原文核记，参见「出土与著录」一节所附说明牌照片；具体每乘车所配青铜构件的种类与数量、马匹的年龄性别等细节，本库未核实。"}
+    ],
+    "form": [
+      {"t": "p", "text": "车马坑中木质车体本身已朽，仅存构成车舆、车轮、衡轭等部位的青铜构件（如衔、镳、軎、辖一类），其相对位置大致保留了下葬时车马的原始排列方式，是复原战国楚系车制的重要实物依据。"},
+      {"t": "gap", "text": "各类青铜车马构件的具体器形、数量清单与命名对应，本库未核实到可转引的精确材料，不作具体转述"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "车马器是否带有铭文，本库未核实"}
+    ],
+    "technique": [
+      {"t": "gap", "text": "青铜车马构件的具体铸造工艺，本库未核实到可转引的精确材料"}
+    ],
+    "excavation": [
+      {"t": "p", "text": "2002 年出土于九连墩一号、二号车马坑，两坑均面向各自主墓，与曾侯乙墓等战国楚文化圈高等级贵族墓葬常见的『墓葬＋车马坑』组合制度一致（参见 [[work:zeng-houyi-bianzhong]] 出土与著录一节对曾侯乙墓随葬品组合的说明）。车马未经盗扰，原始排列关系保存较好，是判断战国中期楚系车马坑规模与葬制等级的直接证据。"},
+      {"t": "fig", "image": {
+        "source": "wikimedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chariot_Pits_1_%26_2%2C_Jiuliandun_%2810162490193%29.jpg",
+        "credit": "Gary Todd / Wikimedia Commons",
+        "license": "PD",
+        "attribution_required": false,
+        "thumb": "img/jiuliandun-che-ma-pits-panel-800.jpg",
+        "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Chariot_Pits_1_%26_2%2C_Jiuliandun_%2810162490193%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "w": 960, "h": 640,
+        "alt": "湖北省博物馆『九连墩纪事』展陈说明牌，记车马坑一号、二号的发掘缘起、坑位与车马数目",
+        "note": "参观者 2010 年拍摄于湖北省博物馆展陈现场，摄影者已声明公共领域；图为说明牌本身，非车马器实物照片——本条目暂无实物图版，见图像缺图说明"
+      }}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "共出器物", "conf": "确证",
+       "text": "两座车马坑与九连墩一号、二号墓同属一次正式科学考古发掘，未经盗扰，坑位、朝向与主墓的对应关系有完整记录，车马器的年代直接系于墓葬本身的断代，达到本库共出器物／地层一档的较高可靠度。",
+       "src": "kaogu-wenwu"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "出土后由湖北省博物馆保管、修复、研究，未经流散。"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "现藏湖北省博物馆，具体展陈方式（是否按坑内原始排列复原展示）本库未核实。",
+        "本库未取得车马器实物的可用自由授权图版，本条目所附图版为参观者拍摄的展陈说明牌照片（公共领域），仅作发掘信息的佐证，不代表实物图版。"
+      ]},
+      {"t": "gap", "text": "本库未取得该批车马器官方藏品页的可核实 URL，读者可自行查湖北省博物馆官方网站核对"}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "各类青铜车马构件的具体器形清单、总数与命名对应，本库未核实，标为待校验。"},
+      {"t": "gap", "text": "两座车马坑车马坑主与两墓墓主的具体对应关系（是否严格一坑对一墓），本库未核实到可转引的精确材料"}
+    ]
+  }
+}

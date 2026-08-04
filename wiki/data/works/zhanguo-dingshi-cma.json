@@ -1,0 +1,95 @@
+{
+  "schema": "work/1",
+  "id": "zhanguo-dingshi-cma",
+  "title": "错金银鸟纹青铜顶饰",
+  "title_orig": "Finial",
+  "kind": "青铜",
+  "period": "spring-autumn-warring",
+  "year": "约前 475 – 前 221（战国）",
+  "year_sort": -350,
+  "medium": "青铜错金银",
+  "size": "通高 13.1 厘米",
+  "holder": "克利夫兰美术馆（藏品号 1930.730）",
+  "cma_id": 112307,
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://www.clevelandart.org/art/1930.730",
+    "credit": "Purchase from the J. H. Wade Fund",
+    "license": "CC0",
+    "thumb": "img/zhanguo-dingshi-cma-800.jpg",
+    "full": "https://openaccess-cdn.clevelandart.org/1930.730/1930.730_full.tif",
+    "w": 537,
+    "h": 893,
+    "alt": "战国错金银鸟纹青铜顶饰，克利夫兰美术馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {"ref": "cleveland", "note": "藏品记录、年代、判权、递藏、展览与著录，逐项照录"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "战国错金银工艺的背景"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Finial"],
+        ["馆方年代", "475–221 BCE"],
+        ["馆方文化断代", "China, Henan province, Jincun, Warring States period (475–221 BCE)"],
+        ["材质", "青铜错金银（馆方记 bronze inlaid with gold and silver）"],
+        ["尺寸", "通高 13.1 厘米"],
+        ["现藏", "克利夫兰美术馆，藏品号 1930.730"],
+        ["入藏", "Purchase from the J. H. Wade Fund，1930 年购藏"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "本条目核查等级为「馆藏官方核实」：以上各项照录馆方藏品记录，未作改写。", "src": "cleveland"},
+      {"t": "stmt", "state": "adopt", "text": "这不是一件容器，而是插于杖首或旗杆顶端的装饰构件（did_you_know 字段明确说明其用途），本库借此提醒：「青铜礼器」不是商周青铜的全部——车马器、兵器构件、仪仗附件同样大量存在，且往往是错金银这类奢华工艺最先施展的地方。本库已有条目 [[work:shang-ge-cma|商代青铜戈]] 属兵器一类，本件属仪仗／车马附件一类，二者都不是「容器」。", "src": "cleveland"}
+    ],
+    "form": [
+      {"t": "p", "text": "顶端为一对钩喙猛禽，昂首相对而立，足下缠绕交尾的蟠螭（蛇龙）。禽鸟的翎羽与蟠螭的鳞节皆以金银细丝错嵌，通体不留素面。馆方说明称其构图着意表现「禽鸟制服蟠蛇」的搏斗张力。"},
+      {"t": "stmt", "state": "adopt", "text": "馆方形容此器「兼具奢华与狰厉之美」——错金银工艺本身即是财富与地位的展示：战国贵族的礼制表达已从西周「列鼎列簋」的数量堆叠，部分转向此类工艺炫技的奢华器物，本库「鼎」器类条目「分期演变」一节所记「春秋战国工艺炫技」正是此意。", "src": "cleveland"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "馆方公开记录未提及铭文，本条目视为无铭"}
+    ],
+    "technique": [
+      {"t": "p", "text": "青铜铸地，錾刻出凹槽后嵌入金银丝／片，即「错金银」工艺，是春秋战国之交开始流行、战国达于极盛的贵金属镶嵌技法。"},
+      {"t": "stmt", "state": "pend", "text": "具体的分铸接铸工序与错嵌顺序，馆方公开记录未详述，本库不作断言。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "馆方文化断代字段径写「Henan province, Jincun」，即河南洛阳金村——但见下「争议字段」，此件递藏档案中另有一条「据说出自新乡」的记录，与「金村」的归属并不一致，本库两存并记，不代馆方裁断"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠", "year": "约前 475 – 前 221",
+       "text": "钩喙猛禽与蟠螭缠绕的构图、错金银工艺的成熟运用，是战国中晚期车马器与仪仗附件的典型特征，馆方据此定年代。无铭文、无确切出土地层可依，故列「器形序列」／「较可靠」。",
+       "src": "cleveland"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "馆方档案记录了四段递藏：出土情形「据说出自河南北部新乡（Hsin-hsiang）」；约 1925 年后至 1930 年间，约尔格·特吕布纳（Jörg Trübner，1903–1930）在中国购得，转予其内兄埃德加·沃尔希（Edgar Worch，1880–1972）；沃尔希其后售予克利夫兰美术馆；1930 年入藏。"},
+      {"t": "stmt", "state": "disp", "text": "此器馆方**文化断代字段**径写「Henan province, Jincun」（河南洛阳金村），但馆方**递藏档案**里的出土信息却是「据说出自新乡（Hsin-hsiang，即今河南新乡）」——金村在洛阳，新乡在其东北约百公里外，二者并非同一地点。馆方两处记录并不一致，本库照录两者，不代馆方调和；金村是 1928 年前后因盗掘而闻名的战国大墓群所在地，若此件确出金村，其出土性质更可能与盗掘直接相关，但仅凭现有记录本库无法确认「金村」是馆方的准确归属还是笼统套用，「新乡」又是否只是道听途说，两者都缺进一步的出土记录佐证。"},
+      {"t": "stmt", "state": "adopt", "text": "特吕布纳（1903–1930）「在中国购得」的具体经过——购自何人、是否与盗掘出土物直接相关——馆方档案未说明。他与本库另一件克利夫兰藏西周壶（[[work:zhou-hu-cma|1944.61]]）共享完全相同的经手开端：同一人、同一时段、同一去向（转予内兄沃尔希），本库据此互相参照，但馆方未言明二者是否属同一批次流出。"},
+      {"t": "gap", "text": "特吕布纳购得此器之前——出土的具体年代、发掘或盗掘的方式、经手的中国古董商或农人——完全不见记录，是本条目递藏链的主要缺口。金村自 1928 年洪水冲开墓葬后遭持续盗掘，文物经多手中间商流向国际市场，是学界公认的重大流散案例；但本件是否确属金村出土、是否即经此路径流出，馆方记录本身自相矛盾（金村／新乡二说并存），本库不代为坐实。"},
+      {"t": "prov", "when": "????", "text": "据说出自河南新乡（said to be from Hsin-hsiang in Northern Honan Province, China）", "src": "cleveland", "url": "https://clevelandart.org/art/1930.730"},
+      {"t": "prov", "when": "1925 年后 – 1930 年间", "text": "约尔格·特吕布纳 [Jörg Trübner, 1903–1930] 在中国购得，转予其内兄埃德加·沃尔希", "src": "cleveland", "url": "https://clevelandart.org/art/1930.730"},
+      {"t": "prov", "when": "?–1930", "text": "(埃德加·沃尔希 [Edgar Worch, 1880–1972]，纽约，售予克利夫兰美术馆)", "src": "cleveland", "url": "https://clevelandart.org/art/1930.730"},
+      {"t": "prov", "when": "1930–", "text": "克利夫兰美术馆", "src": "cleveland", "url": "https://clevelandart.org/art/1930.730"},
+      {"t": "exhib", "when": "1935", "title": "International Exhibition of Chinese Art", "text": "Royal Academy of Arts, London（1935 年 11 月－1936 年 3 月）——1935－36 年伦敦中国艺术国际展览会，本库另有说明：此展此后数十年间深刻塑造了西方对「中国艺术代表作」的认知框架。", "src": "cleveland", "url": "https://clevelandart.org/art/1930.730"},
+      {"t": "exhib", "when": "1936", "title": "The Twentieth Anniversary Exhibition: The Official Art Exhibit of the Great Lakes Exposition", "text": "The Cleveland Museum of Art, Cleveland, OH (organizer).", "src": "cleveland", "url": "https://clevelandart.org/art/1930.730"},
+      {"t": "exhib", "when": "1941", "title": "The Silver Jubilee Exhibition", "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (June 23-September 28, 1941).", "src": "cleveland", "url": "https://clevelandart.org/art/1930.730"},
+      {"t": "exhib", "when": "1962", "title": "Chinese Art of Late Eastern Chou Dynasty", "text": "Chinese Art Society of America, New York, NY (organizer) (November 13-December 11, 1962).", "src": "cleveland", "url": "https://clevelandart.org/art/1930.730"},
+      {"t": "exhib", "when": "1966", "title": "East-West in Art", "text": "Indiana University Art Museum, Bloomington, IN (June 22-October 31, 1966).", "src": "cleveland", "url": "https://clevelandart.org/art/1930.730"},
+      {"t": "exhib", "when": "1970", "title": "Animal Style in Nomadic Asia", "text": "Asia House Galleries, New York City, NY (organizer) (January 14-March 15, 1970); Philadelphia Museum of Art.", "src": "cleveland", "url": "https://clevelandart.org/art/1930.730"},
+      {"t": "exhib", "when": "1990", "title": "Powerful Form and Potent Symbol: The Dragon in Asia", "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (July 24-November 25, 1990).", "src": "cleveland", "url": "https://clevelandart.org/art/1930.730"},
+      {"t": "exhib", "when": "1991", "title": "Object Lessons: Cleveland Creates an Art Museum", "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (June 7-September 8, 1991).", "src": "cleveland", "url": "https://clevelandart.org/art/1930.730"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "本件的展览史长达七次、横跨 1935 至 1991 年，是本批条目中最丰富的一份接受史记录——尤其 [[event:london-1935-chinese-art|1935－36 年伦敦中国艺术国际展览会]]，是学界公认深刻塑造了此后数十年西方「中国艺术代表作」认知框架的关键展览，本件在入藏克利夫兰仅五年后即入选该展，值得留意。",
+        "错金银的金银丝走向与图案的立体层次，是判断此类车马仪仗附件工艺水准的入手点。",
+        "克利夫兰的中国部藏品多为 CC0，可自由取用高清图自行比对。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "disp", "text": "馆方文化断代字段写此器出自「河南洛阳金村」，但递藏档案里的出土传闻却称「据说出自新乡」，两处记录互不一致，本库并记两说，不代馆方裁断，详见「来源与流转」一节。"},
+      {"t": "stmt", "state": "pend", "text": "本件是否确与 1928 年前后金村盗掘事件有关，现有材料不足以坐实，本库不将其与任何具体盗掘事件挂钩。"},
+      {"t": "gap", "text": "特吕布纳购得此器之前的出土情形、发掘或盗掘方式、经手中间商均不明"}
+    ]
+  }
+}

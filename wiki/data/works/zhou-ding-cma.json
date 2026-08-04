@@ -1,0 +1,197 @@
+{
+  "schema": "work/1",
+  "id": "zhou-ding-cma",
+  "title": "青铜大鼎（西周早中期）",
+  "title_orig": "Tripod (Ding)",
+  "kind": "青铜",
+  "period": "western-zhou",
+  "year": "约前 1000（西周早中期）",
+  "year_sort": -1000,
+  "medium": "青铜",
+  "size": "通高 57.4 厘米",
+  "holder": "克利夫兰美术馆（藏品号 2003.2）",
+  "cma_id": 162576,
+  "classes": [
+    "ding"
+  ],
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://www.clevelandart.org/art/2003.2",
+    "credit": "Severance and Greta Millikin Purchase Fund",
+    "license": "CC0",
+    "thumb": "img/zhou-ding-cma-800.jpg",
+    "full": "https://openaccess-cdn.clevelandart.org/2003.2/2003.2_full.tif",
+    "w": 697,
+    "h": 893,
+    "alt": "西周大型青铜鼎，克利夫兰美术馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "cleveland",
+      "note": "藏品记录、年代、尺寸、判权与馆方说明文字，逐项照录"
+    },
+    {
+      "ref": "zhongguo-meishu-jianshi",
+      "note": "鼎的形制序列与礼制背景"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "原题",
+            "Tripod (Ding) (鼎)"
+          ],
+          [
+            "馆方年代",
+            "1000s BCE"
+          ],
+          [
+            "馆方文化断代",
+            "China, Western Zhou dynasty (c. 1046–771 BCE)"
+          ],
+          [
+            "材质",
+            "青铜（馆方记 bronze）"
+          ],
+          [
+            "尺寸",
+            "通高 57.4 厘米"
+          ],
+          [
+            "现藏",
+            "克利夫兰美术馆，藏品号 2003.2"
+          ],
+          [
+            "入藏",
+            "Severance and Greta Millikin Purchase Fund，2003 年购藏"
+          ]
+        ]
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "本条目核查等级为「馆藏官方核实」：以上各项照录馆方藏品记录，未作改写。",
+        "src": "cleveland"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "通高 57.4 厘米，是本库现有克利夫兰藏中国青铜器中体量最大的一件——与本库另一件同馆藏的小型商代鼎（[[work:shang-ding-cma|1960.288]]，通高仅 14.3 厘米）恰好构成对照：本库「鼎」器类条目提醒过，多数人对「商周鼎」的印象来自后母戊鼎一类重器，但传世商鼎以中小型为多；本件则提醒另一面——西周确实存在与后母戊鼎体量相当接近的大型鼎，不能因为「常态是中小型」就低估其上限。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "**定名说明**：馆方原题仅作「Ding」／「鼎」。本库两件克利夫兰藏鼎若同题「青铜鼎」，读者无从分辨，故按体量与时代加限定语——本件通高 通高 57.4 厘米，藏品号见上。**限定语出自本库，不是馆方原题。**"
+      }
+    ],
+    "form": [
+      {
+        "t": "p",
+        "text": "圆腹，三足外撇，双立耳。器身主纹带以三个兽面（馆方称 taotie）配盘绕的龙纹构成，兽面双目圆睁作正面凝视状；三足上端各饰一浮雕公羊头。馆方说明称此器「气势雄浑逼人」。"
+      },
+      {
+        "t": "stmt",
+        "state": "dep",
+        "text": "馆方说明沿用「taotie」（饕餮纹）描述兽首纹样，本库依通则径称「兽面纹」，理由见本库「鼎」条目通则。",
+        "src": "xuanhe-bogu-tu"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "三足饰公羊头是本器形制上的一个具体特征，馆方说明特别提及——羊首装饰在商周青铜器纹样谱系中并不罕见（如另有著名的四羊方尊），但用于鼎足这一位置的做法值得记录在案，供比对同类器物时参考。",
+        "src": "cleveland"
+      }
+    ],
+    "inscription": [
+      {
+        "t": "gap",
+        "text": "馆方公开记录未提及铭文，本条目视为无铭"
+      }
+    ],
+    "technique": [
+      {
+        "t": "p",
+        "text": "块范法铸造，三足浮雕羊首应为分铸后与足部接铸或范铸一体成形，馆方公开记录未详述具体工序。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "具体铸造工艺缺检测支撑，本库不作断言。"
+      }
+    ],
+    "excavation": [
+      {
+        "t": "gap",
+        "text": "出土地点与出土脉络不明，馆方递藏档案起点即为 2002 年的一场纽约拍卖会，早于此完全不见记录"
+      }
+    ],
+    "dating": [
+      {
+        "t": "dating",
+        "basis": "器形序列",
+        "conf": "较可靠",
+        "year": "约前 1000",
+        "text": "圆腹三足双耳的基本结构延续商代晚期鼎的形制，兽面纹配龙纹的组合、羊首足饰是西周早中期常见配置，馆方据此定年代。无铭文、无出土地层可依，故列「器形序列」／「较可靠」。",
+        "src": "cleveland"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "p",
+        "text": "馆方递藏档案仅一段：2002 年 9 月 20 日，经纽约佳士得（Christie's New York）拍卖会（sale 1113，lot 220）售予克利夫兰美术馆，2003 年正式入藏。"
+      },
+      {
+        "t": "stmt",
+        "state": "disp",
+        "text": "本条目是本批 12 件中递藏记录最简的一件：馆方档案连拍卖会之前的委托人（consignor）姓名都未披露——这是拍卖行的常见做法（委托人身份可依当事人要求保密），但也意味着从拍卖会往前，完全没有任何可考的线索。与本库其余克利夫兰藏品「至少能找到一位二十世纪初的西方经手人姓名」相比，本件的可考起点更晚（2002 年而非二三十年代），链条却更短——年代近不代表信息全，恰恰相反：本件因委托人身份保密，反而比更早入藏的几件器物留下的线索更少。"
+      },
+      {
+        "t": "gap",
+        "text": "2002 年拍卖会之前，此器的一切流转情况——包括是否曾在中国境外的其他收藏中停留、经由何人送拍——均不见记录。"
+      },
+      {
+        "t": "prov",
+        "when": "2002 年 9 月 20 日",
+        "text": "(Christie's New York, NY, sale 1113, September 20, 2002, lot 220, sold to the Cleveland Museum of Art)",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/2003.2"
+      },
+      {
+        "t": "prov",
+        "when": "2003–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/2003.2"
+      },
+      {
+        "t": "exhib",
+        "when": "2022",
+        "title": "China through the Magnifying Glass: Masterpieces in Miniature and Detail",
+        "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (December 11, 2022-February 26, 2023).",
+        "src": "cleveland",
+        "url": "https://clevelandart.org/art/2003.2"
+      }
+    ],
+    "viewing": [
+      {
+        "t": "ul",
+        "items": [
+          "可与本库另一件克利夫兰藏小型商代鼎（[[work:shang-ding-cma|1960.288]]）对照，二者体量相差悬殊（57.4 厘米对 14.3 厘米），是体会商周鼎类器物尺度跨度的直接例子，也是 [[class:ding|鼎]] 器类条目「分期演变」一节所记「列鼎制度」——鼎以数量与尺寸联合标示等级——的一个具体旁证。",
+          "三足的公羊头浮雕是本件的形制特征之一，观展时可留意其与器身兽面纹的呼应关系。",
+          "克利夫兰的中国部藏品多为 CC0，可自由取用高清图自行比对。"
+        ]
+      }
+    ],
+    "disputes": [
+      {
+        "t": "gap",
+        "text": "2002 年拍卖会之前的一切流转情况不明，委托人身份未披露，是本条目递藏链的全部内容"
+      }
+    ]
+  }
+}

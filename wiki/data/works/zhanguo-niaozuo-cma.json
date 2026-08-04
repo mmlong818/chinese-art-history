@@ -1,0 +1,87 @@
+{
+  "schema": "work/1",
+  "id": "zhanguo-niaozuo-cma",
+  "title": "鸟形承盘青铜盥器",
+  "title_orig": "Shallow Basin Supported by a Bird (Bian)",
+  "kind": "青铜",
+  "period": "spring-autumn-warring",
+  "year": "约前 400（战国早期）",
+  "year_sort": -400,
+  "medium": "青铜嵌孔雀石、蓝铜矿",
+  "size": "通高 23.3 厘米；底径 18.3 厘米",
+  "holder": "克利夫兰美术馆（藏品号 1991.8）",
+  "cma_id": 156159,
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://www.clevelandart.org/art/1991.8",
+    "credit": "Leonard C. Hanna Jr. Fund",
+    "license": "CC0",
+    "thumb": "img/zhanguo-niaozuo-cma-800.jpg",
+    "full": "https://openaccess-cdn.clevelandart.org/1991.8/1991.8_full.tif",
+    "w": 856,
+    "h": 893,
+    "alt": "战国鸟形承盘青铜盥器，嵌孔雀石与蓝铜矿，克利夫兰美术馆藏",
+    "note": "馆方定名用「Bian」一词转写器名，本库检索未能确认对应汉字与出处，标题依馆方英文描述意译，不采「Bian」音译入正题"
+  },
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {"ref": "cleveland", "note": "藏品记录、年代、判权、递藏、展览与著录，逐项照录"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "战国青铜礼器写实化与工艺炫技的背景"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Shallow Basin Supported by a Bird (Bian)"],
+        ["馆方年代", "early 400s BCE"],
+        ["馆方文化断代", "China, Warring States period (475–221 BCE)"],
+        ["材质", "青铜嵌孔雀石、蓝铜矿（馆方记 bronze inlaid with powdered malachite and azurite）"],
+        ["尺寸", "通高 23.3 厘米；底径 18.3 厘米"],
+        ["现藏", "克利夫兰美术馆，藏品号 1991.8"],
+        ["入藏", "Leonard C. Hanna Jr. Fund，1991 年购藏"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "本条目核查等级为「馆藏官方核实」：以上各项照录馆方藏品记录，未作改写。", "src": "cleveland"},
+      {"t": "stmt", "state": "adopt", "text": "馆方定名括注「Bian」一词，本库未能在检索范围内确认其对应的具体汉字与出处——这与「觥」「卣」等有明确宋代金石学定名来源的器类不同，本库不代为坐实某个汉字，标题依馆方英文描述意译为「鸟形承盘青铜盥器」，并在 image.note 中说明这一处理。"}
+    ],
+    "form": [
+      {"t": "p", "text": "一只姿态挺立庄重的鸟形立雕，双足牢牢踩住一对交缠的蛇形生物，鸟身之下承托一浅盘。器表原以孔雀石（绿）与蓝铜矿（蓝）粉末镶嵌，与青铜底色（经年氧化后色调已变）共同构成红、绿、蓝三色对比的绚丽效果——馆方特别指出这一原初配色，提醒观者今日所见的锈色不是原貌。"},
+      {"t": "stmt", "state": "adopt", "text": "馆方说明列举了「鸟踏蛇」这一构图的三种既有解读：一，中国民族学界视其为图腾符号，象征某一氏族对相邻族群的优越感；二，视鸟蛇为辟邪的祥瑞组合；三，视为阴阳、天地一类互补概念的早期视觉表达。本库照录三说并陈，不裁断——这类图像学解读缺乏文字材料直接佐证，属于本库承认的最弱一档解释方式，多说并存比择一而定更诚实。", "src": "cleveland"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "馆方公开记录未提及铭文，本条目视为无铭"}
+    ],
+    "technique": [
+      {"t": "p", "text": "立体鸟形与蛇形构件应为分铸后与浅盘接铸；孔雀石、蓝铜矿粉末嵌入器表预留的凹槽或糙面，是战国青铜器镶嵌宝石／矿物粉末工艺的实例，与错金银同属这一时期的贵金属／矿物装饰谱系，但材料与效果不同——错金银呈现的是线性金属光泽，本件呈现的是矿物粉末的色块效果。"},
+      {"t": "stmt", "state": "pend", "text": "具体的镶嵌工序与固定方式，馆方公开记录未详述，本库不作断言。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "出土地点与出土脉络不明，馆方递藏档案起点即为一位知名古董商，早于此不可考"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠", "year": "约前 400",
+       "text": "写实立体的鸟形雕塑结合浅盘的组合形制、孔雀石与蓝铜矿镶嵌工艺，是战国早期青铜器写实化与工艺炫技并进的典型表现，馆方据此定年代。无铭文、无出土地层可依，故列「器形序列」／「较可靠」。",
+       "src": "cleveland"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "馆方递藏档案仅两段：此前由罗伯特·H·埃尔斯沃思有限公司（Robert H. Ellsworth, Ltd.，纽约）持有，1991 年售予克利夫兰美术馆。"},
+      {"t": "stmt", "state": "adopt", "text": "罗伯特·H·埃尔斯沃思（Robert Hatfield Ellsworth，1929–2014）是二十世纪下半叶美国最重要的中国艺术品收藏家兼古董商之一，经手与私人收藏的中国书画、家具、青铜器数量极大，去世后其私人收藏于佳士得分批拍卖，是研究二十世纪美国中国艺术品市场绕不开的人物。本件由其名下公司售予克利夫兰，属于二十世纪晚期正规画廊交易，与本批条目中若干件二十世纪初经手人身份含混的情形性质不同——这正是本库强调「不要把流散写成单一叙事」的一个正面例子：同样是「经古董商」，二十年代的记录常常语焉不详，而这一件因年代较近、经手人本身是研究充分的公众人物，链条反而清楚。"},
+      {"t": "gap", "text": "埃尔斯沃思公司之前，此器如何、何时、从何处取得，均无记录。"},
+      {"t": "prov", "when": "?–1991", "text": "(Robert H. Ellsworth, Ltd., New York, NY, sold to the Cleveland Museum of Art)", "src": "cleveland", "url": "https://clevelandart.org/art/1991.8"},
+      {"t": "prov", "when": "1991–", "text": "The Cleveland Museum of Art, Cleveland, OH", "src": "cleveland", "url": "https://clevelandart.org/art/1991.8"},
+      {"t": "exhib", "when": "1991", "title": "Notable Acquisitions", "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (June 7-September 15, 1991).", "src": "cleveland", "url": "https://clevelandart.org/art/1991.8"},
+      {"t": "exhib", "when": "1994", "title": "Asian Autumn: New Objects/New Insights: Cleveland's Recent Chinese Acquisitions", "text": "The Cleveland Museum of Art, Cleveland, OH (organizer) (October 18-December 1994).", "src": "cleveland", "url": "https://clevelandart.org/art/1991.8"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "留意鸟足与蛇身交缠处的立体处理，以及盘底与鸟身的接合方式——这是判断此类写实雕塑性青铜器铸造难度的入手点。",
+        "本件原本色彩绚丽（孔雀石绿、蓝铜矿蓝、青铜本色），今日所见已是锈蚀后的单一色调，观展或看图版时可主动在脑中还原馆方说明的原初配色。",
+        "克利夫兰的中国部藏品多为 CC0，可自由取用高清图自行比对。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "disp", "text": "「鸟踏蛇」构图的含义，馆方并陈图腾说、辟邪说、阴阳象征说三种解读，均属图像学层面的推测，缺乏文字材料直接佐证，本库不裁断。"},
+      {"t": "gap", "text": "出土情形与埃尔斯沃思公司取得此器之前的经手情况均不明"},
+      {"t": "gap", "text": "馆方定名「Bian」对应的具体汉字，本库检索未能确认，暂不代为坐实"}
+    ]
+  }
+}

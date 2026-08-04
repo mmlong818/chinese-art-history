@@ -1,0 +1,101 @@
+{
+  "schema": "work/1",
+  "id": "wanfo-si-beibei-xiang",
+  "title": "万佛寺背屏式造像（梁普通四年立佛龛）",
+  "kind": "石雕",
+  "period": "wei-jin-nanbei",
+  "year": "南朝梁普通四年（523）",
+  "year_sort": 523,
+  "medium": "砂岩，高浮雕",
+  "size": "本库未核实精确尺寸",
+  "holder": "四川博物院",
+  "site": "wanfo-si",
+  "classes": [],
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Back_screen_images%2C_China%2C_unearthed_from_Wanfo_Temple%2C_Chengdu%2C_4th_year_of_the_Putong_reign_of_the_Liang%2C_Southern_Dynasties%2C_523_AD%2C_sandstone_-_Sichuan_Provincial_Museum_-_Chengdu%2C_China_-_DSC04546.jpg",
+    "credit": "Daderot / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/wanfo-si-beibei-xiang-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Back_screen_images%2C_China%2C_unearthed_from_Wanfo_Temple%2C_Chengdu%2C_4th_year_of_the_Putong_reign_of_the_Liang%2C_Southern_Dynasties%2C_523_AD%2C_sandstone_-_Sichuan_Provincial_Museum_-_Chengdu%2C_China_-_DSC04546.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 960,
+    "h": 1240,
+    "alt": "背屏式造像，中央立佛与六尊胁侍，梁普通四年（523），万佛寺遗址出土，四川博物院藏",
+    "note": "摄影者 Daderot 拍摄于四川博物院展陈现场并自行声明公共领域；馆方展签英文原文标注年代为『4th year of the Putong reign of the Liang, Southern Dynasties, 523 AD』"
+  },
+  "verification": "memory",
+  "updated": "2026-08-05",
+  "sources": [
+    {"ref": "kaogu-wenwu", "note": "万佛寺出土南朝背屏式造像的著录与研究，本库未核实具体期号页码，仅作类别指认"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "南朝佛教造像在通史中的定位与背屏式造像的地方样式讨论"},
+    {"ref": "wangxun-zhongguo-meishushi", "note": "交叉核对"},
+    {"ref": "sullivan-arts-of-china", "note": "英文通史对南朝佛教艺术稀缺性的讨论"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["出土", "万佛寺遗址（成都），历次零散出土之一"],
+        ["纪年", "梁普通四年（523），据馆方展签标注的题记年代"],
+        ["构图", "尖拱形（火焰形）背屏，正中高浮雕立佛一尊，左右各三尊胁侍菩萨／弟子，背屏边缘另饰化生、飞天一类小型浮雕"],
+        ["现藏", "四川博物院"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "**本条目为『背屏式造像』这一南朝蜀地地方样式的代表个案，同时挂靠另外两件同类实物作为比较材料**：一件同属万佛寺出土、纪年梁中大通五年（533）的背屏式造像（见「形制与题材」一节附图），与本件相隔十年，二者可共同说明这类造像在梁代中期该地持续制作的现象；另一件为同址出土、未见明确纪年的背屏式坐佛造像，作为同一形制传统的补充例证一并附录。三件均据本库图像来源核实为万佛寺出土、现藏四川博物院。"}
+    ],
+    "form": [
+      {"t": "p", "text": "本件背屏呈尖拱形（近火焰形轮廓），正中立佛结印而立，衣纹以阴刻线密集排列，左右对称排列六尊胁侍（菩萨或弟子），背屏上部另浮雕小型坐佛与飞天，构图层次分明、人物众多，是『背屏式造像』这一南朝蜀地地方样式的典型例证——以一整块石料同时容纳主尊与多层胁侍、飞天，与北朝常见的单体圆雕或摩崖开龛做法形成鲜明的地方特色对比。"},
+      {"t": "fig", "image": {
+        "source": "wikimedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Back_screen_images%2C_China%2C_unearthed_from_Wanfo_Temple%2C_Chengdu%2C_5th_year_of_the_Zhongdatong_reign_of_the_Liang%2C_Southern_Dynasties%2C_533_AD%2C_sandstone_-_Sichuan_Provincial_Museum_-_Chengdu%2C_China_-_DSC04543.jpg",
+        "credit": "Daderot / Wikimedia Commons",
+        "license": "PD",
+        "attribution_required": false,
+        "thumb": "img/wanfo-si-beibei-xiang-2-800.jpg",
+        "full": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Back_screen_images%2C_China%2C_unearthed_from_Wanfo_Temple%2C_Chengdu%2C_5th_year_of_the_Zhongdatong_reign_of_the_Liang%2C_Southern_Dynasties%2C_533_AD%2C_sandstone_-_Sichuan_Provincial_Museum_-_Chengdu%2C_China_-_DSC04543.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "w": 960, "h": 652,
+        "alt": "背屏式造像残块，中央立佛与多尊胁侍，梁中大通五年（533），万佛寺遗址出土，四川博物院藏",
+        "note": "摄影者 Daderot 拍摄于四川博物院展陈现场并自行声明公共领域；与本条目主图相隔十年，构图原则相近，可见背屏式样式在此期间的延续"
+      }},
+      {"t": "fig", "image": {
+        "source": "wikimedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Back_screen_sitting_statue_of_Buddha%2C_China%2C_unearthed_from_Wanfo_Temple%2C_Chengdu%2C_Southern_Dynasties%2C_420-589_AD%2C_sandstone_-_Sichuan_Provincial_Museum_-_Chengdu%2C_China_-_DSC04539.jpg",
+        "credit": "Daderot / Wikimedia Commons",
+        "license": "PD",
+        "attribution_required": false,
+        "thumb": "img/wanfo-si-beibei-xiang-3-800.jpg",
+        "full": "https://upload.wikimedia.org/wikipedia/commons/8/83/Back_screen_sitting_statue_of_Buddha%2C_China%2C_unearthed_from_Wanfo_Temple%2C_Chengdu%2C_Southern_Dynasties%2C_420-589_AD%2C_sandstone_-_Sichuan_Provincial_Museum_-_Chengdu%2C_China_-_DSC04539.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "w": 960, "h": 1524,
+        "alt": "背屏式坐佛造像，主尊结跏趺坐，两侧胁侍，南朝（420–589），万佛寺遗址出土，四川博物院藏",
+        "note": "摄影者 Daderot 拍摄于四川博物院展陈现场并自行声明公共领域；馆方展签仅标『南朝，420–589』，未见具体纪年，本库不据此件另行推断精确年代"
+      }},
+      {"t": "stmt", "state": "adopt", "text": "**这三件背屏式造像合观，可以说明『背屏式』并非孤例风格，而是万佛寺遗址（乃至成都地区）南朝造像中持续制作、有明确纪年锚点的一类地方样式**——普通四年（523）与中大通五年（533）两件相隔十年而构图原则一致，说明这一样式在梁代中期至少延续了十年以上；未纪年的第三件则提示这类样式的实际生产时段可能更长，具体上下限本库不作推断。"}
+    ],
+    "technique": [
+      {"t": "p", "text": "以整块砂岩雕出背屏轮廓，主尊与胁侍均为高浮雕，部分细部（璎珞、衣纹）以阴刻线加工，背屏边缘的飞天、化生等则处理为更浅的浮雕，层次分明地区分了主次关系。"}
+    ],
+    "excavation": [
+      {"t": "p", "text": "出土于万佛寺遗址，历次出土均属零散发现而非统一的科学发掘，本件与「形制与题材」一节所附另两件的具体出土时间、地点与彼此的共出关系，本库均未核实，参见 [[site:wanfo-si]] 考古与著录史一节对该遗址证据结构的一般性说明。"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "造像题记", "conf": "确证",
+       "text": "本件据馆方展签标注带有纪年题记，记『梁普通四年』（523），造像题记属本库断代依据中较高等级的一档，与本库龙门奉先寺卢舍那像（[[work:longmen-lushena]]）等有确切造像题记的窟龛属同一证据等级。本库需说明：这一纪年信息来自参观者拍摄并转录的展签文字，属对馆方公开展示文字的转录，而非本库直接查阅发掘报告或题记拓本原文，故整体核查等级仍标 memory（见「基础信息」上方 verification 字段），但这不影响『造像题记』这一依据类型本身的证据强度判断。",
+       "src": "kaogu-wenwu"},
+      {"t": "stmt", "state": "adopt", "text": "与本件相隔十年的中大通五年（533）造像同样据展签标注带有纪年题记，二者互为印证，进一步支持『万佛寺遗址梁代造像存在多件独立纪年实物』这一判断，而非仅凭孤证。"}
+    ],
+    "provenance": [
+      {"t": "gap", "text": "本件自出土至入藏四川博物院之间的具体流转过程，本库未核实"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "现藏四川博物院，具体是否常设展出本库未核实。",
+        "条目图版取自参观者拍摄并自行声明公共领域的展陈现场照片，非馆方官方摄影，如需权威著录（题记全文释读、精确尺寸）仍请查四川博物院官方网站或相关考古报告。",
+        "与本库麦积山、云冈、龙门等北朝石窟条目并观，可直接体会南北朝佛教造像实物存世量的强烈不对称，见 [[site:wanfo-si]] 图像程式一节。"
+      ]},
+      {"t": "gap", "text": "本库未取得三件造像官方藏品页的可核实 URL 与题记全文释读，读者可自行查四川博物院官方网站核对"}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "题记全文释读、供养人身份等细节，本库仅据展签转录的年号信息核实，未获取释文全文，标为待校验。"},
+      {"t": "gap", "text": "三件造像彼此的出土先后与共出关系，本库未核实"}
+    ]
+  }
+}

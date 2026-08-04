@@ -994,6 +994,123 @@
       "authority": "流散于美国的殷周青铜器的系统集录，是这一类器物的基础工具书。**这部书本身就是本库那个「不对称」的缩影**：流散器物的学术记录由中国学者编成，冠以 1962 年的政治书名，其后经松丸道雄的日文版（题作《殷周青铜器分类图录》，英文副题 A Corpus of Chinese Bronzes in American Collections）成为国际通用的工具书——**记录者、命名者与流通者分属三方**。**注意**：书名属 1962 年的口径，本库按通则标明评价属何时；而其著录与分类工作的学术价值独立于书名，两者须分开评。芝加哥艺术博物馆的 publication_history 字段里可见此书的引用链。",
       "note": "版次与页码未逐一核实；日文版与中文原稿的异同亦未核。",
       "verified": false
+    },
+    {
+      "id": "loehr-ritual-vessels",
+      "title": "Ritual Vessels of Bronze Age China",
+      "authors": "Max Loehr（罗越），1968",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "商代青铜器纹饰五期分式的出处。该框架是无铭器物断代的基础工具之一，**但它是风格类型学的推断，不是地层证据**——本库把「器形序列」「风格比对」分列为不同等级正为此。**本库尚未直接查阅此书**，现有条目对其分期的引用系经 `ma-chengyuan-zhongguo-qingtongqi` 转述；此条登记为线索，不作一手依据，凡引其分期须标明系转引。",
+      "note": "未直接查阅；版次与页码未核。",
+      "verified": false
+    },
+    {
+      "id": "hubei-museum",
+      "title": "湖北省博物馆",
+      "kind": "primary",
+      "tier": 1,
+      "url": "https://www.hbww.org/",
+      "authority": "藏曾侯乙墓全套（编钟、尊盘）、越王勾践剑、九连墩楚墓出土漆器与丝织品。**楚系文物的首要收藏机构**，而楚墓因南方饱水环境保存有机质，使漆器与织绣得以存世——**今天所见的「材质分布」很大程度是埋藏环境的产物，不是当时生产比例的反映**。无公开 API。",
+      "verified": false,
+      "note": "无公开 API；官网 URL 未逐一核实可达性，藏品须人工核对。"
+    },
+    {
+      "id": "sichuan-museum",
+      "title": "四川博物院",
+      "kind": "primary",
+      "tier": 1,
+      "url": "https://www.scmuseum.cn/",
+      "authority": "藏成都万佛寺遗址出土的南朝至唐造像。**南朝造像实物极少**，与北朝（云冈、龙门、麦积山）的丰富形成强烈不对称，这批因此地位特殊。无公开 API。",
+      "verified": false,
+      "note": "无公开 API；官网 URL 未逐一核实可达性，藏品须人工核对。"
+    },
+    {
+      "id": "zaozhuang-museum",
+      "title": "枣庄市博物馆",
+      "kind": "primary",
+      "tier": 1,
+      "url": "http://www.zzsbwg.com/",
+      "authority": "藏枣庄东江小邾国墓地出土青铜礼器。小邾国是文献所载而长期无实物的小国，其墓地出土带铭青铜可与文献对读，是「文献著录＋铭文」双证的实例。无公开 API。",
+      "verified": false,
+      "note": "无公开 API；官网 URL 未逐一核实可达性，藏品须人工核对。"
+    },
+    {
+      "id": "tengzhou-museum",
+      "title": "滕州市博物馆",
+      "kind": "primary",
+      "tier": 1,
+      "url": "http://www.tzsbwg.com/",
+      "authority": "藏滕州前掌大墓地出土商末周初青铜器。该墓地的族属归属（薛国／奄国／商遗民）诸说并存，本库不裁断——**族属与器物风格的对应尤须谨慎**。无公开 API。",
+      "verified": false,
+      "note": "无公开 API；官网 URL 未逐一核实可达性，藏品须人工核对。"
+    },
+    {
+      "id": "li-chi-tuanfang-altar",
+      "title": "The Tuan Fang Altar Set Reexamined",
+      "authors": "李济（Li Chi），Metropolitan Museum Journal vol. 3 (1970)",
+      "kind": "survey",
+      "tier": 2,
+      "authority": "端方旧藏「祭器组合」是否原配的原始出处。据其复述，该组 14 件中 11 件有铭而仅两组铭文相同，**很可能是市场阶段拼合而非同批出土**——这是比「商人之前不可考」更深一层的不确定性：不是不知道谁经手，而是不知道这些器物本来是否属于同一批。**本库尚未查阅原文**，现有两件端方条目系转引复述，引用时须标明。",
+      "verified": false,
+      "note": "未直接查阅原文，系转引；卷期页码未核。"
+    },
+    {
+      "id": "white-tombs-old-loyang",
+      "title": "洛阳故城古墓考（Tombs of Old Lo-yang）",
+      "authors": "怀履光（William Charles White），Shanghai: Kelly & Walsh, 1934",
+      "kind": "survey",
+      "tier": 2,
+      "authority": "金村大墓出土物的早期著录，作者为加拿大圣公会驻河南主教，亦是当时大量收集金村出土物、归入多伦多皇家安大略博物馆的经手人。**故此书兼具两重身份：既是最早的著录，也是流散链条中一环的自述。**本库引其著录，但不以其叙述作为流散过程是否正当的判断依据。**尚未查阅原文**，系转引。",
+      "verified": false,
+      "note": "未直接查阅原文，系转引；卷期页码未核。"
+    },
+    {
+      "id": "zhejiang-museum",
+      "title": "浙江省博物馆",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "藏河姆渡双鸟朝阳纹牙雕、黄公望《富春山居图·剩山图》等。**同一馆兼藏新石器象牙雕与元代名画**，跨度七千年——这在本库的分期骨架上是从第一期直通第十二期。无公开 API。",
+      "verified": false,
+      "note": "无公开 API；藏品须人工核对。",
+      "url": "https://www.zhejiangmuseum.com/"
+    },
+    {
+      "id": "liaoning-archaeology",
+      "title": "辽宁省文物考古研究院",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "牛河梁遗址出土物的收藏与研究机构，红山文化女神头像**原件在此**。**要紧的区别**：牛河梁遗址现场展示的是复制件，多数材料把原件与复制件混着说，本库分开记。无公开 API，亦未见可直引的藏品页。",
+      "verified": false,
+      "note": "无公开 API；藏品须人工核对。"
+    },
+    {
+      "id": "kaogu-museum",
+      "title": "中国考古博物馆",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "中国历史研究院考古研究所所属，藏石家河陶塑、陶寺彩绘蟠龙纹陶盘等由该所主持发掘的出土物。**发掘者与收藏者同一，故其记录接近一手**，但仍非发掘报告原文——本库凡据展陈说明而非报告原文者，断代止步「较可靠」。",
+      "verified": false,
+      "note": "无公开 API；藏品须人工核对。",
+      "url": "https://www.kaogu.cn/"
+    },
+    {
+      "id": "dahecun-museum",
+      "title": "郑州市大河村遗址博物馆",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "藏仰韶小口尖底瓶等。该器用途长期被写作「汲水器」，近年有酿酒器等异说，**这是器物用途的通行说法可以整体被改写的实例**，本库并陈不裁断。无公开 API。",
+      "verified": false,
+      "note": "无公开 API；藏品须人工核对。"
+    },
+    {
+      "id": "wuwenhua-museum",
+      "title": "吴文化博物馆（苏州）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "藏江苏澄湖遗址出土良渚刻符黑陶罐（国家一级文物）。刻符的性质（前文字／记号／纯装饰）历来有说，本库不采单说。无公开 API。",
+      "verified": false,
+      "note": "无公开 API；藏品须人工核对。"
     }
   ]
 }

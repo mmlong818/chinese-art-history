@@ -1,0 +1,86 @@
+{
+  "schema": "work/1",
+  "id": "chunqiu-gui-cma",
+  "title": "青铜龙耳簋",
+  "title_orig": "Food Container (Gui)",
+  "kind": "青铜",
+  "period": "spring-autumn-warring",
+  "year": "约前 600 – 前 500（春秋中晚期）",
+  "year_sort": -550,
+  "medium": "青铜",
+  "size": "34.3 × 44.5 厘米",
+  "holder": "克利夫兰美术馆（藏品号 1974.73）",
+  "cma_id": 147977,
+  "classes": ["gui"],
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://www.clevelandart.org/art/1974.73",
+    "credit": "Leonard C. Hanna Jr. Fund",
+    "license": "CC0",
+    "thumb": "img/chunqiu-gui-cma-800.jpg",
+    "full": "https://openaccess-cdn.clevelandart.org/1974.73/1974.73_full.tif",
+    "w": 1091,
+    "h": 893,
+    "alt": "春秋青铜龙耳簋，克利夫兰美术馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {"ref": "cleveland", "note": "藏品记录、年代、尺寸、判权、递藏与说明文字，逐项照录"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "簋类容器的形制与礼制功能背景"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Food Container (Gui) (龍耳簋)"],
+        ["馆方年代", "600–500 BCE"],
+        ["馆方文化断代", "China, Eastern Zhou dynasty (770–256 BCE), Spring and Autumn period (770–476 BCE)"],
+        ["材质", "青铜（馆方记 bronze）"],
+        ["尺寸", "34.3 × 44.5 厘米"],
+        ["现藏", "克利夫兰美术馆，藏品号 1974.73"],
+        ["入藏", "Leonard C. Hanna Jr. Fund，1974 年购藏"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "本条目核查等级为「馆藏官方核实」：以上各项照录馆方藏品记录，未作改写。馆方定名带中文「龍耳簋」，与本库另一件商代无铭簋（[[work:shang-gui-met|大都会藏 62.217]]）合观，恰是「簋」从商代简洁双耳到春秋镂空繁复的形制演变两端。", "src": "cleveland"}
+    ],
+    "form": [
+      {"t": "p", "text": "方形圈足承圆腹，盖顶饰莲瓣形镂空一周，与器身起伏的波曲纹遥相呼应。双耳作两条张口吐舌的立体龙形，龙身之下各附一只小兽，构成器身两侧的立体附饰，整器造型的镂空与写实兽形结合，风格上偏向繁复富丽，与商代簋的庄重厚拙形成鲜明对照。"},
+      {"t": "stmt", "state": "adopt", "text": "馆方说明用「baroque」（巴洛克式）一词形容此器的动感与繁复——这是借用西方艺术史词汇描述中国青铜器风格演变的一个例子。本库照录馆方措辞但提醒：「巴洛克」是十七世纪欧洲艺术的特定历史概念，借来形容春秋青铜器的风格特征，是一种跨文化的类比修辞，不代表两者有历史关联，读者不宜望文生义。", "src": "cleveland"}
+    ],
+    "inscription": [
+      {"t": "gap", "text": "馆方公开记录 inscribed 与 inscriptions 字段均为空，本条目视为无铭"}
+    ],
+    "technique": [
+      {"t": "p", "text": "块范法铸造。双耳的立体龙形与器身应为分铸后铸接，盖顶镂空部分的成形工艺，馆方公开记录未详述。"},
+      {"t": "stmt", "state": "pend", "text": "镂空莲瓣与立体龙耳的具体铸造工序缺检测支撑，本库不作断言。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "出土地点与出土脉络不明，馆方递藏档案起点为一位二十世纪初在华活动的德国背景收藏者，早于此不可考"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠", "year": "约前 600 – 前 500",
+       "text": "圈足承圆腹的基本轮廓延续商周簋的基本结构，但莲瓣镂空、立体龙耳与波曲纹地，是春秋中晚期簋类器物趋于繁复华丽的典型特征，馆方据此定年代。无铭文、无出土地层可依，故列「器形序列」／「较可靠」。",
+       "src": "cleveland"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "馆方档案记录了一条经三手、终于 1974 年伦敦拍卖会的链条：最早由汉斯·尤根·冯·洛豪（Hans Jüergen von Lochow，1902–1989）持有；其后归纽约收藏家弗雷德里克·M·迈耶（Frederick M. Mayer，1899–1974）；迈耶身故当年，此器随其「迈耶中国艺术收藏」于 1974 年 6 月 25 日经伦敦佳士得（Christie, Manson & Woods）拍卖，编号 lot 219，由克利夫兰美术馆购得。"},
+      {"t": "stmt", "state": "pend", "text": "冯·洛豪（1902–1989）如何、何时取得此器，馆方档案未说明；他的生卒年与活动背景，馆方也未进一步交代。本库检索范围内未查得此人更多可独立核实的资料，姑存其名，不作推断。"},
+      {"t": "gap", "text": "冯·洛豪持有此器之前——即此器出土情形、流出中国的经过与最初的持有者——完全不见记录。馆方档案的可考起点已是「第二手」欧美收藏者，比本批条目中多数「起于古董商」的情形更靠后一步，缺口也更大。"},
+      {"t": "prov", "when": "????", "text": "Hans Jüergen von Lochow [1902–1989]", "src": "cleveland", "url": "https://clevelandart.org/art/1974.73"},
+      {"t": "prov", "when": "?–1974", "text": "Frederick M. Mayer [1899–1974], New York, NY", "src": "cleveland", "url": "https://clevelandart.org/art/1974.73"},
+      {"t": "prov", "when": "1974 年 6 月 25 日", "text": "(Christie, Manson & Woods, 伦敦，1974 年 6 月 25 日拍卖会，lot 219，售予克利夫兰美术馆)", "src": "cleveland", "url": "https://clevelandart.org/art/1974.73"},
+      {"t": "prov", "when": "1974–", "text": "克利夫兰美术馆", "src": "cleveland", "url": "https://clevelandart.org/art/1974.73"},
+      {"t": "exhib", "when": "2009", "title": "Asian Journeys: Collecting Art in Post-war America", "text": "The Asia Society Museum, New York, NY (organizer) (February 10-August 9, 2009).", "src": "cleveland", "url": "https://clevelandart.org/art/1974.73"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "立体龙耳与莲瓣镂空盖是本件区别于商代簋的直观标志，可与本库大都会藏商代无铭簋（[[work:shang-gui-met|62.217]]）对照，体会「簋」类器物跨越五百余年的形制演变，二者共同构成 [[class:gui|簋]] 器类条目「代表实例」一节以外的第三、第四个样本。",
+        "1974 年伦敦佳士得「迈耶收藏」专场是二十世纪重要的中国艺术品私人收藏散出场次之一，有兴趣者可循此追查该场其余拍品的去向。",
+        "克利夫兰的中国部藏品多为 CC0，可自由取用高清图自行比对。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "gap", "text": "冯·洛豪持有此器之前的出土情形与流出经过完全不明，是本条目递藏链的主要缺口"},
+      {"t": "stmt", "state": "pend", "text": "镂空与立体铸接工艺细节缺检测支撑，本库不作断言。"}
+    ]
+  }
+}

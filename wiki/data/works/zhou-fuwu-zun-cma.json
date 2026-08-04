@@ -1,0 +1,86 @@
+{
+  "schema": "work/1",
+  "id": "zhou-fuwu-zun-cma",
+  "title": "青铜父戊尊",
+  "title_orig": "Wine Vessel (Fu Wu Zun)",
+  "kind": "青铜",
+  "period": "western-zhou",
+  "year": "约前 1000 – 前 900（西周早期）",
+  "year_sort": -950,
+  "medium": "青铜",
+  "size": "口径 23.1 厘米，通高 25.2 厘米",
+  "holder": "克利夫兰美术馆（藏品号 1938.13）",
+  "cma_id": 117465,
+  "classes": ["zun"],
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://www.clevelandart.org/art/1938.13",
+    "credit": "Purchase from the J. H. Wade Fund",
+    "license": "CC0",
+    "thumb": "img/zhou-fuwu-zun-cma-800.jpg",
+    "full": "https://openaccess-cdn.clevelandart.org/1938.13/1938.13_full.tif",
+    "w": 740,
+    "h": 893,
+    "alt": "西周青铜尊，馆方定名「Fu Wu Zun」，克利夫兰美术馆藏"
+  },
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {"ref": "cleveland", "note": "藏品记录、年代、尺寸、判权、馆方铭文译文与说明文字，逐项照录"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "尊类容器的形制背景"},
+    {"ref": "xuanhe-bogu-tu", "note": "纹样旧称的来源"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["原题", "Wine Vessel (Fu Wu Zun)"],
+        ["馆方年代", "c. 1000–900 BCE"],
+        ["馆方文化断代", "China, Western Zhou dynasty (c. 1046–771 BCE)"],
+        ["材质", "青铜（馆方记 bronze）"],
+        ["尺寸", "口径 23.1 厘米；通高 25.2 厘米"],
+        ["现藏", "克利夫兰美术馆，藏品号 1938.13"],
+        ["入藏", "Purchase from the J. H. Wade Fund，1938 年购藏"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "本条目核查等级为「馆藏官方核实」：以上各项照录馆方藏品记录，未作改写。", "src": "cleveland"},
+      {"t": "stmt", "state": "adopt", "text": "馆方定名「Fu Wu Zun」即「父戊尊」，取自器内铭文——这是本条目与本库另一件克利夫兰所藏西周尊（[[work:zhou-zun-cma|1951.151]]）的关键区别：同为「尊」，一件无铭、一件有铭，证据等级不同，不能因体量或纹样精美程度而混同断代可靠度。"}
+    ],
+    "form": [
+      {"t": "p", "text": "馆方说明称器身饰龙纹与兽面纹（taotie）——本库依通则称「兽面纹」，见下「争议字段」。喇叭口、圈足的基本轮廓与本库另一件克利夫兰藏西周尊相近，属同一大类的觚形尊系统。"},
+      {"t": "gap", "text": "馆方公开描述文字（description 字段）为空，仅有简短的 did_you_know 一句，本库未见更完整的纹样分区说明，不勉强补全"}
+    ],
+    "inscription": [
+      {"t": "p", "text": "器内有铭文，馆方公开记录仅给出译文而未给出原始字形与拓片：「made this precious sacrificial vessel for Father Wu」（为父戊作此宝尊彝）。「父戊」是以天干「戊」为父辈庙号的典型商周称谓方式，馆方定名「Fu Wu Zun」即由此而来。", "src": "cleveland"},
+      {"t": "stmt", "state": "pend", "text": "馆方数据库有两个字段记录铭文：`inscribed`（是否有铭的旗标）与 `inscriptions`（铭文详情数组）。本件前者为空，若只查前者会误判为无铭——本库经交叉核对 `inscriptions` 数组才找到这条铭文译文，原字形释读、铭文字数与是否另有族徽符号，馆方公开数据未给出，本库未见拓片，不代为补全或断言。"}
+    ],
+    "technique": [
+      {"t": "p", "text": "块范法铸造，喇叭口与圈足应为整体浑铸或分段接铸，馆方公开记录未详述铸造细节。"},
+      {"t": "stmt", "state": "pend", "text": "具体铸造工艺缺检测支撑，本库不作断言。"}
+    ],
+    "excavation": [
+      {"t": "gap", "text": "出土地点与出土脉络不明，馆方递藏档案起点即为纽约古董商，传世流散品的常见状况"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "器形序列", "conf": "较可靠", "year": "约前 1000 – 前 900",
+       "text": "喇叭口与圈足的形制配置，是西周早期觚形尊的常见样式，馆方据此定年代。铭文虽存在，但内容仅为「为父戊作宝尊彝」一类的祭祀套语，未含可锚定绝对年代的历史事件或王年，故本条目仍以器形序列而非铭文本身作为断代依据——这与本库李簋、何尊等靠铭文记载具体史事而定年的情形不同，不可因为「有铭文」就笼统升级证据等级。",
+       "src": "cleveland"}
+    ],
+    "provenance": [
+      {"t": "p", "text": "1938 年由纽约古董商同芸公司（Tonying and Co., Inc.）售予克利夫兰美术馆。"},
+      {"t": "gap", "text": "馆方递藏档案可上溯至「?–1938，同芸公司」，再往前——尤其此物流出中国的经过、在华的藏家与出让情形——仍无记录。西方馆的 provenance 通常自经手古董商起算，商人之前的一段恰是最要紧而最不可考的一段，是本库反复讲的那个不对称的另一半。"},
+      {"t": "prov", "when": "?–1938", "text": "(Tonying and Co., Inc., New York, NY, sold to the Cleveland Museum of Art)", "src": "cleveland", "url": "https://clevelandart.org/art/1938.13"},
+      {"t": "prov", "when": "1938–", "text": "The Cleveland Museum of Art, Cleveland, OH", "src": "cleveland", "url": "https://clevelandart.org/art/1938.13"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "可与本库另一件克利夫兰藏西周尊（[[work:zhou-zun-cma|1951.151]]）对照：同为喇叭口觚形尊，一件有铭、一件无铭，是体会「同名不同证」的直接例子，也是 [[class:zun|尊]] 器类条目「代表实例」一节所记方法的第三个样本。",
+        "馆方著录中提到此器见于 Max Loehr《Ritual Vessels of Bronze Age China》与陈梦家、松丸道雄《殷周青銅器分類図錄》两部权威著录，有兴趣深入可按此追查。",
+        "克利夫兰的中国部藏品多为 CC0，可自由取用高清图自行比对。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "dep", "text": "馆方说明沿用「taotie」（饕餮纹）描述兽首纹样，本库依通则改称「兽面纹」，理由见「鼎」条目。", "src": "xuanhe-bogu-tu"},
+      {"t": "stmt", "state": "pend", "text": "铭文原字形与拓片本库未见，仅据馆方译文转述，具体释读与是否另有异说，本库无法核实。"},
+      {"t": "gap", "text": "出土脉络与 1938 年之前的递藏均不明"}
+    ]
+  }
+}

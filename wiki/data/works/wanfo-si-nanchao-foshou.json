@@ -1,0 +1,75 @@
+{
+  "schema": "work/1",
+  "id": "wanfo-si-nanchao-foshou",
+  "title": "万佛寺南朝佛坐像",
+  "kind": "石雕",
+  "period": "wei-jin-nanbei",
+  "year": "南朝梁（502–557），具体年份不可考",
+  "year_sort": 530,
+  "medium": "砂岩，圆雕",
+  "size": "本库未核实精确尺寸",
+  "holder": "四川博物院",
+  "site": "wanfo-si",
+  "classes": [],
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sitting_Buddha%2C_China%2C_unearthed_from_Wanfo_Temple%2C_Chengdu%2C_the_Liang_of_Southern_Dynasties%2C_502-557_AD%2C_sandstone_-_Sichuan_Provincial_Museum_-_Chengdu%2C_China_-_DSC04552.jpg",
+    "credit": "Daderot / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/wanfo-si-nanchao-foshou-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/91/Sitting_Buddha%2C_China%2C_unearthed_from_Wanfo_Temple%2C_Chengdu%2C_the_Liang_of_Southern_Dynasties%2C_502-557_AD%2C_sandstone_-_Sichuan_Provincial_Museum_-_Chengdu%2C_China_-_DSC04552.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 960,
+    "h": 1440,
+    "alt": "南朝梁佛坐像（头部已失），万佛寺遗址出土，四川博物院藏",
+    "note": "摄影者 Daderot 拍摄于四川博物院展陈现场并自行声明公共领域；馆方展签英文原文标注年代为『the Liang of Southern Dynasties, 502-557 AD』"
+  },
+  "verification": "memory",
+  "updated": "2026-08-05",
+  "sources": [
+    {"ref": "kaogu-wenwu", "note": "万佛寺出土南朝造像的著录与研究，本库未核实具体期号页码，仅作类别指认"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "南朝佛教造像在通史中的定位"},
+    {"ref": "wangxun-zhongguo-meishushi", "note": "交叉核对"},
+    {"ref": "sullivan-arts-of-china", "note": "英文通史对南朝佛教艺术稀缺性的讨论"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["出土", "万佛寺遗址（成都），历次零散出土之一，具体年份本库未核实"],
+        ["现状", "头部已失，仅存躯干、双臂、莲座及座下浮雕供养人／伎乐一列"],
+        ["类型", "圆雕单体坐佛像，不设背屏——与本库另立的 [[work:wanfo-si-beibei-xiang]] 属万佛寺南朝造像的两种不同形制"],
+        ["现藏", "四川博物院"]
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "**本条目原拟以候选名『南朝佛立像』收录，经核实万佛寺遗址在公开图像来源中可确证的圆雕单体南朝造像实为一件头部已失的坐佛，而非立像；南朝时期确凿可考的『立佛』实物均属带背屏的多尊组合造像，已归入 [[work:wanfo-si-beibei-xiang]] 一条。为避免以未经核实的『立像』想象替代实际可核验的材料，本条目改题『南朝佛坐像』，据实描述现存实物的真实状态（头部已失），不作复原式的完整描述。"}
+    ],
+    "form": [
+      {"t": "p", "text": "佛像结跏趺坐，双手姿势因残损难以完整辨识，衣纹以阴刻线表现通肩式或右袒式袈裟的褶皱，莲座下另浮雕一列人物（供养人或伎乐），细节因风化与残损已模糊难辨。"},
+      {"t": "stmt", "state": "adopt", "text": "该像不设背屏，主尊独立圆雕于莲座之上，座下另附一列小型人物浮雕，这种『圆雕主尊＋座部浮雕』的组合方式与 [[work:wanfo-si-beibei-xiang]] 一类『通体背屏＋高浮雕群像』的做法明显不同，说明万佛寺南朝造像至少存在两种并行的形制传统，具体二者是否存在早晚演变关系，本库未核实，不作定论。"}
+    ],
+    "technique": [
+      {"t": "p", "text": "以整块砂岩圆雕而成，躯体与莲座似为一体连做，座下人物列作浅浮雕处理，与主尊的圆雕手法形成层次区别。"}
+    ],
+    "excavation": [
+      {"t": "p", "text": "出土于万佛寺遗址，该遗址本身『有出土地而无原址』，历次出土均属零散发现，本件出土的具体年份、地点与共出器物关系，本库未核实，参见 [[site:wanfo-si]] 考古与著录史一节。"}
+    ],
+    "dating": [
+      {"t": "dating", "basis": "风格比对", "conf": "较可靠",
+       "text": "本件自身未见纪年题记，馆方展签将其笼统定为『南朝梁，502–557』，本库判断这一年代范围主要依据该像的造型风格与万佛寺遗址内另有具体纪年题记的背屏式造像（普通四年〔523〕、中大通五年〔533〕，见 [[work:wanfo-si-beibei-xiang]]）进行比较得出，而非本件自带独立的纪年证据。风格比对是本库承认的最弱一档依据，但因有同一遗址内多件纪年造像作为风格锚点，可靠度高于孤立的、无任何同期纪年参照物的风格比对，故标『较可靠』而非『存疑』。",
+       "src": "zhongguo-meishu-jianshi"}
+    ],
+    "provenance": [
+      {"t": "gap", "text": "本件自出土至入藏四川博物院之间的具体流转过程，本库未核实"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "现藏四川博物院，具体是否常设展出本库未核实。",
+        "条目图版取自参观者拍摄并自行声明公共领域的展陈现场照片，非馆方官方摄影，如需权威著录仍请查四川博物院官方网站或相关考古报告。"
+      ]},
+      {"t": "gap", "text": "本库未取得该件官方藏品页的可核实 URL，读者可自行查四川博物院官方网站核对"}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "本件的具体出土年份、地点与年代范围内的更精确断代，本库未核实，标为待校验。"},
+      {"t": "gap", "text": "头部散失的具体经过（出土时已缺失，抑或出土后损坏）本库未核实"}
+    ]
+  }
+}
