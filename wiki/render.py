@@ -269,10 +269,18 @@ def zoom_url(im):
 
 
 def _credit(im):
+    """署名区。**图示级标记放在这里，不放在各调用点**——
+
+    作品页的粘性图版、条目里的插图、卡片各走不同渲染路径，逐个补标记必漏一处，
+    而漏掉的那处恰恰会让读者以为看过了原作。放在署名这个咽喉点，
+    凡显示出处的地方就一定带着限定。同一条教训刚在块渲染上吃过一次：
+    契约里声明而渲染层没接的块，会被静默丢掉且哪里都不报错。
+    """
     src = (f'<a class="cr-src" href="{e(im["source_url"])}" target="_blank" rel="noopener">'
            f'{e(im.get("credit", ""))}</a>') if im.get("source_url") else \
         f'<span class="cr-src">{e(im.get("credit", ""))}</span>'
-    return f'{src}<span class="cr-lic">{e(im.get("license", ""))}</span>'
+    return (f'{src}<span class="cr-lic">{e(im.get("license", ""))}</span>'
+            f'{_plate_grade(im)}')
 
 
 def _img_links(im):
@@ -284,6 +292,24 @@ def _img_links(im):
     if im.get("source_url"):
         out.append(f'<a href="{e(im["source_url"])}" target="_blank" rel="noopener">藏品页</a>')
     return f'<span class="cr-links">{" · ".join(out)}</span>' if out else ""
+
+
+PLATE_MIN_W = 1000
+
+
+def _plate_grade(im):
+    """分辨率不足时自动打「图示级」标记。
+
+    **自动，而非靠撰写者记得**——忘记加标记的那一次，正是最需要它的那一次。
+    本库的图是图示（这是哪一件）而非图版（这一笔怎么走的）：600px 认得出是
+    《浮玉山居图》，据此谈钱选的用笔却是空话。两件事的界限必须让读者看见，
+    否则一张小图会被当成看过了原作。
+    """
+    w = im.get("w") or 0
+    if not w or w >= PLATE_MIN_W:
+        return ""
+    return (f'<span class="cr-grade" title="本库的图用于辨认作品，不用于论笔墨">'
+            f'图示级 {w}px</span>')
 
 
 def figure(im, depth, caption=None, corpus=None):

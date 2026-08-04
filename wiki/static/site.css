@@ -401,6 +401,10 @@ blockquote cite { display: block; font: 400 12.5px var(--mono); font-style: norm
 .credit { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline;
   font: 400 10.5px/1.6 var(--mono); color: var(--faint); margin-top: 5px; }
 .cr-src { color: var(--muted); } .cr-lic { color: var(--faint); }
+/* 图示级标记：分辨率不足以论笔墨。做成虚线框而非实心徽章——它是一句限定，
+   不是一枚勋章。本库出过「已验证」徽章给传说盖章的教训，标记只该往下限定。 */
+.cr-grade { color: var(--faint); border: 1px dashed var(--line);
+  border-radius: 2px; padding: 1px 5px; font-size: 10.5px; letter-spacing: .02em; }
 .cr-links { margin-left: auto; display: flex; gap: 10px; }
 
 /* ── 作品页：图版对照 ───────────────────────────────────────────────── */

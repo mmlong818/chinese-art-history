@@ -9,7 +9,18 @@
   "year_sort": 1400,
   "medium": "泥塑彩绘（木骨泥塑）",
   "holder": "原址（甘肃天水麦积山石窟第 4 窟）",
-  "image_status": "in-situ",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Majishan_grotto_004.jpg",
+    "credit": "Shizhao / Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "attribution_required": true,
+    "thumb": "img/maijishan-4-sculptures-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Majishan_grotto_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 960,
+    "h": 643,
+    "alt": "麦积山第 4 窟七佛阁造像"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -150,10 +161,6 @@
           "留意崖阁本身的仿木构屋檐浮雕，这部分与七佛造像的重修节奏未必同步。",
           "本组造像是本库示范「先分层再读图像」方法的代表案例，建议与麦积山第 133 窟小沙弥像对照阅读，体会两种不同的重修强度。"
         ]
-      },
-      {
-        "t": "gap",
-        "text": "本库无自由授权图版：麦积山属原址不可移动文物，国内主管机构未开放影像授权，本库不自行取图。可至麦积山石窟艺术研究所官方渠道查看"
       }
     ],
     "disputes": [

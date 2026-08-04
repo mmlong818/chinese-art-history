@@ -9,7 +9,18 @@
   "year_sort": 1358,
   "medium": "矿物颜料壁画，绘于砖壁地仗层上",
   "holder": "山西芮城永乐宫纯阳殿（现址，1959–1964 年整体搬迁重装）",
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zhu_Haogu%27s_atelier._Zhongli_Quan_Instructing_Lu_Dongbin._completed_by_1358._Chunyangdian,_Yonlegong,_Shanxi_Province.jpg",
+    "credit": "Atelier of Zhu Haogu / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/yongle-chunyang-shenyou-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Zhu_Haogu%27s_atelier._Zhongli_Quan_Instructing_Lu_Dongbin._completed_by_1358._Chunyangdian%2C_Yonlegong%2C_Shanxi_Province.jpg",
+    "w": 745,
+    "h": 976,
+    "alt": "纯阳殿神游显化图局部：钟离权教诲吕洞宾"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -53,9 +64,8 @@
     "viewing": [
       {"t": "ul", "items": [
         "宜按分格顺序环殿而行观看，体会其『连环画』式的叙事节奏，与三清殿朝元图的静态环绕式构图对照，能直观感受两殿风格差异。",
-        "本库无自由授权图版，可查永乐宫文物保管所官方渠道或相关出版物图版。"
-      ]},
-      {"t": "gap", "text": "本库未取得自由授权的纯阳殿壁画专门图版"}
+        "本库现有图版为其中一格『钟离权教诲吕洞宾』场面，非通殿全景。"
+      ]}
     ],
     "disputes": [
       {"t": "stmt", "state": "pend", "text": "具体分格总数与各格情节的逐一释读，本库未核实到完整清单。"},

@@ -9,7 +9,7 @@
   "year_sort": 520,
   "medium": "泥塑彩绘（木骨泥塑）",
   "holder": "原址（甘肃天水麦积山石窟第 133 窟）",
-  "image_status": "in-situ",
+  "image_status": "no-free-image",
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -138,7 +138,7 @@
       },
       {
         "t": "gap",
-        "text": "本库无自由授权图版：麦积山属原址不可移动文物，国内主管机构未开放影像授权，本库不自行取图。可至麦积山石窟艺术研究所官方渠道查看"
+        "text": "本库无自由授权图版：麦积山第 4、5、9、13 等窟在 Wikimedia Commons 均有游客自由授权照片，说明现场可摄，第 133 窟（万佛洞）只是尚未有人上传或本库未检得，属本库欠账，非原址禁摄——本条不适用「in-situ」档"
       }
     ],
     "disputes": [

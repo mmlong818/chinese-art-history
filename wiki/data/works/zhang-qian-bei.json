@@ -11,7 +11,18 @@
   "size": "本库未核实精确尺寸，据通行著录，碑高约 2.9 米，全文约 570 字",
   "holder": "原立于山东东平，现藏山东省泰安市岱庙",
   "classes": ["lishu"],
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rubbing_Zhang_Qians_Epitaph.jpg",
+    "credit": "ReijiYamashina777 / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "attribution_required": true,
+    "thumb": "img/zhang-qian-bei-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Rubbing_Zhang_Qians_Epitaph.jpg",
+    "w": 881,
+    "h": 1587,
+    "alt": "《张迁碑》拓本册页局部，拓本版本未详，仅供参考，非原石实物照片"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -60,7 +71,7 @@
       {"t": "ul", "items": [
         "**取法此碑务必核实拓本版本，避开翻刻本**——翻刻会磨去它最关键的方硬棱角，学错了反而不如不学。",
         "与曹全碑对照看，二者立碑性质相同（故吏为旧长官颂德），书风却是方拙与秀逸的两极，是体会「汉隶」内部风格跨度最直接的一组对照。",
-        "本库无该件自由授权图版，检索未见可信来源的清晰原石或拓本照片，image_status 标为无自由图版，非编纂遗漏。"
+        "本库现有图版为拓本册页局部照片（Wikimedia Commons 自由授权），非原石实物照片，版本未详，仅供参考。"
       ]},
       {"t": "gap", "text": "尚缺该件的高清拓本图版"}
     ],

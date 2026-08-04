@@ -9,7 +9,18 @@
   "year_sort": 190,
   "medium": "石灰岩浅浮雕加阴刻线",
   "holder": "原址（山东沂南北寨汉墓博物馆）",
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Yinan_battle_scene,_2nd_century_CE,_Eastern_Han.png",
+    "credit": "Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/yinan-zhengzhan-tu-800.png",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Yinan_battle_scene%2C_2nd_century_CE%2C_Eastern_Han.png",
+    "w": 960,
+    "h": 133,
+    "alt": "沂南汉墓攻战图拓片（局部），拓本版本未详，仅供参考，非原石实物照片"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -53,9 +64,8 @@
     "viewing": [
       {"t": "ul", "items": [
         "留意人物叠压表现纵深的构图手法，与其他汉代画像石常见的横带平列式构图对比，能看出这幅画在叙事密度上的特殊追求。",
-        "本库无自由授权图版，可赴沂南北寨汉墓博物馆现场参观。"
-      ]},
-      {"t": "gap", "text": "本库未取得自由授权的攻战图专门图版"}
+        "本库现有图版为拓片照片，非原石实物照片，拓本版本未详。"
+      ]}
     ],
     "disputes": [
       {"t": "stmt", "state": "disp", "text": "画面所绘是否指向具体历史战事，学界并无共识，本库不采纳任何一种具体比定。"},

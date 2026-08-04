@@ -9,7 +9,18 @@
   "year_sort": 570,
   "medium": "矿物颜料壁画，绘于墓道砖壁地仗层上",
   "holder": "山西博物院（部分揭取展出）与太原市文物考古机构（部分原址保存）",
-  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Northern_Qi_Restored_Tomb_of_Lou_Rui,_570_AD_(10100295875).jpg",
+    "credit": "Gary Todd / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/lourui-anma-chuxing-bihua-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Northern_Qi_Restored_Tomb_of_Lou_Rui%2C_570_AD_%2810100295875%29.jpg",
+    "w": 960,
+    "h": 640,
+    "alt": "鞍马出行图壁画揭取段落，山西博物院展出"
+  },
   "verification": "memory",
   "updated": "2026-08-04",
   "sources": [
@@ -55,8 +66,7 @@
       {"t": "ul", "items": [
         "山西博物院展出的揭取段落，可近距离观察线条与色彩细节，但已脱离原墓道的空间与光线环境。",
         "留意画面的『行进感』：马匹朝向与人物姿态经过设计，呼应了墓道本身由外向内的空间走向，这一点在博物馆展柜的孤立展示中不易感受到。"
-      ]},
-      {"t": "gap", "text": "本库无自由授权图版，可查山西博物院官方渠道或相关出版物图版"}
+      ]}
     ],
     "disputes": [
       {"t": "stmt", "state": "disp", "text": "画风与杨子华的关系纯属风格比对，无确证材料，本库不采纳具体画家归属，见遗址条目。"},
