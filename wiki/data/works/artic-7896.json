@@ -1,0 +1,108 @@
+{
+  "schema": "work/1",
+  "id": "artic-7896",
+  "depth": "record",
+  "title": "Dinner Plate（1958.258）",
+  "kind": "陶瓷",
+  "period": "qing",
+  "holder": "芝加哥艺术博物馆（藏品号 1958.258）",
+  "year": "1796–1810",
+  "size": "Diam.: 22.3 cm (8 3/4 in.)",
+  "medium": "Hard-paste porcelain, glaze, with enamels in colors, and gilding",
+  "one_line": "芝加哥艺术博物馆藏陶瓷，馆方断代作「1796–1810」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1958.258"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Dinner Plate"
+          ],
+          [
+            "创作者（馆方记）",
+            "Artist unknown (Chinese, made for the American market)；China"
+          ],
+          [
+            "馆方文化断代",
+            "1796–1810"
+          ],
+          [
+            "馆方器类",
+            "Ceramics"
+          ],
+          [
+            "材质／技法",
+            "Hard-paste porcelain, glaze, with enamels in colors, and gilding"
+          ],
+          [
+            "尺寸",
+            "Diam.: 22.3 cm (8 3/4 in.)"
+          ],
+          [
+            "入藏说明",
+            "Bequest of Frederick S. Colburn"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1958.258"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/7896"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 1796–1810 唯一落入 qing；器类归入依据仅为：type=Ceramics。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "exhib",
+        "when": "1957",
+        "title": "Art Institute of Chicago, China-Trade Porcelain from the Frederick S. Colburn Collection, Feb. 1–July 31, 1957, no cat.",
+        "text": "",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/7896"
+      },
+      {
+        "t": "prov",
+        "when": "见馆方档案原文（未分段）",
+        "text": "DeWitt Clinton (1769-1828) and Maria Franklin Clinton (1775-1818; born Maria Franklin; also Mrs. DeWitt Clinton), Albany, NY [monogram on rim]. Frederick Standish Colburn (1878–1957), Evanston, IL, by Jan. 29, 1957 [incoming receipt, RX2123, Jan. 29, 1957; copy in curatorial object file]; bequeathed to the Art Institute of Chicago, 1958.",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/7896"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/7896",
+    "credit": "Bequest of Frederick S. Colburn",
+    "license": "PD",
+    "thumb": "img/artic-7896-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/7597e412-18c9-0e33-0202-79f808cd43c3/full/full/0/default.jpg",
+    "w": 843,
+    "h": 794
+  }
+}

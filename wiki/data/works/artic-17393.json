@@ -1,0 +1,82 @@
+{
+  "schema": "work/1",
+  "id": "artic-17393",
+  "depth": "record",
+  "title": "Snuff Bottle with Buddhist Figures（1925.988）",
+  "kind": "竹木牙角",
+  "period": "qing",
+  "holder": "芝加哥艺术博物馆（藏品号 1925.988）",
+  "year": "Qing dynasty (1644-1911)",
+  "size": "Height: 2 1/2\" Diameter: 2\"  Height: 6.2 cm 2 1/2 inches  Diameter: 5 cm 2 inches",
+  "medium": "Carved and tinted ivory",
+  "one_line": "芝加哥艺术博物馆藏竹木牙角，馆方断代作「Qing dynasty (1644-1911)」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1925.988"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Snuff Bottle with Buddhist Figures"
+          ],
+          [
+            "创作者（馆方记）",
+            "China"
+          ],
+          [
+            "馆方文化断代",
+            "Qing dynasty (1644-1911)"
+          ],
+          [
+            "馆方器类",
+            "Vessel"
+          ],
+          [
+            "材质／技法",
+            "Carved and tinted ivory"
+          ],
+          [
+            "尺寸",
+            "Height: 2 1/2\" Diameter: 2\"  Height: 6.2 cm 2 1/2 inches  Diameter: 5 cm 2 inches"
+          ],
+          [
+            "入藏说明",
+            "Lucy Maud Buckingham Collection"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1925.988"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/17393"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：Vessel + ivory/horn/bamboo。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  },
+  "image_status": "copyright"
+}

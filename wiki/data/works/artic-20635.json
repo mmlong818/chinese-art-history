@@ -1,0 +1,91 @@
+{
+  "schema": "work/1",
+  "id": "artic-20635",
+  "depth": "record",
+  "title": "Wine Vessel (Zun)（1925.359）",
+  "kind": "青铜",
+  "period": "qing",
+  "holder": "芝加哥艺术博物馆（藏品号 1925.359）",
+  "year": "Qing dynasty (1644–1911) or modern, 18th century or later",
+  "size": "26.3 × 22.3 cm (10 3/8 × 8 3/4 in.); Diam.: 22.3 cm (8 3/4 in.)",
+  "medium": "Bronze",
+  "one_line": "芝加哥艺术博物馆藏青铜，馆方断代作「Qing dynasty (1644–1911) or modern, 18th century or later」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1925.359"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Wine Vessel (Zun)"
+          ],
+          [
+            "创作者（馆方记）",
+            "China"
+          ],
+          [
+            "馆方文化断代",
+            "Qing dynasty (1644–1911) or modern, 18th century or later"
+          ],
+          [
+            "馆方器类",
+            "Metalwork"
+          ],
+          [
+            "材质／技法",
+            "Bronze"
+          ],
+          [
+            "尺寸",
+            "26.3 × 22.3 cm (10 3/8 × 8 3/4 in.); Diam.: 22.3 cm (8 3/4 in.)"
+          ],
+          [
+            "入藏说明",
+            "Lucy Maud Buckingham Collection"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1925.359"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/20635"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：Metalwork + bronze（器物向）。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "见馆方档案原文（未分段）",
+        "text": "Yamanaka and Company, Boston; sold to Kate Sturges Buckingham (1858–1937), Chicago, [Kate served as executor of her sister Lucy Maud Buckingham's estate and continued expanding Lucy's collection following her death in 1920] May. 7, 1925; given to the Art Institute of Chicago, May. 7, 1925.",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/20635"
+      }
+    ]
+  },
+  "image_status": "copyright"
+}

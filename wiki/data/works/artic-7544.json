@@ -1,0 +1,100 @@
+{
+  "schema": "work/1",
+  "id": "artic-7544",
+  "depth": "record",
+  "title": "Jar (Hu)（1931.10）",
+  "kind": "青铜",
+  "period": "qin-han",
+  "holder": "芝加哥艺术博物馆（藏品号 1931.10）",
+  "year": "Jar: Han dynasty (206 BC–220 AD); decoration: 20th century",
+  "size": "32.4 × 26.4 cm (13 1/16 × 10 7/8 in.); Diam.: 27.7 cm (10 7/8 in.)",
+  "medium": "Bronze with incised gilt decoration",
+  "one_line": "芝加哥艺术博物馆藏青铜，馆方断代作「Jar: Han dynasty (206 BC–220 AD); decoration: 20th century」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1931.10"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Jar (Hu)"
+          ],
+          [
+            "创作者（馆方记）",
+            "China"
+          ],
+          [
+            "馆方文化断代",
+            "Jar: Han dynasty (206 BC–220 AD); decoration: 20th century"
+          ],
+          [
+            "馆方器类",
+            "Metalwork"
+          ],
+          [
+            "材质／技法",
+            "Bronze with incised gilt decoration"
+          ],
+          [
+            "尺寸",
+            "32.4 × 26.4 cm (13 1/16 × 10 7/8 in.); Diam.: 27.7 cm (10 7/8 in.)"
+          ],
+          [
+            "入藏说明",
+            "Lucy Maud Buckingham Collection"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1931.10"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/7544"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qin-han；器类归入依据仅为：Metalwork + bronze（器物向）。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "见馆方档案原文（未分段）",
+        "text": "Robert Bensabott, Chicago; sold to Kate Sturges Buckingham (1858–1937), Chicago, [Kate served as executor of her sister Lucy Maud Buckingham's estate and continued expanding Lucy's collection following her death in 1920] Jan. 22, 1931; given to the Art Institute of Chicago, Jan. 22, 1931.",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/7544"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/7544",
+    "credit": "Lucy Maud Buckingham Collection",
+    "license": "PD",
+    "thumb": "img/artic-7544-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/ac6666b8-5a2d-9086-ac42-ae36fa62bc57/full/full/0/default.jpg",
+    "w": 843,
+    "h": 1124
+  }
+}

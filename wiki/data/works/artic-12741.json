@@ -1,0 +1,91 @@
+{
+  "schema": "work/1",
+  "id": "artic-12741",
+  "depth": "record",
+  "title": "Vase with Rectangular Handles（1924.432）",
+  "kind": "陶瓷",
+  "period": "qing",
+  "holder": "芝加哥艺术博物馆（藏品号 1924.432）",
+  "year": "Qing dynasty (1644–1911), Qianlong reign mark and period (1736–1795)",
+  "size": "30.1 × 13.4 cm (11 7/8 × 5 1/4 in.); Diam.: 13.4 cm (5 1/4 in.)",
+  "medium": "Porcelain with pale lavender-blue (tianlan) glaze",
+  "one_line": "芝加哥艺术博物馆藏陶瓷，馆方断代作「Qing dynasty (1644–1911), Qianlong reign mark and period (1736–1795)」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1924.432"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Vase with Rectangular Handles"
+          ],
+          [
+            "创作者（馆方记）",
+            "China"
+          ],
+          [
+            "馆方文化断代",
+            "Qing dynasty (1644–1911), Qianlong reign mark and period (1736–1795)"
+          ],
+          [
+            "馆方器类",
+            "Vessel"
+          ],
+          [
+            "材质／技法",
+            "Porcelain with pale lavender-blue (tianlan) glaze"
+          ],
+          [
+            "尺寸",
+            "30.1 × 13.4 cm (11 7/8 × 5 1/4 in.); Diam.: 13.4 cm (5 1/4 in.)"
+          ],
+          [
+            "入藏说明",
+            "Lucy Maud Buckingham Collection"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1924.432"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/12741"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：Vessel + 材质/分类含瓷器。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/12741",
+    "credit": "Lucy Maud Buckingham Collection",
+    "license": "PD",
+    "thumb": "img/artic-12741-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/a6cbb336-cf86-2454-85e9-23a09f354fe6/full/full/0/default.jpg",
+    "w": 843,
+    "h": 1324
+  }
+}

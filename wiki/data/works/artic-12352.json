@@ -1,0 +1,91 @@
+{
+  "schema": "work/1",
+  "id": "artic-12352",
+  "depth": "record",
+  "title": "Dish with with Lotus, Saggataria, Mallow, and Peony（1924.324）",
+  "kind": "陶瓷",
+  "period": "northern-song",
+  "holder": "芝加哥艺术博物馆（藏品号 1924.324）",
+  "year": "Northern Song dynasty (960–1127)/Jin dynasty (1115–1234), early 12th century",
+  "size": "4.7 × 24.5 cm (1 7/8 × 9 5/8 in.); Diam.: 24.5 cm (9 5/8 in.)",
+  "medium": "Ding ware; porcelain with underglaze mold-impressed decoration",
+  "one_line": "芝加哥艺术博物馆藏陶瓷，馆方断代作「Northern Song dynasty (960–1127)/Jin dynasty (1115–1234), early 12th century」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1924.324"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Dish with with Lotus, Saggataria, Mallow, and Peony"
+          ],
+          [
+            "创作者（馆方记）",
+            "China"
+          ],
+          [
+            "馆方文化断代",
+            "Northern Song dynasty (960–1127)/Jin dynasty (1115–1234), early 12th century"
+          ],
+          [
+            "馆方器类",
+            "Vessel"
+          ],
+          [
+            "材质／技法",
+            "Ding ware; porcelain with underglaze mold-impressed decoration"
+          ],
+          [
+            "尺寸",
+            "4.7 × 24.5 cm (1 7/8 × 9 5/8 in.); Diam.: 24.5 cm (9 5/8 in.)"
+          ],
+          [
+            "入藏说明",
+            "Lucy Maud Buckingham Collection"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1924.324"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/12352"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → northern-song；器类归入依据仅为：Vessel + 材质/分类含瓷器。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/12352",
+    "credit": "Lucy Maud Buckingham Collection",
+    "license": "PD",
+    "thumb": "img/artic-12352-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/d0d9a3d7-54a5-f626-e887-f1762d9ba06f/full/full/0/default.jpg",
+    "w": 843,
+    "h": 804
+  }
+}

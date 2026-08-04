@@ -1,0 +1,100 @@
+{
+  "schema": "work/1",
+  "id": "artic-7521",
+  "depth": "record",
+  "title": "Pair of Plaques with Profile Animal Heads（1931.3a-b）",
+  "kind": "青铜",
+  "period": "western-zhou",
+  "holder": "芝加哥艺术博物馆（藏品号 1931.3a-b）",
+  "year": "Western Zhou dynasty ( 1046–771 BC ), 10th/8th century B.C.",
+  "size": "30.2 × 22.4 × 0.2 cm (11 7/8 × 8 13/16 × 3/16 in.)",
+  "medium": "Bronze",
+  "one_line": "芝加哥艺术博物馆藏青铜，馆方断代作「Western Zhou dynasty ( 1046–771 BC ), 10th/8th century B.C.」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1931.3a-b"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Pair of Plaques with Profile Animal Heads"
+          ],
+          [
+            "创作者（馆方记）",
+            "China"
+          ],
+          [
+            "馆方文化断代",
+            "Western Zhou dynasty ( 1046–771 BC ), 10th/8th century B.C."
+          ],
+          [
+            "馆方器类",
+            "Metalwork"
+          ],
+          [
+            "材质／技法",
+            "Bronze"
+          ],
+          [
+            "尺寸",
+            "30.2 × 22.4 × 0.2 cm (11 7/8 × 8 13/16 × 3/16 in.)"
+          ],
+          [
+            "入藏说明",
+            "Lucy Maud Buckingham Collection"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1931.3a-b"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/7521"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → western-zhou；器类归入依据仅为：Metalwork + bronze（器物向）。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "见馆方档案原文（未分段）",
+        "text": "C. T. Loo and Company, New York; sold to Kate Sturges Buckingham (1858–1937), Chicago, [Kate served as executor of her sister Lucy Maud Buckingham's estate and continued expanding Lucy's collection following her death in 1920] Jan. 12, 1931; given to the Art Institute of Chicago, Jan. 12, 1931.",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/7521"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/7521",
+    "credit": "Lucy Maud Buckingham Collection",
+    "license": "PD",
+    "thumb": "img/artic-7521-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/997c2dd3-437d-4b05-77b8-8c3a7944c82a/full/full/0/default.jpg",
+    "w": 843,
+    "h": 608
+  }
+}

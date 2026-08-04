@@ -1,0 +1,109 @@
+{
+  "schema": "work/1",
+  "id": "artic-12346",
+  "depth": "record",
+  "title": "Thanka (Religious Picture)（1932.874）",
+  "kind": "织绣",
+  "period": "qing",
+  "holder": "芝加哥艺术博物馆（藏品号 1932.874）",
+  "year": "Qing dynasty (1644–1911), 1743/44",
+  "size": "371.1 × 126.2 cm (146 × 49 3/4 in.)\nWrapper: 128.4 × 42.1 cm (50 1/2 × 16 1/2 in.)\nCover repeat: 56.4 × 12 cm (22 1/4 × 4 3/4 in.)\nLining repeat (width): 16.5 cm (6 1/2 in.)",
+  "medium": "Silk, slit tapestry weave with interlaced outlining wefts; painted details in colors, black, and with gold leaf; outer scroll top: silk, warp-float faced 5:1 satin weave with supplementary patterning wefts and self-patterned by ground weft floats; scroll wrapper: silk, warp-float faced 5:1 satin weave with 1:2 'S' twill interlacings of secondary binding warps and supplementary patterning wefts and self-patterned by main warp and ground weft floats; rayon and cotton ties; scroll wrapper lined with silk, warp-float faced 2:1 'S' twill weave self-patterned by areas of plain weave",
+  "one_line": "芝加哥艺术博物馆藏织绣，馆方断代作「Qing dynasty (1644–1911), 1743/44」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1932.874"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Thanka (Religious Picture)"
+          ],
+          [
+            "创作者（馆方记）",
+            "Manchu；China"
+          ],
+          [
+            "馆方文化断代",
+            "Qing dynasty (1644–1911), 1743/44"
+          ],
+          [
+            "馆方器类",
+            "Textile"
+          ],
+          [
+            "材质／技法",
+            "Silk, slit tapestry weave with interlaced outlining wefts; painted details in colors, black, and with gold leaf; outer scroll top: silk, warp-float faced 5:1 satin weave with supplementary patterning wefts and self-patterned by ground weft floats; scroll wrapper: silk, warp-float faced 5:1 satin weave with 1:2 'S' twill interlacings of secondary binding warps and supplementary patterning wefts and self-patterned by main warp and ground weft floats; rayon and cotton ties; scroll wrapper lined with silk, warp-float faced 2:1 'S' twill weave self-patterned by areas of plain weave"
+          ],
+          [
+            "尺寸",
+            "371.1 × 126.2 cm (146 × 49 3/4 in.)\nWrapper: 128.4 × 42.1 cm (50 1/2 × 16 1/2 in.)\nCover repeat: 56.4 × 12 cm (22 1/4 × 4 3/4 in.)\nLining repeat (width): 16.5 cm (6 1/2 in.)"
+          ],
+          [
+            "入藏说明",
+            "Gift of Ma Chang Kee to the Buckingham Collection"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1932.874"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/12346"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Textile + medium 含织物材料。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "exhib",
+        "when": "2000",
+        "title": "Art Institute of Chicago, Elizabeth F. Cheney and Agnes Allerton Textile Galleries, Clothed to Rule the Universe: Ming and Qing Dynasty Textiles at The Art Inst",
+        "text": "Art Institute of Chicago, Elizabeth F. Cheney and Agnes Allerton Textile Galleries, Clothed to Rule the Universe: Ming and Qing Dynasty Textiles at The Art Institute of Chicago, Sept. 13, 2000–Jan. 2, 2001, cat. 19.",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/12346"
+      },
+      {
+        "t": "exhib",
+        "when": "2018",
+        "title": "Salem, MA, Peabody Essex Museum, The Last Empresses of China, Aug. 18, 2018-Feb. 10, 2019.",
+        "text": "",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/12346"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/12346",
+    "credit": "Gift of Ma Chang Kee to the Buckingham Collection",
+    "license": "PD",
+    "thumb": "img/artic-12346-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/9532b99b-276a-64c6-fa28-bbf2d4f5b7d8/full/full/0/default.jpg",
+    "w": 843,
+    "h": 1641
+  }
+}

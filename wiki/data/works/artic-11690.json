@@ -1,0 +1,116 @@
+{
+  "schema": "work/1",
+  "id": "artic-11690",
+  "depth": "record",
+  "title": "Maitreya Buddha（1924.115）",
+  "kind": "石雕",
+  "period": "sui-tang",
+  "holder": "芝加哥艺术博物馆（藏品号 1924.115）",
+  "year": "Tang dynasty (618–906), dated 705",
+  "size": "82.3 × 33 × 30.2 cm (32 7/16 × 12 15/16 × 11 15/16 in.)",
+  "medium": "Limestone",
+  "one_line": "芝加哥艺术博物馆藏石雕，馆方断代作「Tang dynasty (618–906), dated 705」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1924.115"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Maitreya Buddha"
+          ],
+          [
+            "创作者（馆方记）",
+            "Shaanxi or Henan provinces, China"
+          ],
+          [
+            "馆方文化断代",
+            "Tang dynasty (618–906), dated 705"
+          ],
+          [
+            "馆方器类",
+            "Sculpture"
+          ],
+          [
+            "材质／技法",
+            "Limestone"
+          ],
+          [
+            "尺寸",
+            "82.3 × 33 × 30.2 cm (32 7/16 × 12 15/16 × 11 15/16 in.)"
+          ],
+          [
+            "入藏说明",
+            "Gift of Alice Getty"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1924.115"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/11690"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → sui-tang；器类归入依据仅为：Sculpture + stone（雕塑向）。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "exhib",
+        "when": "1989",
+        "title": "Osaka, Museum of Oriental Ceramics, Shikago Bijutsukan Chūgoku bijutsu meihinten/Masterpieces of Chinese Arts from the Art Institute of Chicago, Feb. 11–March 2",
+        "text": "Osaka, Museum of Oriental Ceramics, Shikago Bijutsukan Chūgoku bijutsu meihinten/Masterpieces of Chinese Arts from the Art Institute of Chicago, Feb. 11–March 21, 1989; The Museum of Art, Tokyo, April 1–May 7, 1989; Idemitsu Museum of Arts, Tokyo, May 16–June 19, 1989.",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/11690"
+      },
+      {
+        "t": "exhib",
+        "when": "1984",
+        "title": "Los Angeles County Museum of Art, Light of Asia: Buddha Sakyamuni in Asian Art, Mar. 4–May 20, 1984; The Art Institute of Chicago, June 30–Aug. 26, 1984; The Br",
+        "text": "Los Angeles County Museum of Art, Light of Asia: Buddha Sakyamuni in Asian Art, Mar. 4–May 20, 1984; The Art Institute of Chicago, June 30–Aug. 26, 1984; The Brooklyn Museum, Nov. 1, 1984–Feb. 10, 1985.",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/11690"
+      },
+      {
+        "t": "prov",
+        "when": "见馆方档案原文（未分段）",
+        "text": "Yamanaka & Company, Shanghai, China; with Miss Alice Eliza Getty (1868–1946) by 1923; given to the Art Institute of Chicago, Feb. 13, 1924.",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/11690"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/11690",
+    "credit": "Gift of Alice Getty",
+    "license": "PD",
+    "thumb": "img/artic-11690-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/18fd2c70-eff4-33ca-b1d8-576757e6af4e/full/full/0/default.jpg",
+    "w": 843,
+    "h": 1062
+  }
+}

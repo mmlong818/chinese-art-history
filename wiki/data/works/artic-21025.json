@@ -1,0 +1,91 @@
+{
+  "schema": "work/1",
+  "id": "artic-21025",
+  "depth": "record",
+  "title": "Statuette of seated Daoist divinity（1964.558）",
+  "kind": "铜佛",
+  "period": "qing",
+  "holder": "芝加哥艺术博物馆（藏品号 1964.558）",
+  "year": "19th century",
+  "size": "8.5 × 8.3 × 5.7 cm (3 3/8 × 3 1/4 × 2 1/4 in.)",
+  "medium": "Gilded bronze",
+  "one_line": "芝加哥艺术博物馆藏铜佛，馆方断代作「19th century」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1964.558"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Statuette of seated Daoist divinity"
+          ],
+          [
+            "创作者（馆方记）",
+            "China or Korea"
+          ],
+          [
+            "馆方文化断代",
+            "19th century"
+          ],
+          [
+            "馆方器类",
+            "Metalwork"
+          ],
+          [
+            "材质／技法",
+            "Gilded bronze"
+          ],
+          [
+            "尺寸",
+            "8.5 × 8.3 × 5.7 cm (3 3/8 × 3 1/4 × 2 1/4 in.)"
+          ],
+          [
+            "入藏说明",
+            "Bequest of Russell Tyson"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1964.558"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/21025"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 1801–1900 唯一落入 qing；器类归入依据仅为：Metalwork + bronze（雕塑向）。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "见馆方档案原文（未分段）",
+        "text": "Russell Tyson (1867–1963), Chicago; bequeathed to the Art Institute of Chicago, Oct. 15, 1964.",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/21025"
+      }
+    ]
+  },
+  "image_status": "copyright"
+}

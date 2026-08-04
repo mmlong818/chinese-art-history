@@ -1,0 +1,108 @@
+{
+  "schema": "work/1",
+  "id": "artic-13956",
+  "depth": "record",
+  "title": "Watching the Waterfall 高士觀瀑圖（1924.1046）",
+  "kind": "画作",
+  "period": "ming",
+  "holder": "芝加哥艺术博物馆（藏品号 1924.1046）",
+  "year": "Ming dynasty (1368–1644), 15th century",
+  "size": "195.6 × 101.6 cm (77 × 30 in.)",
+  "medium": "Hanging scroll; ink and slight color on silk",
+  "one_line": "芝加哥艺术博物馆藏画作，馆方断代作「Ming dynasty (1368–1644), 15th century」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1924.1046"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Watching the Waterfall 高士觀瀑圖"
+          ],
+          [
+            "创作者（馆方记）",
+            "Xia Kui 夏葵 (Chinese, 15th century)"
+          ],
+          [
+            "馆方文化断代",
+            "Ming dynasty (1368–1644), 15th century"
+          ],
+          [
+            "馆方器类",
+            "Painting"
+          ],
+          [
+            "材质／技法",
+            "Hanging scroll; ink and slight color on silk"
+          ],
+          [
+            "尺寸",
+            "195.6 × 101.6 cm (77 × 30 in.)"
+          ],
+          [
+            "入藏说明",
+            "R. A. Waller Fund"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1924.1046"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/13956"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting + medium 含绘画材料。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "exhib",
+        "when": "1993",
+        "title": "Richard Barnhart, et al., Painters of the Great Ming: The Imperial Court and the Zhe School [Exh. cat.] (Dallas: Dallas Museum of Art, 1993), no. 26b.",
+        "text": "",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/13956"
+      },
+      {
+        "t": "prov",
+        "when": "见馆方档案原文（未分段）",
+        "text": "Hayassaki Collection, Japan",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/13956"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/13956",
+    "credit": "R. A. Waller Fund",
+    "license": "PD",
+    "thumb": "img/artic-13956-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/6633735b-c948-e149-1fdb-09bcd5f8f879/full/full/0/default.jpg",
+    "w": 843,
+    "h": 1621
+  }
+}

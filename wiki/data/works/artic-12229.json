@@ -1,0 +1,91 @@
+{
+  "schema": "work/1",
+  "id": "artic-12229",
+  "depth": "record",
+  "title": "Dragon-Handled Amphora 三彩双龙耳瓶（1924.286）",
+  "kind": "陶瓷",
+  "period": "sui-tang",
+  "holder": "芝加哥艺术博物馆（藏品号 1924.286）",
+  "year": "Tang dynasty, (A.D. 618–907), 1st half of 8th century 唐 （公元 618-907)，八世纪前半段",
+  "size": "H. 38.7 cm (15.2 in.)\ndiam. 17.5 cm (6.9 in.) 高 38.7 厘米 （15.2 英寸），直径 17.5 cm （6.9 英寸）",
+  "medium": "Earthenware with three-color (sancai) lead glazes 三彩铅釉陶器",
+  "one_line": "芝加哥艺术博物馆藏陶瓷，馆方断代作「Tang dynasty, (A.D. 618–907), 1st half of 8th century 唐 （公元 618-907)，八世纪前半段」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1924.286"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Dragon-Handled Amphora 三彩双龙耳瓶"
+          ],
+          [
+            "创作者（馆方记）",
+            "China"
+          ],
+          [
+            "馆方文化断代",
+            "Tang dynasty, (A.D. 618–907), 1st half of 8th century 唐 （公元 618-907)，八世纪前半段"
+          ],
+          [
+            "馆方器类",
+            "Vessel"
+          ],
+          [
+            "材质／技法",
+            "Earthenware with three-color (sancai) lead glazes 三彩铅釉陶器"
+          ],
+          [
+            "尺寸",
+            "H. 38.7 cm (15.2 in.)\ndiam. 17.5 cm (6.9 in.) 高 38.7 厘米 （15.2 英寸），直径 17.5 cm （6.9 英寸）"
+          ],
+          [
+            "入藏说明",
+            "Lucy Maud Buckingham Collection"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1924.286"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/12229"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → sui-tang；器类归入依据仅为：Vessel + 材质/分类含瓷器。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/12229",
+    "credit": "Lucy Maud Buckingham Collection",
+    "license": "PD",
+    "thumb": "img/artic-12229-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/7f0b217b-a6c0-06ea-cf95-db619df3760a/full/full/0/default.jpg",
+    "w": 843,
+    "h": 1368
+  }
+}

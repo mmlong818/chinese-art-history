@@ -1,0 +1,108 @@
+{
+  "schema": "work/1",
+  "id": "artic-7765",
+  "depth": "record",
+  "title": "Coffee Pot with Lid（1958.216a-b）",
+  "kind": "陶瓷",
+  "period": "qing",
+  "holder": "芝加哥艺术博物馆（藏品号 1958.216a-b）",
+  "year": "1790–1800",
+  "size": "24.5 × 20.6 × 12.4 cm (9 5/8 × 8 1/8 × 4 7/8 in.)",
+  "medium": "Hard-paste porcelain, enamels, and gilding",
+  "one_line": "芝加哥艺术博物馆藏陶瓷，馆方断代作「1790–1800」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1958.216a-b"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Coffee Pot with Lid"
+          ],
+          [
+            "创作者（馆方记）",
+            "Artist unknown (Chinese, made for the American market)；China"
+          ],
+          [
+            "馆方文化断代",
+            "1790–1800"
+          ],
+          [
+            "馆方器类",
+            "Ceramics"
+          ],
+          [
+            "材质／技法",
+            "Hard-paste porcelain, enamels, and gilding"
+          ],
+          [
+            "尺寸",
+            "24.5 × 20.6 × 12.4 cm (9 5/8 × 8 1/8 × 4 7/8 in.)"
+          ],
+          [
+            "入藏说明",
+            "Bequest of Frederick S. Colburn"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1958.216a-b"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/7765"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 1790–1800 唯一落入 qing；器类归入依据仅为：type=Ceramics。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "exhib",
+        "when": "1957",
+        "title": "Art Institute of Chicago, China-Trade Porcelain from the Frederick S. Colburn Collection, Feb. 1–July 31, 1957, no cat.",
+        "text": "",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/7765"
+      },
+      {
+        "t": "prov",
+        "when": "见馆方档案原文（未分段）",
+        "text": "Grace S. Fish (1862-1946; born Grace Studebaker; also Mrs. Frederick S. Fish), South Bend, IN, by Jan.1940; to her children, Frederick S. Fish, Jr. and Mrs. Jane Fish Ballard, by Jan. 5, 1940; sold, Parke-Bernet Galleries, New York, Jan. 5-6, 1940, lot 438 [sales cat.; copy in curatorial object file]. Frederick Standish Colburn (1878–1957), Evanston, IL, by Jan. 29, 1957 [incoming receipt, RX2123, Jan. 29, 1957; copy in curatorial object file]; bequeathed to the Art Institute of Chicago, 1958.",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/7765"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/7765",
+    "credit": "Bequest of Frederick S. Colburn",
+    "license": "PD",
+    "thumb": "img/artic-7765-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/2f8e2784-7d1d-3041-b90a-a81c4f38fcea/full/full/0/default.jpg",
+    "w": 843,
+    "h": 969
+  }
+}

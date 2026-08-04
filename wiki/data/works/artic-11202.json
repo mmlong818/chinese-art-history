@@ -1,0 +1,91 @@
+{
+  "schema": "work/1",
+  "id": "artic-11202",
+  "depth": "record",
+  "title": "Fragment（1932.254）",
+  "kind": "织绣",
+  "period": "qing",
+  "holder": "芝加哥艺术博物馆（藏品号 1932.254）",
+  "year": "Qing dynasty(1644–1911), early 19th century",
+  "size": "137.6 × 111.8 cm (77 3/4 × 44 in.)",
+  "medium": "Fancy compound satin, silk and gilt paper; wound on white silk core",
+  "one_line": "芝加哥艺术博物馆藏织绣，馆方断代作「Qing dynasty(1644–1911), early 19th century」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1932.254"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Fragment"
+          ],
+          [
+            "创作者（馆方记）",
+            "China"
+          ],
+          [
+            "馆方文化断代",
+            "Qing dynasty(1644–1911), early 19th century"
+          ],
+          [
+            "馆方器类",
+            "Textile"
+          ],
+          [
+            "材质／技法",
+            "Fancy compound satin, silk and gilt paper; wound on white silk core"
+          ],
+          [
+            "尺寸",
+            "137.6 × 111.8 cm (77 3/4 × 44 in.)"
+          ],
+          [
+            "入藏说明",
+            "Gift of Martin A. Ryerson through The Antiquarian Society"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1932.254"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/11202"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Textile + medium 含织物材料。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/11202",
+    "credit": "Gift of Martin A. Ryerson through The Antiquarian Society",
+    "license": "PD",
+    "thumb": "img/artic-11202-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/2f7fa53b-f33a-0fea-410c-1dddd057fae9/full/full/0/default.jpg",
+    "w": 843,
+    "h": 1374
+  }
+}

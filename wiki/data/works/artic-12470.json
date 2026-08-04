@@ -1,0 +1,91 @@
+{
+  "schema": "work/1",
+  "id": "artic-12470",
+  "depth": "record",
+  "title": "Tripod Incense Holder with Floral Design（1924.349a-b）",
+  "kind": "陶瓷",
+  "period": "ming",
+  "holder": "芝加哥艺术博物馆（藏品号 1924.349a-b）",
+  "year": "Ming dynasty (1368–1644)",
+  "size": "12.9 × 13.6 cm (5 1/16 × 5 3/8 in.); Diam.: 13.6 cm (5 3/8 in.)",
+  "medium": "Celadon-glazed stoneware with underglaze molded decoration",
+  "one_line": "芝加哥艺术博物馆藏陶瓷，馆方断代作「Ming dynasty (1368–1644)」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1924.349a-b"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Tripod Incense Holder with Floral Design"
+          ],
+          [
+            "创作者（馆方记）",
+            "China"
+          ],
+          [
+            "馆方文化断代",
+            "Ming dynasty (1368–1644)"
+          ],
+          [
+            "馆方器类",
+            "Vessel"
+          ],
+          [
+            "材质／技法",
+            "Celadon-glazed stoneware with underglaze molded decoration"
+          ],
+          [
+            "尺寸",
+            "12.9 × 13.6 cm (5 1/16 × 5 3/8 in.); Diam.: 13.6 cm (5 3/8 in.)"
+          ],
+          [
+            "入藏说明",
+            "Lucy Maud Buckingham Collection"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1924.349a-b"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/12470"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：Vessel + 材质/分类含瓷器。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/12470",
+    "credit": "Lucy Maud Buckingham Collection",
+    "license": "PD",
+    "thumb": "img/artic-12470-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/3b8072d2-fcd1-ba58-493d-37b6fe73b468/full/full/0/default.jpg",
+    "w": 843,
+    "h": 635
+  }
+}

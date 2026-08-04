@@ -1,0 +1,116 @@
+{
+  "schema": "work/1",
+  "id": "artic-3316",
+  "depth": "record",
+  "title": "Mirror with Images of Daoist Deities（1929.644）",
+  "kind": "青铜",
+  "period": "qin-han",
+  "holder": "芝加哥艺术博物馆（藏品号 1929.644）",
+  "year": "Eastern Han dynasty (25–220 CE),，2nd or 3rd century CE",
+  "size": "20.6 × 0.6 cm (8 1/8 × 1/4 in.)",
+  "medium": "Bronze",
+  "one_line": "芝加哥艺术博物馆藏青铜，馆方断代作「Eastern Han dynasty (25–220 CE),，2nd or 3rd century CE」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1929.644"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Mirror with Images of Daoist Deities"
+          ],
+          [
+            "创作者（馆方记）",
+            "China ；probably from Zhejiang province"
+          ],
+          [
+            "馆方文化断代",
+            "Eastern Han dynasty (25–220 CE),，2nd or 3rd century CE"
+          ],
+          [
+            "馆方器类",
+            "Metalwork"
+          ],
+          [
+            "材质／技法",
+            "Bronze"
+          ],
+          [
+            "尺寸",
+            "20.6 × 0.6 cm (8 1/8 × 1/4 in.)"
+          ],
+          [
+            "入藏说明",
+            "Lucy Maud Buckingham Collection"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1929.644"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/3316"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qin-han；器类归入依据仅为：Metalwork + bronze（器物向）。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "exhib",
+        "when": "1990",
+        "title": "Urbana Champaign, Krannert Art Museum, University of Illinois at Urbana Champaign, Sacred Mountains in Chinese Art, 1990, cat. 41.",
+        "text": "",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/3316"
+      },
+      {
+        "t": "exhib",
+        "when": "1995",
+        "title": "New York, China Institute in America, On Flying Hooves: The Horse in Chinese Art, Oct. 14–Dec. 23, 1995.",
+        "text": "",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/3316"
+      },
+      {
+        "t": "prov",
+        "when": "见馆方档案原文（未分段）",
+        "text": "Yamanaka and Company, Bar Harbor, ME; sold to Kate Sturges Buckingham (1858–1937), Chicago, [Kate served as executor of her sister Lucy Maud Buckingham's estate and continued expanding Lucy's collection following her death in 1920] Dec. 12, 1929; given to the Art Institute of Chicago, Dec. 12, 1929.",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/3316"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/3316",
+    "credit": "Lucy Maud Buckingham Collection",
+    "license": "PD",
+    "thumb": "img/artic-3316-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/fd9da8f4-8b0f-2621-49e0-6f237bf9be50/full/full/0/default.jpg",
+    "w": 843,
+    "h": 1058
+  }
+}

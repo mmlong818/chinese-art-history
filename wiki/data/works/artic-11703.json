@@ -1,0 +1,100 @@
+{
+  "schema": "work/1",
+  "id": "artic-11703",
+  "depth": "record",
+  "title": "Enlightened Protector Mahakala with Six Arms (Shadbhuja)（1924.120）",
+  "kind": "金银器",
+  "period": "qing",
+  "holder": "芝加哥艺术博物馆（藏品号 1924.120）",
+  "year": "18th/19th century",
+  "size": "12.8 × 10 × 5 cm (5 × 3 7/8 × 2 in.)",
+  "medium": "Gilt copper alloy with traces of orange pigment",
+  "one_line": "芝加哥艺术博物馆藏金银器，馆方断代作「18th/19th century」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "artic",
+      "note": "馆方藏品记录，藏品号 1924.120"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Enlightened Protector Mahakala with Six Arms (Shadbhuja)"
+          ],
+          [
+            "创作者（馆方记）",
+            "China or Tibet"
+          ],
+          [
+            "馆方文化断代",
+            "18th/19th century"
+          ],
+          [
+            "馆方器类",
+            "Metalwork"
+          ],
+          [
+            "材质／技法",
+            "Gilt copper alloy with traces of orange pigment"
+          ],
+          [
+            "尺寸",
+            "12.8 × 10 × 5 cm (5 × 3 7/8 × 2 in.)"
+          ],
+          [
+            "入藏说明",
+            "Samuel M. Nickerson Fund"
+          ],
+          [
+            "产地（馆方记）",
+            "China"
+          ],
+          [
+            "藏品号",
+            "1924.120"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.artic.edu/artworks/11703"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录芝加哥艺术博物馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 1701–1900 唯一落入 qing；器类归入依据仅为：Metalwork + gold/silver/gilt。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "见馆方档案原文（未分段）",
+        "text": "Sold to the Art Institute of Chicago by Mr. M.W. Anthony, Seattle, Wa., November 27, 1923. Purchase was made possible by the Samuel N. Nickerson Fund.",
+        "src": "artic",
+        "url": "https://www.artic.edu/artworks/11703"
+      }
+    ]
+  },
+  "image": {
+    "source": "other",
+    "source_url": "https://www.artic.edu/artworks/11703",
+    "credit": "Samuel M. Nickerson Fund",
+    "license": "PD",
+    "thumb": "img/artic-11703-843.jpg",
+    "full": "https://www.artic.edu/iiif/2/f1a42a6e-ac69-a3f8-6a6b-8b118d540778/full/full/0/default.jpg",
+    "w": 843,
+    "h": 884
+  }
+}
