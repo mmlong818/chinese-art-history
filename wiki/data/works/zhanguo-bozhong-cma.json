@@ -11,7 +11,7 @@
   "size": "通高 41.4 厘米",
   "holder": "克利夫兰美术馆（藏品号 1962.44）",
   "cma_id": 138612,
-  "classes": ["zhong"],
+  "classes": ["zhong", "bo"],
   "image": {
     "source": "cleveland",
     "source_url": "https://www.clevelandart.org/art/1962.44",

@@ -1,0 +1,102 @@
+{
+  "schema": "work/1",
+  "id": "met-42183",
+  "depth": "record",
+  "title": "Dish in the shape of a leaf（1974.268.11）",
+  "title_orig": "Dish in the shape of a leaf",
+  "kind": "金银器",
+  "period": "sui-tang",
+  "holder": "大都会艺术博物馆（藏品号 1974.268.11）",
+  "met_id": 42183,
+  "year": "late 7th–early 8th century",
+  "medium": "Silver with parcel gilding",
+  "size": "L. 5 3/4 in. (14.6 cm)",
+  "one_line": "大都会艺术博物馆藏金银器，馆方断代作「late 7th–early 8th century」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "met",
+      "note": "馆方藏品记录，objectID 42183，藏品号 1974.268.11"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Dish in the shape of a leaf"
+          ],
+          [
+            "馆方文化断代",
+            "China"
+          ],
+          [
+            "馆方时期",
+            "Tang dynasty (618–907)"
+          ],
+          [
+            "馆方年代",
+            "late 7th–early 8th century"
+          ],
+          [
+            "馆方器类",
+            "Metalwork"
+          ],
+          [
+            "馆方器名",
+            "Dish"
+          ],
+          [
+            "馆方材质／技法",
+            "Silver with parcel gilding"
+          ],
+          [
+            "馆方尺寸",
+            "L. 5 3/4 in. (14.6 cm)"
+          ],
+          [
+            "馆方入藏说明",
+            "Purchase, Arthur M. Sackler Gift, 1974"
+          ],
+          [
+            "馆方藏品号",
+            "1974.268.11"
+          ],
+          [
+            "馆方公版状态",
+            "是"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.metmuseum.org/art/collection/search/42183"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录大都会艺术博物馆开放数据 API 的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → sui-tang；器类归入依据仅为：Metalwork + medium 含 gold/silver/gilt。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：填任何一档都是替馆方作了它没作的声明。"
+      }
+    ]
+  },
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/42183",
+    "credit": "Purchase, Arthur M. Sackler Gift, 1974",
+    "license": "PD",
+    "thumb": "img/met-42183-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DP100673.jpg",
+    "w": 599,
+    "h": 455,
+    "alt": "Dish in the shape of a leaf"
+  }
+}

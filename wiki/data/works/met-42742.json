@@ -1,0 +1,102 @@
+{
+  "schema": "work/1",
+  "id": "met-42742",
+  "depth": "record",
+  "title": "Wardrobe（1976.193.7a–o）",
+  "title_orig": "Wardrobe",
+  "kind": "家具",
+  "period": "ming",
+  "holder": "大都会艺术博物馆（藏品号 1976.193.7a–o）",
+  "met_id": 42742,
+  "year": "16th century",
+  "medium": "Wood (Huanghuali, or Dalbergia odoriferal); metal fittings",
+  "size": "H. 103 3/4 in. (263.5 cm); W. 56 in. (142.2 cm); D. 24 3/4 in. (62.9 cm)",
+  "one_line": "大都会艺术博物馆藏家具，馆方断代作「16th century」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "met",
+      "note": "馆方藏品记录，objectID 42742，藏品号 1976.193.7a–o"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Wardrobe"
+          ],
+          [
+            "馆方文化断代",
+            "China"
+          ],
+          [
+            "馆方时期",
+            "Ming dynasty (1368–1644)"
+          ],
+          [
+            "馆方年代",
+            "16th century"
+          ],
+          [
+            "馆方器类",
+            "Furniture"
+          ],
+          [
+            "馆方器名",
+            "Wardrobe"
+          ],
+          [
+            "馆方材质／技法",
+            "Wood (Huanghuali, or Dalbergia odoriferal); metal fittings"
+          ],
+          [
+            "馆方尺寸",
+            "H. 103 3/4 in. (263.5 cm); W. 56 in. (142.2 cm); D. 24 3/4 in. (62.9 cm)"
+          ],
+          [
+            "馆方入藏说明",
+            "Purchase, The Vincent Astor Foundation Gift, 1976"
+          ],
+          [
+            "馆方藏品号",
+            "1976.193.7a–o"
+          ],
+          [
+            "馆方公版状态",
+            "是"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.metmuseum.org/art/collection/search/42742"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录大都会艺术博物馆开放数据 API 的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：classification=Furniture。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：填任何一档都是替馆方作了它没作的声明。"
+      }
+    ]
+  },
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/42742",
+    "credit": "Purchase, The Vincent Astor Foundation Gift, 1976",
+    "license": "PD",
+    "thumb": "img/met-42742-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/1976_193_7_O1.jpg",
+    "w": 354,
+    "h": 625,
+    "alt": "Wardrobe"
+  }
+}

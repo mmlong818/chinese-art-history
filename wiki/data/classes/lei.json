@@ -46,8 +46,17 @@
       {"t": "stmt", "state": "pend", "text": "罍在西周中期以后为何较快被壶取代，是礼制变化还是实用性考量（壶更便于搬运与注酒），文献记载不足，本库不作断言。"}
     ],
     "examples": [
-      {"t": "p", "text": "本库暂未寻得可自由取用图版且馆方明确标注为「罍」的西方公立馆藏实例——克利夫兰、大都会两馆的中国青铜藏品中，罍类器物的检索结果均不及尊、卣、觚等常见器类丰富，这与罍存世量本身较少、且多藏于国内馆有关，不代表本库未曾检索。"},
-      {"t": "gap", "text": "本条目暂缺可自由取用的实物图版，待后续补齐"}
+      {"t": "fig", "image": {
+        "source": "met",
+        "source_url": "https://www.metmuseum.org/art/collection/search/61282",
+        "credit": "Gift of D. Herbert Beskind, 1959",
+        "license": "PD",
+        "thumb": "img/shangzhou-lei-met-800.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/DP155102.jpg",
+        "w": 468, "h": 624,
+        "alt": "商末周初青铜罍，大都会艺术博物馆藏，本库另有独立条目 work:shangzhou-lei-met"
+      }},
+      {"t": "p", "text": "本库已立条目的大都会艺术博物馆藏青铜罍（[[work:shangzhou-lei-met]]，藏品号 59.194），馆方标题直接括注「lei」、判权为公版，是本条目所记「大腹小口、广肩厚重」形制最直观的例证；克利夫兰、大都会两馆的中国青铜藏品中，罍类器物的检索结果仍不及尊、卣、觚等常见器类丰富，这与罍存世量本身较少、且多藏于国内馆有关。"}
     ],
     "scholarship": [
       {"t": "p", "text": "罍的形制与命名研究同样自宋代金石学始，二十世纪后以考古发掘与类型学重建了大致的分期序列；著名重器皿方罍的器身与器盖曾长期分离流传、二十一世纪初方才重新合璧的经历，是罍类研究史上流传与著录问题的典型案例，本库暂未就该器单独立目。", "src": "ma-chengyuan-zhongguo-qingtongqi"}

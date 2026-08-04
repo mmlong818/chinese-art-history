@@ -11,6 +11,7 @@
   "size": "高 21.6 厘米",
   "holder": "大都会艺术博物馆（藏品号 43.25.4）",
   "met_id": 44781,
+  "classes": ["gong"],
   "image": {
     "source": "met",
     "source_url": "https://www.metmuseum.org/art/collection/search/44781",
@@ -68,7 +69,7 @@
     "viewing": [
       {"t": "ul", "items": [
         "兽形流口的造型与朝向，是判断此类容器年代与地域归属的重要线索。",
-        "本库暂未设「觥」器类条目——它与匜、兕觥等相邻器类的边界，是留待后续补齐的空白。"
+        "本库已设 [[class:gong|觥]] 器类条目，详论它与匜、兕觥等相邻器类未有共识的边界，可与本条目「争议字段」一节合观。"
       ]}
     ],
     "disputes": [

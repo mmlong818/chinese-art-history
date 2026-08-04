@@ -11,6 +11,7 @@
   "size": "高 28.6 厘米；连流鋬宽 23.5 厘米",
   "holder": "大都会艺术博物馆（藏品号 24.72.5a, b）",
   "met_id": 42168,
+  "classes": ["he-vessel"],
   "image": {
     "source": "met",
     "source_url": "https://www.metmuseum.org/art/collection/search/42168",

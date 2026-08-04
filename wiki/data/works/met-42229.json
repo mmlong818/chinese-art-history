@@ -1,0 +1,102 @@
+{
+  "schema": "work/1",
+  "id": "met-42229",
+  "depth": "record",
+  "title": "Vase（14.40.377）",
+  "title_orig": "Vase",
+  "kind": "陶瓷",
+  "period": "qing",
+  "holder": "大都会艺术博物馆（藏品号 14.40.377）",
+  "met_id": 42229,
+  "year": "1713–22",
+  "medium": "Porcelain with peach-bloom glaze (Jingdezhen ware)",
+  "size": "H. 7 3/4 in. (19.7 cm)",
+  "one_line": "大都会艺术博物馆藏陶瓷，馆方断代作「1713–22」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "met",
+      "note": "馆方藏品记录，objectID 42229，藏品号 14.40.377"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Vase"
+          ],
+          [
+            "馆方文化断代",
+            "China"
+          ],
+          [
+            "馆方时期",
+            "Qing dynasty (1644–1911), Kangxi mark and period (1662–1722)"
+          ],
+          [
+            "馆方年代",
+            "1713–22"
+          ],
+          [
+            "馆方器类",
+            "Ceramics"
+          ],
+          [
+            "馆方器名",
+            "Vase"
+          ],
+          [
+            "馆方材质／技法",
+            "Porcelain with peach-bloom glaze (Jingdezhen ware)"
+          ],
+          [
+            "馆方尺寸",
+            "H. 7 3/4 in. (19.7 cm)"
+          ],
+          [
+            "馆方入藏说明",
+            "Bequest of Benjamin Altman, 1913"
+          ],
+          [
+            "馆方藏品号",
+            "14.40.377"
+          ],
+          [
+            "馆方公版状态",
+            "是"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.metmuseum.org/art/collection/search/42229"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录大都会艺术博物馆开放数据 API 的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：classification=Ceramics。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：填任何一档都是替馆方作了它没作的声明。"
+      }
+    ]
+  },
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/42229",
+    "credit": "Bequest of Benjamin Altman, 1913",
+    "license": "PD",
+    "thumb": "img/met-42229-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DP246426.jpg",
+    "w": 468,
+    "h": 624,
+    "alt": "Vase"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schema": "class/1",
+  "id": "pan",
+  "name": "盘",
+  "facet": "器类",
+  "span": "商晚期 – 汉以后；盛于西周至战国",
+  "one_line": "圆浅腹的青铜承水器，与匜配套构成「匜盘」沃盥组合，也用于承托尊一类重器——曾侯乙尊盘即以盘承尊。",
+  "verification": "memory",
+  "updated": "2026-08-05",
+  "sources": [
+    {"ref": "zhongguo-meishu-jianshi", "note": "器类形制与礼制功能"},
+    {"ref": "ma-chengyuan-zhongguo-qingtongqi", "note": "盘类形制序列与与匜配套关系"},
+    {"ref": "zeng-houyi-mu-baogao", "note": "曾侯乙尊盘出土位置与共出关系"},
+    {"ref": "cleveland", "note": "藏品实例、年代、判权，逐项核对"},
+    {"ref": "met", "note": "藏品实例"},
+    {"ref": "wikimedia", "note": "藏品图像"}
+  ],
+  "sections": {
+    "overview": [
+      {"t": "p", "text": "盘是圆形、浅腹、大口的青铜承水器，最常见的用途是与匜配套，构成「匜盘」沃盥组合——[[class:yi-vessel|匜]]倒水、盘承水；此外，盘也可用于承托其他大型礼器，本库[[work:zeng-houyi-zunpan|曾侯乙尊盘]]即以盘承尊，尊立于盘中，是「盘」作为承托器这一功能的直接例证。"},
+      {"t": "stmt", "state": "adopt", "text": "本库材料中，盘至少呈现出两种不同的使用情境——作为「匜盘」组合的承水一半，以及作为承托尊一类重器的底座。这提醒读者「同一器类不必只有一种使用方式」：与本库[[class:zun|尊]]条目所记「铭文自称『尊彝』与器形分类中的『尊』并非完全同一概念」是同一类提醒，不能只从器形本身反推唯一的使用情境。", "src": "zhongguo-meishu-jianshi"}
+    ],
+    "definition": [
+      {"t": "p", "text": "本库对「盘」的界定：圆形、浅腹、大口外敞、圈足（或三足、四足）的青铜承水器，本身无流无鋬。与之相邻的器类须分清——"},
+      {"t": "ul", "items": [
+        "**匜**：[[class:yi-vessel|匜]]条目「定义与范围」一节已指出，匜倒水、盘承水，二者是一套沃盥礼器组合而非同一类别，考古发掘中常见匜盘同出，此处从盘一侧确认同一分别，不重复展开。",
+        "**鉴**：鉴体型通常远大于盘、腹更深、多带耳，除盛水盥洗外还兼作盛冰（冰鉴）或早期以水面映照之用；盘腹浅口大，专注承水而非蓄水或映照，二者体量与深浅一望可辨——本库暂未就「鉴」单独立类目，此处仅在盘的定义中带出这一分别，供日后参照。",
+        "**洗**：洗与盘外观相近，均为浅腹承水器，但洗的年代下限远晚于盘（历代均有烧造，尤以瓷洗为大宗），且更强调盛水以供涤笔研墨等文房用途；盘则专属商周礼制沃盥组合，二者虽形似而所属时代与使用场景相去甚远。",
+        "**盆**：盆腹更深、口部相对收敛，容量大于盘，用于盛贮而非承接倾倒之水；盘的浅腹广口是其区别于盆最直观的标志。"
+      ]},
+      {"t": "stmt", "state": "pend", "text": "盘、鉴、盆三者在部分中大型器物上，腹深与体量的界限并非绝对清晰，个别器物各家归类不一，本库不裁断具体分界线画在哪一件器物上。"}
+    ],
+    "features": [
+      {"t": "ul", "items": [
+        "**腹与口**：浅腹、大口外敞，是盘区别于鉴、盆最直观的标志。",
+        "**足**：圈足为主，部分早期或特殊器物见三足、四足。",
+        "**耳**：部分盘沿设附耳或铺首衔环耳，便于移动或装饰。",
+        "**纹**：西周多素面或饰简单纹带；战国以后纹样趋于繁复，部分饰镂空附饰，如本库[[work:zeng-houyi-zunpan|曾侯乙尊盘]]盘沿的镂空蟠螭纹附饰。"
+      ]},
+      {"t": "stmt", "state": "adopt", "text": "本库[[work:zeng-houyi-zunpan|曾侯乙尊盘]]盘沿附饰的镂空层叠结构，是东周青铜铸造工艺公认的技术高峰之一，具体系失蜡法一次浇铸还是分铸焊接组装，学界并存两说，该条目「工艺」一节已并陈不裁断，此处不重复展开。"}
+    ],
+    "evolution": [
+      {"t": "tl", "rows": [
+        {"when": "商晚期", "text": "盘已见，形制简单，与其他水器共出。"},
+        {"when": "西周", "text": "盘与匜配套使用渐趋普遍，「匜盘」组合确立，随葬礼制中常见二者同出，见[[class:yi-vessel|匜]]条目「分期演变」一节。"},
+        {"when": "春秋战国", "text": "盘的形制与工艺达于高峰，镂空附饰、写实雕塑等工艺施于盘身：[[work:zeng-houyi-zunpan|曾侯乙尊盘]]（盘沿镂空蟠螭纹附饰）、本库另一件克利夫兰藏[[work:zhanguo-niaozuo-cma|鸟形承盘青铜盥器]]（鸟形立雕承托浅盘，嵌孔雀石与蓝铜矿）均属此期代表，后者是盘类器物走向雕塑化、写实化的例证。"},
+        {"when": "汉以后", "text": "盘继续作为日常与礼仪承水器使用，随实用漆器、瓷器的普及，青铜盘的礼制分量下降，此后的漫长延续史已超出本库青铜礼器条目的通常断限，本条目不作展开。"}
+      ]}
+    ],
+    "examples": [
+      {"t": "fig", "image": {
+        "source": "met",
+        "source_url": "https://www.metmuseum.org/art/collection/search/61039",
+        "credit": "John Stewart Kennedy Fund, 1913",
+        "license": "PD",
+        "thumb": "img/pan-800.jpg",
+        "full": "https://images.metmuseum.org/CRDImages/as/original/DP140804.jpg",
+        "w": 600, "h": 450,
+        "alt": "春秋青铜盘，馆方定名「Basin (Pan)」，大都会艺术博物馆藏"
+      }},
+      {"t": "p", "text": "大都会艺术博物馆藏青铜盘，馆方定名「Basin (Pan)」，年代约前 6 世纪，藏品号 13.100.4，圆浅腹、大口外敞、圈足承立，是本条目「形制与特征」一节所记盘类器物最典型、最不掺杂其他功能的样式——可与下方两件本库已立独立条目的盘类实例（一为配套用、一为承托用）对照，体会「盘」这一类目内部的功能分化。", "src": "met"},
+      {"t": "fig", "image": {
+        "source": "wikimedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:%E6%9B%BE%E4%BE%AF%E4%B9%99%E9%9D%92%E9%93%9C%E5%B0%8A%E7%9B%98%EF%BC%8C2015-04-06_02.jpg",
+        "credit": "Siyuwj / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "attribution_required": true,
+        "thumb": "img/zeng-houyi-zunpan-800.jpg",
+        "full": "https://upload.wikimedia.org/wikipedia/commons/6/61/%E6%9B%BE%E4%BE%AF%E4%B9%99%E9%9D%92%E9%93%9C%E5%B0%8A%E7%9B%98%EF%BC%8C2015-04-06_02.jpg",
+        "w": 960, "h": 639,
+        "alt": "曾侯乙尊盘，湖北省博物馆藏，本库另有独立条目 work:zeng-houyi-zunpan"
+      }},
+      {"t": "fig", "image": {
+        "source": "cleveland",
+        "source_url": "https://www.clevelandart.org/art/1991.8",
+        "credit": "Leonard C. Hanna Jr. Fund",
+        "license": "CC0",
+        "thumb": "img/zhanguo-niaozuo-cma-800.jpg",
+        "full": "https://openaccess-cdn.clevelandart.org/1991.8/1991.8_full.tif",
+        "w": 856, "h": 893,
+        "alt": "战国鸟形承盘青铜盥器，克利夫兰美术馆藏，本库另有独立条目 work:zhanguo-niaozuo-cma"
+      }},
+      {"t": "p", "text": "本库已立条目的两件盘类实例，恰是「配套用」与「承托用」两种情境的对照：[[work:zeng-houyi-zunpan|曾侯乙尊盘]]以盘承尊，出土于曾侯乙墓，与楚王镈同椁共出，断代判「确证」；[[work:zhanguo-niaozuo-cma|鸟形承盘青铜盥器]]则是一件鸟形立雕承托浅盘的写实器物，馆方定名括注「Bian」一词，本库检索未能确认对应汉字与出处，是否应径归入「盘」这一类目，本库持谨慎态度——该器形制上具备盘的基本特征（浅腹承水），本条目因此将其列为盘类的例证之一，但不代为坐实馆方定名与「盘」字的对应关系，见该条目「争议字段」一节。"}
+    ],
+    "scholarship": [
+      {"t": "p", "text": "盘的形制与命名研究自宋代金石学始，与匜同样是较早确立分类的器类之一；二十世纪后以匜盘同出的考古发掘实例，为「匜盘配套」这一判断提供了持续的实物印证，见[[class:yi-vessel|匜]]条目「研究史」一节。"}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "盘、鉴、盆的体量与深浅界限并非绝对清晰，详见「定义与范围」一节。"},
+      {"t": "stmt", "state": "pend", "text": "[[work:zhanguo-niaozuo-cma]]馆方定名括注「Bian」对应的具体汉字，本库检索未能确认，是否应径归入「盘」类目，本库不裁断，详见「代表实例」一节。"},
+      {"t": "gap", "text": "盘的分期形制序列（腹深、口径比例演变的量化标尺），本库尚未逐项建立"}
+    ]
+  }
+}

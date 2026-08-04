@@ -1,0 +1,102 @@
+{
+  "schema": "work/1",
+  "id": "met-42716",
+  "depth": "record",
+  "title": "Buddha of Medicine Bhaishajyaguru (Yaoshi fo)（65.29.2）",
+  "title_orig": "Buddha of Medicine Bhaishajyaguru (Yaoshi fo)",
+  "kind": "画作",
+  "period": "yuan",
+  "holder": "大都会艺术博物馆（藏品号 65.29.2）",
+  "met_id": 42716,
+  "year": "ca. 1319",
+  "medium": "Water-based pigment over foundation of clay mixed with straw",
+  "size": "H. 24 ft. 8 in. (751.8 cm); W. 49 ft. 7 in. (1511.3 cm)",
+  "one_line": "大都会艺术博物馆藏画作，馆方断代作「ca. 1319」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "met",
+      "note": "馆方藏品记录，objectID 42716，藏品号 65.29.2"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Buddha of Medicine Bhaishajyaguru (Yaoshi fo)"
+          ],
+          [
+            "馆方文化断代",
+            "China"
+          ],
+          [
+            "馆方时期",
+            "Yuan dynasty (1271–1368)"
+          ],
+          [
+            "馆方年代",
+            "ca. 1319"
+          ],
+          [
+            "馆方器类",
+            "Paintings"
+          ],
+          [
+            "馆方器名",
+            "Wall painting"
+          ],
+          [
+            "馆方材质／技法",
+            "Water-based pigment over foundation of clay mixed with straw"
+          ],
+          [
+            "馆方尺寸",
+            "H. 24 ft. 8 in. (751.8 cm); W. 49 ft. 7 in. (1511.3 cm)"
+          ],
+          [
+            "馆方入藏说明",
+            "Gift of Arthur M. Sackler, in honor of his parents, Isaac and Sophie Sackler, 1965"
+          ],
+          [
+            "馆方藏品号",
+            "65.29.2"
+          ],
+          [
+            "馆方公版状态",
+            "是"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.metmuseum.org/art/collection/search/42716"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录大都会艺术博物馆开放数据 API 的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：classification=Paintings。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：填任何一档都是替馆方作了它没作的声明。"
+      }
+    ]
+  },
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/42716",
+    "credit": "Gift of Arthur M. Sackler, in honor of his parents, Isaac and Sophie Sackler, 1965",
+    "license": "PD",
+    "thumb": "img/met-42716-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DT227320.jpg",
+    "w": 599,
+    "h": 474,
+    "alt": "Buddha of Medicine Bhaishajyaguru (Yaoshi fo)"
+  }
+}

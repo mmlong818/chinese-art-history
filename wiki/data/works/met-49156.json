@@ -1,0 +1,106 @@
+{
+  "schema": "work/1",
+  "id": "met-49156",
+  "depth": "record",
+  "title": "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai（1979.5a–d）",
+  "title_orig": "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai",
+  "kind": "画作",
+  "period": "qing",
+  "holder": "大都会艺术博物馆（藏品号 1979.5a–d）",
+  "met_id": 49156,
+  "year": "datable to 1698",
+  "medium": "Handscroll; ink and color on silk",
+  "size": "Image: 26 3/4 in. x 45 ft. 8 3/4 in. (67.9 x 1393.8 cm)",
+  "one_line": "大都会艺术博物馆藏画作，馆方断代作「datable to 1698」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "met",
+      "note": "馆方藏品记录，objectID 49156，藏品号 1979.5a–d"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai"
+          ],
+          [
+            "馆方文化断代",
+            "China"
+          ],
+          [
+            "馆方时期",
+            "Qing dynasty (1644–1911)"
+          ],
+          [
+            "馆方年代",
+            "datable to 1698"
+          ],
+          [
+            "馆方器类",
+            "Paintings"
+          ],
+          [
+            "馆方器名",
+            "Handscroll"
+          ],
+          [
+            "馆方材质／技法",
+            "Handscroll; ink and color on silk"
+          ],
+          [
+            "馆方尺寸",
+            "Image: 26 3/4 in. x 45 ft. 8 3/4 in. (67.9 x 1393.8 cm)"
+          ],
+          [
+            "馆方作者",
+            "Wang Hui"
+          ],
+          [
+            "馆方入藏说明",
+            "Purchase, The Dillon Fund Gift, 1979"
+          ],
+          [
+            "馆方藏品号",
+            "1979.5a–d"
+          ],
+          [
+            "馆方公版状态",
+            "是"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.metmuseum.org/art/collection/search/49156"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录大都会艺术博物馆开放数据 API 的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：classification=Paintings。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：填任何一档都是替馆方作了它没作的声明。"
+      }
+    ]
+  },
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/49156",
+    "credit": "Purchase, The Dillon Fund Gift, 1979",
+    "license": "PD",
+    "thumb": "img/met-49156-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DP105303_CRD.jpg",
+    "w": 599,
+    "h": 274,
+    "alt": "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai"
+  }
+}

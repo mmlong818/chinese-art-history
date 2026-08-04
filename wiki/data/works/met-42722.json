@@ -1,0 +1,102 @@
+{
+  "schema": "work/1",
+  "id": "met-42722",
+  "depth": "record",
+  "title": "Arhat (Luohan)（20.114）",
+  "title_orig": "Arhat (Luohan)",
+  "kind": "石雕",
+  "period": "liao-jin",
+  "holder": "大都会艺术博物馆（藏品号 20.114）",
+  "met_id": 42722,
+  "year": "ca. 1000",
+  "medium": "Stoneware with three-color glaze",
+  "size": "H. (figure) 50 in. (127 cm); H. (with base) 92 in. (233.7 cm); W. 41 in. (104.1 cm); D. 38 in. (96.5 cm)",
+  "one_line": "大都会艺术博物馆藏石雕，馆方断代作「ca. 1000」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "met",
+      "note": "馆方藏品记录，objectID 42722，藏品号 20.114"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Arhat (Luohan)"
+          ],
+          [
+            "馆方文化断代",
+            "China"
+          ],
+          [
+            "馆方时期",
+            "Liao dynasty (907–1125)"
+          ],
+          [
+            "馆方年代",
+            "ca. 1000"
+          ],
+          [
+            "馆方器类",
+            "Sculpture"
+          ],
+          [
+            "馆方器名",
+            "Figure"
+          ],
+          [
+            "馆方材质／技法",
+            "Stoneware with three-color glaze"
+          ],
+          [
+            "馆方尺寸",
+            "H. (figure) 50 in. (127 cm); H. (with base) 92 in. (233.7 cm); W. 41 in. (104.1 cm); D. 38 in. (96.5 cm)"
+          ],
+          [
+            "馆方入藏说明",
+            "Fletcher Fund, 1920"
+          ],
+          [
+            "馆方藏品号",
+            "20.114"
+          ],
+          [
+            "馆方公版状态",
+            "是"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.metmuseum.org/art/collection/search/42722"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录大都会艺术博物馆开放数据 API 的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → liao-jin；器类归入依据仅为：Sculpture + 石质。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：填任何一档都是替馆方作了它没作的声明。"
+      }
+    ]
+  },
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/42722",
+    "credit": "Fletcher Fund, 1920",
+    "license": "PD",
+    "thumb": "img/met-42722-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DP163962.jpg",
+    "w": 469,
+    "h": 625,
+    "alt": "Arhat (Luohan)"
+  }
+}

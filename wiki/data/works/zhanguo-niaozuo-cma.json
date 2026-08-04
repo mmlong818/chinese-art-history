@@ -11,6 +11,7 @@
   "size": "通高 23.3 厘米；底径 18.3 厘米",
   "holder": "克利夫兰美术馆（藏品号 1991.8）",
   "cma_id": 156159,
+  "classes": ["pan"],
   "image": {
     "source": "cleveland",
     "source_url": "https://www.clevelandart.org/art/1991.8",

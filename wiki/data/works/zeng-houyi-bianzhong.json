@@ -9,7 +9,7 @@
   "medium": "青铜（钮钟、甬钟、镈钟），附木质彩绘钟架",
   "size": "全套 65 件（64 件钮钟／甬钟 + 楚王熊章所赠镈钟 1 件），钟架分三层悬挂，通长与总重据发掘报告另有精确数字，本库未逐一转录，见「基础信息」一节说明",
   "holder": "湖北省博物馆",
-  "classes": [],
+  "classes": ["zhong", "bo"],
   "image": {
     "source": "wikimedia",
     "source_url": "https://commons.wikimedia.org/wiki/File:20230208_Chime_bells_of_Marquis_Yi_of_Zeng.jpg",

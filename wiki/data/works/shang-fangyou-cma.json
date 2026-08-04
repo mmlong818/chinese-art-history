@@ -11,6 +11,7 @@
   "size": "26.7 × 13.4 厘米",
   "holder": "克利夫兰美术馆（藏品号 1963.103）",
   "cma_id": 138689,
+  "classes": ["you"],
   "image": {
     "source": "cleveland",
     "source_url": "https://www.clevelandart.org/art/1963.103",

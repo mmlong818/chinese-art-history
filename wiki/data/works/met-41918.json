@@ -1,0 +1,102 @@
+{
+  "schema": "work/1",
+  "id": "met-41918",
+  "depth": "record",
+  "title": "Boy with water buffalo（02.18.438）",
+  "title_orig": "Boy with water buffalo",
+  "kind": "玉器",
+  "period": "qing",
+  "holder": "大都会艺术博物馆（藏品号 02.18.438）",
+  "met_id": 41918,
+  "year": "18th century",
+  "medium": "Jade (nephrite)",
+  "size": "H. 5 3/16 in. (13.2 cm); W. 4 3/16 in. (10.6 cm); L. 7 5/16 in. (18.5 cm)",
+  "one_line": "大都会艺术博物馆藏玉器，馆方断代作「18th century」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "met",
+      "note": "馆方藏品记录，objectID 41918，藏品号 02.18.438"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Boy with water buffalo"
+          ],
+          [
+            "馆方文化断代",
+            "China"
+          ],
+          [
+            "馆方时期",
+            "Qing dynasty (1644–1911)"
+          ],
+          [
+            "馆方年代",
+            "18th century"
+          ],
+          [
+            "馆方器类",
+            "Jade"
+          ],
+          [
+            "馆方器名",
+            "Figurine"
+          ],
+          [
+            "馆方材质／技法",
+            "Jade (nephrite)"
+          ],
+          [
+            "馆方尺寸",
+            "H. 5 3/16 in. (13.2 cm); W. 4 3/16 in. (10.6 cm); L. 7 5/16 in. (18.5 cm)"
+          ],
+          [
+            "馆方入藏说明",
+            "Gift of Heber R. Bishop, 1902"
+          ],
+          [
+            "馆方藏品号",
+            "02.18.438"
+          ],
+          [
+            "馆方公版状态",
+            "是"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.metmuseum.org/art/collection/search/41918"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录大都会艺术博物馆开放数据 API 的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：classification=Jade。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：填任何一档都是替馆方作了它没作的声明。"
+      }
+    ]
+  },
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/41918",
+    "credit": "Gift of Heber R. Bishop, 1902",
+    "license": "PD",
+    "thumb": "img/met-41918-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DT257389.jpg",
+    "w": 599,
+    "h": 474,
+    "alt": "Boy with water buffalo"
+  }
+}

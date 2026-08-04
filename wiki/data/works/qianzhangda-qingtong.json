@@ -10,7 +10,7 @@
   "size": "多墓多组，逐件尺寸与总数本库未核实",
   "holder": "滕州市博物馆",
   "site": "qianzhangda",
-  "classes": [],
+  "classes": ["ding", "gui", "jue", "gu"],
   "image_status": "no-free-image",
   "verification": "memory",
   "updated": "2026-08-05",

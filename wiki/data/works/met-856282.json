@@ -1,0 +1,102 @@
+{
+  "schema": "work/1",
+  "id": "met-856282",
+  "depth": "record",
+  "title": "Table screen with landscape（2022.10a, b）",
+  "title_orig": "Table screen with landscape",
+  "kind": "珐琅",
+  "period": "ming",
+  "holder": "大都会艺术博物馆（藏品号 2022.10a, b）",
+  "met_id": 856282,
+  "year": "second half 15th century",
+  "medium": "Cloisonné enamel on copper alloy, wood frame and stand",
+  "size": "H. 19 3/8 in. (49.2 cm); W. 19 1/8 in. (48.6 cm)",
+  "one_line": "大都会艺术博物馆藏珐琅，馆方断代作「second half 15th century」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "met",
+      "note": "馆方藏品记录，objectID 856282，藏品号 2022.10a, b"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Table screen with landscape"
+          ],
+          [
+            "馆方文化断代",
+            "China"
+          ],
+          [
+            "馆方时期",
+            "Ming dynasty (1368–1644)"
+          ],
+          [
+            "馆方年代",
+            "second half 15th century"
+          ],
+          [
+            "馆方器类",
+            "Cloisonné"
+          ],
+          [
+            "馆方器名",
+            "Table screen"
+          ],
+          [
+            "馆方材质／技法",
+            "Cloisonné enamel on copper alloy, wood frame and stand"
+          ],
+          [
+            "馆方尺寸",
+            "H. 19 3/8 in. (49.2 cm); W. 19 1/8 in. (48.6 cm)"
+          ],
+          [
+            "馆方入藏说明",
+            "Florence and Herbert Irving Acquisitions Fund for Asian Art, 2022"
+          ],
+          [
+            "馆方藏品号",
+            "2022.10a, b"
+          ],
+          [
+            "馆方公版状态",
+            "是"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.metmuseum.org/art/collection/search/856282"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录大都会艺术博物馆开放数据 API 的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：classification=Cloisonné。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：填任何一档都是替馆方作了它没作的声明。"
+      }
+    ]
+  },
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/856282",
+    "credit": "Florence and Herbert Irving Acquisitions Fund for Asian Art, 2022",
+    "license": "PD",
+    "thumb": "img/met-856282-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DP-24553-001.jpg",
+    "w": 600,
+    "h": 450,
+    "alt": "Table screen with landscape"
+  }
+}

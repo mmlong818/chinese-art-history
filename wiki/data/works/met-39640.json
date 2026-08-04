@@ -1,0 +1,102 @@
+{
+  "schema": "work/1",
+  "id": "met-39640",
+  "depth": "record",
+  "title": "Head of a Bodhisattva（42.25.12）",
+  "title_orig": "Head of a Bodhisattva",
+  "kind": "石雕",
+  "period": "sui-tang",
+  "holder": "大都会艺术博物馆（藏品号 42.25.12）",
+  "met_id": 39640,
+  "year": "ca. early 8th century",
+  "medium": "Sandstone with pigment",
+  "size": "H. 15 3/4 in. (40 cm); W. 8 in. (20.3 cm); D. 7 1/2 in. (19.1 cm)",
+  "one_line": "大都会艺术博物馆藏石雕，馆方断代作「ca. early 8th century」。**本条为著录级**：照录馆方记录，未作阐释。",
+  "verification": "museum",
+  "updated": "2026-08-05",
+  "sources": [
+    {
+      "ref": "met",
+      "note": "馆方藏品记录，objectID 39640，藏品号 42.25.12"
+    }
+  ],
+  "sections": {
+    "basics": [
+      {
+        "t": "kv",
+        "rows": [
+          [
+            "馆方原题",
+            "Head of a Bodhisattva"
+          ],
+          [
+            "馆方文化断代",
+            "China"
+          ],
+          [
+            "馆方时期",
+            "Tang dynasty (618–907)"
+          ],
+          [
+            "馆方年代",
+            "ca. early 8th century"
+          ],
+          [
+            "馆方器类",
+            "Sculpture"
+          ],
+          [
+            "馆方器名",
+            "Head"
+          ],
+          [
+            "馆方材质／技法",
+            "Sandstone with pigment"
+          ],
+          [
+            "馆方尺寸",
+            "H. 15 3/4 in. (40 cm); W. 8 in. (20.3 cm); D. 7 1/2 in. (19.1 cm)"
+          ],
+          [
+            "馆方入藏说明",
+            "Gift of Abby Aldrich Rockefeller, 1942"
+          ],
+          [
+            "馆方藏品号",
+            "42.25.12"
+          ],
+          [
+            "馆方公版状态",
+            "是"
+          ]
+        ]
+      },
+      {
+        "t": "p",
+        "text": "馆方藏品页：https://www.metmuseum.org/art/collection/search/39640"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**本条为著录级条目。**以上各项照录大都会艺术博物馆开放数据 API 的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → sui-tang；器类归入依据仅为：Sculpture + 石质。"
+      }
+    ],
+    "dating": [
+      {
+        "t": "gap",
+        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：填任何一档都是替馆方作了它没作的声明。"
+      }
+    ]
+  },
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/39640",
+    "credit": "Gift of Abby Aldrich Rockefeller, 1942",
+    "license": "PD",
+    "thumb": "img/met-39640-800.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DP170147.jpg",
+    "w": 469,
+    "h": 625,
+    "alt": "Head of a Bodhisattva"
+  }
+}
