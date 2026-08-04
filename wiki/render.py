@@ -332,11 +332,40 @@ def _card(cls, href, im, depth, title, sub, meta, desc, ratio="3/4"):
 
 
 def card_artist(a, depth, c=None):
-    im = a.get("portrait") or next((w.get("image") for w in (c.works_of(a["id"]) if c else [])
-                                    if w.get("image")), None)
-    return _card("c-artist", f'{up(depth)}artists/{e(a["id"])}.html', im, depth,
-                 a.get("name", ""), a.get("name_alt_str") or "",
-                 _years(a), a.get("one_line", ""))
+    """艺术家卡片：**文字优先，图是可选项且放在名字下方。**
+
+    两个理由，都不是版面偏好：
+
+    一、**130 位艺术家里 0 位有肖像。**中国美术史的画家绝大多数没有可靠的传世画像，
+       这是史料状况而非欠账。而原先无图时会渲染一个 3:4 的空灰框——
+       130 张卡片里 96 张是空框，**把「本无其人之像」显示成「图还没配上」**。
+
+    二、有图的 34 张，图其实借自该家名下某件作品。**图在名字上方，读起来就成了
+       「这就是范宽」**；移到名字下方并标出是哪一件，才不至于把作品当人像。
+    """
+    im = a.get("portrait")
+    from_work = None
+    if not im and c:
+        from_work = next((w for w in c.works_of(a["id"]) if w.get("image")), None)
+        if from_work:
+            im = from_work.get("image")
+
+    fig = ""
+    if im:
+        cap = (f'<span class="ca-cap">{e(from_work.get("title", ""))}</span>'
+               if from_work else '<span class="ca-cap">传世画像</span>')
+        fig = (f'<span class="ca-fig">'
+               f'{img_tag(im, depth, "ph-card ph-mini", "(min-width:900px) 12vw, 26vw", "3/2")}'
+               f'{cap}</span>')
+
+    alt = a.get("name_alt_str") or ""
+    sub = f'<span class="card-sub">{e(alt)}</span>' if alt else ""
+    cls = "card c-artist" + ("" if im else " c-artist-txt")
+    return (f'<a class="{cls}" href="{up(depth)}artists/{e(a["id"])}.html">'
+            f'<span class="card-t">{e(a.get("name", ""))}</span>{sub}'
+            f'<span class="card-m">{e(_years(a))}</span>'
+            f'<span class="card-d">{e(a.get("one_line", ""))}</span>'
+            f'{fig}</a>')
 
 
 def card_work(w, depth, c=None):

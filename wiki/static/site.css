@@ -455,6 +455,19 @@ blockquote cite { display: block; font: 400 12.5px var(--mono); font-style: norm
 .card-sub { font: 400 12.5px/1.35 var(--serif); color: var(--muted); }
 .card-m { font: 400 10.5px/1.6 var(--mono); color: var(--faint); }
 .card-d { font-size: 12.5px; color: var(--muted); line-height: 1.45; margin-top: 2px; }
+/* ── 艺术家卡片：文字优先，图是可选项且在名字之下 ─────────────────────────
+   130 位艺术家里 0 位有可靠传世画像——这是史料状况，不是欠账。
+   所以不给它预留空图框：预留就等于宣告「图还没配上」。
+   有图的那些，图借自该家名下某件作品，故放在名字下方并标出是哪一件——
+   图在名字上方会被读成「这就是范宽」。                                    */
+
+.c-artist .ca-fig { display: grid; gap: 3px; margin-top: 7px; }
+.ph-mini { padding: 0; margin: 0; max-width: 148px; }
+.ca-cap { font: 400 10.5px/1.5 var(--mono); color: var(--faint); max-width: 148px; }
+/* 纯文字的艺术家卡片：靠左细线立住，免得在网格里散开 */
+.c-artist-txt { border-left: 2px solid var(--line); padding-left: 12px; }
+.c-artist-txt:hover { border-left-color: var(--seal); }
+
 .card-flat { border-left: 2px solid var(--line); padding: 3px 0 3px 12px; }
 .c-site.card-flat, .c-site { --accent: var(--t-site); }
 .card-flat.c-class { border-left-color: var(--t-class); }
