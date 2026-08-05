@@ -251,18 +251,55 @@ def coverage(limit=24):
             break
 
 
+def gaps(kind=None, top=0):
+    """缺口工作清单：提纲点了名而本库没有的实体，按类与被点次数排。
+
+    **被多个单元点到的缺口优先**——那不是一个单元的偏好，是多处都要用到的东西。
+    家具材质那几个类目正是这么暴露的：黄花梨在三个互不相干的单元里各自浮现。
+    """
+    o = load_outline()
+    idx = _entities()
+    want = collections.defaultdict(lambda: collections.Counter())
+    where = collections.defaultdict(set)
+    for u in o.get("units", []):
+        for k in ENTITY_KEYS:
+            for nm in (u.get("expect") or {}).get(k, []) or []:
+                if _lookup(idx, k, nm)[0]:
+                    continue
+                want[k][nm] += 1
+                where[(k, nm)].add(f"{u['period']}×{u['domain']}")
+    total = sum(sum(c.values()) for c in want.values())
+    print(f"缺口 {sum(len(c) for c in want.values())} 个不同实体（被点 {total} 次）\n")
+    for k in ENTITY_KEYS:
+        if kind and k != kind:
+            continue
+        c = want[k]
+        if not c:
+            continue
+        print(f"── {k}　{len(c)} 个 ──")
+        for nm, n in c.most_common(top or None):
+            cells = "、".join(sorted(where[(k, nm)])[:3])
+            print(f"   {n}×  {nm:<22}{cells}")
+        print()
+
+
 def main():
-    ap = argparse.ArgumentParser(description="内容提纲：合并·校验·对账")
+    ap = argparse.ArgumentParser(description="内容提纲：合并·校验·对账·缺口")
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("merge")
     sub.add_parser("check")
     cv = sub.add_parser("coverage")
     cv.add_argument("--limit", type=int, default=24)
+    gp = sub.add_parser("gaps")
+    gp.add_argument("--kind", choices=ENTITY_KEYS)
+    gp.add_argument("--top", type=int, default=0)
     a = ap.parse_args()
     if a.cmd == "merge":
         merge()
     elif a.cmd == "check":
         sys.exit(check())
+    elif a.cmd == "gaps":
+        gaps(a.kind, a.top)
     else:
         coverage(a.limit)
 

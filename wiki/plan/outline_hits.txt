@@ -1,0 +1,154 @@
+--- erlitou-shang.ceramics.shang-baitao
+period/domain: erlitou-shang ceramics
+name: 商代白陶与原始瓷的出现
+one_line: 商代白陶纹饰精细，常仿青铜器造型；原始瓷的出现则是瓷器起源讨论的关键一环。
+hit: ['原始瓷', '白陶']
+expect: {"class": ["白陶", "原始瓷"], "site": ["郑州商城"]}
+basis: 待核（一般商代陶瓷史知识，未见 canon/ref 文档逐条列出，需人工核对《中国陶瓷全集》夏商周分卷） | confidence: 待核
+--- erlitou-shang.lacquer-textile.shang-qimu-hen
+period/domain: erlitou-shang lacquer-textile
+name: 商代漆器残痕与丝织物印痕：实物稀少下的间接证据
+one_line: 商代绘画仅见于器表与漆木残痕（canon 已明确），漆器与织物本体多已朽毁，只能靠印痕、附着物间接复原。
+hit: ['漆器']
+expect: {"class": ["漆器"], "site": ["安阳殷墟"]}
+basis: canon.cells（erlitou-shang.painting 的 why：商代绘画仅见于器表与漆木残痕） | confidence: 待核
+--- five-dynasties.ceramics.yuezhou-mise
+period/domain: five-dynasties ceramics
+name: 越窑秘色瓷：吴越钱氏"贡瓷"制度与法门寺地宫共出实证
+one_line: 五代吴越政权确立越窑"贡瓷"制度，秘色瓷专供宫廷与朝贡之用，法门寺地宫出土的秘色瓷（伴出《应从重真身供养道具及金银宝器衣物账》碑明确记为"瓷秘色"）虽属唐代地宫遗物，但确证了秘色瓷这一概念在晚唐五代之交已然成熟，是五代与隋唐两期陶瓷条目应互相勾连的一个节点。
+hit: ['秘色瓷']
+expect: {"class": ["秘色瓷"], "site": ["法门寺地宫", "越窑"]}
+basis: canon.sui-tang.centres（越窑）/sui-tang.metal-enamel.famensi-digong（跨期关联） | confidence: 记得
+--- five-dynasties.lacquer-textile.shujin-qisi
+period/domain: five-dynasties lacquer-textile
+name: 五代织锦：蜀地"蜀锦"与南唐"缂丝"的地方工艺中心
+one_line: 前后蜀政权治下的成都延续了唐代蜀锦生产传统，南唐治下的江南则以缂丝工艺见长，两大割据政权在纺织品门类上分别延续了唐代西南与江南两条不同的工艺谱系，是这一时期地方政权文化政策差异在物质文化上的体现。
+hit: ['蜀锦']
+expect: {"class": ["蜀锦", "缂丝"]}
+basis: canon.five-dynasties.centres（成都、江宁） | confidence: 待核
+--- liao-jin.ceramics.liaosancai-jiguanhu
+period/domain: liao-jin ceramics
+name: 辽三彩与鸡冠壶：游牧生活方式对器形的重塑
+one_line: 辽三彩承唐三彩余绪而釉色简化为黄绿白三色，鸡冠壶（马镫壶）则是模仿契丹皮囊水具形制烧造的陶瓷器形，是游牧生活方式直接塑造器物形制的典型个案。
+hit: ['辽三彩']
+expect: {"class": ["辽三彩", "鸡冠壶"]}
+basis: canon.liao-jin.keys（辽三彩） | confidence: 确知
+--- ming.ceramics.guanda-minshao-qiyuan
+period/domain: ming ceramics
+name: 官搭民烧制度的起源
+one_line: 明代中后期官窑生产任务部分转由民窑承接（「官搭民烧」），这一制度在清代成熟为常规做法，明代是其起源阶段；本库现有陶瓷条目未见按此制度组织。
+hit: ['官搭民烧']
+expect: {"class": ["官搭民烧", "官窑", "民窑"]}
+basis: 景德镇制瓷史通行叙述 | confidence: 待核
+--- ming.ceramics.qinghua-wucai-kuanzhi
+period/domain: ming ceramics
+name: 青花五彩的官窑体系与款识断代
+one_line: 宣德青花、成化斗彩、嘉靖万历五彩构成明代官窑技术演进主线；官窑款识是断代重要依据也是仿款重灾区，两者须并列处理而非默认款识即真。
+hit: ['青花', '斗彩', '五彩']
+expect: {"class": ["青花", "斗彩", "五彩"]}
+basis: canon.json ming.keys「青花五彩」；中国陶瓷史通行分期 | confidence: 记得
+--- neolithic.ceramics.dawenkou-baitao
+period/domain: neolithic ceramics
+name: 大汶口白陶与刻符
+one_line: 大汶口白陶与陶器刻符是汉字起源讨论中常被引用的物证之一，属陶瓷与文字史的交界题目。
+hit: ['白陶']
+expect: {"site": ["大汶口"], "class": ["大汶口文化", "白陶"]}
+basis: canon.centres(大汶口) | confidence: 待核
+--- neolithic.ceramics.majiayao-caitao
+period/domain: neolithic ceramics
+name: 马家窑彩陶：漩涡纹与半山、马厂分期
+one_line: 马家窑是彩陶艺术的顶峰期，漩涡纹、水波纹的演变序列是彩陶断代的核心依据。
+hit: ['彩陶']
+expect: {"site": ["马家窑"], "class": ["马家窑文化", "彩陶"]}
+basis: canon.keys(马家窑)/canon.centres(马家窑) | confidence: 记得
+--- neolithic.ceramics.yangshao-caitao
+period/domain: neolithic ceramics
+name: 仰韶彩陶：半坡与庙底沟两大类型的纹样体系
+one_line: 彩陶是新石器美术最核心的研究对象，仰韶文化以人面鱼纹、几何纹两大类型确立了最早的图像谱系。
+hit: ['彩陶']
+expect: {"site": ["半坡", "庙底沟"], "class": ["仰韶文化", "彩陶"], "work": ["人面鱼纹盆", "鹳鱼石斧图彩陶缸"]}
+basis: canon.keys(仰韶彩陶)/canon.centres(半坡、庙底沟) | confidence: 记得
+--- neolithic.lacquer-textile.hemudu-qiqi
+period/domain: neolithic lacquer-textile
+name: 河姆渡漆器与早期丝麻织物遗痕
+one_line: 河姆渡出土的朱漆木碗是中国已知最早的漆器实物之一，织物遗痕则是丝麻起源讨论的间接证据。
+hit: ['漆器']
+expect: {"site": ["河姆渡"], "class": ["漆器"], "work": ["朱漆木碗"]}
+basis: plan/ref-考古与遗址体系.md 六节（河姆渡文化：河姆渡，本库已有） | confidence: 待核
+--- qing.ceramics.guanda-minshao-yanxu
+period/domain: qing ceramics
+name: 官搭民烧制度在清代的延续
+one_line: 明代起源的官搭民烧制度在清代成为官窑应对大额订单的常规安排，与康雍乾官窑技术高峰同时并存；本单元与 ming.ceramics.guanda-minshao-qiyuan 相接续，不重复起源部分内容。
+hit: ['官搭民烧']
+expect: {"class": ["官搭民烧", "官窑"]}
+basis: 景德镇制瓷史通行叙述 | confidence: 待核
+--- spring-autumn-warring.ceramics.yinwenying-taoqi
+period/domain: spring-autumn-warring ceramics
+name: 印纹硬陶与原始瓷在南方的延续
+one_line: 印纹硬陶、原始瓷在吴越、楚地持续发展，是瓷器起源链条上承西周、下启秦汉的一环。
+hit: ['原始瓷', '印纹硬陶']
+expect: {"class": ["印纹硬陶", "原始瓷"]}
+basis: 待核（需核对《中国陶瓷全集》春秋战国分卷） | confidence: 待核
+--- spring-autumn-warring.lacquer-textile.chudi-qiqi
+period/domain: spring-autumn-warring lacquer-textile
+name: 楚地漆器：荆州、江陵漆器体系与髹漆工艺
+one_line: 楚地漆器数量大、题材奇诡（虎座鸟架鼓、镇墓兽），是本库「楚地想象」这一美术史论断最直接的物证载体。
+hit: ['漆器']
+expect: {"site": ["楚郢都（荆州）"], "class": ["漆器", "楚文化"], "work": ["虎座鸟架鼓", "镇墓兽"]}
+basis: canon.keys(漆器、楚文化)/canon.centres(楚郢都（荆州）) | confidence: 记得
+--- sui-tang.ceramics.nanqing-beibai
+period/domain: sui-tang ceramics
+name: 邢窑白瓷与越窑青瓷："南青北白"格局的形成
+one_line: 唐代制瓷业形成"南青北白"的地理格局——邢窑（河北）代表北方白瓷的成熟，越窑（浙江）代表南方青瓷传统的延续与"秘色瓷"的出现，二者的技术路线与审美取向差异是唐代陶瓷史最基本的框架性认识。
+hit: ['越窑青瓷']
+expect: {"site": ["邢窑", "越窑"], "class": ["邢窑白瓷", "越窑青瓷"]}
+basis: canon.sui-tang.centres（邢窑、越窑） | confidence: 确知
+--- sui-tang.metal-enamel.famensi-digong
+period/domain: sui-tang metal-enamel
+name: 法门寺地宫：唐代宫廷金银器与秘色瓷共出的最高等级实证
+one_line: 法门寺地宫（1987年发掘，有正式《法门寺考古发掘报告》2007年出版）出土的鎏金银器、秘色瓷与伊斯兰玻璃器共出一处，且伴有《应从重真身供养道具及金银宝器衣物账》碑刻逐件对应实物，是本库遗址侧唯一能把断代等级做到"报告+碑记"双重最高档的案例。
+hit: ['秘色瓷']
+expect: {"site": ["法门寺地宫"], "class": ["秘色瓷"]}
+basis: plan/ref-考古与遗址体系.md 三（"法门寺地宫……有——《法门寺考古发掘报告》(2007)"） | confidence: 记得
+--- wei-jin-nanbei.ceramics.zaoqi-qingci
+period/domain: wei-jin-nanbei ceramics
+name: 早期青瓷：越窑体系的成熟与"缥瓷"记载
+one_line: 六朝青瓷以越窑为代表窑口趋于成熟，胎釉结合更紧密，晋人文献中"缥瓷"一类记载是研究当时人如何描述青瓷釉色的重要旁证，与南朝士人文化圈的审美趣味相互印证。
+hit: ['越窑青瓷']
+expect: {"class": ["越窑青瓷", "缥瓷"]}
+basis: canon.wei-jin-nanbei.keys（青瓷） | confidence: 记得
+--- wei-jin-nanbei.lacquer-textile.beichao-jisi-shuchuan
+period/domain: wei-jin-nanbei lacquer-textile
+name: 北朝缂丝与蜀锦经丝绸之路的传播
+one_line: 十六国北朝时期蜀地织锦经河西走廊向西传播，新疆出土的联珠对兽锦一类实物显示中原织锦工艺与西域纹样的早期交汇，是丝绸之路美术交流史在纺织品这一门类上的关键节点。
+hit: ['蜀锦']
+expect: {"class": ["蜀锦", "联珠对兽锦"]}
+basis: canon.wei-jin-nanbei.centres（对照丝路沿线遗址） | confidence: 待核
+--- western-zhou.ceramics.xizhou-yuanshici
+period/domain: western-zhou ceramics
+name: 西周原始瓷与几何印纹硬陶
+one_line: 原始瓷与印纹硬陶在西周多见于南方地区，是瓷器起源链条上承商代、下启春秋战国的一环。
+hit: ['原始瓷', '印纹硬陶']
+expect: {"class": ["原始瓷", "印纹硬陶"]}
+basis: 待核（一般陶瓷史知识，需核对《中国陶瓷全集》夏商周分卷） | confidence: 待核
+--- western-zhou.lacquer-textile.xizhou-qiqi-canji
+period/domain: western-zhou lacquer-textile
+name: 西周漆器与丝织残迹：实物稀少的间接研究
+one_line: 西周漆器与丝织实物存世极少，多依赖朽痕与文献互证，是本库材质证据链最薄弱的一段。
+hit: ['漆器']
+expect: {"class": ["漆器"]}
+basis: 待核 | confidence: 待核
+--- yuan.ceramics.shufuci-guanfu
+period/domain: yuan ceramics
+name: 景德镇枢府瓷（卵白釉）与元代官府用瓷制度
+one_line: 元代枢密院定烧的卵白釉瓷器因器身多印“枢府”二字得名，是元代官府用瓷制度区别于宋代汝官哥钧定单一名窑体系的新形态。
+hit: ['枢府瓷']
+expect: {"class": ["枢府瓷", "卵白釉"]}
+basis: canon.yuan.keys（枢府瓷） | confidence: 确知
+--- yuan.ceramics.yuanqinghua-chengshu
+period/domain: yuan ceramics
+name: 元青花的成熟与外销
+one_line: 元代景德镇以进口“苏麻离青”钴料烧制的青花瓷，纹样构图明显受伊斯兰市场审美影响，其年代与外销脉络近数十年因海外沉船与窑址发掘材料大幅改写，不宜再套用旧有的单一叙事。
+hit: ['元青花']
+expect: {"class": ["元青花", "苏麻离青"], "site": ["新安沉船"]}
+basis: canon.yuan.keys（元青花）/ canon.yuan.dispute（元青花年代与外销脉络近年大幅改写） | confidence: 确知
