@@ -53,29 +53,50 @@ def save_outline(o):
 
 
 def merge():
+    """从 plan/units-*.json **整体重建** units，而不是往里追加。
+
+    起初这里是追加，代价当场付了：我在 `data/outline.json` 里把两个单元改归新设的
+    寺观壁画门，却没改源文件 `plan/units-song-yuan.json`，**下一次合并把原样又加了回来**
+    ——永乐宫与岩山寺各成了两条。
+
+    根因不是漏改一处，是**派生数据被当成了可手改的数据**。所以改为整体重建：
+    手改 units 不再是「会被悄悄回退」，而是**下次合并直接检出并报错**。
+    把错从设计里去掉，比记得每次两处都改可靠。
+    """
     o = load_outline()
-    have = {u["id"] for u in o.get("units", [])}
-    added, dup, files = 0, 0, 0
+    prev = {u["id"] for u in o.get("units", []) if isinstance(u, dict) and u.get("id")}
+
+    units, seen, files, dup = [], {}, 0, 0
     for f in sorted((WIKI / "plan").glob("units-*.json")):
-        data = json.loads(f.read_text(encoding="utf-8"))
-        items = data.get("items") or []
+        items = (json.loads(f.read_text(encoding="utf-8")).get("items")) or []
         files += 1
         n = 0
         for u in items:
             if not isinstance(u, dict) or not u.get("id"):
                 continue
-            if u["id"] in have:
+            if u["id"] in seen:
+                # 同一 id 出现在两份源文件里——两路代理撞题，须人判该留哪条。
+                print(f"  ! id 撞车：{u['id']} 同时见于 {seen[u['id']]} 与 {f.name}")
                 dup += 1
                 continue
-            have.add(u["id"])
-            o.setdefault("units", []).append(u)
+            seen[u["id"]] = f.name
+            units.append(u)
             n += 1
-            added += 1
-        print(f"  {f.name:<34} {len(items):>4} 项 → 并入 {n}")
-    o["units"].sort(key=lambda u: (u.get("period", ""), u.get("domain", ""), u["id"]))
+        print(f"  {f.name:<34} {len(items):>4} 项 → 取 {n}")
+
+    now = set(seen)
+    orphan = sorted(prev - now)
+    if orphan:
+        print(f"\n  ! 提纲里有 {len(orphan)} 个单元在任何源文件里都找不到——"
+              f"**这是有人手改了派生数据**，改动应回到 plan/ 下的源文件：")
+        for i in orphan[:10]:
+            print(f"      {i}")
+
+    units.sort(key=lambda u: (u.get("period", ""), u.get("domain", ""), u["id"]))
+    o["units"] = units
     save_outline(o)
-    print(f"\n合并 {files} 份，新增 {added} 个单元，跳过重复 id {dup} 个；"
-          f"提纲现有 {len(o.get('units', []))} 个单元")
+    print(f"\n重建 {files} 份 → {len(units)} 个单元"
+          f"（id 撞车 {dup} · 孤儿 {len(orphan)}）")
 
 
 def check():
@@ -136,6 +157,14 @@ def check():
     return 1 if errs else 0
 
 
+# 通名后缀。提纲写「牛河梁」，本库条目名作「牛河梁遗址」——**按名比对在后缀上失效**。
+# 本库实体没有别名字段，只有 name，所以只能靠后缀规则；而这类规则必有失效点
+# （「良渚」既可指良渚遗址也可指良渚古城）。**那就把失效点做成可见的**：
+# 后缀规则命中多于一个候选时一律不计，单列为待判，交人处置。
+SUFFIX = ("遗址", "墓地", "墓", "石窟", "石刻", "古城", "窑址", "窑", "塔", "寺", "祠",
+          "画派", "文化")
+
+
 def _entities():
     idx = collections.defaultdict(dict)
     for sub, kind in (("artists", "artist"), ("works", "work"), ("sites", "site"),
@@ -151,6 +180,19 @@ def _entities():
     return idx
 
 
+def _lookup(idx, kind, nm):
+    """→ (hit, how)：how ∈ exact | suffix | ambig | miss。**歧义不算命中。**"""
+    if nm in idx[kind]:
+        return idx[kind][nm], "exact"
+    cands = [v for k, v in idx[kind].items()
+             if k != nm and k.startswith(nm) and k[len(nm):] in SUFFIX]
+    if len(cands) == 1:
+        return cands[0], "suffix"
+    if len(cands) > 1:
+        return None, "ambig"
+    return None, "miss"
+
+
 def coverage(limit=24):
     """对账：提纲点名的实体，本库有几个、其中几个是完整级。
 
@@ -164,28 +206,27 @@ def coverage(limit=24):
     pname = {p["id"]: p["name"] for p in canon["periods"]}
 
     tot = collections.Counter()
-    rows = []
+    ambig = []
     for u in o.get("units", []):
-        want = miss = rec = 0
-        missing = []
         for k in ENTITY_KEYS:
             for nm in (u.get("expect") or {}).get(k, []) or []:
-                want += 1
-                hit = idx[k].get(nm)
-                if not hit:
-                    miss += 1
-                    missing.append(f"{k}:{nm}")
-                elif hit[1] == "record":
-                    rec += 1
-        tot["want"] += want
-        tot["miss"] += miss
-        tot["record"] += rec
-        rows.append((u["id"], u.get("name", ""), want, miss, rec, missing))
+                tot["want"] += 1
+                hit, how = _lookup(idx, k, nm)
+                tot[how] += 1
+                if how == "ambig":
+                    ambig.append(f"{k}:{nm}")
+                if hit and hit[1] == "record":
+                    tot["record"] += 1
 
-    got = tot["want"] - tot["miss"]
+    got = tot["exact"] + tot["suffix"]
     full = got - tot["record"]
-    print(f"提纲点名实体 {tot['want']} 个：本库已有 {got}（{got*100//max(tot['want'],1)}%），"
-          f"其中完整级 {full}、著录级 {tot['record']}；缺 {tot['miss']}")
+    print(f"提纲点名实体 {tot['want']} 个：本库已有 {got}"
+          f"（{got*100//max(tot['want'],1)}%）——严格同名 {tot['exact']}、"
+          f"通名后缀 {tot['suffix']}；其中完整级 {full}、著录级 {tot['record']}")
+    print(f"缺 {tot['miss']}，另有 {tot['ambig']} 个名字**后缀规则命中多个候选、"
+          f"一律不计**（按名比对必有失效点，把它做成可见的而不是猜）")
+    if ambig:
+        print("   待判：" + "、".join(sorted(set(ambig))[:12]))
     print("**「有条目」不等于「有完整级条目」**——正典位上摆一条照录，"
           "等于用清单欺骗清单。\n")
 
@@ -195,7 +236,7 @@ def coverage(limit=24):
         for kk in ENTITY_KEYS:
             for nm in (u.get("expect") or {}).get(kk, []) or []:
                 bycell[k][0] += 1
-                if idx[kk].get(nm):
+                if _lookup(idx, kk, nm)[0]:
                     bycell[k][1] += 1
     worst = sorted(bycell.items(), key=lambda kv: (kv[1][1] / max(kv[1][0], 1), -kv[1][0]))
     print("覆盖率最低的格子（分母≥3 者）：")

@@ -979,9 +979,9 @@
       "confidence": "记得"
     },
     {
-      "id": "liao-jin.cave-temple.yanshansi-jinhua-bihua",
+      "id": "liao-jin.temple-mural.yanshansi-jinhua-bihua",
       "period": "liao-jin",
-      "domain": "cave-temple",
+      "domain": "temple-mural",
       "name": "繁峙岩山寺壁画：金代文人画风格移入寺观空间",
       "one_line": "山西繁峙岩山寺文殊殿壁画相传出自金代宫廷画师王逵之手，画风精细近北宋院体人物画传统，是判断金代绘画对北宋传统承续程度的重要个案，但其性质是寺观壁画而非严格意义的石窟。",
       "expect": {},
@@ -1120,9 +1120,9 @@
       "confidence": "确知"
     },
     {
-      "id": "yuan.architecture.yongle-gong-jianzhu-bihua",
+      "id": "yuan.temple-mural.yongle-gong-bihua",
       "period": "yuan",
-      "domain": "architecture",
+      "domain": "temple-mural",
       "name": "永乐宫：元代道教宫观建筑与壁画的一体化",
       "one_line": "永乐宫三清殿、纯阳殿等建筑群与殿内《朝元图》壁画同期营建、互为整体，但按本库门类划分，壁画载体本应归入石窟寺或墓葬美术两门，而永乐宫既非石窟亦非墓葬——这是提纲在套用现有门类框架时暴露的一处边界空白，如实标注而不强行归类。",
       "expect": {
