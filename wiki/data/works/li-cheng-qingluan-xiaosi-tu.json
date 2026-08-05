@@ -1,0 +1,87 @@
+{
+  "schema": "work/1",
+  "id": "li-cheng-qingluan-xiaosi-tu",
+  "title": "晴峦萧寺图",
+  "title_orig": "晴巒蕭寺圖",
+  "kind": "画作",
+  "artist": "li-cheng",
+  "period": "northern-song",
+  "year": "传为李成所作，无确切纪年，本库未考订",
+  "year_sort": 960,
+  "medium": "绢本水墨，淡设色，立轴",
+  "holder": "纳尔逊-阿特金斯艺术博物馆",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Li_Cheng_-_A_Solitary_Temple_Amid_Clearing_Peaks_-_Google_Art_Project.jpg",
+    "credit": "Li Cheng (919 - 967 C.E.) Details on Google Art Project / Wikimedia Commons",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/li-cheng-qingluan-xiaosi-tu-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Li_Cheng_-_A_Solitary_Temple_Amid_Clearing_Peaks_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 960,
+    "h": 1911,
+    "alt": "晴峦萧寺图（纳尔逊-阿特金斯艺术博物馆，传李成）"
+  },
+  "verification": "memory",
+  "updated": "2026-08-06",
+  "sources": [
+    {"ref": "wikimedia", "note": "图版来源，Google Art Project 公版扫描，英译题名 A Solitary Temple Amid Clearing Peaks"},
+    {"ref": "nelson-atkins", "note": "现藏机构，本库未逐字核对官方藏品页原文"},
+    {"ref": "mifu-huashi", "note": "米芾「无李论」一说的出处，见 [[artist:li-cheng|李成]] 条目"},
+    {"ref": "wangxun-zhongguo-meishushi", "note": "对本件真伪问题的交叉核对"},
+    {"ref": "three-thousand-years", "note": "本件断代与真伪讨论的交叉参考，西方学界（如 Laurence Sickman 一系收藏与研究）对本件的关注"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["主题", "主峰高耸入云，山腰古寺楼观隐现于晴岚薄雾之间，下方溪谷有旅人行进，全幅气势雄峻又不失清朗"],
+        ["传统归属作者", "李成——「artist」字段记录的是历代著录以来的传统归属，见 [[artist:li-cheng|李成]] 条目「无李论」的整体论证"],
+        ["材质形制", "绢本水墨，淡设色，立轴"],
+        ["现藏", "美国纳尔逊-阿特金斯艺术博物馆"],
+        ["尺寸", "据通行说法约111×56cm，本库未逐一核对馆方官方页确认具体数字"],
+        ["款识题跋", "无李成本人款识"]
+      ]},
+      {"t": "dating", "basis": "风格比对", "conf": "存疑",
+       "text": "本件归于李成名下的依据是历代著录与画面风格特征，无本人款识或藏款留存。本库标『存疑』，不判『确证』——完整论证见 [[artist:li-cheng|李成]] 条目「概览」一节「无李论」的讨论，本条目不重复展开。"},
+      {"t": "stmt", "state": "disp", "text": "**本件是西方汉学界讨论「李成风格」时最常引用的一件，但知名度不等于证据强度**：本件二十世纪中叶起即为纳尔逊-阿特金斯艺术博物馆重要藏品，被多部英文中国绘画通史选作「李成」代表图版，这一西方学界的偏重本身有其收藏史成因（该馆中国绘画收藏体系的建立过程），与本件在证据链上是否比 [[work:li-cheng-dubei-keshi-tu|读碑窠石图]]、[[work:li-cheng-maolin-yuanxiu-tu|茂林远岫图]] 更可靠，是两个不同的问题——本库不因一件作品被更多教科书选用，就赋予它更高的归属确证等级。", "src": "wangxun-zhongguo-meishushi"}
+    ],
+    "commission": [
+      {"t": "gap", "text": "创作缘起、委托背景史籍全无记载。"}
+    ],
+    "reading": [
+      {"t": "p", "text": "全幅以高远取势：主峰居中拔地而起，山腰古寺楼观掩映于晴岚薄雾间，下方溪谷、板桥、行旅点景铺陈出可游可居的空间层次，气势雄峻，但因用墨清淡、云雾缭绕，并不给人荆浩、关仝一路北方山水的沉重压迫感，画题「晴峦萧寺」恰好点出这种「雄峻而清朗」的独特调性。"},
+      {"t": "stmt", "state": "adopt", "text": "**本件同时具备「高远」与李成惯常「平远」两种空间处理**：主峰部分取高远之势，与 [[artist:li-cheng|李成]] 条目「创作体系」一节所述以平远为主的构图习惯不完全一致——这一差异是本件归属讨论中一个具体的画面证据点：赞同归入李成名下的学者认为这体现李成风格的多样性（并非只画平远寒林），持保留态度的学者则认为这种「高远为主」的处理更接近范宽一路，本件或受两派山水风格交叉影响，本库并陈不裁断。", "src": "wangxun-zhongguo-meishushi"}
+    ],
+    "technique": [
+      {"t": "ul", "items": [
+        "**用墨清淡（据本件观察）**：山石皴染层次分明而不浓重，云雾以留白与淡墨渲染结合，与 [[artist:li-cheng|李成]] 条目所述「惜墨如金」评语相合。",
+        "**楼观入山水（据本件观察）**：山腰寺观界画精工，与 [[artist:li-cheng|李成]] 条目所述「楼观入山水，寺塔楼阁常置于中景或一侧」的文献转述描述吻合，是本件长期被归入李成名下的重要风格依据之一。",
+        "**寒林蟹爪枝（据本件观察）**：溪谷旁枯木枝条见下垂如蟹爪之态，与本批另两件李成归名之作的树法特征一致，三件互相印证，但这一印证本身仍属风格比对的循环，不构成独立确证。"
+      ]},
+      {"t": "gap", "text": "本件绢质、颜料的科技检测数据本库未见"}
+    ],
+    "colophons": [
+      {"t": "colophon", "by": "历代鉴藏者（未逐一核对）", "text": "本件传世流转当有历代题跋与鉴藏印记，但本库尚未逐方核对纳尔逊-阿特金斯艺术博物馆官方著录，暂不列具体清单，仅说明其存在。"},
+      {"t": "gap", "text": "各鉴藏印的印文、印主与先后次序——须据该馆官方著录逐一核对"}
+    ],
+    "provenance": [
+      {"t": "stmt", "state": "pend", "text": "本件由中国流散至海外、入藏纳尔逊-阿特金斯艺术博物馆的具体年代与经手人，本库未逐一核对官方著录，不作确切系年处理——该馆二十世纪上半叶通过劳伦斯·史克门（Laurence Sickman）等人主导的中国艺术收藏活动积累了大量中国书画藏品，本件很可能属于这一批次，但本库未核实具体细节。"},
+      {"t": "gap", "text": "完整递藏链，待核"}
+    ],
+    "reception": [
+      {"t": "p", "text": "本件因构图完整、气势突出，是西方中国绘画史著述引用率最高的「李成」图版之一，这一西方学界的关注热度本身构成了它画史地位的一部分——本库提醒：这类因收藏地便利、图版流通而形成的关注偏重，是本库反复处理的「展览史／流通史塑造名作名单」这一主题的又一例证，与该馆中国书画的收藏与展示历史直接相关，而非单纯的作品本身证据强度所致。"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "先辨认主峰的高远取势与山腰古寺的界画细节，理解画题「晴峦萧寺」所指的具体场景。",
+        "对照 [[work:li-cheng-dubei-keshi-tu|读碑窠石图]]、[[work:li-cheng-maolin-yuanxiu-tu|茂林远岫图]] 两件同批李成归名之作，思考「高远为主」与「平远为主」两种构图取向能否统一在同一位画家名下，这正是本件归属争议的核心画面证据。"
+      ]},
+      {"t": "gap", "text": "纳尔逊-阿特金斯艺术博物馆官方藏品页本库工具链未逐一核对，图版取自 Wikimedia Commons 的 Google Art Project 公版扫描（PD），读者可另行查阅该馆官网人工核对高清图与著录细节"}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "disp", "text": "**核心方法论问题——「无李论」**：见 [[artist:li-cheng|李成]] 条目「概览」一节的完整论证，本条目不重复。本件因西方学界引用率高而常被视为「李成风格」的代表，但知名度不等于证据强度，本库不因引用频率赋予其更高归属确证等级。", "src": "mifu-huashi"},
+      {"t": "stmt", "state": "disp", "text": "**构图取向与李成惯常风格的差异**：本件以高远为主，与李成文献记载中以平远见长的描述不完全一致，部分学者据此推测本件或受范宽一路风格影响，或系后世画家融合两派风格之作，本库并陈不裁断。"},
+      {"t": "gap", "text": "创作具体年代、完整递藏链——一手材料不足或待人工核对"}
+    ]
+  }
+}

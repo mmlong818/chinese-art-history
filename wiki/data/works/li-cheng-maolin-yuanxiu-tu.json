@@ -1,0 +1,86 @@
+{
+  "schema": "work/1",
+  "id": "li-cheng-maolin-yuanxiu-tu",
+  "title": "茂林远岫图",
+  "title_orig": "茂林遠岫圖",
+  "kind": "画作",
+  "artist": "li-cheng",
+  "period": "northern-song",
+  "year": "传为李成所作，无确切纪年，本库未考订；部分学者认为本件时代或晚于李成本人在世年代（919–967）",
+  "year_sort": 970,
+  "medium": "绢本水墨，淡设色，手卷",
+  "holder": "辽宁省博物馆",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Li_Cheng%2C_Luxuriant_Forest_among_Distant_Peaks.jpg",
+    "credit": "李成（传）/ Wikimedia Commons（公版扫描，非辽宁省博物馆官方直接提供）",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "img/li-cheng-maolin-yuanxiu-tu-800.jpg",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Li_Cheng%2C_Luxuriant_Forest_among_Distant_Peaks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "w": 960,
+    "h": 296,
+    "alt": "茂林远岫图（辽宁省博物馆，传李成）"
+  },
+  "verification": "memory",
+  "updated": "2026-08-06",
+  "sources": [
+    {"ref": "wikimedia", "note": "图版来源，公版扫描，标注「10世纪，北宋早期」"},
+    {"ref": "liaoning-museum", "note": "现藏机构，本库未逐字核对官方藏品页原文"},
+    {"ref": "mifu-huashi", "note": "米芾「无李论」一说的出处，见 [[artist:li-cheng|李成]] 条目"},
+    {"ref": "wangxun-zhongguo-meishushi", "note": "对本件真伪与时代问题的交叉核对"},
+    {"ref": "three-thousand-years", "note": "本件断代与真伪讨论的交叉参考"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["主题", "远山层叠出没于云雾之间，中景茂密树林，近景坡岸与水泽相接，无醒目人物点景"],
+        ["传统归属作者", "李成——「artist」字段记录的是历代著录以来的传统归属，见 [[artist:li-cheng|李成]] 条目「无李论」的整体论证"],
+        ["材质形制", "绢本水墨，淡设色，手卷"],
+        ["现藏", "辽宁省博物馆"],
+        ["尺寸", "据通行说法约45×137cm，本库未逐一核对馆方官方页确认具体数字"],
+        ["款识题跋", "无李成本人款识"]
+      ]},
+      {"t": "dating", "basis": "风格比对", "conf": "存疑",
+       "text": "本件归于李成名下的依据是历代著录与画面风格特征，无本人款识或藏款留存。本库标『存疑』，不判『确证』——完整论证见 [[artist:li-cheng|李成]] 条目「概览」一节「无李论」的讨论，本条目不重复展开。"},
+      {"t": "stmt", "state": "disp", "text": "**本件是「无李论」框架下证据链最薄弱的一环**：与 [[work:li-cheng-dubei-keshi-tu|读碑窠石图]]（至少有「树石／人物二人合作」这一相对具体的历代著录框架可讨论）和 [[work:li-cheng-qingluan-xiaosi-tu|晴峦萧寺图]]（西方汉学界长期视为李成风格代表，讨论较集中）相比，本件的归属讨论更依赖笼统的「李成一路」风格印象，部分学者甚至认为本件的树石处理程式化程度较高，更接近北宋中期「李郭派」传人（如许道宁、燕文贵一类活跃于李成身后数十年的画家）对李成风格的转译与延伸，而非李成本人在世时所作。本库并陈两说，不裁断。", "src": "wangxun-zhongguo-meishushi"}
+    ],
+    "commission": [
+      {"t": "gap", "text": "创作缘起、委托背景史籍全无记载。"}
+    ],
+    "reading": [
+      {"t": "p", "text": "全卷取平远式构图，远山出没于云气之间，中景林木密布，近景坡岸水泽相接，视线由近及远层层推展，无醒目的人物或建筑点景打断这一自然空间的连续感——这一「以自然景观为绝对主体」的处理，比 [[work:li-cheng-dubei-keshi-tu|读碑窠石图]] 更接近 [[artist:li-cheng|李成]] 条目所述文献记载中「平远」构图的典型描述。"},
+      {"t": "stmt", "state": "pend", "text": "本件与李成另两件归名之作相比，人物、建筑等叙事性元素几近于无，这一差异究竟反映的是李成本人风格的多样性，还是不同时代摹仿者、传承者各自侧重不同的结果，本库不作判断，仅记录这一观察。"}
+    ],
+    "technique": [
+      {"t": "ul", "items": [
+        "**平远构图（据本件观察）**：低视点展现层叠远山与开阔水泽，与 [[artist:li-cheng|李成]] 条目所述「齐鲁平原地貌的一种画面转译」这一文献转述描述相合，是本件长期归入李成名下的主要依据。",
+        "**用墨清淡**：与「惜墨如金」这一李成标志性评语大致相符，但清淡用墨同时也是北宋前期多位山水画家的共同倾向，不构成李成本人的排他性证据。",
+        "**树法程式化程度（据本件与另两件李成归名作对比）**：部分学者认为本件树石处理的程式化重复程度高于 [[work:li-cheng-dubei-keshi-tu|读碑窠石图]] 与 [[work:li-cheng-qingluan-xiaosi-tu|晴峦萧寺图]]，是支持「本件或为后世传人风格转译」这一推测的画面依据之一，本库并陈不裁断。"
+      ]},
+      {"t": "gap", "text": "本件绢质、颜料的科技检测数据本库未见"}
+    ],
+    "colophons": [
+      {"t": "colophon", "by": "历代鉴藏者（未逐一核对）", "text": "本件传世流转当有历代题跋与鉴藏印记，但本库尚未逐方核对辽宁省博物馆官方著录，暂不列具体清单，仅说明其存在。"},
+      {"t": "gap", "text": "各鉴藏印的印文、印主与先后次序——须据辽宁省博物馆官方著录逐一核对"}
+    ],
+    "provenance": [
+      {"t": "stmt", "state": "pend", "text": "本件据通行说法曾经清宫收藏，后流散出宫，1949年后归入辽宁省博物馆——与 [[work:dong-yuan-xiajing-shankou-daidu-tu|夏景山口待渡图]] 条目所记同批流散、同一归宿的情况类似，具体流转经过本库未逐一核对官方著录。"},
+      {"t": "gap", "text": "完整递藏链，待核"}
+    ],
+    "reception": [
+      {"t": "p", "text": "本件在中国绘画通史中常与 [[work:li-cheng-dubei-keshi-tu|读碑窠石图]]、[[work:li-cheng-qingluan-xiaosi-tu|晴峦萧寺图]] 并提，共同支撑「李成开创平远寒林一路」这一画史叙述——但如 [[artist:li-cheng|李成]] 条目所述，三件证据强度并不均等，本库在具体引用时提醒读者：把三件并列展示本身会造成一种「证据充分」的视觉印象，而实际上是三件『存疑』证据的并列，不是三重『确证』的叠加。"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "留意全卷平远式构图中远山如何被云气分隔为若干层次，这是判断本件是否体现李成「烟林清旷」评语的关键观察点。",
+        "对照 [[work:li-cheng-dubei-keshi-tu|读碑窠石图]]，比较两件树石笔法的程式化程度差异，理解「同一人名下风格差异」在李成这里可能意味着比在董源那里更严重的证据问题——李成连一件单一基准件都没有。"
+      ]},
+      {"t": "gap", "text": "辽宁省博物馆数字藏品页可查基本信息，但本库工具链无法直接程序化核对，具体高清图与详细著录请另行查阅该馆官网人工核对"}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "disp", "text": "**核心方法论问题——「无李论」**：见 [[artist:li-cheng|李成]] 条目「概览」一节的完整论证，本条目不重复。本件相较于 [[work:li-cheng-dubei-keshi-tu|读碑窠石图]]、[[work:li-cheng-qingluan-xiaosi-tu|晴峦萧寺图]]，归属依据更依赖笼统的风格印象，部分学者推测其或为北宋中期「李郭派」传人对李成风格的转译，本库并陈不裁断。", "src": "mifu-huashi"},
+      {"t": "gap", "text": "创作具体年代、委托背景、完整递藏链——一手材料不足或待人工核对"}
+    ]
+  }
+}
