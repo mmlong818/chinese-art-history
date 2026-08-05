@@ -1,0 +1,187 @@
+[
+  {
+    "id": "banpo",
+    "period": "neolithic",
+    "name": "半坡遗址"
+  },
+  {
+    "id": "chongfu-si-mituodian",
+    "period": null,
+    "name": "朔州崇福寺弥陀殿"
+  },
+  {
+    "id": "dahuting-tomb",
+    "period": null,
+    "name": "打虎亭汉墓"
+  },
+  {
+    "id": "dazu-baoding",
+    "period": null,
+    "name": "宝顶山"
+  },
+  {
+    "id": "dazu-beishan",
+    "period": null,
+    "name": "北山"
+  },
+  {
+    "id": "dazu",
+    "period": null,
+    "name": "大足石刻"
+  },
+  {
+    "id": "dule-si",
+    "period": null,
+    "name": "独乐寺观音阁与山门"
+  },
+  {
+    "id": "foguang-si",
+    "period": null,
+    "name": "佛光寺东大殿"
+  },
+  {
+    "id": "forbidden-city",
+    "period": null,
+    "name": "紫禁城"
+  },
+  {
+    "id": "hemudu",
+    "period": "neolithic",
+    "name": "河姆渡遗址"
+  },
+  {
+    "id": "huayan-si-bojiajiaozang",
+    "period": null,
+    "name": "大同华严寺薄伽教藏殿"
+  },
+  {
+    "id": "jinci-shengmudian",
+    "period": null,
+    "name": "晋祠圣母殿"
+  },
+  {
+    "id": "jiuliandun",
+    "period": null,
+    "name": "九连墩楚墓群"
+  },
+  {
+    "id": "longmen-fengxian",
+    "period": null,
+    "name": "奉先寺"
+  },
+  {
+    "id": "longmen",
+    "period": null,
+    "name": "龙门石窟"
+  },
+  {
+    "id": "longxing-si-mounidian",
+    "period": null,
+    "name": "隆兴寺摩尼殿"
+  },
+  {
+    "id": "lourui-tomb",
+    "period": null,
+    "name": "娄睿墓"
+  },
+  {
+    "id": "maijishan-133",
+    "period": null,
+    "name": "麦积山第 133 窟（万佛洞）"
+  },
+  {
+    "id": "maijishan-4",
+    "period": null,
+    "name": "麦积山第 4 窟（上七佛阁）"
+  },
+  {
+    "id": "maijishan",
+    "period": null,
+    "name": "麦积山石窟"
+  },
+  {
+    "id": "mogao-45",
+    "period": null,
+    "name": "莫高窟第 45 窟"
+  },
+  {
+    "id": "mogao",
+    "period": null,
+    "name": "莫高窟"
+  },
+  {
+    "id": "nanchan-si",
+    "period": null,
+    "name": "南禅寺大殿"
+  },
+  {
+    "id": "niuheliang",
+    "period": "neolithic",
+    "name": "牛河梁遗址"
+  },
+  {
+    "id": "qianzhangda",
+    "period": null,
+    "name": "前掌大墓地"
+  },
+  {
+    "id": "taihedian",
+    "period": null,
+    "name": "太和殿"
+  },
+  {
+    "id": "wanfo-si",
+    "period": null,
+    "name": "万佛寺遗址"
+  },
+  {
+    "id": "wushi-ci",
+    "period": null,
+    "name": "武氏祠"
+  },
+  {
+    "id": "xiaozhu-guo",
+    "period": null,
+    "name": "小邾国墓地（枣庄东江）"
+  },
+  {
+    "id": "yinan-beizhai-tomb",
+    "period": null,
+    "name": "沂南北寨汉墓"
+  },
+  {
+    "id": "yingxian-muta",
+    "period": null,
+    "name": "应县木塔"
+  },
+  {
+    "id": "yongle-gong",
+    "period": null,
+    "name": "永乐宫"
+  },
+  {
+    "id": "yungang-20",
+    "period": null,
+    "name": "云冈第 20 窟"
+  },
+  {
+    "id": "yungang-6",
+    "period": null,
+    "name": "云冈第 6 窟"
+  },
+  {
+    "id": "yungang-tanyao",
+    "period": null,
+    "name": "昙曜五窟（云冈第 16–20 窟）"
+  },
+  {
+    "id": "yungang",
+    "period": null,
+    "name": "云冈石窟"
+  },
+  {
+    "id": "zhuozheng-garden",
+    "period": null,
+    "name": "拙政园"
+  }
+]

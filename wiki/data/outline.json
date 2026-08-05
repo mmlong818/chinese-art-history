@@ -1,0 +1,1444 @@
+{
+  "schema": "outline/1",
+  "note": "内容提纲：本库声明自己涵盖哪些内容。这是**分母**——`canon.json` 的 17 期是时间轴，`WORK_KIND_GROUP` 是材质轴，而提纲是「该写哪些题目」。没有它，覆盖率算不出来，缺什么也说不清；本库此前正是缺这一层，于是填充顺序由 API 可得性决定，库的形状变成了开放数据计划的形状。",
+  "how_to_read": [
+    "**纲目为「期 × 门类 → 单元」。**期取自 canon.json（17 期），门类见 domains，单元是具体题目。",
+    "单元的 `expect` 声明该题目下应当存在哪些条目，按实体类分列。**写的是名字不是 id**——条目尚不存在时也要能声明期望，这正是分母的用处。",
+    "`basis` 记该单元的依据出自哪里；`confidence` 三档（确知／记得／待核）沿用 plan/ 下参照文档的纪律。**待核的单元不能当基准用**——拿记忆产物判本库缺什么，等于把错误固化成骨架。",
+    "`cells` 声明每个「期 × 门类」格子的状态：`core` 该期此门类为重心、`present` 有但非重心、`na` 该期无此门类（如新石器无版画）。**`na` 是判断，不是空白**——它把「本来就没有」与「还没写」分开，同 canon.json 的 anonymity 字段。"
+  ],
+  "domains": [
+    {
+      "id": "painting",
+      "name": "绘画",
+      "kinds": [
+        "画作"
+      ],
+      "note": "卷轴、册页、屏障。壁画归入石窟寺与墓葬美术两门，不在此重复。"
+    },
+    {
+      "id": "calligraphy",
+      "name": "书法与篆刻",
+      "kinds": [
+        "书法",
+        "篆刻"
+      ],
+      "note": "墨迹、刻帖、拓本三种载体的证据等级不同，单元须分。"
+    },
+    {
+      "id": "sculpture",
+      "name": "雕塑造像",
+      "kinds": [
+        "塑像",
+        "石雕",
+        "木雕",
+        "铜佛"
+      ],
+      "note": "含陵墓石刻、寺观造像、窖藏造像。石窟内造像归石窟寺门。"
+    },
+    {
+      "id": "architecture",
+      "name": "建筑",
+      "kinds": [],
+      "note": "**本库尚无对应 kind，是结构性缺口**：site 模板为石窟寺设计，不适配建筑本体（斗栱、梁架、平面）。提纲先声明该有，实体层如何承接另议。"
+    },
+    {
+      "id": "bronze",
+      "name": "青铜器",
+      "kinds": [
+        "青铜"
+      ]
+    },
+    {
+      "id": "ceramics",
+      "name": "陶瓷",
+      "kinds": [
+        "陶瓷"
+      ]
+    },
+    {
+      "id": "jade",
+      "name": "玉器",
+      "kinds": [
+        "玉器"
+      ]
+    },
+    {
+      "id": "lacquer-textile",
+      "name": "漆器与织绣",
+      "kinds": [
+        "漆器",
+        "织绣"
+      ]
+    },
+    {
+      "id": "metal-enamel",
+      "name": "金银器·珐琅·玻璃",
+      "kinds": [
+        "金银器",
+        "珐琅"
+      ],
+      "note": "玻璃器本库无 kind，见 plan/ref-全集与图录体系.md 所列缺口。"
+    },
+    {
+      "id": "cave-temple",
+      "name": "石窟寺",
+      "kinds": [
+        "壁画",
+        "塑像",
+        "石雕"
+      ],
+      "note": "以 site 三级自嵌套承载：窟群 → 窟龛 → 单件。"
+    },
+    {
+      "id": "tomb-art",
+      "name": "墓葬美术",
+      "kinds": [
+        "壁画",
+        "画像石",
+        "塑像"
+      ],
+      "note": "墓室壁画、画像石砖、陶俑、随葬器组合。**组合关系是其核心证据**，散出后即不可复原。"
+    },
+    {
+      "id": "stone-carving",
+      "name": "石刻碑版",
+      "kinds": [
+        "碑刻",
+        "摩崖",
+        "经幢",
+        "拓片"
+      ],
+      "note": "含岩画。研究对象常是拓本而非原石。"
+    },
+    {
+      "id": "print-folk",
+      "name": "版画·年画·民间美术",
+      "kinds": [
+        "版画"
+      ],
+      "note": "佛经版画、小说插图、画谱、年画、剪纸皮影。**本库到清点馆藏时才发现漏了版画**。"
+    },
+    {
+      "id": "furniture",
+      "name": "家具与文房",
+      "kinds": [
+        "家具",
+        "竹木牙角"
+      ]
+    },
+    {
+      "id": "theory",
+      "name": "画论书论与著录",
+      "kinds": [],
+      "note": "以 treatise 实体承载。既是信源也是研究对象。"
+    }
+  ],
+  "cells": [
+    {
+      "period": "neolithic",
+      "domain": "painting",
+      "status": "na",
+      "why": "无卷轴绘画之载体；彩陶纹样与岩画分归陶瓷、石刻两门"
+    },
+    {
+      "period": "neolithic",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "neolithic",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "neolithic",
+      "domain": "architecture",
+      "status": "na",
+      "why": "仅存基址，本库建筑门以现存本体为限（见 domains 的说明）"
+    },
+    {
+      "period": "neolithic",
+      "domain": "bronze",
+      "status": "na",
+      "why": "青铜礼器自二里头始"
+    },
+    {
+      "period": "neolithic",
+      "domain": "ceramics",
+      "status": "core"
+    },
+    {
+      "period": "neolithic",
+      "domain": "jade",
+      "status": "core"
+    },
+    {
+      "period": "neolithic",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "neolithic",
+      "domain": "metal-enamel",
+      "status": "na",
+      "why": "无金银器"
+    },
+    {
+      "period": "neolithic",
+      "domain": "cave-temple",
+      "status": "na",
+      "why": "佛教未入，无石窟寺"
+    },
+    {
+      "period": "neolithic",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "neolithic",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "neolithic",
+      "domain": "print-folk",
+      "status": "na",
+      "why": "无印刷"
+    },
+    {
+      "period": "neolithic",
+      "domain": "furniture",
+      "status": "na",
+      "why": "无可考家具实物体系"
+    },
+    {
+      "period": "neolithic",
+      "domain": "theory",
+      "status": "na",
+      "why": "文字未成，无著述"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "painting",
+      "status": "na",
+      "why": "同上；商代绘画仅见于器表与漆木残痕"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "architecture",
+      "status": "na",
+      "why": "同上"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "bronze",
+      "status": "core"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "ceramics",
+      "status": "present"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "metal-enamel",
+      "status": "na",
+      "why": "金器极少且多附于青铜，不单立"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "cave-temple",
+      "status": "na",
+      "why": "同上"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "print-folk",
+      "status": "na",
+      "why": "无印刷"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "furniture",
+      "status": "na",
+      "why": "同上"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "theory",
+      "status": "na",
+      "why": "甲骨金文非艺术论述"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "painting",
+      "status": "na",
+      "why": "同上"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "architecture",
+      "status": "na",
+      "why": "同上"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "bronze",
+      "status": "core"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "ceramics",
+      "status": "present"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "metal-enamel",
+      "status": "present"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "cave-temple",
+      "status": "na",
+      "why": "同上"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "print-folk",
+      "status": "na",
+      "why": "无印刷"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "furniture",
+      "status": "na",
+      "why": "同上"
+    },
+    {
+      "period": "western-zhou",
+      "domain": "theory",
+      "status": "na",
+      "why": "无传世画论书论"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "painting",
+      "status": "present"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "architecture",
+      "status": "present"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "bronze",
+      "status": "core"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "ceramics",
+      "status": "present"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "lacquer-textile",
+      "status": "core"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "metal-enamel",
+      "status": "present"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "cave-temple",
+      "status": "na",
+      "why": "同上"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "print-folk",
+      "status": "na",
+      "why": "无印刷"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "furniture",
+      "status": "present"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "theory",
+      "status": "na",
+      "why": "诸子论及技艺而非专门画论；本库画论门自六朝始"
+    },
+    {
+      "period": "qin-han",
+      "domain": "painting",
+      "status": "present"
+    },
+    {
+      "period": "qin-han",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "qin-han",
+      "domain": "sculpture",
+      "status": "core"
+    },
+    {
+      "period": "qin-han",
+      "domain": "architecture",
+      "status": "present"
+    },
+    {
+      "period": "qin-han",
+      "domain": "bronze",
+      "status": "present"
+    },
+    {
+      "period": "qin-han",
+      "domain": "ceramics",
+      "status": "present"
+    },
+    {
+      "period": "qin-han",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "qin-han",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "qin-han",
+      "domain": "metal-enamel",
+      "status": "present"
+    },
+    {
+      "period": "qin-han",
+      "domain": "cave-temple",
+      "status": "na",
+      "why": "佛教初传而窟寺开凿未兴，最早者在十六国"
+    },
+    {
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "status": "core"
+    },
+    {
+      "period": "qin-han",
+      "domain": "stone-carving",
+      "status": "core"
+    },
+    {
+      "period": "qin-han",
+      "domain": "print-folk",
+      "status": "na",
+      "why": "无雕版印刷；画像砖之模印属墓葬美术门"
+    },
+    {
+      "period": "qin-han",
+      "domain": "furniture",
+      "status": "present"
+    },
+    {
+      "period": "qin-han",
+      "domain": "theory",
+      "status": "present"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "painting",
+      "status": "core"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "calligraphy",
+      "status": "core"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "architecture",
+      "status": "present"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "bronze",
+      "status": "present"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "ceramics",
+      "status": "present"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "metal-enamel",
+      "status": "present"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "cave-temple",
+      "status": "core"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "print-folk",
+      "status": "na",
+      "why": "雕版印刷未兴，现存最早佛经版画在唐"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "furniture",
+      "status": "present"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "theory",
+      "status": "present"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "painting",
+      "status": "core"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "calligraphy",
+      "status": "core"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "architecture",
+      "status": "present"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "bronze",
+      "status": "present"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "ceramics",
+      "status": "present"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "metal-enamel",
+      "status": "core"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "cave-temple",
+      "status": "core"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "print-folk",
+      "status": "present"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "furniture",
+      "status": "present"
+    },
+    {
+      "period": "sui-tang",
+      "domain": "theory",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "painting",
+      "status": "core"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "architecture",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "bronze",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "ceramics",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "metal-enamel",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "cave-temple",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "print-folk",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "furniture",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
+      "domain": "theory",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
+      "domain": "painting",
+      "status": "core"
+    },
+    {
+      "period": "northern-song",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
+      "domain": "architecture",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
+      "domain": "bronze",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
+      "domain": "ceramics",
+      "status": "core"
+    },
+    {
+      "period": "northern-song",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
+      "domain": "metal-enamel",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
+      "domain": "cave-temple",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
+      "domain": "print-folk",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
+      "domain": "furniture",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
+      "domain": "theory",
+      "status": "core"
+    },
+    {
+      "period": "southern-song",
+      "domain": "painting",
+      "status": "core"
+    },
+    {
+      "period": "southern-song",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "southern-song",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "southern-song",
+      "domain": "architecture",
+      "status": "present"
+    },
+    {
+      "period": "southern-song",
+      "domain": "bronze",
+      "status": "present"
+    },
+    {
+      "period": "southern-song",
+      "domain": "ceramics",
+      "status": "core"
+    },
+    {
+      "period": "southern-song",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "southern-song",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "southern-song",
+      "domain": "metal-enamel",
+      "status": "present"
+    },
+    {
+      "period": "southern-song",
+      "domain": "cave-temple",
+      "status": "present"
+    },
+    {
+      "period": "southern-song",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "southern-song",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "southern-song",
+      "domain": "print-folk",
+      "status": "present"
+    },
+    {
+      "period": "southern-song",
+      "domain": "furniture",
+      "status": "present"
+    },
+    {
+      "period": "southern-song",
+      "domain": "theory",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "painting",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "architecture",
+      "status": "core"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "bronze",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "ceramics",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "metal-enamel",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "cave-temple",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "tomb-art",
+      "status": "core"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "print-folk",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "furniture",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
+      "domain": "theory",
+      "status": "present"
+    },
+    {
+      "period": "yuan",
+      "domain": "painting",
+      "status": "core"
+    },
+    {
+      "period": "yuan",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "yuan",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "yuan",
+      "domain": "architecture",
+      "status": "present"
+    },
+    {
+      "period": "yuan",
+      "domain": "bronze",
+      "status": "present"
+    },
+    {
+      "period": "yuan",
+      "domain": "ceramics",
+      "status": "core"
+    },
+    {
+      "period": "yuan",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "yuan",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "yuan",
+      "domain": "metal-enamel",
+      "status": "present"
+    },
+    {
+      "period": "yuan",
+      "domain": "cave-temple",
+      "status": "present"
+    },
+    {
+      "period": "yuan",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "yuan",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "yuan",
+      "domain": "print-folk",
+      "status": "present"
+    },
+    {
+      "period": "yuan",
+      "domain": "furniture",
+      "status": "present"
+    },
+    {
+      "period": "yuan",
+      "domain": "theory",
+      "status": "present"
+    },
+    {
+      "period": "ming",
+      "domain": "painting",
+      "status": "core"
+    },
+    {
+      "period": "ming",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "ming",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "ming",
+      "domain": "architecture",
+      "status": "present"
+    },
+    {
+      "period": "ming",
+      "domain": "bronze",
+      "status": "present"
+    },
+    {
+      "period": "ming",
+      "domain": "ceramics",
+      "status": "present"
+    },
+    {
+      "period": "ming",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "ming",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "ming",
+      "domain": "metal-enamel",
+      "status": "present"
+    },
+    {
+      "period": "ming",
+      "domain": "cave-temple",
+      "status": "present"
+    },
+    {
+      "period": "ming",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "ming",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "ming",
+      "domain": "print-folk",
+      "status": "core"
+    },
+    {
+      "period": "ming",
+      "domain": "furniture",
+      "status": "core"
+    },
+    {
+      "period": "ming",
+      "domain": "theory",
+      "status": "present"
+    },
+    {
+      "period": "qing",
+      "domain": "painting",
+      "status": "core"
+    },
+    {
+      "period": "qing",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "qing",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "qing",
+      "domain": "architecture",
+      "status": "present"
+    },
+    {
+      "period": "qing",
+      "domain": "bronze",
+      "status": "present"
+    },
+    {
+      "period": "qing",
+      "domain": "ceramics",
+      "status": "core"
+    },
+    {
+      "period": "qing",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "qing",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "qing",
+      "domain": "metal-enamel",
+      "status": "core"
+    },
+    {
+      "period": "qing",
+      "domain": "cave-temple",
+      "status": "present"
+    },
+    {
+      "period": "qing",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "qing",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "qing",
+      "domain": "print-folk",
+      "status": "present"
+    },
+    {
+      "period": "qing",
+      "domain": "furniture",
+      "status": "present"
+    },
+    {
+      "period": "qing",
+      "domain": "theory",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "status": "core"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "architecture",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "bronze",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "ceramics",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "metal-enamel",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "cave-temple",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "status": "core"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "furniture",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "theory",
+      "status": "present"
+    },
+    {
+      "period": "prc-early",
+      "domain": "painting",
+      "status": "core"
+    },
+    {
+      "period": "prc-early",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "prc-early",
+      "domain": "sculpture",
+      "status": "core"
+    },
+    {
+      "period": "prc-early",
+      "domain": "architecture",
+      "status": "present"
+    },
+    {
+      "period": "prc-early",
+      "domain": "bronze",
+      "status": "present"
+    },
+    {
+      "period": "prc-early",
+      "domain": "ceramics",
+      "status": "present"
+    },
+    {
+      "period": "prc-early",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "prc-early",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "prc-early",
+      "domain": "metal-enamel",
+      "status": "present"
+    },
+    {
+      "period": "prc-early",
+      "domain": "cave-temple",
+      "status": "na",
+      "why": "此期为保护与研究，非开凿；相关内容归事件与遗址"
+    },
+    {
+      "period": "prc-early",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "prc-early",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "prc-early",
+      "domain": "print-folk",
+      "status": "present"
+    },
+    {
+      "period": "prc-early",
+      "domain": "furniture",
+      "status": "present"
+    },
+    {
+      "period": "prc-early",
+      "domain": "theory",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
+      "domain": "painting",
+      "status": "core"
+    },
+    {
+      "period": "contemporary",
+      "domain": "calligraphy",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
+      "domain": "sculpture",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
+      "domain": "architecture",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
+      "domain": "bronze",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
+      "domain": "ceramics",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
+      "domain": "jade",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
+      "domain": "lacquer-textile",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
+      "domain": "metal-enamel",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
+      "domain": "cave-temple",
+      "status": "na",
+      "why": "同上"
+    },
+    {
+      "period": "contemporary",
+      "domain": "tomb-art",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
+      "domain": "stone-carving",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
+      "domain": "print-folk",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
+      "domain": "furniture",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
+      "domain": "theory",
+      "status": "present"
+    }
+  ],
+  "units": []
+}
