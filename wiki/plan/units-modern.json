@@ -1,0 +1,1373 @@
+{
+  "schema": "outline-units/1",
+  "scope": [
+    "late-qing-republic",
+    "prc-early",
+    "contemporary"
+  ],
+  "items": [
+    {
+      "id": "late-qing-republic.painting.xu-beihong-structure",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "徐悲鸿：学院素描造型体系引入国画/主题性历史画",
+      "one_line": "徐悲鸿把法国学院派素描的造型训练方法带入中国画创作与美术教育，具体动的是「造型」这一环节——不与高剑父动设色、林风眠动色墨关系混为一谈。",
+      "expect": {
+        "artist": [
+          "徐悲鸿"
+        ],
+        "work": [
+          "愚公移山",
+          "田横五百士"
+        ],
+        "event": [
+          "国立北平艺术专科学校改组"
+        ]
+      },
+      "basis": "本库已有 xu-beihong 全文条目；造型/设色/色墨关系三分法为本次提纲按用户要求拆分，非既有条目直接陈述",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.lingnan-boneless-wash",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "高剑父与岭南折衷派：撞水撞色没骨技法",
+      "one_line": "高剑父、高奇峰承居廉没骨法并吸收东洋渲染，动的是「设色」这一环节（撞水撞色），与徐悲鸿动造型、林风眠动色墨关系是三件不同的技术事。",
+      "expect": {
+        "artist": [
+          "高剑父",
+          "高奇峰",
+          "陈树人"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 gao-jianfu 全文条目；岭南三杰另两位（高奇峰、陈树人）为 plan/ref-艺术家名录体系.md 已点名的完全缺失并称组合",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.lin-fengmian-color-ink",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "林风眠：色墨关系的调和实验",
+      "one_line": "林风眠的实践核心是打破墨色主导地位、让色彩与水墨在同一画面中并置对话，动的是「色墨关系」，不是笼统的『中西融合』。",
+      "expect": {
+        "artist": [
+          "林风眠"
+        ],
+        "work": [],
+        "event": [
+          "国立艺术院（杭州）建立"
+        ]
+      },
+      "basis": "本库已有 lin-fengmian 全文条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.juelanshe-xiandai-zhuyi",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "决澜社：引入后印象派、野兽派、立体主义等现代主义形式语言",
+      "one_line": "1932 年上海决澜社（庞薰琹、倪贻德等）走的是第四条路——不动造型、不动设色、不动色墨关系，而是直接搬入西方现代主义的形式语言本身，与徐悲鸿、高剑父、林风眠三条路径并列而不重合。",
+      "expect": {
+        "artist": [
+          "庞薰琹",
+          "倪贻德"
+        ],
+        "work": [],
+        "event": [
+          "决澜社成立并举办画展"
+        ]
+      },
+      "basis": "决澜社为中国现代美术史通行教材必载的现代主义画会，具体展览届数与解散年份本次未核",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.shanghai-tuhua-meishuyuan",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "上海图画美术院的建立与「模特儿风波」",
+      "one_line": "1912 年上海图画美术院（后历经更名为上海美术专门学校）是中国最早的现代意义美术学校之一，1920 年代刘海粟引入人体模特写生引发的社会争议是近代美术教育史的标志事件之一。",
+      "expect": {
+        "artist": [
+          "刘海粟"
+        ],
+        "work": [],
+        "event": [
+          "上海图画美术院创立",
+          "人体模特儿风波"
+        ]
+      },
+      "basis": "本库已有 liu-haisu 全文条目；机构沿革细节（几次更名的具体年份）本次未逐一核实",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.guoli-beiping-yizhuan",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "国立北平艺术专科学校的建立与更迭",
+      "one_line": "由国立北京美术学校发展而来的国立北平艺专，历经郑锦、林风眠、徐悲鸿等人先后主持，是京派美术教育机构的主线，1949 年后并入中央美术学院。",
+      "expect": {
+        "artist": [
+          "徐悲鸿",
+          "林风眠"
+        ],
+        "work": [],
+        "event": [
+          "国立北平艺术专科学校改组",
+          "中央美术学院成立"
+        ]
+      },
+      "basis": "美术教育史通行教材必载的机构沿革，具体历任校长的起讫年份本次未逐一核实",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.painting.guoli-yishuyuan-hangzhou",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "国立艺术院（杭州）的建立与建校宗旨",
+      "one_line": "1928 年蔡元培倡议、林风眠任首任院长的国立艺术院（后改国立杭州艺专），自陈以「介绍西洋艺术、整理中国艺术、调和中西艺术」为宗旨——这是该校自身的表述，本库引用其自我定位，不代其背书成就。",
+      "expect": {
+        "artist": [
+          "林风眠"
+        ],
+        "work": [],
+        "event": [
+          "国立艺术院（杭州）建立"
+        ]
+      },
+      "basis": "本库已有 lin-fengmian 全文条目提及此段经历；建校宗旨引文本次未逐字核对原始文献，按常见转引处理",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.study-abroad-japan-france",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "留日与留法：两套写实训练体系的引入比较",
+      "one_line": "东京美术学校一路与巴黎高等美术学院一路带回的是两套不完全相同的写实训练体系（日本经由西化改造的东洋画教学法 vs 法国学院派素描-油画体系），此期尚无留苏一路，苏联影响属新中国前期。",
+      "expect": {
+        "artist": [
+          "徐悲鸿",
+          "高剑父",
+          "陈树人"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "留日留法两路是近代美术教育史的通行分类，具体人数与院校对应关系本次未逐一核实",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.zhongguo-huaxue-yanjiuhui",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "中国画学研究会（北京）：保守派的自我定位",
+      "one_line": "1920 年金城、周肇祥等在北京发起中国画学研究会，主张「精研古法、博采新知」——这是另一种回应现代化压力的路径，不是简单的「守旧」，与南方革新派构成对照。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "中国画学研究会成立"
+        ]
+      },
+      "basis": "近代美术史通行教材所载的京派保守阵营机构，本次未核实具体成立年份与后续「湖社」分支的准确沿革",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.print-folk.xinxing-muke-yundong",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "新兴木刻运动：脱离复制木刻传统的直接刀刻创作",
+      "one_line": "鲁迅倡导的新兴木刻以「自刻自印」取代旧式复制木刻（画家画稿、刻工镌刻分工的传统模式），是版画史上创作方式的根本转折，本库此前完全没有这一支。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "木刻讲习会举办"
+        ],
+        "class": [
+          "新兴木刻运动"
+        ]
+      },
+      "basis": "中国近现代美术史通行叙述的核心内容，鲁迅倡导新兴木刻为学界共识",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.print-folk.luxun-muke-jiangxihui",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "鲁迅与木刻讲习会（1931，上海）",
+      "one_line": "1931 年鲁迅在上海主持木刻讲习会，请内山嘉吉讲授木刻技法，参加者十余人，通行叙述视为新兴木刻运动的起点性事件。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "木刻讲习会举办"
+        ]
+      },
+      "basis": "通行美术史教材必载事件，具体参加人数与名单本次未逐一核实",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.print-folk.yiba-yishe-muke",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "一八艺社木刻研究会",
+      "one_line": "国立杭州艺专学生组成的一八艺社（1929 年前后）及其木刻研究活动，是与鲁迅木刻讲习会并行、时间上或有先后的另一源头，具体成员名单本库把握不足，标待核。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "一八艺社成立"
+        ]
+      },
+      "basis": "学界对一八艺社木刻活动有记述，但本次对其与木刻讲习会孰先孰后、具体成员构成把握不够精确",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.print-folk.kangzhan-muke",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "抗战木刻：全国木刻界抗敌协会与木刻工作团",
+      "one_line": "全面抗战爆发后，木刻界组成抗敌协会与巡回工作团，版画成为战时最主要的宣传美术媒介之一，风格上仍带欧化刀法的痕迹。",
+      "expect": {
+        "artist": [
+          "李桦",
+          "赖少其"
+        ],
+        "work": [],
+        "event": [
+          "全国木刻界抗敌协会成立"
+        ]
+      },
+      "basis": "抗战美术史通行叙述，具体组织沿革与人员名单本次未逐一核实",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.print-folk.yanan-muke",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "延安木刻：鲁艺木刻工作团与「民族形式」转向",
+      "one_line": "延安鲁迅艺术文学院木刻工作团（古元、彦涵、力群等）在题材与刀法上向「民族形式」「大众化」转向，与早期新兴木刻的欧化刀法拉开距离——这是同一运动内部的阶段性自我修正，不是单线发展。",
+      "expect": {
+        "artist": [
+          "古元",
+          "彦涵",
+          "力群"
+        ],
+        "work": [
+          "减租会"
+        ],
+        "event": []
+      },
+      "basis": "延安美术史通行叙述，古元《减租会》为标志性作品，具体创作年份本次未核",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.print-folk.muke-oumei-yingxiang-minzuhua-lunzheng",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "新兴木刻的珂勒惠支/麦绥莱勒影响与「民族化」自我修正",
+      "one_line": "鲁迅本人推介的珂勒惠支、麦绥莱勒版画对早期新兴木刻的技法与题材影响明显，其后延安一路的民族形式转向构成对这层欧化底色的自我修正，两个阶段不能等同视之。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "学界关于新兴木刻外来影响与民族化转向的讨论常见于通行美术史著作，具体传播路径细节本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.print-folk.yuefenpai-shangye-yinshua",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "月份牌画：擦笔水彩技法与商业美术的兴起",
+      "one_line": "郑曼陀等人开创的擦笔水彩月份牌画，原作经石印/胶版工艺大量复制为商业广告招贴，是海上洋画传统里与「学院-画会」路线并行的另一条商业化支线，本库归入版画年画门类而非绘画门类，因其成品本质是印刷品。",
+      "expect": {
+        "artist": [
+          "郑曼陀",
+          "杭穉英"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "月份牌画史为近代设计史/美术史通行内容，具体代表画家生平本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.print-folk.lianhuanhua-xingqi",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "连环画产业的兴起（上海）",
+      "one_line": "近代上海通俗读物出版业催生了区别于传统小说绣像插图的连环画产业形态，为新中国前期连环画黄金时代奠定了产业基础。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "近代出版史/美术史常见叙述，具体产业规模数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.print-folk.minjian-nianhua-zhuanxing",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "传统年画产地在近代印刷业冲击下的转型",
+      "one_line": "杨柳青、桃花坞、杨家埠等传统年画产地在近代石印、胶印技术普及后面临冲击，部分转向为月份牌一类新式印刷品代工或衰落，民间美术这半个门类不应被木刻运动完全遮蔽。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "民间美术史概论性常识，具体各产地转型时间线本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.calligraphy.jinshi-shufeng-yanxu",
+      "period": "late-qing-republic",
+      "domain": "calligraphy",
+      "name": "碑学金石书风向民国的延续",
+      "one_line": "清代碑学在民国的延续与「碑帖融合」实践——吴昌硕、于右任已是本库既有条目，此单元讲的是书风转型的整体脉络，不是重复二人小传。",
+      "expect": {
+        "artist": [
+          "吴昌硕",
+          "于右任"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "书法史通行叙述，本库已有 wu-changshuo、yu-youren 全文条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.calligraphy.yu-youren-biaozhun-caoshu",
+      "period": "late-qing-republic",
+      "domain": "calligraphy",
+      "name": "于右任「标准草书」运动",
+      "one_line": "于右任发起草书规范化运动，编订标准草书以求兼顾艺术性与实用识读效率，是民国书法史里少见的制度化、系统化实践。",
+      "expect": {
+        "artist": [
+          "于右任"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 yu-youren 全文条目提及相关经历；标准草书社具体成立年份本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.sculpture.liufa-suzao-jiaoyu-yinru",
+      "period": "late-qing-republic",
+      "domain": "sculpture",
+      "name": "留法雕塑家群体与西式学院雕塑教学的引入",
+      "one_line": "李金发、江小鹣等留法雕塑家将学院写实雕塑观念带回国内，参与中山陵孙中山像等早期纪念性雕塑实践，是新中国前期集体纪念碑创作的伏笔。",
+      "expect": {
+        "artist": [
+          "李金发",
+          "江小鹣"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "近代雕塑史常见叙述，李金发以诗人闻名但雕塑经历有据可查，具体参与项目细节本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.architecture.zhongguo-guyou-shi",
+      "period": "late-qing-republic",
+      "domain": "architecture",
+      "name": "「中国固有式」建筑：西式结构承载中国传统屋顶形式",
+      "one_line": "吕彦直设计的中山陵、南京国民政府时期的官式建筑代表了近代建筑师用钢筋混凝土结构模拟中国传统屋顶与装饰形式的探索路径。",
+      "expect": {
+        "artist": [
+          "吕彦直"
+        ],
+        "work": [
+          "中山陵"
+        ],
+        "event": []
+      },
+      "basis": "近代建筑史通行叙述，具体建筑清单本次未逐一核实",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.bronze.jinshixue-fuxing-yu-fangu",
+      "period": "late-qing-republic",
+      "domain": "bronze",
+      "name": "晚清金石学复兴、青铜器市场与仿古伪作问题",
+      "one_line": "吴大澂、端方等晚清收藏家推动的金石学复兴带动了青铜器著录与市场活跃，也伴生了仿古伪作问题，是近代文物鉴藏史的一个侧面。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "金石学史概论性常识，具体收藏家活动细节本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.ceramics.jingdezhen-guanyao-zhongjie",
+      "period": "late-qing-republic",
+      "domain": "ceramics",
+      "name": "景德镇官窑体制的终结与「洪宪瓷」仿古之风",
+      "one_line": "清代官窑体制随清亡终结，民国初年出现假托「洪宪年制」款的仿古瓷器风潮，是官窑传统解体后市场化转型的一个标志性插曲。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "陶瓷史常见叙述，「洪宪瓷」具体真伪情况学界本身有争议，本次未核实细节",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.jade.yuqi-jianzang-shichanghua",
+      "period": "late-qing-republic",
+      "domain": "jade",
+      "name": "玉器鉴藏市场在近代的转型",
+      "one_line": "宫廷玉作体系随清亡终结后，玉器大量流入古玩市场，鉴定标准与流通方式发生近代化转型。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "文物鉴藏史概论性判断，具体市场数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.lacquer-textile.zhixiu-waixiao-zhuanxing",
+      "period": "late-qing-republic",
+      "domain": "lacquer-textile",
+      "name": "织绣行业的外销转型",
+      "one_line": "顾绣一类文人化绣种式微，广绣、湘绣等地方绣种转向外销订单化生产，是近代手工业普遍的外向型转型在织绣门类的表现。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "工艺美术史概论性判断，具体各绣种外销规模数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.metal-enamel.jingtailan-zuofang-shuailuo",
+      "period": "late-qing-republic",
+      "domain": "metal-enamel",
+      "name": "景泰蓝行业在清末民国的衰落与作坊制转型",
+      "one_line": "失去宫廷造办处订单支持后，景泰蓝行业转为民间作坊制生产，规模与技艺水准均受冲击。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "工艺美术史概论性判断，具体行业规模数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.cave-temple.zhang-daqian-dunhuang-linmo",
+      "period": "late-qing-republic",
+      "domain": "cave-temple",
+      "name": "张大千敦煌壁画临摹（1941–1943）及其争议",
+      "one_line": "张大千率团临摹敦煌壁画并按己见分期断代，同时留下「为揭取底层壁画剥损上层重绘」的争议指控——本库并陈临摹之功与损毁之议，不裁断。",
+      "expect": {
+        "artist": [
+          "张大千"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 zhang-daqian 全文条目；损毁指控本身在学界存在争议，具体史实细节本次未核，故作为并陈争议处理",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.tomb-art.yinxu-wangling-fajue",
+      "period": "late-qing-republic",
+      "domain": "tomb-art",
+      "name": "殷墟王陵区大墓的发掘与近代考古学方法的确立",
+      "one_line": "殷墟发掘（1928 年起）标志着以科学考古方法取代金石学式盗掘取宝的转折，王陵区大墓的系统发掘是这一转折的代表个案。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "殷墟发掘"
+        ]
+      },
+      "basis": "本库已有 yinxu-excavations 事件条目，此单元讲其在墓葬美术研究范式转变上的意义",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.stone-carving.longmen-yungang-liusan-taben-maoyi",
+      "period": "late-qing-republic",
+      "domain": "stone-carving",
+      "name": "龙门云冈造像流散与拓片贸易的近代化",
+      "one_line": "龙门、云冈石刻造像头像在此期遭系统性盗凿流散，西方收藏机构大规模购藏，同时拓片贸易也随之近代化、规模化，是本期文物流失最烈的阶段之一。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "龙门云冈造像流散"
+        ]
+      },
+      "basis": "本库已有 longmen-yungang-looting 事件条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.furniture.yingzuo-jiaju-zhuanxing",
+      "period": "late-qing-republic",
+      "domain": "furniture",
+      "name": "传统硬木家具行业在近代的转型",
+      "one_line": "广作、苏作等传统硬木家具制作在租界城市面临西式家具混用风尚的冲击，出现订制化、混合样式生产。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "工艺美术史概论性判断，具体行业数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.theory.wenrenhua-zhi-jiazhi",
+      "period": "late-qing-republic",
+      "domain": "theory",
+      "name": "陈师曾《文人画之价值》：为文人画正名",
+      "one_line": "1921 年陈师曾发表《文人画之价值》，针对「美术革命」论对文人画「摹古」「不求形似」的批评作出理论反击，是本期最重要的画论文本之一。",
+      "expect": {
+        "artist": [
+          "陈师曾"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 chen-shizeng 全文条目；发表年份为常见转引，本次未核对原刊",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.theory.meishu-geming-lunzhan",
+      "period": "late-qing-republic",
+      "domain": "theory",
+      "name": "「美术革命」论争：陈独秀、康有为与传统派的交锋",
+      "one_line": "陈独秀「美术革命」论、康有为「中国近世之画衰败极矣」说与陈师曾等传统派反驳构成了本期最核心的理论论争，本库只陈述论争双方立场，不裁定谁是正确的一方。",
+      "expect": {
+        "artist": [
+          "陈师曾"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "近代美术史通行教材必载论争，具体引文文本本次未逐字核对",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.theory.huo-buhuo-lunzhan",
+      "period": "late-qing-republic",
+      "domain": "theory",
+      "name": "徐悲鸿与徐志摩「惑」「我也惑」论争",
+      "one_line": "1929 年第一届全国美术展览会前后，徐悲鸿撰文批评西方现代主义绘画（野兽派、立体派）价值，徐志摩撰《我也「惑」》回应，是围绕现代主义评价的一次公开论战，与展会本身构成同一事件脉络。",
+      "expect": {
+        "artist": [
+          "徐悲鸿"
+        ],
+        "work": [],
+        "event": [
+          "第一届全国美术展览会"
+        ]
+      },
+      "basis": "本库已有 quanguo-meizhan-1929 事件条目；论争具体文本细节本次未逐字核对原刊",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.painting.guohua-gaizao",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "国画改造运动：写生化转型要求",
+      "one_line": "传统文人画家被要求转向写生、贴近现实题材，浙江美院等机构内部就「新国画」笔墨与题材关系展开讨论——本库明示这一评价体系属 1950 年代口径，不代表后期定论。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "canon.json prc-early 一条明写「本库对此期一律标明评价属何时口径」，此单元贯彻该原则",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.painting.xiesheng-yundong-jiangsu",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "江苏省国画院「山河新貌」两万三千里写生",
+      "one_line": "1960 年傅抱石率江苏省国画院画家团队作两万三千里旅行写生，是国画改造运动里最具代表性的实践路径之一，「山河新貌」这一命名过程本身值得作为题目。",
+      "expect": {
+        "artist": [
+          "傅抱石"
+        ],
+        "work": [],
+        "event": [
+          "江苏省国画院两万三千里写生"
+        ]
+      },
+      "basis": "本库已有 fu-baoshi 全文条目；写生里程与具体路线细节本次未逐一核实",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.painting.chang-an-huapai",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "长安画派的形成：西北写生画风",
+      "one_line": "石鲁、赵望云等以「一手伸向传统，一手伸向生活」为口号形成的长安画派，其评价随不同年代政治口径几度起伏——本库不追认任一时期定评为事实。",
+      "expect": {
+        "artist": [
+          "石鲁",
+          "赵望云"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 shi-lu 全文条目；口号原文引用为常见转引，本次未核对最初出处",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.painting.xin-jinling-huapai",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "新金陵画派的形成过程",
+      "one_line": "江苏省国画院系统内的写生实践催生了「新金陵画派」的画风命名，与长安画派构成南北两支写生转型路径的对照。",
+      "expect": {
+        "artist": [
+          "傅抱石"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "画派命名过程本身为美术史常见讨论议题，本次未核实命名的确切时间与最初提出者",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.painting.geming-lishihua-jizhi",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "革命历史画创作机制：主题先行、集体审定",
+      "one_line": "此期重大主题创作普遍采用主题先行、多方协商、集体审定的生产机制，不限国画/油画媒材——《江山如此多娇》的处理方式（并陈两说、不裁断分工）是本库已确立的范例，此单元讲机制本身而非归于某单一作品或某一人。",
+      "expect": {
+        "artist": [
+          "傅抱石",
+          "关山月"
+        ],
+        "work": [
+          "江山如此多娇"
+        ],
+        "event": []
+      },
+      "basis": "本库已有 fu-baoshi-guan-shanyue-jiangshan 工作条目，直接确立了本库对此类创作的处理原则",
+      "confidence": "确知"
+    },
+    {
+      "id": "prc-early.painting.suzhang-suxie-tixi-yinru",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "苏联契斯恰科夫素描教学体系的引入",
+      "one_line": "苏联素描教学体系（契斯恰科夫教学法）经留苏学生与苏联专家引入中国美术院校，冲击并重塑了国画、油画两类媒材的基础训练方式，是留苏路线在教育层面的落点。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "美术教育史通行叙述，具体引入年份与传播范围本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.painting.zhongyang-zhemei-jianli",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "中央美术学院与浙江美术学院的建立",
+      "one_line": "1950 年中央美术学院由国立北平艺专与华北大学三部美术系合并而成；浙江美术学院由国立艺专改制而来——两所核心学院的建立是新中国美术教育体制的骨架，本库此前一条都没有。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "中央美术学院成立",
+          "浙江美术学院改制"
+        ]
+      },
+      "basis": "美术教育史通行叙述，具体合并/改制的确切年份与机构名称沿革本次未逐一核实",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.sculpture.renmin-yingxiong-jinianbei",
+      "period": "prc-early",
+      "domain": "sculpture",
+      "name": "人民英雄纪念碑浮雕群：集体创作机制",
+      "one_line": "1949–1958 年建造的人民英雄纪念碑八幅浮雕由多位雕塑家分别主创，「统一由刘开渠署名」式的简化表述本身即是本库要拆解的问题——本库已在 liu-kaiqu 条目里确立此原则，此单元讲纪念碑整体机制。",
+      "expect": {
+        "artist": [
+          "刘开渠"
+        ],
+        "work": [
+          "人民英雄纪念碑浮雕"
+        ],
+        "event": []
+      },
+      "basis": "本库已有 liu-kaiqu 全文条目明确处理此问题",
+      "confidence": "确知"
+    },
+    {
+      "id": "prc-early.sculpture.jinianbei-fenpei-kaoding",
+      "period": "prc-early",
+      "domain": "sculpture",
+      "name": "纪念碑浮雕主创分工的具体考订",
+      "one_line": "滑田友、王临乙等各自主创八幅浮雕中的一幅，具体分工关系与「总负责人刘开渠」这一署名惯例之间的落差，需要逐一列出参与雕塑家名录而非只讲一人。",
+      "expect": {
+        "artist": [
+          "刘开渠",
+          "滑田友",
+          "王临乙"
+        ],
+        "work": [
+          "人民英雄纪念碑浮雕"
+        ],
+        "event": []
+      },
+      "basis": "本库已有 liu-kaiqu、hua-tianyou、wang-linyi 三条全文条目，均与此纪念碑相关，具体逐幅对应作者名单本次未逐一核实",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.sculpture.liufa-suzao-tixi-zhuanxing",
+      "period": "prc-early",
+      "domain": "sculpture",
+      "name": "法国学院写实雕塑体系向纪念性公共雕塑的转化",
+      "one_line": "留法雕塑家群体（滑田友、王临乙等）从个人架上创作者转变为国家工程的主创或负责人，其学院写实训练在纪念碑尺度的公共雕塑项目中被重新组织与调用。",
+      "expect": {
+        "artist": [
+          "滑田友",
+          "王临乙"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 hua-tianyou、wang-linyi 全文条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.sculpture.shehuizhuyi-xianshizhuyi-jinianbei-fanshi",
+      "period": "prc-early",
+      "domain": "sculpture",
+      "name": "社会主义现实主义纪念碑雕塑范式的引入",
+      "one_line": "苏联影响路径下，工农兵形象的程式化处理成为此期纪念性雕塑的主导范式，与留法一代的个人化写实训练构成张力。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "美术史常见叙述，具体苏联专家来华指导的个案本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.sculpture.meiyuan-suzao-xi-jiaoti",
+      "period": "prc-early",
+      "domain": "sculpture",
+      "name": "中央美院、浙美雕塑系的建立与两代教师的交接",
+      "one_line": "中央美术学院、浙江美术学院雕塑系的建立过程中，留法一代（滑田友、王临乙等）与苏联影响下培养的新一代教师完成了教学体系的交接。",
+      "expect": {
+        "artist": [
+          "滑田友",
+          "王临乙"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "美术教育史概论性判断，具体交接时间线本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.sculpture.gonggong-suzao-weituo-zhidu",
+      "period": "prc-early",
+      "domain": "sculpture",
+      "name": "城市公共雕塑委托制度的初步形成",
+      "one_line": "纪念碑之外，此期开始形成由国家机构主导的城市公共空间雕塑委托机制的雏形。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "推论性判断，本次未核实具体委托制度的文件依据",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.calligraphy.shufa-tizhi-bianyuanhua",
+      "period": "prc-early",
+      "domain": "calligraphy",
+      "name": "书法在「国画改造」语境下的边缘化处境",
+      "one_line": "书法未被纳入此期新美术教育主科体系，沈尹默、林散之等仍坚持创作与教学，但体制性支持相对薄弱，是本期书法史的一个结构性处境。",
+      "expect": {
+        "artist": [
+          "沈尹默",
+          "林散之"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 shen-yinmo、lin-sanzhi 全文条目；「未纳入主科体系」为推论性判断，本次未核实具体教学大纲依据",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.calligraphy.shen-yinmo-jiaoxue-zhengli",
+      "period": "prc-early",
+      "domain": "calligraphy",
+      "name": "沈尹默在上海的书法教学与理论整理",
+      "one_line": "沈尹默此期在上海从事书法教学与笔法理论整理工作，是体制外维系书法传承的代表性个案。",
+      "expect": {
+        "artist": [
+          "沈尹默"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 shen-yinmo 全文条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.architecture.guoqing-shida-jianzhu",
+      "period": "prc-early",
+      "domain": "architecture",
+      "name": "「国庆十大建筑」（1959）与集体设计署名问题",
+      "one_line": "1959 年国庆十周年集中建成的十座「首都十大建筑」是社会主义民族形式建筑的集中呈现，其设计过程同样存在多团队协作、集体决策、个人署名被简化的问题，可与requirement六的雕塑署名问题类比处理。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "国庆十大建筑建成"
+        ]
+      },
+      "basis": "建筑史通行叙述，具体十座建筑清单与各自设计团队本次未逐一核实",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.bronze.hezun-faxian",
+      "period": "prc-early",
+      "domain": "bronze",
+      "name": "何尊发现（1963，宝鸡）",
+      "one_line": "1963 年陕西宝鸡出土的何尊，其铭文「宅兹中国」是「中国」一词已知最早的实物例证之一，发现与著录起点属此期。",
+      "expect": {
+        "artist": [],
+        "work": [
+          "何尊"
+        ],
+        "event": [
+          "何尊出土"
+        ]
+      },
+      "basis": "何尊「宅兹中国」铭文为学界与公众常识性知识，出土具体年份与后续铭文释读研究史细节本次未核",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.ceramics.jingdezhen-guoyinghua",
+      "period": "prc-early",
+      "domain": "ceramics",
+      "name": "景德镇陶瓷生产的国营化改造",
+      "one_line": "景德镇制瓷业在此期完成国营化改造，「建国瓷」一类官方订件设计与生产体制随之建立。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "陶瓷史概论性判断，具体改造时间线与「建国瓷」项目细节本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.jade.kaogu-yuqi-yanjiu-gengxin",
+      "period": "prc-early",
+      "domain": "jade",
+      "name": "考古发掘出土玉器材料对断代研究范式的更新",
+      "one_line": "此期系统性考古发掘（如与马王堆汉墓等重大发掘相关的整理著录工作）为古代玉器断代研究提供了新的地层学证据，逐步取代此前依赖传世品与著录比对的研究范式。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "考古学方法论层面的推论性判断，具体个案本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.lacquer-textile.mawangdui-qiqi-faxian",
+      "period": "prc-early",
+      "domain": "lacquer-textile",
+      "name": "马王堆一号汉墓漆器群的发现与保护",
+      "one_line": "1972 年马王堆一号汉墓出土的大批漆器，为汉代漆器工艺研究提供了前所未有的完整组合材料，是此期最重要的漆器专题发现。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "马王堆汉墓发掘"
+        ]
+      },
+      "basis": "本库已有 mawangdui-excavation 事件条目，此单元聚焦漆器专题",
+      "confidence": "确知"
+    },
+    {
+      "id": "prc-early.metal-enamel.jingtailan-gongsi-heying",
+      "period": "prc-early",
+      "domain": "metal-enamel",
+      "name": "景泰蓝行业公私合营改造",
+      "one_line": "景泰蓝行业经公私合营改造，纳入「北京工艺美术研究所」一类体制内生产与研究机构，行业组织方式发生根本转变。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "工艺美术行业史概论性判断，具体机构名称与改造年份本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.tomb-art.mawangdui-hanmu",
+      "period": "prc-early",
+      "domain": "tomb-art",
+      "name": "马王堆汉墓的发掘与墓葬美术研究范式转变",
+      "one_line": "马王堆一号汉墓帛画、漆器、织物等综合证据组合的完整出土，改变了汉代墓葬美术研究此前依赖零散传世品与著录的状况。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "马王堆汉墓发掘"
+        ]
+      },
+      "basis": "本库已有 mawangdui-excavation 事件条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "prc-early.stone-carving.wenwu-baohu-zhidu-jianli",
+      "period": "prc-early",
+      "domain": "stone-carving",
+      "name": "全国重点文物保护单位制度的建立（1961 首批）",
+      "one_line": "1961 年公布首批全国重点文物保护单位，标志着石刻类文物从晚清民国的散乱流失状态转入系统性登记保护阶段。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "首批全国重点文物保护单位公布"
+        ]
+      },
+      "basis": "文物保护制度史常见常识，具体首批名录数量本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.print-folk.xin-nianhua-yundong",
+      "period": "prc-early",
+      "domain": "print-folk",
+      "name": "新年画运动（1949–1950 年代初）",
+      "one_line": "文化部发起的新年画运动组织旧年画艺人与新美术工作者合作，用传统年画形式承载新的政治宣传内容，是与晚清民国旧年画性质不同的一支。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "新年画运动发起"
+        ]
+      },
+      "basis": "美术史通行叙述，具体发起文件与组织细节本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.print-folk.lianhuanhua-huangjin-shidai",
+      "period": "prc-early",
+      "domain": "print-folk",
+      "name": "连环画的黄金时代：专业出版体制的形成",
+      "one_line": "上海人民美术出版社等机构建立起专业连环画创作与出版体制，贺友直等画家的代表性创作集中在此期，是延续自晚清民国连环画产业基础上的体制化发展。",
+      "expect": {
+        "artist": [
+          "贺友直"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "连环画史常见叙述，贺友直代表作《山乡巨变》具体创作年份本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.print-folk.muke-tizhihua",
+      "period": "prc-early",
+      "domain": "print-folk",
+      "name": "新兴木刻传统的体制化",
+      "one_line": "新兴木刻从战时宣传工具转变为中央美院版画系一类建制内专业创作与教学的对象，是运动向学院学科转化的关键一步。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "中央美术学院版画系建立"
+        ]
+      },
+      "basis": "美术教育史概论性判断，版画系具体建立年份本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.print-folk.taose-shuiyin-muke-fenhua",
+      "period": "prc-early",
+      "domain": "print-folk",
+      "name": "套色木刻、水印木刻的技法多样化",
+      "one_line": "此期版画在技法上从晚清民国以来以单色宣传木刻为主，向套色木刻、水印木刻等多样化技法分化，反映版画从宣传媒介向独立艺术语言探索的转变。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "版画史概论性判断，具体代表作品与年份本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.furniture.chuantong-jiaju-heying-duanceng",
+      "period": "prc-early",
+      "domain": "furniture",
+      "name": "传统硬木家具行业的公私合营改造与工艺人才断层",
+      "one_line": "传统硬木家具行业随公私合营改造纳入国营体制，部分传统工艺因订单结构变化与人才培养体系转型而出现断层。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "工艺美术行业史概论性判断，具体断层情况本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.theory.meishu-pipan-yundong",
+      "period": "prc-early",
+      "domain": "theory",
+      "name": "历次美术界批判运动对创作与评价的冲击",
+      "one_line": "此期对「新国画」笔墨观、对个别画家个人处境的历次政治性批判事件直接冲击了创作与评价体系——本库明示这些批判须按发生时的政治口径理解，不代表艺术判断的定论，凡涉个人处境与创作动因关系的材料不足以厘清者标为待校验。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "canon.json prc-early 一条明写「艺术家的个人处境与创作动因之间的关系，材料常不足以厘清，凡涉者标为待校验」，此单元直接贯彻该原则",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.theory.shehuizhuyi-xianshizhuyi-lilun-yinru",
+      "period": "prc-early",
+      "domain": "theory",
+      "name": "社会主义现实主义理论的引入",
+      "one_line": "社会主义现实主义理论经由苏联渠道引入，构建了此期国画、油画、雕塑三类媒材共通的评价标准框架，与既有的中国画笔墨评价体系并存并产生张力。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "美术理论史通行叙述，具体理论文本引入路径本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.painting.wuwu-xinchao",
+      "period": "contemporary",
+      "domain": "painting",
+      "name": "85 新潮美术运动：思潮与展览现象",
+      "one_line": "1985 年前后各地美术团体、《美术思潮》一类刊物、黄山会议等构成的整体性思潮现象——本单元整理运动机制本身（团体、刊物、会议），不裁定具体个人的历史地位。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "黄山会议召开"
+        ],
+        "class": [
+          "85 新潮美术运动"
+        ]
+      },
+      "basis": "85 新潮为当代美术史通行叙述的标志性现象，具体团体名录与会议细节本次未逐一核实",
+      "confidence": "记得"
+    },
+    {
+      "id": "contemporary.painting.xingxing-huahui",
+      "period": "contemporary",
+      "domain": "painting",
+      "name": "星星画会（1979）：体制外展示的开端案例",
+      "one_line": "1979 年北京星星美展在中国美术馆外墙展出，是当代艺术在官方展览体制之外自行寻求公共展示空间的开端性案例。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "星星美展举办"
+        ]
+      },
+      "basis": "当代美术史常识性事件，具体参展人数与作品清单本次未核",
+      "confidence": "记得"
+    },
+    {
+      "id": "contemporary.painting.1989-xiandai-yishuzhan-jizhi",
+      "period": "contemporary",
+      "domain": "painting",
+      "name": "1989 中国现代艺术展：85 新潮的阶段性总结",
+      "one_line": "1989 年中国美术馆举办的「中国现代艺术展」通行视为 85 新潮的阶段性总结事件，本单元讲其在绘画领域的机制意义（首次大规模官方场馆容纳前卫实践），不评价具体参展个人。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "中国现代艺术展举办"
+        ]
+      },
+      "basis": "本库已有 china-avantgarde-1989 事件条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "contemporary.painting.yishu-shichanghua-jizhi",
+      "period": "contemporary",
+      "domain": "painting",
+      "name": "艺术市场化机制的形成",
+      "one_line": "画廊、拍卖行进入当代书画/油画流通体系，重塑了创作与评价之间的关系——本库对在世艺术家的市场价格不作艺术价值背书，市场热度与艺术史地位是两件不同的事。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代艺术市场概论性判断，具体市场规模数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.painting.shuangnianzhan-guoji-tixi",
+      "period": "contemporary",
+      "domain": "painting",
+      "name": "双年展与国际展览体制",
+      "one_line": "威尼斯双年展中国馆、上海双年展等机制性入场对当代评价标准产生影响——本单元只描述机制本身（谁能进入这套体系、评审组织方式），不代替这套机制去裁定谁该被写入正典。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代艺术体制概论性判断，具体历届策展细节本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.calligraphy.xiandai-shufa-yundong",
+      "period": "contemporary",
+      "domain": "calligraphy",
+      "name": "「现代书法」运动：脱离汉字识读功能的抽象化实验",
+      "one_line": "1980 年代出现的「现代书法」探索书法脱离汉字识读功能、走向抽象视觉构成的可能性，与坚持传统书写规范的阵营之间构成论争，本库并陈不裁断。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "书法史概论性常见叙述，具体代表人物与作品本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.calligraphy.shufajia-xiehui-tizhi",
+      "period": "contemporary",
+      "domain": "calligraphy",
+      "name": "中国书法家协会体制的机制性影响",
+      "one_line": "1981 年成立的中国书法家协会构建了当代书法评价、展览与职称评定的主要体制框架，对创作方向有明显的机制性引导。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "中国书法家协会成立"
+        ]
+      },
+      "basis": "书法界通行常识，成立年份为常见转引，本次未核对原始文件",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.sculpture.gonggong-suzao-shuangfang-jizhi",
+      "period": "contemporary",
+      "domain": "sculpture",
+      "name": "城市公共雕塑委托制度的双甲方格局",
+      "one_line": "市场化改革后，政府委托与商业地产开发方形成城市公共雕塑的双重甲方格局，与新中国前期单一国家委托的纪念碑机制不同。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "推论性判断，具体委托案例数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.sculpture.zhuangzhi-yishu-yu-suzao-bianjie",
+      "period": "contemporary",
+      "domain": "sculpture",
+      "name": "装置艺术兴起对「雕塑」门类边界的冲击",
+      "one_line": "装置艺术使用的材料与形式已远超传统雕塑造像范畴，对「雕塑」这一门类的边界构成持续冲击，本库对此类作品的归类持谨慎态度，不强行套入既有门类。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代艺术门类演变的概论性判断",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.architecture.diaobiao-jianzhu-shidai",
+      "period": "contemporary",
+      "domain": "architecture",
+      "name": "「地标建筑」时代：国际建筑师在华项目的集中落地",
+      "one_line": "1990 年代后国际知名建筑师在中国的项目集中落地，与本土建筑教育体系、本土建筑师群体的关系是这一现象常被讨论的问题。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "建筑评论界常见议题，具体项目清单与讨论文本本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.bronze.sanxingdui-erqi-sanqi-faxian",
+      "period": "contemporary",
+      "domain": "bronze",
+      "name": "三星堆遗址新一轮祭祀坑发掘",
+      "one_line": "三星堆遗址 1986 年及 2019–2022 年两阶段祭祀坑发掘持续更新青铜器研究范式，是本期最重要的青铜器相关考古事件。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "三星堆祭祀坑发掘"
+        ]
+      },
+      "basis": "本库已有 sanxingdui-discoveries 事件条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "contemporary.ceramics.jingdezhen-shichanghua-zhuanxing",
+      "period": "contemporary",
+      "domain": "ceramics",
+      "name": "景德镇陶瓷生产的市场化转型",
+      "one_line": "国营瓷厂改制与「景漂」艺术家聚落现象，是景德镇从计划经济生产体制向市场化、个体化生产转型的当代表现。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代陶瓷产业观察性判断，具体转型时间线本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.jade.yushi-shichang-luanxiang",
+      "period": "contemporary",
+      "domain": "jade",
+      "name": "玉石市场繁荣与鉴定标准混乱问题",
+      "one_line": "和田玉、翡翠市场在当代的繁荣伴随鉴定标准混乱、价格泡沫化问题，与学术鉴定标准之间出现明显脱节。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代收藏市场观察性判断，具体市场数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.lacquer-textile.feiyi-baohu-jizhi-zhuanxing",
+      "period": "contemporary",
+      "domain": "lacquer-textile",
+      "name": "传统漆艺、织绣技艺的非遗传承机制转变",
+      "one_line": "传统漆艺、织绣技艺列入非物质文化遗产保护名录后，工艺传承的组织主体从行业整体转为「代表性传承人」个体认定制度，是当代工艺美术组织方式的根本转变。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "非遗保护制度概论性判断，具体名录条目本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.metal-enamel.jingtailan-feiyi-chuanchengren",
+      "period": "contemporary",
+      "domain": "metal-enamel",
+      "name": "景泰蓝技艺的非遗传承人制度",
+      "one_line": "景泰蓝技艺纳入非遗传承人制度与工艺美术大师评定体系，是行业组织方式从公私合营体制向当代非遗话语转换的延续。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "非遗保护制度概论性判断，具体评定标准本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.tomb-art.kaogu-yu-muzang-meishu-fanshi-quli",
+      "period": "contemporary",
+      "domain": "tomb-art",
+      "name": "系统性考古发掘与「墓葬美术」独立研究范式的确立",
+      "one_line": "改革开放后系统性考古发掘的持续开展，使「墓葬美术」作为独立于传统金石学取宝式研究的学术范式在学界确立。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "考古学/美术史学科史概论性判断",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.stone-carving.moya-shike-baohu-yu-lvyou",
+      "period": "contemporary",
+      "domain": "stone-carving",
+      "name": "摩崖石刻遗产在保护与旅游开发双重压力下的现状",
+      "one_line": "摩崖石刻类遗产面临过度拓印、环境侵蚀与旅游开发压力的多重冲击，是当代文物保护实践中的现实问题。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "文物保护实践观察性判断，具体个案数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.print-folk.banhua-xueyuanhua",
+      "period": "contemporary",
+      "domain": "print-folk",
+      "name": "版画的学院化与「原版画」概念的确立",
+      "one_line": "版画从战时宣传媒介转为独立艺术门类，「原版画」概念与中国版画家协会体制的建立标志着这一学院化、专业化过程。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "版画史概论性判断，具体协会成立年份本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.print-folk.minjian-nianhua-feiyihua",
+      "period": "contemporary",
+      "domain": "print-folk",
+      "name": "传统年画产地在非遗保护框架下的复兴与「原生态」争议",
+      "one_line": "杨柳青、桃花坞等传统年画产地在非遗保护框架下出现复兴现象，但「原生态」的真实性本身在学界存在争议，本库并陈不裁断。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "非遗保护实践观察性判断，具体争议文本本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.furniture.hongmu-jiaju-shichang-re",
+      "period": "contemporary",
+      "domain": "furniture",
+      "name": "红木家具收藏市场的当代热潮与真伪鉴定问题",
+      "one_line": "红木家具收藏市场在当代的热潮伴随仿古工艺的真伪鉴定问题，是传统工艺当代市场化的一个突出侧面。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代收藏市场观察性判断，具体市场数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.theory.meishu-piping-tizhi-xingcheng",
+      "period": "contemporary",
+      "domain": "theory",
+      "name": "当代美术批评体制的形成",
+      "one_line": "独立策展人、专业艺术媒体与官方美术理论机构构成当代美术批评的三方格局，评价标准不再由单一体制主导。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代艺术体制概论性判断，具体格局形成时间线本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.theory.zhengdian-weixingcheng",
+      "period": "contemporary",
+      "domain": "theory",
+      "name": "「正典尚未形成」：本期史学处境的自我陈述",
+      "one_line": "本单元直接呼应 canon.json 对本期的判断——当代无稳定正典，入选与否取决于机构、市场与国际策展的即时判断，本库对 1978 年后条目采取更严的收录门槛，一切评价明示为当下口径、随时可能翻转。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "canon.json contemporary 条目 dispute 字段原文",
+      "confidence": "确知"
+    }
+  ]
+}

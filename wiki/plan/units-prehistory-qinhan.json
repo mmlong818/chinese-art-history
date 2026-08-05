@@ -1,0 +1,1484 @@
+{
+  "schema": "outline-units/1",
+  "scope": [
+    "neolithic",
+    "erlitou-shang",
+    "western-zhou",
+    "spring-autumn-warring",
+    "qin-han"
+  ],
+  "items": [
+    {
+      "id": "neolithic.ceramics.yangshao-caitao",
+      "period": "neolithic",
+      "domain": "ceramics",
+      "name": "仰韶彩陶：半坡与庙底沟两大类型的纹样体系",
+      "one_line": "彩陶是新石器美术最核心的研究对象，仰韶文化以人面鱼纹、几何纹两大类型确立了最早的图像谱系。",
+      "expect": {
+        "site": [
+          "半坡",
+          "庙底沟"
+        ],
+        "class": [
+          "仰韶文化",
+          "彩陶"
+        ],
+        "work": [
+          "人面鱼纹盆",
+          "鹳鱼石斧图彩陶缸"
+        ]
+      },
+      "basis": "canon.keys(仰韶彩陶)/canon.centres(半坡、庙底沟)",
+      "confidence": "记得"
+    },
+    {
+      "id": "neolithic.ceramics.majiayao-caitao",
+      "period": "neolithic",
+      "domain": "ceramics",
+      "name": "马家窑彩陶：漩涡纹与半山、马厂分期",
+      "one_line": "马家窑是彩陶艺术的顶峰期，漩涡纹、水波纹的演变序列是彩陶断代的核心依据。",
+      "expect": {
+        "site": [
+          "马家窑"
+        ],
+        "class": [
+          "马家窑文化",
+          "彩陶"
+        ]
+      },
+      "basis": "canon.keys(马家窑)/canon.centres(马家窑)",
+      "confidence": "记得"
+    },
+    {
+      "id": "neolithic.ceramics.longshan-heitao",
+      "period": "neolithic",
+      "domain": "ceramics",
+      "name": "龙山黑陶：轮制工艺与蛋壳陶",
+      "one_line": "龙山黑陶代表新石器制陶技术的顶点（轮制、渗碳），蛋壳陶壁厚不足一毫米，是工艺史而非纹样史的例证。",
+      "expect": {
+        "site": [
+          "城子崖"
+        ],
+        "class": [
+          "龙山文化",
+          "蛋壳黑陶"
+        ]
+      },
+      "basis": "canon.keys(龙山黑陶)/plan/ref-考古与遗址体系.md 六节（龙山文化代表遗址：陶寺、城子崖，均缺）",
+      "confidence": "记得"
+    },
+    {
+      "id": "neolithic.ceramics.taosi-caihui-tao",
+      "period": "neolithic",
+      "domain": "ceramics",
+      "name": "陶寺彩绘陶与蟠龙纹盘",
+      "one_line": "陶寺彩绘陶（尤其蟠龙纹盘）常被视为早期礼制用器的雏形，其与后世龙纹的关系是研究热点。",
+      "expect": {
+        "site": [
+          "陶寺"
+        ],
+        "work": [
+          "彩绘蟠龙纹陶盘"
+        ]
+      },
+      "basis": "canon.keys(陶寺)/canon.centres(陶寺)",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.ceramics.dawenkou-baitao",
+      "period": "neolithic",
+      "domain": "ceramics",
+      "name": "大汶口白陶与刻符",
+      "one_line": "大汶口白陶与陶器刻符是汉字起源讨论中常被引用的物证之一，属陶瓷与文字史的交界题目。",
+      "expect": {
+        "site": [
+          "大汶口"
+        ],
+        "class": [
+          "大汶口文化",
+          "白陶"
+        ]
+      },
+      "basis": "canon.centres(大汶口)",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.jade.hongshan-yulong",
+      "period": "neolithic",
+      "domain": "jade",
+      "name": "红山玉器：C 形龙与勾云形佩",
+      "one_line": "红山玉器以抽象动物形（C 形龙、猪龙）与几何形（勾云形佩）两条线索并行，是治玉传统最早的成熟形态之一。",
+      "expect": {
+        "site": [
+          "牛河梁"
+        ],
+        "class": [
+          "红山文化",
+          "玉器"
+        ]
+      },
+      "basis": "canon.keys(红山玉器)/canon.centres(牛河梁)",
+      "confidence": "记得"
+    },
+    {
+      "id": "neolithic.jade.hongshan-nvshenmiao",
+      "period": "neolithic",
+      "domain": "jade",
+      "name": "牛河梁女神庙、积石冢与玉器的祭祀组合",
+      "one_line": "女神庙、积石冢、玉器三者的空间关系是判断红山玉器功能（礼器而非佩饰）的关键证据。",
+      "expect": {
+        "site": [
+          "牛河梁"
+        ],
+        "work": [
+          "玉猪龙"
+        ]
+      },
+      "basis": "canon.centres(牛河梁)/plan/ref-考古与遗址体系.md（牛河梁女神庙、积石冢）",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.jade.liangzhu-shenren",
+      "period": "neolithic",
+      "domain": "jade",
+      "name": "良渚神人兽面纹：释读多说并存",
+      "one_line": "神人兽面纹是良渚玉器的核心母题，图腾、巫觋、王权徽记等释读并存而无一可证——canon 已明确标此为争议。",
+      "expect": {
+        "site": [
+          "良渚",
+          "反山",
+          "瑶山"
+        ],
+        "class": [
+          "良渚文化",
+          "玉琮"
+        ]
+      },
+      "basis": "canon.keys(良渚玉器)/canon.dispute（良渚玉器「神人兽面纹」的释读多说并存）",
+      "confidence": "记得"
+    },
+    {
+      "id": "neolithic.jade.liangzhu-yuqi-zhidu",
+      "period": "neolithic",
+      "domain": "jade",
+      "name": "良渚用玉制度：琮、璧、钺的等级分配",
+      "one_line": "反山、瑶山墓地玉器的数量与组合差异，是良渚社会分层研究的核心物证，制度先于风格成为研究焦点。",
+      "expect": {
+        "site": [
+          "良渚古城",
+          "反山",
+          "瑶山"
+        ],
+        "class": [
+          "玉琮",
+          "玉璧",
+          "玉钺"
+        ]
+      },
+      "basis": "canon.centres(良渚)/plan/ref-考古与遗址体系.md 六节（良渚文化：良渚古城、反山、瑶山，本库缺 site）",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.calligraphy.taosi-zhushu",
+      "period": "neolithic",
+      "domain": "calligraphy",
+      "name": "陶寺朱书与刻画符号：文字前史",
+      "one_line": "陶寺陶器上的朱书与各文化刻画符号是汉字起源讨论的物证，是本库书法门类能追溯到的最早一端——先于文字成熟。",
+      "expect": {
+        "site": [
+          "陶寺"
+        ],
+        "class": [
+          "刻画符号"
+        ]
+      },
+      "basis": "canon.keys(陶寺)",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.sculpture.hongshan-nvshen-suxiang",
+      "period": "neolithic",
+      "domain": "sculpture",
+      "name": "红山女神庙泥塑人像：最早的写实塑造尝试",
+      "one_line": "牛河梁女神庙出土的泥塑人像残块（含真人大小头像）是中国最早的写实性雕塑遗存之一。",
+      "expect": {
+        "site": [
+          "牛河梁"
+        ],
+        "work": [
+          "女神庙泥塑头像"
+        ]
+      },
+      "basis": "canon.centres(牛河梁)/plan/ref-考古与遗址体系.md（女神庙）",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.lacquer-textile.hemudu-qiqi",
+      "period": "neolithic",
+      "domain": "lacquer-textile",
+      "name": "河姆渡漆器与早期丝麻织物遗痕",
+      "one_line": "河姆渡出土的朱漆木碗是中国已知最早的漆器实物之一，织物遗痕则是丝麻起源讨论的间接证据。",
+      "expect": {
+        "site": [
+          "河姆渡"
+        ],
+        "class": [
+          "漆器"
+        ],
+        "work": [
+          "朱漆木碗"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 六节（河姆渡文化：河姆渡，本库已有）",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.tomb-art.taosi-muzang-dengji",
+      "period": "neolithic",
+      "domain": "tomb-art",
+      "name": "陶寺墓地的用器等级分化：早期礼制的萌芽",
+      "one_line": "陶寺墓地随葬品数量与种类的悬殊差异，被视为礼制与社会分层在美术物证上的最早显现。",
+      "expect": {
+        "site": [
+          "陶寺"
+        ],
+        "event": [
+          "陶寺遗址发掘"
+        ]
+      },
+      "basis": "canon.keys(陶寺)/canon.centres(陶寺)",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.stone-carving.yanhua",
+      "period": "neolithic",
+      "domain": "stone-carving",
+      "name": "史前岩画三大区系：阴山、花山、贺兰山",
+      "one_line": "岩画是《中国美术全集》绘画编独立设卷的门类，本库既无对应 kind 也未收录，此题目立起来正是为了让这个缺口显形。",
+      "expect": {
+        "site": [
+          "阴山岩画",
+          "花山岩画",
+          "贺兰山岩画"
+        ]
+      },
+      "basis": "plan/ref-全集与图录体系.md 第 4 节（《中国美术全集》绘画编「岩画」单卷；本库 WORK_KIND_GROUP 无对应 kind）",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.bronze.erlitou-liqi-tixi",
+      "period": "erlitou-shang",
+      "domain": "bronze",
+      "name": "二里头青铜礼器体系的形成：爵、斝、鼎的初现",
+      "one_line": "二里头是青铜礼器体系的起点，酒器（爵、斝）先于食器（鼎）成熟，这一顺序本身是礼制形成的物证。",
+      "expect": {
+        "site": [
+          "偃师二里头"
+        ],
+        "class": [
+          "青铜礼器"
+        ],
+        "work": [
+          "乳钉纹铜爵"
+        ]
+      },
+      "basis": "canon.keys(青铜礼器)/canon.centres(偃师二里头)",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.bronze.kuaifanfa",
+      "period": "erlitou-shang",
+      "domain": "bronze",
+      "name": "块范法工艺体系：商代青铜铸造技术路径",
+      "one_line": "块范法（与失蜡法相对）是商周青铜器的主导铸造技术，纹样的繁简与范线的处理直接受工艺制约。",
+      "expect": {
+        "class": [
+          "块范法"
+        ],
+        "site": [
+          "郑州商城",
+          "安阳殷墟"
+        ]
+      },
+      "basis": "canon.keys(块范法)",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.bronze.shoumianwen-yanbian",
+      "period": "erlitou-shang",
+      "domain": "bronze",
+      "name": "兽面纹的演变：从二里头到殷墟晚期的纹样分期",
+      "one_line": "兽面纹分期是商代青铜断代的核心风格序列；「饕餮纹」为宋人《宣和博古图》命名，本库改称兽面纹以免把宋人理解叠在商代器物上。",
+      "expect": {
+        "class": [
+          "兽面纹"
+        ]
+      },
+      "basis": "canon.keys(兽面纹)/canon.dispute（「饕餮纹」之名出自宋人，本库改称「兽面纹」）",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.bronze.fuhaomu-tongqiqun",
+      "period": "erlitou-shang",
+      "domain": "bronze",
+      "name": "妇好墓青铜器组合：王室女性墓的礼器与兵器配置",
+      "one_line": "妇好墓是唯一未被盗扰的商代王室墓，青铜礼器与兵器（钺）并存的组合，是判断墓主身份（女性统帅）的核心物证。",
+      "expect": {
+        "site": [
+          "殷墟妇好墓"
+        ],
+        "work": [
+          "妇好鸮尊",
+          "司母辛鼎",
+          "妇好偶方彝"
+        ],
+        "event": [
+          "殷墟妇好墓发掘"
+        ]
+      },
+      "basis": "canon.keys(妇好墓)/plan/ref-考古与遗址体系.md 三节（殷墟妇好墓，《殷墟妇好墓》1980）",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.bronze.sanxingdui-qingtong",
+      "period": "erlitou-shang",
+      "domain": "bronze",
+      "name": "三星堆青铜神像系统：纵目面具与神树",
+      "one_line": "三星堆青铜神像系统在造型上与中原体系差异极大，其族属与年代仍在修正中，是本库须谨慎表述断代的题目。",
+      "expect": {
+        "site": [
+          "广汉三星堆"
+        ],
+        "work": [
+          "青铜纵目面具",
+          "青铜神树"
+        ],
+        "class": [
+          "古蜀青铜"
+        ]
+      },
+      "basis": "canon.keys(三星堆)/canon.centres(广汉三星堆)/canon.dispute（三星堆族属、年代与文化归属仍在修正）",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.bronze.zuhui-mingwen",
+      "period": "erlitou-shang",
+      "domain": "bronze",
+      "name": "族徽铭文与铸铭制度：铸造者的匿名性",
+      "one_line": "少数商代铭文见「族徽」，指宗族标记而非个人署名——这是本库判断该期「作者无名」的直接文字证据。",
+      "expect": {
+        "class": [
+          "族徽"
+        ]
+      },
+      "basis": "canon.anonymity（少数铭文见「族徽」，指宗族而非个人）",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.calligraphy.jiaguwen",
+      "period": "erlitou-shang",
+      "domain": "calligraphy",
+      "name": "甲骨文：占卜刻辞与图文同源",
+      "one_line": "甲骨文是本期最重要的文字/图像同源证据，刻辞书体本身的风格分期（董作宾五期说）是断代的重要参照。",
+      "expect": {
+        "site": [
+          "安阳殷墟"
+        ],
+        "class": [
+          "甲骨文"
+        ]
+      },
+      "basis": "canon.keys(甲骨文)/canon.centres(安阳殷墟)",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.sculpture.fuhaomu-yushi-diaoxiang",
+      "period": "erlitou-shang",
+      "domain": "sculpture",
+      "name": "妇好墓玉石圆雕：跪坐人像与动物形佩饰",
+      "one_line": "妇好墓出土的玉石圆雕人像与动物形佩饰，是商代小型立体造型的代表，材质属玉石而非陶瓷或青铜。",
+      "expect": {
+        "site": [
+          "殷墟妇好墓"
+        ],
+        "work": [
+          "玉凤",
+          "跪坐玉人"
+        ]
+      },
+      "basis": "canon.keys(妇好墓)",
+      "confidence": "待核"
+    },
+    {
+      "id": "erlitou-shang.sculpture.sanxingdui-lixiang",
+      "period": "erlitou-shang",
+      "domain": "sculpture",
+      "name": "三星堆青铜立人像：作为雕塑史起点的争议材料",
+      "one_line": "青铜大立人是三星堆最重要的人像雕塑，但其材质（青铜）在本库 work.kind 体系里既非「铜佛」也非「石雕」，提纲层面先立题目，材质归类问题留待条目层解决——这是本库 kind 词表的一处缝隙。",
+      "expect": {
+        "site": [
+          "广汉三星堆"
+        ],
+        "work": [
+          "青铜大立人"
+        ]
+      },
+      "basis": "canon.keys(三星堆)",
+      "confidence": "待核"
+    },
+    {
+      "id": "erlitou-shang.ceramics.shang-baitao",
+      "period": "erlitou-shang",
+      "domain": "ceramics",
+      "name": "商代白陶与原始瓷的出现",
+      "one_line": "商代白陶纹饰精细，常仿青铜器造型；原始瓷的出现则是瓷器起源讨论的关键一环。",
+      "expect": {
+        "class": [
+          "白陶",
+          "原始瓷"
+        ],
+        "site": [
+          "郑州商城"
+        ]
+      },
+      "basis": "待核（一般商代陶瓷史知识，未见 canon/ref 文档逐条列出，需人工核对《中国陶瓷全集》夏商周分卷）",
+      "confidence": "待核"
+    },
+    {
+      "id": "erlitou-shang.jade.shang-yuqi",
+      "period": "erlitou-shang",
+      "domain": "jade",
+      "name": "商代玉器：妇好墓玉器与治玉工艺的延续",
+      "one_line": "妇好墓出土玉器数量庞大且部分为红山、良渚旧玉改制，是判断商代玉料流通与「藏古」现象的核心材料。",
+      "expect": {
+        "site": [
+          "殷墟妇好墓"
+        ],
+        "class": [
+          "商代玉器"
+        ]
+      },
+      "basis": "canon.keys(妇好墓)",
+      "confidence": "待核"
+    },
+    {
+      "id": "erlitou-shang.lacquer-textile.shang-qimu-hen",
+      "period": "erlitou-shang",
+      "domain": "lacquer-textile",
+      "name": "商代漆器残痕与丝织物印痕：实物稀少下的间接证据",
+      "one_line": "商代绘画仅见于器表与漆木残痕（canon 已明确），漆器与织物本体多已朽毁，只能靠印痕、附着物间接复原。",
+      "expect": {
+        "class": [
+          "漆器"
+        ],
+        "site": [
+          "安阳殷墟"
+        ]
+      },
+      "basis": "canon.cells（erlitou-shang.painting 的 why：商代绘画仅见于器表与漆木残痕）",
+      "confidence": "待核"
+    },
+    {
+      "id": "erlitou-shang.tomb-art.fuhaomu-zuhe",
+      "period": "erlitou-shang",
+      "domain": "tomb-art",
+      "name": "妇好墓随葬组合与商代王室葬制",
+      "one_line": "妇好墓未被盗扰，青铜礼器、玉器、骨器的完整组合是研究商代王室葬制唯一的第一手材料。",
+      "expect": {
+        "site": [
+          "殷墟妇好墓"
+        ],
+        "event": [
+          "殷墟妇好墓发掘"
+        ]
+      },
+      "basis": "canon.keys(妇好墓)/plan/ref-考古与遗址体系.md 三节（殷墟妇好墓，《殷墟妇好墓》1980）",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.stone-carving.shang-keshi-yanhua",
+      "period": "erlitou-shang",
+      "domain": "stone-carving",
+      "name": "商代刻石与岩画遗存的稀薄证据",
+      "one_line": "本期石刻碑版类材料最为稀薄——碑刻、摩崖均未出现，能勉强归入此门的仅岩画传统的延续，如实标注「present」但内容单薄。",
+      "expect": {
+        "class": [
+          "岩画"
+        ]
+      },
+      "basis": "待核（本库无确证的商代摩崖/碑刻实例，仅推测与岩画传统延续相关，需人工核实）",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.bronze.changpian-mingwen",
+      "period": "western-zhou",
+      "domain": "bronze",
+      "name": "长篇铭文：青铜器从祭器到档案的转变",
+      "one_line": "毛公鼎、大盂鼎、史墙盘等长篇铭文使青铜器具有档案功能——这是「器主有名而作者无名」的物证核心。",
+      "expect": {
+        "work": [
+          "毛公鼎",
+          "大盂鼎",
+          "史墙盘"
+        ],
+        "class": [
+          "金文"
+        ]
+      },
+      "basis": "canon.keys(长篇铭文)/canon.anonymity（器主有名——毛公、大克、史墙等人的名字与事迹靠铭文留存）",
+      "confidence": "记得"
+    },
+    {
+      "id": "western-zhou.bronze.liedin-zhidu",
+      "period": "western-zhou",
+      "domain": "bronze",
+      "name": "列鼎制度：鼎簋数量与身份等级的对应",
+      "one_line": "列鼎制度是西周礼制物化的直接体现，鼎簋数量组合的规律性是本库断代与身份判定的重要依据。",
+      "expect": {
+        "class": [
+          "列鼎制度"
+        ]
+      },
+      "basis": "canon.keys(列鼎制度)",
+      "confidence": "记得"
+    },
+    {
+      "id": "western-zhou.bronze.qiequwen-zhonghuanwen",
+      "period": "western-zhou",
+      "domain": "bronze",
+      "name": "窃曲纹与重环纹：西周纹样的程式化与简化",
+      "one_line": "窃曲纹、重环纹取代商代兽面纹成为主流，纹样从狰狞繁复走向抽象程式，是西周青铜器风格转折的标志。",
+      "expect": {
+        "class": [
+          "窃曲纹",
+          "重环纹"
+        ]
+      },
+      "basis": "canon.keys(窃曲纹、重环纹)",
+      "confidence": "记得"
+    },
+    {
+      "id": "western-zhou.bronze.limaozhi-gaige",
+      "period": "western-zhou",
+      "domain": "bronze",
+      "name": "礼制改革与青铜器组合的变化：西周中晚期的转折",
+      "one_line": "西周中晚期青铜器组合与器形发生系统性变化，学界称之为「礼制改革」，是青铜史分期的关键节点。",
+      "expect": {
+        "class": [
+          "礼制改革"
+        ]
+      },
+      "basis": "canon.keys(礼制改革)",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.bronze.zhouyuan-jiaocang",
+      "period": "western-zhou",
+      "domain": "bronze",
+      "name": "周原窖藏青铜器：宝鸡、岐山的成组发现",
+      "one_line": "周原地区多次青铜器窖藏的成组出土，是西周王室与贵族青铜器研究最重要的材料来源之一。",
+      "expect": {
+        "site": [
+          "岐山周原",
+          "宝鸡"
+        ]
+      },
+      "basis": "canon.centres(岐山周原、宝鸡)",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.calligraphy.jinwen-shufa",
+      "period": "western-zhou",
+      "domain": "calligraphy",
+      "name": "西周金文书法：字形演变与书写性",
+      "one_line": "西周金文从早期的图画性向晚期的线条化、程式化演变，是汉字书法史脱离图像走向抽象的第一段轨迹。",
+      "expect": {
+        "class": [
+          "金文"
+        ],
+        "work": [
+          "毛公鼎",
+          "大克鼎"
+        ]
+      },
+      "basis": "canon.keys(长篇铭文)——由铭文内容延展至书体研究角度",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.sculpture.zhouyuan-yushi-diaoke",
+      "period": "western-zhou",
+      "domain": "sculpture",
+      "name": "周原玉石圆雕：人像与动物形雕刻",
+      "one_line": "周原出土的玉石圆雕数量与题材均不及商代妇好墓丰富，是西周「重铭文轻造型」倾向的旁证。",
+      "expect": {
+        "site": [
+          "岐山周原"
+        ]
+      },
+      "basis": "canon.centres(岐山周原)",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.ceramics.xizhou-yuanshici",
+      "period": "western-zhou",
+      "domain": "ceramics",
+      "name": "西周原始瓷与几何印纹硬陶",
+      "one_line": "原始瓷与印纹硬陶在西周多见于南方地区，是瓷器起源链条上承商代、下启春秋战国的一环。",
+      "expect": {
+        "class": [
+          "原始瓷",
+          "印纹硬陶"
+        ]
+      },
+      "basis": "待核（一般陶瓷史知识，需核对《中国陶瓷全集》夏商周分卷）",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.jade.xizhou-zuyupei",
+      "period": "western-zhou",
+      "domain": "jade",
+      "name": "西周组玉佩与敛葬用玉制度",
+      "one_line": "组玉佩（多璜联缀）是西周新出现的用玉形式，其长度与等级的对应关系是礼制研究的组成部分。",
+      "expect": {
+        "class": [
+          "组玉佩"
+        ]
+      },
+      "basis": "待核（需核对《中国玉器全集》商周分卷具体表述）",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.lacquer-textile.xizhou-qiqi-canji",
+      "period": "western-zhou",
+      "domain": "lacquer-textile",
+      "name": "西周漆器与丝织残迹：实物稀少的间接研究",
+      "one_line": "西周漆器与丝织实物存世极少，多依赖朽痕与文献互证，是本库材质证据链最薄弱的一段。",
+      "expect": {
+        "class": [
+          "漆器"
+        ]
+      },
+      "basis": "待核",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.metal-enamel.xizhou-jinqi",
+      "period": "western-zhou",
+      "domain": "metal-enamel",
+      "name": "西周金器：车马器与佩饰中的金饰",
+      "one_line": "西周金器多依附于车马器与佩饰，尚未独立成器类，与商代「金器极少且多附于青铜」的判断一脉相承但已见增长。",
+      "expect": {
+        "class": [
+          "金器"
+        ]
+      },
+      "basis": "canon.cells（erlitou-shang.metal-enamel 的 why：金器极少且多附于青铜，不单立；western-zhou 已升级为 present）",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.tomb-art.zhouyuan-mudi",
+      "period": "western-zhou",
+      "domain": "tomb-art",
+      "name": "周原与丰镐墓葬体系：贵族墓的器用组合",
+      "one_line": "周原、丰镐两大都邑周边的贵族墓地，其器用组合是列鼎制度与身份等级研究的直接考古背景。",
+      "expect": {
+        "site": [
+          "岐山周原",
+          "西安丰镐"
+        ]
+      },
+      "basis": "canon.centres(岐山周原、西安丰镐)",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.stone-carving.xizhou-shike-cunyi",
+      "period": "western-zhou",
+      "domain": "stone-carving",
+      "name": "西周石刻遗存：稀少且以间接材料为主",
+      "one_line": "西周石刻碑版类实物极少，本单元如实标注这一稀薄状态，而非勉强凑出不成立的题目。",
+      "expect": {
+        "class": [
+          "石刻"
+        ]
+      },
+      "basis": "待核（本库与 ref 文档均未见西周确证石刻实例，需人工核实是否存在）",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.bronze.shila-fa",
+      "period": "spring-autumn-warring",
+      "domain": "bronze",
+      "name": "失蜡法：透雕青铜工艺的技术突破",
+      "one_line": "失蜡法使镂空透雕青铜器（如曾侯乙尊盘）成为可能，是春秋战国青铜工艺「炫技」倾向的技术基础。",
+      "expect": {
+        "class": [
+          "失蜡法"
+        ],
+        "work": [
+          "曾侯乙尊盘"
+        ]
+      },
+      "basis": "canon.keys(失蜡法)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.bronze.cuojinyin",
+      "period": "spring-autumn-warring",
+      "domain": "bronze",
+      "name": "错金银工艺：青铜器表的镶嵌装饰体系",
+      "one_line": "错金银把纹饰从铸造阶段的范线控制解放出来，改为铸后镶嵌，装饰自由度大增，是本期工艺美术的标志性技术。",
+      "expect": {
+        "class": [
+          "错金银"
+        ]
+      },
+      "basis": "canon.keys(错金银)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.bronze.bianzhong-tixi",
+      "period": "spring-autumn-warring",
+      "domain": "bronze",
+      "name": "编钟体系：曾侯乙编钟与礼乐制度",
+      "one_line": "曾侯乙编钟一钟双音的声学成就与其铭文所记乐律体系，把青铜器研究从造型史扩展到音乐史。",
+      "expect": {
+        "work": [
+          "曾侯乙编钟"
+        ],
+        "site": [
+          "曾国（随州）"
+        ],
+        "class": [
+          "编钟"
+        ]
+      },
+      "basis": "canon.keys(编钟)/canon.centres(曾国（随州）)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.bronze.zhongshanguo-qingtong",
+      "period": "spring-autumn-warring",
+      "domain": "bronze",
+      "name": "中山国青铜器：错金银礼器与北方戎狄风格的融合",
+      "one_line": "中山国（白狄）青铜器兼有中原礼制与草原动物纹两种传统，是本期「多中心」而非单一中原叙事的关键例证。",
+      "expect": {
+        "site": [
+          "中山国（平山）"
+        ],
+        "work": [
+          "中山王铁足鼎",
+          "错金银四龙四凤铜方案"
+        ]
+      },
+      "basis": "canon.centres(中山国（平山）)/plan/ref-考古与遗址体系.md 三节（中山王墓，河北平山，有报告，书名待核）",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.bronze.chuwenhua-fengge-bianjie",
+      "period": "spring-autumn-warring",
+      "domain": "bronze",
+      "name": "楚系青铜器的风格边界问题",
+      "one_line": "「楚文化」作为独立风格单元的边界，与中原、吴越、巴蜀的关系，学界口径不一——canon 已明确标此为开放问题。",
+      "expect": {
+        "site": [
+          "楚郢都（荆州）"
+        ]
+      },
+      "basis": "canon.dispute（「楚文化」作为独立风格单元的边界...学界口径不一）",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.lacquer-textile.chudi-qiqi",
+      "period": "spring-autumn-warring",
+      "domain": "lacquer-textile",
+      "name": "楚地漆器：荆州、江陵漆器体系与髹漆工艺",
+      "one_line": "楚地漆器数量大、题材奇诡（虎座鸟架鼓、镇墓兽），是本库「楚地想象」这一美术史论断最直接的物证载体。",
+      "expect": {
+        "site": [
+          "楚郢都（荆州）"
+        ],
+        "class": [
+          "漆器",
+          "楚文化"
+        ],
+        "work": [
+          "虎座鸟架鼓",
+          "镇墓兽"
+        ]
+      },
+      "basis": "canon.keys(漆器、楚文化)/canon.centres(楚郢都（荆州）)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.lacquer-textile.zenghouyi-qiqi",
+      "period": "spring-autumn-warring",
+      "domain": "lacquer-textile",
+      "name": "曾侯乙墓漆器组合：漆棺、漆器与墓葬礼制",
+      "one_line": "曾侯乙墓漆器（尤以彩绘内棺）数量与题材之丰富，是判断曾国（随文化区）礼制水平的核心物证。",
+      "expect": {
+        "site": [
+          "曾国（随州）"
+        ],
+        "work": [
+          "曾侯乙彩绘内棺"
+        ],
+        "event": [
+          "曾侯乙墓发掘"
+        ]
+      },
+      "basis": "canon.centres(曾国（随州）)/plan/ref-考古与遗址体系.md 三节（曾侯乙墓，《曾侯乙墓》1989，已登记 source: zeng-houyi-mu-baogao）",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.lacquer-textile.boahua",
+      "period": "spring-autumn-warring",
+      "domain": "lacquer-textile",
+      "name": "帛画的出现：楚地丧葬绘画的最早实物",
+      "one_line": "《人物龙凤帛画》《人物御龙帛画》是中国现存最早的独立绘画实物，出自楚墓，先于纸绢卷轴画千余年。",
+      "expect": {
+        "site": [
+          "楚郢都（荆州）"
+        ],
+        "work": [
+          "人物龙凤帛画",
+          "人物御龙帛画"
+        ]
+      },
+      "basis": "canon.keys(帛画)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.lacquer-textile.chuguo-zhixiu",
+      "period": "spring-autumn-warring",
+      "domain": "lacquer-textile",
+      "name": "楚国织绣：凤鸟纹刺绣与丝织品实物",
+      "one_line": "楚墓出土的刺绣与丝织品实物，是本库织绣类最早的一批成体系材料，凤鸟纹是楚地织绣的标志性母题。",
+      "expect": {
+        "site": [
+          "楚郢都（荆州）"
+        ],
+        "class": [
+          "织绣"
+        ]
+      },
+      "basis": "canon.centres(楚郢都（荆州）)/outline.domains（lacquer-textile 的 kinds 含织绣）",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.painting.boahua-yu-huihua-qiyuan",
+      "period": "spring-autumn-warring",
+      "domain": "painting",
+      "name": "帛画与中国卷轴画的起源问题",
+      "one_line": "从帛画到后世卷轴画之间的载体与技法演变链条并不连续，本单元关注这一「起源叙事」本身是否成立。",
+      "expect": {
+        "work": [
+          "人物龙凤帛画",
+          "人物御龙帛画"
+        ]
+      },
+      "basis": "canon.keys(帛画)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.calligraphy.wulegongming",
+      "period": "spring-autumn-warring",
+      "domain": "calligraphy",
+      "name": "物勒工名：责任标记而非署名意识",
+      "one_line": "兵器、量器铭文所见工匠名与作坊名，canon 已明确判定这是制度性的责任标记，不是署名意识——提纲须与此一致，不可把它读成「艺术家署名」的萌芽。",
+      "expect": {
+        "class": [
+          "物勒工名"
+        ]
+      },
+      "basis": "canon.anonymity（「物勒工名」...是制度性的责任标记，不是署名意识）",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.calligraphy.houma-mengshu",
+      "period": "spring-autumn-warring",
+      "domain": "calligraphy",
+      "name": "侯马盟书：朱书墨书的最早成规模墨迹实物",
+      "one_line": "侯马盟书是玉石片上朱书墨书文字的大宗发现，是研究春秋晋系文字书写性（而非铸刻）最直接的材料。",
+      "expect": {
+        "site": [
+          "侯马"
+        ],
+        "work": [
+          "侯马盟书"
+        ]
+      },
+      "basis": "canon.centres(侯马)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.sculpture.zhongshanguo-diaosu",
+      "period": "spring-autumn-warring",
+      "domain": "sculpture",
+      "name": "中山国错银神兽：动物形器座的雕塑性",
+      "one_line": "错银双翼神兽等器座类作品兼具实用（承具）与雕塑性表现，其材质为青铜错银，在本库 kind 词表里同样面临「归哪一类」的缝隙（与三星堆青铜立人像同类问题）。",
+      "expect": {
+        "site": [
+          "中山国（平山）"
+        ],
+        "work": [
+          "错银双翼神兽"
+        ]
+      },
+      "basis": "canon.centres(中山国（平山）)",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.architecture.gaotai-jianzhu",
+      "period": "spring-autumn-warring",
+      "domain": "architecture",
+      "name": "高台建筑：诸侯宫室基址与瓦当遗存",
+      "one_line": "列国争霸推动高台宫室建筑的兴盛，今仅存基址与瓦当，建筑本体已不可见，只能靠间接材料复原。",
+      "expect": {
+        "site": [
+          "临淄",
+          "楚郢都（荆州）"
+        ]
+      },
+      "basis": "canon.centres(临淄、楚郢都（荆州）)",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.ceramics.yinwenying-taoqi",
+      "period": "spring-autumn-warring",
+      "domain": "ceramics",
+      "name": "印纹硬陶与原始瓷在南方的延续",
+      "one_line": "印纹硬陶、原始瓷在吴越、楚地持续发展，是瓷器起源链条上承西周、下启秦汉的一环。",
+      "expect": {
+        "class": [
+          "印纹硬陶",
+          "原始瓷"
+        ]
+      },
+      "basis": "待核（需核对《中国陶瓷全集》春秋战国分卷）",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.jade.chunqiu-yupei",
+      "period": "spring-autumn-warring",
+      "domain": "jade",
+      "name": "春秋战国组玉佩与葬玉制度的变化",
+      "one_line": "组玉佩形制在本期趋于繁复化，与礼崩乐坏的政治背景形成对照，是玉器研究中「制度与风格」关系的典型题目。",
+      "expect": {
+        "class": [
+          "组玉佩"
+        ]
+      },
+      "basis": "待核（需核对《中国玉器全集》春秋战国分卷）",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.metal-enamel.jinyinqi-yu-cuojin",
+      "period": "spring-autumn-warring",
+      "domain": "metal-enamel",
+      "name": "金银器独立成器：脱离青铜附饰的趋势",
+      "one_line": "本期金银器开始独立成器（带钩、饰件），不再仅是青铜器表的错金银装饰，是金银器类目形成的前夜。",
+      "expect": {
+        "class": [
+          "金银器"
+        ]
+      },
+      "basis": "待核",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.tomb-art.zenghouyi-mu",
+      "period": "spring-autumn-warring",
+      "domain": "tomb-art",
+      "name": "曾侯乙墓：礼乐器组合与墓葬形制的整体研究",
+      "one_line": "曾侯乙墓是本库唯一已登记正式发掘报告（`zeng-houyi-mu-baogao`）却无 site 条目引用的个案——补上 site 是本库核查等级最直接的一处杠杆。",
+      "expect": {
+        "site": [
+          "曾国（随州）"
+        ],
+        "event": [
+          "曾侯乙墓发掘"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 一节 1.3（曾侯乙墓，《曾侯乙墓》1989，已登记 -baogao 后缀 source 但无 site 引用）",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.stone-carving.chunqiu-shike-canyu",
+      "period": "spring-autumn-warring",
+      "domain": "stone-carving",
+      "name": "春秋战国石刻遗存：稀少且多依附建筑构件",
+      "one_line": "本期碑刻、摩崖尚未成体系，如实标注这一稀薄状态——石刻碑版真正成体系要到秦汉。",
+      "expect": {
+        "class": [
+          "石刻"
+        ]
+      },
+      "basis": "待核（本库与 ref 文档均未见本期确证的独立石刻实例）",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.furniture.chudi-qixjiaju",
+      "period": "spring-autumn-warring",
+      "domain": "furniture",
+      "name": "楚地漆木家具：几案与床榻的早期实物",
+      "one_line": "楚墓出土的漆木几案、床榻是中国家具史最早的一批实物证据，早于通常被视为家具史起点的汉代。",
+      "expect": {
+        "site": [
+          "楚郢都（荆州）"
+        ],
+        "class": [
+          "家具"
+        ]
+      },
+      "basis": "canon.centres(楚郢都（荆州）)",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.sculpture.bingmayong",
+      "period": "qin-han",
+      "domain": "sculpture",
+      "name": "秦始皇陵兵马俑：写实群塑与个体化面部处理",
+      "one_line": "兵马俑以近八千件真人大小陶俑构成的群塑规模，与俑与俑之间面部的个体化差异，是本库雕塑造像门最重要的秦代题目。",
+      "expect": {
+        "site": [
+          "秦始皇陵"
+        ],
+        "work": [
+          "跪射俑",
+          "将军俑"
+        ],
+        "event": [
+          "秦始皇陵兵马俑发掘"
+        ]
+      },
+      "basis": "canon.keys(兵马俑)/plan/ref-考古与遗址体系.md 三节（秦始皇陵与兵马俑，一号坑报告 1988）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.sculpture.huoqubing-mu-shike",
+      "period": "qin-han",
+      "domain": "sculpture",
+      "name": "霍去病墓石刻：因势象形的写意传统",
+      "one_line": "以石材天然形态因势象形（马踏匈奴、跃马）是中国雕塑史上与写实传统并行的另一条路径，通行教材必举，但未见于本库 canon/ref 文档逐条列出，需人工核对《中国美术全集·雕塑编》具体卷目再升级确信度。",
+      "expect": {
+        "site": [
+          "茂陵"
+        ],
+        "work": [
+          "马踏匈奴",
+          "跃马"
+        ]
+      },
+      "basis": "待核（美术史通识题目，未见于 canon.keys 或 plan/ref 文档，需人工核对《中国美术全集》雕塑编）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.sculpture.shuochang-yong",
+      "period": "qin-han",
+      "domain": "sculpture",
+      "name": "汉代陶俑的写实风格：说唱俑一类的表情与动态处理",
+      "one_line": "与兵马俑的肃穆群像不同，四川一带出土的说唱俑等世俗题材陶俑展示了汉代雕塑另一路的生动写实。",
+      "expect": {
+        "class": [
+          "陶俑"
+        ],
+        "work": [
+          "击鼓说唱俑"
+        ]
+      },
+      "basis": "待核（教材常识，需核对具体出土地与《中国美术全集》雕塑编）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.sculpture.hanyangling-yong",
+      "period": "qin-han",
+      "domain": "sculpture",
+      "name": "汉阳陵陶俑：裸体着衣俑与西汉早期写实风格",
+      "one_line": "汉阳陵陶俑原本着衣、手臂可拆装（现多为「裸俑」），这一制作方式本身即是研究汉代雕塑工艺的题目。",
+      "expect": {
+        "site": [
+          "汉阳陵"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 三节（汉阳阳陵，部分有报告，覆盖度待核）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.tomb-art.mawangdui",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "马王堆汉墓与西汉早期丧葬美术",
+      "one_line": "一句话说清这个题目为何成立：马王堆是西汉早期丧葬美术保存最完整的个案，帛画、漆器、织物同出一墓，组合关系本身即证据。",
+      "expect": {
+        "site": [
+          "马王堆汉墓"
+        ],
+        "work": [
+          "T 形帛画",
+          "云纹漆案",
+          "素纱襌衣"
+        ],
+        "event": [
+          "马王堆汉墓发掘"
+        ]
+      },
+      "basis": "canon.keys / 中国美术全集·工艺美术编 / 发掘报告（《长沙马王堆一号汉墓》1973，见 plan/ref-考古与遗址体系.md 三节）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.mancheng-hanmu",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "满城汉墓：金缕玉衣与诸侯王级葬制",
+      "one_line": "满城汉墓（中山靖王刘胜及其妻窦绾墓）出土完整金缕玉衣，是研究汉代诸侯王葬制等级最直接的物证。",
+      "expect": {
+        "site": [
+          "满城汉墓"
+        ],
+        "work": [
+          "金缕玉衣",
+          "长信宫灯"
+        ],
+        "event": [
+          "满城汉墓发掘"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 三节（满城汉墓，《满城汉墓发掘报告》1980）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.qinshihuangling-tixi",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "秦始皇陵整体系统：陵园、陪葬坑与未发掘地宫",
+      "one_line": "兵马俑只是秦始皇陵陪葬体系的一部分，陵园整体规划与地宫未发掘现状，是判断本库该以「遗址系统」还是「单件文物」讲述这一题目的关键。",
+      "expect": {
+        "site": [
+          "秦始皇陵"
+        ],
+        "event": [
+          "秦始皇陵兵马俑发掘"
+        ]
+      },
+      "basis": "canon.keys(兵马俑)/plan/ref-考古与遗址体系.md 三节及五节（1987 年列入世界遗产）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.huaxiangshi-nanyang",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "南阳汉画像石：楚风余绪与天文星象题材",
+      "one_line": "南阳画像石以天文星象、神话题材见长，被认为承接了楚地想象传统——本库现该地域体系为空白（0 件），是本库画像石覆盖最大的缺口之一。",
+      "expect": {
+        "site": [
+          "南阳"
+        ],
+        "class": [
+          "画像石"
+        ]
+      },
+      "basis": "canon.centres(南阳)/canon.dispute（画像石的地域分期由二十世纪考古建立...）/plan/ref-考古与遗址体系.md 四节（南阳汉画像石，本库现缺）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.huaxiangshi-xuzhou",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "徐州汉画像石：楚汉文化交汇区的图像体系",
+      "one_line": "徐州地处楚汉文化交界，画像石题材兼具中原礼制图像与楚地神怪母题，是画像石地域体系里过渡性质最明显的一支，本库现缺。",
+      "expect": {
+        "site": [
+          "徐州"
+        ],
+        "class": [
+          "画像石"
+        ]
+      },
+      "basis": "canon.centres(徐州)/plan/ref-考古与遗址体系.md 四节（江苏徐州，本库现缺）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.huaxiangshi-wushici",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "嘉祥武氏祠画像石：图像程式与榜题的对应研究",
+      "one_line": "武氏祠画像石因带有大量榜题，是画像石图像程式研究方法论的奠基个案（巫鸿的经典研究即以此为基础），本库已有对应 site（wushi-ci）。",
+      "expect": {
+        "site": [
+          "嘉祥武氏祠"
+        ],
+        "class": [
+          "画像石"
+        ]
+      },
+      "basis": "canon.centres(嘉祥武氏祠)/plan/ref-考古与遗址体系.md 四节（山东嘉祥，本库已有 site: wushi-ci）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.huaxiangshi-yinan",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "沂南北寨汉墓画像石：大型画像石墓的图像总体规划",
+      "one_line": "沂南北寨汉墓是保存最完整的大型画像石墓之一，其图像在墓室各部位的系统分布，是研究「墓葬整体图像规划」而非孤立图像的关键个案。",
+      "expect": {
+        "site": [
+          "沂南"
+        ],
+        "class": [
+          "画像石"
+        ]
+      },
+      "basis": "canon.centres(沂南)/plan/ref-考古与遗址体系.md 四节（山东沂南，本库已有 site: yinan-beizhai-tomb）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.huaxiangshi-shanbei",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "陕北画像石：本库现缺的第四地域体系",
+      "one_line": "陕北（绥德、米脂）画像石风格粗犷、题材多牛耕与胡汉战争，是与山东、南阳、四川并列的独立地域体系，本库目前完全空白。",
+      "expect": {
+        "site": [
+          "绥德",
+          "米脂"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 四节（陕西绥德、米脂，本库现缺）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.huaxiangshi-sichuan",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "四川画像石与画像砖：崖墓体系，本库现缺",
+      "one_line": "四川画像砖（成都、彭山一带）以模印批量生产为特征，题材偏重庄园、宴饮等世俗生活，与中原叙事性画像石构成鲜明对照，本库目前完全空白。",
+      "expect": {
+        "site": [
+          "乐山",
+          "成都",
+          "彭山"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 四节（四川乐山、成都、彭山，本库现缺）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.handai-huaxiangmu-zuhe",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "画像石墓的组合关系：建筑构件与图像叙事的统一体",
+      "one_line": "画像石砖首先是墓室建筑构件，其图像叙事依附于墓室结构（前室、后室、耳室各有题材分工），散出脱离建筑语境后即不可复原——这是本库 tomb-art 门的核心证据原则。",
+      "expect": {
+        "class": [
+          "画像石墓"
+        ]
+      },
+      "basis": "schema.py domains.tomb-art.note（墓室壁画、画像石砖、陶俑、随葬器组合。组合关系是其核心证据，散出后即不可复原）/canon.keys(画像石)",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.stone-carving.hanbei",
+      "period": "qin-han",
+      "domain": "stone-carving",
+      "name": "汉碑与隶书成熟：刻工与书者的不可考",
+      "one_line": "汉碑是隶书成熟的物证，但刻工偶见名字、书者多不可考——canon 已明确此点，提纲须与之一致，不可虚构书者。",
+      "expect": {
+        "class": [
+          "汉碑",
+          "隶书"
+        ]
+      },
+      "basis": "canon.keys(汉碑、隶书)/canon.anonymity（汉碑刻工偶见名字，书者多不可考）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.stone-carving.moya-keshi",
+      "period": "qin-han",
+      "domain": "stone-carving",
+      "name": "摩崖刻石：纪功刻石体系",
+      "one_line": "与庙堂碑刻不同，摩崖刻石依山就势、就地取材，是汉代石刻碑版门下与碑刻并列的另一种载体，具体篇目需人工核对后再定。",
+      "expect": {
+        "class": [
+          "摩崖"
+        ]
+      },
+      "basis": "待核（美术史通识题目，未见 canon/ref 文档逐条列出，需人工核对具体摩崖刻石篇目）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.stone-carving.handai-tuoben-yanjiu",
+      "period": "qin-han",
+      "domain": "stone-carving",
+      "name": "汉碑拓本谱系：宋拓孤本与研究依据的等级",
+      "one_line": "研究汉碑的对象常是拓本而非原石，宋拓、明拓、翻刻是不同证据等级——本库 schema.py 的 rubbing 块正为此设。",
+      "expect": {
+        "class": [
+          "拓本"
+        ]
+      },
+      "basis": "schema.py RUBBING_EDITIONS/DATING_BASIS/canon.dispute（汉碑的书者归属几乎全不可考）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.stone-carving.handai-yanhua-yanxu",
+      "period": "qin-han",
+      "domain": "stone-carving",
+      "name": "汉代岩画的延续期层",
+      "one_line": "阴山等岩画点存在跨越新石器至历史时期的多层叠压，汉代层是其中可辨认的一段，与画像石的图像母题有交叉可比之处。",
+      "expect": {
+        "site": [
+          "阴山岩画"
+        ]
+      },
+      "basis": "plan/ref-全集与图录体系.md 第 4 节（stone-carving 门「含岩画」）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.painting.mawangdui-boahua",
+      "period": "qin-han",
+      "domain": "painting",
+      "name": "马王堆 T 形帛画的图像程序：天上、人间、地下的三段式构图",
+      "one_line": "与 tomb-art 门关注帛画作为随葬组合证据不同，此题目专论帛画本身作为绘画作品的图像程序与构图逻辑。",
+      "expect": {
+        "work": [
+          "T 形帛画"
+        ]
+      },
+      "basis": "canon.centres(马王堆)",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.calligraphy.lishu-chengshu",
+      "period": "qin-han",
+      "domain": "calligraphy",
+      "name": "隶书成熟：从秦隶到汉碑的书体演变",
+      "one_line": "隶书在本期完成从秦隶（尚存篆意）到汉碑成熟隶书（蚕头燕尾）的演变，是中国书法史第一次完整的书体成熟过程。",
+      "expect": {
+        "class": [
+          "隶书"
+        ]
+      },
+      "basis": "canon.keys(隶书)",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.architecture.handai-mingqi-jianzhu",
+      "period": "qin-han",
+      "domain": "architecture",
+      "name": "汉代明器建筑：陶楼、陶仓与瓦当的间接证据",
+      "one_line": "汉代地面木构建筑无一存世，陶楼、陶仓明器与瓦当纹样是复原汉代建筑形制唯一的间接证据。",
+      "expect": {
+        "class": [
+          "陶楼",
+          "陶仓",
+          "瓦当"
+        ]
+      },
+      "basis": "待核（教材通识，需核对具体出土地与《中国美术全集》建筑艺术编）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.bronze.handai-tongjing",
+      "period": "qin-han",
+      "domain": "bronze",
+      "name": "汉代铜镜：铭文、纹样与断代序列",
+      "one_line": "汉代铜镜铭文（如「见日之光」「长宜子孙」）与纹样组合形成了成熟的断代序列，是本库铜镜类目的核心题目。",
+      "expect": {
+        "class": [
+          "铜镜"
+        ]
+      },
+      "basis": "canon.keys(铜镜)",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.ceramics.handai-youtao",
+      "period": "qin-han",
+      "domain": "ceramics",
+      "name": "汉代釉陶：铅釉工艺与仿铜器造型",
+      "one_line": "汉代低温铅釉陶多仿青铜礼器造型（仿铜陶鼎、陶壶），是釉陶明器化与青铜礼制式微互为表里的物证。",
+      "expect": {
+        "class": [
+          "釉陶"
+        ]
+      },
+      "basis": "待核（需核对《中国陶瓷全集》秦汉分卷）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.jade.jinlvyuyi",
+      "period": "qin-han",
+      "domain": "jade",
+      "name": "玉衣制度：金缕、银缕、铜缕的等级差异",
+      "one_line": "玉衣缕线材质（金、银、铜）与墓主身份等级严格对应，满城汉墓的完整实例是这一制度最直接的物证。",
+      "expect": {
+        "work": [
+          "金缕玉衣"
+        ],
+        "class": [
+          "玉衣"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 三节（满城汉墓，金缕玉衣）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.lacquer-textile.mawangdui-qixiu",
+      "period": "qin-han",
+      "domain": "lacquer-textile",
+      "name": "马王堆漆器与织绣：素纱襌衣与云纹漆器的工艺巅峰",
+      "one_line": "素纱襌衣重量不足一两，云纹漆器的批量化生产与髹漆工艺，共同代表西汉早期漆器织绣工艺的巅峰水平。",
+      "expect": {
+        "work": [
+          "素纱襌衣",
+          "云纹漆案"
+        ]
+      },
+      "basis": "canon.centres(马王堆)",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.metal-enamel.handai-jinyinqi",
+      "period": "qin-han",
+      "domain": "metal-enamel",
+      "name": "汉代金银器与错金银工艺的延续",
+      "one_line": "汉代金银器在春秋战国错金银基础上继续发展，鎏金工艺的普及是本期区别于前代的技术标志。",
+      "expect": {
+        "class": [
+          "金银器",
+          "鎏金"
+        ]
+      },
+      "basis": "待核（需核对《中国金银玻璃珐琅器全集》秦汉相关部分）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.furniture.handai-jiaju-mingqi",
+      "period": "qin-han",
+      "domain": "furniture",
+      "name": "汉代家具明器：案、几、屏风的组合",
+      "one_line": "汉代实物家具存世稀少，画像石、明器所见的案、几、屏风组合是复原汉代起居方式（席地而坐）的主要依据。",
+      "expect": {
+        "class": [
+          "家具"
+        ]
+      },
+      "basis": "待核",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.theory.handai-yishu-guannian",
+      "period": "qin-han",
+      "domain": "theory",
+      "name": "汉代艺术观念的间接材料：文献所见画家名与工官制度",
+      "one_line": "本期尚无成体系画论专著（专门画论自六朝始），但《西京杂记》等文献所记画家名（如毛延寿）与工官制度，是本库判断「文献画家名无一件可系之作」这一 anonymity 判断的直接依据。",
+      "expect": {
+        "class": [
+          "工官制度"
+        ]
+      },
+      "basis": "canon.anonymity（文献里的画家名，如毛延寿，无一件可系之作）",
+      "confidence": "待核"
+    }
+  ]
+}

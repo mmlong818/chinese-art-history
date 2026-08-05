@@ -105,7 +105,7 @@ def pick_kind_met(classification, medium, object_name):
         if ing.STONE.search(m):
             return "石雕", "Sculpture + 石质"
         if ing.BRONZE.search(m) or ing.GOLDSILVER.search(m):
-            return "铜佛", "Sculpture + 铜／鎏金"
+            return "铜造像", "Sculpture + 铜／鎏金"
         if ing.WOOD.search(m):
             return "木雕", "Sculpture + 木质"
         return None, f"Sculpture 但材质判不出：{m[:44]!r}"

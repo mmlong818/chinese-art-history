@@ -206,13 +206,13 @@ def pick_kind(type_title, medium, classes):
         return "陶瓷", "type=Ceramics"
 
     if t in MATERIAL_TYPES:
-        # 「归类含 sculpture」才按雕塑向（铜佛/石雕/木雕）判，否则按器物向——
+        # 「归类含 sculpture」才按雕塑向（铜造像/石雕/木雕）判，否则按器物向——
         # 与 CMA pick_kind 的 Sculpture 分支同一约定，判断的是形制不是芝加哥的粗类目。
         is_sculptural = "sculpture" in cls or t == "Sculpture"
         if ENAMEL.search(m):
             return "珐琅", f"{t} + cloisonne/champleve"
         if BRONZE.search(m):
-            return ("铜佛" if is_sculptural else "青铜"), \
+            return ("铜造像" if is_sculptural else "青铜"), \
                    f"{t} + bronze（{'雕塑' if is_sculptural else '器物'}向）"
         if GOLDSILVER.search(m):
             return "金银器", f"{t} + gold/silver/gilt"
@@ -222,7 +222,7 @@ def pick_kind(type_title, medium, classes):
             return "玉器", f"{t} + 主材质段含 jade/nephrite"
         if CERAMIC.search(m) or (CERAMIC_CLS & cls):
             if is_sculptural:
-                # 陶质俑像一类——本库雕塑组只有石雕/木雕/铜佛三档，没有「陶塑」，
+                # 陶质俑像一类——本库雕塑组只有石雕/木雕/铜造像三档，没有「陶塑」，
                 # 硬塞进任何一档都是编造材质，宁可跳过。
                 return None, f"{t}+陶质但归类含 sculpture——本库雕塑组无陶塑一档，判不出"
             return "陶瓷", f"{t} + 材质/分类含瓷器"

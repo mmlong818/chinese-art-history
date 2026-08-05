@@ -23,7 +23,7 @@
 两者冲突、或任一判不出，一律跳过并计入报告**。宁可少摄一千件，不能错断两百件。
 
 器类同理：`Metalwork` 可能是青铜也可能是金银器，`Sculpture` 可能是石雕、木雕或
-铜佛——**看材质字段能定就定，定不了就跳过**，不拿最常见的那个当默认。
+铜造像——**看材质字段能定就定，定不了就跳过**，不拿最常见的那个当默认。
 """
 
 import argparse
@@ -143,7 +143,7 @@ def pick_kind(t, medium):
         if STONE.search(m):
             return "石雕", "Sculpture + 石质"
         if BRONZE.search(m) or GOLDSILVER.search(m):
-            return "铜佛", "Sculpture + 铜／鎏金"
+            return "铜造像", "Sculpture + 铜／鎏金"
         if WOOD.search(m):
             return "木雕", "Sculpture + 木质"
         return None, f"Sculpture 但材质判不出：{m[:44]!r}"
