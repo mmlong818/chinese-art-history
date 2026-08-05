@@ -1282,6 +1282,470 @@
       "authority": "稷山兴化寺后殿壁画（1925–1928 年剥离出售）今藏机构，是 site/jishan-xinghua-si.json『壁画已不在原址』这一事实的现藏方。本库尚未核实该馆官网 API 或数字藏品页的可编程访问方式，亦未核实该壁画具体藏品号与展示状态。",
       "note": "无法确认是否有公开 API；具体藏品页 URL 待人工核对。　本库未核实版次与页码。",
       "verified": false
+    },
+    {
+      "id": "yinxu-fuhaomu-baogao",
+      "title": "殷墟妇好墓",
+      "authors": "中国社会科学院考古研究所 编，文物出版社，1980",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "妇好墓的正式考古发掘报告，墓葬结构、随葬品共出关系与「妇好」「后母辛」铭文释读均以此为准——现引用系经 event/yinxu-fuhaomu-excavation.json 沿用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确到本书的引用。",
+      "note": "版次、页码均未核实，出版年份系据通行转述。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "sanxingdui-jisikeng-baogao",
+      "title": "三星堆祭祀坑",
+      "authors": "四川省文物考古研究所 编，文物出版社，1999",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "1986 年三星堆一号、二号祭祀坑的正式考古发掘报告，出土器物清单、坑内器物出土状态（火烧、砸碎、分层掩埋）的描述均以此为准——现引用系经 event/sanxingdui-jisikeng-excavation.json 沿用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "版次、页码均未核实，出版年份系据通行转述；plan/sites-outline.json 亦已提及此书。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "taosi-yizhi-baogao",
+      "title": "陶寺遗址发掘报告（历年简报与阶段性报告，具体书名与卷次待核）",
+      "authors": "中国社会科学院考古研究所 编（第一阶段主持人含高炜、高天麟等，第二阶段主持人何驽）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "陶寺遗址 1978 年起两阶段系统发掘的原始简报与阶段性报告，是 event/taosi-site-excavation.json 及 work/taosi-tao-pan-long.json 关于分期框架、大型墓地与城址、观象台遗迹（IIFJT1）等具体论断的直接出处——现引用系统一以通用信源 kaogu-wenwu 代指，此条登记以备将来按阶段拆分为精确引用（陶寺遗址发掘历时数十年、简报多篇，不宜强并为单一书目条目，此处先登记待人工梳理具体篇目清单）。",
+      "note": "本条目刻意不冒充为单一确定书目——陶寺遗址发掘持续近半个世纪、历年简报分散刊于《考古》《文物》等期刊，具体篇目清单本库未系统核实，待人工核对后可能需拆分为多条信源而非合并为一条。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "kizil-shiku-baogao",
+      "title": "中国石窟·克孜尔石窟",
+      "authors": "新疆龟兹石窟研究所编（分卷，约 1989–1997 年间由文物出版社陆续出版）",
+      "kind": "report",
+      "tier": 1,
+      "authority": "《中国石窟》系列丛书中克孜尔一卷，是龟兹石窟研究的权威大部头著录，参见 plan/ref-考古与遗址体系.md 第二节表格。合并后可将 kizil 条目的断代等级上限从 wikidata 提升至 museum／report 一档。",
+      "note": "具体卷数、出版年份区间与出版社信息本次未直接核实，需人工核对 ISBN 后再登记。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "binglingsi-baogao",
+      "title": "中国石窟·炳灵寺石窟",
+      "authors": "甘肃省文物工作队、炳灵寺文物保管所编，文物出版社，1982",
+      "kind": "report",
+      "tier": 1,
+      "authority": "同属《中国石窟》系列，是炳灵寺研究的权威大部头著录，参见 plan/ref-考古与遗址体系.md 第二节表格（该文件明确标注此报告存在但本库此前未收录）。合并后可将 binglingsi 条目的断代等级上限提升至 museum／report 一档，尤其是第 169 窟建弘元年题记的核对。",
+      "note": "出版年份据 plan/ref-考古与遗址体系.md 转引，未直接核对该报告原书信息页。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "fangshan-shijing-zhengli",
+      "title": "房山石经（整理出版物，具体书名与编者本次未核实，暂以类别指认）",
+      "authors": "本次未核实，据一般印象或为中国佛教图书文物馆／中国佛教协会一系整理成果",
+      "kind": "report",
+      "tier": 2,
+      "authority": "房山石经的系统整理与拓片出版，是核对本库 fangshan-yunju-si 条目中经版数量、施主题记与历代续刻分期的第一手材料，目前本条目仅据通史转引，尚未核对整理本原文。",
+      "note": "书名、编者、出版社与卷次均未核实，仅作为需要补齐的信源类别占位，不建议直接登记，需人工查证后重新定名。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "fahaisi-bihua-yanjiu",
+      "title": "法海寺壁画研究（具体书名与作者本次未核实，暂以类别指认）",
+      "authors": "本次未核实",
+      "kind": "monograph",
+      "tier": 3,
+      "authority": "核对正统九年楞严经幢题名记原文（画士官宛福清、王恕等十五人姓名）、壁画沥粉贴金与水月观音纱披技法描述的第一手来源，目前本条目据 data/outline.json 已有单元转引，尚未核对专著或北京市文物部门原始著录。",
+      "note": "书名与作者均未核实，仅作为需要补齐的信源类别占位。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "pilusi-bihua-zhulu",
+      "title": "毗卢寺壁画著录（河北省文物部门或相关图录，具体书名本次未核实）",
+      "authors": "本次未核实",
+      "kind": "report",
+      "tier": 2,
+      "authority": "核对《重修毗卢寺记》碑文全文、巩中颜／刘子文／王淮／张保等画工姓名籍贯、一百二十二组五百零八神祇的榜题统计，目前本条目据 data/outline.json 已有单元转引，尚未核对碑刻原石拓片或河北省文物部门原始著录。",
+      "note": "书名、编者与出版社均未核实，仅作为需要补齐的信源类别占位。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "gongzhusi-bihua-baodao",
+      "title": "繁峙公主寺水陆壁画相关报道与著录（具体出处本次未核实）",
+      "authors": "本次未核实，或为山西省文物局通行报道",
+      "kind": "report",
+      "tier": 3,
+      "authority": "核对弘治十六年（1503）壁画题记纪年、四壁五幅四百八十余身人物的统计数字与「攒三聚五」构图法描述，目前本条目据 data/outline.json 已有单元转引，尚未核对山西省文物局原始著录或现场题记影像。",
+      "note": "出处未核实，仅作为需要补齐的信源类别占位。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "qinshihuang-di-ling-bowuyuan",
+      "title": "秦始皇帝陵博物院",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "秦始皇陵及兵马俑坑的官方管理与研究机构，历次勘探简报与陪葬坑发掘报告的主要发布方——site/qinshihuang-ling.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "本库未核实其官网地址、是否有公开 API，仅作机构指认；影像与具体数据须人工核对。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "famensi-digong-fajue-jianbao",
+      "title": "扶风法门寺塔唐代地宫发掘简报",
+      "authors": "陕西省考古研究所、法门寺考古队 等",
+      "publisher": "《文物》1988 年第 10 期（刊期据通行转引，未核对原刊）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "法门寺地宫的正式考古发掘简报，地宫结构、出土器物位置与《物账碑》释文均以此为准——site/famen-si-digong.json 与 work/famen-temple-crypt.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "刊期、页码与物账碑释文全文均未核实，仅据通行报道转引书名与大致刊期。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "hejiacun-jiaocang-fajue-jianbao",
+      "title": "西安南郊何家村唐代金银器窖藏发掘简报",
+      "authors": "陕西省博物馆、文管会 等",
+      "publisher": "《文物》1972 年第 1 期（刊期据通行转引，未核对原刊）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "何家村窖藏的正式考古发掘简报，窖藏埋藏方式、器物出土位置与初步统计均以此为准——site/hejiacun-jiaocang.json 与 work/hejiacun-hoard.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "刊期、页码与原简报精确统计数字均未核实，仅据通行报道转引书名与大致刊期。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "hebei-museum",
+      "title": "河北博物院",
+      "kind": "museum",
+      "tier": 1,
+      "url": "http://www.hebeimuseum.org/",
+      "authority": "平山中山王厝墓群出土青铜礼器（错银铜版兆域图、铁足铜鼎等）的主要收藏方——site/zhongshan-guo-pingshan.json 现未引用具体馆藏机构，此条登记以备将来补入精确引用。",
+      "note": "本库未核实其官网可编程访问方式，藏品须人工核对官方出版物或发掘报告。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "pingshan-zhongshanwang-mu-baogao",
+      "title": "厝墓——战国中山国国王之墓",
+      "authors": "河北省文物研究所 编",
+      "publisher": "文物出版社，1996（据通行转引，未核对版权页）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "平山中山王厝墓的正式考古发掘报告，墓葬形制、随葬品出土位置与兆域图释文均以此为准——site/zhongshan-guo-pingshan.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "版次、页码与兆域图释文全文均未核实。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "suizhou-museum",
+      "title": "随州市博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "叶家山、文峰塔（义地岗）曾国墓地出土器物的重要收藏方之一——site/zeng-guo-suizhou.json 现未引用具体馆藏机构，此条登记以备将来补入精确引用。",
+      "note": "本库未核实其官网地址、是否有公开 API，仅作机构指认；影像与具体数据须人工核对。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "yejiashan-mudi-baogao",
+      "title": "随州叶家山——西周早期曾国墓地",
+      "authors": "湖北省文物考古研究所、随州市博物馆 编",
+      "publisher": "文物出版社（据通行转引，具体年份未核对版权页）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "叶家山西周早期曾国墓地的正式考古发掘报告，是判断曾国始封年代大幅提前这一结论的直接出处——site/zeng-guo-suizhou.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "版次、出版年份与页码均未核实。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "jingzhou-museum",
+      "title": "荆州博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "url": "http://www.jingzhoumuseum.com/",
+      "authority": "纪南城遗址（楚郢都）出土物与楚文化研究的主要机构——site/chu-yingdu-jingzhou.json 现未引用具体馆藏机构，此条登记以备将来补入精确引用。",
+      "note": "本库未核实其官网可编程访问方式，藏品须人工核对官方出版物或发掘报告。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "gaishanlin-yinshan-yanhua",
+      "title": "阴山岩画",
+      "authors": "盖山林 著",
+      "publisher": "文物出版社，1986（据通行转引，未核对版权页）",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "阴山岩画系统调查与著录的奠基性专著，题材分类、区段划分与相对分期框架的主要依据——site/yinshan-yanhua.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "出版年份、版次与页码均未核实，仅据通行认知登记书名、作者与出版方。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "dong-zuobin-jiaguwen-duandai",
+      "title": "甲骨文断代研究例",
+      "authors": "董作宾，1933（《庆祝蔡元培先生六十五岁论文集》）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "殷墟甲骨『五期断代法』的奠基性论文，site/anyang-yinxu.json『断代依据』一节所记方法直接出自此文，现暂引通用信源 kaogu-wenwu 代指。",
+      "note": "确切篇名、发表年份与收录文集本库据通行转述登记，未核对原刊。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "wang-guowei-yinbuci-zhong-suojian-xiangong-xianwang-kao",
+      "title": "殷卜辞中所见先公先王考",
+      "authors": "王国维，约 1917",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "以殷墟卜辞比对《史记·殷本纪》商王世系、确立『二重证据法』的经典论文，site/anyang-yinxu.json 与 site/yinxu-fuhao-mu.json 均转述此文方法论，现暂引通用信源 kaogu-wenwu 代指。",
+      "note": "确切篇名与发表年份据通行转述登记，未核对原刊。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "xu-hong-zuizao-de-zhongguo",
+      "title": "最早的中国：二里头文明的崛起",
+      "authors": "许宏，科学出版社，2009",
+      "kind": "monograph",
+      "tier": 3,
+      "authority": "『二里头是最早的中国（广域王权国家）』这一提法的原始出处，site/yanshi-erlitou.json『考古与著录史』一节引用此说，现暂引通用信源 kaogu-wenwu 代指，本库转述时特别注意许宏此说本意为政治组织形态而非『二里头＝夏』的直接断言。",
+      "note": "书名、出版年份据通行转述登记，未核对原书页码。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "zou-heng-zhengzhou-shangcheng-bo-du",
+      "title": "论郑州商城即汤都亳",
+      "authors": "邹衡（相关论文与专著，具体篇目本库未核实）",
+      "kind": "monograph",
+      "tier": 3,
+      "authority": "『郑州商城即亳都』一说的代表性学术出处，site/zhengzhou-shangcheng.json『考古与著录史』一节的『亳都之争』引用此派观点，现暂引通用信源 kaogu-wenwu 代指。",
+      "note": "确切篇目、出版信息本库未核实，仅据通行转述记该学者姓名与立场。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "he-nu-taosi-guanxiangtai-yaodu",
+      "title": "陶寺观象台与『尧都平阳』相关研究（具体篇目待核）",
+      "authors": "何驽（相关论文，具体篇目本库未核实）",
+      "kind": "monograph",
+      "tier": 3,
+      "authority": "陶寺疑似天文观测建筑的功能解释与『陶寺即尧都平阳』一说的代表性学术出处，site/taosi.json『考古与著录史』一节引用此派观点，现暂引通用信源 kaogu-wenwu 代指。",
+      "note": "确切篇目、期刊与年份本库未核实，仅据通行转述记该学者姓名与立场。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "yu-xingwu-dawenkou-taoqi-fuhao",
+      "title": "大汶口陶器刻划符号释读相关研究（具体篇目待核）",
+      "authors": "于省吾（相关论文，具体篇目本库未核实）",
+      "kind": "monograph",
+      "tier": 3,
+      "authority": "『大汶口／陵阳河陶尊刻符可释读为原始文字』一说的代表性学术出处，site/dawenkou.json『图像程式』一节引用此派观点，现暂引通用信源 kaogu-wenwu 代指。",
+      "note": "确切篇目、期刊与年份本库未核实，仅据通行转述记该学者姓名与立场。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "yinxu-museum",
+      "title": "殷墟博物馆（殷墟博物苑／殷墟博物馆新馆）",
+      "authors": "",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "殷墟出土文物的主要展陈与研究机构，site/anyang-yinxu.json 与 site/yinxu-fuhao-mu.json 均可能需要其官方页作为一手核对来源，现未注册，暂引通用信源 kaogu-wenwu 代指。",
+      "note": "官方网址、新馆开馆日期本库未核实。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "zhouyuan-museum",
+      "title": "周原博物院（周原遗址博物馆）",
+      "authors": "",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "周原出土文物的主要展陈与研究机构，site/qishan-zhouyuan.json 可能需要其官方页作为一手核对来源，现未注册，暂引通用信源 kaogu-wenwu 代指。",
+      "note": "官方网址与馆藏页本库未核实。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "sanxingdui-museum",
+      "title": "三星堆博物馆",
+      "authors": "",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "三星堆出土文物的主要展陈与研究机构，site/guanghan-sanxingdui.json 现引用通用信源 sichuan-museum（四川博物院，非三星堆本馆）代指，应替换为本条精确引用。",
+      "note": "官方网址与馆藏页本库未核实。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "erlitou-site-museum",
+      "title": "二里头夏都遗址博物馆",
+      "authors": "",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "二里头遗址的主要展陈与研究机构，site/yanshi-erlitou.json『保存与修复史』一节提及该馆命名，现未注册为信源，暂引通用信源 kaogu-wenwu 代指。",
+      "note": "馆名本身即隐含『夏都』判断，本库引用时已在正文注明不代表采纳该历史归属；官方网址本库未核实。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "kaogutu",
+      "title": "考古图",
+      "authors": "吕大临（北宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "现存最早体例完整的古器物图录，摹图＋摹铭＋考订＋度量的著录格式为《宣和博古图》等后世著录直接承袭，是中国金石学的开山之作之一。treatise/kaogutu.json 现引用 xuanhe-bogu-tu、songshi 等间接信源代指，此条登记以备将来把该条目引用改为精确到本书。",
+      "note": "版本源流未核实——今传本与吕大临原书篇卷关系、与旧传《续考古图》的作者归属均存疑，详见 treatise 条目「版本谱系」一节。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "jigulu",
+      "title": "集古录",
+      "authors": "欧阳修（北宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "北宋金石学开山之作，以碑刻校正经史纪年讹误的方法开后世金石学先河；今日实际内容是欧阳修所撰跋文（集古录跋尾），拓本原编已佚。treatise/jigulu.json 现引用 songshi、xuanhe-bogu-tu 等间接信源代指，此条登记以备将来精确引用。",
+      "note": "版本源流未核实——原编（拓本）与今传本（跋尾）是性质不同的两个文本层，详见 treatise 条目「版本谱系」一节。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "yingzao-fashi",
+      "title": "营造法式",
+      "authors": "李诫（北宋）奉敕编修",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "中国现存最早、最完整的官方建筑技术规范，以「材」为模数统一官式建筑设计与用工用料核算；本库唐辽宋木构断代所据的斗栱、梁架形制序列很大程度上溯源于此书。treatise/yingzao-fashi.json 现引用 yingzao-xueshe-huikan、liang-sicheng-jianzhushi 等间接信源代指，此条登记以备将来精确引用，且应与上述二者明确区分——那两条是二十世纪的整理与研究文献，此条才是宋代原书本身。",
+      "note": "版本源流未核实——通行陶湘本（1925）图样经民国工匠重绘，与南宋绍兴刊本残卷、原书图样的忠实度关系存疑，详见 treatise 条目「版本谱系」一节。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "dongtian-qinglu-ji",
+      "title": "洞天清禄集",
+      "authors": "赵希鹄（南宋，题）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "现存较早的文房古物鉴赏专书，分十门论辨古琴、古砚、古钟鼎彝器等真伪优劣，反映南宋文人鉴藏趣味从北宋金石学的经史考订转向文房清玩的赏鉴。treatise/dongtian-qinglu-ji.json 现引用通史类间接信源代指，此条登记以备将来精确引用。",
+      "note": "作者生卒年、确切成书年代与「赵希鹄」是否即托名均存疑，各丛书本（说郛本/四库本/美术丛书本）篇目条数不一，详见 treatise 条目「版本谱系」与「争议字段」。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "xuhua",
+      "title": "叙画",
+      "authors": "王微（南朝宋，415－443）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "与宗炳《画山水序》并称现存最早的两篇山水画论文字之一，「望秋云，神飞扬；临春风，思浩荡」出此。treatise/xuhua.json 现引用 hua-shanshui-xu、lidai-minghua-ji 等间接信源代指，此条登记以备将来精确引用。",
+      "note": "全文篇幅极短，主要经《历代名画记》等后世转录得存，原本独立传本形态未核实。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "liaoning-museum",
+      "title": "辽宁省博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "url": "",
+      "authority": "本批玉猪龙条目据常见著录记其现藏辽宁省博物馆，但本库未能核实具体馆藏页，与辽宁省文物考古研究院（已登记 liaoning-archaeology）的保管权限关系亦未厘清——牛河梁出土文物的发掘、保管、展陈可能分属不同单位，需人工核对。",
+      "verified": false,
+      "note": "急需登记——玉猪龙条目 holder 字段的直接依据缺失，目前仅据常见著录写明并在 disputes 中说明未核。　本库未核实版次与页码。"
+    },
+    {
+      "id": "erlitou-gongzuodui-jianbao",
+      "title": "二里头遗址历年发掘简报（乳钉纹铜爵相关）",
+      "authors": "中国社会科学院考古研究所二里头工作队",
+      "kind": "report",
+      "tier": 1,
+      "authority": "乳钉纹铜爵出土简报，涉及具体出土年份、地层单位与现藏单位，本批撰写未能定位到具体某一期简报，出土年份、现藏单位均为常见著录转引，本库对现藏单位持保留态度（详见该条目 disputes）。",
+      "verified": false,
+      "note": "急需登记——若能定位具体简报，可解决乳钉纹铜爵现藏单位与出土年份的悬而未核问题。　本库未核实版次与页码。"
+    },
+    {
+      "id": "laing-selling-happiness",
+      "title": "Selling Happiness: Calendar Posters and Visual Culture in Early-Twentieth-Century Shanghai",
+      "authors": "Ellen Johnston Laing",
+      "publisher": "University of Hawai'i Press",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "英语学界专论近代上海月份牌画（calendar posters）视觉文化的代表性著作，据记忆对郑曼陀擦笔水彩技法的发明经过、杭穉英穉英画室的集体作业模式与商业运作均有专门讨论，是本库郑曼陀、杭穉英两条目最理想的一手依据，但本次因未获原文，实际引用暂全部改用 sullivan-20th-century-china 等已登记信源代替。此条登记以备将来核实版次后替换为精确引用。",
+      "note": "书名与作者据记忆登记，具体版次、出版年份与 ISBN 均未核实，题名本身亦未做本次二次确认，请核实后再据以立事实。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "changwuzhi",
+      "title": "长物志",
+      "authors": "文震亨 著（明）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "晚明江南文人生活方式品味体系化的代表文本，分室庐、花木、水石、几榻、书画等十二门，判断标准是「雅／俗」而非真伪——与《格古要论》一类辨伪辨优劣的鉴定手册性质不同，二者不可混同处理。本库家具类目（明式家具、几榻门品鉴）已引及此书，但此前未在 sources.json 正式登记，是欠账。",
+      "note": "具体版次、初刻年份与卷数细节本库未核实，仅据通行认知登记书名与作者，待合并入 sources.json 后回填到 changwuzhi 及相关家具类目条目的 sources 数组。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "gegu-yaolun",
+      "title": "格古要论",
+      "authors": "曹昭 著（明初），王佐增订（明中期，题《新增格古要论》）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "现存较早、体系较完整的一部文物辨伪与优劣评级实用手册，分古铜器、古画、古墨迹、古碑法帖、古琴、古砚、异木、异石、窑器等门。判断标准是「真／伪」与「精／粗」，与《长物志》的雅俗品味立法性质不同。本库家具、漆器、掐丝珐琅类目已多次引及「大食窑」「堆红」等条，但此前未在 sources.json 正式登记。",
+      "note": "曹昭原本与王佐增订本的文字边界、具体卷数演变，本库未核实，待合并入 sources.json 后回填到 gegu-yaolun 及家具、漆器、珐琅类目相关条目的 sources 数组。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "lubanjing",
+      "title": "鲁班经",
+      "authors": "不著撰人，匠人集体所记，历代坊刻本托名鲁班（全称《鲁班经匠家镜》）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "现存少数明清木作匠作则例文本之一，记录家具与建筑构件尺寸比例口诀、择日仪式规范，是家具与营造研究里罕见的「匠人自身操作文本」而非文人品评视角的史料。本库家具与榫卯类目已引及此书，但此前未在 sources.json 正式登记。",
+      "note": "祖本年代、具体作者（本条目认为不应勉强考订出单一人名）与版本谱系本库未核实，待合并入 sources.json 后回填到 lubanjing 及家具、榫卯类目相关条目的 sources 数组。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "xiqing-gujian",
+      "title": "西清古鉴",
+      "authors": "梁诗正、蒋溥等奉敕编（清乾隆）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "清宫金石著录，体例仿宋代《宣和博古图》，著录内府所藏古铜器四十卷。其中相当数量器物经近现代考订已判定为伪器、拼凑器或后配铭文的真器，长期被当作权威图录征引，是「著录不等于真实」的标本个案，与本库对《石渠宝笈》「著录可靠、鉴定失误」的既有处理原则同构。",
+      "note": "具体著录件数、伪器比例、初刻年份细节本库未核实，待合并入 sources.json 后回填到 xiqing-gujian 及清代铜器类目相关条目的 sources 数组。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "zaoxiang-liangdu-jing",
+      "title": "造像量度经",
+      "authors": "工布查布 译疏（清），梵文／藏文源头本库未核实",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "藏传佛教造像仪轨量度规范文本，规定佛、菩萨等各类尊格的身量比例与图像标准。性质是规范文本而非描述文本——不能读作清代造像实况的记录。本库雕塑与梵式造像、清宫中正殿念经处相关内容需要此书作为制度性背景，但此前未在 sources.json 正式登记。",
+      "note": "译出年份、版本谱系、经文与工布查布本人注疏的边界本库未核实，待合并入 sources.json 后回填到 zaoxiang-liangdu-jing 及清代雕塑类目相关条目的 sources 数组。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "cass-feiyi-mingjing-lunwen",
+      "title": "非衣乎？铭旌乎？——论马王堆汉墓 T 形帛画的名称、功用与主题",
+      "kind": "article",
+      "publisher": "中国社会科学院历史研究所（网站转载）",
+      "url": "http://lishisuo.cass.cn/xsyj/qhs/yjcg/201906/t20190625_4923666.shtml",
+      "tier": 2,
+      "authority": "T 形帛画命名（非衣／铭旌）学术论争的代表性文章，记录唐兰『非衣』说的核心依据（一号墓遣策『非衣一，长丈二尺』）与一号墓（1973 年报告定名『铭旌』）、三号墓（2004 年报告定名『非衣』）两份发掘报告命名不一致的问题。本批 mawangdui-t-bohua 条目『命名』一节的核心参考，本库仅读取搜索摘要，未逐字核对全文，具体论证细节与作者本人立场待人工核实。",
+      "verified": false,
+      "note": "急需登记——是本条目命名争议表述唯一直接支撑的学术信源，目前正文转述均据检索摘要，非逐字核对原文。　本库未核实版次与页码。"
+    },
+    {
+      "id": "hnmuseum-t-bohua-page",
+      "title": "马王堆一号汉墓 T 形帛画（湖南博物院官网文物介绍页）",
+      "kind": "museum",
+      "url": "https://www.hnmuseum.com/zh-hans/zuixintuijie/%E9%A9%AC%E7%8E%8B%E5%A0%86%E4%B8%80%E5%8F%B7%E6%B1%89%E5%A2%93t%E5%BD%A2%E5%B8%9B%E7%94%BB",
+      "tier": 1,
+      "authority": "现藏单位官方页面，本库尝试直接抓取但未能成功（工具端连接被重置），条目内尺寸（通长 205 厘米等）与三段式构图描述系据其他检索结果转引，未直接核对本页原文，请人工访问核实。",
+      "verified": false,
+      "note": "急需登记并人工核对——mawangdui-t-bohua 条目 holder 与基础尺寸数据的第一优先馆方依据。　本库未核实版次与页码。"
+    },
+    {
+      "id": "hnmuseum-renwu-yulong-page",
+      "title": "战国人物御龙帛画（湖南博物院官网文物介绍页）",
+      "kind": "museum",
+      "url": "https://www.hnmuseum.com/zh-hans/zuixintuijie/%E6%88%98%E5%9B%BD%E4%BA%BA%E7%89%A9%E5%BE%A1%E9%BE%99%E5%B8%9B%E7%94%BB",
+      "tier": 1,
+      "authority": "现藏单位官方页面，本批撰写据检索摘要转引尺寸（37.5×28 厘米）与画面描述，未直接核对原页面。",
+      "verified": false,
+      "note": "急需登记并人工核对——renwu-yulong-bohua 条目 holder 与基础尺寸数据的第一优先馆方依据。　本库未核实版次与页码。"
+    },
+    {
+      "id": "ruzhou-gov-guanyu-shifu-page",
+      "title": "鹳鱼石斧图彩陶缸（汝州市人民政府官网文物介绍页）",
+      "kind": "web",
+      "url": "https://www.ruzhou.gov.cn/contents/37789/505168.html",
+      "tier": 3,
+      "authority": "阎村遗址所在地地方政府网站对该文物发现始末的介绍，本批撰写据检索摘要转引 1978 年出土、瓮棺葬性质等信息，未直接核对原页面，权威性低于国家博物馆官方页或正式发掘简报，仅作补充参考。",
+      "verified": false,
+      "note": "阎村遗址正式发掘简报（应发表于《文物》或《考古》相关期刊）本库未能定位到具体篇目，是本条目最需要人工核实补全的一手依据。　本库未核实版次与页码。"
+    },
+    {
+      "id": "yunwen-qi-an-identification-note",
+      "title": "【核实缺口，非正式信源】『云纹漆案』具体所指器物待厘清",
+      "kind": "note",
+      "tier": 3,
+      "authority": "本批撰写检索多个战国楚墓漆器发掘报告与馆方页面（信阳长台关、江陵望山、天星观、荆门包山等），均未能把『云纹漆案』这一美术史教材常见描述性名称坐实为某一家博物馆藏品目录中带唯一编号的单一器物。yunwen-qi-an 条目因此以『类』而非『单一确定器物』记述，holder 暂定湖北省博物馆，为本批 7 条中把握最弱的一条，建议人工用馆方藏品数据库或权威图录（如《楚系漆器研究》一类专著）核实具体应指哪一件、出自哪一座楚墓。",
+      "verified": false,
+      "note": "非常规条目，用于记录一处尚未解决的识别缺口，供人工核实后决定是否需要改写 yunwen-qi-an 条目或另立更精确的条目。　本库未核实版次与页码。"
     }
   ]
 }

@@ -1,0 +1,65 @@
+{
+  "note": "为本次新增 8 处遗址条目（克孜尔石窟、炳灵寺石窟、龙门石窟古阳洞、莫高窟第98窟、法海寺、毗卢寺、公主寺、房山云居寺，2026-08-06）整理的候选信源清单。本文件不是 sources.json 的一部分，也未被任何条目的 sources 字段引用——按契约要求，未登记 id 会被 schema.py 判为死链，故这批条目全部只引用已登记的既有信源（zhongguo-meishu-jianshi / sullivan-arts-of-china / wangxun-zhongguo-meishushi / kaogu-wenwu / unesco-whc / dunhuang-academy / met-timeline / wikidata）。以下为待人工核实 ISBN／卷次／出版社后再决定是否合并入 sources.json 的候选项，verified 均为 false。",
+  "items": [
+    {
+      "id": "kizil-shiku-baogao",
+      "title": "中国石窟·克孜尔石窟",
+      "authors": "新疆龟兹石窟研究所编（分卷，约 1989–1997 年间由文物出版社陆续出版）",
+      "kind": "report",
+      "tier": 1,
+      "authority": "《中国石窟》系列丛书中克孜尔一卷，是龟兹石窟研究的权威大部头著录，参见 plan/ref-考古与遗址体系.md 第二节表格。合并后可将 kizil 条目的断代等级上限从 wikidata 提升至 museum／report 一档。",
+      "note": "具体卷数、出版年份区间与出版社信息本次未直接核实，需人工核对 ISBN 后再登记。",
+      "verified": false
+    },
+    {
+      "id": "binglingsi-baogao",
+      "title": "中国石窟·炳灵寺石窟",
+      "authors": "甘肃省文物工作队、炳灵寺文物保管所编，文物出版社，1982",
+      "kind": "report",
+      "tier": 1,
+      "authority": "同属《中国石窟》系列，是炳灵寺研究的权威大部头著录，参见 plan/ref-考古与遗址体系.md 第二节表格（该文件明确标注此报告存在但本库此前未收录）。合并后可将 binglingsi 条目的断代等级上限提升至 museum／report 一档，尤其是第 169 窟建弘元年题记的核对。",
+      "note": "出版年份据 plan/ref-考古与遗址体系.md 转引，未直接核对该报告原书信息页。",
+      "verified": false
+    },
+    {
+      "id": "fangshan-shijing-zhengli",
+      "title": "房山石经（整理出版物，具体书名与编者本次未核实，暂以类别指认）",
+      "authors": "本次未核实，据一般印象或为中国佛教图书文物馆／中国佛教协会一系整理成果",
+      "kind": "report",
+      "tier": 2,
+      "authority": "房山石经的系统整理与拓片出版，是核对本库 fangshan-yunju-si 条目中经版数量、施主题记与历代续刻分期的第一手材料，目前本条目仅据通史转引，尚未核对整理本原文。",
+      "note": "书名、编者、出版社与卷次均未核实，仅作为需要补齐的信源类别占位，不建议直接登记，需人工查证后重新定名。",
+      "verified": false
+    },
+    {
+      "id": "fahaisi-bihua-yanjiu",
+      "title": "法海寺壁画研究（具体书名与作者本次未核实，暂以类别指认）",
+      "authors": "本次未核实",
+      "kind": "monograph",
+      "tier": 3,
+      "authority": "核对正统九年楞严经幢题名记原文（画士官宛福清、王恕等十五人姓名）、壁画沥粉贴金与水月观音纱披技法描述的第一手来源，目前本条目据 data/outline.json 已有单元转引，尚未核对专著或北京市文物部门原始著录。",
+      "note": "书名与作者均未核实，仅作为需要补齐的信源类别占位。",
+      "verified": false
+    },
+    {
+      "id": "pilusi-bihua-zhulu",
+      "title": "毗卢寺壁画著录（河北省文物部门或相关图录，具体书名本次未核实）",
+      "authors": "本次未核实",
+      "kind": "report",
+      "tier": 2,
+      "authority": "核对《重修毗卢寺记》碑文全文、巩中颜／刘子文／王淮／张保等画工姓名籍贯、一百二十二组五百零八神祇的榜题统计，目前本条目据 data/outline.json 已有单元转引，尚未核对碑刻原石拓片或河北省文物部门原始著录。",
+      "note": "书名、编者与出版社均未核实，仅作为需要补齐的信源类别占位。",
+      "verified": false
+    },
+    {
+      "id": "gongzhusi-bihua-baodao",
+      "title": "繁峙公主寺水陆壁画相关报道与著录（具体出处本次未核实）",
+      "authors": "本次未核实，或为山西省文物局通行报道",
+      "kind": "report",
+      "tier": 3,
+      "authority": "核对弘治十六年（1503）壁画题记纪年、四壁五幅四百八十余身人物的统计数字与「攒三聚五」构图法描述，目前本条目据 data/outline.json 已有单元转引，尚未核对山西省文物局原始著录或现场题记影像。",
+      "note": "出处未核实，仅作为需要补齐的信源类别占位。",
+      "verified": false
+    }
+  ]
+}

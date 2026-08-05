@@ -29,11 +29,13 @@ import argparse
 import collections
 import json
 import pathlib
+import re
 import sys
 
 WIKI = pathlib.Path(__file__).parent
 OUTLINE = WIKI / "data" / "outline.json"
 CONF = {"确知", "记得", "待核"}
+BROKEN = []   # 读不动的 JSON，末尾报出，见 _entities()
 ENTITY_KEYS = ("artist", "work", "site", "class", "treatise", "event")
 
 for _s in (sys.stdout, sys.stderr):
@@ -158,9 +160,10 @@ def check():
 
 
 # 通名后缀。提纲写「牛河梁」，本库条目名作「牛河梁遗址」——**按名比对在后缀上失效**。
-# 本库实体没有别名字段，只有 name，所以只能靠后缀规则；而这类规则必有失效点
-# （「良渚」既可指良渚遗址也可指良渚古城）。**那就把失效点做成可见的**：
-# 后缀规则命中多于一个候选时一律不计，单列为待判，交人处置。
+# 这条规则是在实体还没有 `alias` 字段时加的权宜之计，**现在 alias 已经有了，
+# 它退为兜底**：能写 alias 的就去写 alias（那是撰写者认定的等同关系），
+# 靠后缀猜是次一等的办法。规则必有失效点（「良渚」既可指良渚遗址也可指良渚古城），
+# **所以把失效点做成可见的**：命中多于一个候选时一律不计，单列为待判，交人处置。
 SUFFIX = ("遗址", "墓地", "墓", "石窟", "石刻", "古城", "窑址", "窑", "塔", "寺", "祠",
           "画派", "文化")
 
@@ -174,16 +177,50 @@ def _entities():
         if not d.exists():
             continue
         for p in d.glob("*.json"):
-            e = json.loads(p.read_text(encoding="utf-8"))
+            try:
+                e = json.loads(p.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                # 坏 JSON 不该掀翻一份报告，**但也不该悄悄跳过**：
+                # 它可能是正在写入的瞬时状态，也可能是真的坏了。
+                # 记下来在末尾报出，交由 schema.py 去判定性质。
+                BROKEN.append(str(p.relative_to(WIKI)))
+                continue
+            v = (e["id"], e.get("depth") or "full")
             nm = e.get("name") or e.get("title") or ""
-            idx[kind][nm] = (e["id"], e.get("depth") or "full")
+            if nm:
+                idx[kind][nm] = v
+            # **别名**。同一个东西两种写法而对账算它缺，本项目已撞四次：
+            # 「牛河梁」对「牛河梁遗址」（通名后缀）、
+            # 「范寬」对「范宽」（繁简）、
+            # 「越窑」对「越窑青瓷」（窑口与产品）、
+            # 「殷墟发掘」对「殷墟十五次发掘」（题名详略）。
+            # 前两类曾靠后缀规则与罗马名各自绕过，**而绕法本身各有失效点**；
+            # 加一个显式的 alias 字段，是把「这两个名字指同一物」变成可写下来的事实，
+            # 而不是每次靠一条新规则去猜。L11 的补充规则说可靠证据是稳定标识符
+            # 而非字形——alias 是撰写者亲手认定的等同关系，比任何字形规则都硬。
+            for a in (e.get("alias") or []):
+                if a and a not in idx[kind]:
+                    idx[kind][a] = v
     return idx
 
 
+def _sp(s):
+    """去掉空白后比对。**空格在中文名里不表意**——
+    本库条目名作「莫高窟第 45 窟」而提纲写「莫高窟第45窟」，按名比对因此漏掉。
+    这是第五种失效方式（前四种：通名后缀、繁简、窑口与产品、题名详略），
+    但它与前四种不同：**归一化空白不会把两件不同的东西合成一件**，
+    所以它可以安全地做成通用规则，不必靠 alias 一条条认。"""
+    return re.sub(r"[\s　]+", "", s or "")
+
+
 def _lookup(idx, kind, nm):
-    """→ (hit, how)：how ∈ exact | suffix | ambig | miss。**歧义不算命中。**"""
+    """→ (hit, how)：how ∈ exact | space | suffix | ambig | miss。**歧义不算命中。**"""
     if nm in idx[kind]:
         return idx[kind][nm], "exact"
+    k = _sp(nm)
+    for kk, vv in idx[kind].items():
+        if _sp(kk) == k:
+            return vv, "space"
     cands = [v for k, v in idx[kind].items()
              if k != nm and k.startswith(nm) and k[len(nm):] in SUFFIX]
     if len(cands) == 1:
@@ -218,11 +255,11 @@ def coverage(limit=24):
                 if hit and hit[1] == "record":
                     tot["record"] += 1
 
-    got = tot["exact"] + tot["suffix"]
+    got = tot["exact"] + tot["space"] + tot["suffix"]
     full = got - tot["record"]
     print(f"提纲点名实体 {tot['want']} 个：本库已有 {got}"
           f"（{got*100//max(tot['want'],1)}%）——严格同名 {tot['exact']}、"
-          f"通名后缀 {tot['suffix']}；其中完整级 {full}、著录级 {tot['record']}")
+          f"忽略空白 {tot['space']}、通名后缀 {tot['suffix']}；其中完整级 {full}、著录级 {tot['record']}")
     print(f"缺 {tot['miss']}，另有 {tot['ambig']} 个名字**后缀规则命中多个候选、"
           f"一律不计**（按名比对必有失效点，把它做成可见的而不是猜）")
     if ambig:
@@ -238,6 +275,13 @@ def coverage(limit=24):
                 bycell[k][0] += 1
                 if _lookup(idx, kk, nm)[0]:
                     bycell[k][1] += 1
+    if BROKEN:
+        print(f"！有 {len(BROKEN)} 个文件 JSON 读不动，本次对账未计入"
+              f"（可能是正在写入，也可能真坏了——跑 schema.py 判定）：")
+        for b in BROKEN[:6]:
+            print("   " + b)
+        print()
+
     worst = sorted(bycell.items(), key=lambda kv: (kv[1][1] / max(kv[1][0], 1), -kv[1][0]))
     print("覆盖率最低的格子（分母≥3 者）：")
     shown = 0

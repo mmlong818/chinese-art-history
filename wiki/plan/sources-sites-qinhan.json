@@ -1,0 +1,98 @@
+{
+  "note": "为秦汉至唐 7 处新遗址条目（秦始皇陵、法门寺地宫、何家村窖藏、中山国（平山）、曾国（随州）、楚郢都（荆州）、阴山岩画，2026-08-06 建）拟增的信源候选，格式照 data/sources.json 的 items。本文件不由本次任务直接写入 sources.json——按分工由另一处合并，避免并发写同一文件丢写。所有 verified 均标 false：本库未直接查阅原文，仅凭记忆与通行转引登记条目框架，待人工核实后再改 verified。现有 7 条目的 sources 字段一律只引用了 data/sources.json 中已登记的 id（kaogu-wenwu、zhongguo-meishu-jianshi、famen-temple-museum、shaanxi-history-museum、zeng-houyi-mu-baogao 等），本文件登记的候选尚未被引用，待合并后可把相关条目的 sources 替换为更精确的引用。",
+  "items": [
+    {
+      "id": "qinshihuang-di-ling-bowuyuan",
+      "title": "秦始皇帝陵博物院",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "秦始皇陵及兵马俑坑的官方管理与研究机构，历次勘探简报与陪葬坑发掘报告的主要发布方——site/qinshihuang-ling.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "本库未核实其官网地址、是否有公开 API，仅作机构指认；影像与具体数据须人工核对。",
+      "verified": false
+    },
+    {
+      "id": "famensi-digong-fajue-jianbao",
+      "title": "扶风法门寺塔唐代地宫发掘简报",
+      "authors": "陕西省考古研究所、法门寺考古队 等",
+      "publisher": "《文物》1988 年第 10 期（刊期据通行转引，未核对原刊）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "法门寺地宫的正式考古发掘简报，地宫结构、出土器物位置与《物账碑》释文均以此为准——site/famen-si-digong.json 与 work/famen-temple-crypt.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "刊期、页码与物账碑释文全文均未核实，仅据通行报道转引书名与大致刊期。",
+      "verified": false
+    },
+    {
+      "id": "hejiacun-jiaocang-fajue-jianbao",
+      "title": "西安南郊何家村唐代金银器窖藏发掘简报",
+      "authors": "陕西省博物馆、文管会 等",
+      "publisher": "《文物》1972 年第 1 期（刊期据通行转引，未核对原刊）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "何家村窖藏的正式考古发掘简报，窖藏埋藏方式、器物出土位置与初步统计均以此为准——site/hejiacun-jiaocang.json 与 work/hejiacun-hoard.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "刊期、页码与原简报精确统计数字均未核实，仅据通行报道转引书名与大致刊期。",
+      "verified": false
+    },
+    {
+      "id": "hebei-museum",
+      "title": "河北博物院",
+      "kind": "museum",
+      "tier": 1,
+      "url": "http://www.hebeimuseum.org/",
+      "authority": "平山中山王厝墓群出土青铜礼器（错银铜版兆域图、铁足铜鼎等）的主要收藏方——site/zhongshan-guo-pingshan.json 现未引用具体馆藏机构，此条登记以备将来补入精确引用。",
+      "note": "本库未核实其官网可编程访问方式，藏品须人工核对官方出版物或发掘报告。",
+      "verified": false
+    },
+    {
+      "id": "pingshan-zhongshanwang-mu-baogao",
+      "title": "厝墓——战国中山国国王之墓",
+      "authors": "河北省文物研究所 编",
+      "publisher": "文物出版社，1996（据通行转引，未核对版权页）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "平山中山王厝墓的正式考古发掘报告，墓葬形制、随葬品出土位置与兆域图释文均以此为准——site/zhongshan-guo-pingshan.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "版次、页码与兆域图释文全文均未核实。",
+      "verified": false
+    },
+    {
+      "id": "suizhou-museum",
+      "title": "随州市博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "叶家山、文峰塔（义地岗）曾国墓地出土器物的重要收藏方之一——site/zeng-guo-suizhou.json 现未引用具体馆藏机构，此条登记以备将来补入精确引用。",
+      "note": "本库未核实其官网地址、是否有公开 API，仅作机构指认；影像与具体数据须人工核对。",
+      "verified": false
+    },
+    {
+      "id": "yejiashan-mudi-baogao",
+      "title": "随州叶家山——西周早期曾国墓地",
+      "authors": "湖北省文物考古研究所、随州市博物馆 编",
+      "publisher": "文物出版社（据通行转引，具体年份未核对版权页）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "叶家山西周早期曾国墓地的正式考古发掘报告，是判断曾国始封年代大幅提前这一结论的直接出处——site/zeng-guo-suizhou.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "版次、出版年份与页码均未核实。",
+      "verified": false
+    },
+    {
+      "id": "jingzhou-museum",
+      "title": "荆州博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "url": "http://www.jingzhoumuseum.com/",
+      "authority": "纪南城遗址（楚郢都）出土物与楚文化研究的主要机构——site/chu-yingdu-jingzhou.json 现未引用具体馆藏机构，此条登记以备将来补入精确引用。",
+      "note": "本库未核实其官网可编程访问方式，藏品须人工核对官方出版物或发掘报告。",
+      "verified": false
+    },
+    {
+      "id": "gaishanlin-yinshan-yanhua",
+      "title": "阴山岩画",
+      "authors": "盖山林 著",
+      "publisher": "文物出版社，1986（据通行转引，未核对版权页）",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "阴山岩画系统调查与著录的奠基性专著，题材分类、区段划分与相对分期框架的主要依据——site/yinshan-yanhua.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "出版年份、版次与页码均未核实，仅据通行认知登记书名、作者与出版方。",
+      "verified": false
+    }
+  ]
+}

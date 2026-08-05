@@ -1,0 +1,35 @@
+{
+  "note": "为新建 8 条考古发掘类事件条目（2026-08-06 建，见 data/events/yinxu-fuhaomu-excavation.json、taosi-site-excavation.json、sanxingdui-jisikeng-excavation.json 等）拟增的信源候选，格式照 data/sources.json 的 items。本文件不由本次任务直接写入 sources.json——按分工由另一处合并，避免并发写同一文件丢写。所有 verified 均标 false：本库未直接查阅原文，仅凭记忆与通行转引登记条目框架，待人工核实后再改 verified。三条新增均涉及具体出版年份/出版社的转述，未核对封面原文。",
+  "items": [
+    {
+      "id": "yinxu-fuhaomu-baogao",
+      "title": "殷墟妇好墓",
+      "authors": "中国社会科学院考古研究所 编，文物出版社，1980",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "妇好墓的正式考古发掘报告，墓葬结构、随葬品共出关系与「妇好」「后母辛」铭文释读均以此为准——现引用系经 event/yinxu-fuhaomu-excavation.json 沿用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确到本书的引用。",
+      "note": "版次、页码均未核实，出版年份系据通行转述。",
+      "verified": false
+    },
+    {
+      "id": "sanxingdui-jisikeng-baogao",
+      "title": "三星堆祭祀坑",
+      "authors": "四川省文物考古研究所 编，文物出版社，1999",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "1986 年三星堆一号、二号祭祀坑的正式考古发掘报告，出土器物清单、坑内器物出土状态（火烧、砸碎、分层掩埋）的描述均以此为准——现引用系经 event/sanxingdui-jisikeng-excavation.json 沿用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "版次、页码均未核实，出版年份系据通行转述；plan/sites-outline.json 亦已提及此书。",
+      "verified": false
+    },
+    {
+      "id": "taosi-yizhi-baogao",
+      "title": "陶寺遗址发掘报告（历年简报与阶段性报告，具体书名与卷次待核）",
+      "authors": "中国社会科学院考古研究所 编（第一阶段主持人含高炜、高天麟等，第二阶段主持人何驽）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "陶寺遗址 1978 年起两阶段系统发掘的原始简报与阶段性报告，是 event/taosi-site-excavation.json 及 work/taosi-tao-pan-long.json 关于分期框架、大型墓地与城址、观象台遗迹（IIFJT1）等具体论断的直接出处——现引用系统一以通用信源 kaogu-wenwu 代指，此条登记以备将来按阶段拆分为精确引用（陶寺遗址发掘历时数十年、简报多篇，不宜强并为单一书目条目，此处先登记待人工梳理具体篇目清单）。",
+      "note": "本条目刻意不冒充为单一确定书目——陶寺遗址发掘持续近半个世纪、历年简报分散刊于《考古》《文物》等期刊，具体篇目清单本库未系统核实，待人工核对后可能需拆分为多条信源而非合并为一条。",
+      "verified": false
+    }
+  ]
+}

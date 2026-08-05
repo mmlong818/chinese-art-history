@@ -1,0 +1,55 @@
+{
+  "note": "为新建的 8 条明清鉴藏与碑学画论条目（2026-08-06 建：长物志、格古要论、鲁班经、西清古鉴、南北书派论、艺舟双楫、广艺舟双楫、造像量度经）拟增的信源候选，格式照 data/sources.json 的 items。本文件不由本次任务直接写入 sources.json，也未在上述条目内以 [[src:]] 或 sources.ref 引用这些待定 id（引用未登记 id 会被 schema.py 判为死链）。其中南北书派论 / 艺舟双楫 / 广艺舟双楫三部本已在 data/sources.json 登记为 nanbei-shupai-lun / yizhou-shuang-ji / guangyi-zhoushuang-ji，本次直接复用登记 id 作为对应 treatise 条目的 id 与自引来源，不在此文件重复列出。本文件仅收录此前完全未登记的五部：长物志、格古要论、鲁班经、西清古鉴、造像量度经——这五条 treatise 条目正文全部改用已登记的 zhongguo-meishu-jianshi / wang-shixiang-mingshi-jiaju / ma-chengyuan-zhongguo-qingtongqi / zhongguo-taoci-shi / wang-shixiang-xiushi-lu-jieshuo / rose-kerr-later-chinese-bronzes / xuanhe-bogu-tu / wangxun-zhongguo-meishushi / sullivan-arts-of-china / yingzao-xueshe-huikan / liu-dunzhen-gudai-jianzhushi / congwenjun-zhongguo-shufashi 等既有信源引用。按分工由另一处合并入 sources.json 后，再回填这条到对应 treatise 条目（changwuzhi、gegu-yaolun、lubanjing、xiqing-gujian、zaoxiang-liangdu-jing）的 sources 数组。verified 一律标 false：本库未直接查阅原书或核实版次，仅凭通行认知登记条目框架，url 未核实故不填。",
+  "items": [
+    {
+      "id": "changwuzhi",
+      "title": "长物志",
+      "authors": "文震亨 著（明）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "晚明江南文人生活方式品味体系化的代表文本，分室庐、花木、水石、几榻、书画等十二门，判断标准是「雅／俗」而非真伪——与《格古要论》一类辨伪辨优劣的鉴定手册性质不同，二者不可混同处理。本库家具类目（明式家具、几榻门品鉴）已引及此书，但此前未在 sources.json 正式登记，是欠账。",
+      "note": "具体版次、初刻年份与卷数细节本库未核实，仅据通行认知登记书名与作者，待合并入 sources.json 后回填到 changwuzhi 及相关家具类目条目的 sources 数组。",
+      "verified": false
+    },
+    {
+      "id": "gegu-yaolun",
+      "title": "格古要论",
+      "authors": "曹昭 著（明初），王佐增订（明中期，题《新增格古要论》）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "现存较早、体系较完整的一部文物辨伪与优劣评级实用手册，分古铜器、古画、古墨迹、古碑法帖、古琴、古砚、异木、异石、窑器等门。判断标准是「真／伪」与「精／粗」，与《长物志》的雅俗品味立法性质不同。本库家具、漆器、掐丝珐琅类目已多次引及「大食窑」「堆红」等条，但此前未在 sources.json 正式登记。",
+      "note": "曹昭原本与王佐增订本的文字边界、具体卷数演变，本库未核实，待合并入 sources.json 后回填到 gegu-yaolun 及家具、漆器、珐琅类目相关条目的 sources 数组。",
+      "verified": false
+    },
+    {
+      "id": "lubanjing",
+      "title": "鲁班经",
+      "authors": "不著撰人，匠人集体所记，历代坊刻本托名鲁班（全称《鲁班经匠家镜》）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "现存少数明清木作匠作则例文本之一，记录家具与建筑构件尺寸比例口诀、择日仪式规范，是家具与营造研究里罕见的「匠人自身操作文本」而非文人品评视角的史料。本库家具与榫卯类目已引及此书，但此前未在 sources.json 正式登记。",
+      "note": "祖本年代、具体作者（本条目认为不应勉强考订出单一人名）与版本谱系本库未核实，待合并入 sources.json 后回填到 lubanjing 及家具、榫卯类目相关条目的 sources 数组。",
+      "verified": false
+    },
+    {
+      "id": "xiqing-gujian",
+      "title": "西清古鉴",
+      "authors": "梁诗正、蒋溥等奉敕编（清乾隆）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "清宫金石著录，体例仿宋代《宣和博古图》，著录内府所藏古铜器四十卷。其中相当数量器物经近现代考订已判定为伪器、拼凑器或后配铭文的真器，长期被当作权威图录征引，是「著录不等于真实」的标本个案，与本库对《石渠宝笈》「著录可靠、鉴定失误」的既有处理原则同构。",
+      "note": "具体著录件数、伪器比例、初刻年份细节本库未核实，待合并入 sources.json 后回填到 xiqing-gujian 及清代铜器类目相关条目的 sources 数组。",
+      "verified": false
+    },
+    {
+      "id": "zaoxiang-liangdu-jing",
+      "title": "造像量度经",
+      "authors": "工布查布 译疏（清），梵文／藏文源头本库未核实",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "藏传佛教造像仪轨量度规范文本，规定佛、菩萨等各类尊格的身量比例与图像标准。性质是规范文本而非描述文本——不能读作清代造像实况的记录。本库雕塑与梵式造像、清宫中正殿念经处相关内容需要此书作为制度性背景，但此前未在 sources.json 正式登记。",
+      "note": "译出年份、版本谱系、经文与工布查布本人注疏的边界本库未核实，待合并入 sources.json 后回填到 zaoxiang-liangdu-jing 及清代雕塑类目相关条目的 sources 数组。",
+      "verified": false
+    }
+  ]
+}

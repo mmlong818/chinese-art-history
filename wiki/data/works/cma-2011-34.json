@@ -5,7 +5,7 @@
   "title": "雕漆雙綬帶鳥牡丹紋圓盒（2011.34）",
   "title_orig": "Round Box with Bird and Peonies Design",
   "kind": "漆器",
-  "period": "southern-song",
+  "period": "yuan",
   "holder": "克利夫兰美术馆（藏品号 2011.34）",
   "year": "c. 1300",
   "size": "Overall: 21 x 40.6 cm (8 1/4 x 16 in.); Lid: 8.5 x 40.6 cm (3 3/8 x 16 in.); Bottom: 12.5 x 40.6 cm (4 15/16 x 16 in.)",
@@ -67,6 +67,11 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → southern-song；器类归入依据仅为：type=Lacquer。"
+      },
+      {
+        "t": "stmt",
+        "state": "disp",
+        "text": "**分期订正（原作 `southern-song`，改为 `yuan`）。****馆方原文标的是跨代**：「late Southern Song (1127–1279) to early Yuan」，而本库摄入时只取了「南宋」这一端、未记下它取过——**这正是本库要防的抹平**。馆方年代作「c. 1300」，已入元，故改归元；而馆方那句跨代表述才是它的原始声明。　照录不等于把一处自相矛盾原样传下去——**照录的是馆方说了什么，不是把它的矛盾也一并继承。**"
       }
     ],
     "dating": [

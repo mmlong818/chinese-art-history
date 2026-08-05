@@ -1,0 +1,55 @@
+{
+  "note": "本次楚汉漆帛与史前陶塑 7 条完整级作品新增所需、但尚未登记进 data/sources.json 的信源草案，供人工核对后合并。格式仿 sources.json 的 items 结构。撰写时这些条目一律未引用为 src/ref（避免死链），仅在正文中以自由文本提及来源出处；已登记的信源（kaogu-wenwu、zhongguo-meishu-jianshi、wangxun-zhongguo-meishushi、sullivan-arts-of-china、hunan-museum、hubei-museum、nmc、zhongguo-taoci-shi、liaoning-archaeology）已在正文中直接引用，不在此重复列出。",
+  "items": [
+    {
+      "id": "cass-feiyi-mingjing-lunwen",
+      "title": "非衣乎？铭旌乎？——论马王堆汉墓 T 形帛画的名称、功用与主题",
+      "kind": "article",
+      "publisher": "中国社会科学院历史研究所（网站转载）",
+      "url": "http://lishisuo.cass.cn/xsyj/qhs/yjcg/201906/t20190625_4923666.shtml",
+      "tier": 2,
+      "authority": "T 形帛画命名（非衣／铭旌）学术论争的代表性文章，记录唐兰『非衣』说的核心依据（一号墓遣策『非衣一，长丈二尺』）与一号墓（1973 年报告定名『铭旌』）、三号墓（2004 年报告定名『非衣』）两份发掘报告命名不一致的问题。本批 mawangdui-t-bohua 条目『命名』一节的核心参考，本库仅读取搜索摘要，未逐字核对全文，具体论证细节与作者本人立场待人工核实。",
+      "verified": false,
+      "note": "急需登记——是本条目命名争议表述唯一直接支撑的学术信源，目前正文转述均据检索摘要，非逐字核对原文。"
+    },
+    {
+      "id": "hnmuseum-t-bohua-page",
+      "title": "马王堆一号汉墓 T 形帛画（湖南博物院官网文物介绍页）",
+      "kind": "museum",
+      "url": "https://www.hnmuseum.com/zh-hans/zuixintuijie/%E9%A9%AC%E7%8E%8B%E5%A0%86%E4%B8%80%E5%8F%B7%E6%B1%89%E5%A2%93t%E5%BD%A2%E5%B8%9B%E7%94%BB",
+      "tier": 1,
+      "authority": "现藏单位官方页面，本库尝试直接抓取但未能成功（工具端连接被重置），条目内尺寸（通长 205 厘米等）与三段式构图描述系据其他检索结果转引，未直接核对本页原文，请人工访问核实。",
+      "verified": false,
+      "note": "急需登记并人工核对——mawangdui-t-bohua 条目 holder 与基础尺寸数据的第一优先馆方依据。"
+    },
+    {
+      "id": "hnmuseum-renwu-yulong-page",
+      "title": "战国人物御龙帛画（湖南博物院官网文物介绍页）",
+      "kind": "museum",
+      "url": "https://www.hnmuseum.com/zh-hans/zuixintuijie/%E6%88%98%E5%9B%BD%E4%BA%BA%E7%89%A9%E5%BE%A1%E9%BE%99%E5%B8%9B%E7%94%BB",
+      "tier": 1,
+      "authority": "现藏单位官方页面，本批撰写据检索摘要转引尺寸（37.5×28 厘米）与画面描述，未直接核对原页面。",
+      "verified": false,
+      "note": "急需登记并人工核对——renwu-yulong-bohua 条目 holder 与基础尺寸数据的第一优先馆方依据。"
+    },
+    {
+      "id": "ruzhou-gov-guanyu-shifu-page",
+      "title": "鹳鱼石斧图彩陶缸（汝州市人民政府官网文物介绍页）",
+      "kind": "web",
+      "url": "https://www.ruzhou.gov.cn/contents/37789/505168.html",
+      "tier": 3,
+      "authority": "阎村遗址所在地地方政府网站对该文物发现始末的介绍，本批撰写据检索摘要转引 1978 年出土、瓮棺葬性质等信息，未直接核对原页面，权威性低于国家博物馆官方页或正式发掘简报，仅作补充参考。",
+      "verified": false,
+      "note": "阎村遗址正式发掘简报（应发表于《文物》或《考古》相关期刊）本库未能定位到具体篇目，是本条目最需要人工核实补全的一手依据。"
+    },
+    {
+      "id": "yunwen-qi-an-identification-note",
+      "title": "【核实缺口，非正式信源】『云纹漆案』具体所指器物待厘清",
+      "kind": "note",
+      "tier": 3,
+      "authority": "本批撰写检索多个战国楚墓漆器发掘报告与馆方页面（信阳长台关、江陵望山、天星观、荆门包山等），均未能把『云纹漆案』这一美术史教材常见描述性名称坐实为某一家博物馆藏品目录中带唯一编号的单一器物。yunwen-qi-an 条目因此以『类』而非『单一确定器物』记述，holder 暂定湖北省博物馆，为本批 7 条中把握最弱的一条，建议人工用馆方藏品数据库或权威图录（如《楚系漆器研究》一类专著）核实具体应指哪一件、出自哪一座楚墓。",
+      "verified": false,
+      "note": "非常规条目，用于记录一处尚未解决的识别缺口，供人工核实后决定是否需要改写 yunwen-qi-an 条目或另立更精确的条目。"
+    }
+  ]
+}

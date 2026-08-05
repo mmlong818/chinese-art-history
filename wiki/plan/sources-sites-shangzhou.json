@@ -1,0 +1,105 @@
+{
+  "note": "为商周考古 8 处新遗址条目（安阳殷墟、殷墟妇好墓、郑州商城、偃师二里头、岐山周原、广汉三星堆、陶寺、大汶口，2026-08-06 建）拟增的信源候选，格式照 data/sources.json 的 items。本文件不由本次任务直接写入 sources.json——按分工由另一处合并，避免并发写同一文件丢写。所有 verified 均标 false：本库未直接查阅原文或馆方页，仅凭记忆与通行转引登记条目框架，待人工核实后再改 verified，并把各站点条目现引用的通用信源（kaogu-wenwu 等）换成这里对应的精确条目。",
+  "items": [
+    {
+      "id": "dong-zuobin-jiaguwen-duandai",
+      "title": "甲骨文断代研究例",
+      "authors": "董作宾，1933（《庆祝蔡元培先生六十五岁论文集》）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "殷墟甲骨『五期断代法』的奠基性论文，site/anyang-yinxu.json『断代依据』一节所记方法直接出自此文，现暂引通用信源 kaogu-wenwu 代指。",
+      "note": "确切篇名、发表年份与收录文集本库据通行转述登记，未核对原刊。",
+      "verified": false
+    },
+    {
+      "id": "wang-guowei-yinbuci-zhong-suojian-xiangong-xianwang-kao",
+      "title": "殷卜辞中所见先公先王考",
+      "authors": "王国维，约 1917",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "以殷墟卜辞比对《史记·殷本纪》商王世系、确立『二重证据法』的经典论文，site/anyang-yinxu.json 与 site/yinxu-fuhao-mu.json 均转述此文方法论，现暂引通用信源 kaogu-wenwu 代指。",
+      "note": "确切篇名与发表年份据通行转述登记，未核对原刊。",
+      "verified": false
+    },
+    {
+      "id": "xu-hong-zuizao-de-zhongguo",
+      "title": "最早的中国：二里头文明的崛起",
+      "authors": "许宏，科学出版社，2009",
+      "kind": "monograph",
+      "tier": 3,
+      "authority": "『二里头是最早的中国（广域王权国家）』这一提法的原始出处，site/yanshi-erlitou.json『考古与著录史』一节引用此说，现暂引通用信源 kaogu-wenwu 代指，本库转述时特别注意许宏此说本意为政治组织形态而非『二里头＝夏』的直接断言。",
+      "note": "书名、出版年份据通行转述登记，未核对原书页码。",
+      "verified": false
+    },
+    {
+      "id": "zou-heng-zhengzhou-shangcheng-bo-du",
+      "title": "论郑州商城即汤都亳",
+      "authors": "邹衡（相关论文与专著，具体篇目本库未核实）",
+      "kind": "monograph",
+      "tier": 3,
+      "authority": "『郑州商城即亳都』一说的代表性学术出处，site/zhengzhou-shangcheng.json『考古与著录史』一节的『亳都之争』引用此派观点，现暂引通用信源 kaogu-wenwu 代指。",
+      "note": "确切篇目、出版信息本库未核实，仅据通行转述记该学者姓名与立场。",
+      "verified": false
+    },
+    {
+      "id": "he-nu-taosi-guanxiangtai-yaodu",
+      "title": "陶寺观象台与『尧都平阳』相关研究（具体篇目待核）",
+      "authors": "何驽（相关论文，具体篇目本库未核实）",
+      "kind": "monograph",
+      "tier": 3,
+      "authority": "陶寺疑似天文观测建筑的功能解释与『陶寺即尧都平阳』一说的代表性学术出处，site/taosi.json『考古与著录史』一节引用此派观点，现暂引通用信源 kaogu-wenwu 代指。",
+      "note": "确切篇目、期刊与年份本库未核实，仅据通行转述记该学者姓名与立场。",
+      "verified": false
+    },
+    {
+      "id": "yu-xingwu-dawenkou-taoqi-fuhao",
+      "title": "大汶口陶器刻划符号释读相关研究（具体篇目待核）",
+      "authors": "于省吾（相关论文，具体篇目本库未核实）",
+      "kind": "monograph",
+      "tier": 3,
+      "authority": "『大汶口／陵阳河陶尊刻符可释读为原始文字』一说的代表性学术出处，site/dawenkou.json『图像程式』一节引用此派观点，现暂引通用信源 kaogu-wenwu 代指。",
+      "note": "确切篇目、期刊与年份本库未核实，仅据通行转述记该学者姓名与立场。",
+      "verified": false
+    },
+    {
+      "id": "yinxu-museum",
+      "title": "殷墟博物馆（殷墟博物苑／殷墟博物馆新馆）",
+      "authors": "",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "殷墟出土文物的主要展陈与研究机构，site/anyang-yinxu.json 与 site/yinxu-fuhao-mu.json 均可能需要其官方页作为一手核对来源，现未注册，暂引通用信源 kaogu-wenwu 代指。",
+      "note": "官方网址、新馆开馆日期本库未核实。",
+      "verified": false
+    },
+    {
+      "id": "zhouyuan-museum",
+      "title": "周原博物院（周原遗址博物馆）",
+      "authors": "",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "周原出土文物的主要展陈与研究机构，site/qishan-zhouyuan.json 可能需要其官方页作为一手核对来源，现未注册，暂引通用信源 kaogu-wenwu 代指。",
+      "note": "官方网址与馆藏页本库未核实。",
+      "verified": false
+    },
+    {
+      "id": "sanxingdui-museum",
+      "title": "三星堆博物馆",
+      "authors": "",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "三星堆出土文物的主要展陈与研究机构，site/guanghan-sanxingdui.json 现引用通用信源 sichuan-museum（四川博物院，非三星堆本馆）代指，应替换为本条精确引用。",
+      "note": "官方网址与馆藏页本库未核实。",
+      "verified": false
+    },
+    {
+      "id": "erlitou-site-museum",
+      "title": "二里头夏都遗址博物馆",
+      "authors": "",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "二里头遗址的主要展陈与研究机构，site/yanshi-erlitou.json『保存与修复史』一节提及该馆命名，现未注册为信源，暂引通用信源 kaogu-wenwu 代指。",
+      "note": "馆名本身即隐含『夏都』判断，本库引用时已在正文注明不代表采纳该历史归属；官方网址本库未核实。",
+      "verified": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "note": "为新增 10 位晚清民国近现代艺术家条目（李桦、古元、力群、彦涵、庞薰琹、倪贻德、陈树人、高奇峰、郑曼陀、杭穉英）拟增的信源候选，格式照 data/sources.json 的 items。本次撰写全部改用已登记的 zhongguo-meishu-jianshi / wangxun-zhongguo-meishushi / sullivan-20th-century-china / andrews-shen-century-crisis / andrews-painters-politics 等既有信源，未在任何条目内引用下列未登记 id（引用未登记 id 会被 schema.py 判为死链）。本文件不由本次任务直接写入 sources.json，按分工由另一处合并；合并后可视需要回填到相关月份牌条目的 sources 数组。以下候选均为凭记忆登记，未直接核实版次与 ISBN，verified 一律 false。",
+  "items": [
+    {
+      "id": "laing-selling-happiness",
+      "title": "Selling Happiness: Calendar Posters and Visual Culture in Early-Twentieth-Century Shanghai",
+      "authors": "Ellen Johnston Laing",
+      "publisher": "University of Hawai'i Press",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "英语学界专论近代上海月份牌画（calendar posters）视觉文化的代表性著作，据记忆对郑曼陀擦笔水彩技法的发明经过、杭穉英穉英画室的集体作业模式与商业运作均有专门讨论，是本库郑曼陀、杭穉英两条目最理想的一手依据，但本次因未获原文，实际引用暂全部改用 sullivan-20th-century-china 等已登记信源代替。此条登记以备将来核实版次后替换为精确引用。",
+      "note": "书名与作者据记忆登记，具体版次、出版年份与 ISBN 均未核实，题名本身亦未做本次二次确认，请核实后再据以立事实。",
+      "verified": false
+    }
+  ]
+}

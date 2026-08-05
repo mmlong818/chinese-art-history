@@ -1,0 +1,55 @@
+{
+  "note": "为宋代著录/金石类 8 条 treatise 新建（考古图、集古录、画史、书史、宝章待访录、营造法式、洞天清禄集、叙画；2026-08-06 建）拟增的信源候选，格式照 data/sources.json 的 items。米芾三种（画史/书史/宝章待访录）已在 sources.json 登记，treatise 条目直接自引，不在本文件重复列出。本文件不由本次任务直接写入 sources.json——按分工由另一处合并，避免并发写同一文件丢写。所有 verified 均标 false：本库未逐一核对原文版次，仅凭通行转引登记条目框架，待人工核实后再改 verified。",
+  "items": [
+    {
+      "id": "kaogutu",
+      "title": "考古图",
+      "authors": "吕大临（北宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "现存最早体例完整的古器物图录，摹图＋摹铭＋考订＋度量的著录格式为《宣和博古图》等后世著录直接承袭，是中国金石学的开山之作之一。treatise/kaogutu.json 现引用 xuanhe-bogu-tu、songshi 等间接信源代指，此条登记以备将来把该条目引用改为精确到本书。",
+      "note": "版本源流未核实——今传本与吕大临原书篇卷关系、与旧传《续考古图》的作者归属均存疑，详见 treatise 条目「版本谱系」一节。",
+      "verified": false
+    },
+    {
+      "id": "jigulu",
+      "title": "集古录",
+      "authors": "欧阳修（北宋）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "北宋金石学开山之作，以碑刻校正经史纪年讹误的方法开后世金石学先河；今日实际内容是欧阳修所撰跋文（集古录跋尾），拓本原编已佚。treatise/jigulu.json 现引用 songshi、xuanhe-bogu-tu 等间接信源代指，此条登记以备将来精确引用。",
+      "note": "版本源流未核实——原编（拓本）与今传本（跋尾）是性质不同的两个文本层，详见 treatise 条目「版本谱系」一节。",
+      "verified": false
+    },
+    {
+      "id": "yingzao-fashi",
+      "title": "营造法式",
+      "authors": "李诫（北宋）奉敕编修",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "中国现存最早、最完整的官方建筑技术规范，以「材」为模数统一官式建筑设计与用工用料核算；本库唐辽宋木构断代所据的斗栱、梁架形制序列很大程度上溯源于此书。treatise/yingzao-fashi.json 现引用 yingzao-xueshe-huikan、liang-sicheng-jianzhushi 等间接信源代指，此条登记以备将来精确引用，且应与上述二者明确区分——那两条是二十世纪的整理与研究文献，此条才是宋代原书本身。",
+      "note": "版本源流未核实——通行陶湘本（1925）图样经民国工匠重绘，与南宋绍兴刊本残卷、原书图样的忠实度关系存疑，详见 treatise 条目「版本谱系」一节。",
+      "verified": false
+    },
+    {
+      "id": "dongtian-qinglu-ji",
+      "title": "洞天清禄集",
+      "authors": "赵希鹄（南宋，题）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "现存较早的文房古物鉴赏专书，分十门论辨古琴、古砚、古钟鼎彝器等真伪优劣，反映南宋文人鉴藏趣味从北宋金石学的经史考订转向文房清玩的赏鉴。treatise/dongtian-qinglu-ji.json 现引用通史类间接信源代指，此条登记以备将来精确引用。",
+      "note": "作者生卒年、确切成书年代与「赵希鹄」是否即托名均存疑，各丛书本（说郛本/四库本/美术丛书本）篇目条数不一，详见 treatise 条目「版本谱系」与「争议字段」。",
+      "verified": false
+    },
+    {
+      "id": "xuhua",
+      "title": "叙画",
+      "authors": "王微（南朝宋，415－443）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "与宗炳《画山水序》并称现存最早的两篇山水画论文字之一，「望秋云，神飞扬；临春风，思浩荡」出此。treatise/xuhua.json 现引用 hua-shanshui-xu、lidai-minghua-ji 等间接信源代指，此条登记以备将来精确引用。",
+      "note": "全文篇幅极短，主要经《历代名画记》等后世转录得存，原本独立传本形态未核实。",
+      "verified": false
+    }
+  ]
+}
