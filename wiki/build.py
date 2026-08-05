@@ -572,9 +572,46 @@ def check_output():
     return links, broken
 
 
-def build():
+def build(only_full=False):
+    """构建站点。
+
+    `only_full=True` 是 `PLAN.md` 的**判据五(反事实测试)**：
+    把全部著录级条目拿掉再构建一次，**剩下的那部站点就是这部库真正做过判断的部分。**
+
+    做成一条命令而非一句说法，理由是: 每次构建都能跑、数字每次都在，
+    **无法靠措辞绕过**。它顺带回答了「著录级到底算不算内容」这个会反复出现的争论——
+    算，但不算在这个数里。
+    """
     c = Corpus()
+    dropped_ids = set()
+    if only_full:
+        from schema import depth_of
+        for name in ("artists", "works", "sites", "classes", "treatises", "events"):
+            box = getattr(c, name, None)
+            if not isinstance(box, dict):
+                continue
+            for k in [k for k, v in box.items() if depth_of(v) == "record"]:
+                dropped_ids.add(k)
+                del box[k]
+        print(f"【反事实构建】已剔除 {len(dropped_ids)} 条著录级条目。"
+              f"以下数字是本库真正做过判断的规模——")
     problems = validate(c)
+    if only_full:
+        # 完整级条目会链到著录级条目（这本身说明两级已有真实依赖）。
+        # 剔除后那些链必然断——**但反事实构建是一次测量，不是要发布的站点**，
+        # 故只对「指向被剔除者」的死链降级为提示，不因此停止构建。
+        # 其余任何 ERROR 仍然拦——不能借这个开关放过真正的问题。
+        keep = []
+        waived = 0
+        for pb in problems:
+            if pb.level == "ERROR" and "死链" in pb.msg and                any(f":{d}" in pb.msg or pb.msg.endswith(d) for d in dropped_ids):
+                waived += 1
+                continue
+            keep.append(pb)
+        problems = keep
+        if waived:
+            print(f"          （{waived} 条指向被剔除条目的死链已豁免；"
+                  f"其余 ERROR 仍然拦）")
     errors = [p for p in problems if p.level == "ERROR"]
     for p in problems:
         print(p)
@@ -614,6 +651,10 @@ def build():
 
     total = sum(f.stat().st_size for f in DIST.rglob("*") if f.is_file())
     links, broken = check_output()
+    if only_full:
+        # 产物级断链同理豁免：指向被剔除条目的链必然断。
+        broken = [b for b in broken
+                  if not any(d in str(b[1]) for d in dropped_ids)]
     print(f"\n生成 {n} 页 · 产出 {total/1024:.0f} KB · 内部链接 {links} · "
           f"WARN {len(problems) - len(errors)}")
     for b in broken[:12]:
@@ -626,4 +667,9 @@ def build():
 
 
 if __name__ == "__main__":
-    sys.exit(build())
+    _only = "--only-full" in sys.argv
+    if _only:
+        # 反事实构建不覆盖正式产物：换一个输出目录，免得把站点变成只有完整级的版本
+        DIST = ROOT / "dist-full"
+        globals()["DIST"] = DIST
+    sys.exit(build(only_full=_only))
