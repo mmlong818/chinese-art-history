@@ -3,6 +3,7 @@
   "id": "longmen-fengxian",
   "name": "奉先寺",
   "name_en": "Fengxian Temple",
+  "alias": ["龙门石窟奉先寺"],
   "parent": "longmen",
   "where": "龙门西山",
   "span": "约 672 – 675",
