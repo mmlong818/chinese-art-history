@@ -148,6 +148,23 @@ ARTIST_GENERATED = [("works-index", "★ 代表作·独立条目"), ("works-tabl
 # 二者不可混用。兼擅多门者以「、」并列，主业在前（米芾作「书法、绘画」）。
 ARTIST_CAT = {"绘画", "书法", "篆刻", "雕塑"}
 
+# holder 的已知别名。**不设封闭词表**——藏家是开放集合，把它封闭才是错的；
+# 但同一家机构写成两个名字，会让「哪个馆藏了什么」的统计直接失真。
+# 实测已经裂了两处：「台北故宫博物院」8 条对「国立故宫博物院（台北）」59 条、
+# 「故宫博物院」6 条对「故宫博物院（北京）」10 条。
+# 与 facet 是同一类问题：**必填而不校验取值的自由文本字段一定会漂。**
+HOLDER_ALIAS = {
+    "台北故宫博物院": "国立故宫博物院（台北）",
+    "台北故宫": "国立故宫博物院（台北）",
+    "国立故宫博物院": "国立故宫博物院（台北）",
+    "故宫博物院": "故宫博物院（北京）",   # 不加限定语时指北京，但本库要求写明
+    "北京故宫博物院": "故宫博物院（北京）",
+    "北京故宫": "故宫博物院（北京）",
+    "上博": "上海博物馆",
+    "国博": "中国国家博物馆",
+    "大都会博物馆": "大都会艺术博物馆",
+}
+
 # work 的维度按 kind 分派。不给每种材质造一套，归成五组。
 WORK_KIND_GROUP = {
     # 「版画」是清点馆藏时才发现漏掉的：克利夫兰中国部抽样 500 件里 Print 占 98 件，
@@ -694,6 +711,8 @@ def validate(c):
             out.append(Problem("ERROR", w, f"作者 {wk['artist']!r} 无对应艺术家条目"))
         if wk.get("site") and wk["site"] not in c.sites:
             out.append(Problem("ERROR", w, f"所属遗址 {wk['site']!r} 无对应条目"))
+        if wk.get("holder") in HOLDER_ALIAS:
+            out.append(Problem("ERROR", w, f"藏家 {wk['holder']!r} 是别名，请写 {HOLDER_ALIAS[wk['holder']]!r}——同一家写成两个名字，馆藏统计就失真"))
         if not wk.get("image") and wk.get("image_status") not in IMAGE_STATUS:
             out.append(Problem("WARN", w, f"无 image 且未说明原因——请标 image_status"))
 
