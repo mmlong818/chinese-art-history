@@ -39,13 +39,26 @@ def up(depth):
 
 
 def inline(text, depth, corpus=None):
-    out, pos = [], 0
-    for m in LINK_RE.finditer(str(text)):
-        out.append(_emph(e(text[pos:m.start()])))
-        out.append(_ref(m.group(1), m.group(2), m.group(3), depth, corpus))
+    """行内渲染：先把链接换成占位符，对整串做强调，再还原链接。
+
+    **原先是在链接处切段、对每段分别做强调**——于是强调只要跨越一个链接就断掉：
+    `**呼应 [[artist:x]] 的框架**` 被切成 `**呼应 ` 与 ` 的框架**` 两段，
+    各自没有配对的星号，于是原样输出。实测 2,371 个页面上有字面 `**`，主因即此。
+    占位符用不会出现在正文里的私有区码点，还原时按序替换。
+    """
+    text = str(text)
+    refs, parts, pos = [], [], 0
+    SENTINEL = ""
+    for m in LINK_RE.finditer(text):
+        parts.append(e(text[pos:m.start()]))
+        parts.append(SENTINEL)
+        refs.append(_ref(m.group(1), m.group(2), m.group(3), depth, corpus))
         pos = m.end()
-    out.append(_emph(e(text[pos:])))
-    return "".join(out)
+    parts.append(e(text[pos:]))
+    out = _emph("".join(parts))
+    for ref in refs:
+        out = out.replace(SENTINEL, ref, 1)
+    return out
 
 
 def _emph(s):
@@ -93,7 +106,11 @@ def _block(b, depth, c):
     if t == "stmt":
         return _stmt(b, depth, c)
     if t == "gap":
-        return f'<p class="gap">· {e(b.get("text") or "暂无可靠资料")}</p>'
+        # **gap 也要走 inline。**它原先只做转义，于是其中的强调与链接全部失效——
+        # 实测 2,070 个页面在断代 gap 里显示字面星号。
+        # `gap` 承载的是「我们不知道什么」，是本库最要紧的块之一，
+        # 却曾是唯一不走行内渲染的块。
+        return f'<p class="gap">· {inline(b.get("text") or "暂无可靠资料", depth, c)}</p>'
     if t == "quote":
         by = f'<cite>—— {inline(b["by"], depth, c)}</cite>' if b.get("by") else ""
         src = f'<span class="q-src">{inline(b["src"], depth, c)}</span>' if b.get("src") else ""
@@ -324,11 +341,14 @@ def figure(im, depth, caption=None, corpus=None):
 def _card(cls, href, im, depth, title, sub, meta, desc, ratio="3/4"):
     fig = img_tag(im, depth, "ph-card", "(min-width:900px) 22vw, 45vw", ratio) if im else \
         f'<span class="ph ph-none" style="aspect-ratio:{ratio}"></span>'
+    # **卡片上的文字要走强调处理。**原先一律 `e()` 转义，于是著录级条目
+    # one_line 里的 `**本条为著录级**` 在 2,381 张卡片上显示成字面星号——
+    # 转义防的是注入，而 Markdown 强调是本库正文的一部分，两件事不能用同一招。
     return (f'<a class="card {cls}" href="{href}">{fig}'
             f'<span class="card-t">{e(title)}</span>'
             f'{f"<span class=card-sub>{e(sub)}</span>" if sub else ""}'
             f'<span class="card-m">{e(meta)}</span>'
-            f'<span class="card-d">{e(desc)}</span></a>')
+            f'<span class="card-d">{_emph(e(desc))}</span></a>')
 
 
 def card_artist(a, depth, c=None):
@@ -364,7 +384,7 @@ def card_artist(a, depth, c=None):
     return (f'<a class="{cls}" href="{up(depth)}artists/{e(a["id"])}.html">'
             f'<span class="card-t">{e(a.get("name", ""))}</span>{sub}'
             f'<span class="card-m">{e(_years(a))}</span>'
-            f'<span class="card-d">{e(a.get("one_line", ""))}</span>'
+            f'<span class="card-d">{_emph(e(a.get("one_line", "")))}</span>'
             f'{fig}</a>')
 
 

@@ -18,6 +18,8 @@
 """
 
 import json
+import pathlib
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -154,12 +156,22 @@ def page_artist(a, c):
             f'<p class="hero-chips">{r.inline(f"[[period:{a['period']}]]", d, c)}'
             f'{r.chip(a.get("cat", ""))}'
             f'{"".join(r.chip(x, "chip-q") for x in (a.get("schools") or []))}</p></div>')
+    # 著录级艺术家同样只有 basics 一维。原先未在此分派 RECORD_SECTIONS，
+    # 于是 990 个页面把小节标题渲染成原始 id「basics」并标「本条目自加维度」——
+    # **契约里分了两级，而渲染层只在作品页认了这件事。**
+    a_spec = RECORD_SECTIONS if depth_of(a) == "record" else ARTIST_SECTIONS
+    a_rec = ""
+    if depth_of(a) == "record":
+        a_rec = ('<p class="depth-note"><span class="dn-tag">著录级</span>'
+                 '本条只照录结构化来源（Wikidata）实际载明的字段。'
+                 '<b>未作论述与阐释，未下四态判断</b>，'
+                 '生平、师承、评价均未撰写。它与本库的完整级条目是两种体裁。</p>')
     plate = r.img_tag(a["portrait"], d, "ph-portrait") if a.get("portrait") else ""
     body = (f'<main class="wrap wrap-entry"><div class="hero">{hero}'
             f'{f"<div class=hero-p>{plate}</div>" if plate else ""}</div>'
             f'<div class="cols"><div class="col-main">'
-            f'{_sections(a, ARTIST_SECTIONS, d, c)}{"".join(gen)}{_srcbar(a, d, c)}</div>'
-            f'<aside class="col-rail">{_toc(ARTIST_SECTIONS, a, [("works-index", "代表作")] if works else [])}'
+            f'{a_rec}{_sections(a, a_spec, d, c)}{"".join(gen)}{_srcbar(a, d, c)}</div>'
+            f'<aside class="col-rail">{_toc(a_spec, a, [("works-index", "代表作")] if works else [])}'
             f'{_lineage(a, d, c)}</aside></div></main>')
     return r.shell(f'{a["name"]} · 中国美术史', d, body,
                    _crumbs(c, a.get("period"), a["name"]), "t-artist")
@@ -229,8 +241,8 @@ def page_work(w, c):
         spec = RECORD_SECTIONS
         rec = ('<p class="depth-note"><span class="dn-tag">著录级</span>'
                '本条只照录结构化来源（馆方记录）实际载明的内容——题名、年代、现藏、'
-               '材质、尺寸、藏品号与图版出处。**未作论述与阐释，未下四态判断，'
-               '断代依据亦非本库所判**。它与本库的完整级条目是两种体裁，'
+               '材质、尺寸、藏品号与图版出处。<b>未作论述与阐释，未下四态判断，'
+               '断代依据亦非本库所判</b>。它与本库的完整级条目是两种体裁，'
                '不是同一体裁的详略之别。</p>')
     body = (f'<main class="split">{plate}<div class="app"><div class="app-in">'
             f'<h1 class="app-h1">{r.e(w["title"])}'
@@ -537,7 +549,7 @@ def _src_entry(s):
             f'{spine}{unver}</p>'
             f'{f"<p class=src-a>{r.e(s['authors'])}</p>" if s.get("authors") else ""}'
             f'{f"<p class=src-m>{r.e(meta)}</p>" if meta else ""}'
-            f'<p class="src-w">{r.e(s.get("authority",""))}</p>{bits}</div>')
+            f'<p class="src-w">{r._emph(r.e(s.get("authority","")))}</p>{bits}</div>')
 
 
 def search_index(c):
@@ -601,10 +613,17 @@ def build(only_full=False):
         # 剔除后那些链必然断——**但反事实构建是一次测量，不是要发布的站点**，
         # 故只对「指向被剔除者」的死链降级为提示，不因此停止构建。
         # 其余任何 ERROR 仍然拦——不能借这个开关放过真正的问题。
+        # **精确取 id 再比对，不用子串。**第一版写成
+        # `any(f":{d}" in pb.msg ...)`——而 3,278 个著录级 id 里存在大量前缀包含关系
+        # （`cma-1915-68` ⊂ `cma-1915-680`、`artic-134` ⊂ `artic-13447`，
+        # 仅相邻对就有 73 对），子串匹配量大后会把**真断链**一并吞掉。
+        # 这是 L11 的第九例，而且是在写 L11 的同一小时里犯的。
+        DEAD = re.compile(r"死链\s+\w+:([A-Za-z0-9_-]+)")
         keep = []
         waived = 0
         for pb in problems:
-            if pb.level == "ERROR" and "死链" in pb.msg and                any(f":{d}" in pb.msg or pb.msg.endswith(d) for d in dropped_ids):
+            m = DEAD.search(pb.msg) if pb.level == "ERROR" else None
+            if m and m.group(1) in dropped_ids:
                 waived += 1
                 continue
             keep.append(pb)
@@ -653,8 +672,10 @@ def build(only_full=False):
     links, broken = check_output()
     if only_full:
         # 产物级断链同理豁免：指向被剔除条目的链必然断。
-        broken = [b for b in broken
-                  if not any(d in str(b[1]) for d in dropped_ids)]
+        # 同理：从 href 里取出 stem 精确比对，不做子串包含
+        def _stem(href):
+            return pathlib.Path(str(href)).stem
+        broken = [b for b in broken if _stem(b[1]) not in dropped_ids]
     print(f"\n生成 {n} 页 · 产出 {total/1024:.0f} KB · 内部链接 {links} · "
           f"WARN {len(problems) - len(errors)}")
     for b in broken[:12]:

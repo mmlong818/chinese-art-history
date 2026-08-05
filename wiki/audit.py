@@ -137,6 +137,15 @@ def sourcing(c, rep):
 
 
 def epistemics(c, rep):
+    """四态分布。**著录级豁免逐条点名**——
+
+    它本来就不作阐释、不下四态判断，那是它的性质而非缺陷；
+    对它报「全篇无争议也无旧说」等于要求一份照录变成一篇论述。
+    实测不豁免时：3,355 行输出里 3,335 行（99.2%）是著录级的态度警告，
+    **审计被自己淹掉，真正的问题一条也看不见。**
+    与 `dupes`／`sourcing` 已有的豁免同理。
+    分布统计仍把它们算进去——那是全库的实情，该看见。"""
+    from schema import depth_of
     tot = Counter()
     for kind, eid, o in c.all_entities():
         s = Counter()
@@ -146,6 +155,8 @@ def epistemics(c, rep):
             elif b.get("t") == "gap":
                 s["gap"] += 1
         tot.update(s)
+        if depth_of(o) == "record":
+            continue
         if kind in ("artist", "work") and not s.get("disp") and not s.get("dep"):
             rep("态度", f"{kind}/{eid} 全篇无争议也无旧说——真的毫无异议？")
         if kind in ("artist", "work") and not s.get("gap") and not s.get("pend"):
