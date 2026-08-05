@@ -109,9 +109,12 @@ TYPES = {
 # 分類 → 本库 work.kind。**判不出的一律不摄入，不拿最近的凑。**
 KIND = {
     "繪畫": "画作", "法書": "书法",
-    # 法帖是刻帖拓本，与拓片同属石刻组——那一组的维度（拓本谱系、字口存损、
-    # 著录与考订）正是为它设的。
-    "法帖": "拓片", "拓片": "拓片",
+    # **法帖与拓片都归「碑刻」。**拓本并入碑，作为碑的补充——
+    # 年代归碑（题名里记着「漢武都太守李翕碑」的漢），拓本落成 `rubbing` 块，
+    # 「早拓与近拓字口不同」这一层由那个块的六档（宋拓／明拓／清拓／近拓／翻刻／
+    # 原石现状）承担。此前把拓片立为独立 kind，反而制造了「拓本自身无年代」的死结：
+    # 实测 20 件试摄有 19 件因「無時代」落不了地。
+    "法帖": "碑刻", "拓片": "碑刻",
     "陶瓷器": "陶瓷", "玉器": "玉器", "銅器": "青铜", "漆器": "漆器",
     "琺瑯器": "珐琅", "織品": "织绣", "絲繡": "织绣",
 }
@@ -190,11 +193,16 @@ def fetch(url, body=None, tries=5):
         time.sleep(delay); delay *= 2
 
 
-def search(rtype=None, page=1, size=15):
-    """→ (ids, page_count)。ids 为该页的作品 id。"""
+def search(rtype=None, page=1, size=15, content=None):
+    """→ ([(id, dep)], page_count)。
+
+    **0 条不等于「没有」**：急促请求会被限流，而限流的样子就是返回 0 条。
+    实测同一个「谿山行旅圖」在密集请求时返回 0、隔 6 秒后三次都稳定返回 2 条。
+    调用方须自行重试——见 pick() 的第二道防线。
+    """
     st, h = fetch(SEARCH, {
         "RegisterType": rtype, "IndexYear": None, "WestBeginYear": 0,
-        "WestEndYear": 0, "YearDisplay": None, "SearchContent": None,
+        "WestEndYear": 0, "YearDisplay": None, "SearchContent": content,
         "RegisterTypeEng": None,
         "PageInfo": {"PageIndex": page, "PageSize": size, "PageCount": 7244}})
     if st != 200:
@@ -275,6 +283,62 @@ def _split(v):
     return [x for x in (p.strip() for p in (v or "").split("\n")) if x]
 
 
+def _artists():
+    idx = {}
+    for f in (WIKI / "data" / "artists").glob("*.json"):
+        d = json.loads(f.read_text(encoding="utf-8"))
+        idx[d["id"]] = d.get("period")
+    return idx
+
+
+ARTISTS = None
+
+
+def artist_period(author):
+    """由馆方 `作者` 字段的**罗马化**反查本库艺术家条目的分期。
+
+    馆方作者写作「范寬,Fan Kuan」——中文是繁体，而本库艺术家名是简体，
+    **按字形比对必在繁简上失效**（范寬／范宽、趙孟頫／赵孟頫、黃居寀／黄居寀
+    实测全部对不上）。而罗马化转成连字符正是本库的 artist id 写法（`fan-kuan`），
+    **拿它作键就绕开了繁简整件事**——L11 的补充规则说可靠证据是稳定标识符
+    而不是字形，这里的罗马名就是那个稍稳定些的东西。
+
+    仍会失效（馆方偶用威妥玛拼法，本库也未必有该艺术家），
+    **失效时返回 None 让调用方跳过并记原因，不猜。**
+    """
+    global ARTISTS
+    if ARTISTS is None:
+        ARTISTS = _artists()
+    for part in re.split(r"[,，;；/]", author or ""):
+        part = part.strip()
+        if not part or not re.fullmatch(r"[A-Za-z' \-.]+", part):
+            continue
+        aid = re.sub(r"[^a-z]+", "-", part.lower()).strip("-")
+        if aid in ARTISTS and ARTISTS[aid]:
+            return aid, ARTISTS[aid]
+    return None, None
+
+
+# 题名前缀的朝代。書畫 类**没有任何年代字段**，朝代只写在品名开头
+# （「宋范寬谿山行旅圖　軸」「五代南唐董源龍宿郊民圖　軸」）。
+# 「五代南唐」必须整体在前，否则会被当成「五代」+「南」的复合前缀而判不出。
+TITLE_DYN = [("五代南唐", "five-dynasties"), ("五代十國", "five-dynasties")] + [
+    (a, b) for a, b in DYN]
+# 复合前缀防护：「元明人畫山水集景」的前缀是两朝连写，按「元」判就错（作者实为明文嘉）。
+NEXT_DYN = set("新石商周春秋戰戰秦漢汉三晉晋南北魏隋唐五宋遼辽金元明清民代國")
+
+
+def title_dyn(title):
+    t = re.sub(r"^(傳|传|舊傳)", "", re.sub(r"[\s　]+", "", title or ""))
+    for zh, pid in TITLE_DYN:
+        if t.startswith(zh):
+            rest = t[len(zh):]
+            if rest and rest[0] in NEXT_DYN and zh not in ("五代南唐", "五代十國"):
+                return None, f"复合前缀「{zh}{rest[0]}」，不据题名判"
+            return pid, f"馆方题名以「{zh}」起"
+    return None, "题名无朝代前缀"
+
+
 def period_of(b):
     """→ (period, why)。**判不出返回 None，不猜。**
 
@@ -294,6 +358,38 @@ def period_of(b):
         if head.startswith(zh):
             return pid, f"馆方時代以「{zh}」起"
     return None, f"「{head}」无对应分期"
+
+
+def resolve_period(b, title):
+    """分期三路，依次尝试。**每一路都记下凭什么，写进条目。**
+
+    本库对断代要求「凭什么定这个年代」独立成块，**分期本身同样该说清来源**——
+    馆方明写的朝代、题名前缀、和据本库艺术家条目反推，可靠度依次递减。
+
+    一、`時代`／`創作時間` 字段——馆方明写的朝代归属，最硬。器物类有，書畫类没有。
+    二、**题名前缀**——書畫 类唯一的线索（「五代南唐董源龍宿郊民圖」）。
+    三、**据作者反查本库艺术家条目**——只在题名前缀是「宋」「周」这类
+       本库明定判不出的朝代时才用。馆方把宋画一律题作「宋」，而本库的规则是
+       单「宋」不分南北；此时范寬是北宋、李唐是南宋这件事，**本库的艺术家条目
+       已经记着**，用它比留空好，但必须注明分期不是馆方给的。
+    """
+    pid, why = period_of(b)
+    if pid:
+        return pid, why
+    pid, why2 = title_dyn(title)
+    if pid:
+        return pid, why2
+    t = re.sub(r"[\s　]+", "", title or "")
+    if t[:1] in ("宋", "周"):
+        aid, ap = artist_period(b.get("作者", ""))
+        # 只接受与该朝相容的分期，防止把后代摹本按原作者朝代归位。
+        ok = {"宋": {"northern-song", "southern-song"},
+              "周": {"western-zhou", "spring-autumn-warring"}}[t[:1]]
+        if ap in ok:
+            return ap, (f"馆方题名仅作「{t[:1]}」而本库明定其不分南北；"
+                        f"据本库艺术家条目 {aid} 定为 {ap}——**此分期非馆方所给**")
+        return None, f"题名仅作「{t[:1]}」，而作者 {b.get('作者','')!r} 在本库无可用分期"
+    return None, why2
 
 
 def survey():
@@ -348,7 +444,7 @@ def build(i, dep, d, rtype):
     kind = KIND.get(rtype)
     if not kind:
         return None, SKIP_TYPE.get(rtype, "分類無對應 kind")
-    pid, why = period_of(b)
+    pid, why = resolve_period(b, title)
     if not pid:
         return None, why
 
@@ -368,11 +464,26 @@ def build(i, dep, d, rtype):
                                  + DETAIL.format(id=i, dep=dep)}]
     if b.get("說明"):
         basics.append({"t": "p", "text": b["說明"]})
+    basics.append({"t": "kv", "rows": [["本库分期依据", why]]})
     basics.append({"t": "stmt", "state": "pend",
                    "text": "**本条为著录级**：照录馆方开放资料，未作阐释。"
                            "具体年代、尺寸与款识释文均以馆方记录为准，本库未另行考订。"})
 
     secs = {"basics": basics}
+
+    # **摹本／仿作要当场标出来。**馆方题名里的「倣」「仿」「摹」「臨」是它自己的声明，
+    # 而本库最核心的关切之一正是「所据为摹本还是原作」——canon 对魏晋南北朝的
+    # dispute 原话是「顧愷之風格」「王羲之書風」由若干摹本与刻帖互相定义、存在循环论证。
+    # 精选检索按名索取时尤其容易撞上：查「漢宮春曉圖」（仇英，明）
+    # 实得「清丁觀鵬倣仇英漢宮春曉圖」——**它是一件真物，但不是所求的那一件。**
+    # 包含子串不等于同一件物：同批里「百駿圖」还匹配到了「百駿圖圓墨」（一方墨）。
+    if re.search(r"[倣仿摹臨]", title):
+        secs["basics"].append({
+            "t": "stmt", "state": "disp",
+            "text": f"**本件题名含「倣／仿／摹／臨」，是摹本或仿作而非原作**"
+                    f"（馆方原题「{title}」）。本库一律标明所据为摹本还是原作——"
+                    f"摹本自有其年代与作者，不可当作被摹原作的替代品；"
+                    f"若按名检索所得，须留意**所求与所得可能不是同一件物**。"})
 
     # 釋文 是碑刻／拓本的题记全文，**是这一类最要紧的一栏**，
     # 落成 colophon 块而不是塞进键值表——塞进去就查不了、统计不了。
@@ -414,6 +525,17 @@ def build(i, dep, d, rtype):
             "text": f"馆方定年为「{era[0] if era else '未记'}」而未在开放资料中"
                     f"说明依据，本库亦未考订——**年代与断代依据是两件事**，"
                     f"此处只有前者"}]
+
+    # 石刻组的「拓本谱系」必备 rubbing 块或 gap——契约原话是
+    # 「不注明所据拓本，字口存损无从判断」。馆方开放资料不注明拓本等级，
+    # **那就如实立 gap，不假造一个等级。**
+    if kind in ("碑刻", "摩崖", "画像石", "经幢"):
+        secs["rubbings"] = [{
+            "t": "gap",
+            "text": "馆方开放资料未注明所据拓本等级（宋拓／明拓／清拓／近拓／翻刻／"
+                    "原石现状），本库亦未核——**拓本等级直接决定字口存损的可判性**，"
+                    "缺这一栏则本条只能当作「馆藏一份拓本」的记录，"
+                    "不能据以讨论字口"}]
 
     # 參考資料 → 著录书目。**这是西方馆 API 一概没有的一栏**，本库著录链正需要它。
     ref = [r for r in (d.get("參考資料") or []) if r and r[0]]
@@ -485,6 +607,122 @@ def run(rtype, n, apply=False, size=15):
             print(f"   {v:>4}  {k}")
 
 
+# ── 精选 ──────────────────────────────────────────────────────────────────
+#
+# 用户定的方式：**台北故宫用精选，不必求量。**这与本库一路要纠正的毛病正相反——
+# 此前填充顺序由 API 可得性决定，于是库的形状变成了开放数据计划的形状。
+# 精选是把顺序交还给美术史：**先问该有什么，再问接口给不给。**
+#
+# 查询串一律用**繁体**。实测简体基本查不到（「早春图」0 条 vs「早春圖」2 条），
+# 而且不止繁简：「溪山行旅圖」与「谿山行旅圖」是异体字之别，连繁体也要写对那一个。
+# ——L11 的补充规则说按名比对必在繁简与别名两处失效，这里两处都撞上了，
+# 所以这份清单是**人工按馆方写法写的**，不做自动转换。假装能自动转是更坏的选择。
+PICKS = [
+    # 书画 · 本库正典链上的名件
+    "谿山行旅圖", "早春圖", "萬壑松風圖", "雙喜圖", "山鷓棘雀圖", "龍宿郊民圖",
+    "快雪時晴帖", "祭姪文稿", "自敘帖", "黃州寒食詩", "花氣薰人帖", "蜀素帖",
+    "鵲華秋色圖", "富春山居圖", "牧馬圖", "漢宮春曉圖", "百駿圖", "秋林群鹿",
+    "四庫全書", "谿山秋霽", "寫生珍禽圖", "溪山清遠",
+    # 器物 · 青铜与陶瓷的正典位
+    "毛公鼎", "散氏盤", "宗周鐘", "蟠龍方壺",
+    "蓮花式溫碗", "嬰兒枕", "青瓷無紋水仙盆", "青瓷葵花式碗",
+    # 玉与雕刻
+    "翠玉白菜", "肉形石", "玉辟邪", "雕橄欖核舟", "多寶格",
+    # 珐琅与漆
+    "掐絲琺瑯番蓮紋", "剔紅",
+]
+
+
+def _norm(t):
+    """题名去掉馆方的朝代／作者前缀与形制后缀，用于与本库已有条目比对。"""
+    t = re.sub(r"[\s　]+", "", t or "")
+    return re.sub(r"(軸|卷|冊|頁|屏|扇|一軸|一卷)$", "", t)
+
+
+def _have_titles():
+    out = {}
+    for f in (WIKI / "data" / "works").glob("*.json"):
+        d = json.loads(f.read_text(encoding="utf-8"))
+        out[_norm(d.get("title"))] = d["id"]
+    return out
+
+
+def pick(apply=False, limit=0):
+    """按精选清单逐条检索并摄入。
+
+    三道防线，每一道都是撞过的坑换来的：
+    一、**限速 5 秒**。急促请求会被限流，而限流的样子是「返回 0 条」。
+    二、**0 条必重试一次**。否则会把「被限流」记成「馆里没有这件」——
+        把一件真实存在的名作写成缺藏，比漏摄严重得多。
+    三、**返回题名必须真含查询串**。检索是模糊的：
+        实测「快雪時晴帖」一度返回首条「古側釐紙」。不验就会摄错物。
+    """
+    have = _have_titles()
+    hit = miss = dup = wrote = 0
+    rows = []
+    todo = PICKS[:limit] if limit else PICKS
+    for kw in todo:
+        items, pc = search(None, 1, 15, content=kw)
+        time.sleep(5.0)
+        if not items:
+            # 第二道防线：0 条先当作可能被限流，隔久一点再问一次。
+            time.sleep(8.0)
+            items, pc = search(None, 1, 15, content=kw)
+            time.sleep(5.0)
+        if not items:
+            miss += 1
+            rows.append((kw, "—", "查无（已重试一次）"))
+            continue
+        got = None
+        for i, dep in items[:6]:
+            st, h = fetch(DETAIL.format(id=i, dep=dep)); time.sleep(GAP)
+            if st != 200:
+                continue
+            d = parse(h)
+            b = d.get("基本資料") or {}
+            title = (_split(b.get("品名")) or [""])[0]
+            # 第三道防线：题名必须真含查询串。
+            if kw not in re.sub(r"[\s　]+", "", title):
+                continue
+            got = (i, dep, d, title, b.get("分類", ""))
+            break
+        if not got:
+            miss += 1
+            rows.append((kw, "—", f"检索有 {len(items)} 条但题名均不含该串"))
+            continue
+        i, dep, d, title, cat = got
+        hit += 1
+        if _norm(title) in have:
+            dup += 1
+            rows.append((kw, title[:26], f"本库已有 {have[_norm(title)]}"))
+            continue
+        w, why = build(i, dep, d, cat)
+        if not w:
+            rows.append((kw, title[:26], f"建不出：{why}"))
+            continue
+        w["one_line"] = (w["one_line"].replace("**本条为著录级**",
+                         "**本条为精选著录级**"))
+        w["sections"]["basics"].append({
+            "t": "stmt", "state": "pend",
+            "text": "**本条属精选摄入**：由本库按美术史正典位点名索取，"
+                    "而非按接口顺序取得——**先问该有什么，再问接口给不给**。"
+                    "内容仍是照录馆方开放资料，未作阐释，是待升为完整级的候选。"})
+        if apply:
+            (WIKI / "data" / "works" / f"{w['id']}.json").write_text(
+                json.dumps(w, ensure_ascii=False, indent=2) + chr(10),
+                encoding="utf-8")
+            have[_norm(title)] = w["id"]
+        wrote += 1
+        rows.append((kw, title[:26], f"→ {w['id']}　{cat}／{w['period']}"))
+
+    print(f"{'查询串':<16}{'馆方题名':<28}结果")
+    for a, b_, c in rows:
+        print(f"{a:<16}{b_:<28}{c}")
+    print()
+    print(f"清单 {len(todo)} 条 · 命中 {hit} · 查无 {miss} · 本库已有 {dup} · "
+          f"新建 {wrote}{'（落盘）' if apply else '（试跑）'}")
+
+
 def main():
     ap = argparse.ArgumentParser(description="台北故宫开放资料摄入")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -494,11 +732,16 @@ def main():
     r.add_argument("--type", required=True)
     r.add_argument("--n", type=int, default=40)
     r.add_argument("--apply", action="store_true")
+    k = sub.add_parser("pick")
+    k.add_argument("--apply", action="store_true")
+    k.add_argument("--limit", type=int, default=0)
     a = ap.parse_args()
     if a.cmd == "probe":
         probe()
     elif a.cmd == "survey":
         survey()
+    elif a.cmd == "pick":
+        pick(a.apply, a.limit)
     else:
         run(a.type, a.n, a.apply)
 
