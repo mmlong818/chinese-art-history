@@ -1,0 +1,1331 @@
+{
+  "schema": "outline-units/1",
+  "scope": [
+    "northern-song",
+    "southern-song",
+    "liao-jin",
+    "yuan"
+  ],
+  "items": [
+    {
+      "id": "northern-song.painting.hanlin-tuhuayuan",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "翰林图画院的建立与院体",
+      "one_line": "北宋翰林图画院以画学考试、诗题命画的方式选拔画家，催生了以精细写实与诗意含蓄为标准的“院体”绘画。",
+      "expect": {
+        "artist": [
+          "郭熙",
+          "崔白"
+        ]
+      },
+      "basis": "canon.northern-song.keys(翰林图画院) / 邓椿《画继》卷九卷十记宣和画院制度",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.painting.li-guo-fan-pai",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "李郭传派：巨碑式山水的确立与延续",
+      "one_line": "李成、郭熙一系以全景式巨碑构图与“三远法”确立北宋山水画的典范样式，此后向金元延伸出武元直、唐棣等传派。",
+      "expect": {
+        "artist": [
+          "李成",
+          "郭熙"
+        ]
+      },
+      "basis": "canon.northern-song.dispute（北宋三家两说）/ 本库既有 li-cheng、guo-xi 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.painting.guoxi-linquan-sanyuan",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "郭熙《林泉高致》的三远法与山水画理论的实践化",
+      "one_line": "《林泉高致》提出的“高远、深远、平远”三远构图法，是北宋山水画从荆关董巨的经验总结走向系统理论的关键节点，直接影响郭熙自身的创作实践。",
+      "expect": {
+        "artist": [
+          "郭熙"
+        ],
+        "treatise": [
+          "林泉高致"
+        ]
+      },
+      "basis": "data/treatises/linquan-gaozhi.json 已立条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.painting.cuibai-huaniao-biange",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "崔白与花鸟画“变格”：黄家富贵体系的松动",
+      "one_line": "崔白打破画院沿用近百年的“黄家富贵”花鸟范式，以更具动势与野趣的构图被视为北宋花鸟画的“变格”关键人物。",
+      "expect": {
+        "artist": [
+          "崔白"
+        ]
+      },
+      "basis": "中国美术史通说（花鸟画科演变）；data/classes/huaniao.json 已载“两宋画院极盛”一段",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.painting.ligonglin-baimiao",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "李公麟与白描人物画的独立化",
+      "one_line": "李公麟将此前依附于设色的墨线勾勒，提炼为可独立成画的“白描”语言，是文人对绘画媒材本身进行提纯的关键个案。",
+      "expect": {
+        "artist": [
+          "李公麟"
+        ],
+        "class": [
+          "白描"
+        ]
+      },
+      "basis": "data/classes/baimiao.json 已明确以李公麟为定型节点",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.painting.jiehua-zhang-zeduan",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "界画的宫廷记录功能与《清明上河图》的市井题材",
+      "one_line": "郭忠恕、张择端一系的界画以精确的建筑与舟车描绘承担记录功能，《清明上河图》把这种精确性用于市井风俗全景，是画科与题材的双重突破。",
+      "expect": {
+        "artist": [
+          "张择端",
+          "郭忠恕"
+        ],
+        "class": [
+          "界画"
+        ]
+      },
+      "basis": "data/classes/jiehua.json 已点名张择端 / 本库既有相关 work 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.painting.mifu-midian-yunshan",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "米芾与“米点山水”的开创",
+      "one_line": "米芾以横点积叠表现江南云雾迷蒙的山水效果，自创一格，其子米友仁在南宋进一步发展为独立传派。",
+      "expect": {
+        "artist": [
+          "米芾"
+        ]
+      },
+      "basis": "canon.northern-song.keys（米氏云山）",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.painting.huizong-huayuan-zhidu",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "宋徽宗与画院制度化：画学考试与御题命画",
+      "one_line": "宋徽宗设“画学”纳入科举系统，以诗句命题考核画家，是院体标准被制度性固定下来的关键环节，但御笔与代笔的界限本身长期无解。",
+      "expect": {
+        "artist": [
+          "赵佶"
+        ]
+      },
+      "basis": "canon.northern-song.dispute（徽宗名下作品御笔／代笔无解）",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.calligraphy.songsi-jia-shangyi",
+      "period": "northern-song",
+      "domain": "calligraphy",
+      "name": "“宋四家”苏黄米蔡与尚意书风",
+      "one_line": "苏轼、黄庭坚、米芾、蔡襄以“我书意造本无法”为共同取向，把书法评价标准从“晋唐法度”转向个人性情的直接流露。",
+      "expect": {
+        "artist": [
+          "苏轼",
+          "黄庭坚",
+          "米芾",
+          "蔡襄"
+        ]
+      },
+      "basis": "本库既有四位艺术家条目 / canon.northern-song.dispute（“宋四家”等组合为后世归拢）",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.sculpture.jinci-caisu",
+      "period": "northern-song",
+      "domain": "sculpture",
+      "name": "晋祠圣母殿彩塑与北宋写实风格",
+      "one_line": "晋祠圣母殿内四十余尊侍女彩塑以贴近真人比例与神态的写实手法，代表北宋寺观彩塑不同于唐代造像程式的世俗化转向。",
+      "expect": {
+        "site": [
+          "晋祠圣母殿"
+        ]
+      },
+      "basis": "data/sites/jinci-shengmudian.json 已有条目（period 字段现为 null，span 载北宋 1102 年木构）",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.architecture.yingzao-fashi",
+      "period": "northern-song",
+      "domain": "architecture",
+      "name": "《营造法式》与官式建筑的模数化标准",
+      "one_line": "李诫奉敕编修《营造法式》，以“材”为模数统一官式建筑的设计与用工核算，是中国建筑史上第一部完整的规范化技术著作。",
+      "expect": {
+        "treatise": [
+          "营造法式"
+        ]
+      },
+      "basis": "中国古代建筑史通说；本库尚无该书对应 treatise 或 source 条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.architecture.beisong-mugou-guli",
+      "period": "northern-song",
+      "domain": "architecture",
+      "name": "隆兴寺摩尼殿与晋祠圣母殿：北宋木构孤例",
+      "one_line": "摩尼殿“十字形”平面与圣母殿的“减柱造”殿身，是北宋官式与地方做法差异并存的两处罕见实例，现存北宋木构本身数量远少于辽金。",
+      "expect": {
+        "site": [
+          "隆兴寺摩尼殿",
+          "晋祠圣母殿"
+        ]
+      },
+      "basis": "data/sites/longxing-si-mounidian.json、jinci-shengmudian.json 已有条目（period 字段现均为 null，待补）",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.bronze.jinshixue-xingqi",
+      "period": "northern-song",
+      "domain": "bronze",
+      "name": "金石学的兴起与仿古铜器的著录化",
+      "one_line": "欧阳修《集古录》、吕大临《考古图》开创以青铜器铭文与器形分类考订三代史事的“金石学”，直接影响了徽宗朝《宣和博古图》的编纂体例。",
+      "expect": {
+        "treatise": [
+          "考古图",
+          "集古录"
+        ]
+      },
+      "basis": "data/sources.json 已登记 xuanhe-bogu-tu；《考古图》《集古录》本库尚无独立条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.ceramics.ruyao-guanfu",
+      "period": "northern-song",
+      "domain": "ceramics",
+      "name": "汝窑与北宋官府用瓷",
+      "one_line": "汝窑天青釉传世不足百件，清凉寺窑址考古发掘给出的窑口断代，证据等级远高于仅凭传世品做的风格比对。",
+      "expect": {
+        "class": [
+          "汝窑"
+        ],
+        "site": [
+          "宝丰清凉寺窑址"
+        ]
+      },
+      "basis": "data/classes/ru-yao.json 已有条目；窑址考古报告（河南省文物考古研究所历年发掘简报）",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.ceramics.dingyao-fuke",
+      "period": "northern-song",
+      "domain": "ceramics",
+      "name": "定窑覆烧工艺与刻花印花装饰",
+      "one_line": "定窑首创的“覆烧”支圈组合工艺大幅提升产量但器口留下“芒口”，同期发展的刻花、印花装饰体系成为北方白瓷的技术标杆。",
+      "expect": {
+        "class": [
+          "定窑"
+        ]
+      },
+      "basis": "data/classes/ding-yao.json 已有条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.ceramics.yaozhouyao-kehua",
+      "period": "northern-song",
+      "domain": "ceramics",
+      "name": "耀州窑刻花青瓷的刀锋工艺",
+      "one_line": "耀州窑以斜刀深刻的犀利刀法著称，北宋盛期的刻花青瓷代表了同期刻花技术的最高水准，常与汝窑并论而窑址性质不同（民窑为主兼贡御）。",
+      "expect": {
+        "class": [
+          "耀州窑"
+        ]
+      },
+      "basis": "data/classes/yaozhou-yao.json 已有条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.ceramics.junyao-yaobian",
+      "period": "northern-song",
+      "domain": "ceramics",
+      "name": "钧窑窑变釉的呈色机制",
+      "one_line": "钧窑以铜元素在还原气氛下呈现的窑变釉色（玫瑰紫、海棠红）打破了单色釉的传统，盛期约在北宋晚期至金，断代仍依赖窑址地层与传世品比对的双轨。",
+      "expect": {
+        "class": [
+          "钧窑"
+        ]
+      },
+      "basis": "data/classes/jun-yao.json 已有条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.ceramics.cizhouyao-minyao",
+      "period": "northern-song",
+      "domain": "ceramics",
+      "name": "磁州窑民窑体系与白地黑花",
+      "one_line": "磁州窑以化妆土打底、铁锈花绘饰的“白地黑花”技法，代表北方民窑区别于官窑体系的另一条生产逻辑，题材也更贴近世俗生活。",
+      "expect": {
+        "class": [
+          "磁州窑"
+        ]
+      },
+      "basis": "data/classes/cizhou-yao.json 已有条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.ceramics.jingdezhen-yingqing",
+      "period": "northern-song",
+      "domain": "ceramics",
+      "name": "景德镇窑早期青白瓷（影青）的确立",
+      "one_line": "北宋景德镇窑烧成的青白瓷因釉色介于青白之间、暗刻花纹隐现如影而得名“影青”，为元代成为全国制瓷中心埋下伏笔。",
+      "expect": {
+        "class": [
+          "景德镇窑"
+        ]
+      },
+      "basis": "data/classes/jingdezhen-yao.json 已有条目（span 载“唐-今，元代以后成为全国核心”）",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.jade.songdai-fanggu-yu",
+      "period": "northern-song",
+      "domain": "jade",
+      "name": "宋代仿古玉与文人赏玉风气",
+      "one_line": "金石学兴起带动了以三代青铜器纹样为蓝本的仿古玉器生产，玉器从礼制用器进一步转向文人案头赏玩对象，具体器类与年代分布本库尚未逐条核实。",
+      "expect": {},
+      "basis": "中国玉器史通说，与本单元同期“金石学的兴起”互为背景",
+      "confidence": "待核"
+    },
+    {
+      "id": "northern-song.lacquer-textile.kesi-yimo-fanghua",
+      "period": "northern-song",
+      "domain": "lacquer-textile",
+      "name": "缂丝“以缂摹画”的确立",
+      "one_line": "朱克柔等缂丝名家把“通经断纬”技法用于摹缂名家画稿，使缂丝从实用织物发展出可与绘画比肩的独立鉴藏门类。",
+      "expect": {
+        "class": [
+          "缂丝"
+        ]
+      },
+      "basis": "data/classes/kesi.json 已有条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.metal-enamel.beisong-jinyinqi-suqian",
+      "period": "northern-song",
+      "domain": "metal-enamel",
+      "name": "北宋金银器的素面简约转向",
+      "one_line": "相较唐代金银器的满地装饰，北宋金银器整体趋向素面或折枝花卉一类疏朗纹样，反映审美趣味从盛唐富丽向宋代内敛的转变，具体量化对比本库尚未核实。",
+      "expect": {},
+      "basis": "中国金银器史通说（与何家村窖藏一类唐代材料的对比研究）",
+      "confidence": "待核"
+    },
+    {
+      "id": "northern-song.cave-temple.dazu-beishan-zhuanzhe",
+      "period": "northern-song",
+      "domain": "cave-temple",
+      "name": "大足北山石窟：唐末至南宋的转折点",
+      "one_line": "北山石窟造像跨越唐末、五代、北宋、南宋四个阶段，题材从晚唐延续的密教造像转向宋代更趋世俗化、生活化的观音与经变题材。",
+      "expect": {
+        "site": [
+          "北山"
+        ]
+      },
+      "basis": "data/sites/dazu-beishan.json 已有条目（period 字段现为 null）",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.tomb-art.baisha-songmu",
+      "period": "northern-song",
+      "domain": "tomb-art",
+      "name": "白沙宋墓：仿木构砖雕壁画墓的定型",
+      "one_line": "河南禹州白沙宋墓以仿木构砖雕梁栱斗栱模仿地上建筑，结合壁画表现墓主宴饮、伎乐场景，是北宋中原地区仿木构墓的代表性个案。",
+      "expect": {},
+      "basis": "宿白《白沙宋墓》（1957年发掘报告，中国考古学经典个案）",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.stone-carving.gongyi-songling-shixiang",
+      "period": "northern-song",
+      "domain": "stone-carving",
+      "name": "巩义宋陵神道石像生",
+      "one_line": "巩义宋陵七帝八陵沿神道排列的石像生组合（石狮、石人、瑞禽、象与驯象人等），延续唐陵制度而规模与雕刻程式略有调整，是北宋陵墓石刻制度的集中体现。",
+      "expect": {},
+      "basis": "中国陵墓石刻史通说（巩义宋陵历年考古调查）",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.print-folk.beisong-diaoban-chengshu",
+      "period": "northern-song",
+      "domain": "print-folk",
+      "name": "北宋雕版印刷的成熟与佛经历日刊刻",
+      "one_line": "北宋官刻、坊刻并行，《开宝藏》一类大部头佛经雕版与民间历日刊刻共同代表雕版印刷技术在此期趋于成熟，早于南宋建阳、临安书坊的商业化繁荣。",
+      "expect": {},
+      "basis": "中国印刷史通说",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.furniture.gaoxing-jiaju-dingxing",
+      "period": "northern-song",
+      "domain": "furniture",
+      "name": "高型家具体系的定型",
+      "one_line": "垂足而坐的生活方式至北宋基本普及，椅、凳、桌案等高型家具的基本形制在此期定型，取代了此前席地而坐、低矮家具为主的传统。",
+      "expect": {},
+      "basis": "中国家具史通说（与《清明上河图》一类图像材料互证）",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.theory.zhulu-tixi-xingcheng",
+      "period": "northern-song",
+      "domain": "theory",
+      "name": "著录体系的形成：从品第到“纪艺”的转型",
+      "one_line": "郭若虚《图画见闻志》明确以“接续《历代名画记》记事下限”为体例起点，把此前唐代品第式画录（神妙能逸）扩展为兼具画史通则与断代记事的“纪艺”体，是宋代著录体系区别于前代的关键转型。",
+      "expect": {
+        "treatise": [
+          "图画见闻志"
+        ]
+      },
+      "basis": "plan/ref-著录传统与正典链.md 1.3节（WebFetch核实）",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.theory.xuanhe-neifu-zhulu",
+      "period": "northern-song",
+      "domain": "theory",
+      "name": "宣和内府的收藏与《宣和画谱》《宣和书谱》",
+      "one_line": "《宣和画谱》以231人、6396轴的规模著录宣和内府所藏，标志正典构建的权力主体从文人品评个人转向朝廷，但只能反映曾入内府，不能反推当时画坛全貌。",
+      "expect": {
+        "treatise": [
+          "宣和画谱",
+          "宣和书谱"
+        ]
+      },
+      "basis": "plan/ref-著录传统与正典链.md 1.6节（WebFetch核实231人/6396轴）",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.theory.linquan-gaozhi-lilun",
+      "period": "northern-song",
+      "domain": "theory",
+      "name": "郭熙《林泉高致》与山水画理论的系统化",
+      "one_line": "《林泉高致》首次把山水画的观看方式（三远）、创作状态（“身即山川而取之”）系统表述为可传授的理论，是宋代画论从品评转向创作方法论的代表。",
+      "expect": {
+        "treatise": [
+          "林泉高致"
+        ]
+      },
+      "basis": "data/treatises/linquan-gaozhi.json 已立条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.theory.wenrenhua-tiyichu",
+      "period": "northern-song",
+      "domain": "theory",
+      "name": "文人画理论的提出：苏轼“士人画”与“胸有成竹”",
+      "one_line": "苏轼提出“论画以形似，见与儿童邻”与“士人画”的说法，和文同“胸有成竹”的创作论一起，构成北宋文人画理论最早的系统表述，深刻影响此后近千年的评价标准。",
+      "expect": {
+        "artist": [
+          "苏轼",
+          "文同"
+        ],
+        "class": [
+          "墨竹"
+        ]
+      },
+      "basis": "data/classes/mozhu.json 已明确记载苏轼、文同的理论奠基地位",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.theory.mifu-jianzang-biji",
+      "period": "northern-song",
+      "domain": "theory",
+      "name": "米芾书画鉴藏笔记的个人化品评",
+      "one_line": "米芾《画史》《书史》《宝章待访录》以个人所见所闻记录鉴藏经验，“目睹”与“的闻”两类分列的做法，是带有明显个人好恶却也最早具备证据分级意识的著录范例。",
+      "expect": {
+        "treatise": [
+          "画史",
+          "书史",
+          "宝章待访录"
+        ],
+        "artist": [
+          "米芾"
+        ]
+      },
+      "basis": "plan/ref-著录传统与正典链.md 1.7节",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.theory.jinshixue-zhulu-kuozhan",
+      "period": "northern-song",
+      "domain": "theory",
+      "name": "金石学的兴起与著录范式的扩展",
+      "one_line": "欧阳修《集古录》、吕大临《考古图》把著录对象从书画扩展到青铜器铭文与器形，与画史著录并行，构成宋代“著录传统”整体扩张的另一条线索。",
+      "expect": {
+        "treatise": [
+          "考古图",
+          "集古录"
+        ]
+      },
+      "basis": "plan/ref-全集与图录体系.md 与 plan/ref-著录传统与正典链.md 均未覆盖此二书，但为金石学通说",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.painting.linan-huayuan-yanxu",
+      "period": "southern-song",
+      "domain": "painting",
+      "name": "临安画院的延续与南渡画风的转折",
+      "one_line": "高宗朝在临安重建画院，李唐、刘松年等由北宋画院南渡的画家把李郭传派的巨碑山水逐渐改造为更适应册页、扇面小景的新构图。",
+      "expect": {
+        "artist": [
+          "李唐",
+          "刘松年"
+        ]
+      },
+      "basis": "canon.southern-song.keys（李唐刘松年）/ canon.northern-song 李郭传派的延续",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.painting.mayixia-banbian",
+      "period": "southern-song",
+      "domain": "painting",
+      "name": "马夏与边角构图",
+      "one_line": "马远、夏圭把全景山水压缩为画面一角或半边，留白替代填满，即所谓“马一角夏半边”，是南宋院体山水最具辨识度的构图革新。",
+      "expect": {
+        "artist": [
+          "马远",
+          "夏圭"
+        ]
+      },
+      "basis": "canon.southern-song.keys（马一角夏半边）/ 本库既有 ma-yuan、xia-gui 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.painting.liangkai-jianbi",
+      "period": "southern-song",
+      "domain": "painting",
+      "name": "梁楷与减笔人物画",
+      "one_line": "梁楷以寥寥数笔的“减笔”手法画禅宗祖师与高士，把水墨的书写性推到与题材的疏放气质相匹配的极致，是南宋人物画里最激进的一支。",
+      "expect": {
+        "artist": [
+          "梁楷"
+        ]
+      },
+      "basis": "canon.southern-song.keys（梁楷）/ 本库既有 liang-kai 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.painting.chanhua-diwei",
+      "period": "southern-song",
+      "domain": "painting",
+      "name": "禅画在南宋的地位与由日本反向推高的评价史",
+      "one_line": "牧溪、玉涧一类禅画在本土画史长期不入正统，其经典地位很大程度上由镰仓以后日本收藏与鉴赏体系反向确立，是评价路径本身值得记录的个案。",
+      "expect": {
+        "artist": [
+          "牧溪法常"
+        ]
+      },
+      "basis": "canon.southern-song.dispute（禅画地位由日本收藏与研究反向推高）",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.painting.liguo-nandu-zhuanzhe",
+      "period": "southern-song",
+      "domain": "painting",
+      "name": "李郭传派与南渡后的转折",
+      "one_line": "北宋李成、郭熙一系的巨碑山水在南渡后被压缩、简化，部分元素（蟹爪枝、卷云皴）被李唐、萧照等吸收改造，成为连接北宋全景山水与南宋边角构图的过渡环节。",
+      "expect": {},
+      "basis": "中国山水画史通说（李郭传派的地理与风格流变）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.painting.yuanti-huaniao-xiaojing",
+      "period": "southern-song",
+      "domain": "painting",
+      "name": "院体花鸟小品与团扇册页",
+      "one_line": "南宋画院花鸟画从北宋的大幅屏障转向团扇、册页一类小尺幅，题材更趋日常化，与南宋绘画整体“从全景收缩为边角”的趋势同构。",
+      "expect": {},
+      "basis": "canon.southern-song.one_line（画面从全景收缩为边角，尺幅从壁障转向册页）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.calligraphy.wuju-mifeng-chengji",
+      "period": "southern-song",
+      "domain": "calligraphy",
+      "name": "吴琚对米芾书风的承继",
+      "one_line": "吴琚是南宋书坛少数专精米芾一路“风樯阵马”笔势并达到可与米芾真迹混淆水准的书家，反映南宋帖学在北宋大家阴影下的延续方式。",
+      "expect": {},
+      "basis": "中国书法史通说",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.sculpture.feilaifeng-shisu",
+      "period": "southern-song",
+      "domain": "sculpture",
+      "name": "飞来峰造像的世俗化",
+      "one_line": "杭州飞来峰南宋摩崖造像题材以布袋弥勒、罗汉为主，面容与体态趋于亲切写实而非早期造像的庄严程式，反映江南佛教造像的世俗化取向。",
+      "expect": {},
+      "basis": "中国石窟艺术史通说（飞来峰造像分期研究）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.architecture.jiangnan-chansi-jialan",
+      "period": "southern-song",
+      "domain": "architecture",
+      "name": "江南禅寺伽蓝配置的定型",
+      "one_line": "南宋“五山十刹”体制下的禅寺伽蓝配置（山门-佛殿-法堂中轴序列）经日本入宋求法僧带回，深刻影响了日本镰仓时代的禅宗样建筑，而本土南宋原构本身现存实例稀少。",
+      "expect": {},
+      "basis": "中国建筑史通说（五山十刹制度与日本禅宗样的关系）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.bronze.nansong-fanggu-tongqi",
+      "period": "southern-song",
+      "domain": "bronze",
+      "name": "南宋仿古铜器与文房用器的兴起",
+      "one_line": "北宋金石学积累的青铜器图像谱系，到南宋逐渐转化为文人案头仿古铜器（炉、瓶、觚）的实际生产，礼器功能让位于陈设与焚香实用。",
+      "expect": {},
+      "basis": "中国青铜器史通说（与北宋“金石学的兴起”单元互为前后关系）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.ceramics.longquanyao-nandu-dingxing",
+      "period": "southern-song",
+      "domain": "ceramics",
+      "name": "龙泉窑青瓷的南渡定型：粉青梅子青",
+      "one_line": "龙泉窑在南宋发展出多次施釉形成的粉青、梅子青厚釉效果，窑址集中于大窑、金村一带，是南宋以后取代越窑成为南方青瓷代表的关键阶段。",
+      "expect": {
+        "class": [
+          "龙泉窑"
+        ]
+      },
+      "basis": "data/classes/longquan-yao.json 已有条目（span 载“南宋-元大盛”）",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.ceramics.guanyao-geyao-zhengyi",
+      "period": "southern-song",
+      "domain": "ceramics",
+      "name": "官窑窑址与传世哥窑的断代争议",
+      "one_line": "南宋官窑修内司窑、郊坛下窑窑址已经考古发掘确认，而“哥窑”仅见于明代以后文献，传世哥窑器与考古材料的年代对应关系至今未定——窑址实证与传世品风格判断在这里出现了本库应如实标注的证据等级落差。",
+      "expect": {
+        "class": [
+          "官窑",
+          "哥窑"
+        ]
+      },
+      "basis": "data/classes/guan-yao.json（窑址已发掘）、data/classes/ge-yao.json（对应关系未定）均已有条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.ceramics.jianyao-doucha",
+      "period": "southern-song",
+      "domain": "ceramics",
+      "name": "建窑黑釉盏与斗茶风尚",
+      "one_line": "建窑兔毫、油滴一类结晶釉黑盏因适配南宋点茶、斗茶时观察汤花的实际需要而大量生产，并经僧人交流传入日本，成为“天目”茶盏体系的源头。",
+      "expect": {
+        "class": [
+          "建窑"
+        ]
+      },
+      "basis": "data/classes/jian-yao.json 已有条目（span 载“南宋为盛期”）",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.ceramics.jizhouyao-muye",
+      "period": "southern-song",
+      "domain": "ceramics",
+      "name": "吉州窑木叶天目与剪纸贴花",
+      "one_line": "吉州窑以真实树叶贴烧形成的木叶纹、剪纸镂空贴花等民间装饰手法，与建窑的结晶釉传统并行，代表南方民窑在同一“天目”茶盏门类下的另一条技术路径。",
+      "expect": {},
+      "basis": "中国陶瓷史通说（吉州窑装饰工艺）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.ceramics.jingdezhen-nansong-yanxu",
+      "period": "southern-song",
+      "domain": "ceramics",
+      "name": "景德镇窑南宋青白瓷的延续与外销",
+      "one_line": "南宋景德镇青白瓷继续北宋“影青”传统并扩大外销规模，东南亚、南亚多处沉船与遗址出土印证了这一时期海上贸易网络中的瓷器流向。",
+      "expect": {
+        "class": [
+          "景德镇窑"
+        ]
+      },
+      "basis": "data/classes/jingdezhen-yao.json 已有条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.jade.nansong-yuqi-shisu-tici",
+      "period": "southern-song",
+      "domain": "jade",
+      "name": "南宋玉器的世俗化题材",
+      "one_line": "南宋玉器佩饰、带饰上的花鸟、婴戏一类生活化题材增多，礼制性纹样进一步让位于世俗审美，具体量化比例本库尚未核实。",
+      "expect": {},
+      "basis": "中国玉器史通说",
+      "confidence": "待核"
+    },
+    {
+      "id": "southern-song.lacquer-textile.nansong-diaoqi-chuxing",
+      "period": "southern-song",
+      "domain": "lacquer-textile",
+      "name": "南宋雕漆的初兴",
+      "one_line": "雕漆技法在唐代已见雏形，南宋温州一带的髹漆作坊被认为是这一技法走向体系化生产的重要阶段，为元明剔红的成熟做了准备。",
+      "expect": {
+        "class": [
+          "雕漆"
+        ]
+      },
+      "basis": "data/classes/diaoqi.json 已有条目（span 载“宋元渐成体系”）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.metal-enamel.jiangnan-jinyinqi-gongyi",
+      "period": "southern-song",
+      "domain": "metal-enamel",
+      "name": "南宋金银器的江南工艺特征",
+      "one_line": "江苏溧阳等地南宋窖藏出土的金银器以錾刻精细的花卉纹样与轻薄胎体为特征，是否确实构成有别于北宋的独立地域风格，本库尚未核实。",
+      "expect": {},
+      "basis": "中国金银器史通说（江南地区南宋窖藏材料）",
+      "confidence": "待核"
+    },
+    {
+      "id": "southern-song.cave-temple.feilaifeng-huangshi-zanzhu",
+      "period": "southern-song",
+      "domain": "cave-temple",
+      "name": "杭州飞来峰造像与南宋皇室的佛教赞助",
+      "one_line": "飞来峰摩崖造像题记中可考的南宋官员、僧侣供养人信息，是研究南宋皇室与士大夫佛教赞助网络的重要材料，具体供养关系网络本库尚未核实。",
+      "expect": {},
+      "basis": "中国石窟艺术史通说（飞来峰造像题记研究）",
+      "confidence": "待核"
+    },
+    {
+      "id": "southern-song.tomb-art.jiangnan-zhuanshi-mu",
+      "period": "southern-song",
+      "domain": "tomb-art",
+      "name": "南宋江南砖室墓与随葬瓷器组合",
+      "one_line": "南宋江南地区流行的长方形砖室墓，随葬品以龙泉窑、景德镇窑瓷器组合为主而非北方常见的仿木构砖雕，具体形制统计本库尚未核实。",
+      "expect": {},
+      "basis": "中国考古学通说（江南宋墓形制与随葬品组合）",
+      "confidence": "待核"
+    },
+    {
+      "id": "southern-song.stone-carving.nansong-mudao-shike",
+      "period": "southern-song",
+      "domain": "stone-carving",
+      "name": "南宋墓道石刻与地方碑刻传统",
+      "one_line": "南宋墓道石刻规模普遍小于北宋巩义帝陵体系，更多依托地方碑刻（神道碑、墓志）传统，反映政治中心南迁后陵墓制度本身的收缩，具体比较数据本库尚未核实。",
+      "expect": {},
+      "basis": "中国陵墓石刻史通说",
+      "confidence": "待核"
+    },
+    {
+      "id": "southern-song.print-folk.linan-shufang-kegao",
+      "period": "southern-song",
+      "domain": "print-folk",
+      "name": "南宋临安书坊刻书与图籍插图",
+      "one_line": "临安、建阳一带书坊刻书业在南宋高度商业化，佛经、话本、类书的插图版画随之繁荣，是北宋官刻为主格局向民间坊刻扩张的关键阶段。",
+      "expect": {},
+      "basis": "中国印刷史通说",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.furniture.nansong-wenren-shuzhai",
+      "period": "southern-song",
+      "domain": "furniture",
+      "name": "南宋文人书斋家具的定型",
+      "one_line": "南宋文人书斋家具（书案、椅、格架）在北宋高型家具基础上进一步精细化，尺度与陈设方式开始与文房清玩的鉴赏活动直接配合，具体实物证据本库尚未核实。",
+      "expect": {},
+      "basis": "中国家具史通说",
+      "confidence": "待核"
+    },
+    {
+      "id": "southern-song.theory.huaji-xushi",
+      "period": "southern-song",
+      "domain": "theory",
+      "name": "邓椿《画继》续《图画见闻志》记事下限",
+      "one_line": "邓椿《画继》明确以“续《图画见闻志》记事下限”（1074）为体例起点，记至南宋乾道三年（1167），凡219人，其卷九卷十“杂说”对宣和画院制度记载尤详。",
+      "expect": {
+        "treatise": [
+          "画继"
+        ]
+      },
+      "basis": "plan/ref-著录传统与正典链.md 1.8节（WebFetch核实219人）",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.architecture.yingxian-muta",
+      "period": "liao-jin",
+      "domain": "architecture",
+      "name": "应县木塔：现存最古老的木构楼阁式塔",
+      "one_line": "佛宫寺释迦塔（应县木塔）建于辽清宁二年（1056），是现存最古老、也是唯一一座木构楼阁式塔，全塔不用一根铁钉，斗栱形制多达五十余种。",
+      "expect": {
+        "site": [
+          "应县木塔"
+        ]
+      },
+      "basis": "data/sites/yingxian-muta.json 已有条目（period 字段现为 null）",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.architecture.dulesi-guanyinge",
+      "period": "liao-jin",
+      "domain": "architecture",
+      "name": "独乐寺观音阁与山门：辽代木构的空间原型",
+      "one_line": "蓟县独乐寺观音阁以三层内槽围绕十六米高观音塑像的空间处理、山门“人”字形斗栱与鸱吻，是辽代统和二年（984）重建木构中体量与年代都最具代表性的一例。",
+      "expect": {
+        "site": [
+          "独乐寺观音阁与山门"
+        ]
+      },
+      "basis": "data/sites/dule-si.json 已有条目（period 字段现为 null）",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.architecture.huayanci-liaojin-liangci",
+      "period": "liao-jin",
+      "domain": "architecture",
+      "name": "大同华严寺：辽金两次营建的木构组群",
+      "one_line": "华严寺下寺薄伽教藏殿建于辽重熙七年（1038），上寺大雄宝殿则是金代重建，一寺两殿分属辽金两代，恰是“辽金”并列分期本身的建筑物证。",
+      "expect": {
+        "site": [
+          "大同华严寺薄伽教藏殿"
+        ]
+      },
+      "basis": "data/sites/huayan-si-bojiajiaozang.json 已有条目（period 字段现为 null）；上寺大雄宝殿本库尚无条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.architecture.shanhuasi-liaojin-geju",
+      "period": "liao-jin",
+      "domain": "architecture",
+      "name": "大同善化寺：辽金木构组群的完整格局",
+      "one_line": "善化寺始建于唐，辽末毁于兵火，金天会至皇统年间（1128–1143）重建，山门、三圣殿、大雄宝殿沿中轴排列，是现存辽金寺院组群格局最完整的孤例之一。",
+      "expect": {},
+      "basis": "canon.liao-jin.centres（大同）/ 中国古代建筑史通说（梁思成、刘敦桢历次调查）",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.architecture.chongfusi-mituodian",
+      "period": "liao-jin",
+      "domain": "architecture",
+      "name": "朔州崇福寺弥陀殿：金代木构的类型延续",
+      "one_line": "崇福寺弥陀殿建于金皇统三年（1143），面阔九间，格扇棂花样式繁多，是金代官式木构延续辽代做法而略有地方化调整的代表。",
+      "expect": {
+        "site": [
+          "朔州崇福寺弥陀殿"
+        ]
+      },
+      "basis": "data/sites/chongfu-si-mituodian.json 已有条目（period 字段现为 null）",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.architecture.kaishansi-liao",
+      "period": "liao-jin",
+      "domain": "architecture",
+      "name": "高碑店开善寺：辽代木构的又一孤例",
+      "one_line": "开善寺大殿的辽代木构年代与形制细节本库尚未逐一核实，但在通行的辽代木构清单中常与独乐寺、应县木塔并列，是本库需要补入的又一处实物。",
+      "expect": {},
+      "basis": "任务背景枚举 / 中国古代建筑史通说，具体年代与形制细节未核实",
+      "confidence": "待核"
+    },
+    {
+      "id": "liao-jin.tomb-art.xuanhua-liaomu-bihua",
+      "period": "liao-jin",
+      "domain": "tomb-art",
+      "name": "宣化辽墓壁画：张世卿墓一系",
+      "one_line": "河北宣化下八里辽代壁画墓群（以张世卿墓为代表）绘有星象图、备茶图、散乐图等题材，是研究辽代汉人世家丧葬观念与生活场景最系统的图像材料之一。",
+      "expect": {},
+      "basis": "canon.liao-jin.keys（墓室壁画）/ 中国美术史通说；canon.liao-jin.centres 现列“蔚县”，与通行的“宣化”表述是否一致待核",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.tomb-art.kulunqi-liaomu-bihua",
+      "period": "liao-jin",
+      "domain": "tomb-art",
+      "name": "库伦旗辽墓壁画群",
+      "one_line": "内蒙古库伦旗辽代墓群壁画以出行图、散乐图、竹雀图等题材著称，墓主多为契丹贵族，是辽代草原地区（有别于宣化汉人世家）墓葬壁画的另一代表体系。",
+      "expect": {},
+      "basis": "canon.liao-jin.centres（库伦旗）",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.tomb-art.chenguo-gongzhu-mu",
+      "period": "liao-jin",
+      "domain": "tomb-art",
+      "name": "陈国公主墓：辽代贵族墓葬制度与金银器组合",
+      "one_line": "内蒙古通辽陈国公主墓（《辽陈国公主墓》1993年发掘报告）出土金银覆面、项链、蹀躞带等成组随葬品，是辽代契丹贵族墓葬制度保存最完整的个案之一，但本库目前尚无对应 site 条目。",
+      "expect": {},
+      "basis": "plan/ref-考古与遗址体系.md 第三节（已登记有正式发掘报告，现状“缺 site”）",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.tomb-art.houma-jinmu-fangmugou",
+      "period": "liao-jin",
+      "domain": "tomb-art",
+      "name": "侯马金墓仿木构砖雕",
+      "one_line": "山西侯马董氏墓一类金代砖雕墓以仿木构梁栱、门窗、家具形象装饰墓室四壁，题材贴近墓主生活场景，是金代中原地区墓葬美术的代表个案。",
+      "expect": {},
+      "basis": "plan/ref-考古与遗址体系.md 第三节（“金元墓葬壁画”部分点名侯马董氏墓）",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.tomb-art.baoshan-liaomu-bihua",
+      "period": "liao-jin",
+      "domain": "tomb-art",
+      "name": "赤峰宝山辽墓壁画",
+      "one_line": "内蒙古阿鲁科尔沁旗宝山辽墓（约10世纪初）所绘“寄锦图”“颂经图”等，是现存年代最早的一批辽代墓葬壁画，早于宣化辽墓群近两个世纪。",
+      "expect": {},
+      "basis": "中国美术史通说（辽代早期墓葬壁画研究）",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.painting.hu-huai-li-zanhua-fanma",
+      "period": "liao-jin",
+      "domain": "painting",
+      "name": "胡瓌、李赞华与番马题材绘画",
+      "one_line": "胡瓌以精细笔法描绘契丹游牧生活与马匹著称，契丹皇族出身的李赞华（耶律倍）同样擅画番马题材，二人是辽代画史里少数留名的个体画家。",
+      "expect": {
+        "artist": [
+          "胡瓌",
+          "李赞华"
+        ]
+      },
+      "basis": "本库既有 hu-huai、li-zanhua 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.calligraphy.wangtingyun-jinwen",
+      "period": "liao-jin",
+      "domain": "calligraphy",
+      "name": "王庭筠与金代文人书法",
+      "one_line": "王庭筠工诗文书画，书法出入米芾一路而自成面目，是金代文人书法能与两宋士人书风对话的代表个案。",
+      "expect": {
+        "artist": [
+          "王庭筠"
+        ]
+      },
+      "basis": "本库既有 wang-tingyun 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.sculpture.huayansi-liao-caisu",
+      "period": "liao-jin",
+      "domain": "sculpture",
+      "name": "华严寺辽代彩塑：“合掌露齿菩萨”",
+      "one_line": "华严寺下寺薄伽教藏殿内现存辽代彩塑二十九尊，其中一尊面露微笑、双手合十的胁侍菩萨因体态生动常被称作“东方维纳斯”，是辽代寺观彩塑写实功力的代表。",
+      "expect": {
+        "site": [
+          "大同华严寺薄伽教藏殿"
+        ]
+      },
+      "basis": "data/sites/huayan-si-bojiajiaozang.json 已有条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.bronze.liaodai-tongjing",
+      "period": "liao-jin",
+      "domain": "bronze",
+      "name": "辽代铜镜纹饰与中原式样的融合",
+      "one_line": "辽代铜镜在造型上部分沿用中原唐宋式样，又发展出双鱼纹、契丹文铭一类本地特征，是判断辽墓年代与文化认同的常用旁证材料，具体分期谱系本库尚未核实。",
+      "expect": {},
+      "basis": "中国铜镜史通说",
+      "confidence": "待核"
+    },
+    {
+      "id": "liao-jin.ceramics.liaosancai-jiguanhu",
+      "period": "liao-jin",
+      "domain": "ceramics",
+      "name": "辽三彩与鸡冠壶：游牧生活方式对器形的重塑",
+      "one_line": "辽三彩承唐三彩余绪而釉色简化为黄绿白三色，鸡冠壶（马镫壶）则是模仿契丹皮囊水具形制烧造的陶瓷器形，是游牧生活方式直接塑造器物形制的典型个案。",
+      "expect": {},
+      "basis": "canon.liao-jin.keys（辽三彩）",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.jade.chunshui-qiushan-yu",
+      "period": "liao-jin",
+      "domain": "jade",
+      "name": "契丹贵族玉带与“春水秋山”主题玉雕",
+      "one_line": "“春水”（海东青擒天鹅）与“秋山”（山林虎鹿）是辽金玉雕最具地域辨识度的主题，直接取材于契丹女真皇室的四时捺钵渔猎活动，与中原玉器的礼制或吉祥纹样传统明显不同。",
+      "expect": {},
+      "basis": "中国玉器史通说，与“捺钵”制度研究互证；canon.liao-jin.keys 未直接列出此题材",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.lacquer-textile.liaomu-sichou",
+      "period": "liao-jin",
+      "domain": "lacquer-textile",
+      "name": "辽墓出土丝织品与草原丝绸之路",
+      "one_line": "辽墓（如陈国公主墓、耶律羽之墓）出土的丝织品中既有中原织造，也有中亚、西亚风格的织金锦，反映辽代草原政权在丝绸之路贸易网络中的枢纽位置，具体产地判定本库尚未核实。",
+      "expect": {},
+      "basis": "中国纺织史通说（辽代草原丝路研究）",
+      "confidence": "待核"
+    },
+    {
+      "id": "liao-jin.metal-enamel.qidan-liujin-yinguan",
+      "period": "liao-jin",
+      "domain": "metal-enamel",
+      "name": "契丹鎏金银冠与摩羯纹金银器",
+      "one_line": "契丹贵族随葬的鎏金银冠，包括陈国公主墓所出的成组金银覆面与项饰，摩羯纹样明显吸收了佛教艺术元素，是辽代金银器工艺水准的集中体现。",
+      "expect": {},
+      "basis": "plan/ref-考古与遗址体系.md 提及陈国公主墓已有发掘报告",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.cave-temple.yanshansi-jinhua-bihua",
+      "period": "liao-jin",
+      "domain": "cave-temple",
+      "name": "繁峙岩山寺壁画：金代文人画风格移入寺观空间",
+      "one_line": "山西繁峙岩山寺文殊殿壁画相传出自金代宫廷画师王逵之手，画风精细近北宋院体人物画传统，是判断金代绘画对北宋传统承续程度的重要个案，但其性质是寺观壁画而非严格意义的石窟。",
+      "expect": {},
+      "basis": "中国美术史通说（岩山寺壁画研究）；此处借用 cave-temple 门类承载寺观壁画，与该门类原为石窟寺设计存在错位，提纲如实标注",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.stone-carving.liaojin-jingchuang",
+      "period": "liao-jin",
+      "domain": "stone-carving",
+      "name": "辽金经幢与佛顶尊胜陀罗尼经幢的地域延续",
+      "one_line": "佛顶尊胜陀罗尼经幢自唐代兴起后，辽金时期在燕云地区持续镌造，是判断该地区佛教信仰延续性与地方工匠传统的重要石刻材料，具体现存实例清单本库尚未核实。",
+      "expect": {},
+      "basis": "中国石刻史通说",
+      "confidence": "待核"
+    },
+    {
+      "id": "liao-jin.print-folk.yingxian-muta-micang",
+      "period": "liao-jin",
+      "domain": "print-folk",
+      "name": "应县木塔辽代秘藏佛经的发现",
+      "one_line": "1974年在应县木塔佛像内发现的辽代刻经、写经与雕版印刷品，是现存最重要的辽代雕版印刷实物材料之一，填补了辽代印刷史长期依赖文献记载而无实物的空白。",
+      "expect": {
+        "site": [
+          "应县木塔"
+        ]
+      },
+      "basis": "中国印刷史通说（应县木塔辽代秘藏的发现与整理）",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.furniture.liaomu-jiaju-tuxiang",
+      "period": "liao-jin",
+      "domain": "furniture",
+      "name": "辽墓壁画所见家具图像",
+      "one_line": "辽代家具实物遗存极少，现有认识主要依赖宣化辽墓、库伦旗辽墓壁画中描绘的桌椅、屏风图像，是“以图证物”而非依据实物断代的典型情形。",
+      "expect": {},
+      "basis": "与本单元同期“宣化辽墓壁画”“库伦旗辽墓壁画群”两单元互为材料来源",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.theory.jindai-wenren-pinping",
+      "period": "liao-jin",
+      "domain": "theory",
+      "name": "金代文人圈的书画品评：散见笔记而非独立著录",
+      "one_line": "金代不存在类似《图画见闻志》《画继》一类独立成书的画史著录，王庭筠一类文人的书画品评意见多散见于题跋与刘祁《归潜志》一类笔记，本库在这一格上如实标注：辽金画论门类本身就是本库著录传统链条上最薄弱的一环。",
+      "expect": {
+        "artist": [
+          "王庭筠"
+        ]
+      },
+      "basis": "plan/ref-著录传统与正典链.md 全篇均未出现辽金著录环节，与该文档24环全部集中于唐宋元明清的事实互证",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.painting.zhaomengfu-shuhua-tongyuan",
+      "period": "yuan",
+      "domain": "painting",
+      "name": "赵孟頫与“书画同源”“以书入画”的理论化",
+      "one_line": "赵孟頫提出“石如飞白木如籀”“写竹还应八法通”，把书法用笔直接引入绘画语言，使“以书入画”从个别实践上升为可传授的理论主张，深刻影响元代及以后的文人画正当性论述。",
+      "expect": {
+        "artist": [
+          "赵孟頫"
+        ]
+      },
+      "basis": "canon.yuan.keys（书画同源、以书入画）/ 本库既有 zhao-mengfu 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.painting.yuansijia-yinyi",
+      "period": "yuan",
+      "domain": "painting",
+      "name": "元四家与隐逸母题",
+      "one_line": "黄公望、倪瓒、王蒙、吴镇以萧散荒寒的江南山水寄托易代之后不仕的隐逸心态，“元四家”具体名单本身在明代即有多个版本（有以倪瓒易赵孟頫者），不宜当作元代画坛唯一定论。",
+      "expect": {
+        "artist": [
+          "黄公望",
+          "倪瓒",
+          "王蒙",
+          "吴镇"
+        ]
+      },
+      "basis": "canon.yuan.dispute（元四家名单多版本）/ 本库既有四位艺术家条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.painting.qianxuan-shiqi",
+      "period": "yuan",
+      "domain": "painting",
+      "name": "钱选与“士气”说：南宋遗民画家的身份转换",
+      "one_line": "钱选宋亡后拒不出仕，提出绘画应有别于职业画工的“士气”，是元初“吴兴八俊”里最早明确提出文人画身份论述的个案，本库目前完全未收此人。",
+      "expect": {
+        "artist": [
+          "钱选"
+        ]
+      },
+      "basis": "plan/ref-艺术家名录体系.md 3.B节点名钱选为“完全缺失”的一级人物",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.painting.gaokegong-mishi-yunshan",
+      "period": "yuan",
+      "domain": "painting",
+      "name": "高克恭与“米氏云山”的多元文化背景",
+      "one_line": "高克恭出身色目（回鹘）家庭而深研米芾米友仁一路云山画法，其个案本身提示元代绘画正统性论述之外，还存在一条由多元族群背景画家参与的支线，本库目前完全未收此人。",
+      "expect": {
+        "artist": [
+          "高克恭"
+        ]
+      },
+      "basis": "plan/ref-艺术家名录体系.md 3.B节点名高克恭为“完全缺失”的一级人物",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.painting.wangzhenpeng-jiehua",
+      "period": "yuan",
+      "domain": "painting",
+      "name": "王振鹏与元代界画的宫廷记录功能",
+      "one_line": "王振鹏以精细界画记录宫廷建筑与礼仪场面，延续了北宋郭忠恕、张择端一系的界画传统，但服务对象从市井全景转向宫廷记录。",
+      "expect": {},
+      "basis": "中国绘画史通说（元代界画传承）",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.painting.likan-kejiu-mozhu",
+      "period": "yuan",
+      "domain": "painting",
+      "name": "李衎、柯九思与元代墨竹的谱系化",
+      "one_line": "李衎《竹谱详录》与柯九思的墨竹实践，把北宋文同、苏轼开创的墨竹题材发展为有系统画法谱系的专门画科，《宣和画谱》十门中“墨竹”的独立地位在元代得到进一步巩固。",
+      "expect": {
+        "class": [
+          "墨竹"
+        ]
+      },
+      "basis": "data/classes/mozhu.json 已有条目（span 载“元代李衎、柯九思、赵孟頫续之”）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.architecture.yongle-gong-jianzhu-bihua",
+      "period": "yuan",
+      "domain": "architecture",
+      "name": "永乐宫：元代道教宫观建筑与壁画的一体化",
+      "one_line": "永乐宫三清殿、纯阳殿等建筑群与殿内《朝元图》壁画同期营建、互为整体，但按本库门类划分，壁画载体本应归入石窟寺或墓葬美术两门，而永乐宫既非石窟亦非墓葬——这是提纲在套用现有门类框架时暴露的一处边界空白，如实标注而不强行归类。",
+      "expect": {
+        "site": [
+          "永乐宫"
+        ]
+      },
+      "basis": "canon.yuan.keys（永乐宫壁画）/ data/sites/yongle-gong.json 已有条目（period 字段现为 null）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.ceramics.yuanqinghua-chengshu",
+      "period": "yuan",
+      "domain": "ceramics",
+      "name": "元青花的成熟与外销",
+      "one_line": "元代景德镇以进口“苏麻离青”钴料烧制的青花瓷，纹样构图明显受伊斯兰市场审美影响，其年代与外销脉络近数十年因海外沉船与窑址发掘材料大幅改写，不宜再套用旧有的单一叙事。",
+      "expect": {},
+      "basis": "canon.yuan.keys（元青花）/ canon.yuan.dispute（元青花年代与外销脉络近年大幅改写）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.ceramics.shufuci-guanfu",
+      "period": "yuan",
+      "domain": "ceramics",
+      "name": "景德镇枢府瓷（卵白釉）与元代官府用瓷制度",
+      "one_line": "元代枢密院定烧的卵白釉瓷器因器身多印“枢府”二字得名，是元代官府用瓷制度区别于宋代汝官哥钧定单一名窑体系的新形态。",
+      "expect": {},
+      "basis": "canon.yuan.keys（枢府瓷）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.ceramics.longquanyao-yuandai-waixiao",
+      "period": "yuan",
+      "domain": "ceramics",
+      "name": "龙泉窑元代大型外销器与“处州瓷器”贸易网络",
+      "one_line": "元代龙泉窑一改南宋精细路线，烧造大量适应海外市场需求的大型外销器皿，与元青花共同构成元代瓷器外销的两条主力产品线。",
+      "expect": {
+        "class": [
+          "龙泉窑"
+        ]
+      },
+      "basis": "data/classes/longquan-yao.json 已有条目（span 载“元大盛”）",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.ceramics.cizhouyao-yuandai-shisuhua",
+      "period": "yuan",
+      "domain": "ceramics",
+      "name": "磁州窑元代白地黑花的题材世俗化",
+      "one_line": "元代磁州窑白地黑花装饰题材进一步扩展到戏曲人物、诗文警句，与元曲、话本等世俗文艺的流行同步，是民窑装饰紧跟同期通俗文化的典型个案。",
+      "expect": {
+        "class": [
+          "磁州窑"
+        ]
+      },
+      "basis": "data/classes/cizhou-yao.json 已有条目（span 载“北宋-元”）",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.ceramics.junyao-yuandai-minyaohua",
+      "period": "yuan",
+      "domain": "ceramics",
+      "name": "钧窑元代的民窑化与窑变釉的普及",
+      "one_line": "钧窑窑变釉技法在元代由北宋官窑级别的精细生产逐渐扩散为民窑普遍采用的装饰手法，产品数量大增而精细程度整体下降，是名窑技法向民间普及过程中常见的“量增质降”个案。",
+      "expect": {
+        "class": [
+          "钧窑"
+        ]
+      },
+      "basis": "data/classes/jun-yao.json 已有条目（span 载“盛于北宋晚期至金”，元代延续）",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.calligraphy.zhaomengfu-fugu-shufeng",
+      "period": "yuan",
+      "domain": "calligraphy",
+      "name": "赵孟頫复古书风与“二王”传统的回归",
+      "one_line": "赵孟頫主张“用笔千古不易”，以直接取法王羲之、王献之的方式对抗南宋以来渐趋放纵的书风，是元代书法史上最具影响力的复古主张。",
+      "expect": {
+        "artist": [
+          "赵孟頫"
+        ]
+      },
+      "basis": "本库既有 zhao-mengfu 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.sculpture.feilaifeng-yuandai-zaoxiang",
+      "period": "yuan",
+      "domain": "sculpture",
+      "name": "飞来峰元代造像与藏传佛教艺术的传入",
+      "one_line": "杭州飞来峰现存约一百一十余尊元代梵式（藏传）造像，是江南地区藏传佛教艺术遗存最集中的实例，反映元代帝室对藏传佛教的扶持如何延伸到南方汉地。",
+      "expect": {},
+      "basis": "中国石窟艺术史通说（飞来峰元代造像分期研究）",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.bronze.yuandai-fanggu-tongqi",
+      "period": "yuan",
+      "domain": "bronze",
+      "name": "元代仿古铜器与文人案头陈设的兴起",
+      "one_line": "元代文人延续南宋以来的仿古铜器鉴赏趣味，案头陈设用器（炉、瓶）的生产在江南持续，为明代宣德炉一类更具规模的仿古铜器生产做了铺垫，具体产地与传承脉络本库尚未核实。",
+      "expect": {},
+      "basis": "中国青铜器史通说（与“南宋仿古铜器”单元的延续关系）",
+      "confidence": "待核"
+    },
+    {
+      "id": "yuan.jade.dushandayuhai",
+      "period": "yuan",
+      "domain": "jade",
+      "name": "渎山大玉海与元代宫廷大型玉雕",
+      "one_line": "忽必烈敕命制作的渎山大玉海是现存最早、体量最大的宫廷玉雕酒器，以整块墨玉浮雕海龙、海马等纹样，现藏北海团城，代表元代宫廷玉作在体量与工艺组织上的突破。",
+      "expect": {},
+      "basis": "中国玉器史通说",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.lacquer-textile.zhangcheng-yangmao-diaoqi",
+      "period": "yuan",
+      "domain": "lacquer-textile",
+      "name": "张成、杨茂与雕漆技法的成熟",
+      "one_line": "张成、杨茂是仅有的两位在雕漆作品上留下年款或名款的漆工，曹昭《格古要论》已提及其名，但二人活动年代究竟是元代还是元末明初，学界至今存在争议，本库暂标待核。",
+      "expect": {},
+      "basis": "曹昭《格古要论》“堆红”条记载张成、杨茂；二人活动年代学界有争议",
+      "confidence": "待核"
+    },
+    {
+      "id": "yuan.metal-enamel.dashiyao-jisijingtai",
+      "period": "yuan",
+      "domain": "metal-enamel",
+      "name": "“大食窑”记载与掐丝珐琅传入的早期线索",
+      "one_line": "曹昭《格古要论》“大食窑”条记载“以铜作身用药烧成五色花者，与拂郎嵌相似”，是掐丝珐琅工艺传入中国最早的文字线索之一，具体产地与工艺归属仍待考订。",
+      "expect": {},
+      "basis": "曹昭《格古要论》（“大食窑”条），具体产地归属学界有争议",
+      "confidence": "待核"
+    },
+    {
+      "id": "yuan.cave-temple.mogao-yuandai-ku",
+      "period": "yuan",
+      "domain": "cave-temple",
+      "name": "莫高窟元代洞窟：第3窟与第465窟",
+      "one_line": "莫高窟第3窟千手千眼观音壁画代表元代精细密教题材的高峰，第465窟藏传密教风格壁画的具体年代（西夏末、元代抑或更晚）至今仍有争议，是敦煌石窟断代问题里最具代表性的悬案之一。",
+      "expect": {
+        "site": [
+          "莫高窟"
+        ]
+      },
+      "basis": "data/sites/mogao.json 已有条目；第465窟年代争议为敦煌学通说",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.tomb-art.fengdaozhen-mu-jinyuan",
+      "period": "yuan",
+      "domain": "tomb-art",
+      "name": "大同冯道真墓：金元之际的道士墓葬壁画",
+      "one_line": "大同冯道真墓墓主为全真道士，壁画题材以山水、花鸟、备茶图为主而非传统的宗教图像，是判断金元之际墓葬美术如何吸收同期文人画趣味的重要个案。",
+      "expect": {},
+      "basis": "plan/ref-考古与遗址体系.md 第三节点名“大同冯道真墓”",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.stone-carving.juyongguan-yuntai",
+      "period": "yuan",
+      "domain": "stone-carving",
+      "name": "居庸关云台：多语言石刻与藏传佛教浮雕",
+      "one_line": "居庸关云台建于至正年间（1342–1345），台身内壁以梵文、藏文、八思巴蒙古文、回鹘文、西夏文、汉文六种文字镌刻经咒，并浮雕四大天王像，是元代多民族、多宗教并存格局最集中的石刻物证。",
+      "expect": {},
+      "basis": "中国石刻史通说（居庸关云台六体文字与图像研究）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.print-folk.jianan-yushi-pinghua",
+      "period": "yuan",
+      "domain": "print-folk",
+      "name": "建安虞氏刻本《全相平话五种》插图版画",
+      "one_line": "元至治年间（1321–1323）建安虞氏刻印的《全相平话五种》采用上图下文的版式，是现存最早一批成体系的历史演义小说插图版画，早于明代小说插图的繁荣。",
+      "expect": {},
+      "basis": "中国印刷史与版画史通说",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.furniture.yuandai-jiaju-shique",
+      "period": "yuan",
+      "domain": "furniture",
+      "name": "元代家具实物遗存的稀缺与图像旁证",
+      "one_line": "元代家具实物遗存远少于明清，现有认识主要依赖同期绘画与雕版插图中的家具图像做旁证性复原，尚未形成独立于明式家具体系的断代框架。",
+      "expect": {},
+      "basis": "中国家具史通说（元代实物遗存状况）",
+      "confidence": "待核"
+    },
+    {
+      "id": "yuan.theory.tanghou-huajian",
+      "period": "yuan",
+      "domain": "theory",
+      "name": "汤垕《画鉴》与元代复古鉴藏趣味",
+      "one_line": "汤垕《画鉴》以鉴藏眼光逐一评断晋唐宋名家真伪流传，其品评框架已受元人复古趣味影响，不宜径当作所论各代当时的评价，本库目前仅将其登记为信源，尚无独立研究条目。",
+      "expect": {
+        "treatise": [
+          "画鉴"
+        ]
+      },
+      "basis": "plan/ref-著录传统与正典链.md 1.10节",
+      "confidence": "确知"
+    }
+  ]
+}

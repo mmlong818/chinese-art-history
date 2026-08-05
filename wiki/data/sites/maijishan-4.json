@@ -146,5 +146,11 @@
         "text": "现存七佛造像表层的科技测年或颜料分层检测报告，本库未核实到"
       }
     ]
-  }
+  },
+  "periods": [
+    "wei-jin-nanbei",
+    "sui-tang",
+    "northern-song",
+    "ming"
+  ]
 }

@@ -126,5 +126,11 @@
         "text": "部分晚期小龛的具体开凿年份缺乏题记，本库未逐一核实"
       }
     ]
-  }
+  },
+  "periods": [
+    "sui-tang",
+    "five-dynasties",
+    "northern-song",
+    "southern-song"
+  ]
 }

@@ -680,8 +680,24 @@ def validate(c):
 
     for sid, s in c.sites.items():
         w = f"site/{sid}"
-        _check_common(s, w, c, out, ["name", "one_line"])
+        _check_common(s, w, c, out, ["name", "one_line", "periods"])
         _check_sections(s, SITE_SECTIONS, w, c, out)
+        # **遗址断代跨期是常态而非例外**，所以是列表不是单值：龙门自北魏凿到唐末、
+        # 莫高窟自十六国到元、大足历晚唐五代两宋、紫禁城明清两朝。
+        # 给这些一个单期，就是本库在别处一直拒绝犯的那种抹平——
+        # 与「只填一个年份等于把三种证据抹平」是同一条。实测 37 条里 11 条跨期。
+        ps = s.get("periods")
+        if ps is not None:
+            if not isinstance(ps, list) or not ps:
+                out.append(Problem("ERROR", w, "periods 须为非空列表——遗址常跨期"))
+            else:
+                for p in ps:
+                    if p not in c.periods:
+                        out.append(Problem("ERROR", w, f"periods 含未知分期 {p!r}"))
+        if s.get("period"):
+            # 单数字段是撰写者按 work/artist 的样子类推出来的，遗址不适用。
+            out.append(Problem("ERROR", w, "遗址用 periods（列表）而非 period——"
+                                          "单值装不下跨期营建"))
         if s.get("parent"):
             if s["parent"] not in c.sites:
                 out.append(Problem("ERROR", w, f"parent {s['parent']!r} 无对应条目"))

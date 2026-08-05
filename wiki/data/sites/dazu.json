@@ -161,5 +161,11 @@
         "text": "部分中小型龛窟的重修记录不全，缺乏系统清册"
       }
     ]
-  }
+  },
+  "periods": [
+    "sui-tang",
+    "five-dynasties",
+    "northern-song",
+    "southern-song"
+  ]
 }

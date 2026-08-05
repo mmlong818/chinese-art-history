@@ -176,5 +176,11 @@
         "text": "全窟群重修层的系统清册尚不完整，本库仅能就已核实的窟龛逐条记录"
       }
     ]
-  }
+  },
+  "periods": [
+    "wei-jin-nanbei",
+    "sui-tang",
+    "northern-song",
+    "ming"
+  ]
 }

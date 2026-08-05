@@ -50,6 +50,11 @@
         "state": "adopt",
         "text": "但正因续凿千年，**大量洞窟经后代重绘**——今天看到的画面常是叠压层，而非某一朝的原貌。本库为壁画与塑像条目单设「重修层」维度，就是为此。",
         "src": "dunhuang-academy"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**西夏一段在本库分期表里无期可归**（canon 无西夏期），此处不硬塞入辽金；莫高窟西夏窟因而暂无期属。"
       }
     ],
     "history": [
@@ -177,5 +182,12 @@
         "text": "藏经洞文献流散的完整清册至今不全，跨国分藏使复原受限"
       }
     ]
-  }
+  },
+  "periods": [
+    "wei-jin-nanbei",
+    "sui-tang",
+    "five-dynasties",
+    "northern-song",
+    "yuan"
+  ]
 }

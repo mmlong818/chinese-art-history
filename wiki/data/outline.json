@@ -91,6 +91,14 @@
       "note": "以 site 三级自嵌套承载：窟群 → 窟龛 → 单件。"
     },
     {
+      "id": "temple-mural",
+      "name": "寺观壁画",
+      "kinds": [
+        "壁画"
+      ],
+      "note": "**第 16 门，补自一处设计漏洞**：绘画门明写「壁画归入石窟寺与墓葬美术两门」，而永乐宫、法海寺、岩山寺、毗卢寺既非窟也非墓——**这批东西在原先十五门里无处可归**。依据不是权宜：《中国美术全集·绘画编》本就把「寺观壁画」单列成卷，它是图录体系自身承认的一门，不是我为了塞下几件东西造出来的。"
+    },
+    {
       "id": "tomb-art",
       "name": "墓葬美术",
       "kinds": [
@@ -192,6 +200,12 @@
     },
     {
       "period": "neolithic",
+      "domain": "temple-mural",
+      "status": "na",
+      "why": "无寺观"
+    },
+    {
+      "period": "neolithic",
       "domain": "tomb-art",
       "status": "present"
     },
@@ -271,6 +285,12 @@
       "domain": "cave-temple",
       "status": "na",
       "why": "同上"
+    },
+    {
+      "period": "erlitou-shang",
+      "domain": "temple-mural",
+      "status": "na",
+      "why": "无寺观"
     },
     {
       "period": "erlitou-shang",
@@ -355,6 +375,12 @@
     },
     {
       "period": "western-zhou",
+      "domain": "temple-mural",
+      "status": "na",
+      "why": "无寺观"
+    },
+    {
+      "period": "western-zhou",
       "domain": "tomb-art",
       "status": "present"
     },
@@ -431,6 +457,12 @@
       "domain": "cave-temple",
       "status": "na",
       "why": "同上"
+    },
+    {
+      "period": "spring-autumn-warring",
+      "domain": "temple-mural",
+      "status": "na",
+      "why": "佛道寺观未立"
     },
     {
       "period": "spring-autumn-warring",
@@ -512,6 +544,12 @@
     },
     {
       "period": "qin-han",
+      "domain": "temple-mural",
+      "status": "na",
+      "why": "佛教初传，寺观壁画未兴；此期壁画在墓与宫殿"
+    },
+    {
+      "period": "qin-han",
       "domain": "tomb-art",
       "status": "core"
     },
@@ -585,6 +623,11 @@
       "period": "wei-jin-nanbei",
       "domain": "cave-temple",
       "status": "core"
+    },
+    {
+      "period": "wei-jin-nanbei",
+      "domain": "temple-mural",
+      "status": "present"
     },
     {
       "period": "wei-jin-nanbei",
@@ -664,6 +707,11 @@
     },
     {
       "period": "sui-tang",
+      "domain": "temple-mural",
+      "status": "present"
+    },
+    {
+      "period": "sui-tang",
       "domain": "tomb-art",
       "status": "present"
     },
@@ -739,6 +787,11 @@
     },
     {
       "period": "five-dynasties",
+      "domain": "temple-mural",
+      "status": "present"
+    },
+    {
+      "period": "five-dynasties",
       "domain": "tomb-art",
       "status": "present"
     },
@@ -814,6 +867,11 @@
     },
     {
       "period": "northern-song",
+      "domain": "temple-mural",
+      "status": "present"
+    },
+    {
+      "period": "northern-song",
       "domain": "tomb-art",
       "status": "present"
     },
@@ -889,6 +947,11 @@
     },
     {
       "period": "southern-song",
+      "domain": "temple-mural",
+      "status": "present"
+    },
+    {
+      "period": "southern-song",
       "domain": "tomb-art",
       "status": "present"
     },
@@ -964,6 +1027,11 @@
     },
     {
       "period": "liao-jin",
+      "domain": "temple-mural",
+      "status": "present"
+    },
+    {
+      "period": "liao-jin",
       "domain": "tomb-art",
       "status": "core"
     },
@@ -1039,6 +1107,11 @@
     },
     {
       "period": "yuan",
+      "domain": "temple-mural",
+      "status": "core"
+    },
+    {
+      "period": "yuan",
       "domain": "tomb-art",
       "status": "present"
     },
@@ -1114,6 +1187,11 @@
     },
     {
       "period": "ming",
+      "domain": "temple-mural",
+      "status": "core"
+    },
+    {
+      "period": "ming",
       "domain": "tomb-art",
       "status": "present"
     },
@@ -1189,6 +1267,11 @@
     },
     {
       "period": "qing",
+      "domain": "temple-mural",
+      "status": "present"
+    },
+    {
+      "period": "qing",
       "domain": "tomb-art",
       "status": "present"
     },
@@ -1260,6 +1343,11 @@
     {
       "period": "late-qing-republic",
       "domain": "cave-temple",
+      "status": "present"
+    },
+    {
+      "period": "late-qing-republic",
+      "domain": "temple-mural",
       "status": "present"
     },
     {
@@ -1340,6 +1428,11 @@
     },
     {
       "period": "prc-early",
+      "domain": "temple-mural",
+      "status": "present"
+    },
+    {
+      "period": "prc-early",
       "domain": "tomb-art",
       "status": "present"
     },
@@ -1416,6 +1509,11 @@
     },
     {
       "period": "contemporary",
+      "domain": "temple-mural",
+      "status": "present"
+    },
+    {
+      "period": "contemporary",
       "domain": "tomb-art",
       "status": "present"
     },
@@ -1440,5 +1538,5202 @@
       "status": "present"
     }
   ],
-  "units": []
+  "units": [
+    {
+      "id": "contemporary.architecture.diaobiao-jianzhu-shidai",
+      "period": "contemporary",
+      "domain": "architecture",
+      "name": "「地标建筑」时代：国际建筑师在华项目的集中落地",
+      "one_line": "1990 年代后国际知名建筑师在中国的项目集中落地，与本土建筑教育体系、本土建筑师群体的关系是这一现象常被讨论的问题。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "建筑评论界常见议题，具体项目清单与讨论文本本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.bronze.sanxingdui-erqi-sanqi-faxian",
+      "period": "contemporary",
+      "domain": "bronze",
+      "name": "三星堆遗址新一轮祭祀坑发掘",
+      "one_line": "三星堆遗址 1986 年及 2019–2022 年两阶段祭祀坑发掘持续更新青铜器研究范式，是本期最重要的青铜器相关考古事件。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "三星堆祭祀坑发掘"
+        ]
+      },
+      "basis": "本库已有 sanxingdui-discoveries 事件条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "contemporary.calligraphy.shufajia-xiehui-tizhi",
+      "period": "contemporary",
+      "domain": "calligraphy",
+      "name": "中国书法家协会体制的机制性影响",
+      "one_line": "1981 年成立的中国书法家协会构建了当代书法评价、展览与职称评定的主要体制框架，对创作方向有明显的机制性引导。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "中国书法家协会成立"
+        ]
+      },
+      "basis": "书法界通行常识，成立年份为常见转引，本次未核对原始文件",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.calligraphy.xiandai-shufa-yundong",
+      "period": "contemporary",
+      "domain": "calligraphy",
+      "name": "「现代书法」运动：脱离汉字识读功能的抽象化实验",
+      "one_line": "1980 年代出现的「现代书法」探索书法脱离汉字识读功能、走向抽象视觉构成的可能性，与坚持传统书写规范的阵营之间构成论争，本库并陈不裁断。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "书法史概论性常见叙述，具体代表人物与作品本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.ceramics.jingdezhen-shichanghua-zhuanxing",
+      "period": "contemporary",
+      "domain": "ceramics",
+      "name": "景德镇陶瓷生产的市场化转型",
+      "one_line": "国营瓷厂改制与「景漂」艺术家聚落现象，是景德镇从计划经济生产体制向市场化、个体化生产转型的当代表现。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代陶瓷产业观察性判断，具体转型时间线本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.furniture.hongmu-jiaju-shichang-re",
+      "period": "contemporary",
+      "domain": "furniture",
+      "name": "红木家具收藏市场的当代热潮与真伪鉴定问题",
+      "one_line": "红木家具收藏市场在当代的热潮伴随仿古工艺的真伪鉴定问题，是传统工艺当代市场化的一个突出侧面。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代收藏市场观察性判断，具体市场数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.jade.yushi-shichang-luanxiang",
+      "period": "contemporary",
+      "domain": "jade",
+      "name": "玉石市场繁荣与鉴定标准混乱问题",
+      "one_line": "和田玉、翡翠市场在当代的繁荣伴随鉴定标准混乱、价格泡沫化问题，与学术鉴定标准之间出现明显脱节。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代收藏市场观察性判断，具体市场数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.lacquer-textile.feiyi-baohu-jizhi-zhuanxing",
+      "period": "contemporary",
+      "domain": "lacquer-textile",
+      "name": "传统漆艺、织绣技艺的非遗传承机制转变",
+      "one_line": "传统漆艺、织绣技艺列入非物质文化遗产保护名录后，工艺传承的组织主体从行业整体转为「代表性传承人」个体认定制度，是当代工艺美术组织方式的根本转变。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "非遗保护制度概论性判断，具体名录条目本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.metal-enamel.jingtailan-feiyi-chuanchengren",
+      "period": "contemporary",
+      "domain": "metal-enamel",
+      "name": "景泰蓝技艺的非遗传承人制度",
+      "one_line": "景泰蓝技艺纳入非遗传承人制度与工艺美术大师评定体系，是行业组织方式从公私合营体制向当代非遗话语转换的延续。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "非遗保护制度概论性判断，具体评定标准本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.painting.1989-xiandai-yishuzhan-jizhi",
+      "period": "contemporary",
+      "domain": "painting",
+      "name": "1989 中国现代艺术展：85 新潮的阶段性总结",
+      "one_line": "1989 年中国美术馆举办的「中国现代艺术展」通行视为 85 新潮的阶段性总结事件，本单元讲其在绘画领域的机制意义（首次大规模官方场馆容纳前卫实践），不评价具体参展个人。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "中国现代艺术展举办"
+        ]
+      },
+      "basis": "本库已有 china-avantgarde-1989 事件条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "contemporary.painting.shuangnianzhan-guoji-tixi",
+      "period": "contemporary",
+      "domain": "painting",
+      "name": "双年展与国际展览体制",
+      "one_line": "威尼斯双年展中国馆、上海双年展等机制性入场对当代评价标准产生影响——本单元只描述机制本身（谁能进入这套体系、评审组织方式），不代替这套机制去裁定谁该被写入正典。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代艺术体制概论性判断，具体历届策展细节本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.painting.wuwu-xinchao",
+      "period": "contemporary",
+      "domain": "painting",
+      "name": "85 新潮美术运动：思潮与展览现象",
+      "one_line": "1985 年前后各地美术团体、《美术思潮》一类刊物、黄山会议等构成的整体性思潮现象——本单元整理运动机制本身（团体、刊物、会议），不裁定具体个人的历史地位。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "黄山会议召开"
+        ],
+        "class": [
+          "85 新潮美术运动"
+        ]
+      },
+      "basis": "85 新潮为当代美术史通行叙述的标志性现象，具体团体名录与会议细节本次未逐一核实",
+      "confidence": "记得"
+    },
+    {
+      "id": "contemporary.painting.xingxing-huahui",
+      "period": "contemporary",
+      "domain": "painting",
+      "name": "星星画会（1979）：体制外展示的开端案例",
+      "one_line": "1979 年北京星星美展在中国美术馆外墙展出，是当代艺术在官方展览体制之外自行寻求公共展示空间的开端性案例。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "星星美展举办"
+        ]
+      },
+      "basis": "当代美术史常识性事件，具体参展人数与作品清单本次未核",
+      "confidence": "记得"
+    },
+    {
+      "id": "contemporary.painting.yishu-shichanghua-jizhi",
+      "period": "contemporary",
+      "domain": "painting",
+      "name": "艺术市场化机制的形成",
+      "one_line": "画廊、拍卖行进入当代书画/油画流通体系，重塑了创作与评价之间的关系——本库对在世艺术家的市场价格不作艺术价值背书，市场热度与艺术史地位是两件不同的事。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代艺术市场概论性判断，具体市场规模数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.print-folk.banhua-xueyuanhua",
+      "period": "contemporary",
+      "domain": "print-folk",
+      "name": "版画的学院化与「原版画」概念的确立",
+      "one_line": "版画从战时宣传媒介转为独立艺术门类，「原版画」概念与中国版画家协会体制的建立标志着这一学院化、专业化过程。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "版画史概论性判断，具体协会成立年份本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.print-folk.minjian-nianhua-feiyihua",
+      "period": "contemporary",
+      "domain": "print-folk",
+      "name": "传统年画产地在非遗保护框架下的复兴与「原生态」争议",
+      "one_line": "杨柳青、桃花坞等传统年画产地在非遗保护框架下出现复兴现象，但「原生态」的真实性本身在学界存在争议，本库并陈不裁断。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "非遗保护实践观察性判断，具体争议文本本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.sculpture.gonggong-suzao-shuangfang-jizhi",
+      "period": "contemporary",
+      "domain": "sculpture",
+      "name": "城市公共雕塑委托制度的双甲方格局",
+      "one_line": "市场化改革后，政府委托与商业地产开发方形成城市公共雕塑的双重甲方格局，与新中国前期单一国家委托的纪念碑机制不同。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "推论性判断，具体委托案例数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.sculpture.zhuangzhi-yishu-yu-suzao-bianjie",
+      "period": "contemporary",
+      "domain": "sculpture",
+      "name": "装置艺术兴起对「雕塑」门类边界的冲击",
+      "one_line": "装置艺术使用的材料与形式已远超传统雕塑造像范畴，对「雕塑」这一门类的边界构成持续冲击，本库对此类作品的归类持谨慎态度，不强行套入既有门类。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代艺术门类演变的概论性判断",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.stone-carving.moya-shike-baohu-yu-lvyou",
+      "period": "contemporary",
+      "domain": "stone-carving",
+      "name": "摩崖石刻遗产在保护与旅游开发双重压力下的现状",
+      "one_line": "摩崖石刻类遗产面临过度拓印、环境侵蚀与旅游开发压力的多重冲击，是当代文物保护实践中的现实问题。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "文物保护实践观察性判断，具体个案数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.theory.meishu-piping-tizhi-xingcheng",
+      "period": "contemporary",
+      "domain": "theory",
+      "name": "当代美术批评体制的形成",
+      "one_line": "独立策展人、专业艺术媒体与官方美术理论机构构成当代美术批评的三方格局，评价标准不再由单一体制主导。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "当代艺术体制概论性判断，具体格局形成时间线本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "contemporary.theory.zhengdian-weixingcheng",
+      "period": "contemporary",
+      "domain": "theory",
+      "name": "「正典尚未形成」：本期史学处境的自我陈述",
+      "one_line": "本单元直接呼应 canon.json 对本期的判断——当代无稳定正典，入选与否取决于机构、市场与国际策展的即时判断，本库对 1978 年后条目采取更严的收录门槛，一切评价明示为当下口径、随时可能翻转。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "canon.json contemporary 条目 dispute 字段原文",
+      "confidence": "确知"
+    },
+    {
+      "id": "contemporary.tomb-art.kaogu-yu-muzang-meishu-fanshi-quli",
+      "period": "contemporary",
+      "domain": "tomb-art",
+      "name": "系统性考古发掘与「墓葬美术」独立研究范式的确立",
+      "one_line": "改革开放后系统性考古发掘的持续开展，使「墓葬美术」作为独立于传统金石学取宝式研究的学术范式在学界确立。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "考古学/美术史学科史概论性判断",
+      "confidence": "待核"
+    },
+    {
+      "id": "erlitou-shang.bronze.erlitou-liqi-tixi",
+      "period": "erlitou-shang",
+      "domain": "bronze",
+      "name": "二里头青铜礼器体系的形成：爵、斝、鼎的初现",
+      "one_line": "二里头是青铜礼器体系的起点，酒器（爵、斝）先于食器（鼎）成熟，这一顺序本身是礼制形成的物证。",
+      "expect": {
+        "site": [
+          "偃师二里头"
+        ],
+        "class": [
+          "青铜礼器"
+        ],
+        "work": [
+          "乳钉纹铜爵"
+        ]
+      },
+      "basis": "canon.keys(青铜礼器)/canon.centres(偃师二里头)",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.bronze.fuhaomu-tongqiqun",
+      "period": "erlitou-shang",
+      "domain": "bronze",
+      "name": "妇好墓青铜器组合：王室女性墓的礼器与兵器配置",
+      "one_line": "妇好墓是唯一未被盗扰的商代王室墓，青铜礼器与兵器（钺）并存的组合，是判断墓主身份（女性统帅）的核心物证。",
+      "expect": {
+        "site": [
+          "殷墟妇好墓"
+        ],
+        "work": [
+          "妇好鸮尊",
+          "司母辛鼎",
+          "妇好偶方彝"
+        ],
+        "event": [
+          "殷墟妇好墓发掘"
+        ]
+      },
+      "basis": "canon.keys(妇好墓)/plan/ref-考古与遗址体系.md 三节（殷墟妇好墓，《殷墟妇好墓》1980）",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.bronze.kuaifanfa",
+      "period": "erlitou-shang",
+      "domain": "bronze",
+      "name": "块范法工艺体系：商代青铜铸造技术路径",
+      "one_line": "块范法（与失蜡法相对）是商周青铜器的主导铸造技术，纹样的繁简与范线的处理直接受工艺制约。",
+      "expect": {
+        "class": [
+          "块范法"
+        ],
+        "site": [
+          "郑州商城",
+          "安阳殷墟"
+        ]
+      },
+      "basis": "canon.keys(块范法)",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.bronze.sanxingdui-qingtong",
+      "period": "erlitou-shang",
+      "domain": "bronze",
+      "name": "三星堆青铜神像系统：纵目面具与神树",
+      "one_line": "三星堆青铜神像系统在造型上与中原体系差异极大，其族属与年代仍在修正中，是本库须谨慎表述断代的题目。",
+      "expect": {
+        "site": [
+          "广汉三星堆"
+        ],
+        "work": [
+          "青铜纵目面具",
+          "青铜神树"
+        ],
+        "class": [
+          "古蜀青铜"
+        ]
+      },
+      "basis": "canon.keys(三星堆)/canon.centres(广汉三星堆)/canon.dispute（三星堆族属、年代与文化归属仍在修正）",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.bronze.shoumianwen-yanbian",
+      "period": "erlitou-shang",
+      "domain": "bronze",
+      "name": "兽面纹的演变：从二里头到殷墟晚期的纹样分期",
+      "one_line": "兽面纹分期是商代青铜断代的核心风格序列；「饕餮纹」为宋人《宣和博古图》命名，本库改称兽面纹以免把宋人理解叠在商代器物上。",
+      "expect": {
+        "class": [
+          "兽面纹"
+        ]
+      },
+      "basis": "canon.keys(兽面纹)/canon.dispute（「饕餮纹」之名出自宋人，本库改称「兽面纹」）",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.bronze.zuhui-mingwen",
+      "period": "erlitou-shang",
+      "domain": "bronze",
+      "name": "族徽铭文与铸铭制度：铸造者的匿名性",
+      "one_line": "少数商代铭文见「族徽」，指宗族标记而非个人署名——这是本库判断该期「作者无名」的直接文字证据。",
+      "expect": {
+        "class": [
+          "族徽"
+        ]
+      },
+      "basis": "canon.anonymity（少数铭文见「族徽」，指宗族而非个人）",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.calligraphy.jiaguwen",
+      "period": "erlitou-shang",
+      "domain": "calligraphy",
+      "name": "甲骨文：占卜刻辞与图文同源",
+      "one_line": "甲骨文是本期最重要的文字/图像同源证据，刻辞书体本身的风格分期（董作宾五期说）是断代的重要参照。",
+      "expect": {
+        "site": [
+          "安阳殷墟"
+        ],
+        "class": [
+          "甲骨文"
+        ]
+      },
+      "basis": "canon.keys(甲骨文)/canon.centres(安阳殷墟)",
+      "confidence": "记得"
+    },
+    {
+      "id": "erlitou-shang.ceramics.shang-baitao",
+      "period": "erlitou-shang",
+      "domain": "ceramics",
+      "name": "商代白陶与原始瓷的出现",
+      "one_line": "商代白陶纹饰精细，常仿青铜器造型；原始瓷的出现则是瓷器起源讨论的关键一环。",
+      "expect": {
+        "class": [
+          "白陶",
+          "原始瓷"
+        ],
+        "site": [
+          "郑州商城"
+        ]
+      },
+      "basis": "待核（一般商代陶瓷史知识，未见 canon/ref 文档逐条列出，需人工核对《中国陶瓷全集》夏商周分卷）",
+      "confidence": "待核"
+    },
+    {
+      "id": "erlitou-shang.jade.shang-yuqi",
+      "period": "erlitou-shang",
+      "domain": "jade",
+      "name": "商代玉器：妇好墓玉器与治玉工艺的延续",
+      "one_line": "妇好墓出土玉器数量庞大且部分为红山、良渚旧玉改制，是判断商代玉料流通与「藏古」现象的核心材料。",
+      "expect": {
+        "site": [
+          "殷墟妇好墓"
+        ],
+        "class": [
+          "商代玉器"
+        ]
+      },
+      "basis": "canon.keys(妇好墓)",
+      "confidence": "待核"
+    },
+    {
+      "id": "erlitou-shang.lacquer-textile.shang-qimu-hen",
+      "period": "erlitou-shang",
+      "domain": "lacquer-textile",
+      "name": "商代漆器残痕与丝织物印痕：实物稀少下的间接证据",
+      "one_line": "商代绘画仅见于器表与漆木残痕（canon 已明确），漆器与织物本体多已朽毁，只能靠印痕、附着物间接复原。",
+      "expect": {
+        "class": [
+          "漆器"
+        ],
+        "site": [
+          "安阳殷墟"
+        ]
+      },
+      "basis": "canon.cells（erlitou-shang.painting 的 why：商代绘画仅见于器表与漆木残痕）",
+      "confidence": "待核"
+    },
+    {
+      "id": "erlitou-shang.sculpture.fuhaomu-yushi-diaoxiang",
+      "period": "erlitou-shang",
+      "domain": "sculpture",
+      "name": "妇好墓玉石圆雕：跪坐人像与动物形佩饰",
+      "one_line": "妇好墓出土的玉石圆雕人像与动物形佩饰，是商代小型立体造型的代表，材质属玉石而非陶瓷或青铜。",
+      "expect": {
+        "site": [
+          "殷墟妇好墓"
+        ],
+        "work": [
+          "玉凤",
+          "跪坐玉人"
+        ]
+      },
+      "basis": "canon.keys(妇好墓)",
+      "confidence": "待核"
+    },
+    {
+      "id": "erlitou-shang.sculpture.sanxingdui-lixiang",
+      "period": "erlitou-shang",
+      "domain": "sculpture",
+      "name": "三星堆青铜立人像：作为雕塑史起点的争议材料",
+      "one_line": "青铜大立人是三星堆最重要的人像雕塑，但其材质（青铜）在本库 work.kind 体系里既非「铜佛」也非「石雕」，提纲层面先立题目，材质归类问题留待条目层解决——这是本库 kind 词表的一处缝隙。",
+      "expect": {
+        "site": [
+          "广汉三星堆"
+        ],
+        "work": [
+          "青铜大立人"
+        ]
+      },
+      "basis": "canon.keys(三星堆)",
+      "confidence": "待核"
+    },
+    {
+      "id": "erlitou-shang.stone-carving.shang-keshi-yanhua",
+      "period": "erlitou-shang",
+      "domain": "stone-carving",
+      "name": "商代刻石与岩画遗存的稀薄证据",
+      "one_line": "本期石刻碑版类材料最为稀薄——碑刻、摩崖均未出现，能勉强归入此门的仅岩画传统的延续，如实标注「present」但内容单薄。",
+      "expect": {
+        "class": [
+          "岩画"
+        ]
+      },
+      "basis": "待核（本库无确证的商代摩崖/碑刻实例，仅推测与岩画传统延续相关，需人工核实）",
+      "confidence": "待核"
+    },
+    {
+      "id": "erlitou-shang.tomb-art.fuhaomu-zuhe",
+      "period": "erlitou-shang",
+      "domain": "tomb-art",
+      "name": "妇好墓随葬组合与商代王室葬制",
+      "one_line": "妇好墓未被盗扰，青铜礼器、玉器、骨器的完整组合是研究商代王室葬制唯一的第一手材料。",
+      "expect": {
+        "site": [
+          "殷墟妇好墓"
+        ],
+        "event": [
+          "殷墟妇好墓发掘"
+        ]
+      },
+      "basis": "canon.keys(妇好墓)/plan/ref-考古与遗址体系.md 三节（殷墟妇好墓，《殷墟妇好墓》1980）",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.architecture.zhongguo-guyou-shi",
+      "period": "late-qing-republic",
+      "domain": "architecture",
+      "name": "「中国固有式」建筑：西式结构承载中国传统屋顶形式",
+      "one_line": "吕彦直设计的中山陵、南京国民政府时期的官式建筑代表了近代建筑师用钢筋混凝土结构模拟中国传统屋顶与装饰形式的探索路径。",
+      "expect": {
+        "artist": [
+          "吕彦直"
+        ],
+        "work": [
+          "中山陵"
+        ],
+        "event": []
+      },
+      "basis": "近代建筑史通行叙述，具体建筑清单本次未逐一核实",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.bronze.jinshixue-fuxing-yu-fangu",
+      "period": "late-qing-republic",
+      "domain": "bronze",
+      "name": "晚清金石学复兴、青铜器市场与仿古伪作问题",
+      "one_line": "吴大澂、端方等晚清收藏家推动的金石学复兴带动了青铜器著录与市场活跃，也伴生了仿古伪作问题，是近代文物鉴藏史的一个侧面。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "金石学史概论性常识，具体收藏家活动细节本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.calligraphy.jinshi-shufeng-yanxu",
+      "period": "late-qing-republic",
+      "domain": "calligraphy",
+      "name": "碑学金石书风向民国的延续",
+      "one_line": "清代碑学在民国的延续与「碑帖融合」实践——吴昌硕、于右任已是本库既有条目，此单元讲的是书风转型的整体脉络，不是重复二人小传。",
+      "expect": {
+        "artist": [
+          "吴昌硕",
+          "于右任"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "书法史通行叙述，本库已有 wu-changshuo、yu-youren 全文条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.calligraphy.yu-youren-biaozhun-caoshu",
+      "period": "late-qing-republic",
+      "domain": "calligraphy",
+      "name": "于右任「标准草书」运动",
+      "one_line": "于右任发起草书规范化运动，编订标准草书以求兼顾艺术性与实用识读效率，是民国书法史里少见的制度化、系统化实践。",
+      "expect": {
+        "artist": [
+          "于右任"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 yu-youren 全文条目提及相关经历；标准草书社具体成立年份本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.cave-temple.zhang-daqian-dunhuang-linmo",
+      "period": "late-qing-republic",
+      "domain": "cave-temple",
+      "name": "张大千敦煌壁画临摹（1941–1943）及其争议",
+      "one_line": "张大千率团临摹敦煌壁画并按己见分期断代，同时留下「为揭取底层壁画剥损上层重绘」的争议指控——本库并陈临摹之功与损毁之议，不裁断。",
+      "expect": {
+        "artist": [
+          "张大千"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 zhang-daqian 全文条目；损毁指控本身在学界存在争议，具体史实细节本次未核，故作为并陈争议处理",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.ceramics.jingdezhen-guanyao-zhongjie",
+      "period": "late-qing-republic",
+      "domain": "ceramics",
+      "name": "景德镇官窑体制的终结与「洪宪瓷」仿古之风",
+      "one_line": "清代官窑体制随清亡终结，民国初年出现假托「洪宪年制」款的仿古瓷器风潮，是官窑传统解体后市场化转型的一个标志性插曲。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "陶瓷史常见叙述，「洪宪瓷」具体真伪情况学界本身有争议，本次未核实细节",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.furniture.yingzuo-jiaju-zhuanxing",
+      "period": "late-qing-republic",
+      "domain": "furniture",
+      "name": "传统硬木家具行业在近代的转型",
+      "one_line": "广作、苏作等传统硬木家具制作在租界城市面临西式家具混用风尚的冲击，出现订制化、混合样式生产。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "工艺美术史概论性判断，具体行业数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.jade.yuqi-jianzang-shichanghua",
+      "period": "late-qing-republic",
+      "domain": "jade",
+      "name": "玉器鉴藏市场在近代的转型",
+      "one_line": "宫廷玉作体系随清亡终结后，玉器大量流入古玩市场，鉴定标准与流通方式发生近代化转型。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "文物鉴藏史概论性判断，具体市场数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.lacquer-textile.zhixiu-waixiao-zhuanxing",
+      "period": "late-qing-republic",
+      "domain": "lacquer-textile",
+      "name": "织绣行业的外销转型",
+      "one_line": "顾绣一类文人化绣种式微，广绣、湘绣等地方绣种转向外销订单化生产，是近代手工业普遍的外向型转型在织绣门类的表现。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "工艺美术史概论性判断，具体各绣种外销规模数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.metal-enamel.jingtailan-zuofang-shuailuo",
+      "period": "late-qing-republic",
+      "domain": "metal-enamel",
+      "name": "景泰蓝行业在清末民国的衰落与作坊制转型",
+      "one_line": "失去宫廷造办处订单支持后，景泰蓝行业转为民间作坊制生产，规模与技艺水准均受冲击。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "工艺美术史概论性判断，具体行业规模数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.painting.guoli-beiping-yizhuan",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "国立北平艺术专科学校的建立与更迭",
+      "one_line": "由国立北京美术学校发展而来的国立北平艺专，历经郑锦、林风眠、徐悲鸿等人先后主持，是京派美术教育机构的主线，1949 年后并入中央美术学院。",
+      "expect": {
+        "artist": [
+          "徐悲鸿",
+          "林风眠"
+        ],
+        "work": [],
+        "event": [
+          "国立北平艺术专科学校改组",
+          "中央美术学院成立"
+        ]
+      },
+      "basis": "美术教育史通行教材必载的机构沿革，具体历任校长的起讫年份本次未逐一核实",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.painting.guoli-yishuyuan-hangzhou",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "国立艺术院（杭州）的建立与建校宗旨",
+      "one_line": "1928 年蔡元培倡议、林风眠任首任院长的国立艺术院（后改国立杭州艺专），自陈以「介绍西洋艺术、整理中国艺术、调和中西艺术」为宗旨——这是该校自身的表述，本库引用其自我定位，不代其背书成就。",
+      "expect": {
+        "artist": [
+          "林风眠"
+        ],
+        "work": [],
+        "event": [
+          "国立艺术院（杭州）建立"
+        ]
+      },
+      "basis": "本库已有 lin-fengmian 全文条目提及此段经历；建校宗旨引文本次未逐字核对原始文献，按常见转引处理",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.juelanshe-xiandai-zhuyi",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "决澜社：引入后印象派、野兽派、立体主义等现代主义形式语言",
+      "one_line": "1932 年上海决澜社（庞薰琹、倪贻德等）走的是第四条路——不动造型、不动设色、不动色墨关系，而是直接搬入西方现代主义的形式语言本身，与徐悲鸿、高剑父、林风眠三条路径并列而不重合。",
+      "expect": {
+        "artist": [
+          "庞薰琹",
+          "倪贻德"
+        ],
+        "work": [],
+        "event": [
+          "决澜社成立并举办画展"
+        ]
+      },
+      "basis": "决澜社为中国现代美术史通行教材必载的现代主义画会，具体展览届数与解散年份本次未核",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.lin-fengmian-color-ink",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "林风眠：色墨关系的调和实验",
+      "one_line": "林风眠的实践核心是打破墨色主导地位、让色彩与水墨在同一画面中并置对话，动的是「色墨关系」，不是笼统的『中西融合』。",
+      "expect": {
+        "artist": [
+          "林风眠"
+        ],
+        "work": [],
+        "event": [
+          "国立艺术院（杭州）建立"
+        ]
+      },
+      "basis": "本库已有 lin-fengmian 全文条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.lingnan-boneless-wash",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "高剑父与岭南折衷派：撞水撞色没骨技法",
+      "one_line": "高剑父、高奇峰承居廉没骨法并吸收东洋渲染，动的是「设色」这一环节（撞水撞色），与徐悲鸿动造型、林风眠动色墨关系是三件不同的技术事。",
+      "expect": {
+        "artist": [
+          "高剑父",
+          "高奇峰",
+          "陈树人"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 gao-jianfu 全文条目；岭南三杰另两位（高奇峰、陈树人）为 plan/ref-艺术家名录体系.md 已点名的完全缺失并称组合",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.shanghai-tuhua-meishuyuan",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "上海图画美术院的建立与「模特儿风波」",
+      "one_line": "1912 年上海图画美术院（后历经更名为上海美术专门学校）是中国最早的现代意义美术学校之一，1920 年代刘海粟引入人体模特写生引发的社会争议是近代美术教育史的标志事件之一。",
+      "expect": {
+        "artist": [
+          "刘海粟"
+        ],
+        "work": [],
+        "event": [
+          "上海图画美术院创立",
+          "人体模特儿风波"
+        ]
+      },
+      "basis": "本库已有 liu-haisu 全文条目；机构沿革细节（几次更名的具体年份）本次未逐一核实",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.study-abroad-japan-france",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "留日与留法：两套写实训练体系的引入比较",
+      "one_line": "东京美术学校一路与巴黎高等美术学院一路带回的是两套不完全相同的写实训练体系（日本经由西化改造的东洋画教学法 vs 法国学院派素描-油画体系），此期尚无留苏一路，苏联影响属新中国前期。",
+      "expect": {
+        "artist": [
+          "徐悲鸿",
+          "高剑父",
+          "陈树人"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "留日留法两路是近代美术教育史的通行分类，具体人数与院校对应关系本次未逐一核实",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.xu-beihong-structure",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "徐悲鸿：学院素描造型体系引入国画/主题性历史画",
+      "one_line": "徐悲鸿把法国学院派素描的造型训练方法带入中国画创作与美术教育，具体动的是「造型」这一环节——不与高剑父动设色、林风眠动色墨关系混为一谈。",
+      "expect": {
+        "artist": [
+          "徐悲鸿"
+        ],
+        "work": [
+          "愚公移山",
+          "田横五百士"
+        ],
+        "event": [
+          "国立北平艺术专科学校改组"
+        ]
+      },
+      "basis": "本库已有 xu-beihong 全文条目；造型/设色/色墨关系三分法为本次提纲按用户要求拆分，非既有条目直接陈述",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.painting.zhongguo-huaxue-yanjiuhui",
+      "period": "late-qing-republic",
+      "domain": "painting",
+      "name": "中国画学研究会（北京）：保守派的自我定位",
+      "one_line": "1920 年金城、周肇祥等在北京发起中国画学研究会，主张「精研古法、博采新知」——这是另一种回应现代化压力的路径，不是简单的「守旧」，与南方革新派构成对照。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "中国画学研究会成立"
+        ]
+      },
+      "basis": "近代美术史通行教材所载的京派保守阵营机构，本次未核实具体成立年份与后续「湖社」分支的准确沿革",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.print-folk.kangzhan-muke",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "抗战木刻：全国木刻界抗敌协会与木刻工作团",
+      "one_line": "全面抗战爆发后，木刻界组成抗敌协会与巡回工作团，版画成为战时最主要的宣传美术媒介之一，风格上仍带欧化刀法的痕迹。",
+      "expect": {
+        "artist": [
+          "李桦",
+          "赖少其"
+        ],
+        "work": [],
+        "event": [
+          "全国木刻界抗敌协会成立"
+        ]
+      },
+      "basis": "抗战美术史通行叙述，具体组织沿革与人员名单本次未逐一核实",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.print-folk.lianhuanhua-xingqi",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "连环画产业的兴起（上海）",
+      "one_line": "近代上海通俗读物出版业催生了区别于传统小说绣像插图的连环画产业形态，为新中国前期连环画黄金时代奠定了产业基础。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "近代出版史/美术史常见叙述，具体产业规模数据本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.print-folk.luxun-muke-jiangxihui",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "鲁迅与木刻讲习会（1931，上海）",
+      "one_line": "1931 年鲁迅在上海主持木刻讲习会，请内山嘉吉讲授木刻技法，参加者十余人，通行叙述视为新兴木刻运动的起点性事件。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "木刻讲习会举办"
+        ]
+      },
+      "basis": "通行美术史教材必载事件，具体参加人数与名单本次未逐一核实",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.print-folk.minjian-nianhua-zhuanxing",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "传统年画产地在近代印刷业冲击下的转型",
+      "one_line": "杨柳青、桃花坞、杨家埠等传统年画产地在近代石印、胶印技术普及后面临冲击，部分转向为月份牌一类新式印刷品代工或衰落，民间美术这半个门类不应被木刻运动完全遮蔽。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "民间美术史概论性常识，具体各产地转型时间线本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.print-folk.muke-oumei-yingxiang-minzuhua-lunzheng",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "新兴木刻的珂勒惠支/麦绥莱勒影响与「民族化」自我修正",
+      "one_line": "鲁迅本人推介的珂勒惠支、麦绥莱勒版画对早期新兴木刻的技法与题材影响明显，其后延安一路的民族形式转向构成对这层欧化底色的自我修正，两个阶段不能等同视之。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "学界关于新兴木刻外来影响与民族化转向的讨论常见于通行美术史著作，具体传播路径细节本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.print-folk.xinxing-muke-yundong",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "新兴木刻运动：脱离复制木刻传统的直接刀刻创作",
+      "one_line": "鲁迅倡导的新兴木刻以「自刻自印」取代旧式复制木刻（画家画稿、刻工镌刻分工的传统模式），是版画史上创作方式的根本转折，本库此前完全没有这一支。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "木刻讲习会举办"
+        ],
+        "class": [
+          "新兴木刻运动"
+        ]
+      },
+      "basis": "中国近现代美术史通行叙述的核心内容，鲁迅倡导新兴木刻为学界共识",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.print-folk.yanan-muke",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "延安木刻：鲁艺木刻工作团与「民族形式」转向",
+      "one_line": "延安鲁迅艺术文学院木刻工作团（古元、彦涵、力群等）在题材与刀法上向「民族形式」「大众化」转向，与早期新兴木刻的欧化刀法拉开距离——这是同一运动内部的阶段性自我修正，不是单线发展。",
+      "expect": {
+        "artist": [
+          "古元",
+          "彦涵",
+          "力群"
+        ],
+        "work": [
+          "减租会"
+        ],
+        "event": []
+      },
+      "basis": "延安美术史通行叙述，古元《减租会》为标志性作品，具体创作年份本次未核",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.print-folk.yiba-yishe-muke",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "一八艺社木刻研究会",
+      "one_line": "国立杭州艺专学生组成的一八艺社（1929 年前后）及其木刻研究活动，是与鲁迅木刻讲习会并行、时间上或有先后的另一源头，具体成员名单本库把握不足，标待核。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "一八艺社成立"
+        ]
+      },
+      "basis": "学界对一八艺社木刻活动有记述，但本次对其与木刻讲习会孰先孰后、具体成员构成把握不够精确",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.print-folk.yuefenpai-shangye-yinshua",
+      "period": "late-qing-republic",
+      "domain": "print-folk",
+      "name": "月份牌画：擦笔水彩技法与商业美术的兴起",
+      "one_line": "郑曼陀等人开创的擦笔水彩月份牌画，原作经石印/胶版工艺大量复制为商业广告招贴，是海上洋画传统里与「学院-画会」路线并行的另一条商业化支线，本库归入版画年画门类而非绘画门类，因其成品本质是印刷品。",
+      "expect": {
+        "artist": [
+          "郑曼陀",
+          "杭穉英"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "月份牌画史为近代设计史/美术史通行内容，具体代表画家生平本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.sculpture.liufa-suzao-jiaoyu-yinru",
+      "period": "late-qing-republic",
+      "domain": "sculpture",
+      "name": "留法雕塑家群体与西式学院雕塑教学的引入",
+      "one_line": "李金发、江小鹣等留法雕塑家将学院写实雕塑观念带回国内，参与中山陵孙中山像等早期纪念性雕塑实践，是新中国前期集体纪念碑创作的伏笔。",
+      "expect": {
+        "artist": [
+          "李金发",
+          "江小鹣"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "近代雕塑史常见叙述，李金发以诗人闻名但雕塑经历有据可查，具体参与项目细节本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "late-qing-republic.stone-carving.longmen-yungang-liusan-taben-maoyi",
+      "period": "late-qing-republic",
+      "domain": "stone-carving",
+      "name": "龙门云冈造像流散与拓片贸易的近代化",
+      "one_line": "龙门、云冈石刻造像头像在此期遭系统性盗凿流散，西方收藏机构大规模购藏，同时拓片贸易也随之近代化、规模化，是本期文物流失最烈的阶段之一。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "龙门云冈造像流散"
+        ]
+      },
+      "basis": "本库已有 longmen-yungang-looting 事件条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.theory.huo-buhuo-lunzhan",
+      "period": "late-qing-republic",
+      "domain": "theory",
+      "name": "徐悲鸿与徐志摩「惑」「我也惑」论争",
+      "one_line": "1929 年第一届全国美术展览会前后，徐悲鸿撰文批评西方现代主义绘画（野兽派、立体派）价值，徐志摩撰《我也「惑」》回应，是围绕现代主义评价的一次公开论战，与展会本身构成同一事件脉络。",
+      "expect": {
+        "artist": [
+          "徐悲鸿"
+        ],
+        "work": [],
+        "event": [
+          "第一届全国美术展览会"
+        ]
+      },
+      "basis": "本库已有 quanguo-meizhan-1929 事件条目；论争具体文本细节本次未逐字核对原刊",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.theory.meishu-geming-lunzhan",
+      "period": "late-qing-republic",
+      "domain": "theory",
+      "name": "「美术革命」论争：陈独秀、康有为与传统派的交锋",
+      "one_line": "陈独秀「美术革命」论、康有为「中国近世之画衰败极矣」说与陈师曾等传统派反驳构成了本期最核心的理论论争，本库只陈述论争双方立场，不裁定谁是正确的一方。",
+      "expect": {
+        "artist": [
+          "陈师曾"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "近代美术史通行教材必载论争，具体引文文本本次未逐字核对",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.theory.wenrenhua-zhi-jiazhi",
+      "period": "late-qing-republic",
+      "domain": "theory",
+      "name": "陈师曾《文人画之价值》：为文人画正名",
+      "one_line": "1921 年陈师曾发表《文人画之价值》，针对「美术革命」论对文人画「摹古」「不求形似」的批评作出理论反击，是本期最重要的画论文本之一。",
+      "expect": {
+        "artist": [
+          "陈师曾"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 chen-shizeng 全文条目；发表年份为常见转引，本次未核对原刊",
+      "confidence": "记得"
+    },
+    {
+      "id": "late-qing-republic.tomb-art.yinxu-wangling-fajue",
+      "period": "late-qing-republic",
+      "domain": "tomb-art",
+      "name": "殷墟王陵区大墓的发掘与近代考古学方法的确立",
+      "one_line": "殷墟发掘（1928 年起）标志着以科学考古方法取代金石学式盗掘取宝的转折，王陵区大墓的系统发掘是这一转折的代表个案。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "殷墟发掘"
+        ]
+      },
+      "basis": "本库已有 yinxu-excavations 事件条目，此单元讲其在墓葬美术研究范式转变上的意义",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.architecture.chongfusi-mituodian",
+      "period": "liao-jin",
+      "domain": "architecture",
+      "name": "朔州崇福寺弥陀殿：金代木构的类型延续",
+      "one_line": "崇福寺弥陀殿建于金皇统三年（1143），面阔九间，格扇棂花样式繁多，是金代官式木构延续辽代做法而略有地方化调整的代表。",
+      "expect": {
+        "site": [
+          "朔州崇福寺弥陀殿"
+        ]
+      },
+      "basis": "data/sites/chongfu-si-mituodian.json 已有条目（period 字段现为 null）",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.architecture.dulesi-guanyinge",
+      "period": "liao-jin",
+      "domain": "architecture",
+      "name": "独乐寺观音阁与山门：辽代木构的空间原型",
+      "one_line": "蓟县独乐寺观音阁以三层内槽围绕十六米高观音塑像的空间处理、山门“人”字形斗栱与鸱吻，是辽代统和二年（984）重建木构中体量与年代都最具代表性的一例。",
+      "expect": {
+        "site": [
+          "独乐寺观音阁与山门"
+        ]
+      },
+      "basis": "data/sites/dule-si.json 已有条目（period 字段现为 null）",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.architecture.huayanci-liaojin-liangci",
+      "period": "liao-jin",
+      "domain": "architecture",
+      "name": "大同华严寺：辽金两次营建的木构组群",
+      "one_line": "华严寺下寺薄伽教藏殿建于辽重熙七年（1038），上寺大雄宝殿则是金代重建，一寺两殿分属辽金两代，恰是“辽金”并列分期本身的建筑物证。",
+      "expect": {
+        "site": [
+          "大同华严寺薄伽教藏殿"
+        ]
+      },
+      "basis": "data/sites/huayan-si-bojiajiaozang.json 已有条目（period 字段现为 null）；上寺大雄宝殿本库尚无条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.architecture.kaishansi-liao",
+      "period": "liao-jin",
+      "domain": "architecture",
+      "name": "高碑店开善寺：辽代木构的又一孤例",
+      "one_line": "开善寺大殿的辽代木构年代与形制细节本库尚未逐一核实，但在通行的辽代木构清单中常与独乐寺、应县木塔并列，是本库需要补入的又一处实物。",
+      "expect": {},
+      "basis": "任务背景枚举 / 中国古代建筑史通说，具体年代与形制细节未核实",
+      "confidence": "待核"
+    },
+    {
+      "id": "liao-jin.architecture.shanhuasi-liaojin-geju",
+      "period": "liao-jin",
+      "domain": "architecture",
+      "name": "大同善化寺：辽金木构组群的完整格局",
+      "one_line": "善化寺始建于唐，辽末毁于兵火，金天会至皇统年间（1128–1143）重建，山门、三圣殿、大雄宝殿沿中轴排列，是现存辽金寺院组群格局最完整的孤例之一。",
+      "expect": {},
+      "basis": "canon.liao-jin.centres（大同）/ 中国古代建筑史通说（梁思成、刘敦桢历次调查）",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.architecture.yingxian-muta",
+      "period": "liao-jin",
+      "domain": "architecture",
+      "name": "应县木塔：现存最古老的木构楼阁式塔",
+      "one_line": "佛宫寺释迦塔（应县木塔）建于辽清宁二年（1056），是现存最古老、也是唯一一座木构楼阁式塔，全塔不用一根铁钉，斗栱形制多达五十余种。",
+      "expect": {
+        "site": [
+          "应县木塔"
+        ]
+      },
+      "basis": "data/sites/yingxian-muta.json 已有条目（period 字段现为 null）",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.bronze.liaodai-tongjing",
+      "period": "liao-jin",
+      "domain": "bronze",
+      "name": "辽代铜镜纹饰与中原式样的融合",
+      "one_line": "辽代铜镜在造型上部分沿用中原唐宋式样，又发展出双鱼纹、契丹文铭一类本地特征，是判断辽墓年代与文化认同的常用旁证材料，具体分期谱系本库尚未核实。",
+      "expect": {},
+      "basis": "中国铜镜史通说",
+      "confidence": "待核"
+    },
+    {
+      "id": "liao-jin.calligraphy.wangtingyun-jinwen",
+      "period": "liao-jin",
+      "domain": "calligraphy",
+      "name": "王庭筠与金代文人书法",
+      "one_line": "王庭筠工诗文书画，书法出入米芾一路而自成面目，是金代文人书法能与两宋士人书风对话的代表个案。",
+      "expect": {
+        "artist": [
+          "王庭筠"
+        ]
+      },
+      "basis": "本库既有 wang-tingyun 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.temple-mural.yanshansi-jinhua-bihua",
+      "period": "liao-jin",
+      "domain": "temple-mural",
+      "name": "繁峙岩山寺壁画：金代文人画风格移入寺观空间",
+      "one_line": "山西繁峙岩山寺文殊殿壁画相传出自金代宫廷画师王逵之手，画风精细近北宋院体人物画传统，是判断金代绘画对北宋传统承续程度的重要个案，但其性质是寺观壁画而非严格意义的石窟。",
+      "expect": {},
+      "basis": "中国美术史通说（岩山寺壁画研究）；此处借用 cave-temple 门类承载寺观壁画，与该门类原为石窟寺设计存在错位，提纲如实标注",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.ceramics.liaosancai-jiguanhu",
+      "period": "liao-jin",
+      "domain": "ceramics",
+      "name": "辽三彩与鸡冠壶：游牧生活方式对器形的重塑",
+      "one_line": "辽三彩承唐三彩余绪而釉色简化为黄绿白三色，鸡冠壶（马镫壶）则是模仿契丹皮囊水具形制烧造的陶瓷器形，是游牧生活方式直接塑造器物形制的典型个案。",
+      "expect": {},
+      "basis": "canon.liao-jin.keys（辽三彩）",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.furniture.liaomu-jiaju-tuxiang",
+      "period": "liao-jin",
+      "domain": "furniture",
+      "name": "辽墓壁画所见家具图像",
+      "one_line": "辽代家具实物遗存极少，现有认识主要依赖宣化辽墓、库伦旗辽墓壁画中描绘的桌椅、屏风图像，是“以图证物”而非依据实物断代的典型情形。",
+      "expect": {},
+      "basis": "与本单元同期“宣化辽墓壁画”“库伦旗辽墓壁画群”两单元互为材料来源",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.jade.chunshui-qiushan-yu",
+      "period": "liao-jin",
+      "domain": "jade",
+      "name": "契丹贵族玉带与“春水秋山”主题玉雕",
+      "one_line": "“春水”（海东青擒天鹅）与“秋山”（山林虎鹿）是辽金玉雕最具地域辨识度的主题，直接取材于契丹女真皇室的四时捺钵渔猎活动，与中原玉器的礼制或吉祥纹样传统明显不同。",
+      "expect": {},
+      "basis": "中国玉器史通说，与“捺钵”制度研究互证；canon.liao-jin.keys 未直接列出此题材",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.lacquer-textile.liaomu-sichou",
+      "period": "liao-jin",
+      "domain": "lacquer-textile",
+      "name": "辽墓出土丝织品与草原丝绸之路",
+      "one_line": "辽墓（如陈国公主墓、耶律羽之墓）出土的丝织品中既有中原织造，也有中亚、西亚风格的织金锦，反映辽代草原政权在丝绸之路贸易网络中的枢纽位置，具体产地判定本库尚未核实。",
+      "expect": {},
+      "basis": "中国纺织史通说（辽代草原丝路研究）",
+      "confidence": "待核"
+    },
+    {
+      "id": "liao-jin.metal-enamel.qidan-liujin-yinguan",
+      "period": "liao-jin",
+      "domain": "metal-enamel",
+      "name": "契丹鎏金银冠与摩羯纹金银器",
+      "one_line": "契丹贵族随葬的鎏金银冠，包括陈国公主墓所出的成组金银覆面与项饰，摩羯纹样明显吸收了佛教艺术元素，是辽代金银器工艺水准的集中体现。",
+      "expect": {},
+      "basis": "plan/ref-考古与遗址体系.md 提及陈国公主墓已有发掘报告",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.painting.hu-huai-li-zanhua-fanma",
+      "period": "liao-jin",
+      "domain": "painting",
+      "name": "胡瓌、李赞华与番马题材绘画",
+      "one_line": "胡瓌以精细笔法描绘契丹游牧生活与马匹著称，契丹皇族出身的李赞华（耶律倍）同样擅画番马题材，二人是辽代画史里少数留名的个体画家。",
+      "expect": {
+        "artist": [
+          "胡瓌",
+          "李赞华"
+        ]
+      },
+      "basis": "本库既有 hu-huai、li-zanhua 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.print-folk.yingxian-muta-micang",
+      "period": "liao-jin",
+      "domain": "print-folk",
+      "name": "应县木塔辽代秘藏佛经的发现",
+      "one_line": "1974年在应县木塔佛像内发现的辽代刻经、写经与雕版印刷品，是现存最重要的辽代雕版印刷实物材料之一，填补了辽代印刷史长期依赖文献记载而无实物的空白。",
+      "expect": {
+        "site": [
+          "应县木塔"
+        ]
+      },
+      "basis": "中国印刷史通说（应县木塔辽代秘藏的发现与整理）",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.sculpture.huayansi-liao-caisu",
+      "period": "liao-jin",
+      "domain": "sculpture",
+      "name": "华严寺辽代彩塑：“合掌露齿菩萨”",
+      "one_line": "华严寺下寺薄伽教藏殿内现存辽代彩塑二十九尊，其中一尊面露微笑、双手合十的胁侍菩萨因体态生动常被称作“东方维纳斯”，是辽代寺观彩塑写实功力的代表。",
+      "expect": {
+        "site": [
+          "大同华严寺薄伽教藏殿"
+        ]
+      },
+      "basis": "data/sites/huayan-si-bojiajiaozang.json 已有条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.stone-carving.liaojin-jingchuang",
+      "period": "liao-jin",
+      "domain": "stone-carving",
+      "name": "辽金经幢与佛顶尊胜陀罗尼经幢的地域延续",
+      "one_line": "佛顶尊胜陀罗尼经幢自唐代兴起后，辽金时期在燕云地区持续镌造，是判断该地区佛教信仰延续性与地方工匠传统的重要石刻材料，具体现存实例清单本库尚未核实。",
+      "expect": {},
+      "basis": "中国石刻史通说",
+      "confidence": "待核"
+    },
+    {
+      "id": "liao-jin.theory.jindai-wenren-pinping",
+      "period": "liao-jin",
+      "domain": "theory",
+      "name": "金代文人圈的书画品评：散见笔记而非独立著录",
+      "one_line": "金代不存在类似《图画见闻志》《画继》一类独立成书的画史著录，王庭筠一类文人的书画品评意见多散见于题跋与刘祁《归潜志》一类笔记，本库在这一格上如实标注：辽金画论门类本身就是本库著录传统链条上最薄弱的一环。",
+      "expect": {
+        "artist": [
+          "王庭筠"
+        ]
+      },
+      "basis": "plan/ref-著录传统与正典链.md 全篇均未出现辽金著录环节，与该文档24环全部集中于唐宋元明清的事实互证",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.tomb-art.baoshan-liaomu-bihua",
+      "period": "liao-jin",
+      "domain": "tomb-art",
+      "name": "赤峰宝山辽墓壁画",
+      "one_line": "内蒙古阿鲁科尔沁旗宝山辽墓（约10世纪初）所绘“寄锦图”“颂经图”等，是现存年代最早的一批辽代墓葬壁画，早于宣化辽墓群近两个世纪。",
+      "expect": {},
+      "basis": "中国美术史通说（辽代早期墓葬壁画研究）",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.tomb-art.chenguo-gongzhu-mu",
+      "period": "liao-jin",
+      "domain": "tomb-art",
+      "name": "陈国公主墓：辽代贵族墓葬制度与金银器组合",
+      "one_line": "内蒙古通辽陈国公主墓（《辽陈国公主墓》1993年发掘报告）出土金银覆面、项链、蹀躞带等成组随葬品，是辽代契丹贵族墓葬制度保存最完整的个案之一，但本库目前尚无对应 site 条目。",
+      "expect": {},
+      "basis": "plan/ref-考古与遗址体系.md 第三节（已登记有正式发掘报告，现状“缺 site”）",
+      "confidence": "确知"
+    },
+    {
+      "id": "liao-jin.tomb-art.houma-jinmu-fangmugou",
+      "period": "liao-jin",
+      "domain": "tomb-art",
+      "name": "侯马金墓仿木构砖雕",
+      "one_line": "山西侯马董氏墓一类金代砖雕墓以仿木构梁栱、门窗、家具形象装饰墓室四壁，题材贴近墓主生活场景，是金代中原地区墓葬美术的代表个案。",
+      "expect": {},
+      "basis": "plan/ref-考古与遗址体系.md 第三节（“金元墓葬壁画”部分点名侯马董氏墓）",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.tomb-art.kulunqi-liaomu-bihua",
+      "period": "liao-jin",
+      "domain": "tomb-art",
+      "name": "库伦旗辽墓壁画群",
+      "one_line": "内蒙古库伦旗辽代墓群壁画以出行图、散乐图、竹雀图等题材著称，墓主多为契丹贵族，是辽代草原地区（有别于宣化汉人世家）墓葬壁画的另一代表体系。",
+      "expect": {},
+      "basis": "canon.liao-jin.centres（库伦旗）",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.tomb-art.xuanhua-liaomu-bihua",
+      "period": "liao-jin",
+      "domain": "tomb-art",
+      "name": "宣化辽墓壁画：张世卿墓一系",
+      "one_line": "河北宣化下八里辽代壁画墓群（以张世卿墓为代表）绘有星象图、备茶图、散乐图等题材，是研究辽代汉人世家丧葬观念与生活场景最系统的图像材料之一。",
+      "expect": {},
+      "basis": "canon.liao-jin.keys（墓室壁画）/ 中国美术史通说；canon.liao-jin.centres 现列“蔚县”，与通行的“宣化”表述是否一致待核",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.architecture.gugong-yingzao",
+      "period": "ming",
+      "domain": "architecture",
+      "name": "紫禁城营建与明代官式建筑做法的定型",
+      "one_line": "明永乐迁都营建紫禁城，官式建筑模数与做法逐步定型（为清《工程做法则例》所本）；本库已有 site:forbidden-city，但其 SITE_SECTIONS 模板是为石窟寺设计（供养与出资、图像程式等字段不适配斗栱、大木作等建筑本体维度）——本单元的任务是核对该条目是否已承载建筑本体信息，而非从零新建。太和殿现存殿身实为清康熙三十四年重建，明代原构早已不存，site:taihedian 的 span 字段已记此事，处理明清两期紫禁城内容时须注意这层断代复杂性。",
+      "expect": {
+        "site": [
+          "紫禁城",
+          "太和殿"
+        ]
+      },
+      "basis": "outline.json domains.architecture 说明结构性缺口；本库已有 data/sites/forbidden-city.json、taihedian.json",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.architecture.jiangnan-yuanlin-qiyuan",
+      "period": "ming",
+      "domain": "architecture",
+      "name": "江南文人园林观念的成型",
+      "one_line": "拙政园明正德四年（1509）王献臣始建，本库已有 site:zhuozheng-garden 且其 keys 字段已列「文徵明」——今日所见格局大部分是清代至二十世纪重建，明代原貌主要留存于文徵明文字与图册记载，这一「实物已非原貌、证据靠文字旁证」的处境值得在本单元明写。",
+      "expect": {
+        "site": [
+          "拙政园"
+        ],
+        "artist": [
+          "文徵明"
+        ]
+      },
+      "basis": "canon.json ming.keys「园林」；本库已有 data/sites/zhuozheng-garden.json",
+      "confidence": "确知"
+    },
+    {
+      "id": "ming.bronze.xuandelu-zhenwei",
+      "period": "ming",
+      "domain": "bronze",
+      "name": "宣德炉的仿古与鉴伪问题",
+      "one_line": "传世「宣德炉」数量与文献记载的宣德三年铸造规模严重不成比例，明清历代仿铸不绝，「宣德炉」实质已成一个泛称工艺传统的类名而非可靠断代标签。",
+      "expect": {},
+      "basis": "canon.json ming.keys「宣德炉」；宣德炉真伪聚讼为收藏界通行常识",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.calligraphy.dongqichang-shufeng",
+      "period": "ming",
+      "domain": "calligraphy",
+      "name": "董其昌书风与「淡意」的书学主张",
+      "one_line": "董其昌书法主张生淡不主张浓艳排叠，与其画论「以书入画」互为表里；本单元仅处理其书法风格本身，与南北宗画论（huachanshi-suibi）分属两条线索，避免混淆。",
+      "expect": {
+        "artist": [
+          "董其昌"
+        ]
+      },
+      "basis": "董其昌生平书画兼擅为通行常识",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.calligraphy.wumen-shufa",
+      "period": "ming",
+      "domain": "calligraphy",
+      "name": "吴门书家群体与吴门画派的重叠",
+      "one_line": "祝允明、文徵明、王宠并称「吴中三家」，三人与吴门画派画家圈高度重合（文徵明本人书画兼擅）；本库已收祝允明、文徵明，王宠仅有 Wikidata 著录级 stub。",
+      "expect": {
+        "artist": [
+          "祝允明",
+          "文徵明",
+          "王宠"
+        ]
+      },
+      "basis": "plan/ref-艺术家名录体系.md「吴中三家（书法）」条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "ming.cave-temple.mingdai-buzhuang",
+      "period": "ming",
+      "domain": "cave-temple",
+      "name": "明代对前代石窟的补妆重修层",
+      "one_line": "敦煌莫高窟、麦积山等石窟不少窟龛在明代经历过重绘、重塑或加建窟檐；按 schema.py 窟寺三条硬约束，这些「重修层」须单独记录而非并入原作层，本库现有条目对明代重修层的记录程度未核实。",
+      "expect": {},
+      "basis": "schema.py WORK_SECTIONS「窟寺」relayers 硬约束；石窟寺研究通行方法论",
+      "confidence": "待核"
+    },
+    {
+      "id": "ming.ceramics.guanda-minshao-qiyuan",
+      "period": "ming",
+      "domain": "ceramics",
+      "name": "官搭民烧制度的起源",
+      "one_line": "明代中后期官窑生产任务部分转由民窑承接（「官搭民烧」），这一制度在清代成熟为常规做法，明代是其起源阶段；本库现有陶瓷条目未见按此制度组织。",
+      "expect": {},
+      "basis": "景德镇制瓷史通行叙述",
+      "confidence": "待核"
+    },
+    {
+      "id": "ming.ceramics.qinghua-wucai-kuanzhi",
+      "period": "ming",
+      "domain": "ceramics",
+      "name": "青花五彩的官窑体系与款识断代",
+      "one_line": "宣德青花、成化斗彩、嘉靖万历五彩构成明代官窑技术演进主线；官窑款识是断代重要依据也是仿款重灾区，两者须并列处理而非默认款识即真。",
+      "expect": {
+        "class": [
+          "青花",
+          "斗彩",
+          "五彩"
+        ]
+      },
+      "basis": "canon.json ming.keys「青花五彩」；中国陶瓷史通行分期",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.furniture.changwuzhi-jiaju-pinjian",
+      "period": "ming",
+      "domain": "furniture",
+      "name": "《长物志》对家具陈设的品第标准",
+      "one_line": "文震亨《长物志》专辟「几榻」一门品评家具形制雅俗（如「贵磥砢古雅，忌纤巧华丽」），是理解明式家具「文人化」审美从何而来的直接文本依据，与家具实物工艺谱系是两条互补证据线。",
+      "expect": {
+        "treatise": [
+          "长物志"
+        ]
+      },
+      "basis": "《长物志》「几榻」门内容为明代文房研究通行引用文献",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.furniture.diyu-zuofang-mengya",
+      "period": "ming",
+      "domain": "furniture",
+      "name": "地域作坊分野的萌芽",
+      "one_line": "家具地域流派（苏作、广作、京作）的明确分野与命名多成熟于清代，明代是否已存在可辨识的地域风格差异证据薄弱，本单元标记为待考而非默认明代已有三大作并存。",
+      "expect": {},
+      "basis": "家具地域流派研究通行分期（苏作广作京作多系清代命名）",
+      "confidence": "待核"
+    },
+    {
+      "id": "ming.furniture.huanghuali-zitan-fenhua",
+      "period": "ming",
+      "domain": "furniture",
+      "name": "黄花梨与紫檀材质的等级分化",
+      "one_line": "明式家具以黄花梨为大宗，紫檀在明代地位不及清代；清代崇尚紫檀、追求重色深沉是审美转向而非单纯材质稀缺的结果。本库实测 19 件 kind:家具 条目里黄花梨占比明显高于紫檀，与这一判断吻合。",
+      "expect": {},
+      "basis": "本库实测 data/works kind:家具 条目材质字段；明清家具材质审美转向为收藏界通行判断",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.furniture.lubanjing-jiangzuo",
+      "period": "ming",
+      "domain": "furniture",
+      "name": "《鲁班经》与匠作则例的文本证据",
+      "one_line": "《鲁班经》（全称《鲁班经匠家镜》）是现存少数明代木作匠作则例文本之一，记录家具尺寸比例与择日仪式规范，是家具研究里罕见的「匠人自身文本」而非文人品评视角的史料；本库 sources.json 尚未登记此书。",
+      "expect": {
+        "treatise": [
+          "鲁班经"
+        ]
+      },
+      "basis": "明代匠作文献通行叙述",
+      "confidence": "待核"
+    },
+    {
+      "id": "ming.furniture.mingqing-fenqi-zhengyi",
+      "period": "ming",
+      "domain": "furniture",
+      "name": "「明式家具」断代边界的争议",
+      "one_line": "相当一部分被称为「明式」的传世家具实际制作于清早期（顺康年间），风格延续与朝代断限并不吻合——「明式」更接近一个风格分类而非严格断代术语。本库处理家具条目的 period 字段时需注意这一错位，不应仅凭风格即定 period。",
+      "expect": {},
+      "basis": "明式家具研究领域对「明式」概念本身的通行反思（王世襄一系研究，本库未核对具体出处段落）",
+      "confidence": "待核"
+    },
+    {
+      "id": "ming.furniture.sunmao-jiegou",
+      "period": "ming",
+      "domain": "furniture",
+      "name": "榫卯结构体系与「不用一钉」的技术逻辑",
+      "one_line": "明式家具依靠榫卯（格肩榫、粽角榫、夹头榫等）实现构件咬合与应力分散，不依赖钉胶——这套技术逻辑是「明式」简洁外观得以成立的结构前提，而非单纯审美选择。",
+      "expect": {},
+      "basis": "中国美术全集·工艺美术编（漆器家具卷）通行叙述；王世襄一系研究（本库未核对原书章节，亦未见 sources.json 登记此系研究）",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.furniture.xingzhi-xulie",
+      "period": "ming",
+      "domain": "furniture",
+      "name": "明式家具的形制序列",
+      "one_line": "椅凳、桌案、床榻、柜架四大功能类别在明代已发展出成熟的形制谱系（圈椅、官帽椅、罗汉床等具体子类）。本库现有 19 件家具条目多按馆方原始分类命名（如「Center Table」「Side Table」），未按此形制谱系组织——这是可以直接核对、当下就能做的一步。",
+      "expect": {
+        "work": [
+          "黄花梨圈椅一对（已有：ming-huanghuali-armchairs-cma）"
+        ]
+      },
+      "basis": "本库实测 data/works 家具类条目命名方式；明式家具形制分类为通行研究框架",
+      "confidence": "确知"
+    },
+    {
+      "id": "ming.furniture.zhuwomuya-jiaocha",
+      "period": "ming",
+      "domain": "furniture",
+      "name": "竹木牙角文房器与家具工艺的材质谱系交叉",
+      "one_line": "臂搁、笔筒、香几等竹木牙角文房器与家具共享部分工艺技法（尤其嵌镶、雕刻）；outline.json 把「竹木牙角」与「家具」并入同一 domain 的 kinds 列表，本单元处理两者技法重叠，不把文房器当作家具的附属品处理。",
+      "expect": {},
+      "basis": "outline.json domains.furniture.kinds 字段（[\"家具\",\"竹木牙角\"]）",
+      "confidence": "确知"
+    },
+    {
+      "id": "ming.jade.wenren-yu-luzigang",
+      "period": "ming",
+      "domain": "jade",
+      "name": "文人玉与「陆子冈」款",
+      "one_line": "明代中晚期玉雕出现文人趣味介入的作品，「子冈牌」一类带铭文小型玉牌与陆子冈其人其名的对应关系历来存疑，传世带「子冈」款玉器多为后世伪托。",
+      "expect": {},
+      "basis": "明代玉器史通行叙述；子冈款真伪问题为收藏界常识",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.lacquer-textile.guoyuanchang-diaoqi",
+      "period": "ming",
+      "domain": "lacquer-textile",
+      "name": "果园厂雕漆与官作漆器体系",
+      "one_line": "明代官营果园厂主理宫廷雕漆生产，与民间雕漆（如新安一系）分属不同技术与订件体系；本库现有漆器条目未见按官作/民作区分。",
+      "expect": {
+        "class": [
+          "雕漆"
+        ]
+      },
+      "basis": "明代官营手工业通行叙述；本库已有 class:diaoqi",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.metal-enamel.jingtailan-kuanshi",
+      "period": "ming",
+      "domain": "metal-enamel",
+      "name": "景泰蓝掐丝珐琅与「景泰年制」款识问题",
+      "one_line": "传世大量掐丝珐琅器带「景泰年制」款，但工艺史研究早已指出相当一部分实际早于或晚于景泰年间制作——「景泰蓝」这一俗称本身已把整个门类窄化系于一朝一帝，本库处理相关条目须区分俗称与断代。",
+      "expect": {},
+      "basis": "景泰蓝工艺史通行常识（款识与实际年代不符问题）",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.painting.chenhongshou-bianxing",
+      "period": "ming",
+      "domain": "painting",
+      "name": "陈洪绶与晚明人物画的变形趣味",
+      "one_line": "陈洪绶人物造型夸张变形、衣纹方折，与晚明版画（本人即为《水浒叶子》《九歌图》等版画画稿作者）互为表里，是本单元与 print-folk 门类的交叉点。",
+      "expect": {
+        "artist": [
+          "陈洪绶"
+        ],
+        "work": [
+          "水浒叶子",
+          "九歌图"
+        ]
+      },
+      "basis": "陈洪绶生平与版画画稿关系为艺术史通行常识；本库已收 chen-hongshou.json",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.painting.dongqichang-nanbei",
+      "period": "ming",
+      "domain": "painting",
+      "name": "董其昌与南北宗论的建构",
+      "one_line": "董其昌以画艺与鉴藏地位主导晚明画坛正典取舍；其理论核心「南北宗论」已系统收在 treatise:huachanshi-suibi 并标 disp（理论建构而非史实描述），本单元只处理董其昌作为画家/鉴藏家的活动本身，不复述该理论内容。",
+      "expect": {
+        "artist": [
+          "董其昌"
+        ],
+        "treatise": [
+          "画禅室随笔"
+        ]
+      },
+      "basis": "canon.json ming.dispute；data/treatises/huachanshi-suibi.json",
+      "confidence": "确知"
+    },
+    {
+      "id": "ming.painting.gongting-huayuan-bianyuan",
+      "period": "ming",
+      "domain": "painting",
+      "name": "明代宫廷画院的边缘化",
+      "one_line": "明代画院无正式建制品秩，画家多以锦衣卫武职虚衔供奉内廷（如戴进、吕纪），与两宋翰林图画院的建制化程度不可同日而语，这一制度性落差是理解「浙派为何被后世视为非正统」的背景之一。",
+      "expect": {
+        "artist": [
+          "吕纪",
+          "商喜"
+        ]
+      },
+      "basis": "明代画院制度的通行艺术史叙述（与北宋翰林图画院对比）",
+      "confidence": "待核"
+    },
+    {
+      "id": "ming.painting.songjiang-huating",
+      "period": "ming",
+      "domain": "painting",
+      "name": "松江派（华亭派）对吴门画派的接续与竞争",
+      "one_line": "顾正谊、莫是龙倡导在先，董其昌继之壮大，松江派在晚明取代吴门成为江南文人画新的地域中心；本库已有 class:松江派（华亭派）但缺其奠基者顾正谊、莫是龙的条目。",
+      "expect": {
+        "artist": [
+          "顾正谊",
+          "莫是龙",
+          "董其昌",
+          "赵左",
+          "沈士充"
+        ],
+        "class": [
+          "松江派（华亭派）"
+        ]
+      },
+      "basis": "中国美术简史／王逊《中国美术史》通行的明代画派地域中心叙述；本库已有 class:songjiang-pai",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.painting.suzhoupian-zuowei",
+      "period": "ming",
+      "domain": "painting",
+      "name": "苏州片与晚明书画作伪产业",
+      "one_line": "canon.json 已明确「明代苏州作伪规模巨大，大量传世'宋元名作'实为明人所作」——本单元把苏州片当作一个有组织的产业史现象处理（分工、销路、常见母本），而非仅在个别作品条目里零星提及断代疑点。",
+      "expect": {},
+      "basis": "canon.json ming.dispute 直接陈述",
+      "confidence": "确知"
+    },
+    {
+      "id": "ming.painting.wumen-shichanghua",
+      "period": "ming",
+      "domain": "painting",
+      "name": "吴门四家与文人画的市场化",
+      "one_line": "沈周、文徵明、唐寅、仇英并称吴门四家，但四人处境分化明显——沈文属士人身份作画不完全为鬻，唐寅晚年近乎职业卖画，仇英本是职业画工经文人圈接纳，「文人画」与「市场」在吴门内部界线已模糊，不宜把四人当同质群体处理。",
+      "expect": {
+        "artist": [
+          "沈周",
+          "文徵明",
+          "唐寅",
+          "仇英"
+        ],
+        "class": [
+          "吴门画派"
+        ]
+      },
+      "basis": "canon.json ming.keys「吴门四家」；本库已收四人全文条目（shen-zhou/wen-zhengming/tang-yin/qiu-ying）",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.painting.xieyi-huaniao",
+      "period": "ming",
+      "domain": "painting",
+      "name": "徐渭与写意花鸟的笔墨解放",
+      "one_line": "徐渭大写意花鸟以泼墨破形取代勾勒设色的花鸟画科成法，对晚明及清代八大、扬州画派均有直接影响；但这一「影响链」多为后世追认，徐渭本人生前画名不显，处理时不宜把后世地位倒放回其当时处境。",
+      "expect": {
+        "artist": [
+          "徐渭",
+          "陈淳"
+        ],
+        "class": [
+          "花鸟"
+        ]
+      },
+      "basis": "徐渭生平画史通行叙述；本库已收 xu-wei.json",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.painting.zhepai-yuanti",
+      "period": "ming",
+      "domain": "painting",
+      "name": "浙派与院体的关系",
+      "one_line": "戴进、吴伟等浙派画家上承南宋院体（马夏边角）而非直承元人文人画一路；明代画院无正式建制品秩，画家多以锦衣卫武职虚衔供奉内廷，与两宋翰林图画院不可同日而语——浙派是院体外职业画家对南宋院体传统的延续与改造。",
+      "expect": {
+        "artist": [
+          "戴进",
+          "吴伟",
+          "张路"
+        ],
+        "class": [
+          "浙派"
+        ]
+      },
+      "basis": "canon.json ming.keys「浙派」；本库已有 class:zhepai",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.print-folk.banhua-yu-chuban-shangye",
+      "period": "ming",
+      "domain": "print-folk",
+      "name": "版画与晚明出版商业的关系",
+      "one_line": "版画插图本的刊刻与晚明书坊商业出版直接绑定，插图质量与书坊字号声誉互相背书——这是版画区别于卷轴画「文人自娱」叙事的关键，它从生产之初就是商品。",
+      "expect": {},
+      "basis": "晚明出版史通行叙述",
+      "confidence": "待核"
+    },
+    {
+      "id": "ming.print-folk.fojing-banhua-yanxu",
+      "period": "ming",
+      "domain": "print-folk",
+      "name": "明代佛经版画对前代刊刻传统的延续",
+      "one_line": "《永乐北藏》《嘉兴藏》等明代官刻、私刻大藏经延续唐宋以来佛经扉画传统，是版画门类里最容易被「文人趣味」叙事忽略的一支，因其生产目的是宗教流通而非鉴赏收藏。",
+      "expect": {},
+      "basis": "中国佛教版画史通行叙述",
+      "confidence": "待核"
+    },
+    {
+      "id": "ming.print-folk.huagao-yu-banhua",
+      "period": "ming",
+      "domain": "print-folk",
+      "name": "画家为版画作底稿的现象",
+      "one_line": "陈洪绶为《水浒叶子》《九歌图》等作画稿再由刻工镌刻，是版画与卷轴画之间少见的、有明确画家署名的协作关系个案，与多数版画「刻工无款、画稿佚名」的常态形成对照。",
+      "expect": {
+        "artist": [
+          "陈洪绶"
+        ],
+        "work": [
+          "水浒叶子",
+          "九歌图"
+        ]
+      },
+      "basis": "陈洪绶生平通行叙述",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.print-folk.huizhou-diaogong-shijia",
+      "period": "ming",
+      "domain": "print-folk",
+      "name": "徽州虬村黄氏刻工世家",
+      "one_line": "黄氏一族自明中叶起数代专精木刻，是中国版画史上少数留下家族谱系记录的匠人群体之一，这一「留名」本身是个例外，不代表版画刻工整体已脱离匿名生产（见 plan/ref-著录传统与正典链.md 第4节「匠人不署名」判断）。",
+      "expect": {},
+      "basis": "中国版画史通行叙述（徽派刻工世家）",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.print-folk.jinling-huipai-fenzhi",
+      "period": "ming",
+      "domain": "print-folk",
+      "name": "金陵与徽派版画的技法分野",
+      "one_line": "万历以降南京（金陵）与徽州两地版画刻工体系并起，徽派以虬村黄氏世家「细若毫发」的精刻著称，金陵一系相对粗犷写意，两地技法谱系不同，不宜笼统合称「明代版画」。",
+      "expect": {},
+      "basis": "中国版画史通行叙述（金陵/徽派分野）；plan/ref-著录传统与正典链.md 关于匠人不署名的判断",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.print-folk.nianhua-qiyuan-zhengyi",
+      "period": "ming",
+      "domain": "print-folk",
+      "name": "年画的起源问题：明代雏形与清代成熟期的关系",
+      "one_line": "杨柳青、桃花坞等年画产地的历史叙述常把源头追溯至明代，但现存最早实物与产地文献多系清代，明代阶段的具体面貌证据稀薄——「起源于明代」这一常见说法本身须标 disp，不宜径直采信。",
+      "expect": {},
+      "basis": "年画史研究中「起源断代」普遍存在证据薄弱问题（本库尚无一手核实）",
+      "confidence": "待核"
+    },
+    {
+      "id": "ming.print-folk.shizhuzhai-huapu",
+      "period": "ming",
+      "domain": "print-folk",
+      "name": "《十竹斋书画谱》与饾版拱花技法",
+      "one_line": "胡正言编刻《十竹斋书画谱》以饾版套色、拱花压凹达到明代彩色版画的技术顶点。本库实测已有 16 件 kind:版画/period:ming 条目（克利夫兰藏，题名 Blossoms/Bamboo/Lotus 等花卉竹石题材），与此谱风格高度吻合，很可能即出自此系统或同类画谱，但条目本身尚未标注具体谱系归属，需核对原始馆方著录。",
+      "expect": {
+        "treatise": [
+          "十竹斋书画谱"
+        ],
+        "work": [
+          "十竹斋书画谱（各页）"
+        ]
+      },
+      "basis": "本库实测 data/works 中 16 件 kind:版画/period:ming 条目标题；中国版画史通行叙述",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.print-folk.xiaoshuo-xiqu-chatu",
+      "period": "ming",
+      "domain": "print-folk",
+      "name": "小说戏曲插图版画的黄金时代",
+      "one_line": "万历至崇祯间《西厢记》《牡丹亭》等戏曲小说插图本竞相刊刻，同一文本常有数种不同版本插图互相竞胜，插图版画的艺术成就在当时即被视为独立于文字的观赏对象。",
+      "expect": {
+        "work": [
+          "闵刻本《西厢记》插图",
+          "《牡丹亭》插图（清晖阁本等）"
+        ]
+      },
+      "basis": "canon.json ming.keys「版画」；中国版画史通行叙述",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.sculpture.shisanling-shendao",
+      "period": "ming",
+      "domain": "sculpture",
+      "name": "明十三陵神道石刻的程式化与规格化",
+      "one_line": "明代帝陵神道石像生（石兽、石人）形制高度程式化，规格由礼制则例统一规定，与个体艺术表现的关联度低于唐宋陵墓石刻；本库现有 tomb-art/sculpture 两门类均未见十三陵条目。",
+      "expect": {
+        "site": [
+          "明十三陵神道"
+        ]
+      },
+      "basis": "明代陵墓制度通行叙述；本库既有条目核对未见收录",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.sculpture.siguan-shisu",
+      "period": "ming",
+      "domain": "sculpture",
+      "name": "寺观造像的世俗化与漆金木雕",
+      "one_line": "明代寺观造像（如水陆画配套塑像、法海寺一类）漆金木雕工艺发达，题材与技法较前代更趋世俗化装饰性，具体个案本库尚无收录。",
+      "expect": {},
+      "basis": "明代宗教美术通行叙述（法海寺个案）",
+      "confidence": "待核"
+    },
+    {
+      "id": "ming.stone-carving.moya-youji",
+      "period": "ming",
+      "domain": "stone-carving",
+      "name": "晚明文人游览题刻之风",
+      "one_line": "晚明文人游历名山，摩崖题刻数量激增，题刻兼具书法与纪游文献双重性质，与同期游记文学、纪游图繁荣同步；本库现有石刻类条目未见明代摩崖题刻。",
+      "expect": {},
+      "basis": "晚明文人游历文化通行叙述",
+      "confidence": "待核"
+    },
+    {
+      "id": "ming.theory.changwuzhi-jianshangwenhua",
+      "period": "ming",
+      "domain": "theory",
+      "name": "《长物志》与晚明鉴赏文化的成型",
+      "one_line": "文震亨《长物志》分室庐、花木、水石、几榻、书画等十二门，是晚明「文人生活方式」系统化为文本的代表；家具（几榻门）只是其中一支，本单元处理该书作为鉴赏体系整体的地位，家具的具体品评见 ming.furniture.changwuzhi-jiaju-pinjian，不重复。",
+      "expect": {
+        "treatise": [
+          "长物志"
+        ]
+      },
+      "basis": "《长物志》十二门体例为晚明文房研究通行常识",
+      "confidence": "记得"
+    },
+    {
+      "id": "ming.tomb-art.dingling-fajue",
+      "period": "ming",
+      "domain": "tomb-art",
+      "name": "明定陵发掘与随葬体系",
+      "one_line": "1956 年定陵发掘出土万历帝后棺椁及大量随葬品，是唯一经科学发掘的明代帝陵地宫；发掘中大量丝织品因保护技术不足损毁，这一事件本身已是文物保护史著名教训案例，应与随葬品的美术史价值分开记述。",
+      "expect": {
+        "site": [
+          "明定陵地宫"
+        ]
+      },
+      "basis": "定陵发掘为中国考古史通行常识案例",
+      "confidence": "确知"
+    },
+    {
+      "id": "neolithic.calligraphy.taosi-zhushu",
+      "period": "neolithic",
+      "domain": "calligraphy",
+      "name": "陶寺朱书与刻画符号：文字前史",
+      "one_line": "陶寺陶器上的朱书与各文化刻画符号是汉字起源讨论的物证，是本库书法门类能追溯到的最早一端——先于文字成熟。",
+      "expect": {
+        "site": [
+          "陶寺"
+        ],
+        "class": [
+          "刻画符号"
+        ]
+      },
+      "basis": "canon.keys(陶寺)",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.ceramics.dawenkou-baitao",
+      "period": "neolithic",
+      "domain": "ceramics",
+      "name": "大汶口白陶与刻符",
+      "one_line": "大汶口白陶与陶器刻符是汉字起源讨论中常被引用的物证之一，属陶瓷与文字史的交界题目。",
+      "expect": {
+        "site": [
+          "大汶口"
+        ],
+        "class": [
+          "大汶口文化",
+          "白陶"
+        ]
+      },
+      "basis": "canon.centres(大汶口)",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.ceramics.longshan-heitao",
+      "period": "neolithic",
+      "domain": "ceramics",
+      "name": "龙山黑陶：轮制工艺与蛋壳陶",
+      "one_line": "龙山黑陶代表新石器制陶技术的顶点（轮制、渗碳），蛋壳陶壁厚不足一毫米，是工艺史而非纹样史的例证。",
+      "expect": {
+        "site": [
+          "城子崖"
+        ],
+        "class": [
+          "龙山文化",
+          "蛋壳黑陶"
+        ]
+      },
+      "basis": "canon.keys(龙山黑陶)/plan/ref-考古与遗址体系.md 六节（龙山文化代表遗址：陶寺、城子崖，均缺）",
+      "confidence": "记得"
+    },
+    {
+      "id": "neolithic.ceramics.majiayao-caitao",
+      "period": "neolithic",
+      "domain": "ceramics",
+      "name": "马家窑彩陶：漩涡纹与半山、马厂分期",
+      "one_line": "马家窑是彩陶艺术的顶峰期，漩涡纹、水波纹的演变序列是彩陶断代的核心依据。",
+      "expect": {
+        "site": [
+          "马家窑"
+        ],
+        "class": [
+          "马家窑文化",
+          "彩陶"
+        ]
+      },
+      "basis": "canon.keys(马家窑)/canon.centres(马家窑)",
+      "confidence": "记得"
+    },
+    {
+      "id": "neolithic.ceramics.taosi-caihui-tao",
+      "period": "neolithic",
+      "domain": "ceramics",
+      "name": "陶寺彩绘陶与蟠龙纹盘",
+      "one_line": "陶寺彩绘陶（尤其蟠龙纹盘）常被视为早期礼制用器的雏形，其与后世龙纹的关系是研究热点。",
+      "expect": {
+        "site": [
+          "陶寺"
+        ],
+        "work": [
+          "彩绘蟠龙纹陶盘"
+        ]
+      },
+      "basis": "canon.keys(陶寺)/canon.centres(陶寺)",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.ceramics.yangshao-caitao",
+      "period": "neolithic",
+      "domain": "ceramics",
+      "name": "仰韶彩陶：半坡与庙底沟两大类型的纹样体系",
+      "one_line": "彩陶是新石器美术最核心的研究对象，仰韶文化以人面鱼纹、几何纹两大类型确立了最早的图像谱系。",
+      "expect": {
+        "site": [
+          "半坡",
+          "庙底沟"
+        ],
+        "class": [
+          "仰韶文化",
+          "彩陶"
+        ],
+        "work": [
+          "人面鱼纹盆",
+          "鹳鱼石斧图彩陶缸"
+        ]
+      },
+      "basis": "canon.keys(仰韶彩陶)/canon.centres(半坡、庙底沟)",
+      "confidence": "记得"
+    },
+    {
+      "id": "neolithic.jade.hongshan-nvshenmiao",
+      "period": "neolithic",
+      "domain": "jade",
+      "name": "牛河梁女神庙、积石冢与玉器的祭祀组合",
+      "one_line": "女神庙、积石冢、玉器三者的空间关系是判断红山玉器功能（礼器而非佩饰）的关键证据。",
+      "expect": {
+        "site": [
+          "牛河梁"
+        ],
+        "work": [
+          "玉猪龙"
+        ]
+      },
+      "basis": "canon.centres(牛河梁)/plan/ref-考古与遗址体系.md（牛河梁女神庙、积石冢）",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.jade.hongshan-yulong",
+      "period": "neolithic",
+      "domain": "jade",
+      "name": "红山玉器：C 形龙与勾云形佩",
+      "one_line": "红山玉器以抽象动物形（C 形龙、猪龙）与几何形（勾云形佩）两条线索并行，是治玉传统最早的成熟形态之一。",
+      "expect": {
+        "site": [
+          "牛河梁"
+        ],
+        "class": [
+          "红山文化",
+          "玉器"
+        ]
+      },
+      "basis": "canon.keys(红山玉器)/canon.centres(牛河梁)",
+      "confidence": "记得"
+    },
+    {
+      "id": "neolithic.jade.liangzhu-shenren",
+      "period": "neolithic",
+      "domain": "jade",
+      "name": "良渚神人兽面纹：释读多说并存",
+      "one_line": "神人兽面纹是良渚玉器的核心母题，图腾、巫觋、王权徽记等释读并存而无一可证——canon 已明确标此为争议。",
+      "expect": {
+        "site": [
+          "良渚",
+          "反山",
+          "瑶山"
+        ],
+        "class": [
+          "良渚文化",
+          "玉琮"
+        ]
+      },
+      "basis": "canon.keys(良渚玉器)/canon.dispute（良渚玉器「神人兽面纹」的释读多说并存）",
+      "confidence": "记得"
+    },
+    {
+      "id": "neolithic.jade.liangzhu-yuqi-zhidu",
+      "period": "neolithic",
+      "domain": "jade",
+      "name": "良渚用玉制度：琮、璧、钺的等级分配",
+      "one_line": "反山、瑶山墓地玉器的数量与组合差异，是良渚社会分层研究的核心物证，制度先于风格成为研究焦点。",
+      "expect": {
+        "site": [
+          "良渚古城",
+          "反山",
+          "瑶山"
+        ],
+        "class": [
+          "玉琮",
+          "玉璧",
+          "玉钺"
+        ]
+      },
+      "basis": "canon.centres(良渚)/plan/ref-考古与遗址体系.md 六节（良渚文化：良渚古城、反山、瑶山，本库缺 site）",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.lacquer-textile.hemudu-qiqi",
+      "period": "neolithic",
+      "domain": "lacquer-textile",
+      "name": "河姆渡漆器与早期丝麻织物遗痕",
+      "one_line": "河姆渡出土的朱漆木碗是中国已知最早的漆器实物之一，织物遗痕则是丝麻起源讨论的间接证据。",
+      "expect": {
+        "site": [
+          "河姆渡"
+        ],
+        "class": [
+          "漆器"
+        ],
+        "work": [
+          "朱漆木碗"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 六节（河姆渡文化：河姆渡，本库已有）",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.sculpture.hongshan-nvshen-suxiang",
+      "period": "neolithic",
+      "domain": "sculpture",
+      "name": "红山女神庙泥塑人像：最早的写实塑造尝试",
+      "one_line": "牛河梁女神庙出土的泥塑人像残块（含真人大小头像）是中国最早的写实性雕塑遗存之一。",
+      "expect": {
+        "site": [
+          "牛河梁"
+        ],
+        "work": [
+          "女神庙泥塑头像"
+        ]
+      },
+      "basis": "canon.centres(牛河梁)/plan/ref-考古与遗址体系.md（女神庙）",
+      "confidence": "待核"
+    },
+    {
+      "id": "neolithic.stone-carving.yanhua",
+      "period": "neolithic",
+      "domain": "stone-carving",
+      "name": "史前岩画三大区系：阴山、花山、贺兰山",
+      "one_line": "岩画是《中国美术全集》绘画编独立设卷的门类，本库既无对应 kind 也未收录，此题目立起来正是为了让这个缺口显形。",
+      "expect": {
+        "site": [
+          "阴山岩画",
+          "花山岩画",
+          "贺兰山岩画"
+        ]
+      },
+      "basis": "plan/ref-全集与图录体系.md 第 4 节（《中国美术全集》绘画编「岩画」单卷；本库 WORK_KIND_GROUP 无对应 kind）",
+      "confidence": "记得"
+    },
+    {
+      "id": "neolithic.tomb-art.taosi-muzang-dengji",
+      "period": "neolithic",
+      "domain": "tomb-art",
+      "name": "陶寺墓地的用器等级分化：早期礼制的萌芽",
+      "one_line": "陶寺墓地随葬品数量与种类的悬殊差异，被视为礼制与社会分层在美术物证上的最早显现。",
+      "expect": {
+        "site": [
+          "陶寺"
+        ],
+        "event": [
+          "陶寺遗址发掘"
+        ]
+      },
+      "basis": "canon.keys(陶寺)/canon.centres(陶寺)",
+      "confidence": "待核"
+    },
+    {
+      "id": "northern-song.architecture.beisong-mugou-guli",
+      "period": "northern-song",
+      "domain": "architecture",
+      "name": "隆兴寺摩尼殿与晋祠圣母殿：北宋木构孤例",
+      "one_line": "摩尼殿“十字形”平面与圣母殿的“减柱造”殿身，是北宋官式与地方做法差异并存的两处罕见实例，现存北宋木构本身数量远少于辽金。",
+      "expect": {
+        "site": [
+          "隆兴寺摩尼殿",
+          "晋祠圣母殿"
+        ]
+      },
+      "basis": "data/sites/longxing-si-mounidian.json、jinci-shengmudian.json 已有条目（period 字段现均为 null，待补）",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.architecture.yingzao-fashi",
+      "period": "northern-song",
+      "domain": "architecture",
+      "name": "《营造法式》与官式建筑的模数化标准",
+      "one_line": "李诫奉敕编修《营造法式》，以“材”为模数统一官式建筑的设计与用工核算，是中国建筑史上第一部完整的规范化技术著作。",
+      "expect": {
+        "treatise": [
+          "营造法式"
+        ]
+      },
+      "basis": "中国古代建筑史通说；本库尚无该书对应 treatise 或 source 条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.bronze.jinshixue-xingqi",
+      "period": "northern-song",
+      "domain": "bronze",
+      "name": "金石学的兴起与仿古铜器的著录化",
+      "one_line": "欧阳修《集古录》、吕大临《考古图》开创以青铜器铭文与器形分类考订三代史事的“金石学”，直接影响了徽宗朝《宣和博古图》的编纂体例。",
+      "expect": {
+        "treatise": [
+          "考古图",
+          "集古录"
+        ]
+      },
+      "basis": "data/sources.json 已登记 xuanhe-bogu-tu；《考古图》《集古录》本库尚无独立条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.calligraphy.songsi-jia-shangyi",
+      "period": "northern-song",
+      "domain": "calligraphy",
+      "name": "“宋四家”苏黄米蔡与尚意书风",
+      "one_line": "苏轼、黄庭坚、米芾、蔡襄以“我书意造本无法”为共同取向，把书法评价标准从“晋唐法度”转向个人性情的直接流露。",
+      "expect": {
+        "artist": [
+          "苏轼",
+          "黄庭坚",
+          "米芾",
+          "蔡襄"
+        ]
+      },
+      "basis": "本库既有四位艺术家条目 / canon.northern-song.dispute（“宋四家”等组合为后世归拢）",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.cave-temple.dazu-beishan-zhuanzhe",
+      "period": "northern-song",
+      "domain": "cave-temple",
+      "name": "大足北山石窟：唐末至南宋的转折点",
+      "one_line": "北山石窟造像跨越唐末、五代、北宋、南宋四个阶段，题材从晚唐延续的密教造像转向宋代更趋世俗化、生活化的观音与经变题材。",
+      "expect": {
+        "site": [
+          "北山"
+        ]
+      },
+      "basis": "data/sites/dazu-beishan.json 已有条目（period 字段现为 null）",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.ceramics.cizhouyao-minyao",
+      "period": "northern-song",
+      "domain": "ceramics",
+      "name": "磁州窑民窑体系与白地黑花",
+      "one_line": "磁州窑以化妆土打底、铁锈花绘饰的“白地黑花”技法，代表北方民窑区别于官窑体系的另一条生产逻辑，题材也更贴近世俗生活。",
+      "expect": {
+        "class": [
+          "磁州窑"
+        ]
+      },
+      "basis": "data/classes/cizhou-yao.json 已有条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.ceramics.dingyao-fuke",
+      "period": "northern-song",
+      "domain": "ceramics",
+      "name": "定窑覆烧工艺与刻花印花装饰",
+      "one_line": "定窑首创的“覆烧”支圈组合工艺大幅提升产量但器口留下“芒口”，同期发展的刻花、印花装饰体系成为北方白瓷的技术标杆。",
+      "expect": {
+        "class": [
+          "定窑"
+        ]
+      },
+      "basis": "data/classes/ding-yao.json 已有条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.ceramics.jingdezhen-yingqing",
+      "period": "northern-song",
+      "domain": "ceramics",
+      "name": "景德镇窑早期青白瓷（影青）的确立",
+      "one_line": "北宋景德镇窑烧成的青白瓷因釉色介于青白之间、暗刻花纹隐现如影而得名“影青”，为元代成为全国制瓷中心埋下伏笔。",
+      "expect": {
+        "class": [
+          "景德镇窑"
+        ]
+      },
+      "basis": "data/classes/jingdezhen-yao.json 已有条目（span 载“唐-今，元代以后成为全国核心”）",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.ceramics.junyao-yaobian",
+      "period": "northern-song",
+      "domain": "ceramics",
+      "name": "钧窑窑变釉的呈色机制",
+      "one_line": "钧窑以铜元素在还原气氛下呈现的窑变釉色（玫瑰紫、海棠红）打破了单色釉的传统，盛期约在北宋晚期至金，断代仍依赖窑址地层与传世品比对的双轨。",
+      "expect": {
+        "class": [
+          "钧窑"
+        ]
+      },
+      "basis": "data/classes/jun-yao.json 已有条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.ceramics.ruyao-guanfu",
+      "period": "northern-song",
+      "domain": "ceramics",
+      "name": "汝窑与北宋官府用瓷",
+      "one_line": "汝窑天青釉传世不足百件，清凉寺窑址考古发掘给出的窑口断代，证据等级远高于仅凭传世品做的风格比对。",
+      "expect": {
+        "class": [
+          "汝窑"
+        ],
+        "site": [
+          "宝丰清凉寺窑址"
+        ]
+      },
+      "basis": "data/classes/ru-yao.json 已有条目；窑址考古报告（河南省文物考古研究所历年发掘简报）",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.ceramics.yaozhouyao-kehua",
+      "period": "northern-song",
+      "domain": "ceramics",
+      "name": "耀州窑刻花青瓷的刀锋工艺",
+      "one_line": "耀州窑以斜刀深刻的犀利刀法著称，北宋盛期的刻花青瓷代表了同期刻花技术的最高水准，常与汝窑并论而窑址性质不同（民窑为主兼贡御）。",
+      "expect": {
+        "class": [
+          "耀州窑"
+        ]
+      },
+      "basis": "data/classes/yaozhou-yao.json 已有条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.furniture.gaoxing-jiaju-dingxing",
+      "period": "northern-song",
+      "domain": "furniture",
+      "name": "高型家具体系的定型",
+      "one_line": "垂足而坐的生活方式至北宋基本普及，椅、凳、桌案等高型家具的基本形制在此期定型，取代了此前席地而坐、低矮家具为主的传统。",
+      "expect": {},
+      "basis": "中国家具史通说（与《清明上河图》一类图像材料互证）",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.jade.songdai-fanggu-yu",
+      "period": "northern-song",
+      "domain": "jade",
+      "name": "宋代仿古玉与文人赏玉风气",
+      "one_line": "金石学兴起带动了以三代青铜器纹样为蓝本的仿古玉器生产，玉器从礼制用器进一步转向文人案头赏玩对象，具体器类与年代分布本库尚未逐条核实。",
+      "expect": {},
+      "basis": "中国玉器史通说，与本单元同期“金石学的兴起”互为背景",
+      "confidence": "待核"
+    },
+    {
+      "id": "northern-song.lacquer-textile.kesi-yimo-fanghua",
+      "period": "northern-song",
+      "domain": "lacquer-textile",
+      "name": "缂丝“以缂摹画”的确立",
+      "one_line": "朱克柔等缂丝名家把“通经断纬”技法用于摹缂名家画稿，使缂丝从实用织物发展出可与绘画比肩的独立鉴藏门类。",
+      "expect": {
+        "class": [
+          "缂丝"
+        ]
+      },
+      "basis": "data/classes/kesi.json 已有条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.metal-enamel.beisong-jinyinqi-suqian",
+      "period": "northern-song",
+      "domain": "metal-enamel",
+      "name": "北宋金银器的素面简约转向",
+      "one_line": "相较唐代金银器的满地装饰，北宋金银器整体趋向素面或折枝花卉一类疏朗纹样，反映审美趣味从盛唐富丽向宋代内敛的转变，具体量化对比本库尚未核实。",
+      "expect": {},
+      "basis": "中国金银器史通说（与何家村窖藏一类唐代材料的对比研究）",
+      "confidence": "待核"
+    },
+    {
+      "id": "northern-song.painting.cuibai-huaniao-biange",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "崔白与花鸟画“变格”：黄家富贵体系的松动",
+      "one_line": "崔白打破画院沿用近百年的“黄家富贵”花鸟范式，以更具动势与野趣的构图被视为北宋花鸟画的“变格”关键人物。",
+      "expect": {
+        "artist": [
+          "崔白"
+        ]
+      },
+      "basis": "中国美术史通说（花鸟画科演变）；data/classes/huaniao.json 已载“两宋画院极盛”一段",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.painting.guoxi-linquan-sanyuan",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "郭熙《林泉高致》的三远法与山水画理论的实践化",
+      "one_line": "《林泉高致》提出的“高远、深远、平远”三远构图法，是北宋山水画从荆关董巨的经验总结走向系统理论的关键节点，直接影响郭熙自身的创作实践。",
+      "expect": {
+        "artist": [
+          "郭熙"
+        ],
+        "treatise": [
+          "林泉高致"
+        ]
+      },
+      "basis": "data/treatises/linquan-gaozhi.json 已立条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.painting.hanlin-tuhuayuan",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "翰林图画院的建立与院体",
+      "one_line": "北宋翰林图画院以画学考试、诗题命画的方式选拔画家，催生了以精细写实与诗意含蓄为标准的“院体”绘画。",
+      "expect": {
+        "artist": [
+          "郭熙",
+          "崔白"
+        ]
+      },
+      "basis": "canon.northern-song.keys(翰林图画院) / 邓椿《画继》卷九卷十记宣和画院制度",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.painting.huizong-huayuan-zhidu",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "宋徽宗与画院制度化：画学考试与御题命画",
+      "one_line": "宋徽宗设“画学”纳入科举系统，以诗句命题考核画家，是院体标准被制度性固定下来的关键环节，但御笔与代笔的界限本身长期无解。",
+      "expect": {
+        "artist": [
+          "赵佶"
+        ]
+      },
+      "basis": "canon.northern-song.dispute（徽宗名下作品御笔／代笔无解）",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.painting.jiehua-zhang-zeduan",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "界画的宫廷记录功能与《清明上河图》的市井题材",
+      "one_line": "郭忠恕、张择端一系的界画以精确的建筑与舟车描绘承担记录功能，《清明上河图》把这种精确性用于市井风俗全景，是画科与题材的双重突破。",
+      "expect": {
+        "artist": [
+          "张择端",
+          "郭忠恕"
+        ],
+        "class": [
+          "界画"
+        ]
+      },
+      "basis": "data/classes/jiehua.json 已点名张择端 / 本库既有相关 work 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.painting.li-guo-fan-pai",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "李郭传派：巨碑式山水的确立与延续",
+      "one_line": "李成、郭熙一系以全景式巨碑构图与“三远法”确立北宋山水画的典范样式，此后向金元延伸出武元直、唐棣等传派。",
+      "expect": {
+        "artist": [
+          "李成",
+          "郭熙"
+        ]
+      },
+      "basis": "canon.northern-song.dispute（北宋三家两说）/ 本库既有 li-cheng、guo-xi 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.painting.ligonglin-baimiao",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "李公麟与白描人物画的独立化",
+      "one_line": "李公麟将此前依附于设色的墨线勾勒，提炼为可独立成画的“白描”语言，是文人对绘画媒材本身进行提纯的关键个案。",
+      "expect": {
+        "artist": [
+          "李公麟"
+        ],
+        "class": [
+          "白描"
+        ]
+      },
+      "basis": "data/classes/baimiao.json 已明确以李公麟为定型节点",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.painting.mifu-midian-yunshan",
+      "period": "northern-song",
+      "domain": "painting",
+      "name": "米芾与“米点山水”的开创",
+      "one_line": "米芾以横点积叠表现江南云雾迷蒙的山水效果，自创一格，其子米友仁在南宋进一步发展为独立传派。",
+      "expect": {
+        "artist": [
+          "米芾"
+        ]
+      },
+      "basis": "canon.northern-song.keys（米氏云山）",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.print-folk.beisong-diaoban-chengshu",
+      "period": "northern-song",
+      "domain": "print-folk",
+      "name": "北宋雕版印刷的成熟与佛经历日刊刻",
+      "one_line": "北宋官刻、坊刻并行，《开宝藏》一类大部头佛经雕版与民间历日刊刻共同代表雕版印刷技术在此期趋于成熟，早于南宋建阳、临安书坊的商业化繁荣。",
+      "expect": {},
+      "basis": "中国印刷史通说",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.sculpture.jinci-caisu",
+      "period": "northern-song",
+      "domain": "sculpture",
+      "name": "晋祠圣母殿彩塑与北宋写实风格",
+      "one_line": "晋祠圣母殿内四十余尊侍女彩塑以贴近真人比例与神态的写实手法，代表北宋寺观彩塑不同于唐代造像程式的世俗化转向。",
+      "expect": {
+        "site": [
+          "晋祠圣母殿"
+        ]
+      },
+      "basis": "data/sites/jinci-shengmudian.json 已有条目（period 字段现为 null，span 载北宋 1102 年木构）",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.stone-carving.gongyi-songling-shixiang",
+      "period": "northern-song",
+      "domain": "stone-carving",
+      "name": "巩义宋陵神道石像生",
+      "one_line": "巩义宋陵七帝八陵沿神道排列的石像生组合（石狮、石人、瑞禽、象与驯象人等），延续唐陵制度而规模与雕刻程式略有调整，是北宋陵墓石刻制度的集中体现。",
+      "expect": {},
+      "basis": "中国陵墓石刻史通说（巩义宋陵历年考古调查）",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.theory.jinshixue-zhulu-kuozhan",
+      "period": "northern-song",
+      "domain": "theory",
+      "name": "金石学的兴起与著录范式的扩展",
+      "one_line": "欧阳修《集古录》、吕大临《考古图》把著录对象从书画扩展到青铜器铭文与器形，与画史著录并行，构成宋代“著录传统”整体扩张的另一条线索。",
+      "expect": {
+        "treatise": [
+          "考古图",
+          "集古录"
+        ]
+      },
+      "basis": "plan/ref-全集与图录体系.md 与 plan/ref-著录传统与正典链.md 均未覆盖此二书，但为金石学通说",
+      "confidence": "记得"
+    },
+    {
+      "id": "northern-song.theory.linquan-gaozhi-lilun",
+      "period": "northern-song",
+      "domain": "theory",
+      "name": "郭熙《林泉高致》与山水画理论的系统化",
+      "one_line": "《林泉高致》首次把山水画的观看方式（三远）、创作状态（“身即山川而取之”）系统表述为可传授的理论，是宋代画论从品评转向创作方法论的代表。",
+      "expect": {
+        "treatise": [
+          "林泉高致"
+        ]
+      },
+      "basis": "data/treatises/linquan-gaozhi.json 已立条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.theory.mifu-jianzang-biji",
+      "period": "northern-song",
+      "domain": "theory",
+      "name": "米芾书画鉴藏笔记的个人化品评",
+      "one_line": "米芾《画史》《书史》《宝章待访录》以个人所见所闻记录鉴藏经验，“目睹”与“的闻”两类分列的做法，是带有明显个人好恶却也最早具备证据分级意识的著录范例。",
+      "expect": {
+        "treatise": [
+          "画史",
+          "书史",
+          "宝章待访录"
+        ],
+        "artist": [
+          "米芾"
+        ]
+      },
+      "basis": "plan/ref-著录传统与正典链.md 1.7节",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.theory.wenrenhua-tiyichu",
+      "period": "northern-song",
+      "domain": "theory",
+      "name": "文人画理论的提出：苏轼“士人画”与“胸有成竹”",
+      "one_line": "苏轼提出“论画以形似，见与儿童邻”与“士人画”的说法，和文同“胸有成竹”的创作论一起，构成北宋文人画理论最早的系统表述，深刻影响此后近千年的评价标准。",
+      "expect": {
+        "artist": [
+          "苏轼",
+          "文同"
+        ],
+        "class": [
+          "墨竹"
+        ]
+      },
+      "basis": "data/classes/mozhu.json 已明确记载苏轼、文同的理论奠基地位",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.theory.xuanhe-neifu-zhulu",
+      "period": "northern-song",
+      "domain": "theory",
+      "name": "宣和内府的收藏与《宣和画谱》《宣和书谱》",
+      "one_line": "《宣和画谱》以231人、6396轴的规模著录宣和内府所藏，标志正典构建的权力主体从文人品评个人转向朝廷，但只能反映曾入内府，不能反推当时画坛全貌。",
+      "expect": {
+        "treatise": [
+          "宣和画谱",
+          "宣和书谱"
+        ]
+      },
+      "basis": "plan/ref-著录传统与正典链.md 1.6节（WebFetch核实231人/6396轴）",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.theory.zhulu-tixi-xingcheng",
+      "period": "northern-song",
+      "domain": "theory",
+      "name": "著录体系的形成：从品第到“纪艺”的转型",
+      "one_line": "郭若虚《图画见闻志》明确以“接续《历代名画记》记事下限”为体例起点，把此前唐代品第式画录（神妙能逸）扩展为兼具画史通则与断代记事的“纪艺”体，是宋代著录体系区别于前代的关键转型。",
+      "expect": {
+        "treatise": [
+          "图画见闻志"
+        ]
+      },
+      "basis": "plan/ref-著录传统与正典链.md 1.3节（WebFetch核实）",
+      "confidence": "确知"
+    },
+    {
+      "id": "northern-song.tomb-art.baisha-songmu",
+      "period": "northern-song",
+      "domain": "tomb-art",
+      "name": "白沙宋墓：仿木构砖雕壁画墓的定型",
+      "one_line": "河南禹州白沙宋墓以仿木构砖雕梁栱斗栱模仿地上建筑，结合壁画表现墓主宴饮、伎乐场景，是北宋中原地区仿木构墓的代表性个案。",
+      "expect": {},
+      "basis": "宿白《白沙宋墓》（1957年发掘报告，中国考古学经典个案）",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.architecture.guoqing-shida-jianzhu",
+      "period": "prc-early",
+      "domain": "architecture",
+      "name": "「国庆十大建筑」（1959）与集体设计署名问题",
+      "one_line": "1959 年国庆十周年集中建成的十座「首都十大建筑」是社会主义民族形式建筑的集中呈现，其设计过程同样存在多团队协作、集体决策、个人署名被简化的问题，可与requirement六的雕塑署名问题类比处理。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "国庆十大建筑建成"
+        ]
+      },
+      "basis": "建筑史通行叙述，具体十座建筑清单与各自设计团队本次未逐一核实",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.bronze.hezun-faxian",
+      "period": "prc-early",
+      "domain": "bronze",
+      "name": "何尊发现（1963，宝鸡）",
+      "one_line": "1963 年陕西宝鸡出土的何尊，其铭文「宅兹中国」是「中国」一词已知最早的实物例证之一，发现与著录起点属此期。",
+      "expect": {
+        "artist": [],
+        "work": [
+          "何尊"
+        ],
+        "event": [
+          "何尊出土"
+        ]
+      },
+      "basis": "何尊「宅兹中国」铭文为学界与公众常识性知识，出土具体年份与后续铭文释读研究史细节本次未核",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.calligraphy.shen-yinmo-jiaoxue-zhengli",
+      "period": "prc-early",
+      "domain": "calligraphy",
+      "name": "沈尹默在上海的书法教学与理论整理",
+      "one_line": "沈尹默此期在上海从事书法教学与笔法理论整理工作，是体制外维系书法传承的代表性个案。",
+      "expect": {
+        "artist": [
+          "沈尹默"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 shen-yinmo 全文条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.calligraphy.shufa-tizhi-bianyuanhua",
+      "period": "prc-early",
+      "domain": "calligraphy",
+      "name": "书法在「国画改造」语境下的边缘化处境",
+      "one_line": "书法未被纳入此期新美术教育主科体系，沈尹默、林散之等仍坚持创作与教学，但体制性支持相对薄弱，是本期书法史的一个结构性处境。",
+      "expect": {
+        "artist": [
+          "沈尹默",
+          "林散之"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 shen-yinmo、lin-sanzhi 全文条目；「未纳入主科体系」为推论性判断，本次未核实具体教学大纲依据",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.ceramics.jingdezhen-guoyinghua",
+      "period": "prc-early",
+      "domain": "ceramics",
+      "name": "景德镇陶瓷生产的国营化改造",
+      "one_line": "景德镇制瓷业在此期完成国营化改造，「建国瓷」一类官方订件设计与生产体制随之建立。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "陶瓷史概论性判断，具体改造时间线与「建国瓷」项目细节本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.furniture.chuantong-jiaju-heying-duanceng",
+      "period": "prc-early",
+      "domain": "furniture",
+      "name": "传统硬木家具行业的公私合营改造与工艺人才断层",
+      "one_line": "传统硬木家具行业随公私合营改造纳入国营体制，部分传统工艺因订单结构变化与人才培养体系转型而出现断层。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "工艺美术行业史概论性判断，具体断层情况本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.jade.kaogu-yuqi-yanjiu-gengxin",
+      "period": "prc-early",
+      "domain": "jade",
+      "name": "考古发掘出土玉器材料对断代研究范式的更新",
+      "one_line": "此期系统性考古发掘（如与马王堆汉墓等重大发掘相关的整理著录工作）为古代玉器断代研究提供了新的地层学证据，逐步取代此前依赖传世品与著录比对的研究范式。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "考古学方法论层面的推论性判断，具体个案本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.lacquer-textile.mawangdui-qiqi-faxian",
+      "period": "prc-early",
+      "domain": "lacquer-textile",
+      "name": "马王堆一号汉墓漆器群的发现与保护",
+      "one_line": "1972 年马王堆一号汉墓出土的大批漆器，为汉代漆器工艺研究提供了前所未有的完整组合材料，是此期最重要的漆器专题发现。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "马王堆汉墓发掘"
+        ]
+      },
+      "basis": "本库已有 mawangdui-excavation 事件条目，此单元聚焦漆器专题",
+      "confidence": "确知"
+    },
+    {
+      "id": "prc-early.metal-enamel.jingtailan-gongsi-heying",
+      "period": "prc-early",
+      "domain": "metal-enamel",
+      "name": "景泰蓝行业公私合营改造",
+      "one_line": "景泰蓝行业经公私合营改造，纳入「北京工艺美术研究所」一类体制内生产与研究机构，行业组织方式发生根本转变。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "工艺美术行业史概论性判断，具体机构名称与改造年份本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.painting.chang-an-huapai",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "长安画派的形成：西北写生画风",
+      "one_line": "石鲁、赵望云等以「一手伸向传统，一手伸向生活」为口号形成的长安画派，其评价随不同年代政治口径几度起伏——本库不追认任一时期定评为事实。",
+      "expect": {
+        "artist": [
+          "石鲁",
+          "赵望云"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 shi-lu 全文条目；口号原文引用为常见转引，本次未核对最初出处",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.painting.geming-lishihua-jizhi",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "革命历史画创作机制：主题先行、集体审定",
+      "one_line": "此期重大主题创作普遍采用主题先行、多方协商、集体审定的生产机制，不限国画/油画媒材——《江山如此多娇》的处理方式（并陈两说、不裁断分工）是本库已确立的范例，此单元讲机制本身而非归于某单一作品或某一人。",
+      "expect": {
+        "artist": [
+          "傅抱石",
+          "关山月"
+        ],
+        "work": [
+          "江山如此多娇"
+        ],
+        "event": []
+      },
+      "basis": "本库已有 fu-baoshi-guan-shanyue-jiangshan 工作条目，直接确立了本库对此类创作的处理原则",
+      "confidence": "确知"
+    },
+    {
+      "id": "prc-early.painting.guohua-gaizao",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "国画改造运动：写生化转型要求",
+      "one_line": "传统文人画家被要求转向写生、贴近现实题材，浙江美院等机构内部就「新国画」笔墨与题材关系展开讨论——本库明示这一评价体系属 1950 年代口径，不代表后期定论。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "canon.json prc-early 一条明写「本库对此期一律标明评价属何时口径」，此单元贯彻该原则",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.painting.suzhang-suxie-tixi-yinru",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "苏联契斯恰科夫素描教学体系的引入",
+      "one_line": "苏联素描教学体系（契斯恰科夫教学法）经留苏学生与苏联专家引入中国美术院校，冲击并重塑了国画、油画两类媒材的基础训练方式，是留苏路线在教育层面的落点。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "美术教育史通行叙述，具体引入年份与传播范围本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.painting.xiesheng-yundong-jiangsu",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "江苏省国画院「山河新貌」两万三千里写生",
+      "one_line": "1960 年傅抱石率江苏省国画院画家团队作两万三千里旅行写生，是国画改造运动里最具代表性的实践路径之一，「山河新貌」这一命名过程本身值得作为题目。",
+      "expect": {
+        "artist": [
+          "傅抱石"
+        ],
+        "work": [],
+        "event": [
+          "江苏省国画院两万三千里写生"
+        ]
+      },
+      "basis": "本库已有 fu-baoshi 全文条目；写生里程与具体路线细节本次未逐一核实",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.painting.xin-jinling-huapai",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "新金陵画派的形成过程",
+      "one_line": "江苏省国画院系统内的写生实践催生了「新金陵画派」的画风命名，与长安画派构成南北两支写生转型路径的对照。",
+      "expect": {
+        "artist": [
+          "傅抱石"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "画派命名过程本身为美术史常见讨论议题，本次未核实命名的确切时间与最初提出者",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.painting.zhongyang-zhemei-jianli",
+      "period": "prc-early",
+      "domain": "painting",
+      "name": "中央美术学院与浙江美术学院的建立",
+      "one_line": "1950 年中央美术学院由国立北平艺专与华北大学三部美术系合并而成；浙江美术学院由国立艺专改制而来——两所核心学院的建立是新中国美术教育体制的骨架，本库此前一条都没有。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "中央美术学院成立",
+          "浙江美术学院改制"
+        ]
+      },
+      "basis": "美术教育史通行叙述，具体合并/改制的确切年份与机构名称沿革本次未逐一核实",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.print-folk.lianhuanhua-huangjin-shidai",
+      "period": "prc-early",
+      "domain": "print-folk",
+      "name": "连环画的黄金时代：专业出版体制的形成",
+      "one_line": "上海人民美术出版社等机构建立起专业连环画创作与出版体制，贺友直等画家的代表性创作集中在此期，是延续自晚清民国连环画产业基础上的体制化发展。",
+      "expect": {
+        "artist": [
+          "贺友直"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "连环画史常见叙述，贺友直代表作《山乡巨变》具体创作年份本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.print-folk.muke-tizhihua",
+      "period": "prc-early",
+      "domain": "print-folk",
+      "name": "新兴木刻传统的体制化",
+      "one_line": "新兴木刻从战时宣传工具转变为中央美院版画系一类建制内专业创作与教学的对象，是运动向学院学科转化的关键一步。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "中央美术学院版画系建立"
+        ]
+      },
+      "basis": "美术教育史概论性判断，版画系具体建立年份本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.print-folk.taose-shuiyin-muke-fenhua",
+      "period": "prc-early",
+      "domain": "print-folk",
+      "name": "套色木刻、水印木刻的技法多样化",
+      "one_line": "此期版画在技法上从晚清民国以来以单色宣传木刻为主，向套色木刻、水印木刻等多样化技法分化，反映版画从宣传媒介向独立艺术语言探索的转变。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "版画史概论性判断，具体代表作品与年份本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.print-folk.xin-nianhua-yundong",
+      "period": "prc-early",
+      "domain": "print-folk",
+      "name": "新年画运动（1949–1950 年代初）",
+      "one_line": "文化部发起的新年画运动组织旧年画艺人与新美术工作者合作，用传统年画形式承载新的政治宣传内容，是与晚清民国旧年画性质不同的一支。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "新年画运动发起"
+        ]
+      },
+      "basis": "美术史通行叙述，具体发起文件与组织细节本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.sculpture.gonggong-suzao-weituo-zhidu",
+      "period": "prc-early",
+      "domain": "sculpture",
+      "name": "城市公共雕塑委托制度的初步形成",
+      "one_line": "纪念碑之外，此期开始形成由国家机构主导的城市公共空间雕塑委托机制的雏形。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "推论性判断，本次未核实具体委托制度的文件依据",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.sculpture.jinianbei-fenpei-kaoding",
+      "period": "prc-early",
+      "domain": "sculpture",
+      "name": "纪念碑浮雕主创分工的具体考订",
+      "one_line": "滑田友、王临乙等各自主创八幅浮雕中的一幅，具体分工关系与「总负责人刘开渠」这一署名惯例之间的落差，需要逐一列出参与雕塑家名录而非只讲一人。",
+      "expect": {
+        "artist": [
+          "刘开渠",
+          "滑田友",
+          "王临乙"
+        ],
+        "work": [
+          "人民英雄纪念碑浮雕"
+        ],
+        "event": []
+      },
+      "basis": "本库已有 liu-kaiqu、hua-tianyou、wang-linyi 三条全文条目，均与此纪念碑相关，具体逐幅对应作者名单本次未逐一核实",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.sculpture.liufa-suzao-tixi-zhuanxing",
+      "period": "prc-early",
+      "domain": "sculpture",
+      "name": "法国学院写实雕塑体系向纪念性公共雕塑的转化",
+      "one_line": "留法雕塑家群体（滑田友、王临乙等）从个人架上创作者转变为国家工程的主创或负责人，其学院写实训练在纪念碑尺度的公共雕塑项目中被重新组织与调用。",
+      "expect": {
+        "artist": [
+          "滑田友",
+          "王临乙"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "本库已有 hua-tianyou、wang-linyi 全文条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.sculpture.meiyuan-suzao-xi-jiaoti",
+      "period": "prc-early",
+      "domain": "sculpture",
+      "name": "中央美院、浙美雕塑系的建立与两代教师的交接",
+      "one_line": "中央美术学院、浙江美术学院雕塑系的建立过程中，留法一代（滑田友、王临乙等）与苏联影响下培养的新一代教师完成了教学体系的交接。",
+      "expect": {
+        "artist": [
+          "滑田友",
+          "王临乙"
+        ],
+        "work": [],
+        "event": []
+      },
+      "basis": "美术教育史概论性判断，具体交接时间线本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.sculpture.renmin-yingxiong-jinianbei",
+      "period": "prc-early",
+      "domain": "sculpture",
+      "name": "人民英雄纪念碑浮雕群：集体创作机制",
+      "one_line": "1949–1958 年建造的人民英雄纪念碑八幅浮雕由多位雕塑家分别主创，「统一由刘开渠署名」式的简化表述本身即是本库要拆解的问题——本库已在 liu-kaiqu 条目里确立此原则，此单元讲纪念碑整体机制。",
+      "expect": {
+        "artist": [
+          "刘开渠"
+        ],
+        "work": [
+          "人民英雄纪念碑浮雕"
+        ],
+        "event": []
+      },
+      "basis": "本库已有 liu-kaiqu 全文条目明确处理此问题",
+      "confidence": "确知"
+    },
+    {
+      "id": "prc-early.sculpture.shehuizhuyi-xianshizhuyi-jinianbei-fanshi",
+      "period": "prc-early",
+      "domain": "sculpture",
+      "name": "社会主义现实主义纪念碑雕塑范式的引入",
+      "one_line": "苏联影响路径下，工农兵形象的程式化处理成为此期纪念性雕塑的主导范式，与留法一代的个人化写实训练构成张力。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "美术史常见叙述，具体苏联专家来华指导的个案本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.stone-carving.wenwu-baohu-zhidu-jianli",
+      "period": "prc-early",
+      "domain": "stone-carving",
+      "name": "全国重点文物保护单位制度的建立（1961 首批）",
+      "one_line": "1961 年公布首批全国重点文物保护单位，标志着石刻类文物从晚清民国的散乱流失状态转入系统性登记保护阶段。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "首批全国重点文物保护单位公布"
+        ]
+      },
+      "basis": "文物保护制度史常见常识，具体首批名录数量本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.theory.meishu-pipan-yundong",
+      "period": "prc-early",
+      "domain": "theory",
+      "name": "历次美术界批判运动对创作与评价的冲击",
+      "one_line": "此期对「新国画」笔墨观、对个别画家个人处境的历次政治性批判事件直接冲击了创作与评价体系——本库明示这些批判须按发生时的政治口径理解，不代表艺术判断的定论，凡涉个人处境与创作动因关系的材料不足以厘清者标为待校验。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "canon.json prc-early 一条明写「艺术家的个人处境与创作动因之间的关系，材料常不足以厘清，凡涉者标为待校验」，此单元直接贯彻该原则",
+      "confidence": "记得"
+    },
+    {
+      "id": "prc-early.theory.shehuizhuyi-xianshizhuyi-lilun-yinru",
+      "period": "prc-early",
+      "domain": "theory",
+      "name": "社会主义现实主义理论的引入",
+      "one_line": "社会主义现实主义理论经由苏联渠道引入，构建了此期国画、油画、雕塑三类媒材共通的评价标准框架，与既有的中国画笔墨评价体系并存并产生张力。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": []
+      },
+      "basis": "美术理论史通行叙述，具体理论文本引入路径本次未核",
+      "confidence": "待核"
+    },
+    {
+      "id": "prc-early.tomb-art.mawangdui-hanmu",
+      "period": "prc-early",
+      "domain": "tomb-art",
+      "name": "马王堆汉墓的发掘与墓葬美术研究范式转变",
+      "one_line": "马王堆一号汉墓帛画、漆器、织物等综合证据组合的完整出土，改变了汉代墓葬美术研究此前依赖零散传世品与著录的状况。",
+      "expect": {
+        "artist": [],
+        "work": [],
+        "event": [
+          "马王堆汉墓发掘"
+        ]
+      },
+      "basis": "本库已有 mawangdui-excavation 事件条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "qin-han.architecture.handai-mingqi-jianzhu",
+      "period": "qin-han",
+      "domain": "architecture",
+      "name": "汉代明器建筑：陶楼、陶仓与瓦当的间接证据",
+      "one_line": "汉代地面木构建筑无一存世，陶楼、陶仓明器与瓦当纹样是复原汉代建筑形制唯一的间接证据。",
+      "expect": {
+        "class": [
+          "陶楼",
+          "陶仓",
+          "瓦当"
+        ]
+      },
+      "basis": "待核（教材通识，需核对具体出土地与《中国美术全集》建筑艺术编）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.bronze.handai-tongjing",
+      "period": "qin-han",
+      "domain": "bronze",
+      "name": "汉代铜镜：铭文、纹样与断代序列",
+      "one_line": "汉代铜镜铭文（如「见日之光」「长宜子孙」）与纹样组合形成了成熟的断代序列，是本库铜镜类目的核心题目。",
+      "expect": {
+        "class": [
+          "铜镜"
+        ]
+      },
+      "basis": "canon.keys(铜镜)",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.calligraphy.lishu-chengshu",
+      "period": "qin-han",
+      "domain": "calligraphy",
+      "name": "隶书成熟：从秦隶到汉碑的书体演变",
+      "one_line": "隶书在本期完成从秦隶（尚存篆意）到汉碑成熟隶书（蚕头燕尾）的演变，是中国书法史第一次完整的书体成熟过程。",
+      "expect": {
+        "class": [
+          "隶书"
+        ]
+      },
+      "basis": "canon.keys(隶书)",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.ceramics.handai-youtao",
+      "period": "qin-han",
+      "domain": "ceramics",
+      "name": "汉代釉陶：铅釉工艺与仿铜器造型",
+      "one_line": "汉代低温铅釉陶多仿青铜礼器造型（仿铜陶鼎、陶壶），是釉陶明器化与青铜礼制式微互为表里的物证。",
+      "expect": {
+        "class": [
+          "釉陶"
+        ]
+      },
+      "basis": "待核（需核对《中国陶瓷全集》秦汉分卷）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.furniture.handai-jiaju-mingqi",
+      "period": "qin-han",
+      "domain": "furniture",
+      "name": "汉代家具明器：案、几、屏风的组合",
+      "one_line": "汉代实物家具存世稀少，画像石、明器所见的案、几、屏风组合是复原汉代起居方式（席地而坐）的主要依据。",
+      "expect": {
+        "class": [
+          "家具"
+        ]
+      },
+      "basis": "待核",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.jade.jinlvyuyi",
+      "period": "qin-han",
+      "domain": "jade",
+      "name": "玉衣制度：金缕、银缕、铜缕的等级差异",
+      "one_line": "玉衣缕线材质（金、银、铜）与墓主身份等级严格对应，满城汉墓的完整实例是这一制度最直接的物证。",
+      "expect": {
+        "work": [
+          "金缕玉衣"
+        ],
+        "class": [
+          "玉衣"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 三节（满城汉墓，金缕玉衣）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.lacquer-textile.mawangdui-qixiu",
+      "period": "qin-han",
+      "domain": "lacquer-textile",
+      "name": "马王堆漆器与织绣：素纱襌衣与云纹漆器的工艺巅峰",
+      "one_line": "素纱襌衣重量不足一两，云纹漆器的批量化生产与髹漆工艺，共同代表西汉早期漆器织绣工艺的巅峰水平。",
+      "expect": {
+        "work": [
+          "素纱襌衣",
+          "云纹漆案"
+        ]
+      },
+      "basis": "canon.centres(马王堆)",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.metal-enamel.handai-jinyinqi",
+      "period": "qin-han",
+      "domain": "metal-enamel",
+      "name": "汉代金银器与错金银工艺的延续",
+      "one_line": "汉代金银器在春秋战国错金银基础上继续发展，鎏金工艺的普及是本期区别于前代的技术标志。",
+      "expect": {
+        "class": [
+          "金银器",
+          "鎏金"
+        ]
+      },
+      "basis": "待核（需核对《中国金银玻璃珐琅器全集》秦汉相关部分）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.painting.mawangdui-boahua",
+      "period": "qin-han",
+      "domain": "painting",
+      "name": "马王堆 T 形帛画的图像程序：天上、人间、地下的三段式构图",
+      "one_line": "与 tomb-art 门关注帛画作为随葬组合证据不同，此题目专论帛画本身作为绘画作品的图像程序与构图逻辑。",
+      "expect": {
+        "work": [
+          "T 形帛画"
+        ]
+      },
+      "basis": "canon.centres(马王堆)",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.sculpture.bingmayong",
+      "period": "qin-han",
+      "domain": "sculpture",
+      "name": "秦始皇陵兵马俑：写实群塑与个体化面部处理",
+      "one_line": "兵马俑以近八千件真人大小陶俑构成的群塑规模，与俑与俑之间面部的个体化差异，是本库雕塑造像门最重要的秦代题目。",
+      "expect": {
+        "site": [
+          "秦始皇陵"
+        ],
+        "work": [
+          "跪射俑",
+          "将军俑"
+        ],
+        "event": [
+          "秦始皇陵兵马俑发掘"
+        ]
+      },
+      "basis": "canon.keys(兵马俑)/plan/ref-考古与遗址体系.md 三节（秦始皇陵与兵马俑，一号坑报告 1988）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.sculpture.hanyangling-yong",
+      "period": "qin-han",
+      "domain": "sculpture",
+      "name": "汉阳陵陶俑：裸体着衣俑与西汉早期写实风格",
+      "one_line": "汉阳陵陶俑原本着衣、手臂可拆装（现多为「裸俑」），这一制作方式本身即是研究汉代雕塑工艺的题目。",
+      "expect": {
+        "site": [
+          "汉阳陵"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 三节（汉阳阳陵，部分有报告，覆盖度待核）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.sculpture.huoqubing-mu-shike",
+      "period": "qin-han",
+      "domain": "sculpture",
+      "name": "霍去病墓石刻：因势象形的写意传统",
+      "one_line": "以石材天然形态因势象形（马踏匈奴、跃马）是中国雕塑史上与写实传统并行的另一条路径，通行教材必举，但未见于本库 canon/ref 文档逐条列出，需人工核对《中国美术全集·雕塑编》具体卷目再升级确信度。",
+      "expect": {
+        "site": [
+          "茂陵"
+        ],
+        "work": [
+          "马踏匈奴",
+          "跃马"
+        ]
+      },
+      "basis": "待核（美术史通识题目，未见于 canon.keys 或 plan/ref 文档，需人工核对《中国美术全集》雕塑编）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.sculpture.shuochang-yong",
+      "period": "qin-han",
+      "domain": "sculpture",
+      "name": "汉代陶俑的写实风格：说唱俑一类的表情与动态处理",
+      "one_line": "与兵马俑的肃穆群像不同，四川一带出土的说唱俑等世俗题材陶俑展示了汉代雕塑另一路的生动写实。",
+      "expect": {
+        "class": [
+          "陶俑"
+        ],
+        "work": [
+          "击鼓说唱俑"
+        ]
+      },
+      "basis": "待核（教材常识，需核对具体出土地与《中国美术全集》雕塑编）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.stone-carving.hanbei",
+      "period": "qin-han",
+      "domain": "stone-carving",
+      "name": "汉碑与隶书成熟：刻工与书者的不可考",
+      "one_line": "汉碑是隶书成熟的物证，但刻工偶见名字、书者多不可考——canon 已明确此点，提纲须与之一致，不可虚构书者。",
+      "expect": {
+        "class": [
+          "汉碑",
+          "隶书"
+        ]
+      },
+      "basis": "canon.keys(汉碑、隶书)/canon.anonymity（汉碑刻工偶见名字，书者多不可考）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.stone-carving.handai-tuoben-yanjiu",
+      "period": "qin-han",
+      "domain": "stone-carving",
+      "name": "汉碑拓本谱系：宋拓孤本与研究依据的等级",
+      "one_line": "研究汉碑的对象常是拓本而非原石，宋拓、明拓、翻刻是不同证据等级——本库 schema.py 的 rubbing 块正为此设。",
+      "expect": {
+        "class": [
+          "拓本"
+        ]
+      },
+      "basis": "schema.py RUBBING_EDITIONS/DATING_BASIS/canon.dispute（汉碑的书者归属几乎全不可考）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.stone-carving.handai-yanhua-yanxu",
+      "period": "qin-han",
+      "domain": "stone-carving",
+      "name": "汉代岩画的延续期层",
+      "one_line": "阴山等岩画点存在跨越新石器至历史时期的多层叠压，汉代层是其中可辨认的一段，与画像石的图像母题有交叉可比之处。",
+      "expect": {
+        "site": [
+          "阴山岩画"
+        ]
+      },
+      "basis": "plan/ref-全集与图录体系.md 第 4 节（stone-carving 门「含岩画」）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.stone-carving.moya-keshi",
+      "period": "qin-han",
+      "domain": "stone-carving",
+      "name": "摩崖刻石：纪功刻石体系",
+      "one_line": "与庙堂碑刻不同，摩崖刻石依山就势、就地取材，是汉代石刻碑版门下与碑刻并列的另一种载体，具体篇目需人工核对后再定。",
+      "expect": {
+        "class": [
+          "摩崖"
+        ]
+      },
+      "basis": "待核（美术史通识题目，未见 canon/ref 文档逐条列出，需人工核对具体摩崖刻石篇目）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.theory.handai-yishu-guannian",
+      "period": "qin-han",
+      "domain": "theory",
+      "name": "汉代艺术观念的间接材料：文献所见画家名与工官制度",
+      "one_line": "本期尚无成体系画论专著（专门画论自六朝始），但《西京杂记》等文献所记画家名（如毛延寿）与工官制度，是本库判断「文献画家名无一件可系之作」这一 anonymity 判断的直接依据。",
+      "expect": {
+        "class": [
+          "工官制度"
+        ]
+      },
+      "basis": "canon.anonymity（文献里的画家名，如毛延寿，无一件可系之作）",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.tomb-art.handai-huaxiangmu-zuhe",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "画像石墓的组合关系：建筑构件与图像叙事的统一体",
+      "one_line": "画像石砖首先是墓室建筑构件，其图像叙事依附于墓室结构（前室、后室、耳室各有题材分工），散出脱离建筑语境后即不可复原——这是本库 tomb-art 门的核心证据原则。",
+      "expect": {
+        "class": [
+          "画像石墓"
+        ]
+      },
+      "basis": "schema.py domains.tomb-art.note（墓室壁画、画像石砖、陶俑、随葬器组合。组合关系是其核心证据，散出后即不可复原）/canon.keys(画像石)",
+      "confidence": "待核"
+    },
+    {
+      "id": "qin-han.tomb-art.huaxiangshi-nanyang",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "南阳汉画像石：楚风余绪与天文星象题材",
+      "one_line": "南阳画像石以天文星象、神话题材见长，被认为承接了楚地想象传统——本库现该地域体系为空白（0 件），是本库画像石覆盖最大的缺口之一。",
+      "expect": {
+        "site": [
+          "南阳"
+        ],
+        "class": [
+          "画像石"
+        ]
+      },
+      "basis": "canon.centres(南阳)/canon.dispute（画像石的地域分期由二十世纪考古建立...）/plan/ref-考古与遗址体系.md 四节（南阳汉画像石，本库现缺）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.huaxiangshi-shanbei",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "陕北画像石：本库现缺的第四地域体系",
+      "one_line": "陕北（绥德、米脂）画像石风格粗犷、题材多牛耕与胡汉战争，是与山东、南阳、四川并列的独立地域体系，本库目前完全空白。",
+      "expect": {
+        "site": [
+          "绥德",
+          "米脂"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 四节（陕西绥德、米脂，本库现缺）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.huaxiangshi-sichuan",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "四川画像石与画像砖：崖墓体系，本库现缺",
+      "one_line": "四川画像砖（成都、彭山一带）以模印批量生产为特征，题材偏重庄园、宴饮等世俗生活，与中原叙事性画像石构成鲜明对照，本库目前完全空白。",
+      "expect": {
+        "site": [
+          "乐山",
+          "成都",
+          "彭山"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 四节（四川乐山、成都、彭山，本库现缺）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.huaxiangshi-wushici",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "嘉祥武氏祠画像石：图像程式与榜题的对应研究",
+      "one_line": "武氏祠画像石因带有大量榜题，是画像石图像程式研究方法论的奠基个案（巫鸿的经典研究即以此为基础），本库已有对应 site（wushi-ci）。",
+      "expect": {
+        "site": [
+          "嘉祥武氏祠"
+        ],
+        "class": [
+          "画像石"
+        ]
+      },
+      "basis": "canon.centres(嘉祥武氏祠)/plan/ref-考古与遗址体系.md 四节（山东嘉祥，本库已有 site: wushi-ci）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.huaxiangshi-xuzhou",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "徐州汉画像石：楚汉文化交汇区的图像体系",
+      "one_line": "徐州地处楚汉文化交界，画像石题材兼具中原礼制图像与楚地神怪母题，是画像石地域体系里过渡性质最明显的一支，本库现缺。",
+      "expect": {
+        "site": [
+          "徐州"
+        ],
+        "class": [
+          "画像石"
+        ]
+      },
+      "basis": "canon.centres(徐州)/plan/ref-考古与遗址体系.md 四节（江苏徐州，本库现缺）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.huaxiangshi-yinan",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "沂南北寨汉墓画像石：大型画像石墓的图像总体规划",
+      "one_line": "沂南北寨汉墓是保存最完整的大型画像石墓之一，其图像在墓室各部位的系统分布，是研究「墓葬整体图像规划」而非孤立图像的关键个案。",
+      "expect": {
+        "site": [
+          "沂南"
+        ],
+        "class": [
+          "画像石"
+        ]
+      },
+      "basis": "canon.centres(沂南)/plan/ref-考古与遗址体系.md 四节（山东沂南，本库已有 site: yinan-beizhai-tomb）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.mancheng-hanmu",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "满城汉墓：金缕玉衣与诸侯王级葬制",
+      "one_line": "满城汉墓（中山靖王刘胜及其妻窦绾墓）出土完整金缕玉衣，是研究汉代诸侯王葬制等级最直接的物证。",
+      "expect": {
+        "site": [
+          "满城汉墓"
+        ],
+        "work": [
+          "金缕玉衣",
+          "长信宫灯"
+        ],
+        "event": [
+          "满城汉墓发掘"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 三节（满城汉墓，《满城汉墓发掘报告》1980）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.mawangdui",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "马王堆汉墓与西汉早期丧葬美术",
+      "one_line": "一句话说清这个题目为何成立：马王堆是西汉早期丧葬美术保存最完整的个案，帛画、漆器、织物同出一墓，组合关系本身即证据。",
+      "expect": {
+        "site": [
+          "马王堆汉墓"
+        ],
+        "work": [
+          "T 形帛画",
+          "云纹漆案",
+          "素纱襌衣"
+        ],
+        "event": [
+          "马王堆汉墓发掘"
+        ]
+      },
+      "basis": "canon.keys / 中国美术全集·工艺美术编 / 发掘报告（《长沙马王堆一号汉墓》1973，见 plan/ref-考古与遗址体系.md 三节）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qin-han.tomb-art.qinshihuangling-tixi",
+      "period": "qin-han",
+      "domain": "tomb-art",
+      "name": "秦始皇陵整体系统：陵园、陪葬坑与未发掘地宫",
+      "one_line": "兵马俑只是秦始皇陵陪葬体系的一部分，陵园整体规划与地宫未发掘现状，是判断本库该以「遗址系统」还是「单件文物」讲述这一题目的关键。",
+      "expect": {
+        "site": [
+          "秦始皇陵"
+        ],
+        "event": [
+          "秦始皇陵兵马俑发掘"
+        ]
+      },
+      "basis": "canon.keys(兵马俑)/plan/ref-考古与遗址体系.md 三节及五节（1987 年列入世界遗产）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.architecture.taihedian-chongjian",
+      "period": "qing",
+      "domain": "architecture",
+      "name": "太和殿康熙重建与清代官式做法则例化",
+      "one_line": "本库已有 site:taihedian，其 span 字段已明确记录「明代原构不存，现存殿身为清康熙三十四年（1695）重建」——本单元把这一沿革提升为「清代官式建筑做法则例化」这一制度性主题处理，而非仅记一栋建筑的重修史。",
+      "expect": {
+        "site": [
+          "太和殿"
+        ]
+      },
+      "basis": "本库已有 data/sites/taihedian.json 的 span 字段",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.architecture.yangshilei-tangyang",
+      "period": "qing",
+      "domain": "architecture",
+      "name": "样式雷世家与清代官式建筑图档体系",
+      "one_line": "雷氏家族七代主持样式房，为圆明园、故宫、清陵等重大工程制作烫样（立体模型）与画样；「样式雷」已见于本库 site:forbidden-city 的 keys 字段，但本库没有样式雷本身的独立记述单元。",
+      "expect": {
+        "site": [
+          "样式雷烫样（故宫博物院藏）"
+        ]
+      },
+      "basis": "样式雷世家为清代建筑史通行常识；本库已有 data/sites/forbidden-city.json keys 字段提及",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.bronze.fanggu-xiqing-guyi",
+      "period": "qing",
+      "domain": "bronze",
+      "name": "清宫仿古铜器与《西清古鉴》著录体系",
+      "one_line": "乾隆敕编《西清古鉴》著录内府所藏古铜器，同期造办处大量仿铸古器形制供陈设赏玩，「著录真品」与「仿铸新器」两条线索在清宫语境下常交织，处理清代铜器条目须先厘清是著录对象还是仿制品。",
+      "expect": {
+        "treatise": [
+          "西清古鉴"
+        ]
+      },
+      "basis": "清代金石收藏与仿古铜器制度通行叙述",
+      "confidence": "待核"
+    },
+    {
+      "id": "qing.calligraphy.beixue-jinshi-kaoju",
+      "period": "qing",
+      "domain": "calligraphy",
+      "name": "碑学兴起与乾嘉考据、金石出土的关系",
+      "one_line": "canon.json 已明确判断「碑学兴起常被叙述为对帖学的反动，实则与乾嘉考据、金石出土的关系更直接」——本单元按此判断展开，处理出土碑版与考据学风气如何共同催生碑学审美，不采「反动说」为叙述框架。邓石如完全缺失、伊秉绶仅有 stub，何绍基已收录。",
+      "expect": {
+        "artist": [
+          "邓石如",
+          "伊秉绶",
+          "何绍基"
+        ]
+      },
+      "basis": "canon.json qing.dispute 直接引用；plan/ref-艺术家名录体系.md C类升级建议",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.calligraphy.xiling-bajia",
+      "period": "qing",
+      "domain": "calligraphy",
+      "name": "西泠八家与浙派篆刻",
+      "one_line": "丁敬、蒋仁、黄易、奚冈（前四家）与陈豫钟、陈鸿寿、赵之琛、钱松（后四家）合称西泠八家。本库前四家已全部收录，后四家完全缺失——这是 plan/ref-艺术家名录体系.md 点名的最优先、最易验证的缺口之一。",
+      "expect": {
+        "artist": [
+          "丁敬",
+          "蒋仁",
+          "黄易",
+          "奚冈",
+          "陈豫钟",
+          "陈鸿寿",
+          "赵之琛",
+          "钱松"
+        ]
+      },
+      "basis": "plan/ref-艺术家名录体系.md「西泠八家（篆刻）」条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.cave-temple.qingdai-buzhuang",
+      "period": "qing",
+      "domain": "cave-temple",
+      "name": "清代对前代石窟的补妆重修层",
+      "one_line": "与 ming.cave-temple.mingdai-buzhuang 同一方法论问题在清代的延续——莫高窟、麦积山等窟龛在清代（尤其乾隆朝）多次经历重绘重塑，部分原作层已被完全覆盖，本库现有条目对清代重修层的标注程度未核实。",
+      "expect": {},
+      "basis": "schema.py 窟寺 relayers 硬约束；石窟寺研究通行方法论",
+      "confidence": "待核"
+    },
+    {
+      "id": "qing.ceramics.falangcai-gongting",
+      "period": "qing",
+      "domain": "ceramics",
+      "name": "珐琅彩瓷的宫廷垄断",
+      "one_line": "珐琅彩瓷由造办处画珐琅作在景德镇烧成的素瓷上二次绘彩，专供宫廷不外流，与外销瓷、民窑瓷完全不同的生产与流通体系。本库现有陶瓷条目多来自海外馆藏（民窑外销瓷为主），珐琅彩这一支预期本库覆盖薄弱。",
+      "expect": {
+        "class": [
+          "珐琅彩"
+        ]
+      },
+      "basis": "canon.json qing.keys「粉彩珐琅彩」",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.ceramics.fanggu-mingci-cheng",
+      "period": "qing",
+      "domain": "ceramics",
+      "name": "清宫仿古瓷与臆造名词的著录问题",
+      "one_line": "清代仿汝、仿官、仿哥瓷器技术精湛几可乱真，同时清宫内务府档案与后世古玩行也生造了一批釉色名词（如「厂官釉」一类），部分名词的历史真实性本身存疑；本库处理相关条目须区分「档案记载的当时称谓」与「后世古玩行沿用的俗称」。",
+      "expect": {},
+      "basis": "清代仿古瓷与釉色命名问题为陶瓷史研究通行反思",
+      "confidence": "待核"
+    },
+    {
+      "id": "qing.ceramics.fencai-fama",
+      "period": "qing",
+      "domain": "ceramics",
+      "name": "粉彩的发明与技法谱系",
+      "one_line": "粉彩在康熙晚期至雍正间从珐琅彩技法衍生而来，加入「玻璃白」打底形成渐变效果，与五彩、珐琅彩构成一条技法演进链，处理时应明确先后关系而非并列为三种互不相关的品类。",
+      "expect": {
+        "class": [
+          "粉彩"
+        ]
+      },
+      "basis": "中国陶瓷史通行分期",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.ceramics.guanda-minshao-yanxu",
+      "period": "qing",
+      "domain": "ceramics",
+      "name": "官搭民烧制度在清代的延续",
+      "one_line": "明代起源的官搭民烧制度在清代成为官窑应对大额订单的常规安排，与康雍乾官窑技术高峰同时并存；本单元与 ming.ceramics.guanda-minshao-qiyuan 相接续，不重复起源部分内容。",
+      "expect": {},
+      "basis": "景德镇制瓷史通行叙述",
+      "confidence": "待核"
+    },
+    {
+      "id": "qing.ceramics.jingdezhen-fengong",
+      "period": "qing",
+      "domain": "ceramics",
+      "name": "景德镇的分工体系",
+      "one_line": "清代景德镇制瓷「过手七十二，方克成器」的分工体系（拉坯、利坯、画坯、施釉、烧窑等各有专司），是理解清代官窑何以能大规模稳定产出的生产组织基础，与「名匠个人风格」叙事框架不兼容——清代瓷器几乎不存在可指名的匠人。",
+      "expect": {},
+      "basis": "景德镇陶瓷史通行叙述（「过手七十二」说见于《陶冶图说》一类清代文献，本库未核原文）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.ceramics.kangyongqian-taoguan",
+      "period": "qing",
+      "domain": "ceramics",
+      "name": "康雍乾三代官窑与督陶官制度",
+      "one_line": "唐英督理景德镇御窑厂期间（雍正至乾隆）留下《陶成纪事碑》等文字记录，是清代官窑生产制度里少见的、有具体负责人姓名与技术细节记载的个案，三代官窑的技术高峰与督陶官个人的技术管理直接相关。",
+      "expect": {
+        "treatise": [
+          "陶成纪事碑"
+        ]
+      },
+      "basis": "清代陶瓷史通行核心叙述（唐英督陶为常识）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.ceramics.waixiao-ci-tizhi",
+      "period": "qing",
+      "domain": "ceramics",
+      "name": "外销瓷：克拉克瓷、纹章瓷与广彩的订制体系",
+      "one_line": "清代外销瓷按欧洲订户提供的纹样（家族纹章、圣经故事等）定制生产，广州十三行是订件与转运枢纽——这一支解释了本库为何能在克利夫兰、芝加哥等西方馆藏里见到大量中国陶瓷：它们本就是为西方市场生产的商品，不是流散的宫廷或士人藏品。",
+      "expect": {},
+      "basis": "canon.json qing.keys「海外外销瓷」；plan/ref-全集与图录体系.md 关于本库馆藏结构（829 件陶瓷主要来自西方馆藏）的分析",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.furniture.gongting-zuofang-sandifen",
+      "period": "qing",
+      "domain": "furniture",
+      "name": "苏作、广作、京作的成熟分工",
+      "one_line": "苏作（苏州）、广作（广州）、京作（宫廷造办处）三大地域家具流派的风格与技法分野在清代明确成熟——广作用料厚重、雕饰繁密，明显受外销订件与西洋家具影响；这一分野与 ming.furniture.diyu-zuofang-mengya 讨论的明代萌芽阶段相接续。",
+      "expect": {},
+      "basis": "明清家具地域流派研究通行框架",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.furniture.zitan-zhuanxiang",
+      "period": "qing",
+      "domain": "furniture",
+      "name": "清代崇尚紫檀的审美转向",
+      "one_line": "清代家具用材从明代以黄花梨为大宗转向偏好紫檀等深色硬木，装饰趋于繁复雕饰；这一转变常被简化描述为「审美退步」，但也可解释为宫廷订件对气派、庄重效果的不同需求——本单元并陈两种解释，不裁断孰是。",
+      "expect": {},
+      "basis": "明清家具材质与风格转向为通行判断",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.jade.hendusitan-yu",
+      "period": "qing",
+      "domain": "jade",
+      "name": "痕都斯坦玉与清宫治玉技法交汇",
+      "one_line": "乾隆朝大量输入并仿制「痕都斯坦」（今印度北部、巴基斯坦一带）风格玉器，其「薄胎」技法与花卉纹样对清宫玉作产生直接影响，是清代玉器史里最明确的跨文化技法输入个案之一。",
+      "expect": {},
+      "basis": "清代玉器史通行叙述（乾隆痕都斯坦玉为常识）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.lacquer-textile.jiangnan-sanzhizao",
+      "period": "qing",
+      "domain": "lacquer-textile",
+      "name": "江南三织造与宫廷织绣的贡奉体系",
+      "one_line": "苏州、江宁、杭州三处织造衙门专供宫廷丝织品，织造官员兼具内务府包衣与地方官员双重身份（曹雪芹家族即出自江宁织造），织绣生产与清代宫廷政治的关系比单纯工艺史更复杂。",
+      "expect": {},
+      "basis": "江南三织造制度为清代通行常识",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.metal-enamel.boliqi-kongbai",
+      "period": "qing",
+      "domain": "metal-enamel",
+      "name": "玻璃器：本库完全空白的门类",
+      "one_line": "清宫玻璃厂相传由西方传教士参与技术引入（纪理安一说，细节待核），套料玻璃是清代玻璃工艺的代表技法。`WORK_KIND_GROUP` 目前没有「玻璃器」这个 kind，是 plan/ref-全集与图录体系.md 明确指出的结构性缺口——本单元的首要任务是先确认要不要开这个 kind，不是先填内容。",
+      "expect": {},
+      "basis": "plan/ref-全集与图录体系.md 2.2.10 条（《中国金银玻璃珐琅器全集》玻璃器单列一卷）；本库实测 WORK_KIND_GROUP 无此 kind",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.metal-enamel.huasi-falang-liangdi",
+      "period": "qing",
+      "domain": "metal-enamel",
+      "name": "画珐琅在广州与宫廷两条产线",
+      "one_line": "铜胎画珐琅技术经由广州口岸传入，随后在造办处发展出宫廷一路，广州本地另有独立的外销画珐琅产线，两条产线风格与订户不同，不宜混为一谈。",
+      "expect": {},
+      "basis": "清代珐琅工艺史通行叙述",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.metal-enamel.jinyinqi-zangchuan",
+      "period": "qing",
+      "domain": "metal-enamel",
+      "name": "清宫金银器与藏传佛教法器的交叉",
+      "one_line": "金累丝、金奔巴瓶等清宫金银器相当一部分服务于藏传佛教仪轨（金瓶掣签制度即用金奔巴瓶），金银器工艺史与清代治藏政策在这一支上直接相关。",
+      "expect": {},
+      "basis": "清代宫廷金银器与藏传佛教关系为通行常识（金瓶掣签制度）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.metal-enamel.qiansi-falang-yanxu",
+      "period": "qing",
+      "domain": "metal-enamel",
+      "name": "掐丝珐琅在清代的延续与乾隆御制款",
+      "one_line": "掐丝珐琅（俗称景泰蓝）工艺在清代乾隆朝迎来又一高峰，「乾隆年制」款掐丝珐琅器数量远超景泰本朝传世量，与明代「景泰年制」款问题（见 ming.metal-enamel.jingtailan-kuanshi）性质相通，本单元承接而不重复该单元内容，聚焦清代乾隆朝具体情况。",
+      "expect": {},
+      "basis": "清代珐琅工艺史通行叙述",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.metal-enamel.shisanhang-yangzuo",
+      "period": "qing",
+      "domain": "metal-enamel",
+      "name": "广州十三行订制金属珐琅器的外销脉络",
+      "one_line": "广州画珐琅、银器经十三行销往欧洲，订件依欧洲买家提供图样或本国流行纹样制作，与 qing.ceramics.waixiao-ci-tizhi 外销瓷是同一贸易体制在不同材质门类上的表现，两单元应互相参照。",
+      "expect": {},
+      "basis": "canon.json qing.centres「广州」；清代广州外销工艺通行叙述",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.metal-enamel.zaobanchu-tixi",
+      "period": "qing",
+      "domain": "metal-enamel",
+      "name": "养心殿造办处的多工种协作体系",
+      "one_line": "造办处下设金玉作、珐琅作、玻璃厂等各作，同一件御用器物常需多个作坊协作完成（如画珐琅需先由玻璃厂或金属作制胎）；outline.json 把「金银器·珐琅·玻璃」并为一个 domain，正对应造办处这一实际生产组织方式。",
+      "expect": {},
+      "basis": "outline.json domains.metal-enamel 结构；清代造办处制度通行叙述",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.painting.haishang-jinshi-ruhua",
+      "period": "qing",
+      "domain": "painting",
+      "name": "海上画派与金石入画",
+      "one_line": "赵之谦、任伯年、吴昌硕等人将篆刻与碑派书法的用笔方式引入绘画，但这批画家的活跃期跨越清末与民国——赵之谦、任伯年本库归 period:qing，吴昌硕本库归 period:late-qing-republic，处理时需明确标注这一跨期归属而非笼统合并。",
+      "expect": {
+        "artist": [
+          "赵之谦",
+          "任伯年",
+          "吴昌硕"
+        ],
+        "class": [
+          "海上画派"
+        ]
+      },
+      "basis": "late-qing-republic.keys「金石书风」；本库既有条目 period 字段实测核对",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.painting.jinling-bajia-yimin",
+      "period": "qing",
+      "domain": "painting",
+      "name": "金陵八家与明遗民画风的地域中心",
+      "one_line": "龚贤等「金陵八家」活动于清初南京，与四僧同属广义遗民画家群体但地域、圈层不同。本库现有 class:金陵八家 但八家中仅龚贤有全文条目，其余七人（樊圻、高岑、邹喆、吴宏、叶欣、胡慥、谢荪）需核对是否有 stub。",
+      "expect": {
+        "artist": [
+          "龚贤",
+          "樊圻",
+          "高岑",
+          "邹喆",
+          "吴宏",
+          "叶欣",
+          "胡慥",
+          "谢荪"
+        ],
+        "class": [
+          "金陵八家"
+        ]
+      },
+      "basis": "本库实测 class:jinling-bajia 存在但仅 gong-xian.json 一条全文；金陵八家为清初画史通行组合",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.painting.langshining-zhongxi",
+      "period": "qing",
+      "domain": "painting",
+      "name": "郎世宁与中西技法的有限交接",
+      "one_line": "郎世宁将焦点透视与明暗塑形引入清宫绘画，但这种交接是「有限」的——他本人的画法被要求适应中国绘画的材料（绢本设色而非油彩）与审美惯例（弱化投影），是宫廷体制主导下的技法妥协而非自由融合；canon.json 已明确要求评价「只记其技术与体制事实」，不套「中西优劣」框架。",
+      "expect": {
+        "artist": [
+          "郎世宁"
+        ]
+      },
+      "basis": "canon.json qing.keys「郎世宁洋风」及 qing.dispute",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.painting.ruyiguan-tizhi",
+      "period": "qing",
+      "domain": "painting",
+      "name": "清代宫廷如意馆体制",
+      "one_line": "清宫如意馆聚集画家、匠师承接皇家绘画与工艺设计事务，体制上不同于两宋翰林图画院的独立品秩，也不同于郎世宁个案代表的「传教士画家」身份，是理解清宫绘画生产整体组织方式的制度框架；本库现有条目多聚焦个体画家，缺制度层面的记述。",
+      "expect": {},
+      "basis": "清代宫廷美术制度通行叙述",
+      "confidence": "待核"
+    },
+    {
+      "id": "qing.painting.sisheng-yimin",
+      "period": "qing",
+      "domain": "painting",
+      "name": "四僧与遗民身份的因果争议",
+      "one_line": "八大山人、石涛、髡残、弘仁的画风常被径直解释为明遗民身份的直接投射，但「遗民身份→画风」是单因归结，四人实际处境、与清廷及地方官员的往来程度各不相同，本库并陈而不裁断因果关系。石涛画论「一画」已收在 treatise:kugua-heshang-hualuyu 并标其歧解无共识，此处不复述。",
+      "expect": {
+        "artist": [
+          "八大山人",
+          "石涛",
+          "髡残",
+          "弘仁"
+        ],
+        "treatise": [
+          "苦瓜和尚画语录"
+        ]
+      },
+      "basis": "canon.json qing.dispute「四王与四僧对置为后世编排」；data/treatises/kugua-heshang-hualuyu.json",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.painting.siwang-linfang",
+      "period": "qing",
+      "domain": "painting",
+      "name": "四王与临仿的技术逻辑",
+      "one_line": "王时敏、王鉴、王翚、王原祁的创作以系统性临仿宋元名家笔墨程式为方法论核心，这一「日课式」临仿不是缺乏独创的贬义标签，而是自觉的技术训练路径，其理论依据上溯董其昌「南北宗」正脉谱系（该论已收在 treatise:huachanshi-suibi 并标 disp，此处不复述）。本库清六家已收五位，独缺吴历。",
+      "expect": {
+        "artist": [
+          "王时敏",
+          "王鉴",
+          "王翚",
+          "王原祁",
+          "吴历"
+        ]
+      },
+      "basis": "canon.json qing.keys「四王吴恽」；plan/ref-艺术家名录体系.md「清六家缺吴历」发现；data/treatises/huachanshi-suibi.json",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.painting.yangzhou-baguai-shangye",
+      "period": "qing",
+      "domain": "painting",
+      "name": "扬州画派与商业城市的关系",
+      "one_line": "扬州八怪的经济基础是盐商赞助与公开卖画（郑板桥明码标价的「润格」是典型个案），画风的「怪」与市场对差异化产品的需求之间的关系值得当经济史问题处理，而不只是风格史问题。本库已收郑燮、金农、黄慎、罗聘四位，李鱓、汪士慎、高翔、李方膺四位仅有 stub。",
+      "expect": {
+        "artist": [
+          "郑燮",
+          "金农",
+          "黄慎",
+          "罗聘",
+          "李鱓",
+          "汪士慎",
+          "高翔",
+          "李方膺"
+        ]
+      },
+      "basis": "canon.json qing.keys「扬州八怪」；plan/ref-艺术家名录体系.md 扬州八怪缺半边发现",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.painting.yunshouping-mogu-fuxing",
+      "period": "qing",
+      "domain": "painting",
+      "name": "恽寿平与常州没骨花卉的复兴",
+      "one_line": "恽寿平自称让王翚独步山水一路，转攻没骨花卉，以没骨设色复兴徐熙、黄筌一系花鸟传统，是个人创作转向带动一个画科复兴的少见个案。本库黄筌已收录而徐熙完全缺失（「黄徐异体」缺半边），处理此单元时须注意这一缺口会影响追溯没骨谱系的完整性。",
+      "expect": {
+        "artist": [
+          "恽寿平",
+          "徐熙"
+        ],
+        "class": [
+          "没骨",
+          "花鸟"
+        ]
+      },
+      "basis": "恽寿平生平通行叙述；plan/ref-艺术家名录体系.md 黄徐异体缺徐熙发现",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.print-folk.jieziyuan-sanji-dongchuan",
+      "period": "qing",
+      "domain": "print-folk",
+      "name": "《芥子园画传》三集本的增补与东传日本",
+      "one_line": "《芥子园画传》自康熙十八年初集起历经增补形成四集通行本（treatise:jieziyuan-huazhuan 已详述其内容与「程式化」评价框架的历史性，此处不复述）；本单元仅处理其作为版画/画谱实物的刊刻流传，以及东传日本对江户南画的影响。",
+      "expect": {
+        "treatise": [
+          "芥子园画传"
+        ]
+      },
+      "basis": "data/treatises/jieziyuan-huazhuan.json 已有 influence 章节",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.print-folk.suzhou-taohuawu",
+      "period": "qing",
+      "domain": "print-folk",
+      "name": "苏州桃花坞年画的题材与技法体系",
+      "one_line": "桃花坞年画题材涵盖吉祥图案、戏曲故事、市井风俗、西洋风景（受西方铜版画透视法影响的「仿泰西笔法」一类）。本库实测已有约 122 件 kind:版画/period:qing 条目（题材含双喜字、苏州风俗、西湖全景等，馆藏号 2025.xx 系列），高度吻合桃花坞年画特征，但条目本身尚未按「年画」这一门类标注归属，是本单元最直接可核对的既有材料。",
+      "expect": {},
+      "basis": "本库实测 data/works kind:版画/period:qing 条目标题内容；canon.json print-folk domain note「年画」",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.print-folk.yangliuqing-nianhua",
+      "period": "qing",
+      "domain": "print-folk",
+      "name": "杨柳青年画与「半印半绘」技法",
+      "one_line": "杨柳青年画以木版套印轮廓后手工填彩（「半印半绘」）为特色，与桃花坞纯套色印刷的技法路径不同，构成清代年画南北两大中心的技法分野；本库现有条目未见明确标注为杨柳青产地者。",
+      "expect": {},
+      "basis": "中国年画史通行叙述（南桃北柳的技法对照）",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.sculpture.gongting-zangchuan-zaoxiang",
+      "period": "qing",
+      "domain": "sculpture",
+      "name": "清宫藏传佛教造像与中正殿念经处体系",
+      "one_line": "清宫中正殿念经处主理藏传佛教造像的制作与开光事务，造像风格融合汉地工艺与藏传图像仪轨（尺寸比例依《造像量度经》），是清代宫廷多民族体制在美术生产上的直接体现。",
+      "expect": {},
+      "basis": "清代宫廷藏传佛教造像制度通行叙述",
+      "confidence": "待核"
+    },
+    {
+      "id": "qing.stone-carving.fangbei-jinshi",
+      "period": "qing",
+      "domain": "stone-carving",
+      "name": "访碑与椎拓：乾嘉学者的金石考察活动",
+      "one_line": "黄易等人亲赴各地访碑椎拓并绘制《访碑图》记录考察活动本身，这类「访碑图」是金石学从案头考据延伸到田野活动的图像证据，与 qing.calligraphy.beixue-jinshi-kaoju 讨论的碑学理论建构互为表里，但聚焦活动实践而非理论文本。",
+      "expect": {
+        "artist": [
+          "黄易"
+        ],
+        "work": [
+          "访碑图（黄易）"
+        ]
+      },
+      "basis": "黄易访碑图为清代金石学史通行个案",
+      "confidence": "记得"
+    },
+    {
+      "id": "qing.theory.beixue-lilun-santibu",
+      "period": "qing",
+      "domain": "theory",
+      "name": "碑学理论建构三部曲",
+      "one_line": "阮元《南北书派论》首倡南北分派抑帖扬碑，包世臣《艺舟双楫》系统化其说，康有为《广艺舟双楫》集大成并推向极端，三书本库均已登记为一级信源但均无 treatise 条目。本单元与 qing.calligraphy.beixue-jinshi-kaoju 分工：该单元处理碑学兴起的历史成因，本单元处理理论文本本身的建构链条，两者不重复。",
+      "expect": {
+        "treatise": [
+          "南北书派论",
+          "艺舟双楫",
+          "广艺舟双楫"
+        ]
+      },
+      "basis": "data/sources.json 已登记 nanbei-shupai-lun / yizhou-shuang-ji / guangyi-zhoushuang-ji 三条；plan/ref-著录传统与正典链.md 1.21–1.22 节",
+      "confidence": "确知"
+    },
+    {
+      "id": "qing.tomb-art.qingdongling-digong",
+      "period": "qing",
+      "domain": "tomb-art",
+      "name": "清东陵裕陵地宫的佛教题材浮雕",
+      "one_line": "乾隆裕陵地宫满布藏传佛教经文与造像浮雕（四大天王、五方佛等），是清代帝陵地宫区别于明陵素壁地宫的显著特征，直接反映清代皇室的藏传佛教信仰实践。",
+      "expect": {
+        "site": [
+          "清裕陵地宫"
+        ]
+      },
+      "basis": "清代帝陵制度通行叙述",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.architecture.jiangnan-chansi-jialan",
+      "period": "southern-song",
+      "domain": "architecture",
+      "name": "江南禅寺伽蓝配置的定型",
+      "one_line": "南宋“五山十刹”体制下的禅寺伽蓝配置（山门-佛殿-法堂中轴序列）经日本入宋求法僧带回，深刻影响了日本镰仓时代的禅宗样建筑，而本土南宋原构本身现存实例稀少。",
+      "expect": {},
+      "basis": "中国建筑史通说（五山十刹制度与日本禅宗样的关系）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.bronze.nansong-fanggu-tongqi",
+      "period": "southern-song",
+      "domain": "bronze",
+      "name": "南宋仿古铜器与文房用器的兴起",
+      "one_line": "北宋金石学积累的青铜器图像谱系，到南宋逐渐转化为文人案头仿古铜器（炉、瓶、觚）的实际生产，礼器功能让位于陈设与焚香实用。",
+      "expect": {},
+      "basis": "中国青铜器史通说（与北宋“金石学的兴起”单元互为前后关系）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.calligraphy.wuju-mifeng-chengji",
+      "period": "southern-song",
+      "domain": "calligraphy",
+      "name": "吴琚对米芾书风的承继",
+      "one_line": "吴琚是南宋书坛少数专精米芾一路“风樯阵马”笔势并达到可与米芾真迹混淆水准的书家，反映南宋帖学在北宋大家阴影下的延续方式。",
+      "expect": {},
+      "basis": "中国书法史通说",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.cave-temple.feilaifeng-huangshi-zanzhu",
+      "period": "southern-song",
+      "domain": "cave-temple",
+      "name": "杭州飞来峰造像与南宋皇室的佛教赞助",
+      "one_line": "飞来峰摩崖造像题记中可考的南宋官员、僧侣供养人信息，是研究南宋皇室与士大夫佛教赞助网络的重要材料，具体供养关系网络本库尚未核实。",
+      "expect": {},
+      "basis": "中国石窟艺术史通说（飞来峰造像题记研究）",
+      "confidence": "待核"
+    },
+    {
+      "id": "southern-song.ceramics.guanyao-geyao-zhengyi",
+      "period": "southern-song",
+      "domain": "ceramics",
+      "name": "官窑窑址与传世哥窑的断代争议",
+      "one_line": "南宋官窑修内司窑、郊坛下窑窑址已经考古发掘确认，而“哥窑”仅见于明代以后文献，传世哥窑器与考古材料的年代对应关系至今未定——窑址实证与传世品风格判断在这里出现了本库应如实标注的证据等级落差。",
+      "expect": {
+        "class": [
+          "官窑",
+          "哥窑"
+        ]
+      },
+      "basis": "data/classes/guan-yao.json（窑址已发掘）、data/classes/ge-yao.json（对应关系未定）均已有条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.ceramics.jianyao-doucha",
+      "period": "southern-song",
+      "domain": "ceramics",
+      "name": "建窑黑釉盏与斗茶风尚",
+      "one_line": "建窑兔毫、油滴一类结晶釉黑盏因适配南宋点茶、斗茶时观察汤花的实际需要而大量生产，并经僧人交流传入日本，成为“天目”茶盏体系的源头。",
+      "expect": {
+        "class": [
+          "建窑"
+        ]
+      },
+      "basis": "data/classes/jian-yao.json 已有条目（span 载“南宋为盛期”）",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.ceramics.jingdezhen-nansong-yanxu",
+      "period": "southern-song",
+      "domain": "ceramics",
+      "name": "景德镇窑南宋青白瓷的延续与外销",
+      "one_line": "南宋景德镇青白瓷继续北宋“影青”传统并扩大外销规模，东南亚、南亚多处沉船与遗址出土印证了这一时期海上贸易网络中的瓷器流向。",
+      "expect": {
+        "class": [
+          "景德镇窑"
+        ]
+      },
+      "basis": "data/classes/jingdezhen-yao.json 已有条目",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.ceramics.jizhouyao-muye",
+      "period": "southern-song",
+      "domain": "ceramics",
+      "name": "吉州窑木叶天目与剪纸贴花",
+      "one_line": "吉州窑以真实树叶贴烧形成的木叶纹、剪纸镂空贴花等民间装饰手法，与建窑的结晶釉传统并行，代表南方民窑在同一“天目”茶盏门类下的另一条技术路径。",
+      "expect": {},
+      "basis": "中国陶瓷史通说（吉州窑装饰工艺）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.ceramics.longquanyao-nandu-dingxing",
+      "period": "southern-song",
+      "domain": "ceramics",
+      "name": "龙泉窑青瓷的南渡定型：粉青梅子青",
+      "one_line": "龙泉窑在南宋发展出多次施釉形成的粉青、梅子青厚釉效果，窑址集中于大窑、金村一带，是南宋以后取代越窑成为南方青瓷代表的关键阶段。",
+      "expect": {
+        "class": [
+          "龙泉窑"
+        ]
+      },
+      "basis": "data/classes/longquan-yao.json 已有条目（span 载“南宋-元大盛”）",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.furniture.nansong-wenren-shuzhai",
+      "period": "southern-song",
+      "domain": "furniture",
+      "name": "南宋文人书斋家具的定型",
+      "one_line": "南宋文人书斋家具（书案、椅、格架）在北宋高型家具基础上进一步精细化，尺度与陈设方式开始与文房清玩的鉴赏活动直接配合，具体实物证据本库尚未核实。",
+      "expect": {},
+      "basis": "中国家具史通说",
+      "confidence": "待核"
+    },
+    {
+      "id": "southern-song.jade.nansong-yuqi-shisu-tici",
+      "period": "southern-song",
+      "domain": "jade",
+      "name": "南宋玉器的世俗化题材",
+      "one_line": "南宋玉器佩饰、带饰上的花鸟、婴戏一类生活化题材增多，礼制性纹样进一步让位于世俗审美，具体量化比例本库尚未核实。",
+      "expect": {},
+      "basis": "中国玉器史通说",
+      "confidence": "待核"
+    },
+    {
+      "id": "southern-song.lacquer-textile.nansong-diaoqi-chuxing",
+      "period": "southern-song",
+      "domain": "lacquer-textile",
+      "name": "南宋雕漆的初兴",
+      "one_line": "雕漆技法在唐代已见雏形，南宋温州一带的髹漆作坊被认为是这一技法走向体系化生产的重要阶段，为元明剔红的成熟做了准备。",
+      "expect": {
+        "class": [
+          "雕漆"
+        ]
+      },
+      "basis": "data/classes/diaoqi.json 已有条目（span 载“宋元渐成体系”）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.metal-enamel.jiangnan-jinyinqi-gongyi",
+      "period": "southern-song",
+      "domain": "metal-enamel",
+      "name": "南宋金银器的江南工艺特征",
+      "one_line": "江苏溧阳等地南宋窖藏出土的金银器以錾刻精细的花卉纹样与轻薄胎体为特征，是否确实构成有别于北宋的独立地域风格，本库尚未核实。",
+      "expect": {},
+      "basis": "中国金银器史通说（江南地区南宋窖藏材料）",
+      "confidence": "待核"
+    },
+    {
+      "id": "southern-song.painting.chanhua-diwei",
+      "period": "southern-song",
+      "domain": "painting",
+      "name": "禅画在南宋的地位与由日本反向推高的评价史",
+      "one_line": "牧溪、玉涧一类禅画在本土画史长期不入正统，其经典地位很大程度上由镰仓以后日本收藏与鉴赏体系反向确立，是评价路径本身值得记录的个案。",
+      "expect": {
+        "artist": [
+          "牧溪法常"
+        ]
+      },
+      "basis": "canon.southern-song.dispute（禅画地位由日本收藏与研究反向推高）",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.painting.liangkai-jianbi",
+      "period": "southern-song",
+      "domain": "painting",
+      "name": "梁楷与减笔人物画",
+      "one_line": "梁楷以寥寥数笔的“减笔”手法画禅宗祖师与高士，把水墨的书写性推到与题材的疏放气质相匹配的极致，是南宋人物画里最激进的一支。",
+      "expect": {
+        "artist": [
+          "梁楷"
+        ]
+      },
+      "basis": "canon.southern-song.keys（梁楷）/ 本库既有 liang-kai 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.painting.liguo-nandu-zhuanzhe",
+      "period": "southern-song",
+      "domain": "painting",
+      "name": "李郭传派与南渡后的转折",
+      "one_line": "北宋李成、郭熙一系的巨碑山水在南渡后被压缩、简化，部分元素（蟹爪枝、卷云皴）被李唐、萧照等吸收改造，成为连接北宋全景山水与南宋边角构图的过渡环节。",
+      "expect": {},
+      "basis": "中国山水画史通说（李郭传派的地理与风格流变）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.painting.linan-huayuan-yanxu",
+      "period": "southern-song",
+      "domain": "painting",
+      "name": "临安画院的延续与南渡画风的转折",
+      "one_line": "高宗朝在临安重建画院，李唐、刘松年等由北宋画院南渡的画家把李郭传派的巨碑山水逐渐改造为更适应册页、扇面小景的新构图。",
+      "expect": {
+        "artist": [
+          "李唐",
+          "刘松年"
+        ]
+      },
+      "basis": "canon.southern-song.keys（李唐刘松年）/ canon.northern-song 李郭传派的延续",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.painting.mayixia-banbian",
+      "period": "southern-song",
+      "domain": "painting",
+      "name": "马夏与边角构图",
+      "one_line": "马远、夏圭把全景山水压缩为画面一角或半边，留白替代填满，即所谓“马一角夏半边”，是南宋院体山水最具辨识度的构图革新。",
+      "expect": {
+        "artist": [
+          "马远",
+          "夏圭"
+        ]
+      },
+      "basis": "canon.southern-song.keys（马一角夏半边）/ 本库既有 ma-yuan、xia-gui 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.painting.yuanti-huaniao-xiaojing",
+      "period": "southern-song",
+      "domain": "painting",
+      "name": "院体花鸟小品与团扇册页",
+      "one_line": "南宋画院花鸟画从北宋的大幅屏障转向团扇、册页一类小尺幅，题材更趋日常化，与南宋绘画整体“从全景收缩为边角”的趋势同构。",
+      "expect": {},
+      "basis": "canon.southern-song.one_line（画面从全景收缩为边角，尺幅从壁障转向册页）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.print-folk.linan-shufang-kegao",
+      "period": "southern-song",
+      "domain": "print-folk",
+      "name": "南宋临安书坊刻书与图籍插图",
+      "one_line": "临安、建阳一带书坊刻书业在南宋高度商业化，佛经、话本、类书的插图版画随之繁荣，是北宋官刻为主格局向民间坊刻扩张的关键阶段。",
+      "expect": {},
+      "basis": "中国印刷史通说",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.sculpture.feilaifeng-shisu",
+      "period": "southern-song",
+      "domain": "sculpture",
+      "name": "飞来峰造像的世俗化",
+      "one_line": "杭州飞来峰南宋摩崖造像题材以布袋弥勒、罗汉为主，面容与体态趋于亲切写实而非早期造像的庄严程式，反映江南佛教造像的世俗化取向。",
+      "expect": {},
+      "basis": "中国石窟艺术史通说（飞来峰造像分期研究）",
+      "confidence": "记得"
+    },
+    {
+      "id": "southern-song.stone-carving.nansong-mudao-shike",
+      "period": "southern-song",
+      "domain": "stone-carving",
+      "name": "南宋墓道石刻与地方碑刻传统",
+      "one_line": "南宋墓道石刻规模普遍小于北宋巩义帝陵体系，更多依托地方碑刻（神道碑、墓志）传统，反映政治中心南迁后陵墓制度本身的收缩，具体比较数据本库尚未核实。",
+      "expect": {},
+      "basis": "中国陵墓石刻史通说",
+      "confidence": "待核"
+    },
+    {
+      "id": "southern-song.theory.huaji-xushi",
+      "period": "southern-song",
+      "domain": "theory",
+      "name": "邓椿《画继》续《图画见闻志》记事下限",
+      "one_line": "邓椿《画继》明确以“续《图画见闻志》记事下限”（1074）为体例起点，记至南宋乾道三年（1167），凡219人，其卷九卷十“杂说”对宣和画院制度记载尤详。",
+      "expect": {
+        "treatise": [
+          "画继"
+        ]
+      },
+      "basis": "plan/ref-著录传统与正典链.md 1.8节（WebFetch核实219人）",
+      "confidence": "确知"
+    },
+    {
+      "id": "southern-song.tomb-art.jiangnan-zhuanshi-mu",
+      "period": "southern-song",
+      "domain": "tomb-art",
+      "name": "南宋江南砖室墓与随葬瓷器组合",
+      "one_line": "南宋江南地区流行的长方形砖室墓，随葬品以龙泉窑、景德镇窑瓷器组合为主而非北方常见的仿木构砖雕，具体形制统计本库尚未核实。",
+      "expect": {},
+      "basis": "中国考古学通说（江南宋墓形制与随葬品组合）",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.architecture.gaotai-jianzhu",
+      "period": "spring-autumn-warring",
+      "domain": "architecture",
+      "name": "高台建筑：诸侯宫室基址与瓦当遗存",
+      "one_line": "列国争霸推动高台宫室建筑的兴盛，今仅存基址与瓦当，建筑本体已不可见，只能靠间接材料复原。",
+      "expect": {
+        "site": [
+          "临淄",
+          "楚郢都（荆州）"
+        ]
+      },
+      "basis": "canon.centres(临淄、楚郢都（荆州）)",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.bronze.bianzhong-tixi",
+      "period": "spring-autumn-warring",
+      "domain": "bronze",
+      "name": "编钟体系：曾侯乙编钟与礼乐制度",
+      "one_line": "曾侯乙编钟一钟双音的声学成就与其铭文所记乐律体系，把青铜器研究从造型史扩展到音乐史。",
+      "expect": {
+        "work": [
+          "曾侯乙编钟"
+        ],
+        "site": [
+          "曾国（随州）"
+        ],
+        "class": [
+          "编钟"
+        ]
+      },
+      "basis": "canon.keys(编钟)/canon.centres(曾国（随州）)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.bronze.chuwenhua-fengge-bianjie",
+      "period": "spring-autumn-warring",
+      "domain": "bronze",
+      "name": "楚系青铜器的风格边界问题",
+      "one_line": "「楚文化」作为独立风格单元的边界，与中原、吴越、巴蜀的关系，学界口径不一——canon 已明确标此为开放问题。",
+      "expect": {
+        "site": [
+          "楚郢都（荆州）"
+        ]
+      },
+      "basis": "canon.dispute（「楚文化」作为独立风格单元的边界...学界口径不一）",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.bronze.cuojinyin",
+      "period": "spring-autumn-warring",
+      "domain": "bronze",
+      "name": "错金银工艺：青铜器表的镶嵌装饰体系",
+      "one_line": "错金银把纹饰从铸造阶段的范线控制解放出来，改为铸后镶嵌，装饰自由度大增，是本期工艺美术的标志性技术。",
+      "expect": {
+        "class": [
+          "错金银"
+        ]
+      },
+      "basis": "canon.keys(错金银)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.bronze.shila-fa",
+      "period": "spring-autumn-warring",
+      "domain": "bronze",
+      "name": "失蜡法：透雕青铜工艺的技术突破",
+      "one_line": "失蜡法使镂空透雕青铜器（如曾侯乙尊盘）成为可能，是春秋战国青铜工艺「炫技」倾向的技术基础。",
+      "expect": {
+        "class": [
+          "失蜡法"
+        ],
+        "work": [
+          "曾侯乙尊盘"
+        ]
+      },
+      "basis": "canon.keys(失蜡法)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.bronze.zhongshanguo-qingtong",
+      "period": "spring-autumn-warring",
+      "domain": "bronze",
+      "name": "中山国青铜器：错金银礼器与北方戎狄风格的融合",
+      "one_line": "中山国（白狄）青铜器兼有中原礼制与草原动物纹两种传统，是本期「多中心」而非单一中原叙事的关键例证。",
+      "expect": {
+        "site": [
+          "中山国（平山）"
+        ],
+        "work": [
+          "中山王铁足鼎",
+          "错金银四龙四凤铜方案"
+        ]
+      },
+      "basis": "canon.centres(中山国（平山）)/plan/ref-考古与遗址体系.md 三节（中山王墓，河北平山，有报告，书名待核）",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.calligraphy.houma-mengshu",
+      "period": "spring-autumn-warring",
+      "domain": "calligraphy",
+      "name": "侯马盟书：朱书墨书的最早成规模墨迹实物",
+      "one_line": "侯马盟书是玉石片上朱书墨书文字的大宗发现，是研究春秋晋系文字书写性（而非铸刻）最直接的材料。",
+      "expect": {
+        "site": [
+          "侯马"
+        ],
+        "work": [
+          "侯马盟书"
+        ]
+      },
+      "basis": "canon.centres(侯马)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.calligraphy.wulegongming",
+      "period": "spring-autumn-warring",
+      "domain": "calligraphy",
+      "name": "物勒工名：责任标记而非署名意识",
+      "one_line": "兵器、量器铭文所见工匠名与作坊名，canon 已明确判定这是制度性的责任标记，不是署名意识——提纲须与此一致，不可把它读成「艺术家署名」的萌芽。",
+      "expect": {
+        "class": [
+          "物勒工名"
+        ]
+      },
+      "basis": "canon.anonymity（「物勒工名」...是制度性的责任标记，不是署名意识）",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.ceramics.yinwenying-taoqi",
+      "period": "spring-autumn-warring",
+      "domain": "ceramics",
+      "name": "印纹硬陶与原始瓷在南方的延续",
+      "one_line": "印纹硬陶、原始瓷在吴越、楚地持续发展，是瓷器起源链条上承西周、下启秦汉的一环。",
+      "expect": {
+        "class": [
+          "印纹硬陶",
+          "原始瓷"
+        ]
+      },
+      "basis": "待核（需核对《中国陶瓷全集》春秋战国分卷）",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.furniture.chudi-qixjiaju",
+      "period": "spring-autumn-warring",
+      "domain": "furniture",
+      "name": "楚地漆木家具：几案与床榻的早期实物",
+      "one_line": "楚墓出土的漆木几案、床榻是中国家具史最早的一批实物证据，早于通常被视为家具史起点的汉代。",
+      "expect": {
+        "site": [
+          "楚郢都（荆州）"
+        ],
+        "class": [
+          "家具"
+        ]
+      },
+      "basis": "canon.centres(楚郢都（荆州）)",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.jade.chunqiu-yupei",
+      "period": "spring-autumn-warring",
+      "domain": "jade",
+      "name": "春秋战国组玉佩与葬玉制度的变化",
+      "one_line": "组玉佩形制在本期趋于繁复化，与礼崩乐坏的政治背景形成对照，是玉器研究中「制度与风格」关系的典型题目。",
+      "expect": {
+        "class": [
+          "组玉佩"
+        ]
+      },
+      "basis": "待核（需核对《中国玉器全集》春秋战国分卷）",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.lacquer-textile.boahua",
+      "period": "spring-autumn-warring",
+      "domain": "lacquer-textile",
+      "name": "帛画的出现：楚地丧葬绘画的最早实物",
+      "one_line": "《人物龙凤帛画》《人物御龙帛画》是中国现存最早的独立绘画实物，出自楚墓，先于纸绢卷轴画千余年。",
+      "expect": {
+        "site": [
+          "楚郢都（荆州）"
+        ],
+        "work": [
+          "人物龙凤帛画",
+          "人物御龙帛画"
+        ]
+      },
+      "basis": "canon.keys(帛画)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.lacquer-textile.chudi-qiqi",
+      "period": "spring-autumn-warring",
+      "domain": "lacquer-textile",
+      "name": "楚地漆器：荆州、江陵漆器体系与髹漆工艺",
+      "one_line": "楚地漆器数量大、题材奇诡（虎座鸟架鼓、镇墓兽），是本库「楚地想象」这一美术史论断最直接的物证载体。",
+      "expect": {
+        "site": [
+          "楚郢都（荆州）"
+        ],
+        "class": [
+          "漆器",
+          "楚文化"
+        ],
+        "work": [
+          "虎座鸟架鼓",
+          "镇墓兽"
+        ]
+      },
+      "basis": "canon.keys(漆器、楚文化)/canon.centres(楚郢都（荆州）)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.lacquer-textile.chuguo-zhixiu",
+      "period": "spring-autumn-warring",
+      "domain": "lacquer-textile",
+      "name": "楚国织绣：凤鸟纹刺绣与丝织品实物",
+      "one_line": "楚墓出土的刺绣与丝织品实物，是本库织绣类最早的一批成体系材料，凤鸟纹是楚地织绣的标志性母题。",
+      "expect": {
+        "site": [
+          "楚郢都（荆州）"
+        ],
+        "class": [
+          "织绣"
+        ]
+      },
+      "basis": "canon.centres(楚郢都（荆州）)/outline.domains（lacquer-textile 的 kinds 含织绣）",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.lacquer-textile.zenghouyi-qiqi",
+      "period": "spring-autumn-warring",
+      "domain": "lacquer-textile",
+      "name": "曾侯乙墓漆器组合：漆棺、漆器与墓葬礼制",
+      "one_line": "曾侯乙墓漆器（尤以彩绘内棺）数量与题材之丰富，是判断曾国（随文化区）礼制水平的核心物证。",
+      "expect": {
+        "site": [
+          "曾国（随州）"
+        ],
+        "work": [
+          "曾侯乙彩绘内棺"
+        ],
+        "event": [
+          "曾侯乙墓发掘"
+        ]
+      },
+      "basis": "canon.centres(曾国（随州）)/plan/ref-考古与遗址体系.md 三节（曾侯乙墓，《曾侯乙墓》1989，已登记 source: zeng-houyi-mu-baogao）",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.metal-enamel.jinyinqi-yu-cuojin",
+      "period": "spring-autumn-warring",
+      "domain": "metal-enamel",
+      "name": "金银器独立成器：脱离青铜附饰的趋势",
+      "one_line": "本期金银器开始独立成器（带钩、饰件），不再仅是青铜器表的错金银装饰，是金银器类目形成的前夜。",
+      "expect": {
+        "class": [
+          "金银器"
+        ]
+      },
+      "basis": "待核",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.painting.boahua-yu-huihua-qiyuan",
+      "period": "spring-autumn-warring",
+      "domain": "painting",
+      "name": "帛画与中国卷轴画的起源问题",
+      "one_line": "从帛画到后世卷轴画之间的载体与技法演变链条并不连续，本单元关注这一「起源叙事」本身是否成立。",
+      "expect": {
+        "work": [
+          "人物龙凤帛画",
+          "人物御龙帛画"
+        ]
+      },
+      "basis": "canon.keys(帛画)",
+      "confidence": "记得"
+    },
+    {
+      "id": "spring-autumn-warring.sculpture.zhongshanguo-diaosu",
+      "period": "spring-autumn-warring",
+      "domain": "sculpture",
+      "name": "中山国错银神兽：动物形器座的雕塑性",
+      "one_line": "错银双翼神兽等器座类作品兼具实用（承具）与雕塑性表现，其材质为青铜错银，在本库 kind 词表里同样面临「归哪一类」的缝隙（与三星堆青铜立人像同类问题）。",
+      "expect": {
+        "site": [
+          "中山国（平山）"
+        ],
+        "work": [
+          "错银双翼神兽"
+        ]
+      },
+      "basis": "canon.centres(中山国（平山）)",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.stone-carving.chunqiu-shike-canyu",
+      "period": "spring-autumn-warring",
+      "domain": "stone-carving",
+      "name": "春秋战国石刻遗存：稀少且多依附建筑构件",
+      "one_line": "本期碑刻、摩崖尚未成体系，如实标注这一稀薄状态——石刻碑版真正成体系要到秦汉。",
+      "expect": {
+        "class": [
+          "石刻"
+        ]
+      },
+      "basis": "待核（本库与 ref 文档均未见本期确证的独立石刻实例）",
+      "confidence": "待核"
+    },
+    {
+      "id": "spring-autumn-warring.tomb-art.zenghouyi-mu",
+      "period": "spring-autumn-warring",
+      "domain": "tomb-art",
+      "name": "曾侯乙墓：礼乐器组合与墓葬形制的整体研究",
+      "one_line": "曾侯乙墓是本库唯一已登记正式发掘报告（`zeng-houyi-mu-baogao`）却无 site 条目引用的个案——补上 site 是本库核查等级最直接的一处杠杆。",
+      "expect": {
+        "site": [
+          "曾国（随州）"
+        ],
+        "event": [
+          "曾侯乙墓发掘"
+        ]
+      },
+      "basis": "plan/ref-考古与遗址体系.md 一节 1.3（曾侯乙墓，《曾侯乙墓》1989，已登记 -baogao 后缀 source 但无 site 引用）",
+      "confidence": "记得"
+    },
+    {
+      "id": "western-zhou.bronze.changpian-mingwen",
+      "period": "western-zhou",
+      "domain": "bronze",
+      "name": "长篇铭文：青铜器从祭器到档案的转变",
+      "one_line": "毛公鼎、大盂鼎、史墙盘等长篇铭文使青铜器具有档案功能——这是「器主有名而作者无名」的物证核心。",
+      "expect": {
+        "work": [
+          "毛公鼎",
+          "大盂鼎",
+          "史墙盘"
+        ],
+        "class": [
+          "金文"
+        ]
+      },
+      "basis": "canon.keys(长篇铭文)/canon.anonymity（器主有名——毛公、大克、史墙等人的名字与事迹靠铭文留存）",
+      "confidence": "记得"
+    },
+    {
+      "id": "western-zhou.bronze.liedin-zhidu",
+      "period": "western-zhou",
+      "domain": "bronze",
+      "name": "列鼎制度：鼎簋数量与身份等级的对应",
+      "one_line": "列鼎制度是西周礼制物化的直接体现，鼎簋数量组合的规律性是本库断代与身份判定的重要依据。",
+      "expect": {
+        "class": [
+          "列鼎制度"
+        ]
+      },
+      "basis": "canon.keys(列鼎制度)",
+      "confidence": "记得"
+    },
+    {
+      "id": "western-zhou.bronze.limaozhi-gaige",
+      "period": "western-zhou",
+      "domain": "bronze",
+      "name": "礼制改革与青铜器组合的变化：西周中晚期的转折",
+      "one_line": "西周中晚期青铜器组合与器形发生系统性变化，学界称之为「礼制改革」，是青铜史分期的关键节点。",
+      "expect": {
+        "class": [
+          "礼制改革"
+        ]
+      },
+      "basis": "canon.keys(礼制改革)",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.bronze.qiequwen-zhonghuanwen",
+      "period": "western-zhou",
+      "domain": "bronze",
+      "name": "窃曲纹与重环纹：西周纹样的程式化与简化",
+      "one_line": "窃曲纹、重环纹取代商代兽面纹成为主流，纹样从狰狞繁复走向抽象程式，是西周青铜器风格转折的标志。",
+      "expect": {
+        "class": [
+          "窃曲纹",
+          "重环纹"
+        ]
+      },
+      "basis": "canon.keys(窃曲纹、重环纹)",
+      "confidence": "记得"
+    },
+    {
+      "id": "western-zhou.bronze.zhouyuan-jiaocang",
+      "period": "western-zhou",
+      "domain": "bronze",
+      "name": "周原窖藏青铜器：宝鸡、岐山的成组发现",
+      "one_line": "周原地区多次青铜器窖藏的成组出土，是西周王室与贵族青铜器研究最重要的材料来源之一。",
+      "expect": {
+        "site": [
+          "岐山周原",
+          "宝鸡"
+        ]
+      },
+      "basis": "canon.centres(岐山周原、宝鸡)",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.calligraphy.jinwen-shufa",
+      "period": "western-zhou",
+      "domain": "calligraphy",
+      "name": "西周金文书法：字形演变与书写性",
+      "one_line": "西周金文从早期的图画性向晚期的线条化、程式化演变，是汉字书法史脱离图像走向抽象的第一段轨迹。",
+      "expect": {
+        "class": [
+          "金文"
+        ],
+        "work": [
+          "毛公鼎",
+          "大克鼎"
+        ]
+      },
+      "basis": "canon.keys(长篇铭文)——由铭文内容延展至书体研究角度",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.ceramics.xizhou-yuanshici",
+      "period": "western-zhou",
+      "domain": "ceramics",
+      "name": "西周原始瓷与几何印纹硬陶",
+      "one_line": "原始瓷与印纹硬陶在西周多见于南方地区，是瓷器起源链条上承商代、下启春秋战国的一环。",
+      "expect": {
+        "class": [
+          "原始瓷",
+          "印纹硬陶"
+        ]
+      },
+      "basis": "待核（一般陶瓷史知识，需核对《中国陶瓷全集》夏商周分卷）",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.jade.xizhou-zuyupei",
+      "period": "western-zhou",
+      "domain": "jade",
+      "name": "西周组玉佩与敛葬用玉制度",
+      "one_line": "组玉佩（多璜联缀）是西周新出现的用玉形式，其长度与等级的对应关系是礼制研究的组成部分。",
+      "expect": {
+        "class": [
+          "组玉佩"
+        ]
+      },
+      "basis": "待核（需核对《中国玉器全集》商周分卷具体表述）",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.lacquer-textile.xizhou-qiqi-canji",
+      "period": "western-zhou",
+      "domain": "lacquer-textile",
+      "name": "西周漆器与丝织残迹：实物稀少的间接研究",
+      "one_line": "西周漆器与丝织实物存世极少，多依赖朽痕与文献互证，是本库材质证据链最薄弱的一段。",
+      "expect": {
+        "class": [
+          "漆器"
+        ]
+      },
+      "basis": "待核",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.metal-enamel.xizhou-jinqi",
+      "period": "western-zhou",
+      "domain": "metal-enamel",
+      "name": "西周金器：车马器与佩饰中的金饰",
+      "one_line": "西周金器多依附于车马器与佩饰，尚未独立成器类，与商代「金器极少且多附于青铜」的判断一脉相承但已见增长。",
+      "expect": {
+        "class": [
+          "金器"
+        ]
+      },
+      "basis": "canon.cells（erlitou-shang.metal-enamel 的 why：金器极少且多附于青铜，不单立；western-zhou 已升级为 present）",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.sculpture.zhouyuan-yushi-diaoke",
+      "period": "western-zhou",
+      "domain": "sculpture",
+      "name": "周原玉石圆雕：人像与动物形雕刻",
+      "one_line": "周原出土的玉石圆雕数量与题材均不及商代妇好墓丰富，是西周「重铭文轻造型」倾向的旁证。",
+      "expect": {
+        "site": [
+          "岐山周原"
+        ]
+      },
+      "basis": "canon.centres(岐山周原)",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.stone-carving.xizhou-shike-cunyi",
+      "period": "western-zhou",
+      "domain": "stone-carving",
+      "name": "西周石刻遗存：稀少且以间接材料为主",
+      "one_line": "西周石刻碑版类实物极少，本单元如实标注这一稀薄状态，而非勉强凑出不成立的题目。",
+      "expect": {
+        "class": [
+          "石刻"
+        ]
+      },
+      "basis": "待核（本库与 ref 文档均未见西周确证石刻实例，需人工核实是否存在）",
+      "confidence": "待核"
+    },
+    {
+      "id": "western-zhou.tomb-art.zhouyuan-mudi",
+      "period": "western-zhou",
+      "domain": "tomb-art",
+      "name": "周原与丰镐墓葬体系：贵族墓的器用组合",
+      "one_line": "周原、丰镐两大都邑周边的贵族墓地，其器用组合是列鼎制度与身份等级研究的直接考古背景。",
+      "expect": {
+        "site": [
+          "岐山周原",
+          "西安丰镐"
+        ]
+      },
+      "basis": "canon.centres(岐山周原、西安丰镐)",
+      "confidence": "待核"
+    },
+    {
+      "id": "yuan.temple-mural.yongle-gong-bihua",
+      "period": "yuan",
+      "domain": "temple-mural",
+      "name": "永乐宫：元代道教宫观建筑与壁画的一体化",
+      "one_line": "永乐宫三清殿、纯阳殿等建筑群与殿内《朝元图》壁画同期营建、互为整体，但按本库门类划分，壁画载体本应归入石窟寺或墓葬美术两门，而永乐宫既非石窟亦非墓葬——这是提纲在套用现有门类框架时暴露的一处边界空白，如实标注而不强行归类。",
+      "expect": {
+        "site": [
+          "永乐宫"
+        ]
+      },
+      "basis": "canon.yuan.keys（永乐宫壁画）/ data/sites/yongle-gong.json 已有条目（period 字段现为 null）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.bronze.yuandai-fanggu-tongqi",
+      "period": "yuan",
+      "domain": "bronze",
+      "name": "元代仿古铜器与文人案头陈设的兴起",
+      "one_line": "元代文人延续南宋以来的仿古铜器鉴赏趣味，案头陈设用器（炉、瓶）的生产在江南持续，为明代宣德炉一类更具规模的仿古铜器生产做了铺垫，具体产地与传承脉络本库尚未核实。",
+      "expect": {},
+      "basis": "中国青铜器史通说（与“南宋仿古铜器”单元的延续关系）",
+      "confidence": "待核"
+    },
+    {
+      "id": "yuan.calligraphy.zhaomengfu-fugu-shufeng",
+      "period": "yuan",
+      "domain": "calligraphy",
+      "name": "赵孟頫复古书风与“二王”传统的回归",
+      "one_line": "赵孟頫主张“用笔千古不易”，以直接取法王羲之、王献之的方式对抗南宋以来渐趋放纵的书风，是元代书法史上最具影响力的复古主张。",
+      "expect": {
+        "artist": [
+          "赵孟頫"
+        ]
+      },
+      "basis": "本库既有 zhao-mengfu 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.cave-temple.mogao-yuandai-ku",
+      "period": "yuan",
+      "domain": "cave-temple",
+      "name": "莫高窟元代洞窟：第3窟与第465窟",
+      "one_line": "莫高窟第3窟千手千眼观音壁画代表元代精细密教题材的高峰，第465窟藏传密教风格壁画的具体年代（西夏末、元代抑或更晚）至今仍有争议，是敦煌石窟断代问题里最具代表性的悬案之一。",
+      "expect": {
+        "site": [
+          "莫高窟"
+        ]
+      },
+      "basis": "data/sites/mogao.json 已有条目；第465窟年代争议为敦煌学通说",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.ceramics.cizhouyao-yuandai-shisuhua",
+      "period": "yuan",
+      "domain": "ceramics",
+      "name": "磁州窑元代白地黑花的题材世俗化",
+      "one_line": "元代磁州窑白地黑花装饰题材进一步扩展到戏曲人物、诗文警句，与元曲、话本等世俗文艺的流行同步，是民窑装饰紧跟同期通俗文化的典型个案。",
+      "expect": {
+        "class": [
+          "磁州窑"
+        ]
+      },
+      "basis": "data/classes/cizhou-yao.json 已有条目（span 载“北宋-元”）",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.ceramics.junyao-yuandai-minyaohua",
+      "period": "yuan",
+      "domain": "ceramics",
+      "name": "钧窑元代的民窑化与窑变釉的普及",
+      "one_line": "钧窑窑变釉技法在元代由北宋官窑级别的精细生产逐渐扩散为民窑普遍采用的装饰手法，产品数量大增而精细程度整体下降，是名窑技法向民间普及过程中常见的“量增质降”个案。",
+      "expect": {
+        "class": [
+          "钧窑"
+        ]
+      },
+      "basis": "data/classes/jun-yao.json 已有条目（span 载“盛于北宋晚期至金”，元代延续）",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.ceramics.longquanyao-yuandai-waixiao",
+      "period": "yuan",
+      "domain": "ceramics",
+      "name": "龙泉窑元代大型外销器与“处州瓷器”贸易网络",
+      "one_line": "元代龙泉窑一改南宋精细路线，烧造大量适应海外市场需求的大型外销器皿，与元青花共同构成元代瓷器外销的两条主力产品线。",
+      "expect": {
+        "class": [
+          "龙泉窑"
+        ]
+      },
+      "basis": "data/classes/longquan-yao.json 已有条目（span 载“元大盛”）",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.ceramics.shufuci-guanfu",
+      "period": "yuan",
+      "domain": "ceramics",
+      "name": "景德镇枢府瓷（卵白釉）与元代官府用瓷制度",
+      "one_line": "元代枢密院定烧的卵白釉瓷器因器身多印“枢府”二字得名，是元代官府用瓷制度区别于宋代汝官哥钧定单一名窑体系的新形态。",
+      "expect": {},
+      "basis": "canon.yuan.keys（枢府瓷）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.ceramics.yuanqinghua-chengshu",
+      "period": "yuan",
+      "domain": "ceramics",
+      "name": "元青花的成熟与外销",
+      "one_line": "元代景德镇以进口“苏麻离青”钴料烧制的青花瓷，纹样构图明显受伊斯兰市场审美影响，其年代与外销脉络近数十年因海外沉船与窑址发掘材料大幅改写，不宜再套用旧有的单一叙事。",
+      "expect": {},
+      "basis": "canon.yuan.keys（元青花）/ canon.yuan.dispute（元青花年代与外销脉络近年大幅改写）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.furniture.yuandai-jiaju-shique",
+      "period": "yuan",
+      "domain": "furniture",
+      "name": "元代家具实物遗存的稀缺与图像旁证",
+      "one_line": "元代家具实物遗存远少于明清，现有认识主要依赖同期绘画与雕版插图中的家具图像做旁证性复原，尚未形成独立于明式家具体系的断代框架。",
+      "expect": {},
+      "basis": "中国家具史通说（元代实物遗存状况）",
+      "confidence": "待核"
+    },
+    {
+      "id": "yuan.jade.dushandayuhai",
+      "period": "yuan",
+      "domain": "jade",
+      "name": "渎山大玉海与元代宫廷大型玉雕",
+      "one_line": "忽必烈敕命制作的渎山大玉海是现存最早、体量最大的宫廷玉雕酒器，以整块墨玉浮雕海龙、海马等纹样，现藏北海团城，代表元代宫廷玉作在体量与工艺组织上的突破。",
+      "expect": {},
+      "basis": "中国玉器史通说",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.lacquer-textile.zhangcheng-yangmao-diaoqi",
+      "period": "yuan",
+      "domain": "lacquer-textile",
+      "name": "张成、杨茂与雕漆技法的成熟",
+      "one_line": "张成、杨茂是仅有的两位在雕漆作品上留下年款或名款的漆工，曹昭《格古要论》已提及其名，但二人活动年代究竟是元代还是元末明初，学界至今存在争议，本库暂标待核。",
+      "expect": {},
+      "basis": "曹昭《格古要论》“堆红”条记载张成、杨茂；二人活动年代学界有争议",
+      "confidence": "待核"
+    },
+    {
+      "id": "yuan.metal-enamel.dashiyao-jisijingtai",
+      "period": "yuan",
+      "domain": "metal-enamel",
+      "name": "“大食窑”记载与掐丝珐琅传入的早期线索",
+      "one_line": "曹昭《格古要论》“大食窑”条记载“以铜作身用药烧成五色花者，与拂郎嵌相似”，是掐丝珐琅工艺传入中国最早的文字线索之一，具体产地与工艺归属仍待考订。",
+      "expect": {},
+      "basis": "曹昭《格古要论》（“大食窑”条），具体产地归属学界有争议",
+      "confidence": "待核"
+    },
+    {
+      "id": "yuan.painting.gaokegong-mishi-yunshan",
+      "period": "yuan",
+      "domain": "painting",
+      "name": "高克恭与“米氏云山”的多元文化背景",
+      "one_line": "高克恭出身色目（回鹘）家庭而深研米芾米友仁一路云山画法，其个案本身提示元代绘画正统性论述之外，还存在一条由多元族群背景画家参与的支线，本库目前完全未收此人。",
+      "expect": {
+        "artist": [
+          "高克恭"
+        ]
+      },
+      "basis": "plan/ref-艺术家名录体系.md 3.B节点名高克恭为“完全缺失”的一级人物",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.painting.likan-kejiu-mozhu",
+      "period": "yuan",
+      "domain": "painting",
+      "name": "李衎、柯九思与元代墨竹的谱系化",
+      "one_line": "李衎《竹谱详录》与柯九思的墨竹实践，把北宋文同、苏轼开创的墨竹题材发展为有系统画法谱系的专门画科，《宣和画谱》十门中“墨竹”的独立地位在元代得到进一步巩固。",
+      "expect": {
+        "class": [
+          "墨竹"
+        ]
+      },
+      "basis": "data/classes/mozhu.json 已有条目（span 载“元代李衎、柯九思、赵孟頫续之”）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.painting.qianxuan-shiqi",
+      "period": "yuan",
+      "domain": "painting",
+      "name": "钱选与“士气”说：南宋遗民画家的身份转换",
+      "one_line": "钱选宋亡后拒不出仕，提出绘画应有别于职业画工的“士气”，是元初“吴兴八俊”里最早明确提出文人画身份论述的个案，本库目前完全未收此人。",
+      "expect": {
+        "artist": [
+          "钱选"
+        ]
+      },
+      "basis": "plan/ref-艺术家名录体系.md 3.B节点名钱选为“完全缺失”的一级人物",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.painting.wangzhenpeng-jiehua",
+      "period": "yuan",
+      "domain": "painting",
+      "name": "王振鹏与元代界画的宫廷记录功能",
+      "one_line": "王振鹏以精细界画记录宫廷建筑与礼仪场面，延续了北宋郭忠恕、张择端一系的界画传统，但服务对象从市井全景转向宫廷记录。",
+      "expect": {},
+      "basis": "中国绘画史通说（元代界画传承）",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.painting.yuansijia-yinyi",
+      "period": "yuan",
+      "domain": "painting",
+      "name": "元四家与隐逸母题",
+      "one_line": "黄公望、倪瓒、王蒙、吴镇以萧散荒寒的江南山水寄托易代之后不仕的隐逸心态，“元四家”具体名单本身在明代即有多个版本（有以倪瓒易赵孟頫者），不宜当作元代画坛唯一定论。",
+      "expect": {
+        "artist": [
+          "黄公望",
+          "倪瓒",
+          "王蒙",
+          "吴镇"
+        ]
+      },
+      "basis": "canon.yuan.dispute（元四家名单多版本）/ 本库既有四位艺术家条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.painting.zhaomengfu-shuhua-tongyuan",
+      "period": "yuan",
+      "domain": "painting",
+      "name": "赵孟頫与“书画同源”“以书入画”的理论化",
+      "one_line": "赵孟頫提出“石如飞白木如籀”“写竹还应八法通”，把书法用笔直接引入绘画语言，使“以书入画”从个别实践上升为可传授的理论主张，深刻影响元代及以后的文人画正当性论述。",
+      "expect": {
+        "artist": [
+          "赵孟頫"
+        ]
+      },
+      "basis": "canon.yuan.keys（书画同源、以书入画）/ 本库既有 zhao-mengfu 条目",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.print-folk.jianan-yushi-pinghua",
+      "period": "yuan",
+      "domain": "print-folk",
+      "name": "建安虞氏刻本《全相平话五种》插图版画",
+      "one_line": "元至治年间（1321–1323）建安虞氏刻印的《全相平话五种》采用上图下文的版式，是现存最早一批成体系的历史演义小说插图版画，早于明代小说插图的繁荣。",
+      "expect": {},
+      "basis": "中国印刷史与版画史通说",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.sculpture.feilaifeng-yuandai-zaoxiang",
+      "period": "yuan",
+      "domain": "sculpture",
+      "name": "飞来峰元代造像与藏传佛教艺术的传入",
+      "one_line": "杭州飞来峰现存约一百一十余尊元代梵式（藏传）造像，是江南地区藏传佛教艺术遗存最集中的实例，反映元代帝室对藏传佛教的扶持如何延伸到南方汉地。",
+      "expect": {},
+      "basis": "中国石窟艺术史通说（飞来峰元代造像分期研究）",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.stone-carving.juyongguan-yuntai",
+      "period": "yuan",
+      "domain": "stone-carving",
+      "name": "居庸关云台：多语言石刻与藏传佛教浮雕",
+      "one_line": "居庸关云台建于至正年间（1342–1345），台身内壁以梵文、藏文、八思巴蒙古文、回鹘文、西夏文、汉文六种文字镌刻经咒，并浮雕四大天王像，是元代多民族、多宗教并存格局最集中的石刻物证。",
+      "expect": {},
+      "basis": "中国石刻史通说（居庸关云台六体文字与图像研究）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.theory.tanghou-huajian",
+      "period": "yuan",
+      "domain": "theory",
+      "name": "汤垕《画鉴》与元代复古鉴藏趣味",
+      "one_line": "汤垕《画鉴》以鉴藏眼光逐一评断晋唐宋名家真伪流传，其品评框架已受元人复古趣味影响，不宜径当作所论各代当时的评价，本库目前仅将其登记为信源，尚无独立研究条目。",
+      "expect": {
+        "treatise": [
+          "画鉴"
+        ]
+      },
+      "basis": "plan/ref-著录传统与正典链.md 1.10节",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.tomb-art.fengdaozhen-mu-jinyuan",
+      "period": "yuan",
+      "domain": "tomb-art",
+      "name": "大同冯道真墓：金元之际的道士墓葬壁画",
+      "one_line": "大同冯道真墓墓主为全真道士，壁画题材以山水、花鸟、备茶图为主而非传统的宗教图像，是判断金元之际墓葬美术如何吸收同期文人画趣味的重要个案。",
+      "expect": {},
+      "basis": "plan/ref-考古与遗址体系.md 第三节点名“大同冯道真墓”",
+      "confidence": "记得"
+    }
+  ]
 }
