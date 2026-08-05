@@ -1819,6 +1819,46 @@
       "confidence": "待核"
     },
     {
+      "id": "contemporary.temple-mural.fahaisi-shuzihua",
+      "period": "contemporary",
+      "domain": "temple-mural",
+      "name": "法海寺壁画数字化采集与沉浸式展示：复制与保护技术史",
+      "one_line": "石景山区文物部门对法海寺明代壁画实施三维矩阵图像采集并建立数据库，法海寺壁画艺术馆以 4K 高清屏幕、360 度球幕等技术手段 1:1 复原展示壁画细节——这是本库判断当代寺观壁画格子内容性质的关键个案：当代新增的不是壁画本身（原壁不可移动、不可再造），而是围绕原壁展开的数字化采集、复制与展示技术，本条目记的是这套技术史，不是壁画创作史。",
+      "expect": {
+        "site": [
+          "法海寺"
+        ],
+        "artist": [],
+        "work": [],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "法海寺壁画艺术馆数字化展示项目的公开报道（石景山区、首都之窗等政务渠道信息）",
+      "confidence": "记得"
+    },
+    {
+      "id": "contemporary.temple-mural.xinjian-siguan-bihua-fanggu",
+      "period": "contemporary",
+      "domain": "temple-mural",
+      "name": "当代新建寺观的仿古壁画：商业化行活现象",
+      "one_line": "改革开放以后各地重建、新建寺庙普遍延续壁画传统，但多由旅游与信众募资驱动、工期紧、程式化临摹古代粉本（尤以永乐宫朝元图、敦煌飞天为常见母题）——这一现象本库判断应记入损毁史／保护史一侧的补充说明（即「当代寺观壁画不构成新的创作史高峰」），而非当作独立的创作成就单元；具体统计规模、代表个案与质量评价，本库均未核实，标为待核，避免用零散见闻冒充系统调查。",
+      "expect": {
+        "site": [
+          "永乐宫"
+        ],
+        "artist": [],
+        "work": [
+          "朝元图"
+        ],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "当代新建寺庙壁画商业化、程式化的一般性观察，本库未核实到系统性的学术调查或统计支撑",
+      "confidence": "待核"
+    },
+    {
       "id": "contemporary.theory.meishu-piping-tizhi-xingcheng",
       "period": "contemporary",
       "domain": "theory",
@@ -2416,6 +2456,31 @@
       "confidence": "待核"
     },
     {
+      "id": "five-dynasties.temple-mural.yizhou-minghualu-damaci",
+      "period": "five-dynasties",
+      "domain": "temple-mural",
+      "name": "《益州名画录》所记成都寺观壁画画家群：材料确实稀薄，如实注明",
+      "one_line": "黄休复《益州名画录》专记唐末至宋初西蜀画坛，重点即寺观壁画：赵公祐在大圣慈寺文殊阁绘《天王》诸堵、孙位于应天寺昭觉寺留壁、卢楞伽亦有寺壁遗迹——这批画家活跃年代横跨唐末至五代至宋初，具体归入「五代」一期本身即勉强；本库如实说明：五代一朝独立、非跨期归属的寺观壁画实物或明确纪年题记，本库目前未能找到，此格材料确实单薄，不以文献泛引凑数为满足。",
+      "expect": {
+        "site": [
+          "大圣慈寺"
+        ],
+        "artist": [
+          "赵公祐",
+          "孙位",
+          "卢楞伽"
+        ],
+        "work": [],
+        "class": [],
+        "treatise": [
+          "益州名画录"
+        ],
+        "event": []
+      },
+      "basis": "黄休复《益州名画录》原书体例（专记西蜀寺观壁画与画家）；canon.five-dynasties 未列专门壁画类 keys，本条目为提纲层面的材料缺口如实标注",
+      "confidence": "记得"
+    },
+    {
       "id": "five-dynasties.theory.tuhua-jianwenzhi-zhuiji",
       "period": "five-dynasties",
       "domain": "theory",
@@ -2951,6 +3016,53 @@
       "confidence": "记得"
     },
     {
+      "id": "late-qing-republic.temple-mural.guangshengsi-xiasi-liusan",
+      "period": "late-qing-republic",
+      "domain": "temple-mural",
+      "name": "广胜寺下寺壁画民国盗卖流失海外：保护史与损毁史，不是创作史",
+      "one_line": "1928 年，广胜寺下寺以「筹款修缮」为名，经寺僧与赵城县长之手将四铺元代（后殿两铺）与明代（前殿两铺）壁画以一千六百银洋卖予古董商，几经转手流入美欧：后殿炽盛光佛佛会图今藏纳尔逊-阿特金斯艺术博物馆，药师佛佛会图藏大都会艺术博物馆，前殿两铺藏宾夕法尼亚大学，另有残片藏法国吉美博物馆——这是二十世纪初中国寺观壁画整壁剥离流散海外最著名的个案之一，本条目记的是「文物如何离散」，不是壁画本身的创作成就。",
+      "expect": {
+        "site": [
+          "广胜寺下寺"
+        ],
+        "artist": [],
+        "work": [
+          "炽盛光佛佛会图",
+          "药师佛佛会图"
+        ],
+        "class": [],
+        "treatise": [],
+        "event": [
+          "广胜寺下寺壁画盗卖流失"
+        ]
+      },
+      "basis": "广胜寺下寺壁画 1928 年盗卖经过及现藏地（纳尔逊-阿特金斯艺术博物馆、大都会艺术博物馆、宾夕法尼亚大学、吉美博物馆）的通行记载，多方報道与博物馆藏品信息互证；可与 data/events/jincun-tomb-looting.json 记录金村盗掘同属民国文物流散一类问题参照",
+      "confidence": "确知"
+    },
+    {
+      "id": "late-qing-republic.temple-mural.jishan-xinghuasi-liusan",
+      "period": "late-qing-republic",
+      "domain": "temple-mural",
+      "name": "稷山兴化寺壁画民国被剥离流失：与广胜寺下寺同期同类事件",
+      "one_line": "1925 年前后，稷山兴化寺（元代朱好古纪年题记原址，见 yuan.temple-mural.jishan-xinghuasi-bihua）壁画被古董商整壁剥离，1928 年以五千银洋售予加拿大皇家安大略博物馆，其中《弥勒佛说法图》即今该馆藏品；李济 1926 年受托实地调查时，中殿南墙与后殿两山墙壁画已被剥走——与广胜寺下寺（late-qing-republic.temple-mural.guangshengsi-xiasi-liusan）几乎同时同地区发生，说明民国初年晋南寺观壁画的整壁剥离并非孤立个案，而是一时期的普遍性劫难。",
+      "expect": {
+        "site": [
+          "稷山兴化寺"
+        ],
+        "artist": [],
+        "work": [
+          "弥勒佛说法图"
+        ],
+        "class": [],
+        "treatise": [],
+        "event": [
+          "稷山兴化寺壁画盗卖流失"
+        ]
+      },
+      "basis": "稷山兴化寺壁画 1925–1928 年剥离出售经过及现藏加拿大皇家安大略博物馆的通行记载；李济 1926 年实地调查记录",
+      "confidence": "确知"
+    },
+    {
       "id": "late-qing-republic.theory.huo-buhuo-lunzhan",
       "period": "late-qing-republic",
       "domain": "theory",
@@ -3117,6 +3229,46 @@
       "confidence": "确知"
     },
     {
+      "id": "liao-jin.cave-temple.fangshan-shijingshan-xuke",
+      "period": "liao-jin",
+      "domain": "cave-temple",
+      "name": "房山云居寺石经山藏经洞：辽金两代续刻万余石经版",
+      "one_line": "石经山九座藏经洞（正中第五洞雷音洞为隋末静琬所凿最早一洞）自隋大业年间开凿藏经，历唐、辽、金、元、明六朝续刻逾千年；辽金两朝续刻石经版逾万块（通行统计约一万零八十二块），另建地穴埋藏于云居寺南塔前——石经每版末尾常刻施主姓名与年款，是断代依据中「石刻题记」一档最系统、最大规模的连续序列材料之一，同属「窟龛」性质（人工开凿藏经的洞窟），填补 liao-jin × cave-temple 因岩山寺改归 temple-mural 而空出的格子。",
+      "expect": {
+        "site": [
+          "房山云居寺"
+        ],
+        "artist": [],
+        "work": [
+          "房山石经"
+        ],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "房山石经刊刻史（隋大业十一年至明崇祯，历六朝，共约一万五千余石经版）、石经山九座藏经洞沿革、辽金续刻万余块并另建地穴藏经的通行记载",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.cave-temple.yungang-liaodai-shisi",
+      "period": "liao-jin",
+      "domain": "cave-temple",
+      "name": "云冈石窟辽代「十寺」木构窟檐与金代兵火补修",
+      "one_line": "辽兴宗、道宗年间（约十一世纪中叶），辽室对武州山云冈石窟持续大规模修整近十年，于窟前接建通乐、灵岩、鲸崇、镇国、护国、天宫、崇福、童子、华严、兜率十座木构窟檐大寺，并修整逾千尊造像；辽保大二年（1122）金兵攻占大同，「寺遭焚劫，灵岩栋宇，扫地无遗」，金皇统三至六年（1143–1146）住持法师禀慧重修「灵岩大阁」——石窟本体是北魏原作，木构窟檐是辽代所建，焚毁与补修则是金代事，三层叠压清楚可辨，是本库判断云冈「原作层／建筑层／灾毁层／补修层」四重叠压关系的关键个案，填补 liao-jin × cave-temple 因岩山寺改归 temple-mural 而空出的格子。",
+      "expect": {
+        "site": [
+          "云冈石窟"
+        ],
+        "artist": [],
+        "work": [],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "云冈石窟辽代「十寺」修建与金代兵火焚毁、皇统年间补修的通行沿革记载（云冈石窟研究院及相关学术综述一致）",
+      "confidence": "记得"
+    },
+    {
       "id": "liao-jin.ceramics.liaosancai-jiguanhu",
       "period": "liao-jin",
       "domain": "ceramics",
@@ -3227,6 +3379,25 @@
       "one_line": "山西繁峙岩山寺文殊殿壁画相传出自金代宫廷画师王逵之手，画风精细近北宋院体人物画传统，是判断金代绘画对北宋传统承续程度的重要个案，但其性质是寺观壁画而非严格意义的石窟。",
       "expect": {},
       "basis": "中国美术史通说（岩山寺壁画研究）；此处借用 cave-temple 门类承载寺观壁画，与该门类原为石窟寺设计存在错位，提纲如实标注",
+      "confidence": "记得"
+    },
+    {
+      "id": "liao-jin.temple-mural.yingxian-muta-bihua",
+      "period": "liao-jin",
+      "domain": "temple-mural",
+      "name": "应县木塔内槽过去七佛壁画：辽代原作，与岩山寺互为对照",
+      "one_line": "应县木塔第一层内槽壁面绘六尊如来像（连同主尊释迦牟尼合为「过去七佛」），高约八米，色泽鲜艳，为辽代原作，门洞两侧另绘金刚天王弟子像——与同属辽金一期的繁峙岩山寺壁画（liao-jin.temple-mural.yanshansi-jinhua-bihua）相比，一为佛塔内部空间的壁画，一为殿堂壁画，二者共同说明辽金寺观壁画不止岩山寺一例，只是原址原构留存者极少。",
+      "expect": {
+        "site": [
+          "应县木塔"
+        ],
+        "artist": [],
+        "work": [],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "应县木塔第一层内槽过去七佛壁画的通行调查记录（山西省文物局、应县木塔研究一致）",
       "confidence": "记得"
     },
     {
@@ -3798,6 +3969,140 @@
       "expect": {},
       "basis": "晚明文人游历文化通行叙述",
       "confidence": "待核"
+    },
+    {
+      "id": "ming.temple-mural.bilu-si-bihua",
+      "period": "ming",
+      "domain": "temple-mural",
+      "name": "毗卢寺壁画：释迦殿、毗卢殿两批画工与五百余神祇榜题体系",
+      "one_line": "毗卢寺始建于唐天宝年间，现存释迦殿、毗卢殿壁画均为明代重修所绘：释迦殿（连同天王殿）据《重修毗卢寺记》碑为正定府获鹿县匠人巩中颜、刘子文所绘（正德十二年至嘉靖十四年，1517–1535），毗卢殿则由王淮、张保、河安、安太等绘于嘉靖十四年（1535），共一百二十二组、五百零八位神祇，每组皆有榜题标注名号——这套榜题体系是断代与图像志辨识并行的双重依据，画工同样具名可考，不属「佚名」。",
+      "expect": {
+        "site": [
+          "毗卢寺"
+        ],
+        "artist": [
+          "巩中颜",
+          "刘子文",
+          "王淮",
+          "张保"
+        ],
+        "work": [],
+        "class": [
+          "人物"
+        ],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "《重修毗卢寺记》碑文；毗卢寺释迦殿、毗卢殿壁画年代与画工姓名，河北省文物部门通行著录",
+      "confidence": "确知"
+    },
+    {
+      "id": "ming.temple-mural.duandai-fangfalun",
+      "period": "ming",
+      "domain": "temple-mural",
+      "name": "明代寺观壁画的分期依据：殿宇纪年、功德题记与重绘层",
+      "one_line": "法海寺靠经幢题名记、毗卢寺靠《重修毗卢寺记》碑、公主寺靠壁画自身题记——三案分属不同硬度的断代依据，共同点是都不依赖款印与著录（卷轴画分期的主要依据），而依赖殿宇本体或碑刻留下的纪年文字；本库另需追问哪些殿堂现存壁画是明代原绘、哪些是明代对更早壁画的重绘层（如是否叠压唐宋原作），目前掌握的材料尚不足以对上述三案逐一排查重绘层，此点标为待核。",
+      "expect": {
+        "site": [
+          "法海寺",
+          "毗卢寺",
+          "公主寺"
+        ],
+        "artist": [],
+        "work": [],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "本条目为方法论综述，依据即前四条 ming.temple-mural 单元的断代方式对比；schema.py 窟寺 relayers 硬约束的方法论可类比套用于寺观壁画，但寺观条目本身是否强制要求 relayers 字段，本库未核实",
+      "confidence": "待核"
+    },
+    {
+      "id": "ming.temple-mural.fahai-si-bihua",
+      "period": "ming",
+      "domain": "temple-mural",
+      "name": "法海寺壁画：明代宫廷营缮系统的寺观壁画孤例",
+      "one_line": "法海寺大雄宝殿壁画完成于正统四至九年（1439–1444），由工部营缮所主持营建，是明代由中央官方营缮机构（而非地方募资）主持绘制的寺观壁画代表个案，与永乐宫、稷山诸寺的地方民间画工班子模式不同——断代依据是殿内经幢纪年（正统九年）与工部营建记录，不靠款印。",
+      "expect": {
+        "site": [
+          "法海寺"
+        ],
+        "artist": [],
+        "work": [],
+        "class": [
+          "人物"
+        ],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "法海寺正统九年（1444）楞严经幢题名记；法海寺营建由工部营缮所主持，通行著录一致",
+      "confidence": "确知"
+    },
+    {
+      "id": "ming.temple-mural.fahai-si-huashiguan-timing",
+      "period": "ming",
+      "domain": "temple-mural",
+      "name": "法海寺画士官题名：宛福清、王恕领衔的十五人画师团队",
+      "one_line": "寺内正统九年（1444）楞严经幢题名记逐一列出参与营建的各色工匠，其中画士官宛福清、王恕带领画士张平、王义、顾行、李原、潘福、徐福林等共十五人，历时四年集体绘成——这是中国现存古代寺观壁画中作者署名最完整的案例之一，与永乐宫马君祥、朱好古两支画工班子并列，本库据此拒绝把明代寺观壁画笼统归为「佚名画工所作」。",
+      "expect": {
+        "site": [
+          "法海寺"
+        ],
+        "artist": [
+          "宛福清",
+          "王恕"
+        ],
+        "work": [],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "法海寺正统九年楞严经幢题名记原文（画士官宛福清、王恕，画士张平、王义、顾行、李原、潘福、徐福林等），北京市文物部门与法海寺壁画研究通行引用",
+      "confidence": "确知"
+    },
+    {
+      "id": "ming.temple-mural.fahai-si-lifentiejin-shuiyue-guanyin",
+      "period": "ming",
+      "domain": "temple-mural",
+      "name": "法海寺沥粉贴金与水月观音纱披：技法问题而非教义问题",
+      "one_line": "法海寺壁画最受称道之处是沥粉堆金塑造冠饰纹样的立体感、以及水月观音一身袈裟外罩透明纱披——纱下衣纹与花纹依然可辨，是工笔重彩技法处理透明质感的极致案例；这与画面表现的是观音菩萨这一事实无关，本库把它当作绘画材料与技法史的材料，不当作宗教图像志的附庸处理。",
+      "expect": {
+        "site": [
+          "法海寺"
+        ],
+        "artist": [],
+        "work": [
+          "水月观音图"
+        ],
+        "class": [
+          "人物"
+        ],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "法海寺壁画技法通行评价（沥粉贴金、水月观音纱披透明处理），美术史与文物保护两方文献一致公认",
+      "confidence": "确知"
+    },
+    {
+      "id": "ming.temple-mural.fanshi-gongzhusi-shuiluhua",
+      "period": "ming",
+      "domain": "temple-mural",
+      "name": "繁峙公主寺水陆壁画：与永乐宫并称「南北双珠」",
+      "one_line": "公主寺大雄宝殿水陆壁画绘于弘治十六年（1503），东西南北四壁共五幅、四百八十余身人物，用「攒三聚五」的传统构图法安排群像，沥粉贴金处理冠饰法器——与同县的金代岩山寺（liao-jin.temple-mural.yanshansi-jinhua-bihua）相隔三百余年、风格判然有别，可作同一地理坐标上跨朝代壁画传统变迁的对照样本；断代依据是壁画题记纪年（弘治十六年），非殿宇整体始建年代。",
+      "expect": {
+        "site": [
+          "公主寺"
+        ],
+        "artist": [],
+        "work": [],
+        "class": [
+          "人物"
+        ],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "公主寺大雄宝殿壁画弘治十六年（1503）题记；「攒三聚五」构图与沥粉贴金技法，山西省文物局与通行报道一致",
+      "confidence": "记得"
     },
     {
       "id": "ming.theory.changwuzhi-jianshangwenhua",
@@ -4449,6 +4754,52 @@
       "confidence": "记得"
     },
     {
+      "id": "northern-song.temple-mural.daxiangguosi-wudaozi-canpian",
+      "period": "northern-song",
+      "domain": "temple-mural",
+      "name": "汴梁大相国寺壁画：屡经水患劫余的残片与归属存疑",
+      "one_line": "大相国寺唐宋两代皆有名家壁画，相传吴道子所绘《文殊维摩像》尤为著称；明末黄河水患淹寺时僧人以糯米浆封护墙面得以幸存，后世揭取仍见彩色如新，残片今藏开封博物馆——但这一「吴道子真笔」的说法本身需要打问号：吴道子是唐人，寺院历代屡毁屡建，现存残片究竟是唐代原绘还是宋人依样重绘，本库未见确凿的技术检测或题记可资判定，不宜径称「吴道子真迹」。",
+      "expect": {
+        "site": [
+          "大相国寺"
+        ],
+        "artist": [
+          "吴道子"
+        ],
+        "work": [
+          "文殊维摩像"
+        ],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "大相国寺历代沿革与明末黄河水患糯米浆封护壁画残片得存、现藏开封博物馆的通行记载；「吴道子真笔」之说本库未核实到可靠的技术鉴定或题记支撑，标为存疑",
+      "confidence": "待核"
+    },
+    {
+      "id": "northern-song.temple-mural.kaihuasi-bihua",
+      "period": "northern-song",
+      "domain": "temple-mural",
+      "name": "高平开化寺壁画：现存唯一有明确纪年画工题记的北宋寺观壁画",
+      "one_line": "开化寺大雄宝殿建于北宋熙宁六年至绍圣三年（1073–1096），殿内东、西、北三壁存宋代壁画，西壁与北壁各留一则画工自题：「丙子六月十五日粉此西壁画匠郭发记」「丙子十月十五日下手稿毂……画匠郭发记并照壁」，丙子即绍圣三年（1096）——这是本库掌握的北宋寺观壁画中断代最硬（画工本人题记纪年）、画工姓名最确切（郭发）的孤例，早于永乐宫题记二百二十九年。",
+      "expect": {
+        "site": [
+          "开化寺"
+        ],
+        "artist": [
+          "郭发"
+        ],
+        "work": [],
+        "class": [
+          "人物"
+        ],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "开化寺大雄宝殿西壁、北壁画工郭发自题原文（丙子年即绍圣三年 1096）；山西高平开化寺壁画研究通行引用",
+      "confidence": "确知"
+    },
+    {
       "id": "northern-song.theory.jinshixue-zhulu-kuozhan",
       "period": "northern-song",
       "domain": "theory",
@@ -4984,6 +5335,27 @@
       },
       "basis": "文物保护制度史常见常识，具体首批名录数量本次未核",
       "confidence": "待核"
+    },
+    {
+      "id": "prc-early.temple-mural.yonglegong-banqian",
+      "period": "prc-early",
+      "domain": "temple-mural",
+      "name": "永乐宫因三门峡水库工程整体搬迁：保护史事件，非创作史",
+      "one_line": "1959 至 1964 年，因三门峡水库工程原址将被淹没，永乐宫连同元代壁画整体切割、编号、迁移至芮城县龙泉村新址重装——这是本库已收录的 data/events/yonglegong-relocation.json 所记事件，恰好落在「新中国前期」（1949–1978）这一期内；本条目把它作为 prc-early × temple-mural 这一格的填充：这一期永乐宫相关的史实重心是保护工程本身，不是壁画的创作，二者不应混在一起讨论。",
+      "expect": {
+        "site": [
+          "永乐宫"
+        ],
+        "artist": [],
+        "work": [],
+        "class": [],
+        "treatise": [],
+        "event": [
+          "永乐宫整体搬迁"
+        ]
+      },
+      "basis": "data/events/yonglegong-relocation.json（已有条目，period 已标 prc-early）；data/sites/yongle-gong.json「conservation」一节记搬迁工程细节",
+      "confidence": "确知"
     },
     {
       "id": "prc-early.theory.meishu-pipan-yundong",
@@ -5954,6 +6326,25 @@
       "confidence": "记得"
     },
     {
+      "id": "qing.temple-mural.shuiping-xiajiang",
+      "period": "qing",
+      "domain": "temple-mural",
+      "name": "清代寺观壁画的整体水准下降：评价史问题，非创作史高峰",
+      "one_line": "清代新绘寺观壁画数量庞大，但通行评价普遍认为艺术水准较明代及以前明显下降——线描程式化、色彩趋于艳俗、构图趋于套版化，常见于各地关帝庙、城隍庙一类民间信仰场所的新绘壁画；藏传佛教壁画（如北京雍和宫一类）另成一支，风格程式化程度亦高。本库把这一评价当作研究史现象记录，而非否定清代寺观壁画的史料价值——具体到哪些个案、由谁给出这一评价、评价标准是否受「以明清为衰落期」的通史惯性影响，本库均未核实，标为待核。",
+      "expect": {
+        "site": [
+          "雍和宫"
+        ],
+        "artist": [],
+        "work": [],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "清代寺观壁画艺术水准评价的通行说法（美术史通论对明清壁画的一般性评述）；具体个案与评价标准本库未逐一核实",
+      "confidence": "待核"
+    },
+    {
       "id": "qing.theory.beixue-lilun-santibu",
       "period": "qing",
       "domain": "theory",
@@ -6240,6 +6631,25 @@
       "one_line": "南宋墓道石刻规模普遍小于北宋巩义帝陵体系，更多依托地方碑刻（神道碑、墓志）传统，反映政治中心南迁后陵墓制度本身的收缩，具体比较数据本库尚未核实。",
       "expect": {},
       "basis": "中国陵墓石刻史通说",
+      "confidence": "待核"
+    },
+    {
+      "id": "southern-song.temple-mural.siguan-bihua-quefa",
+      "period": "southern-song",
+      "domain": "temple-mural",
+      "name": "南宋寺观壁画实物普遍无存：材料缺口，不编造个案",
+      "one_line": "南宋偏安东南，气候潮湿不利壁画保存，加以历次战乱（尤其宋元易代）与后世反复重修，本库检索未能找到一例断代明确、原址原构尚存的南宋寺观壁画实物或题记材料——这与南宋卷轴画（马夏边角、禅画一路）的繁荣形成鲜明反差；邓椿《画继》虽记南宋画坛甚详，但本库未核实到其中专门记述临安寺观壁画委托的具体条目。此格材料稀薄是本库检索能力与现存材料双重限度所致，如实标注，不以泛泛而谈凑数。",
+      "expect": {
+        "site": [],
+        "artist": [],
+        "work": [],
+        "class": [],
+        "treatise": [
+          "画继"
+        ],
+        "event": []
+      },
+      "basis": "南宋寺观壁画实物存世状况的通行认识（南方潮湿气候与战乱对壁画保存的不利影响）；邓椿《画继》体例检索未见专门寺观壁画委托条目，本库未能进一步核实",
       "confidence": "待核"
     },
     {
@@ -7242,6 +7652,46 @@
       "confidence": "待核"
     },
     {
+      "id": "sui-tang.temple-mural.foguangsi-dongdadian-bihua",
+      "period": "sui-tang",
+      "domain": "temple-mural",
+      "name": "佛光寺东大殿栱眼壁壁画：现存唐代寺观壁画实物的稀见个案",
+      "one_line": "东大殿殿身建成年代由梁下题记「大中十一年」（857）与施主宁公遇、住持愿诚之名共同确证，殿内栱眼壁与部分梁架残存壁画（说法图、供养人行列一类），是本库掌握的极少数唐代原址原构上仍存壁画残迹的实例——但历代（宋、明）妆銮描补层与唐代原绘部分如何逐处区分，data/sites/foguang-si.json 已明确标为存疑，本条目不重复给出更强的断言。",
+      "expect": {
+        "site": [
+          "佛光寺东大殿"
+        ],
+        "artist": [],
+        "work": [],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "data/sites/foguang-si.json「图像程式」「争议字段」两节（唐代题记 857 年；栱眼壁壁画残迹；宋明历代妆銮描补层与唐代原绘部分需逐处甄别，本库现有材料不足以判定）；梁思成 1937 年调查题记释读",
+      "confidence": "确知"
+    },
+    {
+      "id": "sui-tang.temple-mural.wudaozi-siguan-bihua-wenxian",
+      "period": "sui-tang",
+      "domain": "temple-mural",
+      "name": "吴道子长安洛阳寺观壁画：三百余堵皆无实物存世",
+      "one_line": "《历代名画记》记吴道子一生作寺观壁画三百余堵，长安慈恩寺、兴唐寺，洛阳景公寺等处皆有其笔迹，「吴带当风」之评即由此类壁画品评而来——但无一堵原壁存世，与佛光寺东大殿的唐代实物残迹（sui-tang.temple-mural.foguangsi-dongdadian-bihua）形成本库刻意并置的一组对照：同一时代，一位画家的壁画全靠文献转述评价，另一处无名工匠的壁画反而留下实物残迹。",
+      "expect": {
+        "site": [],
+        "artist": [
+          "吴道子"
+        ],
+        "work": [],
+        "class": [],
+        "treatise": [
+          "历代名画记"
+        ],
+        "event": []
+      },
+      "basis": "《历代名画记》吴道子条及历代画史通说（吴道子壁画数量与「吴带当风」评价）；canon.sui-tang.anonymity 已注明「吴道子无真迹」",
+      "confidence": "确知"
+    },
+    {
       "id": "sui-tang.theory.shuduan-fashuyaolu",
       "period": "sui-tang",
       "domain": "theory",
@@ -7843,6 +8293,56 @@
       "confidence": "待核"
     },
     {
+      "id": "wei-jin-nanbei.temple-mural.waguansi-weimojie",
+      "period": "wei-jin-nanbei",
+      "domain": "temple-mural",
+      "name": "顾恺之瓦官寺《维摩诘像》：有名有姓却无实物的寺观壁画起点",
+      "one_line": "东晋兴宁二年（364）建康瓦官寺募款装修，顾恺之闭户月余绘《维摩诘像》一躯，开光点睛之日引得施钱百万——事见《历代名画记》等历代文献转录，是中国寺观壁画史上第一位可考真名的画家个案，但原壁早已不存，本库据此把它与后世实物（如永乐宫）并置：同属「画工有名」，一者仅存文献记载，一者原壁尚在，证据等级判然不同。",
+      "expect": {
+        "site": [
+          "瓦官寺"
+        ],
+        "artist": [
+          "顾恺之"
+        ],
+        "work": [
+          "维摩诘像"
+        ],
+        "class": [
+          "人物"
+        ],
+        "treatise": [
+          "历代名画记"
+        ],
+        "event": []
+      },
+      "basis": "《历代名画记》及《世说新语》相关条目转录的瓦官寺维摩诘像故事，中国美术史通说；canon.wei-jin-nanbei.anonymity 已注明顾恺之无真迹传世",
+      "confidence": "记得"
+    },
+    {
+      "id": "wei-jin-nanbei.temple-mural.yichengsi-aotuhua",
+      "period": "wei-jin-nanbei",
+      "domain": "temple-mural",
+      "name": "张僧繇一乘寺「凹凸花」：外来晕染技法进入寺观壁画的孤证",
+      "one_line": "梁大同年间（537 前后），张僧繇为邵陵王萧纶所建一乘寺画门壁，以朱及青绿画凹凸花，近视纯平面、远视具立体凹凸之感，时人称「凹凸寺」——这是本库掌握的最早一例外来（可能源自中亚或印度）晕染立体技法进入中国寺观壁画的文献记载，属技法史材料，原壁早已不存，仅赖《历代名画记》转录，不可与实物等量齐观。",
+      "expect": {
+        "site": [
+          "一乘寺"
+        ],
+        "artist": [
+          "张僧繇"
+        ],
+        "work": [],
+        "class": [],
+        "treatise": [
+          "历代名画记"
+        ],
+        "event": []
+      },
+      "basis": "《历代名画记》「张僧繇画一乘寺，寺门遍画凹凸花……世咸异之，乃名凹凸寺」条；中国美术史通说对「凹凸花」技法性质（晕染／明暗渲染）的讨论",
+      "confidence": "记得"
+    },
+    {
       "id": "wei-jin-nanbei.theory.gukaizhi-hualun-sanpian",
       "period": "wei-jin-nanbei",
       "domain": "theory",
@@ -8107,6 +8607,86 @@
       "confidence": "待核"
     },
     {
+      "id": "yuan.architecture.beiyuemiao-dening-dian",
+      "period": "yuan",
+      "domain": "architecture",
+      "name": "曲阳北岳庙德宁之殿：现存体量最大的元代木构建筑",
+      "one_line": "德宁之殿于元至正七年（1347）重建，面阔九间、进深六间，通高约二十五米，重檐九脊庑殿顶，外带回廊环绕，是中国现存体量最大的元代木结构建筑；殿内东西两壁存有壁画（《云行雨施图》一类天宫图像），但本条目仅记建筑本体，壁画部分因门类划分归入 temple-mural（本文件未就此壁画另立单元，因其画工与断代材料本库尚未核实，暂记此处存在而不展开）。",
+      "expect": {
+        "site": [
+          "北岳庙"
+        ],
+        "artist": [],
+        "work": [],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "北岳庙德宁之殿至正七年（1347）重建、面阔九间进深六间、现存最大元代木构建筑的通行记载（河北省文物局及建筑史通说一致）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.architecture.guangshengsi-yuandai-jianzhu",
+      "period": "yuan",
+      "domain": "architecture",
+      "name": "洪洞广胜寺元代建筑：与水神庙壁画同期营造的殿宇群",
+      "one_line": "广胜寺上寺大雄宝殿、水神庙正殿等主体建筑均为元代遗构，与水神庙内「大行散乐忠都秀在此作场」壁画（yuan.temple-mural.guangshengsi-shuishenmiao-bihua）同期营造、互为整体——这与永乐宫建筑与壁画一体化的情形（原 yuan.architecture.yongle-gong-jianzhu-bihua，现已改记入 yuan.temple-mural.yongle-gong-bihua）是同一类问题在另一处的重现：本库把建筑本体单立于 architecture 门，壁画单立于 temple-mural 门，二者互相参照而不重复叙述。",
+      "expect": {
+        "site": [
+          "广胜寺"
+        ],
+        "artist": [],
+        "work": [],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "广胜寺上寺、水神庙建筑年代的通行沿革记载（与水神庙壁画泰定元年题记同期）；与本文件 yuan.temple-mural.guangshengsi-shuishenmiao-bihua 互为参照",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.architecture.miaoyingsi-baita-anige",
+      "period": "yuan",
+      "domain": "architecture",
+      "name": "妙应寺白塔：尼泊尔匠师阿尼哥主持敕建的藏式佛塔",
+      "one_line": "元世祖至元八年（1271）敕建，由尼泊尔匠师阿尼哥（1245–1306）奉命主持，率工匠八十五人历时八年（至至元十六年，1279）建成——这是中国现存年代最早、体量最大的藏式覆钵塔，也是本库掌握的又一例「有名有姓的外来工匠主持中原重大工程」个案，与寺观壁画门的画工署名主题（马君祥、朱好古、宛福清等）遥相呼应，只是换成了建筑匠师而非画工；阿尼哥其后仕元四十年，主持多项元代官式营造工程。",
+      "expect": {
+        "site": [
+          "妙应寺白塔"
+        ],
+        "artist": [
+          "阿尼哥"
+        ],
+        "work": [],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "妙应寺白塔至元八年敕建、阿尼哥主持营建八年建成的通行记载（北京市文物局「中尼文化使者」专题等）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.architecture.yuandadu-guihua",
+      "period": "yuan",
+      "domain": "architecture",
+      "name": "元大都城市规划：刘秉忠对《周礼·考工记》「匠人营国」的重新实践",
+      "one_line": "至元四年（1267）忽必烈命刘秉忠主持规划新都，刘秉忠依《周礼·考工记》「匠人营国，方九里，旁三门，国中九经九纬……左祖右社，面朝后市」的理想都城模式，参照北宋汴京、金中都形制，于积水潭东岸确定全城中轴线，建中心阁与中心台为全城几何中心——元大都的中轴格局为明清北京城直接继承，是今日北京中轴线的历史源头；此条目填补 architecture 门 note 所指「site 模板不适配建筑本体」的结构性缺口中最大尺度的一个案例（城市规划层级，非单体建筑）。",
+      "expect": {
+        "site": [
+          "元大都"
+        ],
+        "artist": [
+          "刘秉忠"
+        ],
+        "work": [],
+        "class": [],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "元大都规划沿革、刘秉忠依《考工记》「匠人营国」定中轴线的通行记载（北京城市史与建筑史通说一致）",
+      "confidence": "确知"
+    },
+    {
       "id": "yuan.bronze.yuandai-fanggu-tongqi",
       "period": "yuan",
       "domain": "bronze",
@@ -8357,6 +8937,153 @@
       "one_line": "居庸关云台建于至正年间（1342–1345），台身内壁以梵文、藏文、八思巴蒙古文、回鹘文、西夏文、汉文六种文字镌刻经咒，并浮雕四大天王像，是元代多民族、多宗教并存格局最集中的石刻物证。",
       "expect": {},
       "basis": "中国石刻史通说（居庸关云台六体文字与图像研究）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.temple-mural.chaoyuantu-tuxiang-chengshi",
+      "period": "yuan",
+      "domain": "temple-mural",
+      "name": "《朝元图》的人物列阵：构图与线描问题，不是教义图解",
+      "one_line": "三清殿《朝元图》二百八十余身神祇分层列阵朝谒元始天尊，其画史价值首先在于构图与线描——一堵墙上如何安排近三百个等大人物不显拥塞、线条如何以「兰叶描」一类程式区分冠服质地与动态——这是绘画技法与样式承袭（上承唐宋人物画传统）的问题；把它读成「道教神系的图解」会略过它作为绘画作品本身的技术难度，本库此条目专门标出这一区分，呼应绘画门 note「壁画归入石窟寺与墓葬美术两门」时同样强调的技法立场。",
+      "expect": {
+        "site": [
+          "永乐宫"
+        ],
+        "artist": [],
+        "work": [
+          "朝元图"
+        ],
+        "class": [
+          "人物"
+        ],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "中国美术史通说对《朝元图》构图与线描成就的评价（金维诺、中央美院一系寺观壁画研究）；本条目为方法论立场声明，非新增史实",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.temple-mural.chunyangdian-zhuhaogu-menren",
+      "period": "yuan",
+      "domain": "temple-mural",
+      "name": "纯阳殿壁画：朱好古门人两班画工与「襄陵画派」",
+      "one_line": "纯阳殿壁画完成于至正十八年（1358），比三清殿晚三十三年，题记所记为朱好古门人张遵礼一班、李弘宜与王士彦另一班——两批画工，非三清殿马氏一系；朱好古本人的纪年题记见于稷山兴化寺（庚申年，「襄陵绘画待诏朱好古、门人张伯渊」），据此可将「襄陵画派」从地名泛称落实为有师承链的画工谱系，填补 data/sites/yongle-gong.json 原标「未核实到严谨的谱系材料」的空档。",
+      "expect": {
+        "site": [
+          "永乐宫",
+          "稷山兴化寺"
+        ],
+        "artist": [
+          "朱好古",
+          "张遵礼",
+          "李弘宜",
+          "王士彦"
+        ],
+        "work": [],
+        "class": [
+          "人物"
+        ],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "纯阳殿壁画题记（张遵礼、李弘宜王士彦两班）；稷山兴化寺后殿题记「襄陵绘画待诏朱好古、门人张伯渊」；与 yuan.temple-mural.sanqingdian-magongxiang-tiji、data/sites/yongle-gong.json 的「重修层」维度互证——此处的「多层」是不同殿由不同班子分批完成，非同一壁反复重绘",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.temple-mural.guangshengsi-shuishenmiao-bihua",
+      "period": "yuan",
+      "domain": "temple-mural",
+      "name": "洪洞广胜寺水神庙壁画：唯一一铺非佛非道题材的元代大型壁画",
+      "one_line": "水神庙南壁下部「大行散乐忠都秀在此作场」一铺，画中悬一戏台横幅并题「泰定元年四月」（1324），描绘生旦净末丑五个行当十一名演员同台，是元代戏曲史与绘画史都无法绕开的孤例——它证明本库不能把寺观壁画等同于宗教图解：这一铺画的题材是世俗戏班演出，供奉对象是水神而非佛道，断代依据是画中题记纪年，比永乐宫三清殿题记还早一年。",
+      "expect": {
+        "site": [
+          "广胜寺水神庙"
+        ],
+        "artist": [],
+        "work": [
+          "大行散乐忠都秀在此作场"
+        ],
+        "class": [
+          "人物"
+        ],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "水神庙南壁题记「泰定元年四月」；中国戏曲史与美术史均以此铺为元杂剧演出形制的关键图像材料，通行说法一致",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.temple-mural.jishan-qinglongsi-shuiluhua",
+      "period": "yuan",
+      "domain": "temple-mural",
+      "name": "稷山青龙寺腰殿水陆壁画：佛道儒三教合流的图像程式",
+      "one_line": "青龙寺创建于唐龙朔二年（662），金末毁于兵燹，元至元至至正年间重修，现存腰殿（韦驮殿）、大雄宝殿与耳殿为元代原构，腰殿一百三十余平方米内绘三百余身水陆画人物，佛道儒三教神祇并陈同殿——这一图像程式与永乐宫的纯道教神系、兴化寺的纯佛教经变都不同，是判断元代晋南地区民间信仰混融程度的重要个案，断代依据是殿宇本身的重修纪年而非壁画题记（腰殿壁画本身是否另有独立题记，本库未核实）。",
+      "expect": {
+        "site": [
+          "稷山青龙寺"
+        ],
+        "artist": [],
+        "work": [],
+        "class": [
+          "人物"
+        ],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "青龙寺建筑沿革与腰殿水陆壁画的通行著录（运城市文物部门、山西省文物局公开介绍一致）",
+      "confidence": "记得"
+    },
+    {
+      "id": "yuan.temple-mural.jishan-xinghuasi-bihua",
+      "period": "yuan",
+      "domain": "temple-mural",
+      "name": "稷山兴化寺壁画：朱好古纪年题记原址",
+      "one_line": "兴化寺后殿北墙《药师经变》《弥勒经变》一组，据题记为「襄陵绘画待诏朱好古、门人张伯渊」所作，庚申年（元代）工毕——这是朱好古其人存在的唯一原址实物证据，永乐宫纯阳殿的朱好古门人题记须以此为源头理解；壁画于 1925 年前后被古董商整壁剥离出售，原址今仅存建筑基址，实物已散见海外与国内各馆（另立于 late-qing-republic.temple-mural.jishan-xinghuasi-liusan 记其流散过程）。",
+      "expect": {
+        "site": [
+          "稷山兴化寺"
+        ],
+        "artist": [
+          "朱好古",
+          "张伯渊"
+        ],
+        "work": [
+          "药师经变",
+          "弥勒经变"
+        ],
+        "class": [
+          "人物"
+        ],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "兴化寺题记「襄陵绘画待诏朱好古、门人张伯渊」；李济 1926 年调查记录（壁画已被部分剥离）",
+      "confidence": "确知"
+    },
+    {
+      "id": "yuan.temple-mural.sanqingdian-magongxiang-tiji",
+      "period": "yuan",
+      "domain": "temple-mural",
+      "name": "永乐宫三清殿题记：马君祥父子画工班子",
+      "one_line": "三清殿扇面墙背面题记全文可读——「河南府洛京勾山马君祥长男马七待诏把作……泰定二年（1325）六月工毕」，后附门人王秀先、马十一待诏等十余人名——这是本库掌握的中国寺观壁画中最完整的一份画工自署名单，断代依据是题记纪年而非款印或著录，画工是洛阳一带的职业画匠班子而非文人画家。",
+      "expect": {
+        "site": [
+          "永乐宫"
+        ],
+        "artist": [
+          "马君祥",
+          "马七待诏"
+        ],
+        "work": [
+          "朝元图"
+        ],
+        "class": [
+          "人物"
+        ],
+        "treatise": [],
+        "event": []
+      },
+      "basis": "永乐宫三清殿扇面墙题记原文（金维诺等学者释读通行本）；data/sites/yongle-gong.json 已记「三清殿题记署名画工为马君祥、马七等」，此条目补足题记全文与画工班子结构",
       "confidence": "确知"
     },
     {
