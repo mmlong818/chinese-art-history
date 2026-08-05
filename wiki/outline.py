@@ -230,6 +230,25 @@ def _lookup(idx, kind, nm):
     return None, "miss"
 
 
+def _declined(o):
+    """→ {(kind, name)}。**提纲点了名而本库有理由决定不建的。**
+
+    没有这一栏，覆盖率就永远到不了头，而**决定不建的理由是不可见的**——
+    那与「还没建」在数据里长得一样，正是本库对 `na`（此期此门类本无可写）
+    与 `gap`（本库未核实）一贯要区分的东西。
+    首例来自填缺口的一路代理:它判断不建赵希鹄的 artist 条目，理由是
+    《洞天清禄集》条目已载其全部可考信息，**另立一条只会制造「生平清晰的人物」的错觉**。
+    """
+    out = {}
+    for d in o.get("declined", []) or []:
+        if d.get("kind") and d.get("name") and d.get("why"):
+            out[(d["kind"], d["name"])] = d["why"]
+        else:
+            print(f"！declined 条目缺 kind/name/why：{d}"
+                  f"——**不给理由的 declined 与「懒得建」无从分辨**")
+    return out
+
+
 def coverage(limit=24):
     """对账：提纲点名的实体，本库有几个、其中几个是完整级。
 
@@ -242,12 +261,16 @@ def coverage(limit=24):
     canon = json.loads((WIKI / "data" / "canon.json").read_text(encoding="utf-8"))
     pname = {p["id"]: p["name"] for p in canon["periods"]}
 
+    decl = _declined(o)
     tot = collections.Counter()
     ambig = []
     for u in o.get("units", []):
         for k in ENTITY_KEYS:
             for nm in (u.get("expect") or {}).get(k, []) or []:
                 tot["want"] += 1
+                if (k, nm) in decl:
+                    tot["declined"] += 1
+                    continue
                 hit, how = _lookup(idx, k, nm)
                 tot[how] += 1
                 if how == "ambig":
@@ -262,6 +285,9 @@ def coverage(limit=24):
           f"忽略空白 {tot['space']}、通名后缀 {tot['suffix']}；其中完整级 {full}、著录级 {tot['record']}")
     print(f"缺 {tot['miss']}，另有 {tot['ambig']} 个名字**后缀规则命中多个候选、"
           f"一律不计**（按名比对必有失效点，把它做成可见的而不是猜）")
+    if tot["declined"]:
+        print(f"**本库决定不建 {tot['declined']} 个**（见 outline.json 的 `declined`，"
+              f"每条带理由）——**决定不建与还没建是两件事，不写下来就分不出。**")
     if ambig:
         print("   待判：" + "、".join(sorted(set(ambig))[:12]))
     print("**「有条目」不等于「有完整级条目」**——正典位上摆一条照录，"
@@ -305,10 +331,11 @@ def gaps(kind=None, top=0):
     idx = _entities()
     want = collections.defaultdict(lambda: collections.Counter())
     where = collections.defaultdict(set)
+    decl = _declined(o)
     for u in o.get("units", []):
         for k in ENTITY_KEYS:
             for nm in (u.get("expect") or {}).get(k, []) or []:
-                if _lookup(idx, k, nm)[0]:
+                if (k, nm) in decl or _lookup(idx, k, nm)[0]:
                     continue
                 want[k][nm] += 1
                 where[(k, nm)].add(f"{u['period']}×{u['domain']}")

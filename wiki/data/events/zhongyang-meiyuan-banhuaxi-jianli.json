@@ -1,0 +1,37 @@
+{
+  "schema": "event/1",
+  "id": "zhongyang-meiyuan-banhuaxi-jianli",
+  "title": "中央美术学院版画系建立",
+  "title_en": "Establishment of the Printmaking Department at the Central Academy of Fine Arts",
+  "when": "1950 年代前期（通行说法约 1954 年前后，确切建系年份各家记述不一）",
+  "period": "prc-early",
+  "one_line": "中央美术学院（[[event:zhongyang-meishuxueyuan-chengli]]）设立版画系，标志着新兴木刻运动从战时宣传工具、社会团体自发实践（[[event:muke-jiangxihui]]、[[event:yiba-yishe-chengli]]、[[event:quanguo-muke-jie-kangdi-xiehui-chengli]]）转变为建制内专业创作与教学的学科，是运动向学院学科转化的关键一步——这一转变改变的是生产与传承方式，不代表此前的木刻实践本身不够专业。",
+  "verification": "memory",
+  "updated": "2026-08-06",
+  "sources": [
+    {"ref": "zhongguo-meishu-jianshi", "note": "新中国美术教育体制建立与新兴木刻传统体制化的通行叙述"},
+    {"ref": "wangxun-zhongguo-meishushi", "note": "交叉核对"},
+    {"ref": "andrews-painters-politics", "note": "1949 年后美术教育学科建制重组的学术梳理"}
+  ],
+  "sections": {
+    "course": [
+      {"t": "p", "text": "中央美术学院（[[event:zhongyang-meishuxueyuan-chengli]]）于 1950 年成立后，陆续按画种设立分科系统，版画系通行说法约建于 1954 年前后，确切建系年份与首任系主任、初期教员完整名单本库未逐一核实。早期任教者多有 1930 年代新兴木刻运动的实践经历（如李桦[[artist:li-hua]]、古元[[artist:gu-yuan]]、彦涵[[artist:yan-han]]等，具体各人任教起止时间本库未核实），把战时积累的木刻创作经验转化为学院教学内容。"},
+      {"t": "stmt", "state": "adopt", "text": "**版画系的建立是新兴木刻传统从运动向学科转化的关键一步，而不是另起一套体系**：1931 年木刻讲习会（[[event:muke-jiangxihui]]）与一八艺社（[[event:yiba-yishe-chengli]]）开启的是社会团体自发组织的『自刻自印』创作方式，抗战时期全国木刻界抗敌协会（[[event:quanguo-muke-jie-kangdi-xiehui-chengli]]）把它扩展为战时宣传网络，而版画系的设立则把同一批从业者与同一套创作方法纳入学院建制——教学大纲、招生考核、学位授予等一整套现代学科机制自此覆盖到版画创作上。本库把这一变化理解为**生产组织方式的转变（个人／团体自发实践 → 建制化教学传承），不代表此前的木刻实践本身『不够专业』或有待学院『扶正』**。"},
+      {"t": "stmt", "state": "pend", "text": "版画系初期具体的教学大纲、招生规模与技法侧重（木刻、铜版、石版等版种的相对比重），本库未核实，不给出确定清单。"}
+    ],
+    "fields": [
+      {"t": "kv", "rows": [
+        ["建系时间", "通行说法约 1954 年前后，确切年份本库未核实"],
+        ["所属院校", "中央美术学院"],
+        ["早期任教者（举例）", "多有 1930 年代新兴木刻运动实践经历者，如李桦、古元、彦涵等，完整名单本库未核实"],
+        ["意义", "新兴木刻从社会团体自发实践转变为学院建制内专业学科"],
+        ["技法渊源", "承自[[event:muke-jiangxihui]]、[[event:yiba-yishe-chengli]]开启、经[[event:quanguo-muke-jie-kangdi-xiehui-chengli]]扩展的新兴木刻传统"]
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "版画系确切建系年份，本库未核实到可坐实的一手校史材料，通行说法约 1954 年前后，各家记述不完全一致。"},
+      {"t": "stmt", "state": "disp", "text": "新兴木刻『体制化』的评价存在两种取向：一说学院教学使版画创作获得更系统的技法训练与更稳定的传承机制；一说建制化使版画创作逐渐脱离早期新兴木刻直接回应社会现实的行动性，趋于学院化的技法训练与题材程式。本库并陈两说，不裁断孰是。"},
+      {"t": "gap", "text": "首任系主任、初期教员完整名单与建系初期具体教学大纲，本库未核实。"}
+    ]
+  }
+}
