@@ -1,0 +1,303 @@
+{
+  "id": "ming.painting.zhepai-yuanti",
+  "period": "ming",
+  "domain": "painting",
+  "name": "浙派与院体的关系",
+  "one_line": "戴进、吴伟等浙派画家上承南宋院体（马夏边角）而非直承元人文人画一路；明代画院无正式建制品秩，画家多以锦衣卫武职虚衔供奉内廷，与两宋翰林图画院不可同日而语——浙派是院体外职业画家对南宋院体传统的延续与改造。",
+  "expect": {
+    "artist": [
+      "戴进",
+      "吴伟",
+      "张路"
+    ],
+    "class": [
+      "浙派"
+    ]
+  },
+  "basis": "canon.json ming.keys「浙派」；本库已有 class:zhepai",
+  "confidence": "记得"
+}
+
+{
+  "id": "ming.temple-mural.bilu-si-bihua",
+  "period": "ming",
+  "domain": "temple-mural",
+  "name": "毗卢寺壁画：释迦殿、毗卢殿两批画工与五百余神祇榜题体系",
+  "one_line": "毗卢寺始建于唐天宝年间，现存释迦殿、毗卢殿壁画均为明代重修所绘：释迦殿（连同天王殿）据《重修毗卢寺记》碑为正定府获鹿县匠人巩中颜、刘子文所绘（正德十二年至嘉靖十四年，1517–1535），毗卢殿则由王淮、张保、河安、安太等绘于嘉靖十四年（1535），共一百二十二组、五百零八位神祇，每组皆有榜题标注名号——这套榜题体系是断代与图像志辨识并行的双重依据，画工同样具名可考，不属「佚名」。",
+  "expect": {
+    "site": [
+      "毗卢寺"
+    ],
+    "artist": [
+      "巩中颜",
+      "刘子文",
+      "王淮",
+      "张保"
+    ],
+    "work": [],
+    "class": [
+      "人物"
+    ],
+    "treatise": [],
+    "event": []
+  },
+  "basis": "《重修毗卢寺记》碑文；毗卢寺释迦殿、毗卢殿壁画年代与画工姓名，河北省文物部门通行著录",
+  "confidence": "确知"
+}
+
+{
+  "id": "ming.temple-mural.fahai-si-huashiguan-timing",
+  "period": "ming",
+  "domain": "temple-mural",
+  "name": "法海寺画士官题名：宛福清、王恕领衔的十五人画师团队",
+  "one_line": "寺内正统九年（1444）楞严经幢题名记逐一列出参与营建的各色工匠，其中画士官宛福清、王恕带领画士张平、王义、顾行、李原、潘福、徐福林等共十五人，历时四年集体绘成——这是中国现存古代寺观壁画中作者署名最完整的案例之一，与永乐宫马君祥、朱好古两支画工班子并列，本库据此拒绝把明代寺观壁画笼统归为「佚名画工所作」。",
+  "expect": {
+    "site": [
+      "法海寺"
+    ],
+    "artist": [
+      "宛福清",
+      "王恕"
+    ],
+    "work": [],
+    "class": [],
+    "treatise": [],
+    "event": []
+  },
+  "basis": "法海寺正统九年楞严经幢题名记原文（画士官宛福清、王恕，画士张平、王义、顾行、李原、潘福、徐福林等），北京市文物部门与法海寺壁画研究通行引用",
+  "confidence": "确知"
+}
+
+{
+  "id": "northern-song.theory.wenrenhua-tiyichu",
+  "period": "northern-song",
+  "domain": "theory",
+  "name": "文人画理论的提出：苏轼“士人画”与“胸有成竹”",
+  "one_line": "苏轼提出“论画以形似，见与儿童邻”与“士人画”的说法，和文同“胸有成竹”的创作论一起，构成北宋文人画理论最早的系统表述，深刻影响此后近千年的评价标准。",
+  "expect": {
+    "artist": [
+      "苏轼",
+      "文同"
+    ],
+    "class": [
+      "墨竹"
+    ]
+  },
+  "basis": "data/classes/mozhu.json 已明确记载苏轼、文同的理论奠基地位",
+  "confidence": "确知"
+}
+
+{
+  "id": "qing.lacquer-textile.jiangnan-sanzhizao",
+  "period": "qing",
+  "domain": "lacquer-textile",
+  "name": "江南三织造与宫廷织绣的贡奉体系",
+  "one_line": "苏州、江宁、杭州三处织造衙门专供宫廷丝织品，织造官员兼具内务府包衣与地方官员双重身份（曹雪芹家族即出自江宁织造），织绣生产与清代宫廷政治的关系比单纯工艺史更复杂。",
+  "expect": {
+    "site": [
+      "江宁织造署",
+      "苏州织造署",
+      "杭州织造署"
+    ],
+    "artist": [
+      "曹寅"
+    ]
+  },
+  "basis": "江南三织造制度为清代通行常识",
+  "confidence": "记得"
+}
+
+{
+  "id": "wei-jin-nanbei.painting.caowei-weixie",
+  "period": "wei-jin-nanbei",
+  "domain": "painting",
+  "name": "曹不兴、卫协：早于顾恺之的传说性画家谱系",
+  "one_line": "《历代名画记》把曹不兴（三国吴）、卫协列为顾恺之之前的重要画家并加品评，但二人事迹本身多带传说色彩（曹不兴\"误落笔成蝇\"一类逸事），能否作为可考的历史画家而非纯粹文献建构，需要单独审慎处理。",
+  "expect": {
+    "artist": [
+      "曹不兴",
+      "卫协"
+    ],
+    "treatise": [
+      "历代名画记"
+    ]
+  },
+  "basis": "plan/ref-著录传统与正典链.md 1.1（历代名画记体例\"自轩辕至唐会昌年间的画家传记\"）",
+  "confidence": "待核"
+}
+
+{
+  "id": "wei-jin-nanbei.painting.caozhongda-caoyi-chushui",
+  "period": "wei-jin-nanbei",
+  "domain": "painting",
+  "name": "曹仲达\"曹衣出水\"：常被误系到隋唐期的北齐画家",
+  "one_line": "\"曹衣出水\"（衣纹紧贴身体如出水）的曹仲达是北齐画家，属本期而非隋唐——但canon.sui-tang.dispute 把\"吴带当风、曹衣出水\"并提为唐代品评概括的例证，容易让读者误以为二者是同一时代的画风，此题的价值首先在于把曹仲达的时代坐标钉回魏晋南北朝，其\"曹家样\"（源自中亚粟特系统的凹凸晕染传统本土化）与吴道子\"吴家样\"的对举是后世（唐代）才成立的比较，不代表二人同期。",
+  "expect": {
+    "artist": [
+      "曹仲达"
+    ],
+    "class": [
+      "曹家样"
+    ]
+  },
+  "basis": "canon.sui-tang.dispute（\"吴带当风、曹衣出水一类概括出自后世品评\"，此处指出曹仲达本人时代应属 wei-jin-nanbei）",
+  "confidence": "记得"
+}
+
+{
+  "id": "yuan.architecture.yuandadu-guihua",
+  "period": "yuan",
+  "domain": "architecture",
+  "name": "元大都城市规划：刘秉忠对《周礼·考工记》「匠人营国」的重新实践",
+  "one_line": "至元四年（1267）忽必烈命刘秉忠主持规划新都，刘秉忠依《周礼·考工记》「匠人营国，方九里，旁三门，国中九经九纬……左祖右社，面朝后市」的理想都城模式，参照北宋汴京、金中都形制，于积水潭东岸确定全城中轴线，建中心阁与中心台为全城几何中心——元大都的中轴格局为明清北京城直接继承，是今日北京中轴线的历史源头；此条目填补 architecture 门 note 所指「site 模板不适配建筑本体」的结构性缺口中最大尺度的一个案例（城市规划层级，非单体建筑）。",
+  "expect": {
+    "site": [
+      "元大都"
+    ],
+    "artist": [
+      "刘秉忠"
+    ],
+    "work": [],
+    "class": [],
+    "treatise": [],
+    "event": []
+  },
+  "basis": "元大都规划沿革、刘秉忠依《考工记》「匠人营国」定中轴线的通行记载（北京城市史与建筑史通说一致）",
+  "confidence": "确知"
+}
+
+{
+  "id": "yuan.jade.dushandayuhai",
+  "period": "yuan",
+  "domain": "jade",
+  "name": "渎山大玉海与元代宫廷大型玉雕",
+  "one_line": "忽必烈敕命制作的渎山大玉海是现存最早、体量最大的宫廷玉雕酒器，以整块墨玉浮雕海龙、海马等纹样，现藏北海团城，代表元代宫廷玉作在体量与工艺组织上的突破。",
+  "expect": {
+    "work": [
+      "渎山大玉海"
+    ],
+    "site": [
+      "北海团城"
+    ],
+    "artist": [
+      "忽必烈"
+    ]
+  },
+  "basis": "中国玉器史通说",
+  "confidence": "确知"
+}
+
+{
+  "id": "yuan.lacquer-textile.zhangcheng-yangmao-diaoqi",
+  "period": "yuan",
+  "domain": "lacquer-textile",
+  "name": "张成、杨茂与雕漆技法的成熟",
+  "one_line": "张成、杨茂是仅有的两位在雕漆作品上留下年款或名款的漆工，曹昭《格古要论》已提及其名，但二人活动年代究竟是元代还是元末明初，学界至今存在争议，本库暂标待核。",
+  "expect": {
+    "artist": [
+      "张成",
+      "杨茂"
+    ],
+    "class": [
+      "雕漆"
+    ],
+    "treatise": [
+      "格古要论"
+    ]
+  },
+  "basis": "曹昭《格古要论》“堆红”条记载张成、杨茂；二人活动年代学界有争议",
+  "confidence": "待核"
+}
+
+{
+  "id": "yuan.painting.likan-kejiu-mozhu",
+  "period": "yuan",
+  "domain": "painting",
+  "name": "李衎、柯九思与元代墨竹的谱系化",
+  "one_line": "李衎《竹谱详录》与柯九思的墨竹实践，把北宋文同、苏轼开创的墨竹题材发展为有系统画法谱系的专门画科，《宣和画谱》十门中“墨竹”的独立地位在元代得到进一步巩固。",
+  "expect": {
+    "class": [
+      "墨竹"
+    ]
+  },
+  "basis": "data/classes/mozhu.json 已有条目（span 载“元代李衎、柯九思、赵孟頫续之”）",
+  "confidence": "确知"
+}
+
+{
+  "id": "yuan.print-folk.jianan-yushi-pinghua",
+  "period": "yuan",
+  "domain": "print-folk",
+  "name": "建安虞氏刻本《全相平话五种》插图版画",
+  "one_line": "元至治年间（1321–1323）建安虞氏刻印的《全相平话五种》采用上图下文的版式，是现存最早一批成体系的历史演义小说插图版画，早于明代小说插图的繁荣。",
+  "expect": {
+    "work": [
+      "全相平话五种"
+    ],
+    "class": [
+      "上图下文"
+    ],
+    "artist": [
+      "建安虞氏"
+    ]
+  },
+  "basis": "中国印刷史与版画史通说",
+  "confidence": "记得"
+}
+
+{
+  "id": "yuan.temple-mural.chunyangdian-zhuhaogu-menren",
+  "period": "yuan",
+  "domain": "temple-mural",
+  "name": "纯阳殿壁画：朱好古门人两班画工与「襄陵画派」",
+  "one_line": "纯阳殿壁画完成于至正十八年（1358），比三清殿晚三十三年，题记所记为朱好古门人张遵礼一班、李弘宜与王士彦另一班——两批画工，非三清殿马氏一系；朱好古本人的纪年题记见于稷山兴化寺（庚申年，「襄陵绘画待诏朱好古、门人张伯渊」），据此可将「襄陵画派」从地名泛称落实为有师承链的画工谱系，填补 data/sites/yongle-gong.json 原标「未核实到严谨的谱系材料」的空档。",
+  "expect": {
+    "site": [
+      "永乐宫",
+      "稷山兴化寺"
+    ],
+    "artist": [
+      "朱好古",
+      "张遵礼",
+      "李弘宜",
+      "王士彦"
+    ],
+    "work": [],
+    "class": [
+      "人物"
+    ],
+    "treatise": [],
+    "event": []
+  },
+  "basis": "纯阳殿壁画题记（张遵礼、李弘宜王士彦两班）；稷山兴化寺后殿题记「襄陵绘画待诏朱好古、门人张伯渊」；与 yuan.temple-mural.sanqingdian-magongxiang-tiji、data/sites/yongle-gong.json 的「重修层」维度互证——此处的「多层」是不同殿由不同班子分批完成，非同一壁反复重绘",
+  "confidence": "确知"
+}
+
+{
+  "id": "yuan.temple-mural.jishan-xinghuasi-bihua",
+  "period": "yuan",
+  "domain": "temple-mural",
+  "name": "稷山兴化寺壁画：朱好古纪年题记原址",
+  "one_line": "兴化寺后殿北墙《药师经变》《弥勒经变》一组，据题记为「襄陵绘画待诏朱好古、门人张伯渊」所作，庚申年（元代）工毕——这是朱好古其人存在的唯一原址实物证据，永乐宫纯阳殿的朱好古门人题记须以此为源头理解；壁画于 1925 年前后被古董商整壁剥离出售，原址今仅存建筑基址，实物已散见海外与国内各馆（另立于 late-qing-republic.temple-mural.jishan-xinghuasi-liusan 记其流散过程）。",
+  "expect": {
+    "site": [
+      "稷山兴化寺"
+    ],
+    "artist": [
+      "朱好古",
+      "张伯渊"
+    ],
+    "work": [
+      "药师经变",
+      "弥勒经变"
+    ],
+    "class": [
+      "人物"
+    ],
+    "treatise": [],
+    "event": []
+  },
+  "basis": "兴化寺题记「襄陵绘画待诏朱好古、门人张伯渊」；李济 1926 年调查记录（壁画已被部分剥离）",
+  "confidence": "确知"
+}
+

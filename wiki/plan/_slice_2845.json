@@ -1,0 +1,121 @@
+[
+ {
+  "name": "城子崖",
+  "cells": [
+   "neolithic×ceramics"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "大圣慈寺",
+  "cells": [
+   "five-dynasties×temple-mural"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "大相国寺",
+  "cells": [
+   "northern-song×temple-mural"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "天龙山石窟",
+  "cells": [
+   "wei-jin-nanbei×cave-temple"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "央视总部大楼",
+  "cells": [
+   "contemporary×architecture"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "妙应寺白塔",
+  "cells": [
+   "yuan×architecture"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "宋六陵",
+  "cells": [
+   "southern-song×stone-carving"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "宝丰清凉寺窑址",
+  "cells": [
+   "northern-song×ceramics"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "宝山辽墓",
+  "cells": [
+   "liao-jin×tomb-art"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "宝鸡",
+  "cells": [
+   "western-zhou×bronze"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "居庸关云台",
+  "cells": [
+   "yuan×stone-carving"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "巩县石窟寺",
+  "cells": [
+   "sui-tang×cave-temple"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "广胜寺",
+  "cells": [
+   "yuan×architecture"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "广胜寺下寺",
+  "cells": [
+   "late-qing-republic×temple-mural"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "庙底沟",
+  "cells": [
+   "neolithic×ceramics"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "开善寺",
+  "cells": [
+   "liao-jin×architecture"
+  ],
+  "hits": 1
+ },
+ {
+  "name": "彭山",
+  "cells": [
+   "qin-han×tomb-art"
+  ],
+  "hits": 1
+ }
+]

@@ -1,0 +1,55 @@
+{
+  "note": "为新建的 7 条画论条目（2026-08-06 建：书断→zhang-huaiguan-shuduan、画鉴→tang-hou-huajian、十竹斋书画谱→shizhuzhai-shuhua-pu、宣德鼎彝谱→xuande-dingyi-pu、洛阳伽蓝记→luoyang-qielan-ji、陶冶图说→taoye-tushuo、陶成纪事碑→taocheng-jishi-bei）拟增的自引信源候选，格式照 data/sources.json 的 items。本文件不由本次任务直接写入 sources.json，按分工由另一处合并，避免并发写同一文件丢写。书断与画鉴两条本已在 data/sources.json 登记为 zhang-huaiguan-shuduan / tang-hou-huajian（均带维基文库全文链接），本次直接复用登记 id 作为对应 treatise 条目的 id 与自引来源，不在此文件重复列出。本文件仅收录此前完全未登记的五部：十竹斋书画谱、宣德鼎彝谱、洛阳伽蓝记、陶冶图说、陶成纪事碑——这五条 treatise 条目正文全部改用已登记的 zhongguo-meishu-jianshi / wangxun-zhongguo-meishushi / ma-chengyuan-zhongguo-qingtongqi / rose-kerr-later-chinese-bronzes / xuanhe-bogu-tu / kaogu-wenwu / liu-dunzhen-gudai-jianzhushi / zhongguo-taoci-shi / dpm / sullivan-arts-of-china / jieziyuan-huazhuan 等既有信源引用，未在正文 sources 数组或 [[src:]] 链接中引用本文件的待定 id（引用未登记 id 会被 schema.py 判为死链）。按分工由另一处合并入 sources.json 后，再回填这条到对应 treatise 条目的 sources 数组。verified 一律标 false：本库未直接查阅原书或核实版次，仅凭通行认知登记条目框架，url 未核实故不填。",
+  "items": [
+    {
+      "id": "shizhuzhai-shuhua-pu",
+      "title": "十竹斋书画谱",
+      "authors": "胡正言 辑刻（明天启至崇祯间）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "明末南京十竹斋刊行的多色套印画谱，以饾版、拱花两项技法把中国木刻彩色套印技术推向此前未有的精细程度，是中国版画史与彩色印刷技术史的关键实物文献。本库版画类目与《十竹斋书画谱》treatise 条目已引及此书，但此前未在 sources.json 正式登记。",
+      "note": "各分谱具体数目、题名与完成年份，天启崇祯原刻本完整目录，本库均未核实，待合并入 sources.json 后回填到 shizhuzhai-shuhua-pu 及相关版画类目条目的 sources 数组。",
+      "verified": false
+    },
+    {
+      "id": "xuande-dingyi-pu",
+      "title": "宣德鼎彝谱",
+      "authors": "题吕震等奉敕编（明），但成书真实年代与编者身份历来受学界质疑",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "「宣德炉」这一品类名与传说的直接源头文献，本书自题成于宣德三年（1428），但历代学者对其成书年代与编者身份提出系统质疑。本库 xuande-lu.json（宣德炉 class 条目）与本次新建的 xuande-dingyi-pu treatise 条目均已引及并讨论此书的可靠性问题，但此前未在 sources.json 正式登记。",
+      "note": "本书没有公认祖本，各传本版本谱系、卷数篇目差异，以及编者吕震卒年与「宣德三年敕编」是否矛盾这一具体考订，本库均未核实，待合并入 sources.json 后回填到 xuande-dingyi-pu 及 xuande-lu 相关条目的 sources 数组。",
+      "verified": false
+    },
+    {
+      "id": "luoyang-qielan-ji",
+      "title": "洛阳伽蓝记",
+      "authors": "杨衒之 撰（北魏／东魏，姓氏历代传抄有杨／阳／羊三说）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "记述北魏洛阳城内外佛寺兴衰的北朝重要文献，对永宁寺及其九层木塔的记载与 1963 年前后考古发掘的塔基遗址互相印证，是本期木构建筑（本体无一存世）最重要的间接文献来源之一。本库 luoyang-qielan-ji treatise 条目已引及此书，但此前未在 sources.json 正式登记。",
+      "note": "正文与作者自注（子注）在传世刻本中普遍相混，现代校勘本（唐晏、张宗祥、周祖谟、范祥雍等）对二者边界的具体判断不完全一致，本库未逐一核对各校本异同，待合并入 sources.json 后回填到 luoyang-qielan-ji 条目的 sources 数组。",
+      "verified": false
+    },
+    {
+      "id": "taoye-tushuo",
+      "title": "陶冶图说",
+      "authors": "图为清宫画院画家所绘，文字说明题唐英奉敕撰配（清乾隆）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "记录景德镇御窑制瓷全流程的清代图文文献，通行说法二十幅，是理解清代官窑分工体系与督陶官制度的重要图文材料。本库 taoye-tushuo treatise 条目已引及此书，但此前未在 sources.json 正式登记。",
+      "note": "原图具体绘制年代、画家姓名，唐英配写文字的确切年份，以及「过手七十二，方克成器」一语是否确系本书原文，本库均未核实，待合并入 sources.json 后回填到 taoye-tushuo 条目的 sources 数组。",
+      "verified": false
+    },
+    {
+      "id": "taocheng-jishi-bei",
+      "title": "陶成纪事碑",
+      "authors": "唐英 撰（清，督陶官）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "唐英督理景德镇御窑厂期间自撰的纪事碑文，历数其督陶以来仿古创新的各类釉色与器型成就，是清代官窑史料中少见的带有具体负责人姓名与技术细节记载的一手材料。本库 taocheng-jishi-bei treatise 条目已引及此书，但此前未在 sources.json 正式登记。",
+      "note": "原碑今日存佚状况、碑文原石文本与后世著作（如《南窑笔记》一类）转录文本是否一致、碑文所列釉色品种确切数目，本库均未核实，待合并入 sources.json 后回填到 taocheng-jishi-bei 条目的 sources 数组。",
+      "verified": false
+    }
+  ]
+}
