@@ -1,0 +1,175 @@
+zhongguo-meishu-jianshi | 中国美术简史 | survey | 3
+wangxun-zhongguo-meishushi | 中国美术史 | survey | 3
+sullivan-arts-of-china | The Arts of China | survey | 3
+clunas-art-in-china | Art in China | survey | 3
+three-thousand-years | 中国绘画三千年 | survey | 3
+lidai-minghua-ji | 历代名画记 | primary | 1
+xuanhe-huapu | 宣和画谱 | primary | 1
+linquan-gaozhi | 林泉高致 | primary | 1
+guhuapinlu | 古画品录 | primary | 1
+xuanhe-bogu-tu | 宣和博古图 | primary | 1
+kaogu-wenwu | 《考古》《文物》《考古学报》等考古期刊 | report | 1
+dpm | 故宫博物院 | museum | 1
+npm-taipei | 国立故宫博物院（台北） | museum | 1
+nmc | 中国国家博物馆 | museum | 1
+shanghai-museum | 上海博物馆 | museum | 1
+dunhuang-academy | 敦煌研究院 · 数字敦煌 | museum | 1
+cleveland | Cleveland Museum of Art（克利夫兰美术馆） | museum | 1
+met | The Metropolitan Museum of Art（大都会博物馆） | museum | 1
+harvard-art | Harvard Art Museums | museum | 1
+freer-sackler | National Museum of Asian Art（原弗利尔与赛克勒美术馆） | museum | 1
+smarthistory | Smarthistory | open | 2
+met-timeline | Heilbrunn Timeline of Art History | open | 2
+baoji-bronze-museum | 宝鸡青铜器博物院 | museum | 1
+wikidata | Wikidata | reference | 4
+yungang-academy | 云冈研究院 | museum | 1
+maijishan-institute | 麦积山石窟艺术研究所 | museum | 1
+dazu-academy | 大足石刻研究院 | museum | 1
+hunan-museum | 湖南博物院 | museum | 1
+shaanxi-history-museum | 陕西历史博物馆 | museum | 1
+famen-temple-museum | 法门寺博物馆 | museum | 1
+wikimedia | Wikimedia Commons | reference | 4
+tuhua-jianwen-zhi | 图画见闻志 | primary | 1
+huachanshi-suibi | 画禅室随笔 | primary | 1
+kugua-heshang-hualuyu | 苦瓜和尚画语录 | primary | 1
+yingzao-xueshe-huikan | 中国营造学社汇刊 | primary | 1
+liang-sicheng-jianzhushi | 中国建筑史 / 图像中国建筑史 | primary | 1
+liu-dunzhen-gudai-jianzhushi | 中国古代建筑史 | survey | 2
+tongjun-jiangnan-yuanlin-zhi | 江南园林志 | primary | 1
+guangyi-zhoushuang-ji | 广艺舟双楫 | primary | 1
+yizhou-shuang-ji | 艺舟双楫 | primary | 1
+nanbei-shupai-lun | 南北书派论 / 北碑南帖论 | primary | 1
+dongpo-tiba | 东坡题跋（苏轼文集所辑） | primary | 1
+shangu-tiba | 山谷题跋（黄庭坚文集所辑） | primary | 1
+shuanghong-kan-ji | 霜红龛集 | primary | 1
+shishuo-xinyu | 世说新语 | primary | 1
+biaozhun-caoshu | 标准草书 | primary | 1
+zhuanke-xue | 篆刻学 | primary | 1
+yinxue-shi | 印学史 | survey | 3
+lunshu-jueju | 论书绝句一百首 | primary | 1
+andrews-shen-century-crisis | A Century in Crisis: Modernity and Tradition in the Art of Twentieth-Century China | survey | 3
+andrews-painters-politics | Painters and Politics in the People's Republic of China, 1949-1979 | survey | 3
+sullivan-20th-century-china | Art and Artists of Twentieth-Century China | survey | 3
+unesco-whc | UNESCO World Heritage Centre | reference | 4
+congwenjun-zhongguo-shufashi | 中国书法史（七卷本） | survey | 3
+zhang-huaiguan-shuduan | 书断 | primary | 1
+guo-moruo-lanting-zhenwei | 由王谢墓志的出土论到兰亭序的真伪 | primary | 1
+gao-erhi-lanting-bianyi | 《兰亭序》的真伪驳议 | primary | 1
+jinshu | 晋书 | primary | 1
+tangchao-minghua-lu | 唐朝名画录 | primary | 1
+mifu-huashi | 画史 | primary | 1
+shengchao-minghua-ping | 圣朝名画评 | primary | 1
+jiu-tangshu | 旧唐书 | primary | 1
+xin-tangshu | 新唐书 | primary | 1
+mifu-shushi | 书史 | primary | 1
+mifu-baozhang-daifang-lu | 宝章待访录 | primary | 1
+tang-hou-huajian | 画鉴 | primary | 1
+bifa-ji | 笔法记 | primary | 1
+yizhou-minghua-lu | 益州名画录 | primary | 1
+huaji | 画继 | primary | 1
+tuhui-baojian | 图绘宝鉴 | primary | 1
+shupu | 书谱 | primary | 1
+fashu-yaolu | 法书要录 | primary | 1
+xuanhe-shupu | 宣和书谱 | primary | 1
+shiqu-baoji | 石渠宝笈 | primary | 1
+peiwenzhai-shuhua-pu | 佩文斋书画谱 | primary | 1
+jieziyuan-huazhuan | 芥子园画传 | primary | 1
+hua-shanshui-xu | 画山水序 | primary | 1
+xu-huapin | 续画品 | primary | 1
+liaoshi | 辽史 | primary | 1
+jinshi | 金史 | primary | 1
+songshi | 宋史 | primary | 1
+zeng-houyi-mu-baogao | 曾侯乙墓（发掘报告） | primary | 1
+zhongguo-taoci-shi | 中国陶瓷史 | survey | 3
+ma-chengyuan-zhongguo-qingtongqi | 中国青铜器 | survey | 3
+wu-hung-double-screen | The Double Screen: Medium and Representation in Chinese Painting | survey | 3
+scaglia-aesthetics-internationalism | The Aesthetics of Internationalism: Culture and Politics on Display at the 1935–1936 International Exhibition of Chinese Art | survey | 2
+huang-there-and-back | There and Back Again: Material Objects at the First International Exhibitions of Chinese Art in Shanghai, London, and Nanjing, 1935–1936 | survey | 2
+yiyan-wang-modern-art-modern-china | Modern Art for a Modern China | survey | 3
+clunas-lrb-china-2005 | 评「盛世华章：康雍乾三代」展（London Review of Books） | survey | 2
+suzhou-museum | 苏州博物馆 | primary | 1
+nelson-atkins | The Nelson-Atkins Museum of Art（纳尔逊-艾金斯艺术博物馆） | primary | 1
+osaka-museum-fine-arts | 大阪市立美術館 | primary | 1
+tnm-tokyo | 東京国立博物館（ColBase） | primary | 1
+artic | Art Institute of Chicago（芝加哥艺术博物馆） | primary | 1
+chen-mengjia-yinzhou-tonqi | 美帝国主义劫掠的我国殷周铜器集录（日文版作《殷周青銅器分類圖録》） | primary | 1
+loehr-ritual-vessels | Ritual Vessels of Bronze Age China | survey | 3
+hubei-museum | 湖北省博物馆 | primary | 1
+sichuan-museum | 四川博物院 | primary | 1
+zaozhuang-museum | 枣庄市博物馆 | primary | 1
+tengzhou-museum | 滕州市博物馆 | primary | 1
+li-chi-tuanfang-altar | The Tuan Fang Altar Set Reexamined | survey | 2
+white-tombs-old-loyang | 洛阳故城古墓考（Tombs of Old Lo-yang） | survey | 2
+zhejiang-museum | 浙江省博物馆 | primary | 1
+liaoning-archaeology | 辽宁省文物考古研究院 | primary | 1
+kaogu-museum | 中国考古博物馆 | primary | 1
+dahecun-museum | 郑州市大河村遗址博物馆 | primary | 1
+wuwenhua-museum | 吴文化博物馆（苏州） | primary | 1
+tuhui-baojian-xubian | 图绘宝鉴续编 | primary | 1
+huashi-huiyao | 画史会要 | primary | 1
+ming-hualu | 明画录 | primary | 1
+guochao-huazhenglu | 国朝画征录 | primary | 1
+guochao-huashi | 国朝画识 | primary | 1
+wang-shixiang-xiushi-lu-jieshuo | 髹饰录解说 | survey | 3
+zhao-feng-zhongguo-sichou-tongshi | 中国丝绸通史 | survey | 3
+wang-shixiang-mingshi-jiaju | 明式家具研究 | monograph | 3
+quette-cloisonne-chinese-enamels | Cloisonné: Chinese Enamels from the Yuan, Ming, and Qing Dynasties | survey | 3
+yangboda-jinyin-boli-falang | 中国美术全集·工艺美术编 11·金银玻璃珐琅器 | survey | 3
+kongxiangxing-liuyiman-tongjing | 中国古代铜镜 | survey | 3
+rose-kerr-later-chinese-bronzes | Later Chinese Bronzes | survey | 3
+huajueming-zhongguo-gudai-jinshu-jishu | 中国古代金属技术：铜和铁造就的文明 | survey | 3
+liao-chenguo-gongzhu-mu-baogao | 辽陈国公主墓 | primary | 1
+xuanhua-liaomu-baogao | 宣化辽墓：1974—1993 年考古发掘报告集 | primary | 1
+baisha-songmu-baogao | 白沙宋墓 | primary | 1
+rom-royal-ontario-museum | Royal Ontario Museum（加拿大安大略皇家博物馆） | museum | 1
+yinxu-fuhaomu-baogao | 殷墟妇好墓 | primary | 1
+sanxingdui-jisikeng-baogao | 三星堆祭祀坑 | primary | 1
+taosi-yizhi-baogao | 陶寺遗址发掘报告（历年简报与阶段性报告，具体书名与卷次待核） | primary | 1
+kizil-shiku-baogao | 中国石窟·克孜尔石窟 | report | 1
+binglingsi-baogao | 中国石窟·炳灵寺石窟 | report | 1
+fangshan-shijing-zhengli | 房山石经（整理出版物，具体书名与编者本次未核实，暂以类别指认） | report | 2
+fahaisi-bihua-yanjiu | 法海寺壁画研究（具体书名与作者本次未核实，暂以类别指认） | monograph | 3
+pilusi-bihua-zhulu | 毗卢寺壁画著录（河北省文物部门或相关图录，具体书名本次未核实） | report | 2
+gongzhusi-bihua-baodao | 繁峙公主寺水陆壁画相关报道与著录（具体出处本次未核实） | report | 3
+qinshihuang-di-ling-bowuyuan | 秦始皇帝陵博物院 | museum | 1
+famensi-digong-fajue-jianbao | 扶风法门寺塔唐代地宫发掘简报 | primary | 1
+hejiacun-jiaocang-fajue-jianbao | 西安南郊何家村唐代金银器窖藏发掘简报 | primary | 1
+hebei-museum | 河北博物院 | museum | 1
+pingshan-zhongshanwang-mu-baogao | 厝墓——战国中山国国王之墓 | primary | 1
+suizhou-museum | 随州市博物馆 | museum | 1
+yejiashan-mudi-baogao | 随州叶家山——西周早期曾国墓地 | primary | 1
+jingzhou-museum | 荆州博物馆 | museum | 1
+gaishanlin-yinshan-yanhua | 阴山岩画 | survey | 3
+dong-zuobin-jiaguwen-duandai | 甲骨文断代研究例 | primary | 1
+wang-guowei-yinbuci-zhong-suojian-xiangong-xianwang-kao | 殷卜辞中所见先公先王考 | primary | 1
+xu-hong-zuizao-de-zhongguo | 最早的中国：二里头文明的崛起 | monograph | 3
+zou-heng-zhengzhou-shangcheng-bo-du | 论郑州商城即汤都亳 | monograph | 3
+he-nu-taosi-guanxiangtai-yaodu | 陶寺观象台与『尧都平阳』相关研究（具体篇目待核） | monograph | 3
+yu-xingwu-dawenkou-taoqi-fuhao | 大汶口陶器刻划符号释读相关研究（具体篇目待核） | monograph | 3
+yinxu-museum | 殷墟博物馆（殷墟博物苑／殷墟博物馆新馆） | museum | 1
+zhouyuan-museum | 周原博物院（周原遗址博物馆） | museum | 1
+sanxingdui-museum | 三星堆博物馆 | museum | 1
+erlitou-site-museum | 二里头夏都遗址博物馆 | museum | 1
+kaogutu | 考古图 | primary | 1
+jigulu | 集古录 | primary | 1
+yingzao-fashi | 营造法式 | primary | 1
+dongtian-qinglu-ji | 洞天清禄集 | primary | 1
+xuhua | 叙画 | primary | 1
+liaoning-museum | 辽宁省博物馆 | museum | 1
+erlitou-gongzuodui-jianbao | 二里头遗址历年发掘简报（乳钉纹铜爵相关） | report | 1
+laing-selling-happiness | Selling Happiness: Calendar Posters and Visual Culture in Early-Twentieth-Century Shanghai | survey | 3
+changwuzhi | 长物志 | primary | 1
+gegu-yaolun | 格古要论 | primary | 1
+lubanjing | 鲁班经 | primary | 1
+xiqing-gujian | 西清古鉴 | primary | 1
+zaoxiang-liangdu-jing | 造像量度经 | primary | 1
+cass-feiyi-mingjing-lunwen | 非衣乎？铭旌乎？——论马王堆汉墓 T 形帛画的名称、功用与主题 | article | 2
+hnmuseum-t-bohua-page | 马王堆一号汉墓 T 形帛画（湖南博物院官网文物介绍页） | museum | 1
+hnmuseum-renwu-yulong-page | 战国人物御龙帛画（湖南博物院官网文物介绍页） | museum | 1
+ruzhou-gov-guanyu-shifu-page | 鹳鱼石斧图彩陶缸（汝州市人民政府官网文物介绍页） | web | 3
+yunwen-qi-an-identification-note | 【核实缺口，非正式信源】『云纹漆案』具体所指器物待厘清 | note | 3
+shizhuzhai-shuhua-pu | 十竹斋书画谱 | primary | 1
+xuande-dingyi-pu | 宣德鼎彝谱 | primary | 1
+luoyang-qielan-ji | 洛阳伽蓝记 | primary | 1
+taoye-tushuo | 陶冶图说 | primary | 1
+taocheng-jishi-bei | 陶成纪事碑 | primary | 1

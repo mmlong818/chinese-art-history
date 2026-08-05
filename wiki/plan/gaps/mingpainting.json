@@ -1,0 +1,667 @@
+{
+  "kind": "传世名画",
+  "total": 110,
+  "note": "**作者与现藏是本库派单时的初步判断，不是已核实的事实**——撰写者必须自行核实，核不到就按契约标 pend／gap，不得把本表当作可直接照抄的著录。",
+  "items": [
+    {
+      "name": "职贡图",
+      "artist_hint": "萧绎（宋摹本）",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "中国国家博物馆"
+    },
+    {
+      "name": "列女仁智图",
+      "artist_hint": "顾恺之（传，宋摹本）",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "故宫博物院（北京）｜本库已有著录级 wd-q9445481，**升级不新建**"
+    },
+    {
+      "name": "斫琴图",
+      "artist_hint": "顾恺之（传，宋摹本）",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "游春图",
+      "artist_hint": "展子虔（传）",
+      "period_hint": "sui-tang",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "步辇图",
+      "artist_hint": "阎立本（传，宋摹本）",
+      "period_hint": "sui-tang",
+      "holder_hint": "故宫博物院（北京）｜本库已有著录级 wd-q4997694，**升级不新建**"
+    },
+    {
+      "name": "五牛图",
+      "artist_hint": "韩滉",
+      "period_hint": "sui-tang",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "明皇幸蜀图",
+      "artist_hint": "佚名（传李昭道）",
+      "period_hint": "sui-tang",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "宫乐图",
+      "artist_hint": "佚名",
+      "period_hint": "sui-tang",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "挥扇仕女图",
+      "artist_hint": "周昉（传）",
+      "period_hint": "sui-tang",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "天王送子图",
+      "artist_hint": "吴道子（传，宋摹本）",
+      "period_hint": "sui-tang",
+      "holder_hint": "大阪市立美术馆"
+    },
+    {
+      "name": "八十七神仙卷",
+      "artist_hint": "佚名（旧传吴道子）",
+      "period_hint": "sui-tang",
+      "holder_hint": "徐悲鸿纪念馆"
+    },
+    {
+      "name": "引路菩萨图",
+      "artist_hint": "佚名（敦煌藏经洞）",
+      "period_hint": "sui-tang",
+      "holder_hint": "大英博物馆"
+    },
+    {
+      "name": "树下说法图",
+      "artist_hint": "佚名（敦煌藏经洞）",
+      "period_hint": "sui-tang",
+      "holder_hint": "大英博物馆"
+    },
+    {
+      "name": "雪竹图",
+      "artist_hint": "徐熙（传）",
+      "period_hint": "five-dynasties",
+      "holder_hint": "上海博物馆"
+    },
+    {
+      "name": "山鹧棘雀图",
+      "artist_hint": "黄居寀",
+      "period_hint": "five-dynasties",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "夏景山口待渡图",
+      "artist_hint": "董源",
+      "period_hint": "five-dynasties",
+      "holder_hint": "辽宁省博物馆"
+    },
+    {
+      "name": "龙宿郊民图",
+      "artist_hint": "董源",
+      "period_hint": "five-dynasties",
+      "holder_hint": "国立故宫博物院（台北）｜本库有 NPM 著录级 npm-p-29，**升级不新建**"
+    },
+    {
+      "name": "丹枫呦鹿图",
+      "artist_hint": "佚名",
+      "period_hint": "five-dynasties",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "秋林群鹿图",
+      "artist_hint": "佚名",
+      "period_hint": "five-dynasties",
+      "holder_hint": "国立故宫博物院（台北）｜本库有 NPM 著录级 npm-p-14451，**升级不新建**"
+    },
+    {
+      "name": "读碑窠石图",
+      "artist_hint": "李成、王晓",
+      "period_hint": "northern-song",
+      "holder_hint": "大阪市立美术馆"
+    },
+    {
+      "name": "茂林远岫图",
+      "artist_hint": "李成（传）",
+      "period_hint": "northern-song",
+      "holder_hint": "辽宁省博物馆"
+    },
+    {
+      "name": "晴峦萧寺图",
+      "artist_hint": "李成（传）",
+      "period_hint": "northern-song",
+      "holder_hint": "纳尔逊-阿特金斯艺术博物馆"
+    },
+    {
+      "name": "窠石平远图",
+      "artist_hint": "郭熙",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "双喜图",
+      "artist_hint": "崔白",
+      "period_hint": "northern-song",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "寒雀图",
+      "artist_hint": "崔白",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "五马图",
+      "artist_hint": "李公麟",
+      "period_hint": "northern-song",
+      "holder_hint": "东京国立博物馆"
+    },
+    {
+      "name": "临韦偃牧放图",
+      "artist_hint": "李公麟",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "潇湘奇观图",
+      "artist_hint": "米友仁",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "墨竹图",
+      "artist_hint": "文同",
+      "period_hint": "northern-song",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "枯木怪石图",
+      "artist_hint": "苏轼（传）",
+      "period_hint": "northern-song",
+      "holder_hint": "私人收藏（本库未核实）"
+    },
+    {
+      "name": "听琴图",
+      "artist_hint": "赵佶",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "祥龙石图",
+      "artist_hint": "赵佶",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "腊梅山禽图",
+      "artist_hint": "赵佶",
+      "period_hint": "northern-song",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "渔村小雪图",
+      "artist_hint": "王诜",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "烟江叠嶂图",
+      "artist_hint": "王诜",
+      "period_hint": "northern-song",
+      "holder_hint": "上海博物馆"
+    },
+    {
+      "name": "写生蛱蝶图",
+      "artist_hint": "赵昌（传）",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "采薇图",
+      "artist_hint": "李唐",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "踏歌图",
+      "artist_hint": "马远",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "山径春行图",
+      "artist_hint": "马远",
+      "period_hint": "southern-song",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "水图",
+      "artist_hint": "马远",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "寒江独钓图",
+      "artist_hint": "马远（传）",
+      "period_hint": "southern-song",
+      "holder_hint": "东京国立博物馆"
+    },
+    {
+      "name": "四景山水图",
+      "artist_hint": "刘松年",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "泼墨仙人图",
+      "artist_hint": "梁楷",
+      "period_hint": "southern-song",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "六祖斫竹图",
+      "artist_hint": "梁楷",
+      "period_hint": "southern-song",
+      "holder_hint": "东京国立博物馆"
+    },
+    {
+      "name": "观音猿鹤图",
+      "artist_hint": "牧溪法常",
+      "period_hint": "southern-song",
+      "holder_hint": "京都大德寺"
+    },
+    {
+      "name": "六柿图",
+      "artist_hint": "牧溪法常（传）",
+      "period_hint": "southern-song",
+      "holder_hint": "京都龙光院"
+    },
+    {
+      "name": "出水芙蓉图",
+      "artist_hint": "佚名",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "果熟来禽图",
+      "artist_hint": "林椿",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "骷髅幻戏图",
+      "artist_hint": "李嵩",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "货郎图",
+      "artist_hint": "李嵩",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "秋庭婴戏图",
+      "artist_hint": "苏汉臣",
+      "period_hint": "southern-song",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "墨兰图",
+      "artist_hint": "郑思肖",
+      "period_hint": "southern-song",
+      "holder_hint": "大阪市立美术馆"
+    },
+    {
+      "name": "秋郊饮马图",
+      "artist_hint": "赵孟頫",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）｜本库已有著录级 wd-q59198712，**升级不新建**"
+    },
+    {
+      "name": "水村图",
+      "artist_hint": "赵孟頫",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "洞庭东山图",
+      "artist_hint": "赵孟頫",
+      "period_hint": "yuan",
+      "holder_hint": "上海博物馆"
+    },
+    {
+      "name": "二羊图",
+      "artist_hint": "赵孟頫",
+      "period_hint": "yuan",
+      "holder_hint": "弗利尔美术馆"
+    },
+    {
+      "name": "渔父图",
+      "artist_hint": "吴镇",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "墨竹谱",
+      "artist_hint": "吴镇",
+      "period_hint": "yuan",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "青卞隐居图",
+      "artist_hint": "王蒙",
+      "period_hint": "yuan",
+      "holder_hint": "上海博物馆"
+    },
+    {
+      "name": "葛稚川移居图",
+      "artist_hint": "王蒙",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "渔庄秋霁图",
+      "artist_hint": "倪瓒",
+      "period_hint": "yuan",
+      "holder_hint": "上海博物馆"
+    },
+    {
+      "name": "幽涧寒松图",
+      "artist_hint": "倪瓒",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "天池石壁图",
+      "artist_hint": "黄公望",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "九峰雪霁图",
+      "artist_hint": "黄公望",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "杨竹西小像",
+      "artist_hint": "王绎、倪瓒",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "张果老见明皇图",
+      "artist_hint": "任仁发",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "二马图",
+      "artist_hint": "任仁发",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "王冕墨梅图",
+      "artist_hint": "王冕",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）｜**与金农《墨梅图》同名异物，本库已有金农那件**"
+    },
+    {
+      "name": "云横秀岭图",
+      "artist_hint": "高克恭",
+      "period_hint": "yuan",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "庐山高图",
+      "artist_hint": "沈周",
+      "period_hint": "ming",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "夜坐图",
+      "artist_hint": "沈周",
+      "period_hint": "ming",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "东庄图册",
+      "artist_hint": "沈周",
+      "period_hint": "ming",
+      "holder_hint": "南京博物院"
+    },
+    {
+      "name": "桃源仙境图",
+      "artist_hint": "仇英",
+      "period_hint": "ming",
+      "holder_hint": "天津博物馆"
+    },
+    {
+      "name": "落霞孤鹜图",
+      "artist_hint": "唐寅",
+      "period_hint": "ming",
+      "holder_hint": "上海博物馆"
+    },
+    {
+      "name": "秋风纨扇图",
+      "artist_hint": "唐寅",
+      "period_hint": "ming",
+      "holder_hint": "上海博物馆"
+    },
+    {
+      "name": "王蜀宫妓图",
+      "artist_hint": "唐寅",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "真赏斋图",
+      "artist_hint": "文徵明",
+      "period_hint": "ming",
+      "holder_hint": "上海博物馆"
+    },
+    {
+      "name": "湘君湘夫人图",
+      "artist_hint": "文徵明",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "古木寒泉图",
+      "artist_hint": "文徵明",
+      "period_hint": "ming",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "杏园雅集图",
+      "artist_hint": "谢环",
+      "period_hint": "ming",
+      "holder_hint": "镇江博物馆"
+    },
+    {
+      "name": "榴实图",
+      "artist_hint": "徐渭",
+      "period_hint": "ming",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "荷花鸳鸯图",
+      "artist_hint": "陈洪绶",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "秋兴八景图",
+      "artist_hint": "董其昌",
+      "period_hint": "ming",
+      "holder_hint": "上海博物馆"
+    },
+    {
+      "name": "出警入跸图",
+      "artist_hint": "佚名（宫廷）",
+      "period_hint": "ming",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "南都繁会图",
+      "artist_hint": "佚名",
+      "period_hint": "ming",
+      "holder_hint": "中国国家博物馆"
+    },
+    {
+      "name": "康熙南巡图",
+      "artist_hint": "王翚等",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）等多处分藏"
+    },
+    {
+      "name": "百骏图",
+      "artist_hint": "郎世宁",
+      "period_hint": "qing",
+      "holder_hint": "国立故宫博物院（台北）"
+    },
+    {
+      "name": "乾隆大阅图",
+      "artist_hint": "郎世宁",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "平安春信图",
+      "artist_hint": "郎世宁（传）",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "山水清音图",
+      "artist_hint": "石涛",
+      "period_hint": "qing",
+      "holder_hint": "上海博物馆"
+    },
+    {
+      "name": "淮扬洁秋图",
+      "artist_hint": "石涛",
+      "period_hint": "qing",
+      "holder_hint": "南京博物院"
+    },
+    {
+      "name": "河上花图",
+      "artist_hint": "朱耷",
+      "period_hint": "qing",
+      "holder_hint": "天津博物馆"
+    },
+    {
+      "name": "天都峰图",
+      "artist_hint": "弘仁",
+      "period_hint": "qing",
+      "holder_hint": "南京博物院"
+    },
+    {
+      "name": "竹石图",
+      "artist_hint": "郑燮",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "兰竹图",
+      "artist_hint": "郑燮",
+      "period_hint": "qing",
+      "holder_hint": "本库未核实"
+    },
+    {
+      "name": "姑苏繁华图",
+      "artist_hint": "徐扬",
+      "period_hint": "qing",
+      "holder_hint": "辽宁省博物馆"
+    },
+    {
+      "name": "桐荫仕女图",
+      "artist_hint": "佚名（宫廷油画屏）",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）"
+    },
+    {
+      "name": "群仙祝寿图",
+      "artist_hint": "任伯年",
+      "period_hint": "qing",
+      "holder_hint": "上海中国画院"
+    },
+    {
+      "name": "酸寒尉像",
+      "artist_hint": "任伯年",
+      "period_hint": "qing",
+      "holder_hint": "浙江省博物馆"
+    },
+    {
+      "name": "巴人汲水图",
+      "artist_hint": "徐悲鸿",
+      "period_hint": "late-qing-republic",
+      "holder_hint": "徐悲鸿纪念馆等"
+    },
+    {
+      "name": "九方皋",
+      "artist_hint": "徐悲鸿",
+      "period_hint": "late-qing-republic",
+      "holder_hint": "徐悲鸿纪念馆"
+    },
+    {
+      "name": "奔马",
+      "artist_hint": "徐悲鸿",
+      "period_hint": "late-qing-republic",
+      "holder_hint": "多本分藏"
+    },
+    {
+      "name": "蛙声十里出山泉",
+      "artist_hint": "齐白石",
+      "period_hint": "late-qing-republic",
+      "holder_hint": "中国现代文学馆"
+    },
+    {
+      "name": "丽人行",
+      "artist_hint": "傅抱石",
+      "period_hint": "late-qing-republic",
+      "holder_hint": "本库未核实"
+    },
+    {
+      "name": "开国大典",
+      "artist_hint": "董希文",
+      "period_hint": "prc-early",
+      "holder_hint": "中国国家博物馆"
+    },
+    {
+      "name": "血衣",
+      "artist_hint": "王式廓",
+      "period_hint": "prc-early",
+      "holder_hint": "中国国家博物馆"
+    },
+    {
+      "name": "狼牙山五壮士",
+      "artist_hint": "詹建俊",
+      "period_hint": "prc-early",
+      "holder_hint": "中国国家博物馆"
+    },
+    {
+      "name": "父亲",
+      "artist_hint": "罗中立",
+      "period_hint": "contemporary",
+      "holder_hint": "中国美术馆"
+    },
+    {
+      "name": "春风已经苏醒",
+      "artist_hint": "何多苓",
+      "period_hint": "contemporary",
+      "holder_hint": "中国美术馆"
+    },
+    {
+      "name": "西藏组画",
+      "artist_hint": "陈丹青",
+      "period_hint": "contemporary",
+      "holder_hint": "多处分藏"
+    }
+  ]
+}
