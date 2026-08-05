@@ -1161,6 +1161,127 @@
       "authority": "清代画家资料汇编，与《国朝画征录》可互校。**两书并存的价值在于互相订正**——单据一书会把该书的取舍当成事实。",
       "note": "[待核] 作者、成书年代与体例均凭记忆，未核原文。 本库尚未查阅原文，引用时须标明系转引。",
       "verified": false
+    },
+    {
+      "id": "wang-shixiang-xiushi-lu-jieshuo",
+      "title": "髹饰录解说",
+      "authors": "王世襄 编著（据明代黄成《髹饰录》原书作注解说），文物出版社",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "《髹饰录》是现存唯一系统的中国古代漆工艺专著（明代黄成撰，杨明注），王世襄此书是其现代注解整理的权威版本，涵盖漆器胎骨、髹涂工序、雕填镶嵌等各类技法的系统命名与工序描述，是本库 qiqi（漆器）条目'形制与特征'一节所涉工艺术语（剔红、戗金、螺钿等）的理想一手／二手依据，本库现有引用暂以 zhongguo-meishu-jianshi、kaogu-wenwu 等既有信源代替，此条登记以备将来替换为精确引用。",
+      "note": "具体版次、出版年份与 ISBN 均未核实，仅据通行认知登记书名与作者。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "zhao-feng-zhongguo-sichou-tongshi",
+      "title": "中国丝绸通史",
+      "authors": "赵丰 主编，苏州大学出版社",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "中国丝绸纺织史研究的代表性通史著作，系统整理历代织造技术（含蜀锦一系提花重彩锦的工艺谱系）与考古出土纺织品材料，是本库 shu-jin（蜀锦）条目讨论织造组织与产地问题的理想依据，本库现有引用暂以 zhongguo-meishu-jianshi、kaogu-wenwu 等既有信源代替，此条登记以备将来替换为精确引用。",
+      "note": "具体版次、出版年份与 ISBN 均未核实，仅据通行认知登记书名与作者。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "wang-shixiang-mingshi-jiaju",
+      "title": "明式家具研究",
+      "authors": "王世襄 著",
+      "publisher": "生活·读书·新知三联书店（另有文物出版社版；英译本 Classic Chinese Furniture: Ming and Qing Dynasties）",
+      "kind": "monograph",
+      "tier": 3,
+      "authority": "明式家具作为独立研究领域的奠基性专著，本库家具类目（明式家具、苏作、广作、京作、黄花梨、紫檀、榫卯）对「明式」概念的反思、地域作坊分野的通行框架、榫卯各类做法（格肩榫、夹头榫、粽角榫等）的命名，均以此系研究为最终依据。姊妹篇《明式家具珍赏》（1985，图录本）本条目一并指代，不单列。本库此前未登记这一系研究为信源，是家具类目条目连带补齐的一处欠账。",
+      "note": "具体版次、初版年份（一般作 1985 年）与页码本库未核实，不作精确引用；待合并入 data/sources.json 后，回填到相关条目的 sources 数组与 scholarship 节。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "quette-cloisonne-chinese-enamels",
+      "title": "Cloisonné: Chinese Enamels from the Yuan, Ming, and Qing Dynasties",
+      "authors": "Béatrice Quette 主编，Bard Graduate Center / Yale University Press",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "英语学界研究中国掐丝珐琅、錾胎珐琅、画珐琅技术分野与传播史的权威专著，直接处理「景泰蓝」款识与断代问题（元代传入线索、明早期实物、景泰款真伪），是本库 jingtailan、qiansi-falang、zhantai-falang、hua-falang 四条目理想的一手依据，本库现有引用暂以 zhongguo-meishu-jianshi、cleveland、met 等既有信源与馆藏断代数据代替，此条登记以备将来替换为精确引用。",
+      "note": "具体版次、出版年份与 ISBN 均未核实，仅据通行认知登记书名、主编与出版方。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "yangboda-jinyin-boli-falang",
+      "title": "中国美术全集·工艺美术编 11·金银玻璃珐琅器",
+      "authors": "杨伯达 主编，文物出版社",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "国内工艺美术史权威丛书中金银器、玻璃、珐琅器分册，系统整理历代金银器与珐琅器的形制、工艺与断代框架，是本库 jinyinqi（金银器）、jingtailan、qiansi-falang、zhantai-falang、hua-falang 诸条目的理想中文一手依据，本库现有引用暂以 zhongguo-meishu-jianshi、kaogu-wenwu 等既有信源代替，此条登记以备将来替换为精确引用。",
+      "note": "具体版次、出版年份与 ISBN 均未核实，仅据通行认知登记书名、主编与出版方。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "kongxiangxing-liuyiman-tongjing",
+      "title": "中国古代铜镜",
+      "authors": "孔祥星、刘一曼 著，文物出版社",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "国内铜镜研究的权威通论著作，系统整理历代铜镜形制、纹样与铭文的分期序列，是本库 tongjing（铜镜）条目断代依据的理想一手来源，本库现有引用暂以 ma-chengyuan-zhongguo-qingtongqi、cleveland 等既有信源代替，此条登记以备将来替换为精确引用，尤其用于核校本库现有逾百条铜镜著录级条目尚未逐一核实的断代依据。",
+      "note": "出版年份、具体版次与 ISBN 均未核实，仅据通行认知登记书名、作者与出版方。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "rose-kerr-later-chinese-bronzes",
+      "title": "Later Chinese Bronzes",
+      "authors": "Rose Kerr 著，Victoria and Albert Museum / Bamboo Publishing",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "英语学界系统讨论宋以后仿古铜器、明清宣德炉传世与真伪问题的权威专著，是本库 fanggu-tongqi（仿古铜器）、xuande-lu（宣德炉）两条目理想的一手依据——尤其对「传世宣德炉绝大多数非宣德本朝制作」这一判断有系统论证，本库现有引用暂以 zhongguo-meishu-jianshi、ma-chengyuan-zhongguo-qingtongqi 等既有信源代替，此条登记以备将来替换为精确引用。",
+      "note": "具体版次、出版年份与 ISBN 均未核实，仅据通行认知登记书名、作者与出版方。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "huajueming-zhongguo-gudai-jinshu-jishu",
+      "title": "中国古代金属技术：铜和铁造就的文明",
+      "authors": "华觉明 著，大象出版社",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "国内冶金史研究的代表性专著，系统梳理块范法、失蜡法、鎏金、错金银等中国古代金属加工技术的原理与演变，是本库 kuaifan-fa（块范法）、liujin（鎏金）、qingtong-liqi（青铜礼器）诸条目讨论铸造与表面装饰工艺时的理想一手依据，本库现有引用暂以 ma-chengyuan-zhongguo-qingtongqi、kaogu-wenwu 等既有信源代替，此条登记以备将来替换为精确引用。",
+      "note": "具体版次、出版年份与 ISBN 均未核实，仅据通行认知登记书名、作者与出版方。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "liao-chenguo-gongzhu-mu-baogao",
+      "title": "辽陈国公主墓",
+      "authors": "内蒙古自治区文物考古研究所、哲里木盟博物馆 编，文物出版社，1993",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "陈国公主墓的正式考古发掘报告，随葬品出土位置、共出关系与墓志释文均以此为准——现引用系经 site/chenguo-gongzhu-mu.json 沿用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为具体报告条目，届时可把该条目引用改为精确到本书。",
+      "note": "版次、页码与墓志释文全文均未核实。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "xuanhua-liaomu-baogao",
+      "title": "宣化辽墓：1974—1993 年考古发掘报告集",
+      "authors": "河北省文物研究所 编，文物出版社",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "宣化下八里辽代壁画墓群历次发掘的系统整理报告，各墓墓志释文、壁画位置与随葬品清单均以此为准——site/xuanhua-liaomu-qun.json 与 site/zhang-shiqing-mu.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "确切出版年份、卷次与页码未核实，书名亦系据通行转述，未核对封面原文。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "baisha-songmu-baogao",
+      "title": "白沙宋墓",
+      "authors": "宿白 著，文物出版社，1957",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "中国宋代墓葬考古的经典发掘报告，首次系统建立仿木构砖雕墓的形制断代序列方法，是 site/baisha-songmu.json 中『器形序列』断代依据的直接出处——现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "版次未核实。　本库未核实版次与页码。",
+      "verified": false
+    },
+    {
+      "id": "rom-royal-ontario-museum",
+      "title": "Royal Ontario Museum（加拿大安大略皇家博物馆）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.rom.on.ca/",
+      "authority": "稷山兴化寺后殿壁画（1925–1928 年剥离出售）今藏机构，是 site/jishan-xinghua-si.json『壁画已不在原址』这一事实的现藏方。本库尚未核实该馆官网 API 或数字藏品页的可编程访问方式，亦未核实该壁画具体藏品号与展示状态。",
+      "note": "无法确认是否有公开 API；具体藏品页 URL 待人工核对。　本库未核实版次与页码。",
+      "verified": false
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "note": "为家具与版画年画 14 处新类目条目（2026-08-05 建：高型家具、明式家具、苏作、广作、京作、黄花梨、紫檀、榫卯、雕版印刷、徽派版画、年画、桃花坞年画、杨柳青年画、新兴木刻）拟增的信源候选，格式照 data/sources.json 的 items。本文件不由本次任务直接写入 sources.json，也未在上述 14 条类目条目内引用这一待定 id（引用未登记 id 会被 schema.py 判为死链，故本次写作全部改用已登记的 zhongguo-meishu-jianshi / wangxun-zhongguo-meishushi / cleveland / met / kaogu-wenwu / jieziyuan-huazhuan / sullivan-20th-century-china / andrews-painters-politics / andrews-shen-century-crisis 等既有信源，凡本应引用王世襄一系研究处，均在正文中改为仅提及作者与书名、不作 [[src:]] 或 sources.ref 链接）。按分工由另一处合并入 sources.json 后，再回填这条到本批家具类条目（尤其 mingshi-jiaju、huanghuali、zitan、sunmao、suzuo、guangzuo、jingzuo、gaoxing-jiaju）的 sources 数组与相应 scholarship 节。verified 标 false：本库未直接查阅原书，仅凭通行认知登记条目框架，待人工核实版次与 ISBN 后再改。",
+  "items": [
+    {
+      "id": "wang-shixiang-mingshi-jiaju",
+      "title": "明式家具研究",
+      "authors": "王世襄 著",
+      "publisher": "生活·读书·新知三联书店（另有文物出版社版；英译本 Classic Chinese Furniture: Ming and Qing Dynasties）",
+      "kind": "monograph",
+      "tier": 3,
+      "authority": "明式家具作为独立研究领域的奠基性专著，本库家具类目（明式家具、苏作、广作、京作、黄花梨、紫檀、榫卯）对「明式」概念的反思、地域作坊分野的通行框架、榫卯各类做法（格肩榫、夹头榫、粽角榫等）的命名，均以此系研究为最终依据。姊妹篇《明式家具珍赏》（1985，图录本）本条目一并指代，不单列。本库此前未登记这一系研究为信源，是家具类目条目连带补齐的一处欠账。",
+      "note": "具体版次、初版年份（一般作 1985 年）与页码本库未核实，不作精确引用；待合并入 data/sources.json 后，回填到相关条目的 sources 数组与 scholarship 节。",
+      "verified": false
+    }
+  ]
+}

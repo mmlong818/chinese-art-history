@@ -1,0 +1,25 @@
+{
+  "note": "为陶瓷与漆织 15 处新类目条目（2026-08-05 建：漆器、原始瓷、白陶、蜀锦、官搭民烧、彩陶、印纹硬陶、越窑青瓷、青花、斗彩、五彩、元青花、枢府瓷、秘色瓷、辽三彩）拟增的信源候选，格式照 data/sources.json 的 items。本文件不由本次任务直接写入 sources.json，也未在上述 15 条类目条目内引用这两个待定 id（引用未登记 id 会被 schema.py 判为死链，故本次写作全部改用已登记的 zhongguo-taoci-shi / kaogu-wenwu / zhongguo-meishu-jianshi / hunan-museum / hubei-museum 等既有信源）——按分工由另一处合并入 sources.json 后，再回填这两条到漆器（qiqi）与蜀锦（shu-jin）条目的 sources 数组。所有 verified 均标 false：本库未直接查阅原文，仅凭记忆登记条目框架，待人工核实版次与 ISBN 后再改。",
+  "items": [
+    {
+      "id": "wang-shixiang-xiushi-lu-jieshuo",
+      "title": "髹饰录解说",
+      "authors": "王世襄 编著（据明代黄成《髹饰录》原书作注解说），文物出版社",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "《髹饰录》是现存唯一系统的中国古代漆工艺专著（明代黄成撰，杨明注），王世襄此书是其现代注解整理的权威版本，涵盖漆器胎骨、髹涂工序、雕填镶嵌等各类技法的系统命名与工序描述，是本库 qiqi（漆器）条目'形制与特征'一节所涉工艺术语（剔红、戗金、螺钿等）的理想一手／二手依据，本库现有引用暂以 zhongguo-meishu-jianshi、kaogu-wenwu 等既有信源代替，此条登记以备将来替换为精确引用。",
+      "note": "具体版次、出版年份与 ISBN 均未核实，仅据通行认知登记书名与作者。",
+      "verified": false
+    },
+    {
+      "id": "zhao-feng-zhongguo-sichou-tongshi",
+      "title": "中国丝绸通史",
+      "authors": "赵丰 主编，苏州大学出版社",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "中国丝绸纺织史研究的代表性通史著作，系统整理历代织造技术（含蜀锦一系提花重彩锦的工艺谱系）与考古出土纺织品材料，是本库 shu-jin（蜀锦）条目讨论织造组织与产地问题的理想依据，本库现有引用暂以 zhongguo-meishu-jianshi、kaogu-wenwu 等既有信源代替，此条登记以备将来替换为精确引用。",
+      "note": "具体版次、出版年份与 ISBN 均未核实，仅据通行认知登记书名与作者。",
+      "verified": false
+    }
+  ]
+}

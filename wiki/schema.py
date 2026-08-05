@@ -5,7 +5,7 @@
     artist   人    画家书家篆刻家雕塑家
     work     物    一切单件——书画、青铜、陶瓷、玉器、石刻、壁画、塑像…
     site     地    遗址与窟龛，用 parent 自嵌套（莫高窟 → 第 45 窟）
-    class    类    器类、窑口、书体、画科、流派、技法、纹样
+    class    类    器类、窑口、书体、画科、流派、技法、纹样、材质、制度、考古学文化
     treatise 文    画论书论，既是信源也是研究对象
     event    事    事件
 
@@ -207,6 +207,25 @@ SITE_SECTIONS = [
     ("donors", "供养与出资"), ("iconography", "图像程式"),
     ("conservation", "保存与修复史"), ("archaeology", "考古与著录史"),
 ]
+
+# class 的分面。**此前这是自由文本字段**：README 与本文件开头都写着七个分面
+# （器类、窑口、书体、画科、流派、技法、纹样），而校验器从不检查取值——
+# 声明了词表却不强制，词表就会无声漂移。写 facet: "材质" 不报错，
+# 于是它已经悄悄出现在两条条目里。**这里补上强制。**
+#
+# 同时补三格，都是被提纲点名而七格装不下的：
+#   材质    —— 黄花梨、紫檀、红木。木料是家具史的首要分类轴，
+#              而本库 19 件家具条目全靠自由文本 medium 字段记材质。
+#   制度    —— 官搭民烧、工官制度、物勒工名、列鼎制度、礼制改革。
+#              这些是生产与用器的组织方式，不是器形也不是技法。
+#              「官搭民烧」曾被权宜塞进「技法」，那是把制度读成手艺。
+#   考古学文化 —— 仰韶、马家窑、龙山、良渚、红山、大汶口、楚。
+#              依据不是权宜：canon 的新石器 keys 原文即
+#              「仰韶彩陶、马家窑、龙山黑陶、良渚玉器、红山玉器、陶寺」,
+#              春秋战国 keys 里也直接写着「楚文化」——**该期本就按考古学文化组织**,
+#              而朝代轴在史前根本不适用。
+CLASS_FACETS = {"器类", "窑口", "书体", "画科", "流派", "技法", "纹样",
+                "材质", "制度", "考古学文化"}
 
 CLASS_SECTIONS = [
     ("overview", "概览"), ("definition", "定义与范围"), ("features", "形制与特征"),
@@ -707,6 +726,8 @@ def validate(c):
     for cid, cl in c.classes.items():
         w = f"class/{cid}"
         _check_common(cl, w, c, out, ["name", "facet", "one_line"])
+        if cl.get("facet") and cl["facet"] not in CLASS_FACETS:
+            out.append(Problem("ERROR", w, f"facet {cl['facet']!r} 不在词表内——声明了词表却不强制，词表就会无声漂移"))
         _check_sections(cl, CLASS_SECTIONS, w, c, out)
 
     for tid, t in c.treatises.items():

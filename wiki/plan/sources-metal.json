@@ -1,0 +1,55 @@
+{
+  "note": "为金属器与珐琅 12 处新类目条目（2026-08-05 建：景泰蓝、掐丝珐琅、錾胎珐琅、画珐琅、铜镜、鎏金、金银器、宣德炉、块范法、青铜礼器、编钟、仿古铜器）拟增的信源候选，格式照 data/sources.json 的 items。本文件不由本次任务直接写入 sources.json，也未在上述 12 条类目条目内引用这批待定 id（引用未登记 id 会被 schema.py 判为死链，故本次写作全部改用已登记的 zhongguo-meishu-jianshi / ma-chengyuan-zhongguo-qingtongqi / kaogu-wenwu / cleveland / met / artic / zeng-houyi-mu-baogao 等既有信源）——按分工由另一处合并入 sources.json 后，再回填到对应条目的 sources 数组。所有 verified 均标 false：本库未直接查阅原文，仅凭记忆登记条目框架，待人工核实版次与 ISBN 后再改。",
+  "items": [
+    {
+      "id": "quette-cloisonne-chinese-enamels",
+      "title": "Cloisonné: Chinese Enamels from the Yuan, Ming, and Qing Dynasties",
+      "authors": "Béatrice Quette 主编，Bard Graduate Center / Yale University Press",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "英语学界研究中国掐丝珐琅、錾胎珐琅、画珐琅技术分野与传播史的权威专著，直接处理「景泰蓝」款识与断代问题（元代传入线索、明早期实物、景泰款真伪），是本库 jingtailan、qiansi-falang、zhantai-falang、hua-falang 四条目理想的一手依据，本库现有引用暂以 zhongguo-meishu-jianshi、cleveland、met 等既有信源与馆藏断代数据代替，此条登记以备将来替换为精确引用。",
+      "note": "具体版次、出版年份与 ISBN 均未核实，仅据通行认知登记书名、主编与出版方。",
+      "verified": false
+    },
+    {
+      "id": "yangboda-jinyin-boli-falang",
+      "title": "中国美术全集·工艺美术编 11·金银玻璃珐琅器",
+      "authors": "杨伯达 主编，文物出版社",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "国内工艺美术史权威丛书中金银器、玻璃、珐琅器分册，系统整理历代金银器与珐琅器的形制、工艺与断代框架，是本库 jinyinqi（金银器）、jingtailan、qiansi-falang、zhantai-falang、hua-falang 诸条目的理想中文一手依据，本库现有引用暂以 zhongguo-meishu-jianshi、kaogu-wenwu 等既有信源代替，此条登记以备将来替换为精确引用。",
+      "note": "具体版次、出版年份与 ISBN 均未核实，仅据通行认知登记书名、主编与出版方。",
+      "verified": false
+    },
+    {
+      "id": "kongxiangxing-liuyiman-tongjing",
+      "title": "中国古代铜镜",
+      "authors": "孔祥星、刘一曼 著，文物出版社",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "国内铜镜研究的权威通论著作，系统整理历代铜镜形制、纹样与铭文的分期序列，是本库 tongjing（铜镜）条目断代依据的理想一手来源，本库现有引用暂以 ma-chengyuan-zhongguo-qingtongqi、cleveland 等既有信源代替，此条登记以备将来替换为精确引用，尤其用于核校本库现有逾百条铜镜著录级条目尚未逐一核实的断代依据。",
+      "note": "出版年份、具体版次与 ISBN 均未核实，仅据通行认知登记书名、作者与出版方。",
+      "verified": false
+    },
+    {
+      "id": "rose-kerr-later-chinese-bronzes",
+      "title": "Later Chinese Bronzes",
+      "authors": "Rose Kerr 著，Victoria and Albert Museum / Bamboo Publishing",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "英语学界系统讨论宋以后仿古铜器、明清宣德炉传世与真伪问题的权威专著，是本库 fanggu-tongqi（仿古铜器）、xuande-lu（宣德炉）两条目理想的一手依据——尤其对「传世宣德炉绝大多数非宣德本朝制作」这一判断有系统论证，本库现有引用暂以 zhongguo-meishu-jianshi、ma-chengyuan-zhongguo-qingtongqi 等既有信源代替，此条登记以备将来替换为精确引用。",
+      "note": "具体版次、出版年份与 ISBN 均未核实，仅据通行认知登记书名、作者与出版方。",
+      "verified": false
+    },
+    {
+      "id": "huajueming-zhongguo-gudai-jinshu-jishu",
+      "title": "中国古代金属技术：铜和铁造就的文明",
+      "authors": "华觉明 著，大象出版社",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "国内冶金史研究的代表性专著，系统梳理块范法、失蜡法、鎏金、错金银等中国古代金属加工技术的原理与演变，是本库 kuaifan-fa（块范法）、liujin（鎏金）、qingtong-liqi（青铜礼器）诸条目讨论铸造与表面装饰工艺时的理想一手依据，本库现有引用暂以 ma-chengyuan-zhongguo-qingtongqi、kaogu-wenwu 等既有信源代替，此条登记以备将来替换为精确引用。",
+      "note": "具体版次、出版年份与 ISBN 均未核实，仅据通行认知登记书名、作者与出版方。",
+      "verified": false
+    }
+  ]
+}

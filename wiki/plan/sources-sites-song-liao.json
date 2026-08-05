@@ -1,0 +1,45 @@
+{
+  "note": "为辽金两宋墓葬与寺观 12 处新遗址条目（2026-08-05 建）拟增的信源候选，格式照 data/sources.json 的 items。本文件不由本次任务直接写入 sources.json——按分工由另一处合并，避免并发写同一文件丢写。所有 verified 均标 false：本库未直接查阅原文，仅凭记忆与通行转引登记条目框架，待人工核实后再改 verified。",
+  "items": [
+    {
+      "id": "liao-chenguo-gongzhu-mu-baogao",
+      "title": "辽陈国公主墓",
+      "authors": "内蒙古自治区文物考古研究所、哲里木盟博物馆 编，文物出版社，1993",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "陈国公主墓的正式考古发掘报告，随葬品出土位置、共出关系与墓志释文均以此为准——现引用系经 site/chenguo-gongzhu-mu.json 沿用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为具体报告条目，届时可把该条目引用改为精确到本书。",
+      "note": "版次、页码与墓志释文全文均未核实。",
+      "verified": false
+    },
+    {
+      "id": "xuanhua-liaomu-baogao",
+      "title": "宣化辽墓：1974—1993 年考古发掘报告集",
+      "authors": "河北省文物研究所 编，文物出版社",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "宣化下八里辽代壁画墓群历次发掘的系统整理报告，各墓墓志释文、壁画位置与随葬品清单均以此为准——site/xuanhua-liaomu-qun.json 与 site/zhang-shiqing-mu.json 现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "确切出版年份、卷次与页码未核实，书名亦系据通行转述，未核对封面原文。",
+      "verified": false
+    },
+    {
+      "id": "baisha-songmu-baogao",
+      "title": "白沙宋墓",
+      "authors": "宿白 著，文物出版社，1957",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "中国宋代墓葬考古的经典发掘报告，首次系统建立仿木构砖雕墓的形制断代序列方法，是 site/baisha-songmu.json 中『器形序列』断代依据的直接出处——现引用通用信源 kaogu-wenwu 代指，此条登记以备将来替换为精确引用。",
+      "note": "版次未核实。",
+      "verified": false
+    },
+    {
+      "id": "rom-royal-ontario-museum",
+      "title": "Royal Ontario Museum（加拿大安大略皇家博物馆）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.rom.on.ca/",
+      "authority": "稷山兴化寺后殿壁画（1925–1928 年剥离出售）今藏机构，是 site/jishan-xinghua-si.json『壁画已不在原址』这一事实的现藏方。本库尚未核实该馆官网 API 或数字藏品页的可编程访问方式，亦未核实该壁画具体藏品号与展示状态。",
+      "note": "无法确认是否有公开 API；具体藏品页 URL 待人工核对。",
+      "verified": false
+    }
+  ]
+}
