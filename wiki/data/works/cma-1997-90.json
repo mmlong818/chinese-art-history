@@ -12,14 +12,13 @@
   "medium": "Fan painting; ink on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1200s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1997.90"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1997.90"
+          ],
+          [
+            "馆方作者",
+            "夏生 Xia Sheng (Chinese, active 1200s)"
           ]
         ]
       },
@@ -67,6 +70,22 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → southern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**馆方在作者字段上加了限定词「assisted by」（assisted by）。**这不是本库的判断，是馆方的著录。**限定词一旦存在，这件东西与该画家名下的真迹就不是一回事**——本库对摹本与原作分开处理已立规矩，此处照录该限定词，不代馆方取消它，也不据此另作裁断。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Li, Zuoxian [Li Tso-hsien 李佐賢]. Shu hua jian jing er shi si juan 書畫鑑景二十四卷. Taipei, Taiwan: Han hua, 1971 [minguo 61].（ch. 12, pp. 7(a)-7(b)）",
+          "Cheng, Qi 程琦. Xuan hui tang shu hua lu 萱暉堂書畫錄. Hong Kong: Xuan hui tang, 1972.（Reproduced: pp. 15(a)-15(b)）",
+          "Suzuki, Kei 鈴木敬. Chūgoku kaiga sōgō zuroku [中國繪畫總合圖錄 = Comprehensive Illustrated Catalog of Chinese Paintings], 第 1卷. アメリカ·カナダ篇 [= vol. 1 American and Canadian collections]. Tōkyō: Tōkyō Daigaku Shuppankai, 1982.（Reproduced:  #A22-010, p. I-260）",
+          "Edwards, Richard. The World Around the Chinese Artist: Aspects of Realism in Chinese Painting. Ann Arbor: University of Michigan, 1989.（Reproduced:  p. 23, fig. I-11, and I-11a）",
+          "Chou, Ju-hsi and Anita Chung. Silent poetry: Chinese paintings from the collection of the Cleveland Museum of Art. Cleveland, OH: The Cleveland Museum of Art, 2015.（p. 76）",
+          "**馆方记录另有 2 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +93,80 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's signature: Xia Sheng 夏生"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Sima Yin 司馬垔 [1400s]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Xiang Yuanbian 項元汴 [1525–1590]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Gushu 固叔 ([ikely Bao Shizhen 鮑士貞, zi Gushu, 1800s]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "(Cheng Qi 程琦 [1911–1988], Hong Kong, sold to Mr. and Mrs. A. Dean Perry)"
+      },
+      {
+        "t": "prov",
+        "when": "?–1987",
+        "text": "Mr. and Mrs. A. Dean Perry, Cleveland, OH"
+      },
+      {
+        "t": "prov",
+        "when": "1987–1997",
+        "text": "Mrs. A. Dean [Helen Wade Greene] Perry  [1911–1996], Cleveland, OH,  bequest to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1997–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1992",
+        "title": "Signs of Affection: Gifts Honoring the Museum's 75th Anniversary"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1997.90",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1997.90",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1997.90/1997.90_web.jpg",
+    "w": 567,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/1997.90/1997.90_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

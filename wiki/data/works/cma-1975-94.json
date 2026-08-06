@@ -12,14 +12,13 @@
   "medium": "Handscroll; ink and light color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1530」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1975.94"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1975.94"
+          ],
+          [
+            "馆方作者",
+            "謝時臣 Xie Shichen (Chinese, 1487–after 1567)"
           ]
         ]
       },
@@ -67,13 +70,104 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Sirén, Osvald. A History of Later Chinese Painting. London: The Medici Society, 1938.（Mentioned and Reproduced: I, 91, 92, pl. 64, and II, Lists, 214）",
+          "Sirén, Osvald. Kinas Konst under Tre årtusenden. Stockholm: Natur och kultur, 1943.（Mentioned and Reproduced: pp. 519, 520, pl. 114）",
+          "Sirén, Osvald. Chinese Painting: Leading Masters and Principles. New York: Ronald Press, 1956.（Mentioned and Reproduced: IV, 58, and VI, pl. 195, and VII, Lists, 191）",
+          "Lawton, Mary S. Hsieh Shih-Chʻên: A Ming Dynasty Painter Reinterprets the Past. Chicago: The University, 1978.（cat. no. 3）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Reproduced: cat. no. 168, pp. 212–214）",
+          "**馆方记录另有 4 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "風雨歸村圖 嘉靖庚寅秋日樗仙謝時臣. [印] 謝時臣印\n\n馆方英译：Artist's inscription, signature, and seal:  Returning to the Village in a Rainstorm.  On an autumn day, the gengyin year of the Jiajing era [1530].  Chuxian, Xie Shichen. \n[seal] Xie Shichen yin."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "3 additional seals unidentified."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Dr. H. Müller, Peking [Beijing], China"
+      },
+      {
+        "t": "prov",
+        "when": "?–1975",
+        "text": "(Tseng Hsien-chi [1919–2000], Boston, MA, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1975–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1976",
+        "title": "Year in Review: 1975"
+      },
+      {
+        "t": "exhib",
+        "when": "1978",
+        "title": "The Paintings of Hsieh Shih-ch'en"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "Visions of Landscape: East and West"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1975.94",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1975.94",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1975.94/1975.94_web.jpg",
+    "w": 900,
+    "h": 89,
+    "full": "https://openaccess-cdn.clevelandart.org/1975.94/1975.94_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

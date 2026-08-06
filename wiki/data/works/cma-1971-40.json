@@ -12,14 +12,13 @@
   "medium": "album leaf; ink, color, and gold on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1000s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1971.40"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -63,6 +62,16 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → northern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Pan, Zhengwei 潘正煒. Ting fan lou shu hua ji 聽帆樓書畫記. Shanghai: Shanghai shu hua chu ban she, 2000. (Text dated 1843)（Chap. 1）",
+          "Sotheby Parke Bernet Inc., New York. Chinese Paintings from the Chiang Er-Shih Collection. March  5, 1971.（Lot. 1）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1978. Cleveland, OH: The Cleveland Museum of Art, 1978.（Reproduced: p. 340）",
+          "Lee, Sherman E. \"River Village: Fisherman's Joy.\" The Bulletin of the Cleveland Museum of Art. Vol. 66, No. 7 (Oct., 1979), pp. 271–288.（Mentioned: pp. 271–288; Reproduced: p. 277, fig. 8）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Reproduced: cat. no. 14, pp. 25–26）"
+        ]
       }
     ],
     "dating": [
@@ -70,6 +79,65 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "2 unidentified seals on mounting."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1971",
+        "text": "Jiang Ershi [Chiang Er-shih] 蔣諤士 [1913–1972], consigned to Sotheby's for sale"
+      },
+      {
+        "t": "prov",
+        "when": "March 5, 1971",
+        "text": "(Sotheby's Parke Bernet Galleries, New York, NY, March 5, 1971 sale, lot no. 1)"
+      },
+      {
+        "t": "prov",
+        "when": "1971",
+        "text": "(Peter Marks, New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1971–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1971.40",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1971.40",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1971.40/1971.40_web.jpg",
+    "w": 1051,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1971.40/1971.40_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

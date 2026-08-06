@@ -12,14 +12,13 @@
   "medium": "hanging scroll; ink and light color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1127–1279」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1967.145"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1967.145"
+          ],
+          [
+            "馆方作者",
+            "馬遠 Ma Yuan (Chinese, c. 1150–after 1255)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → southern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Tu Mu (traditional attribution). T'ieh-wang san-hu [鐵網珊瑚 = Corals in an Iron Net]. Preface by Shen Te-ch'ien dated 1758. Taipei: National Central Library 國立中央圖書館, 1970.（ch. 8, p. 1(a)）",
+          "“Year in Review.” The Bulletin of the Cleveland Museum of Art 54, no. 10 (December 1967): 302–346.（Reporouced: p. 335; Mentioned: p. 347, no. 162）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1969. Cleveland, OH: The Cleveland Museum of Art, 1969.（Reproduced: p. 259）",
+          "Lee, Sherman E. \"Painting.\" In Quality: Its Image in the Arts. Edited by Louis Kronenberger, pp. 113–145. New York: Atheneum, 1969.（Mentioned: p. 121; Reproduced: p. 137, color pl.）",
+          "Etō, Shun. \"'Ba En kan Chikuen zu' Kinuhon bokuga tansai\" [Bamboo and Swallows attributed to Ma Yuan]. Yamato Bunka 大和文華 no. 51 (November 1969).（Reproduced: fig. 2）",
+          "**馆方记录另有 8 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,75 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "馬遠\n\n馆方英译：Artist's signature: Ma Yuan"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "12 additional seals: 1 of An Kuo (1481–1534); 7 of Hsiang Yüan-pien (1525–1590); 2 of Liang Ch'ing-piao (1620–1691); 2 unidentified.  (WKH)"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1967",
+        "text": "(Jean-Pierre Dubosc [1903–1988], Paris, France, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1967–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1967",
+        "title": "Year in Review: 1967"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Chinese Paintings: Themes and Techniques"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1967.145",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1967.145",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1967.145/1967.145_web.jpg",
+    "w": 658,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1967.145/1967.145_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

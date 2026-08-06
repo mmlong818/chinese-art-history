@@ -12,14 +12,13 @@
   "medium": "Hanging scroll; ink and color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 1888–89」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1999.6"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1999.6"
+          ],
+          [
+            "馆方作者",
+            "虛谷 Xugu (Chinese, 1823–1896)"
           ]
         ]
       },
@@ -67,6 +70,15 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "\"In the Company of Spirits.\" Kaikodo Journal, XI (Spring 1999): pp. 128-29, 272-273.（Mentioned and Reproduced: cat. no. 30）",
+          "Chung, Anita. \"The Life, Art, and Travels of Xugu (1823-1896).\" Kaikodo Journal, XI (Spring 1999): pp. 44-51.",
+          "Cleveland Museum of Art, “Major Benin Bronze Plaque, Rembrandt Print, Other Works of Art Enter CMA Collection,” March 12, 1999, Cleveland Museum of Art Archives.",
+          "Chou, Ju-hsi and Anita Chung. Silent poetry: Chinese paintings from the collection of the Cleveland Museum of Art. Cleveland, OH: The Cleveland Museum of Art, 2015.（Mentioned and Reproduced: pp. 470-472）"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +86,90 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "友山仁兄大人屬即教之，虛谷. [印]虛谷書畫\n\n馆方英译：Artist’s inscription and seal: \n[The painting] was dedicated to Youshan Ren xiong da ren. Xugu."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "未接虛公一經書2，夜臺畫興近何如。/\n聾丞今日狂談藝，更有誰人能起予。\n\n雨亭以友山所貽虛谷和上畫屬，题於泰山殘石樓中，戊戌三日二十日，高邕并記。\n\n馆方英译：Inscription by Gao Yong 高邕 (1820–1921), dated 1898:  \n\nThe book of poetry by Master Xu[gu] is still open./\nOn this night terrace, can any painting inspiration get close?/\nThe present Deaf Assistant Magistrate [i.e. Gao Yong] discusses art with all the fervor./\nIs anyone there to inspire me?\n\nMonk Xugu’s painting for Youshan is presented to Yuting. Inscribed and recorded by Gao Yong, at Canshi Lou in Mount Tai, on the 20th day, 3rd month of the wuxu year [1898]."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "虚谷上人，余未見其人。觀高聾題大氏，亦海上高流也。其畫下筆如風，隨意涂抹，皆成逸趣。此幀畫枇杷纍纍如缀金，坐其下若咽洞庭五月涼也！\n\n雨亭君所藏，今以貽頌周先生。清道人題。\n\n馆方英译：Inscription by Li Ruiqing 李瑞清 (1867–1920):  \n\nI have not had the fortune of meeting Master Xugu. From the writing of the Deaf-Mute Gao [i.e. Gao Yong], he must have been a lofty presence in Shanghai. In this painting, his brush sweeps across like wind. Whatever he does turns into untrammeled poetry. It depicts the loquats as bundles of gold. Were one to sit below the tree, it would be like inhaling the cool atmosphere in the fifth month at Lake Dongting!\n\nYuting once collected this work. Now it is given to [Zhang] Songzhou. Inscribed by Qing Daoren."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "c. 1888-89–?",
+        "text": "Youshan 友山 [late 19th century], given to Yuting"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Yuting 雨亭 [late 19th century]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Zhang Songzhou 張頌周 [b. 1873], by descent to Zhang Bihan"
+      },
+      {
+        "t": "prov",
+        "when": "?–1995",
+        "text": "Zhang Bihan (Chang Pi-han) 張碧寒 [1909–1995], Piedmont, CA"
+      },
+      {
+        "t": "prov",
+        "when": "?–1999",
+        "text": "(Kaikodo America, Inc., New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1999–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "2018",
+        "title": "Power and Possession: Chinese Calligraphy and Inscribed Objects – Chinese Gallery Rotation 240a, 241c"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "When Salt was Gold: Yangzhou, City of Riches and Art"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1999.6",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1999.6",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1999.6/1999.6_web.jpg",
+    "w": 423,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1999.6/1999.6_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

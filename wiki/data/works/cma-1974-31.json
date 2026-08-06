@@ -12,14 +12,13 @@
   "medium": "hanging scroll, ink and color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「late 1400s–early 1500」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1974.31"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1974.31"
+          ],
+          [
+            "馆方作者",
+            "殷宏 Yin Hong (Chinese, c. 1430-c. 1500)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Satake Koshaku-ke gozoki nyusatsu [佐竹候爵家御蔵噐入札 = Sale Catalogue of the Collection of the Marquis Satake Family], Tōkyō Bijutsu Club, November 3-5, 1917.（cat. no 46）",
+          "Lee, Sherman E. “The Year in Review for 1974.” The Bulletin of the Cleveland Museum of Art 62, no. 3 (March 1975): 62–102.（Reproduced: p. 91; Mentioned: p. 103, no. 166）",
+          "Lee, Sherman E. “Early Ming Painting at the Imperial Court.” The Bulletin of the Cleveland Museum of Art, vol. 62, no. 8, 1975, pp. 243–259.（Reproduced: pp. 297, 298, cover, fig. 18.）",
+          "Lee, Sherman E. “Early Ming Painting at the Imperial Court.” The Bulletin of the Cleveland Museum of Art 62, no. 8 (October 1975): 243–259.（Mentioned and Reproduced: pp. 256–258, fig. 17, Cover）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1978. Cleveland, OH: The Cleveland Museum of Art, 1978.（Reproduced: p. 348）",
+          "**馆方记录另有 12 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,80 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "殷宏. [印]金臺世家\n\n馆方英译：Artist's signature and seal: Yin Hong. [seal] Jin tai shi jia"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–November 1917",
+        "text": "Marquis Yoshitaka Satake 侯爵 佐竹義理 [1858–1914]"
+      },
+      {
+        "t": "prov",
+        "when": "November 3–5, 1917",
+        "text": "(Tōkyō Bijutsu Club 東京美術俱樂部, Tokyo, Japan, November 3–5, 1917 sale, The Collection of the Marquis Satake Family 佐竹候爵家御蔵)"
+      },
+      {
+        "t": "prov",
+        "when": "?–1974",
+        "text": "(Fugendo Co., Ltd., Tokyo, Japan, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1974–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1975",
+        "title": "Year in Review: 1974"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "2002",
+        "title": "Sesshu, Master of Ink and Brush:  500th Anniversary Exhibition"
+      },
+      {
+        "t": "exhib",
+        "when": "2020",
+        "title": "Layers of Meaning: China’s Flora and Fauna in Painting and on Porcelain"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1974.31",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1974.31",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1974.31/1974.31_web.jpg",
+    "w": 704,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1974.31/1974.31_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

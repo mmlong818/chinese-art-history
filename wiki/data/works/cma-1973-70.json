@@ -12,14 +12,13 @@
   "medium": "Pair of hanging scrolls; ink and color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1454」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1973.70"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -67,6 +66,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "“The Year in Review for 1973.” The Bulletin of the Cleveland Museum of Art 61, no. 2 (February 1974): 31–78.（Reproduced: pp. 66–67; Mentioned: p. 79, nos. 200, 203）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1978. Cleveland, OH: The Cleveland Museum of Art, 1978.（Reproduced: p. 348）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Reproduced: pp. 153-154, cat. no. 131a-b）",
+          "Suzuki, Kei 鈴木敬. Chugoku kaiga shi [中國繪畫史 = A History of Chinese Painting]. Tōkyō: Yoshikawa Kobunkan, 1981.（Reproduced: p. 4, no. 5a and 5b）",
+          "Suzuki, Kei 鈴木敬. Chūgoku kaiga sōgō zuroku [中國繪畫總合圖錄 = Comprehensive Illustrated Catalog of Chinese Paintings], 第 1卷. アメリカ·カナダ篇 [= vol. 1 American and Canadian collections]. Tōkyō: Tōkyō Daigaku Shuppankai, 1982.（Reproduced: no. A22-012, p. 1-260）",
+          "**馆方记录另有 10 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +84,75 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "大明景泰五年八月初三日施\n\n馆方英译：Donated on the third day of the eighth month in the fifth year of the Jingtai reign (1454) of the Great Ming."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "1450-56",
+        "text": "Ming imperial collection [Jingtai era, 1450–1456]"
+      },
+      {
+        "t": "prov",
+        "when": "?-1973",
+        "text": "(Shunichi Yabumoto Co., Ltd., Tokyo, Japan, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1973-",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1994",
+        "title": "Latter Days of the Law: Images of Chinese Buddhism 850-1850"
+      },
+      {
+        "t": "exhib",
+        "when": "2019",
+        "title": "Taming Tigers and Releasing Dragons: Masterpieces of Chinese Buddhist Art – Chinese Gallery Rotation 240a, 241c"
+      },
+      {
+        "t": "exhib",
+        "when": "2021",
+        "title": "Monk Artisans of the Joseon Dynasty"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1973.70",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1973.70",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1973.70/1973.70_web.jpg",
+    "w": 900,
+    "h": 775,
+    "full": "https://openaccess-cdn.clevelandart.org/1973.70/1973.70_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

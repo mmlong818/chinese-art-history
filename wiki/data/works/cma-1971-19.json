@@ -12,14 +12,13 @@
   "medium": "Hanging scroll; ink on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1633」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1971.19"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1971.19"
+          ],
+          [
+            "馆方作者",
+            "陶泓 Tao Hong (Chinese, active c. 1610–1640)"
           ]
         ]
       },
@@ -67,13 +70,99 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Lee, Sherman. “To See Big within Small: Hsiao-Chung-Chien-Ta.” The Burlington Magazine 114, no. 830 (May 1972): 312+314–323.（Mentioned and Reproduced: p. 322, figs. 68, 69）",
+          "Lee, Sherman Emery, and James Robinson. The Colors of Ink: Chinese Paintings and Related Ceramics from the Cleveland Museum of Art. New York: Asia Society; distributed by New York Graphic Society, 1974.（cat. no. 37）",
+          "Vanderstappen, Harrie A. \"Seventeenth Century.\" In Artists and Traditions: Uses of the Past in Chinese Culture, pp. 149–168. Christian F. Murck, editor. Princeton, NJ: The Art Museum, Princeton University, 1976.（Mentioned and Reproduced: p. 155, fig. 4）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Mentioned and Reproduced: cat. no. 200, p. 256）",
+          "Tōyō kaiga no seika: tokubetsuten: Kurīvurando Bijutsukan no korekushon kara [東洋絵画の精華: 特别展: クリーヴラント美術館のコレクションから= Highlights of Asian painting from the Cleveland Museum of Art]. Nara, Japan: Nara National Museum, 1998.（Mentioned and Reproduced: p. 65, cat. no. 40）",
+          "**馆方记录另有 1 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's inscription, signature and two seals: Imitating Kao Fan-shan's [Kao K'o-kung's] brush at Liu-yün-ho [Valley of Lingering Clouds] during a spring day in the kuei-yu year [1633].  Yen-shan, T'ao Hung [seals] T'ao Hung chih-yin; tzu Ch'iu-shui.  \n(Translated by Wai-Kam Ho)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 additional seal unidentified."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1971",
+        "text": "(Hsien-chi Tseng 曾憲七 [1919–2000], Boston, MA and New Hampshire, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1971–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1971",
+        "title": "Year in Review: 1971"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "Visions of Landscape: East and West"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1971.19",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1971.19",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1971.19/1971.19_web.jpg",
+    "w": 529,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1971.19/1971.19_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

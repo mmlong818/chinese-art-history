@@ -12,7 +12,7 @@
   "medium": "Horizontal flat mount; ink and color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 2004」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
@@ -52,6 +52,10 @@
           [
             "藏品号",
             "2006.115"
+          ],
+          [
+            "馆方作者",
+            "李華弌 Li Huayi (Chinese, b. 1948)"
           ]
         ]
       },
@@ -63,12 +67,63 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 2002–2006 唯一落入 contemporary；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Chung, Anita, \"New Chinese Landscapes\", Cleveland Museum of Art. Cleveland Art: The Cleveland Museum of Art Members Magazine. Vol. 47 no. 05, May/June 2007（Mentioned & reproduced: p. 10）",
+          "Chung, Anita. \"Re-emergence: New Chinese Galleries and Art Acquisitions of The Cleveland Museum of Art.\" Orientations vol 44 no. 8 (November/December 2013): 64-75.（Reproduced: pp. 72-3, fig. 9）",
+          "Cleveland Museum of Art. The CMA Companion: A Guide to the Cleveland Museum of Art. Cleveland: Cleveland Museum of Art, 2014.（Mentioned and reproduced: P. 111）"
+        ]
       }
     ],
     "dating": [
       {
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "李華弌  [印] 華弌\n\n馆方英译：Artist's signature and seal, \"Huayi\" in lower left"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "2004–?",
+        "text": "Collection of the artist, San Francisco, CA"
+      },
+      {
+        "t": "prov",
+        "when": "?–2006",
+        "text": "(Kaikodo America Inc., New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "2006–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "2020",
+        "title": "Spotlight on a New Generation: Contemporary Chinese Artists"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
   }

@@ -12,14 +12,13 @@
   "medium": "handscroll; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1347」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1963.259"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1963.259"
+          ],
+          [
+            "馆方作者",
+            "吳鎮 Wu Zhen (Chinese, 1280–1354)"
           ]
         ]
       },
@@ -67,13 +70,179 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Cleveland Museum of Art, Ju-hsi Chou, and Anita Chung. Silent poetry: Chinese paintings from the collection of the Cleveland Museum of Art. 2015.（133）",
+          "http://liyanshan.org/book.php?id=a023",
+          "http://liyanshan.org/book.php?id=a023",
+          "http://liyanshan.org/book.php?id=a023",
+          "Gu, Fu 顧復. Ping sheng zhuang guan 平生壯觀. Shanghai: Shanghai ren min mei shu chu ban she, 1962.（ch. 9, p. 62）",
+          "**馆方记录另有 28 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "依村構草亭，端方意匠宏。\n林深禽鳥樂，塵遠竹松輕。\n泉石俱延賞，琴書悅性情。\n何當謝凡近，任適慰平生。\n \n至正七年丁亥冬十月，為元澤戲作草亭詩意。梅沙彌書\n[印]楳華盦; 嘉興吳鎮仲圭書畫記\n\n馆方英译：Artist's inscription, signature, and 2 seals:\n \nA thatched pavilion stands by the side of a hamlet. \nWell conceived, the view from it is expansive. \nThe forest deepens just as the birds are joyful. \nThe bamboo and pines remain light, as the dusty world is far away. \nIts spring and rocks are for our enjoyment. \nThe qin and books are to delight our spirit.\nHow should I bid farewell to those of the common place?\nMay it suit our heart’s desire and bring solace to our life.\n \nIn the tenth month of winter, in dinghai, the seventh year of Zhizheng [1347], did this Poetic Feeling in a Thatched Pavilion playfully for Yuanze. Written by Mei shami [Novice of the Plum Blossom]. \n[seals] Mei hua an; Jiaxing Wu Zhen zhong gui shu hua ji"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "我愛梅花翁，巨老傳心印。 \n脩此水墨缘，種種得蒼潤。 \n樹石墮筆鋒，造化不能吝。 \n而今橡林下，我願執掃汛。\n \n後學沈周 [印]启南\n\n馆方英译：Colophon by Shen Zhou (1427–1509): \n \nI love the Old Man of the Plum-blossom, \nWho inherited the secrets of Juran from heart to heart. \nIn cultivating this \"water and ink kinship\" \nHe was able to endow everything with a touch of aged mellowness. \nTrees and rocks seem to fall from his brush [so effortlessly] \nThat even nature itself could hardly deny their emergence. \nSo now, under the grove of the oak trees, \nI am willing to serve him with all humility.\n \nShen Zhou, a later follower. [seal] Qinan"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon by Chen Rentao (1952):\n\n予求梅道人畫二十年不可得。所見多膺鼎，即故宮所藏山水數軸都不可靠。傳世真迹，惟《漁父圖》、《嘉禾八景》與此《草亭詩意》而已。壬辰十月十四日余大病初愈，居家休養，研山師忽持此圖相贈。展卷披覽，頓覺精神沛振，如服僊藥。同日又得宋拓柳公權《神策軍紀聖德碑》，及群玉堂藏《真草書千(字)文》，皆海內孤本。一日得數寶，欣喜何如，書以志幸。\n \n陳仁濤識 [印]陳氏仁濤"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon by Chen Rentao:\n \n此圖作於至正七年丁亥，時年六十八，盖其晚年神品也。\n \n濤又識 [印]陳仁濤"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Title on frontispiece by Li Dongyang 李東陽 (1447–1516)."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "33 additional seals: \n\n1 seal of Li Chao-heng 李肇亨 (1592–1664)：檇李李肇亨書畫記; \n9 seals of Liang Qingbiao 梁清標 (1620–1691): 蒼巖子、蕉林、蕉林梁氏書畫之印、蕉林秘玩、蕉林書屋、蕉林玉立氏圖書、棠邨 (appears twice)、棠邨審定; \n1 seal of Wang Yirong (1845–1900): 懿榮;\n3 seal of Li Yanshan (1898–1961): 雙銕笛樓 (appears twice)、硯山心賞;\n12 seals of Chen Rentao 陳仁濤（1906–1968）：陳氏仁濤、陳仁濤珍藏印、金匱寶藏·陳氏仁濤 (appears three times)、金匱秘笈、金匱室、金匱室精鑒璽 (appears twice)、金匱室主、金匱神品、仁濤奇緣; \n1 seal: 崐溟居士;\n1 seal: 林止在㭯生圖書印;\n3 seals unidentified."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Zhang Chou 張丑 [1577–1643?]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Li Zhaoheng 李肇亨 [active 1600–1662]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Liang Qingbiao 梁清標 [1620–1691]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Wang Yirong 王懿榮 [1848–1900]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Chen Rentao [J. D. Chen] 陳仁濤 [1906–1968], Hong Kong"
+      },
+      {
+        "t": "prov",
+        "when": "by 1959–1963",
+        "text": "(Chiang Er-shih 蔣鍔士 [1913–1972], Hong Kong, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1963–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1963",
+        "title": "Year in Review (1963)"
+      },
+      {
+        "t": "exhib",
+        "when": "1968",
+        "title": "Chinese Art Under the Mongols: The Yuan Dynasty (1279–1368)"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1976",
+        "title": "Looking East: Yuan Dynasty Paintings"
+      },
+      {
+        "t": "exhib",
+        "when": "1977",
+        "title": "Traces of the Brush: Studies in Chinese Calligraphy"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Chinese Paintings: Themes and Techniques"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "Visions of Landscape: East and West"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "1994",
+        "title": "Asian Autumn: New Objects/New Insights: Cleveland's Recent Chinese Acquisitions"
+      },
+      {
+        "t": "exhib",
+        "when": "2015",
+        "title": "Silent Poetry: Masterworks of Chinese Painting"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1963.259",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1963.259",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1963.259/1963.259_web.jpg",
+    "w": 900,
+    "h": 56,
+    "full": "https://openaccess-cdn.clevelandart.org/1963.259/1963.259_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

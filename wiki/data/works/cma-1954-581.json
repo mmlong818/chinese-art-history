@@ -12,14 +12,13 @@
   "medium": "handscroll; ink and color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1500s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1954.581"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1954.581"
+          ],
+          [
+            "馆方作者",
+            "文伯仁 Wen Boren (Chinese, 1502–1575)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Yamamoto, Teijirō 山本悌二郎. Chōkaidō shoga mokuroku 澄懐堂書晝目錄. Tokyo: Tanaka Keitarō, 1932.（Reproduced: III, pl. 94）",
+          "Lee, Sherman E. Chinese Landscape Painting. Cleveland, OH: The Cleveland Museum of Art, 1954.（Mentioned: p. 151. cat. no. 58; Reproduced: p. 84）",
+          "Sirén, Osvald. Chinese Painting: Leading Masters and Principles. New York: Ronald Press, 1956.（Mentioned: VII, Lists, 266）",
+          "Lee, Sherman E. Chinese Landscape Painting. Cleveland, OH: The Cleveland Museum of Art, 1962.（cat.  no. 59）",
+          "Suzuki, Kei 鈴木敬. Chugoku kaiga shi 中國繪畫史. Tōkyō: Yoshikawa Kobunkan, 1981.",
+          "**馆方记录另有 3 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,75 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "\"潯陽送客圖\"\n五峰山人文伯仁寫于停雲館中 [印] 文伯仁; 五峰\n\n馆方英译：Artist's inscription, signature, and 2 seals:  \n\nSaying Farewell at Xunyang.  \nWu feng shan ren, Wen Boren painted [this] at Ting yun guan.  [seals] Wen Boren; Wu feng."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "2 colophons and 9 additional seals: \n\n1 transcription of \"Pipa xing 琵琶行” (Song of Pipa) and 3 seals of Zhu Yizun 朱彜尊 (1629–1709); \n2 seals of Wu Rongguang 吳榮光 (1773–1843); \n1 colophon, dated 1826, and 3 seals of Wu Xijia 吳錫嘉 (mid-1700s)"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Wu Xijia 吳錫嘉 [mid-1700s]"
+      },
+      {
+        "t": "prov",
+        "when": "by 1932",
+        "text": "Yamamoto Teijiro 山本悌二郎 [1870–1937], Tokyo, Japan"
+      },
+      {
+        "t": "prov",
+        "when": "?–1954",
+        "text": "(Howard Hollis & Company, Cleveland, OH, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1954–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1954",
+        "title": "Chinese Landscape Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "2021",
+        "title": "Migrations of Memory—The Poetry and Power of Music"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1954.581",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1954.581",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1954.581/1954.581_web.jpg",
+    "w": 1263,
+    "h": 129,
+    "full": "https://openaccess-cdn.clevelandart.org/1954.581/1954.581_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

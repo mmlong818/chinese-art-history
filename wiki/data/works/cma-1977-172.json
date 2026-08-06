@@ -12,14 +12,13 @@
   "medium": "hanging scroll, ink on sutra paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「late 1400s-1500s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1977.172"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1977.172"
+          ],
+          [
+            "馆方作者",
+            "文徵明 Wen Zhengming (Chinese, 1470–1559)"
           ]
         ]
       },
@@ -67,6 +70,21 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**馆方在作者字段上加了限定词「imitator of」（imitator of）。**这不是本库的判断，是馆方的著录。**限定词一旦存在，这件东西与该画家名下的真迹就不是一回事**——本库对摹本与原作分开处理已立规矩，此处照录该限定词，不代馆方取消它，也不据此另作裁断。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Edwards, Richard. The Art of Wen Cheng-Ming (1470-1559). Ann Arbor, MI: University of Michigan, 1976.（Reproduced: cat. no. 33）",
+          "Hironobu Kohara 古原宏伸. Shin Shū, Bun Chōmei [ 沈周 文徴明 = Shen Zhou, Wen Zhengming]. Tōkyō: Chūō Kōronsha, 1978.（Reproduced:  p. 168, pl. 62）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Reproduced: cat. no. 173, pp. 218-220）",
+          "Laozi 老子 and Stephen Mitchell, translator. Tao te ching 道德经. London: Frances Lincoln, 1999.（Reproduced: cover, p. 64, p. 116）",
+          "Chou, Ju-hsi and Anita Chung. Silent poetry: Chinese paintings from the collection of the Cleveland Museum of Art. Cleveland, OH: The Cleveland Museum of Art, 2015.（Mentioned and Reproduced: pp. 270-278）"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +92,74 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's inscription, signature, and 2 seals on the separate sheet of paper above the painting:\n\nIn the empty studio sitting in deep loneliness;/ \nLike cool sound sending pure beauty,/ \nOr pendants swinging in the wind,/ \nOr a solitary qin suggesting running water./ \nWhere is that sound from?/ \nThe green poles in the courtyard,/ \nClear and light like an echo,/ \nThe sound and ears are in tune./ \nThe sound of bamboo now very beautiful;/ \nMy ears are also clear./ \nWho says the sound is in the bamboo?/ \nTo know it depends on oneself./ \nA noble person is like a tall bamboo;/ \nA thin bamboo is like the noble man./ \nWhen the sound enters, the mind responds,/ \nOnly one thing but artificially separated./ \nA bystander searching for the sound,/ \nBut the sound can only be found in silence./ \nOtherwise I am still I,/ \nBamboo is still bamboo./ \nEven if I live with bamboo every day,/ \nStill the music will be a thousand miles away./ \nLook at sound's most primeval source:/ \nDid it enter a zither or a lute?\n\nComposing a poem on Listening to the Bamboo. Written by Zhengming at the Ting yun guan. Wen Zhengming \n[2 seals] Wen Zhengming yin 文徵明印; Wei geng yin wu yi jiang 惟庚寅吾以降."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[印] 文徵明印; 惟庚寅吾以降.\n\n馆方英译：2 artist's seals on middle right edge of the painting: Wen Zhengming yin; Wei geng yin wu yi jiang [It was in the gengyin year when I was born.]"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "5 seals of the Qianlong emperor (r. 1736-95)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[印] 金粟山藏經紙\n\n馆方英译：Seal (once on the calligraphy section and once on the painting): Jin su shan cang jing zhi"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Qing imperial collection [seals of Emperor Qianlong, r. 1736–1795]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Zhang Yanmou 張燕謀 [1846–1913]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Wen Qi 文祁 [1900s]"
+      },
+      {
+        "t": "prov",
+        "when": "?-1977",
+        "text": "(Jean-Pierre Dubosc [1904–1988], Paris, France, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1977-",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1977.172",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1977.172",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1977.172/1977.172_web.jpg",
+    "w": 334,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1977.172/1977.172_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

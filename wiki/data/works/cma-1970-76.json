@@ -12,14 +12,13 @@
   "medium": "Hanging scroll; ink and slight color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 1480–1507」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1970.76"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1970.76"
+          ],
+          [
+            "馆方作者",
+            "呂文英 Lu Wenying (Chinese)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Suzuki, Kei 鈴木敬. Chūgoku bijutsu 中國美術. Tōkyō: Kōdansha, 1972.（Mentioned and Printed; II, pt. 2, pp. 215–216, pl. 3）",
+          "Suzuki, Kei 鈴木敬. Ri Tō, Ba En, Ka Kei 李唐・馬遠・夏珪. Tōkyō: Kōdansha, Shōwa 49 [1974].（Reproduced: p. 168, pl. 73）",
+          "Lee, Sherman E. “Early Ming Painting at the Imperial Court.” The Bulletin of the Cleveland Museum of Art, vol. 62, no. 8, 1975, pp. 243–259.（Reproduced: p. 251, figs. 11–13）",
+          "Kawakami, Kei 川上涇, and Takeyoshi Tsuruta 鶴田武. Chūgoku no meiga 中国の名画. Tōkyō: Sekai Bunkasha, 1980.（Mentioned and Reproduced:  X, 38, p. 36）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1978. Cleveland, OH: The Cleveland Museum of Art, 1978.（Reproduced: p. 348）",
+          "**馆方记录另有 11 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,80 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "呂文英  [印] 日近清光\n\n馆方英译：Artist's signature and seal:  Lu Wenying [seal] Ri jing qing guang."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?-1970",
+        "text": "(Kinzen Company, Ltd., Tokyo, Japan, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1970-",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1971",
+        "title": "Year in Review: 1970"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2014",
+        "title": "Admired from Afar: Masterworks of Japanese Painting from the Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2016",
+        "title": "Ji Yun-Fei: Last Days of Village Wen"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1970.76",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1970.76",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1970.76/1970.76_web.jpg",
+    "w": 548,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1970.76/1970.76_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

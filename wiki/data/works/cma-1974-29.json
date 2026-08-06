@@ -12,14 +12,13 @@
   "medium": "Hanging scroll; ink and light color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1100s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1974.29"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1974.29"
+          ],
+          [
+            "馆方作者",
+            "劉 燾 Liu Tao (Chinese, late 1000s–early  1100s)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → southern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Lee, Sherman E. “The Year in Review for 1974.” The Bulletin of the Cleveland Museum of Art 62, no. 3 (March 1975): 62–102.（Mentioned: p. 103, no. 182; reproduced: p. 89）",
+          "Lee, Sherman E. “Varieties of Portraiture in Chinese and Japanese Art.” The Bulletin of the Cleveland Museum of Art 64, no. 4 (April 1977): 118–136.（Mentioned and reproduced: p. 127. figs. 10–11）",
+          "Nara Kokuritsu Hakubutsukan 奈良国立博物館. Nihon Bukkyō bijutsu no genryū [Sources of Japanese Buddhist art: special exhibitions = 日本仏敎美術の源流]. Nara: Nara Kokuritsu Hakubutsukan, Shōwa 53 [1978]（cat. no. 63）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Reproduced: cat. no. 17, p. 29）",
+          "Admired from afar: masterworks of Japanese painting from the Cleveland Museum of Art [クリーブランド美術館展 : 名画でたどる日本の美 Kurīburando Bijutsukan ten: meiga de tadoru Nihon no bi ]. Tokyo: Tōkyō Kokuritsu Hakubutsukan, 2014.（Reproduced: fig. 2, p. 55）",
+          "**馆方记录另有 1 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,90 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Inscription by Liu Tao (late 1000s–early 1100s):\n\nDignified with the perfection of the upasampada,/ \nHis appearance is like his mind;/ \nUncompromising and loftily aloof,/ \nHis mind is like his appearance./ \nTo say he is square, he proves to be round;/ \nHe looks timid, yet his spirit is unbound./ \nHaving no attachment, and holding no reins,/ \nMan and deities alike take refuge in him.\n(Translation by WKH, 1980)"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "before 1974",
+        "text": "Muto Collection"
+      },
+      {
+        "t": "prov",
+        "when": "?–1974",
+        "text": "(Nisaburo Mizutani, Kyoto, Japan, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1974–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1975",
+        "title": "Year in Review: 1974"
+      },
+      {
+        "t": "exhib",
+        "when": "1978",
+        "title": "Sources of Japanese Buddhist Art"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "2014",
+        "title": "Admired from Afar: Masterworks of Japanese Painting from the Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2019",
+        "title": "Facing the Ancestors: Chinese Portraits and Figure Painting – Chinese Gallery Rotation 240a, 241c"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1974.29",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1974.29",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1974.29/1974.29_web.jpg",
+    "w": 384,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/1974.29/1974.29_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

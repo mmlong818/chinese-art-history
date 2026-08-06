@@ -12,14 +12,13 @@
   "medium": "hanging scroll; ink and light color on satin",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1650」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1971.227"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1971.227"
+          ],
+          [
+            "馆方作者",
+            "劉度 Liu Du (Chinese, active c. 1628-after 1653)"
           ]
         ]
       },
@@ -72,13 +75,102 @@
         "t": "stmt",
         "state": "disp",
         "text": "**分期订正（原作 `ming`，改为 `qing`）。**馆方文化断代作「Ming dynasty (1368–1644)」而馆方年代作「1650」——**1650 已入清**，两者互相矛盾。本库据年代改归清，并记下这处矛盾。　照录不等于把一处自相矛盾原样传下去——**照录的是馆方说了什么，不是把它的矛盾也一并继承。**"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Reproduced: cat. no. 198, p. 255）",
+          "Little, Stephen. Realm of the Immortals: Daoism in the Arts of China: the Cleveland Museum of Art, February 10-April 10, 1988. Cleveland, OH: The Cleveland Museum of Art in cooperation with Indiana University Press, 1988.（Reproduced: cat. no. 8, pp. 36-37）",
+          "Delacour, Catherine. La Voie du Tao: un Autre Chemin de L'être : Galeries Nationales, Grand Palais, 29 Mars-5 Juillet 2010. Paris: Reunion des Musees Nationaux, 2010.（Reproduced: cat. 67.2, pp. 266-267 and p. 59）",
+          "Chou, Ju-hsi and Anita Chung. Silent poetry: Chinese paintings from the collection of the Cleveland Museum of Art. Cleveland, OH: The Cleveland Museum of Art, 2015.（Reproduced: pp. 342-344）"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's inscription, signature, and 2 seals at middle right edge: \n\nIn the tenth month of the gengyin year [1650], painted in imitation of Zhao Chengzhi [Chao Mengfu].  Liu Du [seals] Liu Du zhi yin; Shu xian."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "2 additional seals of Low Chuck Tiew 劉作籌 (1911–1993)."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Low Chuck Tiew 劉作籌 [1911–1993]"
+      },
+      {
+        "t": "prov",
+        "when": "?-1971",
+        "text": "(Walter Hochstadter [1914–2007], New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1971-",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1971",
+        "title": "Year in Review: 1971"
+      },
+      {
+        "t": "exhib",
+        "when": "1988",
+        "title": "Realm of the Immortals: Daoism in the Arts of China"
+      },
+      {
+        "t": "exhib",
+        "when": "2010",
+        "title": "La voie du Tao, un autre chemin de l'Etre"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1971.227",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1971.227",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1971.227/1971.227_web.jpg",
+    "w": 349,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1971.227/1971.227_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

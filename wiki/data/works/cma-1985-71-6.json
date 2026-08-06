@@ -12,14 +12,13 @@
   "medium": "album leaf, ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1788」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1985.71.6"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1985.71.6"
+          ],
+          [
+            "馆方作者",
+            "閔貞 Min Zhen (Chinese, 1730–after 1788)"
           ]
         ]
       },
@@ -67,6 +70,15 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Ding, Nianxian 丁念先. Nian sheng lou du hua xiao ji [念聖樓讀畫小紀 = Chinese calligraphy and painting of various dynasties in the collection of Nianshenglou]. Taibei: Wen xing za zhi she, 1961.（Mentioned: p. 41, no. 85）",
+          "Fukunaga, Takehiko 福永武彥, and Howard L. Rogers. Kinnō, Bunjinga suihen. chiyūgo (9) 金農, 文人画粋編. 中国篇 9. Tōkyō: Chūōkoronsha, 1976.（Mentioned and Reproduced: pls. 94–97, p. 179, fig. 30）",
+          "Sotheby's, Parke, Bernet, New York. Fine Chinese Paintings. June 3, 1985 sale.（Mentioned and Reproduced: cat. no. 69）",
+          "Chou, Ju-hsi and Anita Chung. Silent poetry: Chinese paintings from the collection of the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, 2015.（Reproduced: pp. 462–465）"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +86,69 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Inscription by Min Chen on the last leaf:\r\n\r\nI have a habit of collecting strange rocks.  My friend Tai-li shan-jen* treasures my paintings as much as I treasure strange rocks.  Once we agreed to exchange what we love with each other.  However, my busy activities have kept me from carrying this out.  This summer I realized that this strange rock has been sitting in my studio for five years, so I painted this to fulfill my old promise.  As a record, I chose the grotesque cliff in the last scene of this twelve-leaf album.  Cheng-chai, Min Chen inscribed this on the sixth day of the sixth month [July 9] of the wu-shen year [1788].\r\n\r\n*   Tai-li shan-jen is Wang Li [tzu:  Li-fu]  tr. Hou-mei Ishida\r\n\r\nSix seals appearing on the leaves:\r\n\r\nMin Chen, Cheng-chai, Ching-ch'iao, Chen, Liao-t'ang, Min Chen chih-yin."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "1788–?",
+        "text": "Daili Shanren 戴笠山人 [active late 1700s]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Ni Yun 倪耘 [d. 1864]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Yan Shiqing 顏世清 [1873–1929]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Xu Xiaopu 徐小圃 [1887–1961]"
+      },
+      {
+        "t": "prov",
+        "when": "c. mid-1900s",
+        "text": "Ding Nianxian 丁念先 [1906–1969]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1985",
+        "text": "(Eskenazi Ltd., London, England, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1985–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1985.71.6",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1985.71.6",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1985.71.6/1985.71.6_web.jpg",
+    "w": 572,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1985.71.6/1985.71.6_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

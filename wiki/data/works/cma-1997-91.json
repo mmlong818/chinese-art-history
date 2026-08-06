@@ -12,14 +12,13 @@
   "medium": "hanging scroll, ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1347」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1997.91"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1997.91"
+          ],
+          [
+            "馆方作者",
+            "王淵 Wang Yuan (Chinese, c. 1299-after 1366)"
           ]
         ]
       },
@@ -67,13 +70,119 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Jiao yu bu di er ci quan guo mei shu zhan lan hui zhuan ji [敎育部第二次全國美術展覽會專集 = A special collection of the second National Exhibition of Chinese Art under the auspices of the Ministry of Education]. [Nanjing?]: Shang wu yin shu guan, 1937.（vol. 1, cat. no. 68）",
+          "Wang, Chi-ch'ien 王季遷. An Exhibition of Authenticated Chinese Paintings, April 1948. New York: C.T. Loo, 1948.（cat. no. 8）",
+          "Rowland, Benjamin. Masterpieces of Chinese Bird and Flower Painting; A Loan Exhibition. October 30-December 14, 1951. Cambridge, MA: Fogg Art Museum, 1951.（cat. no. 15）",
+          "Caro, Frank and Hsien-Chi Tseng. Loan Exhibition of Chinese Paintings. Toronto: Royal Ontario Museum of Archaeology, 1956.（cat. no. 7）",
+          "Goepper, Roger. 1000 Jahre chinesische Malerei. München: Haus der Kunst, 1959.（cat. no. 32）",
+          "**馆方记录另有 5 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "至正丁亥春 錢塘王淵若水寫秋景鶉雀圖\n[印] 澹轩; [印] 若水; [印] 墨妙筆精\n\n馆方英译：Artist's inscription, signature, and 3 seals: In the year of Zhizheng, spring of dinghai [1347], Wang Yuan, Ruoshui of Qiantang, drew this picture of Quails and Sparrows in an Autumn Scene. \n[seals] Danxuan; Ruoshuii; Mo miao bi jing."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "翦翦輕風搖翠葆，團團清露滴金叢。\n劍南畫手今何在，冷落賓榔枸杞新。\n鐵篴\n[印] 杨维桢印; [印] 廉夫\n\n馆方英译：1 poem and 2 seals of Yang Weizhen (1296-1370): \n\nHow lovely is the light breeze that stirs the verdant foliage./ \nLike pearls the fresh dew drips over the golden groves./ \nWhere is the painter now, who hailed from Jian’nan?/ \nLike the leftover betel nut, it is being replaced with fresh goji berry.\n\nTiedi.\n[Seals] Yang Weizhen yin; Lianfu"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 inscription and 10 seals of the Qianlong emperor (r. 1736-95)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "4 seals of Zhang Heng 張珩 (1915-1963)"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Qing imperial collection [seals of Emperor Qianlong, r. 1736–95]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Zhang Heng 張珩 [1915–1963]"
+      },
+      {
+        "t": "prov",
+        "when": "?-1960",
+        "text": "(Frank Caro [1904–1980], New York, NY, sold to Mr. and Mrs. A. Dean Perry)"
+      },
+      {
+        "t": "prov",
+        "when": "1960-1997",
+        "text": "Mr. A. Dean and Mrs. Helen Wade Greene Perry [1911-1996], Cleveland, OH, bequest to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1997-",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1959",
+        "title": "1000 Jahre Chinesische Malerei"
+      },
+      {
+        "t": "exhib",
+        "when": "1968",
+        "title": "Chinese Art Under the Mongols: The Yuan Dynasty (1279–1368)"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "Six Dynasties of Chinese Painting (Chinese art rotation)"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1997.91",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1997.91",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1997.91/1997.91_web.jpg",
+    "w": 492,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/1997.91/1997.91_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

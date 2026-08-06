@@ -12,14 +12,13 @@
   "medium": "Hanging scroll; ink and light color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1732」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1954.263"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1954.263"
+          ],
+          [
+            "馆方作者",
+            "華喦 Hua Yan (Chinese, 1682–c. 1765)"
           ]
         ]
       },
@@ -67,13 +70,139 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Deng, Qiumei 鄧秋枚. Shen zhou da guan 神州大觀. Shanghai: Shen zhou guo guang she, 1912.（Reproduced: pl. (18)）",
+          "Kawai, Senro 河井荃廬, editor. Shina nanga taisei 支那南畫大成. Tōkyō: Kōbunsha, 1935.（Mentioned and Reproduced: X, pl. 137）",
+          "Pan, Zunqi 潘遵祈. Xu jing zhai suo cang ming hua ji 虛靜齋所藏名畫集. Shanghai: Shang wu yin shu guan, Minguo 24 [1935].（Reproduced: pl. 12）",
+          "Sirén, Osvald. A History of Later Chinese Painting. London: The Medici Society, 1938.（Mentioned: II, Lists, 253）",
+          "Ōmura, Seigai 大村西崖 and Ōmura Kidō 大村文夫. Chūgoku meigashū. 8 [中国名画集. 第8冊 = Collection of famous Chinese paintings]. Tōkyō: Ryūbunshokyoku, 1945.（VIII, pl. 13）",
+          "**馆方记录另有 16 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's inscription, signature, and 2 seals: \n\nOn a winter day in the renzi year [1732], while leisurely sitting in my mountain pavilion, I happened to have imitated the brush style of Yuan masters on the two verses: \"A guest came from the dusty world for a visit; in the small cottage we talked about the sound of autumn.\"\n\nXin luo shan ren 新羅山人 [seals] Hua Yan 華喦; Qiuyue 秋岳."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 colophon and 2 seals of Zhang Tingji 張廷濟 (1768–1848): \n\nOld Hua [Yan], in this painting, was able to evoke the mood of desolation in nature and match the poetry elegantly.  If Fangweng [Lu You 陸游 (1125–1210)] saw this, he would inscribe the painting with two words \"idyllic world 詩境.\""
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "新羅山人為吾鄉老輩，擅長寫生。羅致羽族，翫其飛鳴飲啄。故所作別有生趣。山水不多。作客冬在西泠，見所白雲松舎圖。空靈曠逸，得未曾有，至今憶之。兹幅以蒼秀勝，荒寒之中，復饒逸趣。如坐我鵠灣、龍瀃間矣。\n\n馆方英译：1 colophon, dated 1825, and 2 seals of Chen Wenshu 陳文述 (1771–1842):  \n\nXinluo the Mountain Man was of an older generation in my native place. He is skilled in drawing from life, having encompassed all the feathered creatures and studied their [habits] in flight, calling, drinking and pecking. Consequently, his paintings in this genre are noted for lively exuberance. His landscapes are rarer. When I was a winter visitor in Xileng, I chanced to see his White Clouds over Pine Lodge. In its emptiness, its spiritual essence, its vastness and its untrammeled flavor, it is without peer. Even today, I could remember it distinctly. The painting here is known for its aged elegance. In the chilling wilderness, it is fraught with an untrammeled spirit. [With these two paintings,] it is as if I were sitting between the Snowgoose Bay and the Dragon Pool. \n\nMy good nephew P'iao-sheng obtained the painting from Yufeng and showed it to me.  So I write a few lines here to commemorate this \"ink-relationship.\" In the yiyou year of Daoguang [1825], at the end of the autumn, the lay-Buddhist Yi dao ju shi, Wenshu wrote this at the cottage of Xiang shan hua yin (Meditation in Fragrance and Reclusion among Flowers)."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 colophon and 1 seal of Zhu Angzhi 朱昂之 (1764–1841): \n \nThe highest achievement in the art of painting is to penetrate deeply into the chamber of old masters, but at the same time transcend the bounds of conventional rules. This painting of Xinluo is derived from [the style of] Baishi (Shen Zhou 沈周, 1427–1509) and Baoshan (Lu Zhi 陸治, 1496–1576) with splashed-ink technique of Wang Qia 王洽 (Wang Mo 王默, ?–805), in addition to his own innovative ideas. Hence the distinctive style. Truly, he is one of those who passed through the net of the Six Canons [of Xie He 謝赫, 479–502]; treasure it."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "2 seals of Ye Tingguan 葉廷琯 (b. 1791); \n\n1 seal unidentified."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Ye Tingguan 葉廷琯 [b. 1791]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Sun Zutong 孫祖同 [1894–1937]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Yu Zituo 虞子垞 [early 20th century]"
+      },
+      {
+        "t": "prov",
+        "when": "?-1954",
+        "text": "(Walter Hochstadter [1914–2007], New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1954-",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1954",
+        "title": "Chinese Landscape Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1963",
+        "title": "Master of Landscape: East and West"
+      },
+      {
+        "t": "exhib",
+        "when": "1967",
+        "title": "Fantastics and Eccentrics in Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1987",
+        "title": "Mountains, Rocks, and Water: Landscape Painting in Asia"
+      },
+      {
+        "t": "exhib",
+        "when": "2016",
+        "title": "Ji Yun-Fei: Last Days of Village Wen"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1954.263",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1954.263",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1954.263/1954.263_web.jpg",
+    "w": 363,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1954.263/1954.263_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

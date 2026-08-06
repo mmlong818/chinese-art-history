@@ -12,14 +12,13 @@
   "medium": "handscroll; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1648」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1962.42"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1962.42"
+          ],
+          [
+            "馆方作者",
+            "項聖謨 Xiang Shengmo (Chinese, 1597–1658)"
           ]
         ]
       },
@@ -72,13 +75,124 @@
         "t": "stmt",
         "state": "disp",
         "text": "**分期订正（原作 `ming`，改为 `qing`）。**馆方文化断代作「Ming dynasty (1368–1644)」而馆方年代作「1648」——**1648 已入清**，两者互相矛盾。本库据年代改归清，并记下这处矛盾。　照录不等于把一处自相矛盾原样传下去——**照录的是馆方说了什么，不是把它的矛盾也一并继承。**"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Zheng, Zhenduo 鄭振鐸. Tang Song yi lai ming hua ji: Yun hui zhai cang 唐宋以来名畫集: 韞輝齋藏. Shanghai: Shanghai chu ban gong si, 1947.（Reproduced:  pls. 90, 91）",
+          "Wang, Chi-chʻien, and Victoria Contag. Seals of Chinese painters and collectors of the Ming and Ch'ing periods reproduced in facsimile size and deciphered. Hong Kong: Hong Kong University Press, 1966.（pp. 388-392）",
+          "Cahill, James. The Restless Landscape: Chinese Painting of the Late Ming Period. Berkeley: University Art Museum, 1971.（cat. no. 10）",
+          "Lee, Sherman Emery, and James Robinson. The Colors of Ink: Chinese Paintings and Related Ceramics from the Cleveland Museum of Art. New York: Asia Society; distributed by New York Graphic Society, 1974.（cat. no. 35）",
+          "Li, Chu-tsing 李君毅. \"Xiang Shengmo zhi Zhao yin shi hua 項聖謓之招隱詩畫.\" In Ming Yi min shu hua yan tao hui ji lu: Xianggang Zhong wen da xue Zhongguo wen hua yan jiu suo wen wu guan, 1975 nian 8 yue 31 ri zhi 9 yue 3 ri [明 遺民書畫硏討會記錄 : 香港中文大學・中國文化硏究所・文物館, 一九七五年八月卅一日至九月三日 = Proceedings of the Symposium on Paintings &amp; Calligraphy by Ming I-min: 31 August-3 September 1975, Art Gallery, the Institute of Chinese Studies, the Chinese University of Hong Kong]. Dekun Zheng, Zongyi Rao, and James C. Y. Watt. Hong Kong: The Chinese University of Hong Kong, Institute of Chinese Studies, Art Museum, 1976.（Reproduced: pp. 549-550, fig. 12）",
+          "**馆方记录另有 4 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's title and 3 seals (in front of painting): \n\n[title] Meditative Visit to a Mountain Retreat: In Picture and in Words 巖栖思訪圖詠\n\n[3 seals] Tian lai ge zhong wen sun 天籟閣中文孫; \nXiang shi kong zhang zui xin han mo 項氏孔彰醉心翰墨; \nQing fu yuan zhong di yi miao ye 清福緣中第一妙業."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[印] 兔烏叟; 考古正今. \n\n觀斯人兮何逍遙，非逍遙兮思其友。\n思其友兮天一方，欲一訪之難回首。\n松耶柏耶稱後凋，巖穴霏微何二酉。\n山兮水兮人悠悠，遠莫致之神交否？\n河關一向望不及，言笑于今更非偶。\n問游魚兮樂何深？問飛鳥兮歸何藪？\n問猿鶴兮何親疎？問鹿豕兮何夭壽？\n問白雲兮從何來？問流泉兮向何走？\n問漁樵兮何江山？問草木兮何畝畎？\n問春秋兮何炎涼？問世人兮何長久？\n問日月兮何晦明？曾見當時烏兔叟？\n\n戊子嘉平之初偶作此圖并題。 胥樵項聖謩識。\n[印]  兔烏叟;  項氏孔彰; 未喪斯文.\n\n馆方英译：Artist's inscription (a rhymed prose (fu 賦)), signature, and 5 seals: \n\n[2 seals at end of painting]: Tu wu sou; Kao gu zheng jin.\n1 Inscription (fu 賦): \n\nLooking at this gentleman [Xiang Shengmo], how carefree is he; \nWhen he isn’t carefree, he is longing for his friend. \nImpatient is his longing, the latter is far, far away. \nWhen he dreams of visiting him, he also fears not being able to return. \nIs he like a pine, or a juniper? They are said to last long. \nDoes he reside by a cliff or in a grotto, perhaps not unlike the two [peaks named] Mt. You? \nWith hills or rivers intervening, he indeed is far, far away. \nAs the distance is beyond reach, can we communicate in spirit? \nCut off by a river or a mountain pass, we can’t even see each other. \nIn vain we seek to talk and laugh, but we are not together. \nShall we ask the fish: how deep is your enjoyment [of water]? \nOr the flying birds: to which marsh will you land? \nOr the monkey and the crane: who are your kindred souls? \nOr the deer and the hog: which of you will live longer? \nOr the white cloud: whence do you come? \nOr the flowing stream: to where shall you flow? \nOr the fisherman and the fuel gatherer: who rules over this land?\nOr the grass and the plants: in whose fields do you grow?  \nOr the Spring and Autumn: why does the world become so cruel? \nOr the people in general: how long would we last? \nOr the sun and the moon: whence come the light and the dark? \nSo have you ever met the Old Man of Wutu at that time? \n\nIn the wuzi year [1648], at the beginning of the twelfth month, I happened to do this painting, so did the inscription.  Xuqiao, Xiang Shengmo [3 seals]: Tu wu sou; Xiang shi kong zhang, Wei sang si wen."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "13 additional seals: \n4 of Tang Zuomei 唐作梅 (late 18th–19th century); \n3 of Zhang Baixi 張百熙 (1847–1907); \n4 of Zhang Heng 張珩 (1915–1963); \n2 unidentified."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Tang Zuomei 唐作梅 [late 1700s–1800s]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Zhang Baixi 張百熙 [1847–1907]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Zhang Heng 張珩 [1915–1963]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1962",
+        "text": "(C. C. Wang 王季遷 [1907–2003], New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1962–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1959",
+        "title": "1000 Jahre Chinesische Malerei"
+      },
+      {
+        "t": "exhib",
+        "when": "1962",
+        "title": "Year in Review - 1962"
+      },
+      {
+        "t": "exhib",
+        "when": "1971",
+        "title": "The Restless Landscape: Chinese Painting of the Late Ming Period"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "Visions of Landscape: East and West"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1962.42",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1962.42",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1962.42/1962.42_web.jpg",
+    "w": 1263,
+    "h": 143,
+    "full": "https://openaccess-cdn.clevelandart.org/1962.42/1962.42_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

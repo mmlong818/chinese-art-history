@@ -12,14 +12,13 @@
   "medium": "Handscroll; ink and color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「900s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1957.358"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1957.358"
+          ],
+          [
+            "馆方作者",
+            "趙光輔 Zhao Guangfu (Chinese, c. 923–976)"
           ]
         ]
       },
@@ -67,6 +70,22 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → northern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**馆方在作者字段上加了限定词「attributed to」（传）。**这不是本库的判断，是馆方的著录。**限定词一旦存在，这件东西与该画家名下的真迹就不是一回事**——本库对摹本与原作分开处理已立规矩，此处照录该限定词，不代馆方取消它，也不据此另作裁断。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "The Cleveland Museum of Art. The Cleveland Museum of Art Handbook. Cleveland, OH: The Cleveland Museum of Art, 1958.（Mentioned and Reproduced: cat. no. 852）",
+          "Goepper, Roger. 1000 Jahre chinesische Malerei. München: Haus der Kunst, 1959.（cat. no. 8）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1966. Cleveland, OH: The Cleveland Museum of Art, 1966.（Reproduced: p. 258）",
+          "National Gallery of Canada, and Expo (International Exhibitions Bureau). Terre Des Hommes: Exposition Internationale Des Beaux-Arts, 28 Avril-27 Octobre 1967 [= Man and His World, International Fine Arts Exhibition, Expo 67, Montreal, Canada, 28 April-27 October 1967]. Montréal: Expo 67, 1967.（cat. no. 168）",
+          "Lee, Sherman E., and Wai-kam Ho. Chinese Art Under the Mongols: The Yüan Dynasty, 1279-1368. [Cleveland]: The Cleveland Museum of Art; [distributed by the Press of Case Western Reserve University], 1968.（cat. no. 275）",
+          "**馆方记录另有 5 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +93,130 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "佛法入中國千餘年。殆是家有其像。見之者悉起敬心，不當以古今畫手分別也。 子昂 [印]趙氏子昂\n\n馆方英译：Colophon (postscript) by Zhao Mengfu (1254–1322):\nBuddhism has been in China for thousands of years. Consequently, the Buddha’s image can be seen in every household. Those who saw such images would have naturally shown a respectful attitude. Whether it was done by a past master or a modern version is immaterial. [Signature] Zi'ang [seal] Zhao Shi Zi'ang"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon by Guo Bi (1280–1335):\nA transcription of \"Zheng fa yan zang ming bing xu\" 正法眼藏銘幷序 by Wuwei Jushi 無為居士.\n\nSignature: Situi Jushi Guo Bi 思退居士郭畀.\n2 seals."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Spurious artist's signature: Zhao Guangfu"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 seal of the Li family (Yuan Dynasty)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "14 seals of Qianlong Emperor (r. 1736–95)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 seal of Jiaqing Emperor (r. 1796–1820)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 seal of Xuantong Emperor (r. 1909–11)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 official seal of the Yuan dynasty, “Tian li zhi bao 天曆之寶” (Treasure of Tianli)."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "1300s",
+        "text": "Daoist Wukeliao 無可了道人 [1300s]"
+      },
+      {
+        "t": "prov",
+        "when": "c. 1328–30",
+        "text": "Yuan imperial collection (seal of Emperor Wenzong, Tianli era [1328–30]), Beijing, China"
+      },
+      {
+        "t": "prov",
+        "when": "c. 1736–1911",
+        "text": "Qing imperial collection (seals of Emperors Qianlong [r. 1736–1795], Jiaqing [r. 1796–1820], and Xuantong [r. 1909–1911]), Beijing, China"
+      },
+      {
+        "t": "prov",
+        "when": "?–1957",
+        "text": "(Walter Hochstadter [1914–2007], New York, NY, sold to Mr. and Mrs. Severance A. Millikin)"
+      },
+      {
+        "t": "prov",
+        "when": "1957",
+        "text": "Severance A. [1895–1985] and Greta [Marguerite Steckerl] Millikin [1903–1989], Cleveland, OH, given to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1957–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1959",
+        "title": "1000 Jahre Chinesische Malerei"
+      },
+      {
+        "t": "exhib",
+        "when": "1967",
+        "title": "Man and His World"
+      },
+      {
+        "t": "exhib",
+        "when": "1971",
+        "title": "Chinese Calligraphy"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "2015",
+        "title": "Silent Poetry: Masterworks of Chinese Painting"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1957.358",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1957.358",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1957.358/1957.358_web.jpg",
+    "w": 1263,
+    "h": 143,
+    "full": "https://openaccess-cdn.clevelandart.org/1957.358/1957.358_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

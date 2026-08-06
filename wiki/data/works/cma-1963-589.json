@@ -12,14 +12,13 @@
   "medium": "album leaf; ink and slight color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1300–50」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1963.589"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -52,6 +51,10 @@
           [
             "藏品号",
             "1963.589"
+          ],
+          [
+            "馆方作者",
+            "盛懋 Sheng Mou (Chinese, active c. 1310–1350)"
           ]
         ]
       },
@@ -63,6 +66,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Goepper, Roger. 1000 Jahre chinesische Malerei. München: Haus der Kunst, 1959.（cat. no. 31）",
+          "Lee, Sherman E. and Wai-Kam Ho. \"Scattered Pearls beyond the Ocean.\" The Bulletin of the Cleveland Museum of Art, Vol. 51, No. 2 (Feb., 1964), pp. 23-39.（Reproduced: pp. 23-39, cat. no. 10）",
+          "Sullivan, Michael. Chinese and Japanese Art. New York: Grolier, 1965.（Reproduced: pp. 69-70, 182）",
+          "Lee, Sherman E., and Wai-kam Ho. Chinese Art Under the Mongols: The Yüan Dynasty, 1279-1368. Cleveland, OH: The Cleveland Museum of Art; [distributed by the Press of Case Western Reserve University], 1968.（cat. no. 232）",
+          "Wang, Chi-chʻien. Album Leaves from the Sung and Yuan Dynasties. New York. China House Gallery. Catalogues. 1968-70. New York: China House Gallery, the China Institute in America, 1970.（cat. no. 49）",
+          "**馆方记录另有 5 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -70,6 +84,110 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "盛 ?\n\n馆方英译：Artist's signature upper right corner: Sheng ?"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "10 collectors' seals: 8 of Geng Zhaozhong 耿昭忠 (1640-1686); 2 of Geng Jiazuo 耿嘉祚 (late 1600s-early 1700s), son of Geng Zhaozhong."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Geng Zhaozhong 耿昭忠 [1640–1686], to his son Geng Jiazuo"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Geng Jiazuo 耿嘉祚 [late 1600s–early 1700s]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "C. C. Wang 王季遷 [1907–2003], New York, NY"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "(Walter Hochstadter [1914–2007], New York, NY, sold to Mr. and Mrs. Severance A. Millikin)"
+      },
+      {
+        "t": "prov",
+        "when": "?–1963",
+        "text": "Severance A. [1895–1985] and Greta [Marguerite Steckerl] Millikin [1903–1989], Cleveland, OH, given to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1963–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1959",
+        "title": "1000 Jahre Chinesische Malerei"
+      },
+      {
+        "t": "exhib",
+        "when": "1964",
+        "title": "Fifteen Chinese Paintings from the Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "1964",
+        "title": "Year in Review (1964)"
+      },
+      {
+        "t": "exhib",
+        "when": "1968",
+        "title": "Chinese Art Under the Mongols: The Yuan Dynasty (1279–1368)"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1963.589",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1963.589",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1963.589/1963.589_web.jpg",
+    "w": 1084,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1963.589/1963.589_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

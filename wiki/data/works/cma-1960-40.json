@@ -12,14 +12,13 @@
   "medium": "handscroll; ink and slight color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 1486 or before」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1960.40"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1960.40"
+          ],
+          [
+            "馆方作者",
+            "陶成 Tao Cheng (Chinese, active c. 1471–after 1502)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Jiao yu bu di er ci quan guo mei shu zhan lan hui zhuan ji [敎育部第二次全國美術展覽會專集 = A special collection of the second National Exhibition of Chinese Art under the auspices of the Ministry of Education]. Nanjing: Shang wu yin shu guan, 1937.（cat. no. 133）",
+          "Sirén, Osvald. Chinese Painting: Leading Masters and Principles. New York: Ronald Press, 1956.（Mentioned: IV, 221; VII, Lists, 241）",
+          "Goepper, Roger. 1000 Jahre chinesische Malerei. München: Haus der Kunst, 1959.（cat. no. 43）",
+          "Cleveland Museum of Art, “Recent Acquisition Press Release,” October 4, 1960, Cleveland Museum of Art Archives.",
+          "Chinese Art: An Exhibition of Paintings, Jades, Bronzes and Ceramics: Being a Contribution Made by Smith College Museum of Art to the College Interim Session, 1962. Northampton, MA: [The Museum], 1962.（cat. no. 19）",
+          "**馆方记录另有 6 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,120 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's seal at beginning of painting: Yun hu 雲湖. \n\nTitle by Wang Wenzhi 王文治 (1730–1802), date 1756.\n\n2 seals of Wang Wenzhi 王文治 (1730–1802); 3 seals of Ku Yün (n. d.)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Section A (Chrysanthemums): \n1 poem and 1 seal of Zhang Yuanzhen 張元禎 (1437–1507) - Jinshi, 1461; \n1 poems and 3 seals of Ni Yue 倪岳 (1444–1501) - Jinshi, 1464; \n1 poems and 2 seals of Zhao Xiang 趙祥 (life dates unknown) - Jinshi, 1469; \n1 poems and 1 seals of Wu Xixian 吳希賢 (1437–1489) - Jinshi, 1464; \n1 poems and 1 seals of Lü Chang 呂㦂 (1449–1511) - Juren, 1471; \n1 poems and 3 seals of Fu Han 傅瀚 (1435–1502) - Jinshi, 1464; \n1 poems and 1 seals of Feng Jue 馮珏 (life dates unknown) - Jinshi, 1478."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Chrysanthemums section, poem 1, by Zhang Yuanzhen 張元禎 (1437–1507): \nSeveral bushes of chrysanthemums grow in front of the Five-Willow Cottage, \nThe yellow ones are really yellow and the white ones white.\nThis affable and decent fellow, young in years and unsophisticated,\nHas snapped one of the branches to dip in ink.\n\n(The Five-Willows Cottage was the home of the poet Tao Qian 陶潛 [Tao Yuanming 陶淵明, 365-427 CE].)\n\nChrysanthemums section, poem 2, by Ni Yue 倪岳 (1444–1501): \nWhere at the Eastern Fence can you grieve for the Soul of the Xiang River?\nA man of upright character is mourned within the traces of ink.\nWhite jade with a slight flaw would be a grievance forever, \nLater men should understand why even the roots of the flowers are washed.\n\n(Eastern Fence refers again to the poet Tao Qian 陶潛, while the Soul of the Hsiang River refers to the poet Qu Yuan 屈原 [c. 340–278 BCE].)\n\nChrysanthemums section, poem 3, by Zhao Xiang 趙祥 (life dates unknown): \nA clump of chrysanthemum grows in front of the bamboo pavilion,\nThe winds of many autumns have blown since we parted beyond the river.\nStraining wine through the official's cap of Tao [Qian] to prolong autumn's pleasures,\nThe mists and clouds of ten thousand miles belong to the intoxicated.\n\n\nChrysanthemums section, poem 4, by Wu Xixian 吳希賢 (1437–1489): \nIt is a different spring if mulberry is planted during the latter part of the year,\nThe dust of the world originally did not drop on clothing.\nWho spills out ink under the Eastern Fence\nAnd paints so freely this portrait of chrysanthemums for the venerable Sir Tao?\n\nChrysanthemums section, poem 5, by Lü Chang 呂㦂 (1449–1511): \nThis full tray of ink for painting [flowers] at the Eastern Fence;\nTheir whiteness or yellowness is not essential in capturing their beauty.\nI don't have to go to Jiangnan to see them myself.\nAt my old house grow two or three branches.\n\n\nChrysanthemums section, poem 6, by Fu Han 傅瀚 (1435–1502): \nWho daubed autumn flowers with ink \nAs if they were dark dew on a branch tip only vaguely seen at evening? \nAfter the lazy clouds disperse, no one paints; \nA certain unconventionality pervades this painting.\n\nChrysanthemums section, poem 7, by Feng Jue 馮珏 (life dates unknown): \nTo satisfy his hunger, [the chrysanthemums] have at times entered the poetry of Qu Yuan; \nTaking up the wine cup, it felt close to Tao Qian.\n[With them I am like] a lonely root sustained by deep water \nOr an old man to whose hair the color of youth returns."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Section B (Cabbage): \n1 poem and 1 seal of Cai Qi 蔡圻 (life dates unknown) - degree information not known; \n1 poems and 3 seals of Ni Yue 倪岳 (1444–1501) - Jinshi, 1464; \n1 poem and 3 seals of Jiao Fang 焦芳 (1436–1517) - Jinshi, 1464; \n1 poem and 3 seals of Li Dongyang 李東陽 (1447–1516) - Jinshi, 1464; \n1 poems and 1 seals of Wu Xixian, signed “Xixian” 吳希賢 - Jinshi, 1464; \n1 poems and 3 seals of Fu Han 傅瀚 (1435–1502) - Jinshi, 1464; \n1 poems and 1 seals of Lü Chang 呂㦂 (1449–1511) - Juren, 1471; \n1 poems and 2 seals of Zhao Xiang 趙祥 (life dates unknown) - Jinshi, 1469; \n1 poems and 1 seals of Feng Jue 馮珏 (life dates unknown) - Jinshi, 1478."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Cabbage section, poem 1, by Cai Qi 蔡圻 (life dates unknown): \nThe ink splashes are fresh from a frosty brush dipped in pond water;\nI can visualize that time when Yunhu 雲湖 [Tao Cheng] first showed his talents.\nI lament the places where I scribbled before,\nWho would open them to inscribe a poem?\n\n(The first line is an allusion to the famous Jin dynasty calligrapher Wang Xizhi 王羲之 [303–361 CE], who practiced calligraphy so diligently at the edge of a pond that the water turned black with ink.)\n\nCabbage section, poem 2, by Ni Yue 倪岳 (1444–1501): \nAfter rain the vegetables begin to grow;\nHow are the colors of the masses lately!\nOnce you get used to them, the tastiest parts are the ends of the roots;\nI don't know if they can be used for \"seasoning soup.\"\n\n(\"Seasoning soup\" is an allusion to the statesmanship of a chief minister.)\n\nCabbage section, poem 3, by Jiao Fang 焦芳 (1436–1517): \nThis crop of purple stalks and green leaves is late and irregular;\nNow the rainy season is over for the Eastern Garden.\nAll the nobles nowadays dine on meat;\nWho of them knows the flavor of this [cabbage].\n\nCabbage section, poem 4, by Li Dongyang 李東陽 (1447–1516): \nIt's always helped the honest man to sober up after drinks.\nI intend to go to the deepest part of the stream-crossed garden\nTo refresh myself in the fragrance and dew of evening.\n\nCabbage section, poem 5, by Wu Xixian 吳希賢 (1437–1489): \nAfter rain, the white silk is filled with fragrant vegetables; \nHow many times this happens in Mr. Tao's paintings. \nOn whom will you depend to present a memorial to the ruler? \nDon't let this color emerge on the faces of the people.\n\n(The last line is meant as a warning to officials: the color of the vegetables (green) may be pleasing in itself, but when it emerges on the faces of the starving poor, it signifies a badly governed world.)\n\nCabbage section, poem 6, by Fu Han 傅瀚 (1435–1502): \nFor twenty years I have feasted on the excellent mutton of an official; \nYet I talk and dream about the garden and its vegetables. \nDo not merely say it is good to chew the root of the cabbage-- \nYou must taste to understand what poverty is.\n\nCabbage section, poem 7, by Lu Chang 呂㦂 (1449–1511): \nThe capital is never a place for an apprentice in the \"garden of scholarship.\" \nWho would write about gardens and vegetables on an examination paper? \nI've walked throughout the country in spring; \nMake sure the people don't show this color.\n\nCabbage section, poem 8, by Zhao Xiang 趙祥 (life dates unknown): \nAfter a wash of rain, the spring garden is still in order; \nThe flavor [of the cabbage] is more suitable with a small drink and the hum of a tune. \nThe rich and powerful in their mansions consume dish after dish of meat; \nVegetarian food is known only by the scholars.\n\nCabbage section, poem 9, by Feng Jue 馮珏 (life dates unknown): \nA new cabbage is nourished with dew; \nIt takes a long time to grow and mature. \nThe business of \"seasoning the soup\" is your responsibility; \nBetter command the gardener to take care [of the cabbages].\n\n\n(translated by HK/LYSL/WKH)"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Zhang Heng 張珩 [1915–1963]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Xu Bangda 徐邦達 [1911–2012]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "(Walter Hochstadter [1914–2007], New York, NY)"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Severance A. [1895–1985] and Greta [Marguerite Steckerl] Millikin [1903–1989], Cleveland, OH"
+      },
+      {
+        "t": "prov",
+        "when": "?–1960",
+        "text": "Mr. and Mrs. Courtney Burton, given to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1960–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1959",
+        "title": "1000 Jahre Chinesische Malerei"
+      },
+      {
+        "t": "exhib",
+        "when": "1960",
+        "title": "Year in Review - Nineteen Hundred Sixty"
+      },
+      {
+        "t": "exhib",
+        "when": "1962",
+        "title": "Chinese Art"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "2016",
+        "title": "Chinese Gallery 240a Rotation – August 2016"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1960.40",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1960.40",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1960.40/1960.40_web.jpg",
+    "w": 1263,
+    "h": 71,
+    "full": "https://openaccess-cdn.clevelandart.org/1960.40/1960.40_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

@@ -12,14 +12,13 @@
   "medium": "Hanging scroll; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1643」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1970.128"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1970.128"
+          ],
+          [
+            "馆方作者",
+            "藍瑛 Lan Ying (Chinese, 1585–after 1664)"
           ]
         ]
       },
@@ -67,13 +70,103 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Cheng, Qi 程琦. Xuanhuitang shuhua lu [萱暉堂書畫錄 = Paintings and calligraphy in the collection of Hsüan-hui-tʻang]. Hong Kong: Xuanhuitang, 1972.（Reproduced: II, 117(b)–118(a)）",
+          "Lee, Sherman E. The Colors of Ink: Chinese Paintings and Related Ceramics from the Cleveland Museum of Art. [New York]: Asia Society; distributed by New York Graphic Society, 1974.（Mentioned: cat. no. 34）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Reproduced: cat. no. 196, pp. 252–253）",
+          "Chou, Ju-hsi and Anita Chung. Silent poetry: Chinese paintings from the collection of the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, 2015.（Reproduced: pp. 321–323）",
+          "Griswold, William, Xiaofei Tian, Richard Von Glahn, Feng Zhao, S. J. Vainker, Masaaki Itakura, Jiang Wu, et al. China’s Southern Paradise: Treasures from the Lower Yangzi Delta. Edited by Clarissa von Spee. Cleveland, OH: The Cleveland Museum of Art, 2023.（Mentioned and Reproduced: pp. 274–275, no. 128）"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "六朝多奇人，寄隱玄與釋。/\n支遁許道士，情意合相適。/\n長松古巖下，高譚對終日。/\n大志擲流水，好句聯袂覓。/\n世事世之外，千秋我自識。\n\n五雲禪師道古行潔，與世無涉。喜山水，喜文\n墨。至老神逾王。余與方外交，遂作支許清言\n圖，乞為開示。 \n\n蝶叟藍瑛癸未七月杪。\n\n馆方英译：Artist's inscription, signature, and 2 seals: \n\nThe time of Six Dynasties was full of eccentrics./ \nThey took refuge in Daoism or Buddhism./ \nThus came [the pair of] Zhidun and the Daoist priest Xu [Xun]:/ \nTheir sensibilities and ideals were fully in tune./ \nUnder a tall pine and ancient cliff,/ \nThey chatted away all day long. /\nGrand ambitions were cast away like the flowing stream/ \nIn quest for linked poetic lines./ \nPractical affairs were outside of their concerns./ \nThousands of autumns later, I come to realize the truth./\n\nRegarding the Chan Master Wuyun, his way is ancient and his actions pure. He has not involved himself in worldly affairs. He loves landscape and also belles lettres. In his old age, his spirit exceeds that of a king. He and I share much in common, he being a priest and I a layman. Consequently, I painted this Zhi Xu qing yan tu, and hope that he would enlighten me. \n\nDiesou Lan Ying, in the end of the seventh month, [the year of] kuiwei [1643]."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "2 additional seals of Cheng Qi 程琦 (1911–1988)"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Cheng Qi 程琦 [1911–1988], by descent to his son, Stephen O. K. Chen"
+      },
+      {
+        "t": "prov",
+        "when": "?–1970",
+        "text": "Stephen O. K. Chen [20th century], New York, NY, given to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1970–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1971",
+        "title": "Year in Review: 1970"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "2016",
+        "title": "Conversations: Past and Present in Asia and America"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1970.128",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1970.128",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1970.128/1970.128_web.jpg",
+    "w": 388,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1970.128/1970.128_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

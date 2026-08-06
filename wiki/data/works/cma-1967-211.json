@@ -12,14 +12,13 @@
   "medium": "section of a handscroll mounted as a hanging scroll, ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. mid-1300s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1967.211"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1967.211"
+          ],
+          [
+            "馆方作者",
+            "因陀羅 Yintuoluo (Chinese, c. 1285-c. 1355)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Inoue, Shōzō. Daibi: Ōsaka Bijutsu Kurabu 50-shūnen, Ōsaka Shōsei Kumiai 70-shūnen kinen [大美 : 大阪美術俱楽部五十周年, 大阪商盛組合七十周年記念 = Special exhibition in commemoration of the 50th anniversary of the Osaka Art Club and the 75th anniversary of the Osaka Art Dealers Association]. Ōsaka: Ōsaka Bijutsu Kurabu, 1960.（cat. no. 6）",
+          "Lee, Sherman E., and Wai-kam Ho. Chinese Art Under the Mongols: The Yüan Dynasty, 1279-1368. Cleveland, OH: The Cleveland Museum of Art; [distributed by the Press of Case Western Reserve University], 1968.（cat. no. 208）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1969. Cleveland, OH: The Cleveland Museum of Art, 1969.（Reproduced: p. 261）",
+          "Lee, Sherman E. “Zen in Art: Art in Zen.” The Bulletin of the Cleveland Museum of Art 59, no. 9 (November 1972): 239–259.（Mentioned and reproduced: p. 245, figs. 6, 6a）",
+          "Lee, Sherman Emery, and James Robinson. The Colors of Ink: Chinese Paintings and Related Ceramics from the Cleveland Museum of Art. New York: Asia Society; distributed by New York Graphic Society, 1974.（cat. no. 18.）",
+          "**馆方记录另有 4 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,85 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[印] 人言洞裡桃花源，未必人間有此枝\n\n馆方英译：Artist's seal: People allude to the Grotto of the Peach Blossoms; it is not likely that such a flowering branch would exist in our world."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "此子無爺只有娘，禪師莫問幾時生。\n青松未老黃梅飄，兩世都如夢一場。\n[印] 楚石\n\n馆方英译：1 inscription and 1 additional seal of Chushi Fanqi 楚石梵琦 (1296-1370).\n \nPoem:\n \nThis child has no father, only a mother./\nYou, the Chan master, don’t need to ask when he was born./\nThe green pine is not yet old and the rain comes during yellow plum season./\nTwice reincarnated, all just seems to be but a dream.\n[seal] Chu shi"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1938",
+        "text": "Masuda Takashi 益田孝 [1848–1938], Tokyo, Japan, by bequest to his son Masuda Taro"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Masuda Taro 益田太郎 [1875–1953], Tokyo, Japan"
+      },
+      {
+        "t": "prov",
+        "when": "?–1967",
+        "text": "(Setsu Gatodo Co., Ltd., Tokyo, Japan, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1967–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1969",
+        "title": "Year in Review for 1968"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1967.211",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1967.211",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1967.211/1967.211_web.jpg",
+    "w": 479,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1967.211/1967.211_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

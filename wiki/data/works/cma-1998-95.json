@@ -12,14 +12,13 @@
   "medium": "folding fan, ink and color on gold paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1626」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1998.95"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1998.95"
+          ],
+          [
+            "馆方作者",
+            "邵高 Shao Gao (Chinese, c. 1595-c. 1643)"
           ]
         ]
       },
@@ -75,5 +78,16 @@
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1998.95",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1998.95",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1998.95/1998.95_web.jpg",
+    "w": 1263,
+    "h": 613,
+    "full": "https://openaccess-cdn.clevelandart.org/1998.95/1998.95_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

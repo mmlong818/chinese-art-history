@@ -12,14 +12,13 @@
   "medium": "hanging scroll; ink and color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1862」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 2000.7"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -52,6 +51,10 @@
           [
             "藏品号",
             "2000.7"
+          ],
+          [
+            "馆方作者",
+            "吳讓之 Wu Rangzhi (Chinese, 1799–1870)"
           ]
         ]
       },
@@ -70,6 +73,49 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Signed and dated inscription by the artist with one seal"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Two additional seals in the lower left"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–2000",
+        "text": "Elizabeth \"Libby\" Marting Treuhaft [1904–1998], Cleveland, OH, bequest to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "2000–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/2000.7",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 2000.7",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/2000.7/2000.7_web.jpg",
+    "w": 276,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/2000.7/2000.7_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

@@ -12,14 +12,13 @@
   "medium": "hanging scroll; ink and color on satin",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「first half 1600s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1972.68"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -52,6 +51,10 @@
           [
             "藏品号",
             "1972.68"
+          ],
+          [
+            "馆方作者",
+            "王建章 Wang Jianzhang (Chinese, active 1621–1662)"
           ]
         ]
       },
@@ -63,6 +66,14 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Vanderstappen, Harrie A. \" The Style of Some Seventeenth-Century Chinese Paintings.\" In Artists and Traditions: Uses of the Past in Chinese Culture. Edited by Christian F. Murck, pp. 149–168. Princeton, NJ: The Art Museum, Princeton University, 1976.（Reproduced: p. 155, figs. 4, 5）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Mentioned: cat. no. 201, p. 258; Reproduced: cat. no. 201, p. 257）",
+          "Tōyō kaiga no seika: tokubetsuten: Kurīvurando Bijutsukan no korekushon kara [東洋絵画の精華: 特别展: クリーヴラント美術館のコレクションから= Highlights of Asian painting from the Cleveland Museum of Art]. Nara, Japan: Nara National Museum, 1998.（Mentioned and Reproduced: p. 64, cat. no. 39）"
+        ]
       }
     ],
     "dating": [
@@ -70,6 +81,65 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's inscription, signature, and 2 seals:\n\nCold frost falls on the fences,/\nSolitary colors scatter the maples./\nReciting the chapter of \"The Autumn Water,\"/\nI cannot still the emotion in my old heart.\n\nAfter the style of Fan Hua-yüan [Fan Kuan], Wang Chien-chang .\n\n[seals] Wang shih chih yin; Chien-chang.  \ntrans. LYSL/HK/WKH"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1972",
+        "text": "(Shogoro Yabumoto, Hyogo, Japan, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1972–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1973",
+        "title": "Year in Review: 1972"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2016",
+        "title": "Chinese Gallery 240a Rotation – August 2016"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1972.68",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1972.68",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1972.68/1972.68_web.jpg",
+    "w": 276,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/1972.68/1972.68_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

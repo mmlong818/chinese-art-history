@@ -12,14 +12,13 @@
   "medium": "Handscroll; ink and color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1300–1370」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1997.95"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1997.95"
+          ],
+          [
+            "馆方作者",
+            "陳汝言 Chen Ruyan (Chinese, c. 1331–1371)；倪瓚 Ni Zan (Chinese, 1301–1374)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Du, Mu 都穆. Yu yi bian [寓意編 = The Dwelling of Ideas; notes on painting and calligraphy]. Shanghai: Shanghai gu ji chu ban she, 1987. (Original text dated c. 1500s)",
+          "Wang, Keyu 汪砢玉 . Shan hu wang 珊瑚網. Chengdu: Cheng du gu ji shu dian, 1985. (Preface dated 1643)（ch. 23, p. 1336）",
+          "Wu, Qizhen 吴其貞. Shu hua ji = 書畫記. Shanghai: Shanghai ren min mei shu chu ban she, 1962. (Original text dated c. 1677)（Mentioned: ch. 1, pp. 71-72）",
+          "Bian, Yongyu 卞永譽. Shi gu tang shu hua hui kao: [shu kao 30 juan, hua kao 30 juan] = 式古堂書畫彙考: [書考30卷, 畫考30卷]. Shanghai: Jian gu shu she 鑑古書社, 1921. (Facsimile reproduction of the original Kangxi edition, dated 1682.)（Mentioned: ch. 2, p. 94）",
+          "Gu, Fu 顧復. Ping sheng zhuang guan 平生壯觀. Shanghai: Shanghai ren min mei shu chu ban she, 1962. (Preface dated 1692)（ch. 9, p. 117）",
+          "**馆方记录另有 25 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,95 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 inscription, 3 colophons, and 37 seals: 1 inscription, dated 1371, by Ni Zan 倪瓚 (1301-1374); 17 seals of Xiang Yuanbian 項元汴 (1525-1590); 4 seals of Chu Chih-ch'ih (late Ming Dynasty); 1 seal of Liang Qingbiao 梁淸標 (1620-1691); 1 seal of Gao Shiqi 高士奇 (1645-1704); 4 seals of Lu Xinyuan 陸心源 (1834-1894); 1 colophon, dated 1908, and 5 seals of Jing Xian 景贒; 1 colophon, dated 1915, by Lung Yu; 1 colophon, dated 1932, and 2 seals of Wu Mei; 3 seals unidentified."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "仙山圖， 陳君惟允所畫。 秀潤清遠， 深得趙榮祿筆意。 其人已矣， 今不可復得。 辛亥十二月二日倪瓚\n\n馆方英译：Inscription by Ni Zan:\nThe picture of The Land of Immortals was painted by Chen Weiyun 陳惟允 [Chen Ruyan]. Its refinement, mellowness, and purity have succeeded profoundly in capturing the brush ideas of Zhao Mengfu 趙孟頫. Now the gentleman is no longer with us. One will never be able to acquire such a painting again. Ni Zan wrote this on the second day of the twelfth month of the xinhai year, the fourth year of Hongwu [1371]."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon by Jing Xian 景贒:\nThe preceding Land of Immortals is an authentic work of the Yuan master, Chen Weiyun 陳惟允. According to the Yu yi bian 寓意編 by Du Mu 都穆of the Ming Dynasty, the painting was seen at the home of Chen Mengxian 陳孟賢 [c. 1500], a hermit. It is also recorded in Yu yi lu 寓意錄 of the present [Qing] era. The dimensions and the seals are all correct. When the painting went into the possession of Liang Qingbiao 梁淸標, the silk was already quite dilapidated. The only thing now missing, however, is the one line of writing by Xiang Zijing 項子京 [Xiang Yuanbian 項元汴] who records the original price he paid, being fifteen taels of silver. This must have been cut off by the dealer, which nevertheless did no harm to a masterpiece such as this. Jing Xian recorded this in the second month of the maoshen year [1908]."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Xiang Yuanbian 項元汴 [1525–1590]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Liang Qingbiao 梁清標 [1620–1691]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1997",
+        "text": "Mrs. A. Dean [Helen Wade Greene] Perry [1911–1996], Cleveland, OH, bequest to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1997–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1968",
+        "title": "Chinese Art Under the Mongols: The Yuan Dynasty (1279–1368)"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2000",
+        "title": "Taoism and the Arts of China"
+      },
+      {
+        "t": "exhib",
+        "when": "2010",
+        "title": "The World of Kubilai Khan: Chinese Art in the Yuan Dynasty"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1997.95",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1997.95",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1997.95/1997.95_web.jpg",
+    "w": 1263,
+    "h": 346,
+    "full": "https://openaccess-cdn.clevelandart.org/1997.95/1997.95_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

@@ -12,7 +12,7 @@
   "medium": "Pair of handscrolls; ink and color on Xuan paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「2011」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
@@ -56,6 +56,10 @@
           [
             "藏品号",
             "2012.99"
+          ],
+          [
+            "馆方作者",
+            "季云飞 Yun-Fei Ji (Chinese, b. 1963)"
           ]
         ]
       },
@@ -67,12 +71,70 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 2011–2011 唯一落入 contemporary；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Cai, Bingqiao [蔡秉橋 = Paula Tsai], editor. Ji Yunfei: shui li gong cheng [季雲飛: 水利工程 = Yun-fei Ji: water work]. Hong Kong; Beijing: UCCA Books, 2012.（pp. 134–154）",
+          "Mann, C. Griffith. “Acquisitions 2012.” Cleveland Art: Cleveland Museum of Art Members Magazine 53, no. 2 (March/April 2013): 10–25.（Mentioned and Reproduced: pp. 10–11,16）",
+          "Chung, Anita. \"Re-emergence: New Chinese Galleries and Art Acquisitions of The Cleveland Museum of Art.\" Orientations vol 44 no. 8 (November/December 2013): 64–75.（Reproduced: pp. 74–75, fig. 10）",
+          "Chung, Anita. \"Last Days of Village Wen: Tensions and contradictions abound in the work of contemporary artist Ji Yun-Fei.” Cleveland Art: Cleveland Museum of Art Members Magazine 56, no. 1 (January/February 2016): 9–11.（Reproduced: p. 9, 10–11; Mentioned: p. 9, 10）",
+          "\"Exhibitions.” Cleveland Art: Cleveland Museum of Art Members Magazine 56, no. 4 (July/August 2016): 4.（Reproduced and Mentioned: p. 4）"
+        ]
       }
     ],
     "dating": [
       {
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "辛卯年季雲飛\n\n馆方英译：colophon signed Ji Yun-Fei, dated 2011"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "VILLAGE WEN IN JUNE. \nReaching June, it had not rained for eight months at Village Wen. The river had long dried out; crops were not growing. On the 13th, it finally rained. Raindrops the size of green mung beans hit the camphor trees by the road, making a sound like popping sesame seeds.\nWIND. \nThe villagers of Wen had already demolished their homes and moved into temporary tents they made for themselves. They had packed their furniture and belongings—all laid out on the empty grain-drying grounds. At midnight there was a sudden gust of wind that blew all the things into the air, including chairs, tables, wardrobe, large and small bags. Gradually they fell, but not a single item was damaged.\nEVEN GHOSTS ARE SCARED. \nAccording to the village elders, there were so many hungry ghosts after the Great Leap Forward that one could easily hear their cries on the quiet side streets during daytime. Many villagers were too afraid to go out. Some suggested that since everyone was afraid of the party secretary [of the village], calling out his name would make the ghosts be quiet. It really worked.\nFISH FARMING. \nAt Village Wen, the few who did not want to look for jobs in cities decided to raise fish besides growing crops. But the great drought of the xinmao year [2011] had dried up the riverbed in the upper course, forcing the villagers to move their net boxes tens of li downstream. The river flowed again and water rose rapidly after the June downpour. [No one anticipated that] all the fish that had been raised for three years suddenly died overnight.\nOFFICIAL. \nThe party secretary [of the village] came down with a fever. He slept all day only to wake up in a cold sweat, complaining that he was tired. He reported that the provincial head [his boss] had been promoted to be a powerful official in the underworld, commanding him to be in charge of demolition and resettlement. Even if encountering dingzihu [difficult households in opposition to the project], he must use force. Many poor ghosts in the underworld bothered him every day, arguing about law.\nWONDER. \nSome thirty li south of the village, as the water rises in summer, over the vast expanse of mists and ripples in the river would a miraculous wonder of well-lit, tall buildings be seen."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "2011–2012",
+        "text": "Collection of the Artist, New York, NY"
+      },
+      {
+        "t": "prov",
+        "when": "2012",
+        "text": "(James Cohan Gallery, New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "2012–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "2016",
+        "title": "Ji Yun-Fei: Last Days of Village Wen"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
   }

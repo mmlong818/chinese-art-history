@@ -12,14 +12,13 @@
   "medium": "Album leaf; ink and color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 1308–85」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1997.94"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1997.94"
+          ],
+          [
+            "馆方作者",
+            "王蒙 Wang Meng (Chinese, c. 1308–1385)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Bian, Yongyu [Pien Yung-yu 卞永譽]. Shi gu tang shu hua hui kao 式古堂书画汇考. 1682（ch. 4, p. 48(a)）",
+          "Sullivan, Michael. Chinese and Japanese Art. New York: Grolier, 1965.（Mentioned and Reproduced: p. 73, color pl. p. 179）",
+          "Lee, Sherman E., and Wai-kam Ho. Chinese Art Under the Mongols: The Yüan Dynasty, 1279-1368. Cleveland, OH: The Cleveland Museum of Art; [distributed by the Press of Case Western Reserve University], 1968.（Mentioned and Reproduced: cat. no. 257）",
+          "Lee, Sherman E. \"The Water and the Moon in Chinese and Modern Painting.\" Art international, vol. 14 (1970), no. 1, pp. 47–59.（Mentioned and Reproduced: p. 58, fig. 33）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Mentioned and Reproduced: cat. no. 111, pp. 136–137）",
+          "**馆方记录另有 3 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,75 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's inscription, signature, and seal:\nMany years and months passed by the locked gate/\nBehind which the scholar has been immersed in writing his books;/\nWhile the pine trees he had planted/\nHave all grown up with old dragon scales./\n\n\tThe Yellow Crane Mountain Woodcutter [Huang-ho-shan-ch'iao] painted this for Chen-su [the hao of Ts'ao Chih-po]. [seal] Wang Meng yin."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "2 additional seals: 1 of Ts'ao Chih-po (1271–1355); 1 unidentified."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "1964–1997",
+        "text": "Mr. A. Dean and Mrs. Helen Wade Greene Perry [1911–1996], Cleveland, OH, bequest to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1997–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1968",
+        "title": "Chinese Art Under the Mongols: The Yuan Dynasty (1279–1368)"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1994",
+        "title": "Asian Autumn: New Objects/New Insights: Cleveland's Recent Chinese Acquisitions"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1997.94",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1997.94",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1997.94/1997.94_web.jpg",
+    "w": 1263,
+    "h": 888,
+    "full": "https://openaccess-cdn.clevelandart.org/1997.94/1997.94_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

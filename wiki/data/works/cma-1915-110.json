@@ -12,14 +12,13 @@
   "medium": "hanging scroll; ink and color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1508」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1915.110"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1915.110"
+          ],
+          [
+            "馆方作者",
+            "夏葵 Xia Kui (Chinese, active c. 1405–1445)"
           ]
         ]
       },
@@ -71,9 +74,69 @@
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "正德三年七月夏葵寫 \n[Zhengde san nian qi yue Xia Kui xie]\n\n馆方英译：Painted by Xia Kui, in the third year, seventh month of Zheng De [1508]."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1915",
+        "text": "Charles L. Freer [1854–1919], Detroit, MI, given to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1915–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1947",
+        "title": "A Study Exhibition of Chinese Textiles of the Ming and Ch'ing Periods"
+      },
+      {
+        "t": "exhib",
+        "when": "2021",
+        "title": "Stories from Storage"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1915.110",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1915.110",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1915.110/1915.110_web.jpg",
+    "w": 1263,
+    "h": 692,
+    "full": "https://openaccess-cdn.clevelandart.org/1915.110/1915.110_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

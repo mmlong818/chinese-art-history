@@ -12,14 +12,13 @@
   "medium": "handscroll, ink and color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1426–52」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1997.99"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1997.99"
+          ],
+          [
+            "馆方作者",
+            "謝環 Xie Huan (Chinese, c. 1370-c.1450)"
           ]
         ]
       },
@@ -67,6 +70,21 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**馆方在作者字段上加了限定词「attributed to」（传）。**这不是本库的判断，是馆方的著录。**限定词一旦存在，这件东西与该画家名下的真迹就不是一回事**——本库对摹本与原作分开处理已立规矩，此处照录该限定词，不代馆方取消它，也不据此另作裁断。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Mentioned and Reproduced: pp. 155-156, cat. no. 133）",
+          "Annual Report 1997. Cleveland, Ohio: The Museum, 1998.（Mentioned: p. 44）",
+          "Smith, Judith G., and Wen Fong. Issues of Authenticity in Chinese Painting. New York: Dept. of Asian Art, Metropolitan Museum of Art, 1999.（Mentioned and Reproduced: p. 252, fig. 27 and p. 252, fig. 28）",
+          "Yang, Kathleen 楊凱琳, and Chi-chʻien Wang 王季遷. Through a Chinese connoisseur's eye: private notes of C.C. Wang 王季遷讀書筆記. Beijing: Zhong hua shu ju, 2010.（Mentioned and Reproduced: p. 310, no. 27）",
+          "Ji'nan, Yin. \" Politics or Entertainment? Examining Jiangxi Scholar Officials and Zhejiang Painters through the Lens of the Elegant Gathering in the Apricot Garden.\" In Ming China: Courts and Contacts, 1400-1450. Craig Clunas, Jessica Harrison-Hall, and Yu Ping Luk., eds., p. 102-103. London: The British Museum, 2016.（Reproduced: pp. 102-103）"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +92,70 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "4 seals: 2 of Xiang Yuanbian 項元汴 (1525–1590); 1 of the Qianlong Emperor (r. 1736–95); 1 of C. C. Wang 王季遷 (1907–2003)"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Xiang Yuanbian 項元汴 [1525–1590], Jiaxing, China"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "The Qianlong Emperor, reigned 1736–95, Beijing, China"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "C. C. Wang 王季遷 [1907–2003], New York, NY"
+      },
+      {
+        "t": "prov",
+        "when": "? before 1980–1997",
+        "text": "Mrs. A. Dean [Helen Wade Greene] Perry [1911–1996], Cleveland, OH, bequest to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1997–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1999",
+        "title": "The Artist as Collector:  Masterpieces of Chinese Painting from the C.C. Wang Family Collection"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1997.99",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1997.99",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1997.99/1997.99_web.jpg",
+    "w": 900,
+    "h": 51,
+    "full": "https://openaccess-cdn.clevelandart.org/1997.99/1997.99_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

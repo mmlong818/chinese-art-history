@@ -12,14 +12,13 @@
   "medium": "hanging scroll; ink on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1326」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1970.41"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1970.41"
+          ],
+          [
+            "馆方作者",
+            "李士行 Li Shixing (Chinese, 1283–1328)"
           ]
         ]
       },
@@ -67,13 +70,118 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Lee, Sherman Emery, and James Robinson. The Colors of Ink: Chinese Paintings and Related Ceramics from the Cleveland Museum of Art. New York: [s.n.], 1974.（cat. no. 11.）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1978. Cleveland, OH: The Cleveland Museum of Art, 1978.（Reproduced: p. 346）",
+          "\"Visions of Landscape East and West.\" Asia Vol. 4, No. 5 (January/February 1982): pp. 24–29.（Reproduced: pp. 24–25）",
+          "Talbot, William S. “Visions of Landscape: East and West.” The Bulletin of the Cleveland Museum of Art 70, no. 3 (March 1983): 112–135.（Mentioned and reproduced: pp. 122–123, fig. 18）",
+          "Chou, Ju-hsi and Anita Chung. Silent poetry: Chinese paintings from the collection of the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, 2015.（Mentioned and Reproduced: pp. 122–126）"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "泰定丙寅年冬十二月薊丘李士行遵道作。[印] 李士行印; 李氏遵道; 遊戲翰墨.\n\n馆方英译：Artist's inscription, signature, and 3 seals: \nIn the twelfth month of winter, in the bingyin year of the Taiding era [1326], Li Shixing, Zundao, of Jiqiu did this. [seals] Li Shixing yin; Li shi Zundao; You xi han mo."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "薊丘李侯能畫松，蟠根錯節騰蛟龍。\n枯梢削鐵歲月古，細葉當風紫翠重。\n昔人曾入子固夢，此株豈為秦官封。\n畢宏韋偃偕已矣，請公放筆吾將從。\n\n華溪九十翁沈夢麟書\n蘊中上人題\n\n馆方英译：1 inscription and 1 seal of Shen Menglin 沈夢麟 (1207–1399): \n\nMarquis Li of Jiqiu can paint pines.\nFrom gnarled roots and tangled branches a dragon may soar.\nThose dead twigs are as sharp as irons as in time past.\nAgainst the wind, the slender leaves pile up in purple and greens.\nOne in the past has dreamt a Zigu’s dream. \nThis tree exists even without Qin’s conferment of official titles. \nBi Hong and Wei Yan have all vanished.\nDo unleash your brush and I’ll follow in your footsteps.\n\n\"The Old Man of Flower Stream” Sheng Menglin at ninety years of age [1396]. \nWrote it on behalf of Yun zhong Shang ren (active second half of 14th century)."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[印] 明善堂所見書畫印記; [印] 怡親王寶\n\n馆方英译：2 seals of Prince Yi 怡親王 (Aisin-Gioro Yinxiang 愛新覺羅胤祥; 1686–1730): \n\nMing shan tang xuo jian shu hua yin ji; Yi qing wang bao"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Yunzhong Shangren 藴中上人 [Zhiqiong 志瓊; active second half of 14th century]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Prince Yi 怡親王 [Aisin-Gioro Yinxiang 愛新覺羅胤祥, 1686–1730], Beijing, China"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Abel William Bahr [1877–1959]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1970",
+        "text": "(Ellsworth & Goldie, New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1970–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1971",
+        "title": "Year in Review: 1970"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "Visions of Landscape: East and West"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1970.41",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1970.41",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1970.41/1970.41_web.jpg",
+    "w": 607,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/1970.41/1970.41_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

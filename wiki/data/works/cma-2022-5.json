@@ -12,7 +12,7 @@
   "medium": "Album leaf; ink and colors on flax paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「2021」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
@@ -56,6 +56,10 @@
           [
             "藏品号",
             "2022.5"
+          ],
+          [
+            "馆方作者",
+            "彭薇 Peng Wei (Chinese, b. 1974)"
           ]
         ]
       },
@@ -67,12 +71,66 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 2021–2021 唯一落入 contemporary；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Peng, Wei 彭薇, and Clarissa von Spee. Migrations of Memory: The Poetry and Power of Music by Chinese Artist Peng Wei in Collaboration with the Cleveland Museum of Art = 平沙落雁— 音樂的詩意與力量: 中國藝術家彭薇與克利夫蘭藝術博物館合作. Cleveland, OH: The Cleveland Museum of Art, 2021.（Reproduced: cover and p. 8）"
+        ]
       }
     ],
     "dating": [
       {
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "马勒致妻子 柏林／1905年1 1 月7日/\n\n亲爱的阿尔希姆！\n\n第一天算是顺利地过去了。乐队还不错，准备得很出色，非常勤奋，有热情。我希望是一次好的演出。音乐会已满座，遗憾的是不断地下雨，我只能穿胶鞋打雨伞趟水过去。下午我由H.硕特陪同乘车去米拉马莱，在那里我们逛了两个钟头。我极为惋惜，你没有与我在一起。这是一次美极了的逗留。丝柏和月桂——全部一片碧绿——溪水里的天鹅……天堂般的静谧。旅馆是可憎的（尽管这已是城里最好的了）——拖沓和嘈杂，这儿的排练从十二点到两点，晚上从八点到十一点。一切都是意大利式的混乱。音乐会也是直到九点一刻才开始。\n\n再次在维也纳下车，通向你床前的快乐之路，随后到孩子们身边，然后进入浴室，最后是一顿丰盛的早餐，这使我高兴得发疯呢。我热烈地吻你，我的阿尔希姆。\n\n你的古斯塔夫\n\n馆方英译：Gustav Mahler to Alma Mahler / Berlin/ November 7, 1905\n\nDearest Almschi!\n\nWell, the first day was a success. The orchestra is quite passable, excellently prepared, ardent, and enthusiastic. I hope for a good performance. The hall is sold out. Unfortunately, it’s been raining all day, and I’ve been splashing about as best I can, armed with an umbrella and a pair of galoshes.\n\nThis afternoon I went by coach to Miramare (accompanied by H. Schott), where we spent two hours looking around. I was really sorry you couldn’t come with me. It’s a wonderful place to stay. Cypresses and laurel trees, all still green, ponds with swans etc. And a heavenly calm. The hotel is ghastly (though it’s the best in town)—noisy and disorderly. Rehearsals are from twelve to two, and in the evenings from eight to eleven.—Very much the Italian way of doing things. Likewise the concert, which doesn’t begin until 8.15.\n\nNext time I disembark in Vienna, I will be on the happy road to your bedside and being surrounded by my children. I will draw a bath and finally have a sumptuous breakfast. This would make me so deliriously happy. I kiss you passionately, my Almschi.\n\nYour Gustav"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "2021–2022",
+        "text": "Collection of the Artist, sold to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "2022–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "2021",
+        "title": "Migrations of Memory—The Poetry and Power of Music"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "Six Dynasties of Chinese Painting (Chinese art rotation)"
+      },
+      {
+        "t": "exhib",
+        "when": "2024",
+        "title": "Six Dynasties of Chinese Painting Part 2"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
   }

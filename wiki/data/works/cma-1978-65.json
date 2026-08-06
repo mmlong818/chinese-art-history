@@ -12,14 +12,13 @@
   "medium": "hanging scroll; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 1300s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1978.65"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1978.65"
+          ],
+          [
+            "馆方作者",
+            "倪瓚 Ni Zan (Chinese, 1301–1374)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Zhang, Chou 張丑. Qing he shu hua fang: 12 juan [清河書畫舫: 12卷 = The Qinghe boat-studio of painting and calligraphy: catalogue of works known to the author]. [China]: [publisher not identified], 1875. Preface dated 1616.（Vol. I, 6a）",
+          "Sirén, Osvald. Chinese Painting: Leading Masters and Principles. New York: Ronald Press, 1956.（VII, Lists, 128）",
+          "Goepper, Roger. Im Schatten des Wu-Tʻung-Baumes [桐陰畫訣 = Tong yin hua jue]. München: Hirmer, 1959.（Reproduced: pl. 8 & 9）",
+          "Goepper, Roger. 1000 Jahre chinesische Malerei. München: Haus der Kunst, 1959.（Reproduced: cat. no. 29）",
+          "Lee, Sherman E. Chinese Landscape Painting. Cleveland, OH: The Cleveland Museum of Art, 1962.（p. 50, no. 34）",
+          "**馆方记录另有 15 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,110 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's inscription, signature, and seal:\nWindy and rainy days - what a chilly wheat-harvesting season,/ \nWith brush in hand, I fight depression by copying./ \nFortunately, I can depend upon you, my friend, to send me consolation -/ \n\"Pine-lard\" wind, and meat with bamboo shoots that never fail to awaken appetite./ \n\nYunlinzi, Zan. [seal] Ziyiyue."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "4 additional inscriptions and 14 additional seals: 1 poem and 3 seals, possibly of Chang Yü (1277–1350); 1 poem and 1 seal of Yüan Hua (1316–end of 14th c,); 1 poem and 2 seals of Lu P'ing (1438–1521); 1 seal of Liang Qingbiao 梁清標 (1620–1691); 1 poem and 1 seal of Chao Yü (1638–1713); 1 seal of ? Jen-lan (dates unknown); 2 seals of Gu Wenbin 顧文彬 (1811–1889); 1 seal of C. C. Wang 王季遷 (1907–2003); 2 seals unidentified."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Poem possibly by Chang Yü:\nThe Daoist of the Cloudy Forest, Ni Yuanzhen,/ \nHow many people can enjoy a fame in old age like yours?/ \nSeeing the painting, I wrote the poem in fond memories./ \nI feel as if I am bathed in the light of the fading moon/ \nWhich shines on your spirit as always."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "second half of the 1600s",
+        "text": "Liang Qingbiao 梁清標 [1620–1691]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Gu Wenbin 顧文彬 [1811–1889]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1978",
+        "text": "(C. C. Wang 王季遷 [1907–2003], New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1978–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1959",
+        "title": "1000 Jahre Chinesische Malerei"
+      },
+      {
+        "t": "exhib",
+        "when": "1968",
+        "title": "Chinese Art Under the Mongols: The Yuan Dynasty (1279–1368)"
+      },
+      {
+        "t": "exhib",
+        "when": "1979",
+        "title": "Year in Review: 1978"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Chinese Paintings: Themes and Techniques"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1994",
+        "title": "Asian Autumn: New Objects/New Insights: Cleveland's Recent Chinese Acquisitions"
+      },
+      {
+        "t": "exhib",
+        "when": "1999",
+        "title": "The Artist as Collector:  Masterpieces of Chinese Painting from the C.C. Wang Family Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "2012",
+        "title": "Masterpieces of Early Chinese Painting and Calligraphy in American Collections"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1978.65",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1978.65",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1978.65/1978.65_web.jpg",
+    "w": 544,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1978.65/1978.65_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

@@ -12,7 +12,7 @@
   "medium": "Album leaf; ink and colors on flax paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「2021」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
@@ -56,6 +56,10 @@
           [
             "藏品号",
             "2022.4"
+          ],
+          [
+            "馆方作者",
+            "彭薇 Peng Wei (Chinese, b. 1974)"
           ]
         ]
       },
@@ -67,12 +71,66 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 2021–2021 唯一落入 contemporary；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Peng, Wei 彭薇, and Clarissa von Spee. Migrations of Memory: The Poetry and Power of Music by Chinese Artist Peng Wei in Collaboration with the Cleveland Museum of Art = 平沙落雁— 音樂的詩意與力量: 中國藝術家彭薇與克利夫蘭藝術博物館合作. Cleveland, OH: The Cleveland Museum of Art, 2021.（Reproduced: p. 7）"
+        ]
       }
     ],
     "dating": [
       {
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "肖斯塔科维奇致伊萨克·达维多维奇 /茹科夫别墅 /1972年\n4月3日/\n\n亲爱的伊萨克 . 达维多维奇：\n\n今天写信，有一件事恳请你帮忙，我想再努一把力，争取到列宁格勒参加我的《第十五交响曲》的音乐会。\n\n我想让你委婉地打听一下，何时在什么地方将演奏我的这部作品，因为我亲自去打听实为不便。或许叶夫盖尼亚·历山德罗维奇·穆拉文斯基还能像过去那样，凭着自己的“蛮横”并像之前强行指挥我的《第十三交响曲》和《第二大提琴协奏曲》那样，再次强行安排并指挥我的《第十五交响曲》，这样不会使他感到超越自己的创作范围吗？因此，恳请你专门替我打听一下这方面的消息。如果一切正常，我可以在演出前5天赶到列宁格勒，并亲自参加他们的排练。音乐会结束之后，我就可以平静地去雷宾诺休息7-8天。等你的好消息。\n\n请代我和伊琳娜向薇拉·瓦西里耶芙娜致意。\n\n你的德·肖斯塔科维奇\n\n馆方英译：Dmitry Dmitriyevich Shostakovich to Isaak Glikman / Zhukova /April 3, 1972\n\nDear Isaak Davïdovich,\n\nWould you please do me a great favor? I want to summon up all my strength and come to Leningrad to hear the performance of my Fifteenth Symphony.\n\nI should like you, please, tactfully to find out if and when it is due to be performed. It is rather awkward for me to do it myself. I am worried that Yevgeny Mravinsky’s creative personality may not be in complete sympathy with the work, and that he may therefore treat it as cavalierly as he did the Thirteenth Symphony and the Second Cello Concerto. And so I should like you to find out everything you can about this matter. Then I would plan to come up 5 days or so before the first performance, attend the rehearsals, and afterwards go for about 7 or 8 days to Repino. I will wait for your news.\n\nIrina and I send our greetings to Vera Vasiliyevna.\n\nYour\nD. Shostakovich"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "2021–2022",
+        "text": "Collection of the Artist, sold to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "2022–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "2021",
+        "title": "Migrations of Memory—The Poetry and Power of Music"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "Six Dynasties of Chinese Painting (Chinese art rotation)"
+      },
+      {
+        "t": "exhib",
+        "when": "2024",
+        "title": "Six Dynasties of Chinese Painting Part 2"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
   }

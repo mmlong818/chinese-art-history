@@ -12,14 +12,13 @@
   "medium": "handscroll; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1360」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1954.791"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1954.791"
+          ],
+          [
+            "馆方作者",
+            "姚廷美 Yao Tingmei (Chinese, active mid-1300s)"
           ]
         ]
       },
@@ -67,13 +70,154 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Ferguson, John C 福開森. Li dai zhu lu hua mu 歷代著錄畵目. Nanjing: Chin-ling University, Zhong guo wen hua yan jiu suo 金陵大學中國文化硏究所, 1934.（II, 187）",
+          "Zheng, Zhenduo 鄭振鐸. Tang Song yi lai ming hua ji: Yun hui zhai cang 唐宋以来名畫集: 韞輝齋藏. Shanghai: Shanghai chu ban gong si, 1947.（Reproduced:  pls. 40–47）",
+          "Chen, Rentao 陳仁濤 [J.D. Chen] and Xu Rong 徐鎔. Jin gui lun gu chu ji [金匱論古初集 = Essays on Chinese antiquities - The first album of King-Kwei's collection with explanations]. Hong Kong: Chen Rentao, 1952.（p. 64）",
+          "Lee, Sherman E. Chinese Landscape Painting. Cleveland: Cleveland Museum of Art, 1954.（Reproduced: cat. no. 34, p. 59; Mentioned: p. 147）",
+          "Sirén, Osvald. Chinese Painting: Leading Masters and Principles. New York: Ronald Press, 1956.（Mentioned; VII, Lists, 144）",
+          "**馆方记录另有 17 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "至正廿年春正月_日作此併系鄙語于尾\n\n地偏人遠閉柴關，滿院松陰白晝閒。\n眼底風塵渾忘却，坐看流水臥看山。\n\n吳興姚廷美畫\n\n馆方英译：Artist's inscription, poem, and signature: \n\nIn the first month of spring in the twentieth year of the reign of Zhizheng [1360], I painted this and attached a few rustic words at the end of the scroll. \n\nA secluded place, one may close the thatch door. \nIn a courtyard fully shaded by pines, a moment of daytime leisure awaits. \nSights of wind and dust can be utterly forgotten. \nOne sits to view the cascades, or lies down [better] to see the hills.\n\nPainted by Yao Tingmei of Wuxing"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "23 colophons and 53 seals (dates unavailable for some): 1 colophon, dated 1360, and 2 seals of Yang Weizhen (1296–1370); 1 colophon and 3 seals of Wan Yi; 1 colophon of Zhang Junde; 1 colophon and 3 seals of Angji (act. c. mid-1300s); 1 colophon and 1 seal of Xu Shiquan; 1 colophon and 3 seals of Gao Yu; 1 colophon and 2 seals of Li Mingfu; 1 colophon and 2 seals of Lu Lin; 1 colophon and 1 seal of Zhang Qian; 1 colophon of Tao Tangwen; 1 colophon and 1 seal of Wu Yuangui (act. c. 1300–60); 1 colophon of Bao Jiong; 1 colophon of Wang Zao; 1 colophon and 1 seal of Ma Chuyi; 1 colophon and 1 seal of Lin Yizhuang; 1 colophon and 1 seal of Gu Shunju; 1 colophon and 2 seals of Wang Jing; 1 colophon and 2 seals of Lin Shouchang; 1 colophon and 1 seal of Gao Zhidao; 1 colophon of Lin Xun; 1 colophon, dated 1359, and 2 seals of Meng Weicheng (act. mid-14th c.); 1 colophon and 1 seal of Meng Zhiji (act. mid-1300s); 14 seals of Liang Qingbiao 梁清標 (1620–1691); 1 poem dated 1755 and 5 seals of the Qianlong 乾隆 emperor (r. 1736–95); 2 seals of the Jiaqing 嘉慶 emperor (r. 1796–1821); 3 seals of the Xuantong 宣統 emperor (r. 1909–11)."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon by Yang Weizhen, \"An Essay on Leisure to Spare\":\n\nMaster Ouyang [Ouyang Xiu, 1007–1072] says in one of his poems, \"To have good company is such a joy. It provides the rare excuse to steal away leisure from one's life.\" Now, if leisure could be acquired only by stealing, this certainly could not be said to be abundant enough to spare. In the poetry of Su Dongpo [1036–1101] he says, \"It is indeed not bad to be able to secure leisure because of illness.\" Now if leisure should have been obtained from an illness that is against one's wish, this again could not be said to be abundant enough to spare. How vulgar is the poem by a man of late Sung who talks about buying plenty of farm and homestead land in preparation for the coming days of leisure. Now, if leisure has to depend on the extensive holding of real estate, this is precisely the kind of thing which will jeopardize one's leisure. Indeed, one will never have enough leisure that way, let alone enough to spare.\n\nIn Qinglong by the Song River, there is a hermit, Mr. Tu. Inside, he has fine children to take care of his household. Under him, he has diligent servants to engage in production. Outside, he has wise relatives and friends to watch out and guard him. Thus he has been able to live peacefully, and to eat heartily, and to pass his time in rest and play. Surely his leisure was not stolen from the few moments when he has company. It was not derived from illness. It was not jeopardized by extensive holdings of real estate. Could anyone question my word if I said this is truly abundant enough to spare? Mr. Tu asked a common friend, Zhang Mengchen, to come to me for an essay. I herewith composed this for him as above. At the same time, others who are well versed in poetry have written poems as in the following.\n\nDong wei zi wrote this on the first day of the second month of the gengzi year [1360]. By \"Dong wei\" I mean the jinshi graduate from the examination in the dingmao year of Taiding [1327], with the present rank of Feng xun dai fu, and in the office of Commissioner of Schools for the Jiangxi and other provinces, whose name is Yang Weizhen."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Title on frontispiece by Zhang Bi 章弼:\nSigned Gongchen 拱辰"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Liang Qingbiao 梁清標 [1620–1691]"
+      },
+      {
+        "t": "prov",
+        "when": "1736?–c. 1911",
+        "text": "Qing imperial collection (seals of Emperors Qianlong, r. 1736–1795, Jiaqing, r. 1796–1820, and Xuantong, r. 1909–1911)"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Zhang Heng 張珩 [1915–1963]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1954",
+        "text": "(Frank Caro [1904–1980], New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1954–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1954",
+        "title": "Chinese Landscape Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1955",
+        "title": "Arts of China"
+      },
+      {
+        "t": "exhib",
+        "when": "1956",
+        "title": "Art: The International Language"
+      },
+      {
+        "t": "exhib",
+        "when": "1968",
+        "title": "The Scholar in Art"
+      },
+      {
+        "t": "exhib",
+        "when": "1968",
+        "title": "Chinese Art Under the Mongols: The Yuan Dynasty (1279–1368)"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2009",
+        "title": "Streams and Mountains Without End: Asian Art and the Legacy of Sherman E. Lee at the Cleveland Museum of Art"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1954.791",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1954.791",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1954.791/1954.791_web.jpg",
+    "w": 900,
+    "h": 29,
+    "full": "https://openaccess-cdn.clevelandart.org/1954.791/1954.791_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

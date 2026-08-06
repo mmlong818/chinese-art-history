@@ -12,14 +12,13 @@
   "medium": "handscroll; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1361」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1959.138"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1959.138"
+          ],
+          [
+            "馆方作者",
+            "張渥 Zhang Wo (Chinese, active c.1336–after 1364)；褚奐 Chu Huan (Chinese, active 1361)"
           ]
         ]
       },
@@ -67,13 +70,149 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Lu, Shihua 陸時化. Wu Yue suo jian shu hua lu: 6 juan 吳越所見書畫錄 : 六卷. Shunde: Teng shi, 1910.（ch. 3, pp. 6(a)-6(b).）",
+          "Jiao yu bu di er ci quan guo mei shu zhan lan hui zhuan ji [敎育部第二次全國美術展覽會專集 = A special collection of the second National Exhibition of Chinese Art under the auspices of the Ministry of Education]. [Nanjing?]: Shang wu yin shu guan, 1937.（Vol. 1, cat. no. 75）",
+          "Dubosc, Jean Pierre, and Alberto Giuganino. Mostra D'arte Cinese: Catalogo = Exhibition of Chinese Art: Catalogue. Venezia: Alfieri Editore, 1954.（cat. no. 785）",
+          "Sirén, Osvald. Chinese Painting: Leading Masters and Principles. New York: Ronald Press, 1956.（Mentioned and Reproduced: IV, 36; VI, pls. 44, 45; VII, Lists, 100）",
+          "Chen, Rentao 陳仁濤 [J.D. Chen]. Gu gong yi yi shu hua mu jiao zhu 故宮已佚書畫目校注. Hong Kong: Dongnan shu ju, 1956.（p. 14(b)）",
+          "**馆方记录另有 28 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Text of The Nine Songs written by Chu Huan at the end of each section."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "7 colophons and 47 seals: 1 colophon, dated 1361, and 28 seals of Chu Huan 褚奐 (active c. 1361); 1 colophon, dated 1785, and 1 seal of Lu Shihua 陸時化 (1714–1779); 2 seals of Lu Yü-ch'ing (18th c.); 1 colophon, dated 1935, of Ye Gongchuo 葉恭綽 (1881-1968); 1 colophon, dated 1935, of Wu Hufan 吳湖帆(1894–1968); 1 colophon, dated 1938, and 1 seal of Wang Tongyu 王同愈 (1856–1941); 1 colophon, dated 1941, of Wu Huayuan 吳華源 (1893–1972); 1 colophon, dated 1942, and 9 seals of Xu Bangda 徐邦達 (1911–2012); 1 colophon, dated 1942, of Lang Jingshan  郎靜山 (1892–1995); 1 colophon, dated 1944, of Tang Yun 唐雲 (1910–1993); 6 seals of Wang Jiqian [C.C. Wang] 王季遷 (1907–2003)."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "右離騷九歌圖，宋龍溟居士李公本，淮南張渥叔厚所畫妙絕當世。家藏請予書其辭目識于左。至正二十一年辛醜三月旦河南褚奐記。\n\n馆方英译：Colophon and 3 seals by Chu Huan 褚奐: \n\nIn the foregoing is The Nine Songs from Li-sao based on the original of Long ming ju shi [Li Gonglin] and painted by Zhang Wo, t. Shuhou of Huainan. The painting is a wonder unsurpassed in our time. It has been in the family collection of ... who has asked me to write the text. I therefore recorded this as above. Noted by Chu Huan of Henan on the first day of the third month of the xin chou year, the twenty-first year of the Zhizheng era [1361]. \n\n[3 seals] Chu Huan; Shi wen fu yin; Shi xue zhai."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon by Lu Shihua 陸時化 (1714–1789): \n\nThis scroll is fortunate to have been handed down from collections of the right people. Now, after 500 years, its condition is as good as when it was painted. I acquired this from Mr. Shen Guiyu [1673-1769], the President of the Board of Rites. The label is in his handwriting when he was 95 years old. I submit that Chu Huan (t. Shiwen) of the Yuan Dynasty was a native of Qiantang. His \"seal\" and li writings are in the style of Wu Rui. For example, in [Chu Kuei's] Ming ji lu [A list of masterpieces] is recorded the stele commemorating the restoration of the prefectural school of Kun-shan, the text of which was composed by Yang Weizhen in the twenty-first year of Zhizheng [1361]; and the calligraphy as well as the title in li style was by Chu Huan, who was at that time an assistant judge of the prefecture of Haining in the circuit of Hangzhou. Zhang Wo's zi is Shuhou (叔厚). His literary name is Zhen Qisheng (贞期生). According to [Gu Ying's] Yu shan cao tang ya jii, he liked to paint in the bai-miao or the \"pure delineation\" style after the method of Li Longmian [Li Gonglin 李公麟], which finds no peer among the ancient masters. This is agreed upon [by Pei Ch'iung] in his Qing jiang zhi  who praised [Zhang Wo] as being quite learned and well-versed in many branches of the arts, especially figure painting. Recorded by Lu Shihua [The mountain dweller], listening to the pine, in the twelfth month of the yisi year [1785]."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Shen Deqian 沈德潛 [1673–1769]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Lu Shihua 陸時化 [1714–1789]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Lin of Ningbo 四明林氏 [early 20th century]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Xu Maoxun 徐懋勳 [late 19th–20th century]"
+      },
+      {
+        "t": "prov",
+        "when": "1937–1940s",
+        "text": "Xu Bangda 徐邦達 [1911–2012]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1959",
+        "text": "(C. C. Wang 王季遷 [1907–2003], New York, NY,  sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1959–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1959",
+        "title": "1000 Jahre Chinesische Malerei"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Chinese Paintings: Themes and Techniques"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "2011",
+        "title": "Chinese Art in an Age of Revolution: Fu Baoshi (1904–1965)"
+      },
+      {
+        "t": "exhib",
+        "when": "2012",
+        "title": "Masterpieces of Early Chinese Painting and Calligraphy in American Collections"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1959.138",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1959.138",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1959.138/1959.138_web.jpg",
+    "w": 900,
+    "h": 36,
+    "full": "https://openaccess-cdn.clevelandart.org/1959.138/1959.138_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

@@ -12,14 +12,13 @@
   "medium": "hanging scroll; ink and light color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「late 1400s–early 1500s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1977.199"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1977.199"
+          ],
+          [
+            "馆方作者",
+            "唐寅 Tang Yin (Chinese, 1470–1523)"
           ]
         ]
       },
@@ -67,6 +70,19 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**馆方在作者字段上加了限定词「attributed to」（传）。**这不是本库的判断，是馆方的著录。**限定词一旦存在，这件东西与该画家名下的真迹就不是一回事**——本库对摹本与原作分开处理已立规矩，此处照录该限定词，不代馆方取消它，也不据此另作裁断。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Mentioned and Reproduced: cat. no. 161, p. 197）",
+          "Tang, Yin 唐寅, Xu Wei 徐渭, and Qiu Ying 仇英. Ming Hua Quan Ji 明畫全集. Hangzhou: Zhejiang da xue chu ban she, 2017.（Mentioned and reproduced: Vol. 20, pt. 2, pp. 222-223, 317）",
+          "Peng, Wei 彭薇, and Clarissa von Spee. Migrations of Memory: The Poetry and Power of Music by Chinese Artist Peng Wei in Collaboration with the Cleveland Museum of Art = 平沙落雁—音樂的詩意與力量: 中國藝術家彭薇與克利夫蘭藝術博物館合作. Cleveland, OH: The Cleveland Museum of Art, 2021.（Mentioned and Reproduced: p. 13）"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +90,60 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's seal at lower left corner: Wu [remainder cut off]."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "(Howard C. Hollis [1899–1985], Cleveland, OH, sold to Mr. and Mrs. Leisy)"
+      },
+      {
+        "t": "prov",
+        "when": "?–1977",
+        "text": "Mr. Herbert F. [1900–1977] and Mrs. Helen Stamp Leisy [1906–1975], Cleveland, OH, bequest to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1977–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "2021",
+        "title": "Migrations of Memory—The Poetry and Power of Music"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1977.199",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1977.199",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1977.199/1977.199_web.jpg",
+    "w": 674,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/1977.199/1977.199_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

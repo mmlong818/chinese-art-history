@@ -12,14 +12,13 @@
   "medium": "Hanging scroll; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「probably 1739」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1985.366"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1985.366"
+          ],
+          [
+            "馆方作者",
+            "汪士慎 Wang Shishen (Chinese, 1686–1759)"
           ]
         ]
       },
@@ -67,6 +70,13 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Ōsaka Shiritsu Bijutsukan [大阪市立美術館 = Osaka Municipal Museum]. Yōshū Hakkai [揚州八怪 = The Eight masters of Yangzhou]. Ōsaka: publisher not identified, 1969.（p. 38）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Mentioned and Reproduced: cat. no. 267, pp. 365–366）"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +84,85 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's Poem 1.\nLooking for plum blossoms with friends, enjoying the fresh clear day,/\nMy black shoes and cotton socks feel light./\nWith fine groves in front of the ancient temple door,/\nI walk to and fro, as in a painting."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's Poem 2. \nOne clear chime breaks the silence in the Mountains,/\nAll the heroes of the Six Dynasties, after a thousand years, are forgotten./\nEnjoy the idle days under a Buddhist window,/\nPlum blossoms monopolize the east wind with their branches."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's Poem 3.\nNext to the little stone bridge is a path leading west,/\nWherever you walk, your staff will touch some dike of the Sui Dynasty./\nTourists love only the Ch'i-ling temple,/\nSo sea-gulls take to startled flight and horses neigh."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's Poem 4. \nAfter ten years I revisited the I-su An,/\nThe old plums are no longer on the southeast side of the garden./\nI pass a peaceful night, though unable to offer fragrant flowers,/\nAs bright moonlight cheerlessly falls upon the Buddhist shrine."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's inscription, signature, and 3 seals:\n\nFour poems composed on our way from the Iron Buddha Temple to the I-su An Retreat at P'ing-shan, while looking for plum blossoms with friends. Ch'ao-lin, Wang Shih-shen painted [this]. [2 seals] Wang Shih-sheng; Chin-jen fu. [seal, lower right corner] Ch'ao-lin."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "3 colophons, 3 additional inscriptions, and 23 additional seals: \n\n1 inscription, dated 1739, and 2 seals of Mao Yin-k'uei (17th–18th c.); 1 colophon and 3 seals of Lu K'uei-hsün (17th–18th c.); 1 colophon and 3 seals of Chu Chin (1686–1769); 1 colophon and 4 seals of Yü Pi-k'uei (17th–18th c.); 1 inscription and 2 seals of Yao Shih-yü (1695–1749); 1 inscription and 3 seals of ? Shu-teh; 1 seal of Shen Wu (dates unknown); 1 seal of Lou Ts'un (19th c.); 2 seals of Cheng Qi 程琦 (1911–1988); 2 unidentified."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1985",
+        "text": "The Kelvin Smith Collection, Cleveland, OH, given by Mrs. Kelvin [Eleanor Armstrong] Smith [1899–1998] to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1985–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1988",
+        "title": "A Private World: Japanese and Chinese Art from the Kelvin Smith Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "When Salt was Gold: Yangzhou, City of Riches and Art"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1985.366",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1985.366",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1985.366/1985.366_web.jpg",
+    "w": 423,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/1985.366/1985.366_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

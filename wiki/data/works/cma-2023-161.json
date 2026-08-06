@@ -12,14 +12,13 @@
   "medium": "hanging scroll; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1818」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 2023.161"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "2023.161"
+          ],
+          [
+            "馆方作者",
+            "洪範 Hong Fan (Chinese, active late 1700s–early 1800s)"
           ]
         ]
       },
@@ -71,9 +74,73 @@
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "戊寅夏至石農洪範\n\n馆方英译：Artist's inscription: Painted in the Summer of the wuyin year (1818) by the stony peasant Hong Fan. [\"Wuyin xia zhi. Shi Nong Hong Fan.\"]"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "洪範之印\n\n馆方英译：Artist's seal: Seal of Hong Fan. (\"Hong Fan zhi Yin\")"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "石農詩畫\n\n馆方英译：Artist's seal: A poetic painting by Shi Nong. (\"Shi Nong Shi Hua.\")"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1960s",
+        "text": "(Portobello Market vender, London, England, sold to John Gosse)"
+      },
+      {
+        "t": "prov",
+        "when": "1960s–2017",
+        "text": "Mr. John Gosse [1914–2017], Kew, Richmond, London, England, to Hanshan Tang"
+      },
+      {
+        "t": "prov",
+        "when": "2017–2023",
+        "text": "(Hanshan Tang, London, England, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "2023–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/2023.161",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 2023.161",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/2023.161/2023.161_web.jpg",
+    "w": 500,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/2023.161/2023.161_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

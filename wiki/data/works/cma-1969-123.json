@@ -12,14 +12,13 @@
   "medium": "hanging scroll, ink with white pigment on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 1650」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1969.123"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1969.123"
+          ],
+          [
+            "馆方作者",
+            "龔賢 Gong Xian (Chinese, 1599–1689)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Cahill, James. \"The Early Styles of Kung Hsien.\" Oriental Art XVI, no. 1 (Spring 1970), pp. 51–71.（Reproduced: p. 61, fig. 17）",
+          "“Art of Asia Recently Acquired by American Museums, 1969.” Archives of Asian Art 24 (1970): 86–117.（Mentioned: p. 107）",
+          "Lee, Sherman E. “The Year in Review for 1969.” The Bulletin of the Cleveland Museum of Art 57, no. 1 (January 1970): 2–50.（Mentioned: p. 48, no. 205; Reproduced: p. 33, no. 205）",
+          "Cheng, Qi 程琦. Xuanhuitang shuhua lu [萱暉堂書畫錄 = Paintings and calligraphy in the collection of Hsüan-hui-tʻang]. Hong Kong: Xuanhuitang, 1972.（pp. 138(a)-138(b)）",
+          "Lee, Sherman. “To See Big within Small: Hsiao-Chung-Chien-Ta.” The Burlington Magazine, vol. 114, no. 830, 1972, pp. 314–312.（Reproduced: p. 322, fig. 66）",
+          "**馆方记录另有 9 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,85 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "畫家董巨，實開南宗。既無剛根之氣，復無刻畫之跡。後之作者或以才見，或以法稱。唯董巨則幾乎道矣。然逞才則離法，泥法則叛道。至道無可道。說者謂即歛才就法之謂道。問之董巨，而董巨不知，忽乎微矣。此幅余二十年前舊作。藏之新安吳氏。吳君晉明寶之若家珍。後携之金陵。命余題識。余因與晉明論畫及此，并紀之。非敢曰此效法董巨而有得焉者也。\n\n庚戌冬杪半畝居人龔賢。\n[印]龔半千; 野遺賢; [左下]龔賢; [上]可能另有龔賢一印。\n\n馆方英译：Artist's inscription, signature, and 4 seals: \n\nIn truth, it was masters like Dong Yuan and Juran who created the Southern school. [In their works], we observe neither the brute and unyielding force, nor traces of labored delineation. Later artists may be known for their talents or for their grasp of methods. Only Dong Yuan and Juran could approximate the Way [or Dao]. For those who allow talent to have its way may depart from the methods; whereas those who abide by methods may end up betraying the Way. There are those who claim that one may gain the Way by suppressing their talents while adhering to the methods. If we were to pose this question to Dong Yuan and Juran, they would not know what to say. How ironic! I painted this work twenty years ago. It was in the collection of Mr. Wu of Xin’an. Mr. Wu, whose name is Jinming, treasured it like a family heirloom. Later, he brought it to Jinling and asked me to inscribe it. Thereupon I discussed the art of painting with him and recorded our conversation here. I dare not say that I was emulating Dong and Ju and thereby gained insights. \n\nAt the end of winter of the gengxu year [1670]. Ban mu ju ren, Gong Xian. \n[2 seals] Gong Banqian; Yeyi Xian. [seal, lower left corner] Gong Xian. [seal above, undecipherable, but probably a seal of Gong Xian]."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "2 additional seals of Cheng Qi 程琦 (1911–1988)"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "c. 1650–at least c. 1670",
+        "text": "Wu Jinming 吳晉明 [17th century], Xin’an"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Cheng Qi 程琦 [1911–1988], to his son, Stephen O. K. Chen"
+      },
+      {
+        "t": "prov",
+        "when": "?–1969",
+        "text": "(Stephen O. K. Chen [20th century], New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1969–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1970",
+        "title": "Year in Review: 1969"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "Visions of Landscape: East and West"
+      },
+      {
+        "t": "exhib",
+        "when": "1987",
+        "title": "Mountains, Rocks, and Water: Landscape Painting in Asia"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1969.123",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1969.123",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1969.123/1969.123_web.jpg",
+    "w": 247,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1969.123/1969.123_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

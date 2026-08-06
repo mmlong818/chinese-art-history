@@ -12,14 +12,13 @@
   "medium": "Handscroll; ink and color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1130」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1933.220"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1933.220"
+          ],
+          [
+            "馆方作者",
+            "米友仁 Mi Youren (Chinese, 1072–1151)"
           ]
         ]
       },
@@ -67,13 +70,224 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → southern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Tō Sō Gen Min meigaten-gō [唐宋元明名画展号]. Tōkyō: Tōkyō Asahi Shinbun Hakkōjo, 1928.（p. 56）",
+          "\"Part II. Eighteenth Annual Report of the Cleveland Museum of Art 1933.\" The Bulletin of the Cleveland Museum of Art 21, no. 2 (February 1934): 1–15.（Mentioned: p. 4）",
+          "The Chinese Exhibition; A Commemorative Catalogue of the International Exhibition of Chinese Art, Royal Academy of Arts, November 1935-March 1936. London: Faber and Faber, 1936.（Mentioned: cat. no. 1140, p. 48; Reproduced: cat. no. 1140a-c, p. 110）",
+          "Catalogue of the Twentieth Anniversary Exhibition of the Cleveland Museum of Art: The Official Art Exhibit of the Great Lakes Exposition: June Twenty-Sixth to October Fourth 1936. Cleveland, OH: The Cleveland Museum of Art, 1936.（cat. no. 382）",
+          "Pacific Cultures, Department of Fine Arts, Division of Pacific Cultures. San Francisco, CA: Golden Gate International Exposition, 1939.（Reproduced: cat. no. 126）",
+          "**馆方记录另有 23 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "好山無數接天涯，烟靄陰晴日夕佳。  \n要識先生會到此，故留筆戲在君家。  \n\n庚戍歲，辟地新昌作。元暉。  \n\n[seal]  元暉戲作\n\n馆方英译：Artist's inscription:\nFine hills are endless toward the edges of heaven.\nSo are mist and cloud, rain and shine, days and nights.\nHad I known that you’d be visiting here.\nI would have left this playful work in your home.\n\nIn the year of gengxu [1130], [I painted this] while seeking refuge in Xinchang. Yuanhui.\n\n[seal]  “Yuan hui xi zuo” (Yuanhui playfully made this)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[Seal] 安陽孫氏\n\n馆方英译：Anyang Sun shi"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[Seal] 畢瀧\n\n馆方英译：Bi Long"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[Seal] 成親王\n\n馆方英译：Prince Cheng"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[Seal] 永瑆\n\n馆方英译：Yungxing (1752–1823)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[Seal] 錫三 appears twice\n\n馆方英译：Xisan"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[Seal] 養性齋珍藏書畫印\n\n馆方英译：Calligraphy and painting in the collection of the Yangxing studio (Yangxing zhai zhen cang shu hua yin)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[Seal] 芷陔審定真跡\n\n馆方英译：authenticated by Zhigai [Li Zaixian 李在銛] (Zhigai shen ding zhen ji)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[Seal]  玉簡齋\n\n馆方英译：Yujian Studio (Yu jian zhai)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "2 colophons (1 dated 1650), inscription dated 1647, and 2 seals of Wang To (1592–1652)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 colophon, dated second month of the gengyin year 庚寅 (1650), and 2 seals of Chen Kuang 陳爌 (1646 jinshi degree)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "7 seals unidentified"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "A separate scroll containing six colophons on Cloudy Mountains exists; the inscribers are Luo Zhenyu 羅振玉 (1866–1940), Naito Torajiro 內藤虎次郎 (1866–1934), Nagao Ko 長尾甲 (1864–1942), and Wu Changshuo 吳昌碩 (1844–1927). Naito Torajiro alone wrote three colophons."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Zigu 子榖 [mid-1600s]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Xisan 錫三 of Yang xing zhai 養性齋 [likely 1800s]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Li Zaixian 李在銛 [early 1900s]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Luo Zhenyu 羅振玉 [1866–1940]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Yamamoto Teijiro 山本悌二郞 [1870–1937], Tokyo, Japan"
+      },
+      {
+        "t": "prov",
+        "when": "?–1933",
+        "text": "(Yamanaka and Company, New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1933–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1936",
+        "title": "The Twentieth Anniversary Exhibition: The Official Art Exhibit of the Great Lakes Exposition"
+      },
+      {
+        "t": "exhib",
+        "when": "1941",
+        "title": "The Silver Jubilee Exhibition"
+      },
+      {
+        "t": "exhib",
+        "when": "1952",
+        "title": "Exhibition of the Month: The Romantic Spirit"
+      },
+      {
+        "t": "exhib",
+        "when": "1954",
+        "title": "Chinese Landscape Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Chinese Paintings: Themes and Techniques"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "Visions of Landscape: East and West"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2000",
+        "title": "The Chinese Painter as Poet"
+      },
+      {
+        "t": "exhib",
+        "when": "2014",
+        "title": "Admired from Afar: Masterworks of Japanese Painting from the Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2017",
+        "title": "Inspired by Chinese Landscape and Art – Chinese Gallery Rotation 240a, 241c"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1933.220",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1933.220",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1933.220/1933.220_web.jpg",
+    "w": 1263,
+    "h": 225,
+    "full": "https://openaccess-cdn.clevelandart.org/1933.220/1933.220_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

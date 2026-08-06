@@ -12,14 +12,13 @@
   "medium": "Album leaf; ink and slight color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1150–after 1225」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1983.85"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1983.85"
+          ],
+          [
+            "馆方作者",
+            "劉松年 Liu Songnian (Chinese, c. 1150-after 1225)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → southern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Turner, Evan H. “Year in Review for 1983.” The Bulletin of the Cleveland Museum of Art 71, no. 2 (February 1984): 38–79.Published as: High Mountain and Flowing Water（Reproduced: p. 38; Mentioned: p. 77, no. 231）",
+          "Lee, Sherman E. “Listening to the Ch'in by Liu Sung-Nien.” The Bulletin of the Cleveland Museum of Art, vol. 73, no. 9, 1986, pp. 372–387.（Reproduced: pp. 374-376）",
+          "Tōyō kaiga no seika: tokubetsuten: Kurīvurando Bijutsukan no korekushon kara [東洋絵画の精華 : 特别展 : クリーヴラント美術館のコレクションから = Highlights of Asian painting from the Cleveland Museum of Art]. Japan: Nara National Museum, 1998.（Reproduced: p. 41, cat. no. 18）",
+          "Addiss, Stephen, Kenneth J. DeWoskin, and Mitchell Clark. The resonance of the qin in East Asian art. New York: China Institute Gallery, China Institute, 1999.（Reproduced: cat. no. 9 pp. 74-75）",
+          "Helen Dunn Grinnell, \"Exhibition Reviews\" Orientations, vol. 31, no. 1 January 2000.（Reproduced: p. 72）",
+          "**馆方记录另有 3 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,85 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "劉松年\n\n馆方英译：Liu Songnian"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Cheng Qi 程琦 [1911–1988], Hong\nKong, to his daughter Julia C. Chiang"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Mrs. Julia C. Chiang, New Jersey"
+      },
+      {
+        "t": "prov",
+        "when": "?–1983",
+        "text": "(Clark Cheng, Mountainside, NJ, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1983–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1984",
+        "title": "The Year in Review for 1983"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "1999",
+        "title": "The Resonance of the Qin in Far Eastern Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "Six Dynasties of Chinese Painting (Chinese art rotation)"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1983.85",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1983.85",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1983.85/1983.85_web.jpg",
+    "w": 929,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1983.85/1983.85_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

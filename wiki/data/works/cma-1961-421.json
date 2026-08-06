@@ -12,14 +12,13 @@
   "medium": "Album leaf; ink on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 1256」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1961.421"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1961.421"
+          ],
+          [
+            "馆方作者",
+            "馬麟 Ma Lin (Chinese, c. 1185–after 1260)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → southern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Lee, Sherman E. Tea Taste in Japanese Art. New York, NY: The Asia House Gallery, dist. by H. Abrams, 1963.（Mentioned: cat. no. 1, p. 94; Reproduced: cat. no. 1, p. 13）",
+          "Lee, Sherman E. and Wai-Kam Ho. \"Scattered Pearls beyond the Ocean.\" The Bulletin of the Cleveland Museum of Art, Vol. 51, No. 2 (Feb., 1964), pp. 23–39.（Mentioned and Reproduced: pp. 30–31, cat. no. 5 and 6）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1966. Cleveland, OH: The Cleveland Museum of Art, 1966.（Reproduced: p. 259）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1969. Cleveland, OH: The Cleveland Museum of Art, 1969.（Reproduced: p. 259）",
+          "Wang, Chi-chʻien. Album Leaves from the Sung and Yuan Dynasties: [Exhibition], March 26 Through May 30, 1970. New York: The [China House] Gallery, 1970.（Reproduced: cat. no. 35）",
+          "**馆方记录另有 14 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,120 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Inscription for 1961.421.1:\nArtist's signature: 臣馬麟 Your servant, Ma Lin.\n\n2 seals on mounting of Chu Sheng-chai (20th c.)."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Inscription for 1961.421.2:\nThe 2 lines of poetry from right to left read:\n\n\"I walk unto where waters end \nAnd sit down to watch when clouds arise.\""
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Seals and Inscription for 1961.421.2:\nThe top gourd-shaped seal has the cyclical date \"bingchen\" (丙辰 1256); the lower square seal is the Seal for Imperial Calligraphy. The inscription between the two imperial seals reads, \"Presented to Chung-kuei\"."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Seals and Inscription on facing leaf for 1961.421.2:\nInscription by Zhang Daqian (1899–1983). 1 seal of Chu Sheng-chai (20th Century) remounted onto the facing leaf to the left of the square calligraphy."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1961",
+        "text": "(Nagatani, Inc., Chicago, IL, sold the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1961–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1962",
+        "title": "Year in Review - 1962"
+      },
+      {
+        "t": "exhib",
+        "when": "1963",
+        "title": "Tea Taste in Japanese Art"
+      },
+      {
+        "t": "exhib",
+        "when": "1970",
+        "title": "Wang Chi-ch'ien, Album Leaves from the Sung and Yuan Dynasties"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "Visions of Landscape: East and West"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "1992",
+        "title": "Fans: East and West"
+      },
+      {
+        "t": "exhib",
+        "when": "2001",
+        "title": "West Lake and the Mapping of Southern Song Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2018",
+        "title": "Power and Possession: Chinese Calligraphy and Inscribed Objects – Chinese Gallery Rotation 240a, 241c"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1961.421",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1961.421",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1961.421/1961.421_web.jpg",
+    "w": 900,
+    "h": 372,
+    "full": "https://openaccess-cdn.clevelandart.org/1961.421/1961.421_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

@@ -12,14 +12,13 @@
   "medium": "Handscroll; ink and color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1743」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1979.72"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1979.72"
+          ],
+          [
+            "馆方作者",
+            "方士庶 Fang Shishu (Chinese, 1693–1751)；葉芳林 Ye Fanglin (Chinese, active late 1600s–mid-1700s)"
           ]
         ]
       },
@@ -67,13 +70,129 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**馆方在作者字段上加了限定词「and」（and）。**这不是本库的判断，是馆方的著录。**限定词一旦存在，这件东西与该画家名下的真迹就不是一回事**——本库对摹本与原作分开处理已立规矩，此处照录该限定词，不代馆方取消它，也不据此另作裁断。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Li, Dou 李斗, Wang Beiping 汪北平, and Tu Yugong 涂雨公. Yangzhou hua fang lu 揚州畫舫錄. Beijing: Zhonghua shu ju chu ban; Xin hua shu dian Beijing fa xing suo fa xing, 1960. (Preface dated 1795).（Mentioned: IV, 6(b)）",
+          "Chen, Kuilin 陳夔麟. Bao yu ge shu hua lu 寶迂閣書畫錄 . Shanghai: [publisher not identified], 1915. (Preface dated 1855).（Mentioned: III, 57(b)-61(b)）",
+          "Ferguson, John C 福開森. Li dai zhu lu hua mu 歷代著錄畵目. Nanjing: Chin-ling University, Zhong guo wen hua yan jiu suo 金陵大學中國文化硏究所, 1934.（Mentioned and Reproduced: I, supp., p. 9(b)）",
+          "Fukunaga, Takehiko 福永武彥, and Howard L. Rogers. Kinnō, Bunjinga suihen. chiyūgo (9) 金農, 文人画粋編. 中国篇 9. Tōkyō: Chūōkoronsha, 1976.（Mentioned and Reproduced: pp. 176–178, pl. 82, fig. 28）",
+          "Lee, Sherman E. \"The Year in Review for 1979.\" The Bulletin of the Cleveland Museum of Art 67, no. 3 (March 1980): 58–99.（Reproduced: cat. no. 115, p. 86; Mentioned: p. 62）",
+          "**馆方记录另有 16 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Fang Shishu's seal at beginning of painting: Ou ran shi de 偶然拾得. \n\nYe Fanglin's seal at end of painting: Fanglin 芳林.\n\nFrontispiece title dated 1743 and 3 seals of Chen Bangyan 陳邦彦 (1678-1752)."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "行庵在揚州北郭天寧寺西隅，馬君嶰谷半槎兄弟購僧房隙地所築，以為游息之處也。寺為晉謝太傅別墅。西隅饒古木，䨴鬱陰森，入林最僻，不知其近郛郭。庵居其中，無斲礱髤采之飾，惟軒庭多得清蔭，來憩者每流連而不能去。乾隆癸亥九日，積雨既收，風日清美，遂約同人，咸集於斯，中縣［懸］仇英白描陶靖節像，采黃花，酌白醪為供，乃以人世難逢開口笑，菊花雖插滿頭歸分韻賦詩。陶陶衎衎，觴詠竟日。既逾月，吳中寫真葉君敬［震］初適來，群貌小像，合為一卷，方君環山補景，命曰九日行庵文讌圖。裝池成，將各書所作於後，而囑鶚為之記。記按圖中共坐短榻者二人：右箕踞者，為武陵胡復齋先生期恆；左抱膝者，為天門唐南軒先生建中也。坐繩床者二人：中手牋者，歙方環山士庶；左仰首如欲語者，江都閔玉井華也。一人坐藤塾捻髭者，鄞全謝山祖望也。一人倚石坐若凝思者，臨潼張漁川四科也。樹下二人：離立把菊者，錢唐厲樊榭鶚；袖手者，錢唐陳竹町章也。一人憑石床坐撫琴者，江都程香溪先生夢星也。聽者三人：一人垂袖立者，祁門馬半查曰璐；二人坐瓷塾，左倚樹、右跂腳者，歙方西疇士疌 、汪恬齋玉樞也。二人對坐展卷者，左祁門馬嶰谷曰琯，右吳江王梅沂藻也。一人觀者，負手立於右，江都陸南圻鐘輝也。從後相倚觀者一人，歙洪曲溪振珂也。童子種菊者三人：樹間侍立者一人，撰杖、執卷者各一人。其植有蕉、有竹，又有雜樹，作丹黃青碧之色，紀時也。夫重九佳名，舉俗所重，而高常侍歎獨坐而搔首，陸天隨感登高以剫門，無其時地與人耳。今吾儕幸生太平，遇勝地，又皆素心有文之侶，固人世不可多得之會；而此十六人者，或土斷，或客游，聚散不常。異日者，歲月遷流，撫節物以有懷，一披此圖，悅如晤對。將來覽者，或亦不異此意乎。甲子夏五十有四日厲鴞記並書。\n\n馆方英译：1 colophon, dated 1744, and 3 seals of Li E 厲鶚 (1692–1752).\n\nThe Xing’an [Temporary Retreat] is located at the northern outskirts of Yangzhou, near the western corner of the Tianning Temple. It was purchased by Ma Yueguan and his younger brother, Ma Yuelu, when it was but unused land of the Buddhist monastery and built as a place for rest and recreation. The monastery itself was the country villa of Xie An of the Jin dynasty. Its western corner is especially luxuriant and shady, densely wooded with ancient trees. Once inside the secluded areas of the woods, people would not know that they are not far from the city. The “retreat” is right at the center of this secluded spot, totally devoid of any artificial ornamentation of carving, engraving, lacquer, or bright colors, but rich in refreshing shade and in its balconies and courtyards. For this reason, people who come here for rest always linger and do not want to leave. On the Double-Ninth Day of guihai [1743] of the Qianlong era, after a prolonged period of rain, the weather was pleasant and fine. So the members [of the poetry club] were all invited to gather here. There, in the center, the portrait of Tao Jingjie [Tao Qian] by Qiu Ying was hung; yellow chrysanthemums were picked, and white wine was offered as a libation. The fourteen words in Du Fu’s lines, “ren shi nan feng kai kou xiao, ju hua xu cha man tou gui” (In this mortal world, there is hardly any occasion for a hearty laugh; so with chrysanthemums, let’s go home full of flowers in our hair), were chosen as rhymes for making poetry. And so, dizzily and merrily, we all drank and hummed the whole day. \n\nA month later, Ye Jingchu, the portrait painter active in Suzhou, happened to be here and was asked to do a group portrait of the gathering on a scroll, with Fang Huanshan completing the background scenery. The painting was titled A Literary Gathering at the Temporary Retreat on the Ninth Day. Upon the completion of its mounting, every participant was asked to write his composition at the end of the scroll, and I was entrusted with recording the event in an essay. \n\nIn the picture there are two gentlemen sitting together on a short couch. The one on the right, who squats with outspread legs, is Hu Fuzhai, Qiheng, from Wuling; and the one on the left who holds his right knee is Tang Nanxuan, Jianzhong, from Tianmen. Two other gentlemen are sitting on matted chairs: the one holding a piece of writing is Fang Huanshan, Shishu, of Shexian; the other on the left, who is looking up as if he is about to speak, is Min Yuzheng, Hua, of Jiangdu. One gentleman who is sitting on a rattan stool and fingering his beard is Quan Xieshan, Zuwang, of Ningbo. The other, seated, leaning against a rock as though he is deep in thought, is Zhang Yuchuan, Sike, of Lintong. Two gentlemen are standing under trees, away from other people. The one holding a chrysanthemum is Li Fanxie, E, from Qiantang; the other, clasping his hands in his sleeves, is Chen Zhuding, Zhang, from Qiantang. One gentleman is playing on a qin on the stone table; this is Cheng Xiangxi, Mengxing, of Jiangdu. Among the three listeners, the one standing behind him with sleeve down is Ma Bancha, Yuelu, of Qimen. Two gentlemen are sitting on porcelain stools: the one leaning against a tree on the left is Fang Xizhou, Shijie; the other on the right, with legs crossed, is Wang Tianzhai, Yushu; both are from Shexian. Two gentlemen, seated facing each other and unrolling a scroll, are Ma Xiegu, Yueguan, of Qimen on the left, and Wang Meiyi, Zao, on the right. One onlooker on the right, with both hands clasped behind his back, is Lu Nanqi, Zhonghui, of Jiangdu. The other leaning forward [behind Mr. Lu] is Hong Quxi, Zhengke, of Shexian. Among the boy servants, three are planting chrysanthemums, one is waiting among the trees, one holds a walking stick while the other holds a scroll. Plants in the painting are banana, bamboo, and trees of various kinds. They are represented in colors of reddish yellow and greenish blue to give a seasonal feeling.\n\nNow the auspicious name of Double Ninth is universally respected by tradition. But [the Tang poet] Gao Shi [d. 675] had to scratch his head lamenting his loneliness, while Lu Guimeng [d. 881] had to shut himself indoors to dream of the joy of climbing up high. The reasons for their misfortunes were simply their lack of right time, right place, and right people. As for us, we are lucky in being born during a reign of peace, in a place of beauty, and in the company of friends who are cultured and understanding. How rare indeed are such gatherings in this world. On the other hand, among the sixteen of us, some are natives [of Yangzhou], and others are only visitors. Our meetings and partings are irregular and unpredictable. Some day, when enough time has gone by, when we are brought back to our memories by the change of seasons, we may unroll this painting and feel like seeing each other again. For the people in the future who have a chance to see this painting, perhaps they will not feel differently from us.\n\nIn the jiazi year [1744], on the fifty-fourth day of the summer, Li E recorded and inscribed."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "揚州為江北大都會，居民連甍接楹，笙歌輿從，竟日喧聚，其於淸歌雅集，葢罕矣。城北天寧寺，為晉謝公駐節時所游息，其中有行庵，吾友馬君嶰谷、半查兄弟之小築也。地不踰五畝，而老樹古藤，森蔚相望，皆千百年物，間以修竹，春鳥秋蟲，更唱迭和，其間曲廊高榭，位置閑適。出門未數百步，即黃塵濁流極目，令人作惡。而此中獨蕭然有人外之思。乾隆八年九日，嶰谷兄弟招集同社一十四人祀陶公，出所藏仇實父白描像懸於閣上，各賦一詩。予方留滯西泠，未得預也。又踰旬而予至，諸君方擬繪圖記事，嶰谷曰：是不可無君。乃以展日更舉，令予得陪卷軸之末；而洪君曲溪，兩度皆以病失約，然故吟社中人也，亦補入焉。予太息謂諸君曰：謝公之風流，千古如在；然其游息於斯也，則與東山賓從之樂稍不同矣。公之為是行也，蓋以符氏之亂，思北定中原也。而其時公巳困於讒口，不自安於朝；雖在河朔極有可乘之會，而神明內索，徘徊不克自前。老師左次，竟無尺寸之功，坐失事幾。吾常過邵伯之埭，吊法雲之荒祠，未嘗不喟然累啼，以為明德之衰也。至若九日嘉名，陶公高格，固在羲皇懷葛之間；然而讀其 止酒之詩，蒼梧漢水之感，以瘦詞寄其孤憤則夫黃花白酒，蓋亦不得巳而漫與焉者。今吾輩生逢太平之日，書淫墨癖，是處留連，胸次中了無一事，為江湖之幸民，論人雖甚媿，論其時與地，則不可不私相慶也。諸君曰：善。圖之詳巳見於厲君樊榭記中。予之許為嶰谷兄弟序斯圖也，三年於茲；今夏重披圖捉筆，而唐丈南軒，巳化為異物矣。對酒當歌，人生幾何，願與諸君並日相遇從焉。丙寅夏杪孤山社小泉翁全祖望序。\n\n馆方英译：1 colophon, dated 1746, and 1 seal of Quan Zuwang 全祖望 (1705–1755): \n\nYangzhou is a metropolis of Jiangbei (north of the Yangzi River). There are endless rows of houses and hustle and bustle—of music and songs, of carriages and crowds—that last throughout the day. Rare indeed are the refined joys of elegant gatherings. \n\nTo the north of the city, the Tianning Temple once served as a place for pleasure and rest for Master Xie of the Jin dynasty, when he was stationed [in the vicinity]. This is the Xing’an, the exquisite residence of my friends the brothers Ma Xiegu [Yueguan] and Ma Bancha [Yuelu]. In size, it does not exceed five mou; but ancient trees and vines abound, [likely] to be hundreds or a thousand years old. Against their dense growth are tall bamboo, spring birds, and autumn insects singing and chirping in harmony. The winding corridors and tall kiosks are spaced in a fitting and comfortable way. [Indeed], if we were to step outside of the door several hundred paces, [we will find] dusty trails and polluted streams, causing one to cringe to see them. Within, however, its quiet atmosphere stirs one to otherworldly thoughts.\n\nOn the [Double] ninth day, the eighth year of Qianlong, Xiegu and his brother summoned fourteen members of the [poetry] club. And, to commemorate the Master Tao [Qian], they brought from their collection his portrait done by Qiu Ying in simple contour line drawing and hung it in the pavilion. [On this occasion], each was to compose one poem. At that time, I was detained in Xileng [Hangzhou], unable to participate. More than several scores of ten days later, when I did arrive, these gentlemen were considering a pictorial document for this event. Xiegu stated: “we could not do it without you!” and [in so saying] it was decided to extend further its completion, thereby allowing my inclusion in the least conspicuous portion of the scroll. In addition, on account of illness, Mr. Hong Chuxi was twice absent [meaning from the literary gathering itself as well as from the planning session for the painting]. However, since he was a member of the [Hanjiang] Yinshe, his portrait too was to be added.\n\nI sighed and said to these gentlemen: “The elegant presence of Master Xie is indeed timeless. However, when he rested and took pleasure here, it was quite a different sort than when he had been at the Eastern Mountain, surrounded then by friends and intimates. Master Xie’s emergence from [his carefree lifestyle] was due largely to [his desire] to quell the rebellion of Fu [Jian], with the hope of bringing peace to the Central Plain. [While he was at Yangzhou], however, the Master himself was already beset by slander and felt insecure [about his own position] at the court. Even though he had the opportunities to advance to the north of the river, his mind was turning inward, causing him to hesitate and preventing him from moving forward. In spite of having at his disposal an experienced army, he could not achieve even an inch or a foot of victory. Thus the chance was lost.\n\n“In the past, I have visited the Shaobo Dam [which the Master had built] and paid homage to the deserted shrine at Fayun. During every one of these occasions, I noted and lamented repeatedly at [what I perceived] as the decline of his will and intelligence.\n\n“As to this Ninth Day, which commemorated Master Tao, it is true that his lofty personality lies among such ancient emperors as Fu [Fuxi], Wu [Wuhuai], and Ge [Getian], but when I read his poem Stop Drinking, and his lament on the Verdant Trees, and on the Han River, [I find him] cloaking his anger in elegant language. Such is the case that, even with yellow flowers and white wine, they were but his way of obtaining release. \n\n“Now that we are born in a time of peace, we can indulge ourselves in books and writings. Wandering about, without a single worry in our bosoms, we are indeed the fortunate men of the world. Privately, we may still be plagued by guilt, but when it comes to the given time and place, we could not but congratulate ourselves [on our good fortune].”\n\n[Upon hearing this], these gentlemen responded: “How true it is!”\n\nIn Mr. Li Fanxie’s essay, one can gauge the specifics of the painting. As to my own piece, I have promised to Xiagu and his brother for three years. This summer, as I reopened the scroll and held my brush, [I noted that] Master Tang Nanxian is no longer with us. “Holding a cup of wine, let us sing, before our lives come to end!” It is my wish to spend time with you gentlemen.\n\nThe end of the summer, the year of bingyin [1746], in Gushan She [The Lone Hill Lodge], I, Xiaoquan Weng Quan Zuwang wrote the postscript."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "6 additional colophons and 15 additional seals: \n\n1 colophon, dated 1746, and 1 seal of Huang Zhijun 黃之雋 (1668–after 1746); \n\n1 colophon and 2 seals of Zha Xiang 查祥 (1718 jinshi); \n\n1 colophon, dated 1746, and 3 seals of Zhang Siwen 張思問; \n\n1 colophon, dated 1748, and 4 seals of Shao Dong 卲東 (1721 jinshi); \n\n1 colophon, dated 1753, and 2 seals of Fang Shiju 方世舉 (signing as Fang Funan 方扶南); \n\n1 colophon, dated 1808, of Ruan Yuan 阮元 (1764–1849); \n\n3 seals unidentified."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "1743–after 1766",
+        "text": "Ma Yueguan 馬曰琯 [1688–1755] and Ma Yuelu 馬曰璐 [1697–after 1766], Yangzhou, Jiangsu province, China"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Chen Kuilin 陳夔麟 [1855–after 1915]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1979",
+        "text": "(Wan-go Weng 翁萬戈 [1918–2020], Lyme, NH, sold sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1979–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1980",
+        "title": "Year in Review: 1979"
+      },
+      {
+        "t": "exhib",
+        "when": "1983",
+        "title": "Portraiture: The Image of the Individual"
+      },
+      {
+        "t": "exhib",
+        "when": "1989",
+        "title": "Scholar's Studio"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1979.72",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1979.72",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1979.72/1979.72_web.jpg",
+    "w": 1263,
+    "h": 205,
+    "full": "https://openaccess-cdn.clevelandart.org/1979.72/1979.72_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

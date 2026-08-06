@@ -12,14 +12,13 @@
   "medium": "Set of three hanging scrolls; ink and color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「late 1300s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 2009.342"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -67,6 +66,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Ōsaka Shiritsu Bijutsukan 大阪市立美術館. Sō Gen no bijutsu 宋元の美術. Tōkyō: Heibonsha, 1980.（Reproduced: pl. 300）",
+          "Fenorosa, Tenshin no mita Ōmi: Meiji 21-nen rinji zenkoku hōmotsu chōsa kara: tokubetsuten [フェノロサ・天心の見た近江 : 明治 21年臨時全国宝物調查から : 特别展]. Ōtsu-shi: Shiga Kenritsu Biwako Bunkakan, Heisei 16 [2004].（p. 95）",
+          "Sō Gen butsuga: kaikan 40-shūnen kinen tokubetsuten [宋元仏画: 開館 40周年記念特別展 = The 40th Anniversary Special Exhibition: Buddhist Paintings of Song and Yuan Dynasties]. Yokohama-shi: Kanagawa Kenritsu Rekishi Hakubutsukan [神奈川県立歴史博物館 = Kanagawa Prefectural Museum of Cultural History], 2007.（Reproduced: p. 38, pl. 5）",
+          "“Art of Asia Acquired by North American Museums, 2008-2009.” Archives of Asian Art, vol. 60, 2010, pp. 95–159.（Reproduced:  p. 109, no. 14）",
+          "Chung, Anita. \"A Stunning Buddhist Triptych.\" Cleveland Art: Cleveland Museum of Art Members Magazine 50, no. 4 (July/August 2010): 18–20.（Mentioned and Reproduced: p. 18）",
+          "**馆方记录另有 2 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +84,64 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "before 1888–c. 1945",
+        "text": "Reportedly from the Enman-in 円満院 located inside the Onjo-ji temple (also known as the Miidera temple) in Otsu City, Shiga prefecture, Japan"
+      },
+      {
+        "t": "prov",
+        "when": "after 1945–c. 1985",
+        "text": "Private collection, Japan"
+      },
+      {
+        "t": "prov",
+        "when": "c. 1985–before 2009",
+        "text": "Takashi Yanagi of Yanagi Fine Art Shop, Kyoto, Japan, to Koichi Yanagi"
+      },
+      {
+        "t": "prov",
+        "when": "?–2009",
+        "text": "(Koichi Yanagi Oriental Fine Art, Kyoto, Japan, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "2009–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "2019",
+        "title": "Taming Tigers and Releasing Dragons: Masterpieces of Chinese Buddhist Art – Chinese Gallery Rotation 240a, 241c"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "Six Dynasties of Chinese Painting (Chinese art rotation)"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/2009.342",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 2009.342",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/2009.342/2009.342_web.jpg",
+    "w": 900,
+    "h": 759,
+    "full": "https://openaccess-cdn.clevelandart.org/2009.342/2009.342_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

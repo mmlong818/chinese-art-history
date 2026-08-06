@@ -12,14 +12,13 @@
   "medium": "Handscroll; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1271–1368」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1963.515"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1963.515"
+          ],
+          [
+            "馆方作者",
+            "趙孟頫 Zhao Mengfu (Chinese, 1254–1322)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Sirén, Osvald. Chinese Painting: Leading Masters and Principles. New York: Ronald Press, 1958.（Mentioned and Reproduced: vol. VI, pl. 22）",
+          "\"Oriental Art Recently Acquired by American Museums, 1963.\" Archives of the Chinese Art Society of America 18 (1964): pp. 69–91.（Reproduced: p. 71, fig. 10）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1966. Cleveland, OH: The Cleveland Museum of Art, 1966.（Reproduced: p. 262）",
+          "Lee, Sherman E., and Wai-kam Ho. Chinese Art Under the Mongols: The Yüan Dynasty, 1279-1368. Cleveland, OH: The Cleveland Museum of Art; [distributed by the Press of Case Western Reserve University], 1968.（cat. no. 235）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1969. Cleveland, OH: The Cleveland Museum of Art, 1969.（Reproduced: p. 262）",
+          "**馆方记录另有 11 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,280 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "竹石幽蘭\n\n馆方英译：Artist's title: Bamboo, Rocks, and Lonely Orchids."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "孟頫為善夫寫.\n\n[印] 趙氏子昂; [印] 松雪齋; [印] 天水郡圖書印\n\n馆方英译：Artist's inscription and 3 seals [lower left]: \nMengfu wrote [painted] it for Shanfu [Gu Xin's hao].\n\n[seals] Zhao shi Zi'ang; Song xue zhai; Tian shui jun tu shu yin"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "古人善書者必能畫點墨作蠅，便自有生意。松雪翁蘭石草聖飛帛筆法皆具，可寶也。安陽韓性 [印]明善\n\n馆方英译：Those ancients who excelled in calligraphy were also always good in painting. Even a random drop of ink, turned into a housefly [like Chang Sheng-yu] would be full of life, befitting the object. These orchids and rocks by the venerable master Songxue embrace both the brush method of the 'running' style as well as the 'flying white' manner in calligraphy. Indeed, it should be treasured. Han Xing of Anyang.　[seal] Ming Shan"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 2. Qiu Yuan 仇遠 (1247–after 1328), a respected poet during the Song and Yuan periods. He was linked to, among others, Zhao Mengfu and Gao Kegong. Zhao Mengfu painted a version of Nine Songs 九歌圖 for him, and Gao Kegong dedicated to him a painting titled Mountain Village 山村圖 (current whereabouts unknown). His poem here is also preserved in his collected works."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 3. Zheng Yuanyou 鄭元祐 (1292–1364), an erudite scholar and teacher of renown, active in Hangzhou and Suzhou. In the 1350s, when Gu Ying’s literary gatherings were at their peak, he was already elderly and participated in a limited way."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 4. Wu Kegong 吳克恭 (active mid-1300s), a friend of Gu Ying and Ni Zan 倪瓚 (1301–1374), a major Yuan painter."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 5. Angji 昻吉 (jinshi of 1348), of Western Xia 西夏 origin and a poet of distinction. He wrote an introduction to the painting Literary Gathering at Yushan 玉山雅集圖, of which Zhang Wo was the painter"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Sheet 2. Yuan: friends of Gu Ying\n \nColophon 6. Wang Zifang 王孜方 (active mid-1300s), an official who, at the time of his visits to Gu　Ying’s estate, had reached the rank of Minister. He is better known under the name Wang Keju 王可矩."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 7. Ke Jiusi 柯九思 (1290–1343), a major official who served in the Kuizhang Pavilion 奎章閣 and as an advisor to Emperor Wenzong in matters of calligraphy and painting."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 8. Yu Li 于立 (active mid-1300s), a Daoist recluse, poet, and close friend of Gu Ying, so much so that during his visit to Gu Ying’s estate he was given accommodation in a special pavilion. His poem here is also preserved in Gu Ying’s Cao tang ya ji."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "至正十一年十月廿八日男奕百拜堇觀 [印] 趙奕\n\n馆方英译：Zhizheng, eleventh year [1351], tenth moon, twentieth-eighth day [your] son, I, after paying respects, carefully examined [this].\n[seal] Zhao Yi"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 10. Yu Ji 虞集 (1272–1398), a major official and literary figure who also served in the Kuizhang Ge. His poem is recorded in his collected works. The poem is one of a set of four inscribed at the request of Wang Huayu 汪華玉 on Orchids and Rock 蘭石圖 by Zhao Mengfu, obviously a different, long lost, painting. Wang Huayu was an official and a collector (jinshi of 1327). Yu Ji’s colophon here was written before 1348 and during his retirement in Linchuan 臨川, Jiangxi, possibly sent from there. It is possible he had not seen the painting, and his calligraphy here appears to be rather casual and detached, jotting down an old poem without much care, contrary to his earlier practice."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 11. Sun Shi 孫時 (mid-1300s–early 1400s), a native of Yuncheng 鄆城, Shandong, and a jinshi of 1390. He may have been quite young when paying a visit to the Yushan gatherings in the late 1340s and early 1350s."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 12. Zhang Zhu 張翥 (1287–1368), Qiu Yuan’s disciple and a poet of renown, who enjoyed a belated career in officialdom and was known for his integrity."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Sheet 4. Yuan and Ming: further friends of Gu Ying; colophon 17 begins the early Ming sequence.\n \nColophon 13. Zhang Wo 張渥 (active c. 1336–after 1364), a frustrated scholar, a poet, and a painter of landscape and figures. An active participant in Gu Ying’s literary circle, he painted the Literary Gathering at Yushan, a pictorial document of the individuals and activities on Gu Ying’s estate. His rendering of Nine Songs is well known, and one version is in the collection of the Cleveland Museum of Art (see 1959.138). His poem here is also found in Gu Ying’s Cao tang ya ji, under the entry “ti Zhao Hanlin mo lan 題趙翰林墨蘭” (inscribed on the Ink Orchid by Zhao the Hanlin academician). This is a rare instance of calligraphy as well as signature by the artist."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "觀吳興公竹石幽蘭圖使人鄙吝頓消。其筆勢從橫天真爛澷，一出於二王書法。冝仲瑛寳而玩之異於常品也。至正八年十月天台陳基書\n\n馆方英译：On seeing the Bamboo, Rocks, and Lonely Orchids by the Duke from Wuxing [Zhao Mengfu], one feels one is suddenly cleansed of lowly and narrow-minded sentiments. His brush moves so freely at his will, vertically and horizontally [as though meeting no resistance]. It comes so naturally with a disarming flair of naiveté and earnestness, as though coming directly from the calligraphies of the Two Wangs [Wang Xizhi and his son, Wang Xianzhi]. No wonder it has been so much more treasured and enjoyed by Zhongying [Gu Dehui, or Gu Ying, 1310-1369] than other ordinary works. Written on the tenth day of the fourth month of the eighth year of Zhizheng [1348]. Chen Ji of Tiantai."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 15. Zhang Shen 張紳 (active about 1340–after 1385), a respected calligrapher and participant in Gu Ying’s literary gathering. He resided in Kunshan, the same city where Gu Ying’s estate lies. In the third line of the poem, he mentioned Gu Ying’s hao, “Jinsu 金粟.” This was a name he assumed later in life, after the death of his mother in the year 1356. Thus this inscription must have been written after that date."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 16. Wang Sun 汪遜 (active mid-14th century), a little-known native of Kuaiji 會稽, who may have been one of the infrequent visitors to Gu Ying’s estate."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 17. Hu Guang 胡廣 (1370–1418) is the first Ming colophon writer on this scroll. He was an official of great power in the court and a trusted advisor of Emperor Chengzu; he served as the Grand Academician of the Hall of Literary Profundity 文淵閣大學士 and Grand Academician of the Left Secretariat of the Heir-Apparent 左春坊大學士."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Sheet 5. Early Ming\n \nColophon 18. Wang Yinshi 王尹實 (active about 1403–about 1424), a native of Siming 四明, Zhejiang, and a minor official and calligrapher."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 19. Zhang Yuchu (signed here as “Wuwei 無 為”), the forty-third Heavenly Master of the Zhengyi sect of Daoism. A man of erudition, he was also a poet, painter, and calligrapher. A modified version of the poem here was published in his collected works titled Xian quan ji 峴泉集. A slight modification in the first line is the only change: “Wu xing miao yao nian bing xue zi 吳興玅年氷雪姿.”"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 20. Yao Guangxiao 姚廣孝 (1335–1418), a Buddhist monk, scholar, and counselor to Chengzu in his successful attempt at usurpation of the throne. Yao Guangxiao was a controversial figure but wielded enormous power."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Sheet 6. Wang Ning alone\n \nColophon 21. Wang Ning 王寧 (d. 1411) signed as “Qingzhen 清真” in this colophon. One of the three seals reveals his identity as the Yongchun Hou 永春侯 [Marquis of Lasting Spring] (appointed 1402), and the husband of Princess Huaiqing 懷慶公主 (1328–1398), the sixth daughter of the founder of the Ming dynasty, Zhu Yuanzhang. This colophon postdates 1402."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Sheet 7. Mid-Ming\n \nColophon 22. Ou Yi’an 區易安 (active first half of 15th century), unknown"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 23. Chen Lian 陳璉 (1370–1454), a native of Dongguan 東莞, Guangdong 廣東, and an official admired for his erudition and perspicacity. In view to the known calligraphic style of Chen Lian, this colophon appears to be a transcription and not written by him."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 24. Wei Ji 魏驥 (1374–1471) enjoyed longevity (he lived to the age of ninety-eight) and an extended length of service as an official. A jinshi of 1406, he eventually became the Minister of Personnel in Nanjing 南京吏部尚書. The colophon here is dated 1434, when he was invited to view the painting by the Court Musician Mo Zhizhong 莫至翀, its owner. Again, in view of its calligraphic style, this was not written by him, but is a transcription from the original."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 25: Zhang Yi 章鎰 (active 1462–1473), a Ningbo native and an official with a reputation for courage and integrity."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Sheet 8. Further mid-Ming\n \nColophon 26. Yin Zhi 尹直 (1427-1511), a controversial figure in Ming politics in spite of his erudition and high position as the Minister of War 兵部尚書."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 27. Zou Yu 鄒虞 (active 1460–1520; jinshi of 1490), a native of Hangzhou. In 1510, he was appointed Administrative Vice Commissioner in Guangdong."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Sheet 9. Xu Shouhe 徐守和 alone\n\nColophon 28. Xu Shouhe 徐守和 dated his entry in 1629. Since he wrote it in his own studio, The Lesser Qingbi Pavilion 小清閟, he was likely the owner of the scroll. Xu’s life is not well documented; he was a connoisseur of note during the last years of the Ming dynasty rule. He may have acquired the Cleveland scroll from Wu Ting, whose seals appear here."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Sheet 10. The mounter’s note.\n\nXu Shudong 徐曙東 of Jiaxing 嘉興 made the remounting on the first day of sixth month, 1802."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Gu Xin 顧信 [1279–1353]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Gu Ying 顧瑛 [1310–1369]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Mo Zhichong 莫至翀 [1400s]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Wu Ting 吳廷 [first half of 1600s]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Xu Shouhe 徐守和 [1600s]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Liang Qingbiao 梁清標 [1620–1691]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Tang Zuomei 唐作梅 [late 1700s–1800s]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1963",
+        "text": "(Frank Caro [1904–1980], New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1963–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1963",
+        "title": "Year in Review (1963)"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1976",
+        "title": "Looking East: Yuan Dynasty Paintings"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Chinese Paintings: Themes and Techniques"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "Visions of Landscape: East and West"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "2012",
+        "title": "Masterpieces of Early Chinese Painting and Calligraphy in American Collections"
+      },
+      {
+        "t": "exhib",
+        "when": "2017",
+        "title": "Inspired by Chinese Landscape and Art – Chinese Gallery Rotation 240a, 241c"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1963.515",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1963.515",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1963.515/1963.515_web.jpg",
+    "w": 1263,
+    "h": 84,
+    "full": "https://openaccess-cdn.clevelandart.org/1963.515/1963.515_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

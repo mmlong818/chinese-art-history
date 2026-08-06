@@ -12,14 +12,13 @@
   "medium": "Pair of hanging scrolls; ink on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 1250–79」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1958.427"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1958.427"
+          ],
+          [
+            "馆方作者",
+            "法常 牧谿 Fachang Muqi (Chinese, 1220–1280)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → southern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Cleveland Museum of Art, “Recent Acquisition Press Release,” June 5, 1959, Cleveland Museum of Art Archives.",
+          "Goepper, Roger. 1000 Jahre chinesische Malerei. München: Haus der Kunst, 1959.（Reproduced: cat. no. 24b）",
+          "Chinese Art: An Exhibition of Paintings, Jades, Bronzes and Ceramics: Being a Contribution Made by Smith College Museum of Art to the College Interim Session, 1962. Northampton, Massachusetts: The Smith College Museum of Art, 1962.（Reproduced: cat. no. 3b, pl. V）",
+          "Lee, Sherman E. Japanese Decorative Style. Tokyo: Makoto Nakao, 1962.（Reproduced: pp. 6, 7）",
+          "Cahill, James. The Art of Southern Sung China. New York: Asia House, 1962.（Mentioned and Reproduced: cat. no. 27 and 28, pp. 62 and fold-out）",
+          "**馆方记录另有 9 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,125 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "道有\n\n馆方英译：Dōyū"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "雜華室印\n\n馆方英译：Zakka shitsu yin"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Ashikaga Yoshimitsu 足利義滿 [1358–1408]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Ashikaga Yoshinori 足利義教 [1394–1441] or 足利義政 [1436–1490] (Zakka shitsu yin 雜華室印)"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Tokugawa Iemitsu 德川家光 [1604–1651]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Viscount Sakai 子爵 酒井氏 [late 1800s–early 1900s]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1958",
+        "text": "(Howard Hollis and Company, Cleveland, OH, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1958–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1959",
+        "title": "1000 Jahre Chinesische Malerei"
+      },
+      {
+        "t": "exhib",
+        "when": "1962",
+        "title": "Chinese Art"
+      },
+      {
+        "t": "exhib",
+        "when": "1962",
+        "title": "The Art of Southern Sung China"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1990",
+        "title": "Powerful Form and Potent Symbol: The Dragon in Asia"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "2009",
+        "title": "Roaring Tigers and Leaping Carp: Decoding the Symbolic Language of Chinese Animal Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "Six Dynasties of Chinese Painting (Chinese art rotation)"
+      },
+      {
+        "t": "exhib",
+        "when": "2024",
+        "title": "Six Dynasties of Chinese Painting Part 2"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1958.427",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1958.427",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1958.427/1958.427_web.jpg",
+    "w": 610,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/1958.427/1958.427_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

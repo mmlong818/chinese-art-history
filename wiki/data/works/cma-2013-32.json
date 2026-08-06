@@ -12,7 +12,7 @@
   "medium": "ink, color, and acrylic on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「2002」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
@@ -52,6 +52,10 @@
           [
             "藏品号",
             "2013.32"
+          ],
+          [
+            "馆方作者",
+            "周綠雲 Irene Chou (Chinese, 1924–2011)"
           ]
         ]
       },
@@ -63,12 +67,51 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 2002–2002 唯一落入 contemporary；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Archives of Asian Art 64, no. 2 (2014): 225.（p. 225）",
+          "Chung, Anita. “Body, Mind, and Cosmos: The ink paintings of Irene Chou.” Cleveland Art: Cleveland Museum of Art Members Magazine 55, no. 3 (May/June 2015): 14–15.（Reproduced and Mentioned: p. 14）"
+        ]
       }
     ],
     "dating": [
       {
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "artist's seal: \"Zhou\" 周"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "2002–after 2011",
+        "text": "The artist's collection, Brisbane, Australia, by descent to the artist's family"
+      },
+      {
+        "t": "prov",
+        "when": "?–2013",
+        "text": "(Lok Ku Gallery Ltd., Hong Kong, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "2013–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
       }
     ]
   }

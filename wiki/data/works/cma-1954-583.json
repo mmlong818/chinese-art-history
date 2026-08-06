@@ -12,14 +12,13 @@
   "medium": "Hanging scroll; ink and light color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1707」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1954.583"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1954.583"
+          ],
+          [
+            "馆方作者",
+            "王原祁 Wang Yuanqi (Chinese, 1642–1715)"
           ]
         ]
       },
@@ -67,13 +70,114 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Pang, Yuanji 龐元濟. Xu zhai ming hua lu (16 juan) [虛齋名畫錄 (16卷) = Catalogue of paintings in the collection of the author]. Shanghai: Xuantong ji you, 1909.（Mentioned: vol. IX, Wang Yuan-ch'i 15(b)-15(a), pp. 42(b)-43(a)）",
+          "Pang, Yuanji 龐元濟 and Binglü Pang 龐氷履. Ming bi ji sheng [名筆集勝 = Illustrated catalogue of Chinese paintings in the author's collection]. Shanghai: Mo yuan tang, 1940.（Reproduced: I, pl. 14）",
+          "Lee, Sherman E. Chinese Landscape Painting. 1954.（Mentioned: p. 154, cat. 86; Reproduced: p. 106）",
+          "Sirén, Osvald. Chinese Painting: Leading Masters and Principles. New York: Ronald Press, 1956.（Mentioned: VII, Lists, 441）",
+          "The Cleveland Museum of Art. The Cleveland Museum of Art Handbook. Cleveland, OH: The Cleveland Museum of Art, 1958.（Mentioned and Reproduced: cat. no. 878）",
+          "**馆方记录另有 12 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "[印]穀詒堂。\n丁亥清和扈從歸舟寫設色雲林\n\n馆方英译：Artist's inscription and seal: \n\n[seal] Gi yi tang. \n[Inscription 1] On a day of mild weather, in the year of dinghai [1707], [I painted this]—a Ni Zan in color—after having been in the imperial entourage and returned to the boat in the aftermath."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "余年來一友匏系，簪筆鹿鹿。夙夜在公。家無甑石，日在愁城苦海中。無以解憂。惟弄柔翰出入宋元諸家，如對古人。雖不能肖其形神，庶幾一遇，亦寓意寬心之法也。麓臺。[印]原祁之印; 麓臺\n\n [印, 右下]西廬後人\n\n馆方英译：Artist's inscription, signature, and 3 seals: \n\n[Inscription 2] During the year, I have been living like a hanging gourd—alone and without friends. I stuck my brush in my hair and was much like a common man. I have been spending day and night in the office, seldom dining at home. Day by day, I spent my life in the city of melancholy and the ocean of bitterness. There were few ways to relieve my frustrations except to resort to my brush so that I could move in and out amid the Song and Yuan masters as if virtually coming face to face with these men of yore. Even though I could not achieve a perfect resemblance in form and spirit, this comes as close to an encounter while also affording me a means to record my thoughts and to relax my mind. Lutai. [2 seals] Yuanqi zhi yin; Lutai.\n\n[seal at the lower right corner] Xi lu hou ren."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 additional seal of Pang Yuanji 龐元濟 (1864–1949) at the lower left corner."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "by 1909–?",
+        "text": "Pang Yuanji 龐元濟 [1864–1949]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1954",
+        "text": "(Walter Hochstadter [1914–2007], New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1954–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1954",
+        "title": "Chinese Landscape Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1959",
+        "title": "1000 Jahre Chinesische Malerei"
+      },
+      {
+        "t": "exhib",
+        "when": "1962",
+        "title": "Chinese Art"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "Six Dynasties of Chinese Painting (Chinese art rotation)"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1954.583",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1954.583",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1954.583/1954.583_web.jpg",
+    "w": 500,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1954.583/1954.583_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

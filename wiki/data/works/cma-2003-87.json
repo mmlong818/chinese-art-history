@@ -12,14 +12,13 @@
   "medium": "hanging scroll; ink on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1279–1368」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 2003.87"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -63,6 +62,12 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "\"Art of Asia Acquired by North American Museums, 2003-2004.\" Archives of Asian Art 56 (2006): pp. 1090132.（Reproduced: p. 112, fig. 5a & 5b）"
+        ]
       }
     ],
     "dating": [
@@ -70,6 +75,43 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Shofuku Ji, Nagasaki, Japan"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Idemitsu Art Museum, Tokyo, Japan"
+      },
+      {
+        "t": "prov",
+        "when": "?–2003",
+        "text": "(Setsu Gatodo Co., Ltd., Tokyo, Japan, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "2003–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/2003.87",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 2003.87",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/2003.87/2003.87_web.jpg",
+    "w": 660,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/2003.87/2003.87_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

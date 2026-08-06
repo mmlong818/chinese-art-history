@@ -12,14 +12,13 @@
   "medium": "Album leaf; ink on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「before 1330」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1915.536"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1915.536"
+          ],
+          [
+            "馆方作者",
+            "羅稚川 Luo Zhichuan (Chinese, active 1280s–1320s)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Lee, Sherman E. and Wai-Kam Ho. \"Scattered Pearls beyond the Ocean.\" The Bulletin of the Cleveland Museum of Art, Vol. 51, No. 2 (Feb., 1964), pp. 23–39.（Mentioned and Reproduced: p. 36, cat. no. 11）",
+          "Lee, Sherman E., and Wai-kam Ho. Chinese Art Under the Mongols: The Yüan Dynasty, 1279-1368. [Cleveland]: Cleveland Museum of Art; [distributed by the Press of Case Western Reserve University], 1968.（cat. no. 215）",
+          "Wang, Chi-chʻien. Album Leaves from the Sung and Yuan Dynasties. New York. China House Gallery. Catalogues. 1968-70. New York: China House Gallery, the China Institute in America, 1970.（cat. no. 55）",
+          "Lee, Sherman. “To See Big within Small: Hsiao-Chung-Chien-Ta.” The Burlington Magazine, vol. 114, no. 830, 1972, pp. 314–323.（Reproduced:  p. 317, figs. 51, 52）",
+          "Lee, Sherman Emery, and James Robinson. The Colors of Ink: Chinese Paintings and Related Ceramics from the Cleveland Museum of Art. New York: Asia Society; distributed by New York Graphic Society, 1974.（cat. no. 22）",
+          "**馆方记录另有 5 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,95 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's seal:  Zhichuan 稚川 (partially obliterated but readable).\n\n2 additional seals: 1 of Duan Fang 端方 (1861–1911); 1 unidentified."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Duan Fang 端方 [1861–1911]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Dr. J. C. [John Calvin] Ferguson [福開森, 1866–1945]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "H. W. [Henry Watson] Kent [1866–1948] as agent for the John Huntington Art and Polytechnic Trust"
+      },
+      {
+        "t": "prov",
+        "when": "?–1915",
+        "text": "John Huntington Art and Polytechnic Trust, Cleveland, OH, given to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1915–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Chinese Paintings: Themes and Techniques"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "Visions of Landscape: East and West"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "Six Dynasties of Chinese Painting (Chinese art rotation)"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1915.536",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1915.536",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1915.536/1915.536_web.jpg",
+    "w": 900,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1915.536/1915.536_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

@@ -12,14 +12,13 @@
   "medium": "Hanging scroll; ink and color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「late 1200s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1976.91"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -63,6 +62,15 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → southern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Christie, Manson &amp; Woods, London. Important Japanese Paintings, Buddhist Sculpture, and Other Works of Art. 8 June 1976. Lot no. 31.（Mentioned and Reproduced: pp. 46–47, lot no. 31）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1978. Cleveland, OH: The Cleveland Museum of Art, 1978.（Reproduced: p. 343）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Reproduced: cat. no. 50, pp. 65–66）",
+          "Eskenazi, Giuseppe, and Hajni Elias. A Dealer's Hand: The Chinese Art World Through the Eyes of Giuseppe Eskenazi. London, England: Scala, 2012.（Mentioned and reproduced: pp. 156–157, fig. 146）"
+        ]
       }
     ],
     "dating": [
@@ -70,6 +78,74 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Matsukata Collection"
+      },
+      {
+        "t": "prov",
+        "when": "?–1976",
+        "text": "Howard C. Hollis [1899–1985], New York, NY, and Cleveland, OH, consigned to Christie's for sale"
+      },
+      {
+        "t": "prov",
+        "when": "June 8, 1976",
+        "text": "(Christie's, London, England, June 8, 1976 sale, lot no. 31)"
+      },
+      {
+        "t": "prov",
+        "when": "1976",
+        "text": "(Mr. J. E. Eskenazi, Ltd., London, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1976–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1977",
+        "title": "Year in Review, 1976"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "2016",
+        "title": "Chinese Gallery 240a Rotation – August 2016"
+      },
+      {
+        "t": "exhib",
+        "when": "2025",
+        "title": "Chinese Buddhist Rotation"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1976.91",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1976.91",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1976.91/1976.91_web.jpg",
+    "w": 357,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/1976.91/1976.91_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

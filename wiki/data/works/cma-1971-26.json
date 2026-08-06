@@ -12,14 +12,13 @@
   "medium": "Hanging scroll; ink and light color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. late 1100s–1st quarter 1200s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1971.26"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1971.26"
+          ],
+          [
+            "馆方作者",
+            "馬遠 Ma Yuan (Chinese, c. 1150–after 1255)"
           ]
         ]
       },
@@ -67,6 +70,22 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → southern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**馆方在作者字段上加了限定词「attributed to」（传）。**这不是本库的判断，是馆方的著录。**限定词一旦存在，这件东西与该画家名下的真迹就不是一回事**——本库对摹本与原作分开处理已立规矩，此处照录该限定词，不代馆方取消它，也不据此另作裁断。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "The Art Quarterly, Vol. XXIV, No. 4 (Winter, 1971), repr. p. 494.（Reproduced p. 494）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1978. Cleveland, OH: The Cleveland Museum of Art, 1978.（Reproduced: p. 343）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（cat. no. 55, p. 71）",
+          "Suzuki, Kei 鈴木敬. Chūgoku kaiga sōgō zuroku [中國繪畫總合圖錄 = Comprehensive Illustrated Catalog of Chinese Paintings], 第 1卷. アメリカ·カナダ篇 [= vol. 1 American and Canadian collections]. Tōkyō: Tōkyō Daigaku Shuppankai, 1982.（Reproduced: fig. A22-017）",
+          "Finkel, Irving L., and Colin Mackenzie. Asian Games: The Art of Contest. New York, NY: Asia Society, 2004.（Reproduced: cat. no. 23:1, p. 304）",
+          "**馆方记录另有 1 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +93,49 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1971",
+        "text": "Mr. and Mrs. Wilbur A. Cowett, New York, NY, given to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1971–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "2004",
+        "title": "Asian Games: The Art of Contest"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1971.26",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1971.26",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1971.26/1971.26_web.jpg",
+    "w": 422,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1971.26/1971.26_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

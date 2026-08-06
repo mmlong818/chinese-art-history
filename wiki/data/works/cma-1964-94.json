@@ -12,14 +12,13 @@
   "medium": "Handscroll; ink and light color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1516」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1964.94"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1964.94"
+          ],
+          [
+            "馆方作者",
+            "周臣 Zhou Chen (Chinese, c. 1450–c. 1536)"
           ]
         ]
       },
@@ -67,13 +70,149 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Yang, Xin 楊新. “Zhou Chen de Qishi tu” 周臣的乞食圖 [Zhou Chen’s Beggars] , Meishu yanjiu 美術研究, 2, pp. 85–88.",
+          "Sirén, Osvald. Chinese Painting: Leading Masters and Principles. New York: Ronald Press, 1956.（Mentioned: VII, Lists, 177）",
+          "“Acquisitions of Works of Art by Museums and Galleries: Supplement.” The Burlington Magazine, vol. 107, no. 744, 1965, pp. 159–167.（Mentioned and Reproduced: pp. 162–163, figs. 77–79）",
+          "“Annual Report for 1964.” The Bulletin of the Cleveland Museum of Art, vol. 52, no. 6, 1965, pp. 141–166.（Mentioned: p. 153）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1966. Cleveland, OH: The Cleveland Museum of Art, 1966.（Reproduced: p. 264）",
+          "**馆方记录另有 22 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "題: 周臣流氓圖. 古堇趙鶴琴  [印] 老鶴臨池; 鵝池軒\n\n馆方英译：Title on frontispiece by Zhao Heqin 趙鶴琴 (1895–1971): Zhou Chen Liu Mang Tu [seal] Lao he lin chi; E chi xuan"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "正德丙子秋七月，閒窗無事 ，偶記素見市道丐者種種態度。乘筆硯之便，率爾圖寫。雖無足觀，亦可以助警勵世俗云。\n\n東邨周臣記 [印]東邨; 舜卿; 鵝場散人\n\n馆方英译：Artist's inscription, signature, and 3 seals, at end of scroll:\n\nIn the autumn season, the seventh month of the year bingzi during the Zhengde reign [1516], I was sitting by the window without much to do. By chance I remembered what I had seen in our city’s streets, the many different sorts of beggars and their appearances. Taking advantage of a ready brush and the inkstone around me, I casually sketched [their appearances]. Even though the results were not worthy, they could still be of some use in alerting people about their presence.\n\nRecorded by Dongcun, Zhou Chen.  [seals] Dongcun; Shunqing; E chang san ren."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "吳中東邨周君，善丹青，尤長於人物。此圖其所見盛市丐者之狀種種，各盡其態，觀者絕倒。嗟乎，今之晝夜乞哀以求富貴者，安得起周君而貌之耶。臥雲徵君出示，余漫題其後。\n\n甲子歲十月吳門黃姬水 [印] 士雅山人; 另一印不詳\n\n馆方英译：1 colophon, dated 1564, and 2 seals of Huang Jishui 黃姬水 (1509–1574):\n\nMaster Zhou Dongcun [Zhou Chen] of the Wu district was skilled at painting. He was especially skilled at figural subjects. This scroll depicts an assortment of beggars in their differing appearances in a comprehensive manner. Viewers fall completely under the [artist’s] beguiling portrayals. Alas, there are those who night and day seek their fortunes, where could they find another Master Zhou to have their portraits done? The distinguished gentleman Woyun brought out the painting to show me. I casually wrote a few words on it.\n\nThe tenth month of the jiazi year [1564]. [seal] Shi ya shan ren; another seal undecipherable."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "是冊凡數種。其飢寒流離疲癃殘疾之狀，種種之異。觀此而不惻然心傷者，非仁人也。計正德丙子逆瑾之流毒已數年。而[江]彬 [錢] 寧輩肆虐方熾。意分符剖竹諸君，亦鮮有能撫字其民者。然則舜卿此作，殆與鄭君 流民圖同意。其有補於治道者不淺，要不可以墨戲忽之也。\n\n長洲張風翼題\n\n馆方英译：1 colophon and 3 seals of Zhang Fengyi 張風翼 (1527–1613): \n\nThis album(s) contains several sets of figures. They revealed the varied condition of these vagabonds, suffering from hunger, cold, fatigue, sickness, and crippling conditions. Those who view it without feeling sympathy are not men of kind hearts. Considering the year of 1516, it was when the treacherous Liu Jin’s ill-effects lingered on for several more years, and when Jiang Bin and Qian Ning were at their apogee. Even those with power and authority could hardly impart any justice to the populace at large. By this reckoning, could it be that Shunqing [Zhou Chen] painted this along the same idea as Zheng Xia’s Rootless Migrants? [If so], it too could have given assistance to those ruling parties, and should not be merely deemed as worthless inkplay! \n\nInscribed by Zhang Fengyi of Changzhou."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "東村此筆，蓋圖寫飢寒乞丐之態，以警世俗耳。而質山 [黃姬水]欲其寫昏夜乞哀，而靈墟[張鳳翼]則擬之於安上門圖。二君之見，其各有所指哉。昔唐六如每見周筆，輒稱曰：周先生！蓋深服其神妙之不可及。若此冊者，信非他人可能而有符於六如之心伏矣。豈易得耶。若黃、張之指，則又論於畫之外，不在於形似筆墨之旨也。\n\n萬歷丁丑十二月三日 茂苑文嘉\n\n馆方英译：1 colophon, dated 1577, and 1 seal of Wen Jia 文嘉 (1501–1583): \n\nThis painting by Dongcun [Zhou Chen], which portrays the beggars suffering from cold and hunger, was to alert social consciousness. By contrast, Huang Jishui demanded a further portrayal of those seeking wealth and fortune night and day; whereas Zheng Fengyi compared it to a work presented all the way to the imperial might. These two gentlemen obviously had their own opinions. [However], in the past, when Tang Yin encountered Zhen Chen’s paintings, he [could not help] but exclaim: “Ah, Master Zhou!” This was because he truly admired those paintings [by his teacher], which often attained the height of being divine and wondrous, far beyond what he himself could accomplish. As far as this album is [these albums are] concerned, it simply is not possible that any other artist could have done this in the way that caused Tang Yin’s unfaltering admiration. Such an album is [albums are] truly rare! As far as Zhang and Huang are concerned, what they talked about are extrinsic to painting, and lie beyond the aim of brush and ink. \n\nThe third day, twelfth month of dingchou year of Wanli [1577]."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "“Wo Yun 卧雲”, probably Feng Zilü 馮子履 [1539–1596]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Chen Xin 陳新 [life dates unknown]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Walter Hochstadter [1914–2007], New York, NY"
+      },
+      {
+        "t": "prov",
+        "when": "?–1964",
+        "text": "(N. V. Hammer, Inc., New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1964–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1964",
+        "title": "Year in Review (1964)"
+      },
+      {
+        "t": "exhib",
+        "when": "1983",
+        "title": "Portraiture: The Image of the Individual"
+      },
+      {
+        "t": "exhib",
+        "when": "1987",
+        "title": "Images of the Mind"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2001",
+        "title": "Human Images"
+      },
+      {
+        "t": "exhib",
+        "when": "2016",
+        "title": "Ji Yun-Fei: Last Days of Village Wen"
+      },
+      {
+        "t": "exhib",
+        "when": "2019",
+        "title": "Facing the Ancestors: Chinese Portraits and Figure Painting – Chinese Gallery Rotation 240a, 241c"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1964.94",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1964.94",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1964.94/1964.94_web.jpg",
+    "w": 900,
+    "h": 68,
+    "full": "https://openaccess-cdn.clevelandart.org/1964.94/1964.94_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

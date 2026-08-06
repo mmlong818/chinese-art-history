@@ -12,14 +12,13 @@
   "medium": "Album leaf; ink and color on Song paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1642–1707」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1966.31.8"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1966.31.8"
+          ],
+          [
+            "馆方作者",
+            "石濤 Shitao (Chinese, 1642–1707)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Contag, Victoria. Die beiden Steine: Beitrag zum Verständnis des Wesens Chinesischer Landschaftsmalerei. Braunschweig: H. Klemm, 1950.（Reproduced: pl. 8）",
+          "Contag, Victoria. Zwei Meister chinesischer Landschaftsmalerei, Shih-t'ao und Shih-ch'i; ein Beitrag zum Verständnis des Wesens chinesischer Landschaftsmalerei. Baden-Baden: W. Klein, 1955.（pls. 5-8）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1966. Cleveland, OH: The Cleveland Museum of Art, 1966.（Reproduced: p. 268）",
+          "Edwards, Richard. The Painting of Tao-Chi: Postscript to an Exhibition. [Richmond, Surrey]: [Oriental Art Magazine Ltd.], 1968.（Mentioned and Reproduced: p. 5, fig. 7）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1969. Cleveland, OH: The Cleveland Museum of Art, 1969.（Reproduced: p. 269）",
+          "**馆方记录另有 9 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,60 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "沿溪四十九迴折，搜盡秦淮六代奇。/\n雪霽東山誰着屐，風高西壑自成詩。/\n應憐孤冷長無伴，其剩槎牙只幾枝。/\n滿地落花春未了，酸心如豆耐人思。/\n\n仲賓先生以宋紙十幅寄余真州命畫。因憶昔時秦淮探梅聚首之地，寫此就教。清湘石濤濟道人。[印]原濟; 石濤.\n\n馆方英译：Artist's inscription, signature, and 2 seals on Leaf 8 (previously leaf H), 1966.31.8:\n\nAlong the stream there were forty-nine bends./\nWhere we searched out the Qinhuai’s wonders over six dynasties./\nAs snow clearing in the Eastern Hill, who came wearing wooden clogs?/\nAs wind blowing high in the Western Ravine, who allowed the poem to complete itself?/\nLet us take pity on the cold solitary [plum], devoid of any companions./\nWith only a few branches remaining [as viewed from the boat]./\nThe falling flowers fill the ground while Spring is yet to end./\nA soured heart, tight as a bean, can endure lasting thoughts. /\n\nMaster Zhongbin sent me ten pieces of Song paper while I was in Zhenzhou [Yizheng 儀徵, a city southwest of Yangzhou] and requested paintings from me. I recalled those places in Qinhuai where we got together in search of blossoming plums. I painted these [leaves] to seek his advice. [Signed] Shitao Ji Daoren of Qingxiang. [seals] Yuanji; Shitao."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Qin Tongli 秦通理 [early 20th century]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1966",
+        "text": "C. C. Wang 王季遷 [1907–2003], New York, NY, sold to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1966–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1966.31.8",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1966.31.8",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1966.31.8/1966.31.8_web.jpg",
+    "w": 798,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1966.31.8/1966.31.8_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

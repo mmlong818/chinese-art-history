@@ -12,14 +12,13 @@
   "medium": "handscroll; ink and light color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1442」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1968.195"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -52,6 +51,10 @@
           [
             "藏品号",
             "1968.195"
+          ],
+          [
+            "馆方作者",
+            "杜瓊 Du Qiong (Chinese, 1396–1474)"
           ]
         ]
       },
@@ -63,13 +66,80 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Mentioned and Reproduced: pp. 174–176, cat. no. 147）",
+          "Mingyi, Gao. \"The Evolution of Wang Wei's Landscape Images from Dong Qichang's Study of Wang Wei's Snow.\" The National Palace Museum Research Quarterly 42, n. 3 (March 2025): 99–141.（Mentioned: p. 115）"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's inscription, signature, and 11 seals:  [1 seal] Tung-yüan chai.\n\nHuang-ho-shan-ch'iao [Wang Meng] painted a painted called T'ai-po Mountain.  Its brushwork is superior and admirable, which is very close to Yu-ch'en [Wang Wei, 699–759].  The cleverness of its composition, the maple groves and rustic temples, the inaccessible ravines and autumnal plateaus, the perilous peaks and strange rocks, etc., all seem to be so natural.  The paper is only a little over eight feet, but the landscape has the range of a thousand miles.  Once you open and note the contents, it is as if one were roaming among the mountain peaks enveloped in mist and clouds, and forgot the dusty world.  When I first saw this, I was so mixed with excitement and joy that I could not take my hands off the painting.  So I put it on the table, and tried my best to imitate it, forgetting sleeping and eating for about three months before it was completed.  Although I do not dare to tread in the footsteps of Huang-ho shan ch'iao, I took great pains to capture his spirit in composition and colors.  I do not know whether it would pass the judgment of the experts.\n\nOn the fifteenth day of the fifth month, the seventh year of the Cheng-t'ung year [1442], inscribed by Tung-yüan, Tu Chiung.  [2 seals] Yung-chia; Ching-chieh ming-men.  [8 seals on painting] Tung-yüan chai; Ching-chieh ming-men; Yung-chia; Tu Ch'iung yin; Tung-yüan (repeated 5 times).  \n\n(translated by WKH/LYSL)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "3 colophons and 7 additional seals:  1 colophon and 2 seals of Chou Ting (1401–1487); 1 colophon and 2 seals of Wu K'uan (1435–1504); 1 colophon, dated 1655, and 2 seals of Lan Ying (1585–after 1664)."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1968",
+        "text": "(Mrs. Angela Tseng, New Hampshire, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1968–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1969",
+        "title": "Year in Review for 1968"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1968.195",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1968.195",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1968.195/1968.195_web.jpg",
+    "w": 1263,
+    "h": 53,
+    "full": "https://openaccess-cdn.clevelandart.org/1968.195/1968.195_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

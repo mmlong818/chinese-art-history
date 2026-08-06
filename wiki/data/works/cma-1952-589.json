@@ -12,14 +12,13 @@
   "medium": "handscroll; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1662」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1952.589"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1952.589"
+          ],
+          [
+            "馆方作者",
+            "石濤 Shitao (Chinese, 1642–1707)"
           ]
         ]
       },
@@ -67,6 +70,16 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "T'ai Shan Ts'an Shih Lu Ts'ang Hua. Shanghai, 1926.（Reproduced: Portfolio II, pt. 10, pls. 8–13）",
+          "Kawai Zenro 河井荃廬. Shina Nanga Taisei 支那南畫大成. 2nd ed. Tōkyō: Kōbunsha, 1937.（Reproduced: Vol. 15, pls. 32 and 33）",
+          "Lee, Sherman. \"'Rocks, Orchids, and Bamboo' by Shih-T'ao.\" The Bulletin of the Cleveland Museum of Art 41, no. 1 (January 1954): 8, 13–14.（Mentioned: p. 8; Reproduced: pp. 10–11）",
+          "Fong, Wen, and Shih-t'ao. “A Letter from Shih-T'ao to Pa-Ta-Shan-Jên and the Problem of Shih-T'ao's Chronology.” Archives of the Chinese Art Society of America, vol. 13, 1959, pp. 22–53.（Mentioned and Reproduced: pp. 34–35, fig. 5）",
+          "Chou, Ju-hsi and Anita Chung. Silent poetry: Chinese paintings from the collection of the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, 2015.（Reproduced: pp. 400–407, fig. 1）"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +87,65 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Title colophon in four characters with signature and two seals on gold-flecked paper."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's signature, inscription (with date of 1662), five seals"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon with two seals."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1952",
+        "text": "(Howard Hollis and Co., Cleveland, OH, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1952–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1954",
+        "title": "Meaning of Nature in Chinese Art"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1952.589",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1952.589",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1952.589/1952.589_web.jpg",
+    "w": 900,
+    "h": 55,
+    "full": "https://openaccess-cdn.clevelandart.org/1952.589/1952.589_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

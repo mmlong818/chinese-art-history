@@ -12,14 +12,13 @@
   "medium": "Hanging scroll; ink on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1300s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1971.132"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1971.132"
+          ],
+          [
+            "馆方作者",
+            "劉善守 Liu Shanshou (Chinese, active 1300s)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Zhang, Daqian 張大千. Da feng tang shu hua lu 大風堂書畫錄. Chengdu: [publisher not identified], 1943.（p. 10(a)）",
+          "Zhang Daqian 張大千. Taifudo meiseki 大風堂名蹟. Kyōto: Benrido, 1955.（Reproduced: volume I, pl. 18）",
+          "The Art Quarterly, XXXV, no. 1 (Spring 1972).（p. 81）",
+          "Lee, Sherman Emery, and James Robinson. The Colors of Ink: Chinese Paintings and Related Ceramics from the Cleveland Museum of Art. New York: Asia Society; distributed by New York Graphic Society, 1974.（cat. no. 21）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1978. Cleveland, OH: The Cleveland Museum of Art, 1978.（Reproduced: p. 347）",
+          "**馆方记录另有 7 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,95 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "萱蝶圖\n\n馆方英译：Artist's title: Lily and Butterflies"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's 3 seals: Zhongxiao chuanjia [filial loyalty handed down in family 忠孝傳家]; Liu Shanshou yin 劉善守印; Suizhai 綏齋."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "9 additional seals: 1 of Liang Qingbiao 梁清標 (1620–1691); 1 of Nalan Chengde (納蘭成德) [later known as Nalan Xingde 納蘭性德] (1655–1685); 3 of Zhang Daqian 張大千 (1899–1983); 1 of Wang Jiqian [C. C. Wang] 王季遷 (1907–2003); 3 unidentified."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "1600s",
+        "text": "Liang Qingbiao 梁清標 [1620–1691]"
+      },
+      {
+        "t": "prov",
+        "when": "? by 1943–?",
+        "text": "Zhang Daqian 張大千 [1899–1983]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1971",
+        "text": "C. C. Wang 王季遷 [1907–2003], New York, NY, sold to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1971–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1971",
+        "title": "Year in Review: 1971"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1989",
+        "title": "Scholar's Studio"
+      },
+      {
+        "t": "exhib",
+        "when": "2024",
+        "title": "Pacific Standard Time: Growing and Knowing in the Gardens of China"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1971.132",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1971.132",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1971.132/1971.132_web.jpg",
+    "w": 348,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/1971.132/1971.132_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

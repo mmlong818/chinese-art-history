@@ -12,14 +12,13 @@
   "medium": "Handscroll; ink and light color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「before 1140」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1976.1"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1976.1"
+          ],
+          [
+            "馆方作者",
+            "周文矩 Zhou Wenju (Chinese, active 942–961)"
           ]
         ]
       },
@@ -67,6 +70,22 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → southern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**馆方在作者字段上加了限定词「after a work attributed to」（after a work attributed to）。**这不是本库的判断，是馆方的著录。**限定词一旦存在，这件东西与该画家名下的真迹就不是一回事**——本库对摹本与原作分开处理已立规矩，此处照录该限定词，不代馆方取消它，也不据此另作裁断。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "The CMA handscroll is one part of an original twelfth-century painting, which was divided into four sections. The fourth section is in the collection of the Metropolitan Museum of Art.",
+          "Another section of the handscroll is preserved in the Harvard Art Museums' collection.",
+          "The Bernard Berenson collection at Villa I Tatti, Florence, Italy, also has a section.",
+          "Fernald, Helen Elizabeth. \"Ladies of the court, an early Chinese scroll painting.\" Museum Journal. v. 19, no. 4 [December 1928], pp. 333–349.（Mentioned and Reproduced: pp. 333–349）",
+          "The Chinese Exhibition; A Commemorative Catalogue of the International Exhibition of Chinese Art, Royal Academy of Arts, November 1935-March 1936. London: Faber and Faber, 1936.（Mentioned: cat. no. 894, pp. 68, 87）",
+          "**馆方记录另有 18 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +93,100 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 colophon and 13 seals: 1 colophon and 1 seal of Zheng Cheng 張澂 (d. 1143); 12 seals unidentified."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon by Zhang Cheng 張澂 (d. 1143): \n\n周文矩宮中圖婦人小兒其數八十，一男子寫神，而粧具、樂器、盆盂、扇椅席、鸚鵡、犬蝶不與。文矩句容人，為江南翰林待詔。作士女體近周昉，而加纖麗。嘗為後主畫南莊圖，號一時絕筆。它日上之朝廷，詔籍之祕閣。宮中圖云是真蹟，藏前太府卿朱載家。或摹以見餽。婦人高髻自唐以來如此。此卷豐肌長襦裙，周昉法也。予至嶠南，於端溪陳高祖之裔，見其世藏諸帝像，左右宮人梳髻與此畧同。而丫鬟乃作兩大鬟，垂肩項間，雖醜而有真態。李氏自謂南唐，故衣冠多用唐制，然風流寔承六朝之餘。畫家者言辨古畫當先問衣冠車服，蓋謂是也。紹興庚申五月乙酉澹嵒居士題。\n\n印：張澂印章\n\n馆方英译：[This is] Zhou Wenju’s painting, In the Palace. [In this scroll], women and children number eighty, with a single man. All are drawn to life, not to mention such matters as cosmetic accessories, musical instruments, pots and pans, fans, chairs, mats, parakeets, dogs, and butterflies. Wenju was a native of Jurong. He served as a Hanlin Daizhao [painter-in-waiting] in the south. In figure painting, his style is akin to Zhou Fang’s [active 8th century], but adding a touch of exquisiteness. He once painted a painting titled Southern Villa for Li Houzhu, a painting that was praised at the time as a supreme achievement. In later days, it was presented to the [Song] court and was much cherished in the imperial pavilion [library]. In the Palace was said to be a genuine work by him. It had been in the collection of Zhu Zai, the former Chamberlain for Palace Revenue. Perhaps he had a copy made as a gift, [which is the scroll that I saw]. Women here are depicted with tall chignons, such being the fashion since the Tang dynasty. This scroll presents them with full bodies and also long trailing skirts—this was indeed Zhou Fang’s approach. When in Qiaonan, I visited the descendents of Emperor Gaozu [r. 618–626] of the Chen [dynasty] at Duanxi [near Gaoyao xian, Guangdong province] and saw with my own eyes their family collection of imperial ancestors. The attendant ladies at the sides of these Emperors had the same hairdo as is seen here. The palace servants were shown with two large loops hanging between the neck and shoulder. Although these hairstyles looked ugly, they do appear quite real indeed. The House of Li called its own dynasty Southern Tang; consequently, in matters of fashion, they adhered to the Tang mode. Yet in terms of their cultural origins, they were inheritors of the Six Dynasties. It is the insight of those painters who believed that, in appraising ancient paintings, the first priority lies in the discernment of costumes, furnishings, chariots, and so on. This is indeed the case. On the yiyou day of the fifth moon, the gengshen year of the Shaoxing era, Tanyan Jushi inscribed this. \n\nSeal: “Zhang Cheng yin zhang” [seal inadvertently impressed upside down]."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1143",
+        "text": "Zhang Cheng 張澂 [d. 1143]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1509?",
+        "text": "Shen Zhou 沈周 [1427–1509]"
+      },
+      {
+        "t": "prov",
+        "when": "early 1900s",
+        "text": "(C. T. Loo & Co., New York, NY)"
+      },
+      {
+        "t": "prov",
+        "when": "before 1928–1976",
+        "text": "The University Museum, The University of Pennsylvania, Philadelphia, PA, sold to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1976–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1977",
+        "title": "Year in Review, 1976"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1999",
+        "title": "The Resonance of the Qin in Far Eastern Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2012",
+        "title": "Masterpieces of Early Chinese Painting and Calligraphy in American Collections"
+      },
+      {
+        "t": "exhib",
+        "when": "2019",
+        "title": "The Eternal Feast: Banqueting in 10th-14th Century Chinese Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "China’s Southern Paradise: Treasures from the Lower Yangzi Delta"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1976.1",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1976.1",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1976.1/1976.1_web.jpg",
+    "w": 900,
+    "h": 87,
+    "full": "https://openaccess-cdn.clevelandart.org/1976.1/1976.1_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

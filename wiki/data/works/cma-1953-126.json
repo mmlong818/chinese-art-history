@@ -12,14 +12,13 @@
   "medium": "handscroll; ink and slight color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1100–1150」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1953.126"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -67,6 +66,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → northern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Lee, Sherman. \"Chinese Landscape Painting.\" The Bulletin of the Cleveland Museum of Art 41, no. 9 (November 1954): 199–201.（Reproduced: cover; Mentioned: p. 199）",
+          "Lee, Sherman E. Chinese Landscape Painting. Cleveland, OH: The Cleveland Museum of Art, 1954.（Mentioned: p. 145, cat. 14; Reproduced: p. 27）",
+          "The Cleveland Museum of Art. The Cleveland Museum of Art Handbook. Cleveland, OH: The Cleveland Museum of Art, 1958.（Mentioned and Reproduced: cat. no. 853）",
+          "Goepper, Roger. 1000 Jahre chinesische Malerei. München: Haus der Kunst, 1959.（Reproduced: cat. no.11）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1966. Cleveland, OH: The Cleveland Museum of Art, 1966.（Reproduced: p. 258）",
+          "**馆方记录另有 13 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +84,180 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "9 colophons and 48 seals: \n\n1 colophon, dated 1205, of Wang Wenwei 王文蔚 (dates unknown); \n\n1 colophon, dated 1205, of Li Hui 李惠 (dates unknown); \n\n1 colophon of Weiluo Tian Xie 蔚羅田獬 (dates unknown); \n\n1 colophon, dated 1214, of He Yan 何言 (dates unknown); \n\n1 colophon, dated 1326, of Cao Yuanyong 曹元用 (d. 1329)\n\n1 colophon, dated 1332, of Kangli Zishan 康里子山 (Naonao; 1295–1345); \n\n1 colophon, dated 1336, of Liu Zai 劉載. (dates unknown); \n\n1 colophon, dated 1380, and 4 seals of Yang Mao 楊懋 (1300–after 1380); \n\n4 seals of the Hou family (ca. 1340); \n\n1 colophon of Wang Duo 王鐸 (1592–1652); \n\n4 seals of Zhang Bingqian 張秉乾 (juren of 1729); \n\n8 seals of Liang Qingbiao 梁清標 (1620–1691); \n\n2 seals of the Qianlong emperor (r. 1736–95); \n\n4 seals of the Jiaqing emperor (r. 1796-1820); \n\n3 seals of the Xuantong emperor (r. 1909–11); \n\n2 seals of Ye Gongchuo 葉恭綽 (1881–1968); \n\n17 seals of Zhang Yuan 張爰 (Zhang Daqian 張大千, 1899–1983)"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 1. Wang Wenwei 王文蔚. Dated third month and third day, 1205, under the reign of Zhangzong of the Jin dynasty.\n\n造物元無心，山川秀氣聚。畫手亦無盡，各出新意度。\n誰將妙林泉，淡墨寫縑素。重巒疊嶂間，三兩人家住。\n茅舍隔素籬，小橋通細路。溪上數葉舟，雅有物外趣。\n嵓崦藏招提，依稀認窗戶。山色四時宜，雲煙自朝暮。\n不知塵世中，此景在何處。收拾買山錢，投老好歸去。\n\n泰和乙丑三月三日平原王文蔚謹再拜，書于河東縣署之野趣堂。\n\n馆方英译：The creator has no intentions,\nMaking mountains and streams from pure air.\nThe painters too are also innumerable;\nEvery one of them has some new ideas.\nWho has picked these tasteful forests and springs,\nAnd laid them on this white piece of silk with light ink?\nIn the midst of layers of peaks and piles of overhangs,\nTwo or three families have found dwellings.\nThe thatched huts are separated by sparse fences.\nA little bridge leads to several narrow paths.\nOn the river boats float like leaves.\nThe tranquility gives a flavor that is beyond this world.\nBehind a rock, a monastery is hidden,\nDoors and windows of some buildings are faintly recognizable.\nThe appearance of the mountain is proper for all four seasons,\nCloudy and misty from dawn to dusk.\nI wonder where in this dust-filled world Can scenes like this be found!\nGather your pension money;\nWhen old, this is a good place to go.\n\nThe third day, third month, the year of yichou in the Taihe reign (1205), Wang Wenwei of Pingyuan wrote this at Yequ Tang in the magisterial office of Hedong."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 2. Li Hui 李惠. The colophon was written three days before the Qingming Festival in 1205. \n\n畫師慣在山中居，含毫吮墨聊自娛。\n閑將一段冰霜絹，寫出千里江山圖。\n前山後山互出沒，山腰林樾相縈紆。\n危橋澗溜瀉鳴玉，山根一匯為平湖。\n波平短艇快漁釣，雲深細徑來樵蘇。\n僊宮梵宇占幽勝，雕欄複閣森蓬壺。\n往來行客煙靄外，飄飄野店青帘孤。\n人家雞犬聲相接，熙熙化日安唐宇。\n嗟余嗜好何其迂，膏肓泉石真吾徒。\n一行作吏墮世網，薄書汨沒勞奔趨。\n千巖萬壑但夢想，故園三徑應將蕪。\n披圖暫洗黃塵眼，拊膺三嘆空踟躕。\n\n泰和乙丑清明前三日絳臺李惠書于舜城府署之九思堂。\n\n馆方英译：A master painter is used to mountain dwelling,\nHe amuses himself with brush and ink.\nLeisurely he took up a piece of icy white silk,\nAnd drew a picture of rivers and mountains for thousands of miles:\nFront hills and back hills mutually run into each other,\nAnd at their waist level forests meet and tangle.\nA dangerous bridge hangs over a rapid stream that roars like rattling jades.\nWhere the roots of mountains sink in union, there is the flat surface of the lake.\nThe waves are calm, and the fishing is easy in a short boat;\nThe clouds are thick, and along the small paths one gathers firewood.\nImmortal palaces and Buddhist temples are found in quiet and beautiful regions;\nCarved railings and complex of pavilions are situated deep in Penghu.\nComing and going, the travelers are seen outside the mist;\nFluttering is the blue banner of a shop alone in the wilderness.\nOther people living with the noise of chickens and dogs\nAre happily at peace under a good government.\nWhy then is my taste so foolish?\nSo I crave the company of rocks and streams.\nOnce I became a clerk I fell into the net of worldly affairs.\nMy humble books are buried in tears and I am exhausted by the race of life.\nThe thousand precipices and ten thousand valleys have since become only a dream.\nThe three paths of my old family garden are now covered with weeds.\nWhile opening the scroll I seem to wash my dustfilled eyes,\nWith hand on chest, I sigh three times, in vain.\n\nOn the third day before the Qingming Festival, in the year of yichou of the Taihe era (1205), I, Li Hui of Jiangtai, wrote this at Jiusi Tang of the prefecture office of Shuncheng."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 3. Weiluo Tian Xie 蔚羅田獬. \n\n畫工紛紛不可紀，擺脫俗流幾人耳。\n夫誰援筆掃鵝溪，一段風煙且千里。\n白波青嶂渺無窮，水接山兮山插水。\n小橋野店相勾連，古寺樓臺突兀起。\n飄然氣象與神俱，但患未明孰姓氏。\n郭熙雖老典型存，為問主公無乃是。\n此畫世希當寶藏，無與碌碌同一視。\n更看卷首數公詩，奇絕清新相表裏。\n\n蔚羅田獬\n\n馆方英译：Painters are innumerable,\nBut how few of them have escaped mediocrity.\nWho has swept over this river with a painting brush\nForming a picture of wind and mist that stretches over a thousand miles?\nThe white waves and blue peaks are far and endless,\nWhile the water joins the mountains, the mountains are actually planted in the water.\nA little bridge leads to a wilderness shop,\nBehind which terraces of an old temple suddenly rise.\nThe atmosphere is free, and the appearance is comparable to those that are divine.\nOnly the anonymity of the painter is rather worrisome.\nGuo Xi may be old, but his likeness is here,\nI wonder if the master [owner] would agree with me.\nThis painting, a true rarity, should be carefully treasured;\nIt must not be treated as an ordinary thing.\nIn addition, we also look at the several poems at the beginning of the scroll written by several eminent or elderly gentlemen.\nTheir fresh insights are worthy compliments to the painting.\n\nWeiluo Tian Xie"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 4. He Yan 何言. Written in 1214.\n\n萬有來自無，一真歸所託。畫師得三昧，胸中幻丘壑。\n百態逐墨破，群形隨筆落。地近迹分明，天遙痕隱約。\n雲物自吐吞，峯巒非斧鑿。江鄉閴無市，谷關常不鑰。\n中有野夫閑，童琴而歩鶴。酒斾出籬懸，漁舟臨岸泊。\n澗樹蔽橋樑，巖松迷殿閣。岑疊宿霧重，野曠林煙薄。\n危棧接縈紆，亂泉通脈絡。途中人往來，僕馬何羸弱。\n怪石虎踡跼，古木龍蟠錯。一幅宜好收，千金非易博。\n玉堂閑卷舒，眼界增寥廓。視險尚寛平，見危除慘虐。\n氣象溢國華，川澤資廟略。功名業已書，歸去鞭先著。\n但知色即空，何是今非昨。飽乎仁智心，箇中無限樂。\n\n貞祐甲戌秋暮，東營何言題。\n\n馆方英译：The ten thousand objects came from nothingness,\nEverything goes back to the one true essence.\nThe painting master is in accord with samadhi.\nHe creates hills and valleys out of his bosom.\nHundreds of apparitions appear after the spread ink;\nVarieties of shapes follow the application of the brush.\nWhere things are near, they are made clear.\nIn the distant sky the traces become obscured.\nViews exist by themselves,\nPrecipices and peaks are not artificially chiseled.\nThe village by the river is quiet with no market.\nThe mountain gateway is often left unlocked.\nAmid this there are a few leisurely men,\nWatching a boy carrying a qin, and another walking a crane.\nOver the fence the wine shop banners are hanging;\nNear the shore the fishing boats are anchored.\nThe trees over the streams partly cover the bridge.\nThe pavilions are shaded by tall pines from the cliffs.\nBehind the multiple peaks, the moisture is heavy;\nOver the wild plain, the mist that covers the trees is light.\nDangerous paths are lined by winding bushes.\nThe meandering rapids link with mountains’ veins.\nComing and going travelers go on their journeys;\nHow the attendants and the horses look wearied.\nThere are strange peaks that look like crouching tigers,\nThe ancient trees resemble tangled dragons.\nThis painting deserves to be cherished.\nEven a thousand pieces of gold may not obtain it.\nSitting in the Hanlin Academy I leisurely open the scroll,\nMy mind is being broadened.\nAware of pitfalls I am happy that I am safe,\nFacing the dangerous, I would still have to destroy the wicked.\nA grand atmosphere fills the nation.\nThe rich mountains and waters feed the high designs.\nWhen the deeds are done and one’s name is in the book of merits,\nIn my home-bound journey I will put the whip to good use.\nKnowing that all forms are but empty.\nWhy must I insist that yesterday was wrong and today is right?\nBe nourished by a heart of benevolence and wisdom,\nIn which we will find the bliss that is eternal.\n\nIn late autumn, the year of jiaxu during the Zhenyou era (1214), I, He Yan of Eastern Encampment, wrote this."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 5. Cao Yuanyong 曹元用 (d. 1329). Dated 1326. \n\n岸擁危橋斷，溪浮小艇斜。\n萬山最深處，依約兩三家。\n\n泰定丙寅秋，曹元用題。\n\n馆方英译：Shores carry a dangling bridge,\nStreams float slender boats;\nIn the depth of ten thousand hills\nTwo or three families are thinly placed.\n\nIn autumn, the year of bingyin in the Taiding era (1326), I, Cao Yuanyong, wrote this."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 6. Kangli Zishan 康里子山 (i.e., Kangli Naonao). The colophon bears a date of 1332.\n\n右溪山圖，意韻蕭灑。一見使人有烟霞之想，真可珍藏。又有□金諸名勝題詩其左。兵火之餘，\n殊不易得也。\n\n至順三年暮春之月，康里子山跋。\n\n馆方英译：On the right is the painting [known as] Xi shan tu [Streams and Mountains], which is imbued with a free and leisurely air. The sight of it provokes unworldly thoughts. It is truly a painting that deserves meticulous care. To the left, there are poetic colophons by famous men from the [Song] and Jin periods. That the scroll survived the vicissitude of wars is quite fortunate indeed."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 7. Liu Zai 劉載.\n\n雲拂埜田閑種玉，雨餘巖溜碎傾金。\n幾時也結團茆去，麟閤恬然不挂心。\n\n至元二年正月，長安劉載載之謹錄上。\n\n馆方英译：Clouds sweep over the open fields where time passes leisurely in “jade” planting.\nAfter the rain, [glistening] rivulets run over the cliff like scattered gold.\nSomeday I wish I could build a thatched hut there.\nThe ambition in the Unicorn Halls will not weigh on my heart.\n\nIn the first month, the second year of zhiyuan (1336), I, Liu Zai, [also known as] Zaizhi of Chang’an, respectfully wrote this."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 8. Yang Mao 楊懋 (1300–after 1380). \n\n觀此圖，經營位置，筆法高古，山明石潤。其橋梁、路道、樹林、人物、遠近；一一誠得真山水之深趣。非當時名筆有大才者不能至此。不必問其誰何，可為神品。况宋金元三朝名公所跋，尚不能記，想其來尤遠矣。然而物經累變而尚存，是物之有壽者也。余不復再論。文顯其保之。洪武庚申春，八十翁楊懋觀。\n\n馆方英译：I have studied the composition and the design of this painting and have noticed its brushwork in the ancient manner. The mountains are bright and the rocks are moist. Far and near, the bridges, paths, trees, human figures, and other objects are clear and give the flavor of real landscape. None but the greatly talented hands of that time could have achieved this. There is no need to ask the name of the painter; the work itself can be classed in the divine order. Considering the fact that the writers of the colophons of three dynasties, Song, Jin, and Yuan, have not been able to trace the source of the painting, its origin must indeed be ancient. A work that survives age and crisis is a work with the virtue of longevity. It is not for me to make further speculations, but only to hope that Wenxian will treasure this with great care. In the spring of the gengshen year, the Hongwu era (1380), I, Yang Mao, at eighty sui [have seen this]."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Colophon 9. Wang Duo 王鐸 (1592–1652).\n\n文蓀親翁博雅，文詩鴻暢。舍弟持此喜觀，遂抽管題數語：\n山勢委折，筆墨無痕。宋人中如此不多見也。譬之兵家，當是韓白。王鐸。\n\n馆方英译：My brother’s relative by marriage, Wensun, is learned and has good taste. He writes good prose and poetry. My brother brought over this painting of his to show me, so I pick up a brush and write these few words:\nThe posture of the mountains is bent and complex. The brush and ink have no artificial marks. This degree of excellence is not often seen in Song paintings. Speaking in military terms, the achievement is comparable to that of the great generals Han [Xin 韓信 (d. 196 BC)] and Bai [Qi 白起 (d. 257 BC)]."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "Mid-1300s",
+        "text": "Chen Ming 陳明 [active mid-1300s]"
+      },
+      {
+        "t": "prov",
+        "when": "1600s",
+        "text": "Wang Changheng 王長恒 [active 1600s]"
+      },
+      {
+        "t": "prov",
+        "when": "1600s",
+        "text": "Liang Qingbiao 梁清標 [1620–1691]"
+      },
+      {
+        "t": "prov",
+        "when": "1700s",
+        "text": "Zhang Bingqian 張秉乾 [juren of 1729]"
+      },
+      {
+        "t": "prov",
+        "when": "by 1736–1911?",
+        "text": "Qing imperial collection (seals of Emperors Qianlong, r. 1736–1795, Jiaqing, r. 1796–1820, and Xuantong, r. 1909–1911)"
+      },
+      {
+        "t": "prov",
+        "when": "early 1900s?",
+        "text": "Ye Gongchuo 葉恭綽 [1881–1968]"
+      },
+      {
+        "t": "prov",
+        "when": "early 1900s–before 1950",
+        "text": "Zhang Daqian 張大千 [1899–1983]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1950",
+        "text": "(A dealer, Hong Kong, sold to Walter Hochstadter)"
+      },
+      {
+        "t": "prov",
+        "when": "1950–1953",
+        "text": "(Walter Hochstadter [1914–2007], New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1953–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1954",
+        "title": "Chinese Landscape Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1958",
+        "title": "In Memoriam: Leonard C. Hanna, Jr."
+      },
+      {
+        "t": "exhib",
+        "when": "1959",
+        "title": "1000 Jahre Chinesische Malerei"
+      },
+      {
+        "t": "exhib",
+        "when": "1976",
+        "title": "Summer Mountains: the Timeless Landscape"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "Visions of Landscape: East and West"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "2009",
+        "title": "Streams and Mountains Without End: Asian Art and the Legacy of Sherman E. Lee at the Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2015",
+        "title": "Silent Poetry: Masterworks of Chinese Painting"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1953.126",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1953.126",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1953.126/1953.126_web.jpg",
+    "w": 900,
+    "h": 139,
+    "full": "https://openaccess-cdn.clevelandart.org/1953.126/1953.126_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

@@ -12,14 +12,13 @@
   "medium": "hanging scroll; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1567」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1962.43"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -52,6 +51,10 @@
           [
             "藏品号",
             "1962.43"
+          ],
+          [
+            "馆方作者",
+            "陸治 Lu Zhi (Chinese, 1496–1576)"
           ]
         ]
       },
@@ -67,9 +70,84 @@
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's inscription, signature, and 3 seals:\r\n\r\nIn my youthful days I liked to imitate the ink method of Yün-lin [Ni Tsan].  Mr. Wen, the academician [Wen Cheng-ming], remarked that I barely succeeded in achieving some resemblance.  He once honored me with the inscription \"lofty and imperturbable indeed was the personality of Ni Yü [Ni, the Odd].  Pale ink and blue smoke were formed by his scribbling brush. His surviving works have become so rare in the last two hundred years; only Pao-shan [Lu Chih] carries on his true tradition.\"  In my older years, having to comply with frequent requests for paintings, my brushwork has become stronger than before and I thought to myself that I may have surpassed the Old Master.  In the ting-mou year of the Lung-ch'ing era [1567] a friend brought a small painting [by Ni Tsan] and showed it to me in the mountains.  I studied and enjoyed it for a long time, then realized that I was actually inferior.  This gave me second thoughts about my earlier style, so I selected a piece of old window paper and did this painting in imitation.  My friend was kind enough to say that it was truly a quick and close resemblance.  I then wrote a colophon and presented the painting to him.  My poem says:\r\n\r\nHigh mountains and distant waters are the thoughts coming from the lute;\r\nThe drunken leaves and the sparse woods are merely flowers in the mirror.\r\nThis idea, I'm sure, will be understood by Tzu-ch'i, one who appreciates my art, \r\nIt is for him that I have painted on thin paper with light touches,\r\nThe cloudy color of an autumn evening.\r\n\r\nThis is the winter solstice of the same year.  By then, Pao-shan, Mr. Lu, was already over seventy years of age.  Could it be that one's brush also gets old together with one's age, as the saying goes.  I put down my brush with a laugh.  [2 seals] Lu Shu-p'ing shih, Pao-shan tzu. [seal, bottom left corner] Lu Chih shu-p'ing.  trans. WKH\r\n\r\n6 additional seals of Chu Ching-hou (n.d.)."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Chu Ching-hou"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Frank Caro"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Chu Ching-hou; Frank Caro"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1962",
+        "title": "Year in Review - 1962"
+      },
+      {
+        "t": "exhib",
+        "when": "1964",
+        "title": "Fifteen Chinese Paintings from the Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "Visions of Landscape: East and West"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1962.43",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1962.43",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1962.43/1962.43_web.jpg",
+    "w": 408,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1962.43/1962.43_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

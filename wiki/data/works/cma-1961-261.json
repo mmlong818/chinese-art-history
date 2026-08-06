@@ -12,14 +12,13 @@
   "medium": "Album leaf; ink and color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1100s–1200s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1961.261"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -52,6 +51,10 @@
           [
             "藏品号",
             "1961.261"
+          ],
+          [
+            "馆方作者",
+            "蘇漢臣 Su Hanchen (Chinese, active c. 1101–1125)；Wang Juzhen (Chinese)"
           ]
         ]
       },
@@ -63,6 +66,22 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → southern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**馆方在作者字段上加了限定词「tradition of、tradition of」（tradition of／tradition of）。**这不是本库的判断，是馆方的著录。**限定词一旦存在，这件东西与该画家名下的真迹就不是一回事**——本库对摹本与原作分开处理已立规矩，此处照录该限定词，不代馆方取消它，也不据此另作裁断。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Cahill, James. The Art of Southern Sung China. New York: Asia House, 1962.（cat. no. 11）",
+          "Lee, Sherman E. and Wai-Kam Ho. \"Scattered Pearls beyond the Ocean.\" The Bulletin of the Cleveland Museum of Art, Vol. 51, No. 2 (Feb., 1964), pp. 23-39.（Reproduced: pp. 23-39, cover, cat. no. 8）",
+          "National Gallery of Canada, and Expo (International Exhibitions Bureau). Terre Des Hommes: Exposition Internationale Des Beaux-Arts, 28 Avril-27 Octobre 1967 [= Man and His World, International Fine Arts Exhibition, Expo 67, Montreal, Canada, 28 April-27 October 1967]. Montréal: Expo 67, 1967.（cat no. 49）",
+          "Wang, Chi-chʻien. Album Leaves from the Sung and Yuan Dynasties: [Exhibition], March 26 Through May 30, 1970. New York: The [China House] Gallery, 1970.（cat. no. 30）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Mentioned and Reproduced: cat. no. 39, pp. 55-56）",
+          "**馆方记录另有 5 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -70,6 +89,85 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "2 seals unidentified: one lower right and one top center."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1961",
+        "text": "C. C. Wang 王季遷 [1907–2003], New York, NY, sold to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1961–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1962",
+        "title": "The Art of Southern Sung China"
+      },
+      {
+        "t": "exhib",
+        "when": "1962",
+        "title": "Year in Review - 1962"
+      },
+      {
+        "t": "exhib",
+        "when": "1967",
+        "title": "Man and His World"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2022",
+        "title": "China through the Magnifying Glass: Masterpieces in Miniature and Detail"
+      },
+      {
+        "t": "exhib",
+        "when": "2024",
+        "title": "Creation, Birth, and Rebirth"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1961.261",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1961.261",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1961.261/1961.261_web.jpg",
+    "w": 900,
+    "h": 751,
+    "full": "https://openaccess-cdn.clevelandart.org/1961.261/1961.261_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

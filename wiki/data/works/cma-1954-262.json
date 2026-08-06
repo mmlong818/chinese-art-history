@@ -12,14 +12,13 @@
   "medium": "Handscroll; ink and light color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1664」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1954.262"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1954.262"
+          ],
+          [
+            "馆方作者",
+            "蕭雲從 Xiao Yuncong (Chinese, 1596–1673)"
           ]
         ]
       },
@@ -67,13 +70,149 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Lee, Sherman E. Chinese Landscape Painting. Cleveland, OH: The Cleveland Museum of Art, 1954.（Mentioned: p. 156, cat. no. 102; Reproduced: p. 127）",
+          "Trubner, Henry. A Chinese Landscape by Hsiao Yün-Tsʼung. Oriental Art, New Series, V. 1, No. 3. [Surrey, England, etc.]: [Oriental Art Magazine, Ltd.], 1955.（Reproduced: p. 104, fig. 6, 7）",
+          "Sirén, Osvald. Chinese Painting: Leading Masters and Principles. New York: Ronald Press, 1956.（Mentioned: VII, Lists, 337）",
+          "Lee, Sherman E. “Some Problems in Ming and Ch'ing Landscape Painting.” Ars Orientalis, vol. 2, 1957, pp. 471–485.（Reproduced:  pp. 480-82, pl. 13, fig. 17）",
+          "The Cleveland Museum of Art. The Cleveland Museum of Art Handbook. Cleveland, OH: The Cleveland Museum of Art, 1958.（Mentioned and Reproduced: cat. no. 876）",
+          "**馆方记录另有 13 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "種松發秀色，具是高人心。 \n鑿石築茅屋，長年覆綠陰。 \n白雲無意出，舒卷趨空林。 \n萬籟時一寂，微風墮清音。 \n此情莫可擬，此景誰能論。 \n只向千峰裏，共彈五絃琴。 \n桃花依綠水，不覺又春深。\n\n甲辰花朝題于青蓮閣, 鐘山老人蕭雲從。[印] 鐘山老人\n\n馆方英译：Artist's inscription, signature, and seal: \n\nPlanting pine to unveil its natural color: \nThis is an idea appealing to all lofty minds. \n[He] chiseled into the rocks to build a thatched cottage, \nTo shade with greeneries all year around. \nThe white clouds drift by with no will of their own \nRolling and stretching toward the vacant forests.\nSuddenly all sounds are hushed, \nWhile a pure tone falls from a light breeze. \nThis sentiment is impossible to articulate, \nAnd the scene is beyond words. \nTo the thousands of peaks we go, \nTo play a duet on the qin of five strings. \nPetals of peach blossom flow along the green stream;  \nWithout us being aware, the spring has deepened.  \n\nOn the \"Day of Flowers\" in the jiachen year [twelfth day of the second lunar month of 1664], inscribed at the Blue Lotus Pavilion (Qinglian Ge 青蓮閣), by the Old Man of Zhong Mountain.  Xiao Yuncong [seal] Zhong shan lao ren."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Title and inscription, dated 1744, and 3 seals of Shen Feng 沈鳳 (1685–1755)."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "4 colophons and 24 additional seals: \n\n1 colophon, dated 1811, and 5 seals of Xiang Yuan 項源 (active about 1811); \n1 colophon, dated 1858, and 2 seals of Qi Junzao 祁寯藻 (1793–1866); \n1 colophon and 4 seals of Zhang Yunzhong 張允中 (1881–1960?); \n4 seals of Jiang Xun 江恂 (active about 1753–after 1780); \n1 colophon dated 1943, and 2 seals of Wang Shaoming 汪兆銘 (Wang Jingwei 汪精衛, 1883–1944); \n1 seal of Qi Zhiliu 祁之鏐 (active about 1858); \n2 seals of Yu Zhimeng 俞芷盟 (second half of 19th century); \n4 seals unidentified."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Jiang Xun 江恂 [active about 1753–after 1780]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Xiang Yuan 項源 [active about 1811]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Qi Zhiliu 祁之鏐 [active about 1858]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Yu Zhimeng 俞芷盟 [second half of 19th century]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Wu Changshou 吳昌綬 [1867–1924]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Zhang Yunzhong 張允中 [1881–1960?]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Wang Shaoming 汪兆銘 [Wang Jingwei 汪精衛, 1883–1944]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1954",
+        "text": "(Walter Hochstadter [1914–2007], New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1954–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1954",
+        "title": "Chinese Landscape Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1959",
+        "title": "1000 Jahre Chinesische Malerei"
+      },
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "Visions of Landscape: East and West"
+      },
+      {
+        "t": "exhib",
+        "when": "1987",
+        "title": "Mountains, Rocks, and Water: Landscape Painting in Asia"
+      },
+      {
+        "t": "exhib",
+        "when": "2017",
+        "title": "Inspired by Chinese Landscape and Art – Chinese Gallery Rotation 240a, 241c"
+      },
+      {
+        "t": "exhib",
+        "when": "2023",
+        "title": "When Salt was Gold: Yangzhou, City of Riches and Art"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1954.262",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1954.262",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1954.262/1954.262_web.jpg",
+    "w": 900,
+    "h": 27,
+    "full": "https://openaccess-cdn.clevelandart.org/1954.262/1954.262_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

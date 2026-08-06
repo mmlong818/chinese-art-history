@@ -12,14 +12,13 @@
   "medium": "handscroll; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1814」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1975.75"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1975.75"
+          ],
+          [
+            "馆方作者",
+            "錢杜 Qian Du (Chinese, 1763–1844)"
           ]
         ]
       },
@@ -67,13 +70,90 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Lee, Sherman E. “The Year in Review for 1975.” The Bulletin of the Cleveland Museum of Art 63, no. 2 (February 1976): 31–71.（Reproduced: p. 60; Mentioned: p. 70, no. 154）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Mentioned and Reproduced: cat. no. 280, p. 381）",
+          "Chou, Ju-hsi and Anita Chung. Silent poetry: Chinese paintings from the collection of the Cleveland Museum of Art. Cleveland, OH: The Cleveland Museum of Art, 2015.（Mentioned and Reproduced: pp. 466–469）"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "夢游天台圖.\n余舊藏子畏赤城仙館卷子，僅尺餘而具千巖萬壑之勢。甲戌三月，戲為雲伯臨作行看子。錢叔美并識。[印]壺公\n\n馆方英译：Artist's inscription, signature, and seal: \n\nDream Journey to Mt. Tiantai.\nIn the past, I had Ziwei’s [Tang Yin] scroll The Daoist Lodge of the Vermilion Citadel in my collection. Though it was little more than a foot in length, the landscape embodied a magnificent view of thousands of cliffs and myriad valleys. In the third month of the year jiaxu [1814], I playfully copied it as a small handscroll as a gift for Yunbo [Chen Wenshu]. Thus inscribed, Qian Shumei. [Seal]: Hugong."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "今年春為雲伯作夢游天台圖，雲伯裝淇成卷。秋七月，余來吳中桂葉書堂，展玩竟日後，為其書紀舊作於卷後。雲伯詩空靈出杳，恐斯圖不能傳寫萬一。時秋暑熾甚，揮汗為之，腕力復弱，書又劣於畫，夫奈何。叔美并記。[印]叔美 [印, 右下]錢叔美\n\n馆方英译：Artist's colophon: \n\nIn the spring of this year, I painted the Dream Journey to Mt. Tiantai for Yunbo [Chen Wenshu].  [Afterward], he had it mounted in a scroll format. In the autumn, the seventh month, I returned to the Guiye Shutang [Library under Cassia Leaves; i.e., Chen Wenshu’s library] in Suzhou. I looked at the scroll throughout the day and added, at the end of the scroll, his poem about the dream journey, which had been composed some time ago. Yunbo’s poem can be characterized as limpid, elusive, and subtle. I am afraid that this painting cannot hope to match its [rich] meanings in any conceivable way. At the time, the autumn heat was excessive, and I wrote the poem while sweating profusely. My wrist also lacked energy, and this made the calligraphy even less desirable than the painting. What can I do? [I], Shumei inscribed this. [seal] Shumei. Artist's seal at lower right edge of painting: Qian Shumei."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "屏風九疊雲錦張，山氣滃雲雲氣涼。 \n莓苔如席二尺厚，此間翠壁非石梁。\n珠簾倒挂絕壁下，萬斛鮫珠向空瀉。\n仙穴元氣沖然通，別有白龍出山罅。\n龍起欲裂青山青，拍手一喝停雲停。\n須臾復迸勢更急，水花倒捲搖瓏玲。\n有美一人美且頎，翠袖獨倚紅闌西。\n顧我目成若相識，疑是劉阮所遇之仙妃。\n瓊臺金闕渺何處，胡麻飯熟桃花肥。\n一翁飲水惟讀書，吐納山綠餐松腴。\n書中所言不盡識，妙理必有壺公壺。\n山花襲人紅蔌蔌，醒後翻疑尋夢轂。\n泠然殘響滿空山，月痕正照秋屏綠。\n\n馆方英译：A poem composed by Chen Wenshu 陳文述 (1775–1845), transcribed by Qian Du: \n\nNine layers of nature’s screens are overlaid by brocades of clouds. \nThe mountainous vapors turn to mist, and the mist turns cool. \nThe moss and fungi are like snow, laid on thick to a depth of two feet.  \nHere the green walls are composed not just of barren rocks. \nA pearly curtain of waterfall hangs from a sheer cliff, \nSpilling ten thousand vases of pearls over the empty space. \nThe primordial breath rushes through the Immortal’s cavern, \nAnd a white dragon begins to appear among these cliffs. \nThe rising dragon splits the green hills and makes them greener. \nI clap my hands and utter a shout to still the frozen clouds. \nSoon, the dragon reappears and gains in momentum, \nStirring the whirling waves and rushing streams. \nA tall beauty makes her presence felt, her kingfisher sleeves \nTouching the western red balustrade, \nAgainst which she leans in solitude. \nShe looks at me, as if she has known me before. \nI suspect perhaps she was [one of] the immortal consorts \nWhom Liu [Chen, 劉晨] and Ruan [Zhao, 阮肇] had encountered. \nFar, far are her jade terraces and golden pavilion, remote and invisible. \nThe sesame rice is well cooked, and the peach flowers are in full bloom. \nThere is an old man drinking water while reading. \nAs he inhales and exhales, the mountains turn green and the pine nuts ripen. \nI am not fully cognizant of what the book says. \nFor the subtle truth there is of course the pot [Hu] of Hugong. \nThe scent of wild flowers is everywhere, and their red petals have fallen. \nAlthough awake, I still suspected I was in a dream journey. \nA trail of limpid sounds fills the void of mountain ranges. \nThe pale moon casts a reflection on the autumnal, verdant cliffs."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "3 additional seals unidentified."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Titleslip by Mo Beiming 莫北溟 (active early 20th century)"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "1814–?",
+        "text": "Chen Wenshu 陳文述 [1775–1845], Suzhou, China"
+      },
+      {
+        "t": "prov",
+        "when": "?–1975",
+        "text": "Jean-Pierre Dubosc [1904–1988], Paris, France, given to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1975–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1975.75",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1975.75",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1975.75/1975.75_web.jpg",
+    "w": 1263,
+    "h": 288,
+    "full": "https://openaccess-cdn.clevelandart.org/1975.75/1975.75_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

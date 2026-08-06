@@ -12,14 +12,13 @@
   "medium": "handscroll; ink and slight color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「late 1200s–early 1300s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1961.206"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1961.206"
+          ],
+          [
+            "馆方作者",
+            "顏輝 Yan Hui (Chinese, active 1270–1310)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Goepper, Roger. 1000 Jahre chinesische Malerei. München: Haus der Kunst, 1959.（Reproduced: cat. no. 27）",
+          "Hui, Yen, and Sherman E. Lee. “The Lantern Night Excursion of Chung K’uei.” The Bulletin of the Cleveland Museum of Art 49, no. 2 (February 1962): 36–42.（Mentioned and Reproduced: pp. 36–42, figs. 1, 4）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1966. Cleveland, OH: The Cleveland Museum of Art, 1966.（Reproduced: p. 261）",
+          "Lee, Sherman E., and Wai-kam Ho. Chinese Art Under the Mongols: The Yüan Dynasty, 1279-1368. Cleveland, OH: The Cleveland Museum of Art; [distributed by the Press of Case Western Reserve University], 1968.（Reproduced: cat. no. 206）",
+          "The Cleveland Museum of Art. Handbook of the Cleveland Museum of Art/1969. Cleveland, OH: The Cleveland Museum of Art, 1969.（Reproduced: p. 261）",
+          "**馆方记录另有 10 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,155 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's signature [and probable seal]: Yan Qiuyue 顏秋月\n\nTitle on frontispiece and 1 seal of Niu Shuyu 鈕樹玉 (1760–1827): Qiuyue mohuan 秋月墨幻 [Qiuyue's Ink Fantasy].\n\n31 additional seals: 2 of Yang Shiqi 楊士奇 (1365–1444); 2 of An Guo 安國 (1481–1534); 8 of Xiang Yuanbian 項元汴 (1525–1590); 2 of Geng Zhaozhong 耿昭忠 (1640–1686); 4 of Pu Tung 溥侗  (1870–1952); 7 of Tan Jing 譚敬 (1911–1991); 1 of Liu Ting-chih (20th c.); 5 unidentified."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "An inscription by Zizhi Shanren 紫芝山人 [probably Jiang Hui 蔣惠], dated 1389"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "An inscription by Wu Kuan 吳寬 (1436–1504)"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Yang Shiqi 楊士奇 [1365–1444]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "An Guo 安國 [1481–1534]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Xiang Yuanbian 項元汴 [1525–1590]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Geng Zhaozhong 耿昭忠 [1640–1686]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Pu Tong 溥侗 [1870–1952]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Tan Jing 譚敬 [1911–1991]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1961",
+        "text": "(Frank Caro [1904–1980], New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1961-",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1959",
+        "title": "1000 Jahre Chinesische Malerei"
+      },
+      {
+        "t": "exhib",
+        "when": "1961",
+        "title": "Year in Review (1961)"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1976",
+        "title": "Looking East: Yuan Dynasty Paintings"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Chinese Paintings: Themes and Techniques"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1985",
+        "title": "The Twain Shall Meet"
+      },
+      {
+        "t": "exhib",
+        "when": "1988",
+        "title": "Realm of the Immortals: Daoism in the Arts of China"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "1998",
+        "title": "Highlights of Asian Paintings from The Cleveland Museum of Art"
+      },
+      {
+        "t": "exhib",
+        "when": "2012",
+        "title": "Masterpieces of Early Chinese Painting and Calligraphy in American Collections"
+      },
+      {
+        "t": "exhib",
+        "when": "2015",
+        "title": "Silent Poetry: Masterworks of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "2024",
+        "title": "Demons, Ghosts, and Goblins in Chinese Art"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1961.206",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1961.206",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1961.206/1961.206_web.jpg",
+    "w": 900,
+    "h": 61,
+    "full": "https://openaccess-cdn.clevelandart.org/1961.206/1961.206_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

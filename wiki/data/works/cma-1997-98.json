@@ -12,14 +12,13 @@
   "medium": "hanging scroll; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 1403」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1997.98"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1997.98"
+          ],
+          [
+            "馆方作者",
+            "王紱 Wang Fu (Chinese, 1362–1416)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Seals of Chinese Painters and Collectors of the Ming and Ch'ing Periods（640）",
+          "Yao, Jiheng 姚際恒 . Hao gu tang jia cang shu hua ji 好古堂家藏書畫記. Taipei: Yi wen yin shu guan 藝文印書館, 1964. (preface dated 1699)（ch. 2, p. 88）",
+          "Harada, Kinjirō 原田謹次郎. Nihon genzai Shina meiga mokuroku 日本現在支那名畫目錄. Tōkyō: Ōtsuka Kōgeisha, 1938.（p. 128）",
+          "Lee, Sherman E., and Wai-kam Ho. Chinese Art Under the Mongols: The Yüan Dynasty, 1279-1368. Cleveland, OH: The Cleveland Museum of Art; [distributed by the Press of Case Western Reserve University], 1968.（Mentioned and Reproduced: cat. no. 266）",
+          "Ishikawa, Jun 石川淳, Yoshitaka Iriya 入矢義高, Yūjirō Nakata 中田勇次郎, and Hironobu Kohara 古原宏伸. Kō Kōbō, Gei San, Ō Mō, Go Chin [黄公望, 倪瓚, 王蒙, 呉鎮]. Tōkyō: Chūō Kōronsha, 1979.（Reproduced: p. 178, pl. 87）",
+          "**馆方记录另有 7 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,110 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "青山疎雨晩來晴，林木蕭條爽氣生。/\n記得當年齋館夜，一窗燈火讀書聲。/\n\n公義求寫秋林書舍，復徵題，遂賦此。王紱\n[印] 孟端; 友石生; 破研齋\n\n馆方英译：Artist's inscription, signature, and 3 seals:\n\nBlue hills and sparse rain: the weather is clearing up in the evening./\nTrees in the forest are withering, with an accompanying refreshing air./\nDo you not recall the night we spent together in a lodge for ritual cleansing?/\nThe sound of reading seeped through the window lit by candle lights.\n\nGongyi requested that I paint this Scholar’s Retreat amid Autumn Forest. In addition, he asked me for a written comment. I complied. Wang Fu. \n[seals] Mengduan; Po yan zhai; You shi sheng."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "飛飛木葉亂辭枝，裊裊涼風入袂時。/\n床上詩書勤課子，夜深窗下有吾伊。\n\n馆方英译：1 poem and 1 seal of Shao Sheng 邵昇 (1491-1534) of Renhe 仁和, juren of 1507:\n\nFly, fly the leaves parting from branches./\nTender is the breeze that enters the sleeves./\nUpon the bed, the piled-up classics are for educating the young./\nNightly, the sound of chanting can be heard through the window."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "林僻茅齋靜，秋清露氣寒。/\n閑居讀書者，不為要求官。\n\n馆方英译：1 poem and 1 seal of Han Yi 韓奕 (1334–1406) from Suzhou: \n\nThe forest is isolated and the thatched cottage is quiet./\nAutumn is clear and the dewdrops chill the air./\nHe who leads a life of leisure is immersed in reading./\nHe does so without aiming for an official post."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "碧樹宵含露氣涼，青燈孤照讀書床。/\n十年勤苦何須論，一日聲名達帝郷。\n\n馆方英译：1 poem and 2 seals of Qian Ji 錢驥 (second half of 14th–early 15th century) from Shanghai: \n\nIn the evening, the green trees are chilled by the dewdrops./\nA cool lamp light shines on a solitary figure on the bed reading./\nTen years of such struggles are beside the point./\nFor one day your fame will reach the imperial domain."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "溪山遠帶暮雲平，幾處長林映晩晴。/\n瑟瑟秋聲來樹杪，寒燈明滅月三更。\n\n馆方英译：1 poem and 1 seal of Mianyi 愛新覺羅綿億 (皇三孫, the 3rd imperial grandson of the Qianlong Emperor): \n\nStreams and hills level the evening mist./\nRows of trees reflect the evening sun./\n“Sa, sa” are the autumn sounds sweeping through the treetops./\nA chilling lamp and its blinking light echo the moon on the third watch."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "5 seals of the Qianlong emperor (r. 1736-95); \n1 seal of Tang Xun (dates unknown); \n2 seals of He Zheng 何澂 (d. 1888); \n3 seals of Cheng Qi 程琦 (1911–1988); \n2 seals of Li Guochao 李國超 (20th century); \n2 seals unidentified."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Yao Jiheng 姚際恒 [1647–about 1714]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Qing imperial collection (seals of Emperor Qianlong, r. 1736–1795)"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Aisin-Gioro Mianyi 愛新覺羅綿億 [1764–1815]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "He Zheng 何澂 [d. about 1888]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Nagao Uzan 長尾雨山 [1864–1942], Kyoto, Japan"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Cheng Qi 程琦 [1911–1988]"
+      },
+      {
+        "t": "prov",
+        "when": "? by 1968–1997",
+        "text": "Mr. A. Dean Perry [1909–1987] and Mrs. Helen Wade Greene Perry [1911–1996], Cleveland, OH, bequest to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1997–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1968",
+        "title": "Chinese Art Under the Mongols: The Yuan Dynasty (1279–1368)"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1997.98",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1997.98",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1997.98/1997.98_web.jpg",
+    "w": 415,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1997.98/1997.98_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

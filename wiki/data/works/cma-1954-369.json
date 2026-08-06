@@ -12,14 +12,13 @@
   "medium": "handscroll; ink and color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1644–1911」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1954.369"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1954.369"
+          ],
+          [
+            "馆方作者",
+            "仇英 Qiu Ying (Chinese, 1494–1552)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**馆方在作者字段上加了限定词「copy after」（摹本／仿本）。**这不是本库的判断，是馆方的著录。**限定词一旦存在，这件东西与该画家名下的真迹就不是一回事**——本库对摹本与原作分开处理已立规矩，此处照录该限定词，不代馆方取消它，也不据此另作裁断。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Wangwright, Amanda S. \"The Sick Man of Asia.\" In Visualizing the Body in Art, Anatomy, and Medicine Since 1800: Models and Modeling. Andrew Graciano, and Rebecca Marie Messbarger, eds., 180–200. London; New York: Routledge, 2019.（Mentioned: p. 187; Reproduced: pl. 8.2）"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,55 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "漢宮春曉圖.\n劉士瀛\n\n馆方英译：Title on frontispiece: Spring Morning in the Han Palace.\nSigned by the calligrapher Liu Shiying, with 2 red seals"
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1954",
+        "text": "I. Theodore Kahn, Cleveland, OH, given to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1954–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "2019",
+        "title": "Facing the Ancestors: Chinese Portraits and Figure Painting – Chinese Gallery Rotation 240a, 241c"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1954.369",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1954.369",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1954.369/1954.369_web.jpg",
+    "w": 1263,
+    "h": 334,
+    "full": "https://openaccess-cdn.clevelandart.org/1954.369/1954.369_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

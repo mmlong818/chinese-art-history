@@ -12,14 +12,13 @@
   "medium": "hanging scroll; ink on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 1630」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1966.366"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1966.366"
+          ],
+          [
+            "馆方作者",
+            "陳洪綬 Chen Hongshou (Chinese, 1598/99–1652)"
           ]
         ]
       },
@@ -67,6 +70,17 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Guan, Mianjun 關冕鈞. San qiu ge shu hua lu: 2 juan 三秋閣書畫錄: 二卷. [China]: Cangwu Guan shi 蒼梧關氏, Minguo 17 [1928].（Mentioned: volume 1, p. 86a-b）",
+          "Tō Sō Gen Min meigaten-gō [唐宋元明名画展号]. Tōkyō: Tōkyō Asahi Shinbun Hakkōjo, 1928.（373）",
+          "Ferguson, John C 福開森. Li dai zhu lu hua mu 歷代著錄畵目. Nanjing: Chin-ling University, Zhong guo wen hua yan jiu suo 金陵大學中國文化硏究所, 1934.（p. 299(b)）",
+          "Sirén, Osvald. A History of Later Chinese Painting. London: The Medici Society, 1938.（Mentioned:  II, 47, pl. 159, and I, Lists, 205）",
+          "Sirén, Osvald. Chinese Painting: Leading Masters and Principles. New York: Ronald Press, 1956.（Mentioned and Reproduced: V, 64, and VI, pl. 315, and VII, Lists, 164）",
+          "**馆方记录另有 12 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +88,105 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Artist's signature and seal at middle right edge:  Hongshou [seal] Zhanghou \n洪绶  [印]章侯"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Inscription by Gao Shiqi 高士奇 (1645–1704):\n\nThe Mountain of the Five Cataracts is bordered by three prefectures--Wu [Jinhua], Hang [Hangzhou], and Yue [Shaoxing]--and is quite close to Jiyang [Zhuji] in Yue. The landscape there is extraordinary and precipitous, with ridges and peaks standing in circles. Rocks of strange shapes gaze down everywhere, while maple and bamboo provide shade. The water from five pools overflows and is suspended in five steps--that is why it is called \"Five Cataracts.\"  Xie Yuanqing [Xie Tiao 謝朓, c. 464–499] of the Qi Dynasty gathered medicinal herbs here; Diao Jingchun [Diao yue 刁約, 11th century] of the Song Dynasty also visited here; Song Jinhua [Song Lian 宋濂, 1310–1381] and Xu Tianchi [Xu Wei 徐渭, 1521–1593] both wrote travel notes about the place; and Chen Hongshou painted here. His mountains are done in the style of the Six Dynasties masters; the trees are after those of Dong Beiyuan [董源 Dong Yuan, active during the Five Dynasties]--the painting seems to be richly imbued with the primeval spirit.  Xu Wei said that the grotto is unique for the shade (yin) and the five cataracts unusual for the sun (yang). There are seventy-two peaks, with a ravine between two cliffs. At times they are bright and at other times, gloomy; sometimes they seem to be open, sometimes closed, yet often border uniquely between shady (yin) and sunny (yang).  Zhanghou [Chen Hongshou] really succeeded in capturing that spirit. \n\nAs a young man indulgently boating through Shanyin [Shaoxing],/\nI became familiar with the beauty of the Five Cataracts./\nThe cold streams, when level, become pools clear as crystal./\nPouring foam mingled with flying waterfall,/\nIts shapes constantly changing./\nWater would flow downward without a sound,/\nOr become raging billows emitting echoes./\nSometimes the wind from the sky would wail,/\nThe green forest during the day would turn dark./\nSometimes it was dangerous and difficult to ascend,/\nFor the moss was slippery on the stone steps in those precipitous cliffs./\nAfter reading the travel notes of Sung [Lian] and Xu [Wei],/\nI'm afraid their descriptions are incomplete. /\nYet when Laolian [Chen Hongshou] was seized with the inspiration to paint,/\nHis brush and ink moved with exhilaration./\nIt is as if mists have risen/\nFrom a hot cooking pot, gradually opened./\nBy hanging this on a plain wall,/\nOne can clearly listen to the quiet night./\nAt the end of the year, ice and snow are deep;/\nThe cold air in the quiet studio is frozen./\nNear the fireplace, I make with it a silent, spiritual acquaintance/\nBurning incense and striking a lucid qing [stone chime].\n\nOn the eighteenth day of the twelfth month in the jimao year of the Kangxi era [1699]. Jiangcun, Gao Shiqi.  Zhuchuang inscribed this at Zhe in the Lan Jing studio.  It was the third day after the beginning of spring.  \n\n\ntrans. LYSL/HK/WKH"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Collector's inscription by Gao Shiqi 高士奇 (1645–1704), one column in standard script at the lower left corner: 信天巢秘藏\n\n馆方英译：Xin Tian Chao Bicang"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "5 seals of Gao Shiqi 高士奇 (1645–1704):\n竹窗 Zhu Chuang; 高士奇 Gao Shiqi; 澹人 Danren; 簡靜齋 Jian Jing Zhai (Gao Shiqi's studio; at the upper left corner); 高氏江村草堂珍藏書畫之印 Gaoshi Jiangcun Caotang Zhencang shuhua zhi yin (at the lower left corner)."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Two additional seals at the lower left and right corners are undecipherable."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Gao Shiqi 高士奇 [1644–1703]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Guan Mianjun 關冕鈞 [1870–1933]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1966",
+        "text": "(Walter Hochstadter [1914–2007], New York, NY, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1966–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1967",
+        "title": "Year in Review: 1967"
+      },
+      {
+        "t": "exhib",
+        "when": "1971",
+        "title": "The Restless Landscape: Chinese Painting of the Late Ming Period"
+      },
+      {
+        "t": "exhib",
+        "when": "1974",
+        "title": "The Colors of Ink"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Asian Autumn: Masterpieces from the Collection"
+      },
+      {
+        "t": "exhib",
+        "when": "2017",
+        "title": "Repentant Monk: Illusion and Disillusion in the Art of Chen Hongshou (1599-1652)"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1966.366",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1966.366",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1966.366/1966.366_web.jpg",
+    "w": 415,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/1966.366/1966.366_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

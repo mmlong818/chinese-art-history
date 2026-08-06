@@ -12,14 +12,13 @@
   "medium": "Album of twelve leaves; ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1788」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1985.71"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1985.71"
+          ],
+          [
+            "馆方作者",
+            "閔貞 Min Zhen (Chinese, 1730–after 1788)"
           ]
         ]
       },
@@ -67,13 +70,102 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Ding, Nianxian 丁念先. Nian sheng lou du hua xiao ji [念聖樓讀畫小紀 = Chinese calligraphy and painting of various dynasties in the collection of Nianshenglou]. Taibei: Wen xing za zhi she, 1961.（Mentioned: p. 41, no. 85）",
+          "Fukunaga, Takehiko 福永武彥, and Howard L. Rogers. Kinnō, Bunjinga suihen. chiyūgo (9) 金農, 文人画粋編. 中国篇 9. Tōkyō: Chūōkoronsha, 1976.（Mentioned and Reproduced: pls. 94–97, p. 179, fig. 30）",
+          "Sotheby's, Parke, Bernet, New York. Fine Chinese Paintings. June 3, 1985 sale.（Mentioned and Reproduced: cat. no. 69）",
+          "Turner, Evan H. “The Year in Review for 1985.” The Bulletin of the Cleveland Museum of Art 73, no. 2 (February 1986): 26–71.（Reproduced: p. 51; Mentioned: p. 70, no. 186）",
+          "Chou, Ju-hsi and Anita Chung. Silent poetry: Chinese paintings from the collection of the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, 2015.（Mentioned and Reproduced: pp. 462–465）"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "予素有怪石之僻。余友戴笠山人嗜予畫，亦猶予之嗜怪石焉。向故訂約，以所好相易。值余奔馳遷延，今夏偶憶及怪石之在吾齋已五載。繪此以踐前言。誌以奇峭為十二冊之終。時戊申六月六日，正齋閔貞謹識。\n\n馆方英译：Inscriptions on Leaf 12 by the artist: \n\nI am quite fond of fantastic rocks. My friend Dai li shan ren [Wang Li 王禮] is quite fond of my painting, to the same degree as I love rocks. There has long been an understanding between us that we would exchange paintings for rocks [and vice versa]. At the time, I was traveling constantly. This summer, by chance I recalled our previous understanding, realizing that a fantastic rock [that he gave me] had been in my studio for as long as five years. Thereupon I painted this to fulfill my promise. I wrote this colophon and rendered a scene of tall and steep cliffs at the very end of this album of twelve leaves. This is the sixth day of the sixth month, of the year of wushen [1788]. Zhengzhai Min Zhen wrote this."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Six seals appearing on the leaves:\n\nMin Zhen 閔貞; Zheng zhai 正齋; Qingqiao 青橋; Zhen 貞; Liao tang 蓼塘; Min Zhen zhi yin 閔貞之印。"
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "正齋傳世真跡，應推此冊為第一。\n\n馆方英译：The former collector Ding Nianxian's (丁念先, 1906–1969) statement on the album’s wooden cover:\n\nThis is a genuine work by Zhenzhai [Min Zhen]. It is ranked as the first and foremost among his extant works."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "1788–?",
+        "text": "Daili Shanren 戴笠山人 [active late 1700s]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Ni Yun 倪耘 [d. 1864]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Yan Shiqing 顏世清 [1873–1929]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Xu Xiaopu 徐小圃 [1887–1961]"
+      },
+      {
+        "t": "prov",
+        "when": "c. mid-1900s",
+        "text": "Ding Nianxian 丁念先 [1906–1969]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1985",
+        "text": "(Eskenazi Ltd., London, England, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1985–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1985.71",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1985.71",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1985.71/1985.71_web.jpg",
+    "w": 571,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/1985.71/1985.71_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

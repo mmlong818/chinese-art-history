@@ -12,14 +12,13 @@
   "medium": "hanging scroll, ink on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1500」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1997.101"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1997.101"
+          ],
+          [
+            "馆方作者",
+            "沈周 Shen Zhou (Chinese, 1427–1509)"
           ]
         ]
       },
@@ -67,13 +70,93 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → ming；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Naitō, Torajirō 內藤虎次郎. Min shitaika gafu [明四大家畫譜 = Paintings by the four great masters of the Ming dynasty]. Osaka: Hakubundō, 1924.（Mentioned:  p. 18）",
+          "Shinaga kenkyūkai [支那畫硏究會 = Research Club of Chinese paintings]. Shina meiga senshū 支那名畫選集. Kyōto: Nakajima Kyōeisha, Shōwa 2-4 [1927-1929].（vol. III）",
+          "Saitō, Etsuzō 齊藤悦藏 and Torajirō Naitō 內藤虎次郎. Tōan-zō shogafu 董盦蔵書畫譜. Ōsaka: Hakubundō, 1928.（Reproduced: pl. 20）",
+          "Sirén, Osvald. A History of Later Chinese Painting. London: The Medici Society, 1938.（I, Lists, 227）",
+          "Sirén, Osvald. Chinese Painting: Leading Masters and Principles. New York: Ronald Press, 1956.（VII, Lists, 225.）",
+          "**馆方记录另有 5 条著录未在此列出。**"
+        ]
       }
     ],
     "dating": [
       {
+        "t": "dating",
+        "basis": "款识",
+        "conf": "较可靠",
+        "text": "馆方著录中有含纪年的款识（见「题跋与鉴藏」一节），其年份与馆方断代一致，故断代依据可以填「款识」而不再是无从得知。**只给「较可靠」不给「确证」**：本库未核对原件，款识本身的真伪、是否后添均未独立判定。"
+      },
+      {
         "t": "gap",
-        "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+        "text": "款识原文未经本库目验；馆方亦未说明其对该款识真伪的判断。"
+      }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "粧[粉]合胭脂作曉粧，富於顔色吝於香。\n東風不肯全分付，相對梅花各斷腸。\n\n弘治庚申春日, 在雙蛾僧舍見海棠盛開, 適值陸汝器在坐索圖, 此繪以寄興。\n長洲沈周 [印]啟南; 石田; 白石翁\n\n馆方英译：Artist's inscription, signature, and 3 seals:\n\nWhite powder and rouge make a perfect morning appearance.\n[The flowers] are rich in color but restrained in fragrance.\nThe east wind is reluctant to aid its full growth.\nCompared to the plum blossoms, each carries its own sad tune.\n\nOn a spring day in the gengshen year of the Hongzhi era [1500], I was at Shuang’e [twin-moth] monks' residence where crab apples are blooming abundantly. Mr. Lu Ruqi was also visiting then, and asked for a painting of mine, so I painted this to express my feelings. Shen Zhou of Changzhou [seal] Qi nan. [2 seals, lower left corner] Shi tian; Bai shi weng."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 additional seal of Wu Yun 吳雲 (1811-1883)."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Wu Yun 吳雲 [1811–1883]"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Saito Etsuzo 齋藤悅 [early 1900s], Sumiyoshi, Japan"
+      },
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "(Elm & Co., Osaka, Japan, sold to Mr. and Mrs. Perry)"
+      },
+      {
+        "t": "prov",
+        "when": "c. 1960s-1987",
+        "text": "Mr. A. Dean Perry [1910?-1987] and Mrs. A. Dean Perry, Cleveland, OH"
+      },
+      {
+        "t": "prov",
+        "when": "1987-1997",
+        "text": "Mrs. A. Dean [Helen Wade Greene] Perry [1911-1996], Cleveland, OH, bequest to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1997-",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
       }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1997.101",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1997.101",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1997.101/1997.101_web.jpg",
+    "w": 301,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1997.101/1997.101_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

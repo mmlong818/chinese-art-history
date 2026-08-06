@@ -12,14 +12,13 @@
   "medium": "Hanging scroll; ink on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「mid-1200s」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1981.34"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -52,6 +51,10 @@
           [
             "藏品号",
             "1981.34"
+          ],
+          [
+            "馆方作者",
+            "法常 牧谿 Fachang Muqi (Chinese, 1220–1280)"
           ]
         ]
       },
@@ -63,6 +66,20 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → southern-song；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**馆方在作者字段上加了限定词「attributed to」（传）。**这不是本库的判断，是馆方的著录。**限定词一旦存在，这件东西与该画家名下的真迹就不是一回事**——本库对摹本与原作分开处理已立规矩，此处照录该限定词，不代馆方取消它，也不据此另作裁断。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Lee, Sherman E. “The Year in Review for 1981.” The Bulletin of the Cleveland Museum of Art 69, no. 2 (February 1982): 39–82.（Mentioned: p. 83, no. 128; Reproduced: p. 72）",
+          "Wink, Richard, and Richard Phipps. The McGraw-Hill Museum-Goer's Guide. Boston: McGraw-Hill, 2000.（Reproduced: no. 3.7, p. 51）",
+          "Fiero, Gloria K. Prehistory to the Early Modern World. New York, NY: McGraw-Hill, 2002.（Reproduced: Fig. 14.16, p. 337）",
+          "30,000 Years of Art: The Story of Human Creativity Across Time and Space. London; New York: Phaidon, 2007.（p. 599）"
+        ]
       }
     ],
     "dating": [
@@ -70,6 +87,60 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "Seal of Mu Qi in lower right corner."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1981",
+        "text": "(Cheng Qi 程琦 [1911–1988], Tokyo, Japan, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1981–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1982",
+        "title": "The Year in Review for 1981"
+      },
+      {
+        "t": "exhib",
+        "when": "1991",
+        "title": "Object Lessons: Cleveland Creates an Art Museum"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1981.34",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1981.34",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1981.34/1981.34_web.jpg",
+    "w": 434,
+    "h": 893,
+    "full": "https://openaccess-cdn.clevelandart.org/1981.34/1981.34_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

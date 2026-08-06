@@ -12,7 +12,7 @@
   "medium": "Hanging scroll; ink and color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1948」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
@@ -56,6 +56,10 @@
           [
             "藏品号",
             "2025.204"
+          ],
+          [
+            "馆方作者",
+            "馮超然 Feng Chaoran (Chinese, 1882–1954)；鄭慕康 Zheng Mukang (Chinese, 1901–1982)"
           ]
         ]
       },
@@ -67,12 +71,44 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：年代 1948–1948 唯一落入 late-qing-republic；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**馆方在作者字段上加了限定词「and」（and）。**这不是本库的判断，是馆方的著录。**限定词一旦存在，这件东西与该画家名下的真迹就不是一回事**——本库对摹本与原作分开处理已立规矩，此处照录该限定词，不代馆方取消它，也不据此另作裁断。"
       }
     ],
     "dating": [
       {
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "?–1925",
+        "text": "Dr. Matthew Edlund, Sarasota, FL, given to the Cleveland Museum of Art"
+      },
+      {
+        "t": "prov",
+        "when": "1925–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "2026",
+        "title": "The Plum Scenery Studio: Wu Hufan and His Circle in Modern Shanghai"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
       }
     ]
   }

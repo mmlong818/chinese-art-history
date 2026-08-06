@@ -12,14 +12,13 @@
   "medium": "Pair of hanging scrolls; ink on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1279–1368」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1982.150"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -63,6 +62,13 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → yuan；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Lee, Sherman E. “Year in Review for 1982.” The Bulletin of the Cleveland Museum of Art 70, no. 1 (January 1983): 3–55.（Mentioned: p. 55, no. 122; Reproduced: p. 37, no. 122）",
+          "Carpenter, John T., and Timothy Clark. Kazari: Decoration and Display in Japan, 15th-19th Centuries. Edited by 辻, 惟雄 and Nicole Coolidge Rousmaniere. New York: Japan Society: Distributed by Harry N. Abrams, 2002.（cat. no. 2b, p. 91）"
+        ]
       }
     ],
     "dating": [
@@ -70,6 +76,59 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Gorō Sakamoto [1923–2016]"
+      },
+      {
+        "t": "prov",
+        "when": "?–1982",
+        "text": "(Fugendo Co., Ltd., Tokyo, Japan, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1982–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1983",
+        "title": "The Year in Review for 1982"
+      },
+      {
+        "t": "exhib",
+        "when": "1993",
+        "title": "The Art of Obaku"
+      },
+      {
+        "t": "exhib",
+        "when": "2002",
+        "title": "Arts of the Kazari:  Japan on Display, 15th-19th Centuries"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1982.150",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1982.150",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1982.150/1982.150_web.jpg",
+    "w": 689,
+    "h": 900,
+    "full": "https://openaccess-cdn.clevelandart.org/1982.150/1982.150_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }

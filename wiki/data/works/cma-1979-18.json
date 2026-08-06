@@ -12,14 +12,13 @@
   "medium": "Folding fan; ink and color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「c. 1717–22」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "cleveland",
       "note": "馆方藏品记录，藏品号 1979.18"
     }
   ],
-  "image_status": "pending",
   "sections": {
     "basics": [
       {
@@ -56,6 +55,10 @@
           [
             "藏品号",
             "1979.18"
+          ],
+          [
+            "馆方作者",
+            "焦秉真 Jiao Bingzhen (Chinese, active c. 1670–1726)；郎世寧 Giuseppe Castiglione (Italian, 1688–1766)"
           ]
         ]
       },
@@ -67,6 +70,21 @@
         "t": "stmt",
         "state": "pend",
         "text": "**本条为著录级条目。**以上各项照录克利夫兰美术馆的藏品记录，字段名标明「馆方」者即其原文。本库尚未对其作独立核校，亦未就断代、归属、风格作任何判断——分期归入依据仅为：朝代名 → qing；器类归入依据仅为：type=Painting。"
+      },
+      {
+        "t": "stmt",
+        "state": "pend",
+        "text": "**馆方在作者字段上加了限定词「and」（and）。**这不是本库的判断，是馆方的著录。**限定词一旦存在，这件东西与该画家名下的真迹就不是一回事**——本库对摹本与原作分开处理已立规矩，此处照录该限定词，不代馆方取消它，也不据此另作裁断。"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Lee, Sherman E. \"The Year in Review for 1979.\" The Bulletin of the Cleveland Museum of Art 67, no. 3 (1980): 58-99.（Reproduced: cat. no. 116, p. 86; Mentioned: p. 62）",
+          "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Reproduced: cat. no. 261, pp. 353-354）",
+          "Suzuki, Kei 鈴木敬. Chūgoku kaiga sōgō zuroku [中國繪畫總合圖錄= Comprehensive Illustrated Catalog of Chinese Paintings], 第1卷. アメリカ·カナダ篇[= vol. 1 American and Canadian collections]. Tōkyō: Tōkyō Daigaku Shuppankai, 1982.（#A22-221）",
+          "Chung, Anita. Ai Weiwei: Circle of Animals/Zodiac Heads: July 27, 2013-January 26, 2014, the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, 2013.（Reproduced: p. 25, fig. 7）",
+          "Chou, Ju-hsi and Anita Chung. Silent poetry: Chinese paintings from the collection of the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, 2015.（Reproduced: pp. 431-433）"
+        ]
       }
     ],
     "dating": [
@@ -74,6 +92,85 @@
         "t": "gap",
         "text": "馆方给出了年代，**但未在公开记录中说明这个年代依据什么**——是铭文、器形序列、共出器物还是风格比对，无从得知。本库的断代十档因此无法填写：**填任何一档都是替馆方作了它没作的声明。**"
       }
+    ],
+    "colophons": [
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "塞上野趣圖。奉勅寫真。臣焦秉貞郞世寧合筆恭繪。[印]秉貞; 世寧.\n\n馆方英译：Artists' inscription, signatures, and 2 seals (1 of each artist): \n\nA vignette of life on the frontier. On Your Majesty’s order, we the servitors Jiao Bingzhen and Lang Shining jointly depicted the scene. [seals] Bingzhen; Shining."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "2 seals of the Qianlong emperor (r. 1736-95). 12 poems by the Qianlong emperor and inscribed in clerical script by Wang Youdun 汪由敦 (1692-1758)."
+      },
+      {
+        "t": "colophon",
+        "by": "馆方著录",
+        "text": "1 poem incised on the outer ribs of the fan, front and back by Dong Bangda 董邦達 (1699–1769)."
+      },
+      {
+        "t": "gap",
+        "text": "以上为克利夫兰美术馆藏品记录里的题跋与钤印著录，**本库未核对原件**；款印的真伪、题跋者身份与年代均未独立判定。"
+      }
+    ],
+    "provenance": [
+      {
+        "t": "prov",
+        "when": "未注明",
+        "text": "Qing imperial collection (seals of the Qianlong Emperor, r. 1736–1795)"
+      },
+      {
+        "t": "prov",
+        "when": "?–1979",
+        "text": "(David Newman [1936–2012], London, England, sold to the Cleveland Museum of Art)"
+      },
+      {
+        "t": "prov",
+        "when": "1979–",
+        "text": "The Cleveland Museum of Art, Cleveland, OH"
+      },
+      {
+        "t": "gap",
+        "text": "以上递藏链照录自馆方档案。**本库未独立核实其中任一环节**；经手人身份、交易性质与时间点均以馆方记录为准，本库不据此判定流散性质。"
+      }
+    ],
+    "reception": [
+      {
+        "t": "exhib",
+        "when": "1980",
+        "title": "Year in Review: 1979"
+      },
+      {
+        "t": "exhib",
+        "when": "1981",
+        "title": "Eight Dynasties of Chinese Painting"
+      },
+      {
+        "t": "exhib",
+        "when": "1985",
+        "title": "The Twain Shall Meet"
+      },
+      {
+        "t": "exhib",
+        "when": "1992",
+        "title": "Fans: East and West"
+      },
+      {
+        "t": "gap",
+        "text": "展览史照录自馆方档案，**本库未核对展览图录原件**；仅现行档案（current）部分，馆方标为 legacy 的旧记录未收。"
+      }
     ]
+  },
+  "image": {
+    "source": "cleveland",
+    "source_url": "https://clevelandart.org/art/1979.18",
+    "credit": "克利夫兰美术馆开放获取（CC0），藏品号 1979.18",
+    "license": "CC0",
+    "thumb": "https://openaccess-cdn.clevelandart.org/1979.18/1979.18_web.jpg",
+    "w": 1263,
+    "h": 878,
+    "full": "https://openaccess-cdn.clevelandart.org/1979.18/1979.18_print.jpg",
+    "note": "图版直接指向馆方开放获取 CDN，未在本库落盘；CC0，无需署名而本库仍标出处。"
   }
 }
