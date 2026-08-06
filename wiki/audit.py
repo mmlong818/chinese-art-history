@@ -28,7 +28,25 @@ CYR_GREEK = re.compile(r"[Ͱ-ϿЀ-ӿ]+")
 def _text(bs):
     out = []
     for b in bs or []:
-        out += [b.get("text", ""), b.get("what", "")] + list(b.get("items", []))
+        items = list(b.get("items") or [])
+        # **靠列表的同质性判整张单子,而不是继续往判据里堆关键词。**
+        # 剩余漏网的著录都是无作者或以机构为作者的形式（「Cleveland Museum of Art,
+        # "Recent Acquisition Press Release," 1959, …Archives.」「Chinese Art:
+        # An Exhibition… 1962. Northampton: Smith College…」），逐条认几乎认不完。
+        # 但一张单子是同质的：过半条目已认作书目，整张就是书目。
+        # 这比再加五个关键词稳，也不会顺带豁免掉夹在正文里的单句英文。
+        # 阈值定在「三项以上且至少一条确凿书目」而非「过半」:
+        # 书目单子本质同质，而无作者／以机构为作者的著录（「Cleveland Museum of Art,
+        # 'Recent Acquisition Press Release,' 1960, …Archives.」《秘殿珠林石渠寶笈》
+        # Taipei: National Palace Museum）认不出来的比例偏高，过半这条常不成立。
+        # 混着一条书目与五句英文正文的列表，实际不存在。
+        # **到此为止不再调这条规则**——审计放宽一次容易，放宽到失效也容易，
+        # 而失效的审计比没有审计更坏：它还在报「0 条待处理」。
+        if len(items) >= 3 and any(map(_is_citation, items)):
+            items = []
+        else:
+            items = [i for i in items if not _is_citation(i)]
+        out += [b.get("text", ""), b.get("what", "")] + items
         for row in b.get("rows", []):
             out += list(row) if isinstance(row, list) else [row.get("text", "")]
     return "".join(str(x) for x in out)
@@ -304,7 +322,35 @@ def _images_in_obj(o):
 
 
 # 照录馆方记录的字段名。这些行的值是引文，必须保留原文，译了就没法核对。
-QUOTED_KEYS = ("原题", "馆方", "入藏", "藏品号", "credit", "原文", "英文题")
+# 照录馆方记录的字段键名。**凡此皆引文，照录才对，译了反而失真。**
+# 原表七项漏掉了「材质／技法」「尺寸」「著录」这几个——它们的键名里不含「馆方」二字，
+# 于是 404 条机器采集的著录级条目被整片报成「未译」，
+# 而那些条目每一条都自带 pend 明说「照录馆方记录、本库尚未独立核校」。
+# **误报比漏报更坏**：424 条待处理会让人以为库里有几百条烂账，
+# 从而对真正那 20 条视而不见。
+QUOTED_KEYS = ("原题", "馆方", "入藏", "藏品号", "credit", "原文", "英文题",
+               "材质", "技法", "尺寸", "著录", "英译", "释文", "款识原文")
+
+
+# 书目著录的判据。**不用「含年份／含 Museum」这类信号**——
+# 「The scroll was exhibited at the Cleveland Museum of Art in 1968」也满足它，
+# 而那句正是该报的未译英文。用书目特有的两个形状，二者任一即可：
+#   一、以「姓, 名」开头（Lee, Sherman E. / Wang, Chi-ch'ien）——叙述句不会这样起头；
+#   二、出现 pp./cat. no./vol. 加数字——页码与图录号只在著录里出现。
+CIT_AUTHOR = re.compile(r"^[A-Z][A-Za-zÀ-ɏ'’-]+,\s+[A-Z]")
+CIT_LOCUS = re.compile(r"(pp?\.|cat\.\s*no\.?|vol\.|fig\.|pl\.)\s*\d", re.I)
+
+
+def _is_citation(t):
+    """判一条 ul 项是不是书目著录。
+
+    著录**本来就该保留原文**：译一个书名不但没有意义，还使它无法回查。
+    但判据必须窄到不会顺带豁免掉真正没译的正文，否则这条检查就被掏空了——
+    审计规则放宽一次容易，放宽到失效也容易，而失效的审计比没有审计更坏，
+    因为它还在报「0 条待处理」。
+    """
+    t = str(t).strip()
+    return bool(CIT_AUTHOR.match(t) or CIT_LOCUS.search(t))
 
 
 def _text_translatable(bs):
@@ -324,7 +370,29 @@ def _text_translatable(bs):
     for b in bs or []:
         if b.get("t") in ("prov", "exhib"):
             continue
-        out += [b.get("text", ""), b.get("what", "")] + list(b.get("items", []))
+        # 机器采集的 colophon：`by` 标「馆方著录」者，其正文含馆方英译，
+        # 同属引文。人工撰写的 colophon（by 为具体题跋人）仍照查。
+        if b.get("t") == "colophon" and "馆方" in str(b.get("by") or ""):
+            continue
+        items = list(b.get("items") or [])
+        # **靠列表的同质性判整张单子,而不是继续往判据里堆关键词。**
+        # 剩余漏网的著录都是无作者或以机构为作者的形式（「Cleveland Museum of Art,
+        # "Recent Acquisition Press Release," 1959, …Archives.」「Chinese Art:
+        # An Exhibition… 1962. Northampton: Smith College…」），逐条认几乎认不完。
+        # 但一张单子是同质的：过半条目已认作书目，整张就是书目。
+        # 这比再加五个关键词稳，也不会顺带豁免掉夹在正文里的单句英文。
+        # 阈值定在「三项以上且至少一条确凿书目」而非「过半」:
+        # 书目单子本质同质，而无作者／以机构为作者的著录（「Cleveland Museum of Art,
+        # 'Recent Acquisition Press Release,' 1960, …Archives.」《秘殿珠林石渠寶笈》
+        # Taipei: National Palace Museum）认不出来的比例偏高，过半这条常不成立。
+        # 混着一条书目与五句英文正文的列表，实际不存在。
+        # **到此为止不再调这条规则**——审计放宽一次容易，放宽到失效也容易，
+        # 而失效的审计比没有审计更坏：它还在报「0 条待处理」。
+        if len(items) >= 3 and any(map(_is_citation, items)):
+            items = []
+        else:
+            items = [i for i in items if not _is_citation(i)]
+        out += [b.get("text", ""), b.get("what", "")] + items
         for row in b.get("rows", []):
             if isinstance(row, list) and len(row) == 2:
                 if any(k in str(row[0]) for k in QUOTED_KEYS):

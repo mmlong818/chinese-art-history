@@ -280,7 +280,7 @@ def write(acc, eid, dry=False):
     # 防错挂：条目里必须真的引用了这个入藏号，才允许把该馆记录写进去。
     # 这是 L10 那条教训的同一形状——每条外部引用都要有个只有真做过才成立的凭据，
     # 否则「字段齐全、格式合法、内容却挂错了物件」不会被任何校验拦住。
-    if acc not in json.dumps(d, ensure_ascii=False):
+    if str(acc) not in json.dumps(d, ensure_ascii=False):
         sys.exit(f"{eid} 里没有出现入藏号 {acc}，拒绝写入——"
                  f"先确认这两者确指同一件物，不要凭 id 相似就挂")
 

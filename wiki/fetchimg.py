@@ -418,9 +418,58 @@ def auto_pending(write=False):
     print(f"\n成功 {ok} / {len(todo)}")
 
 
+ARTIC_API = "https://api.artic.edu/api/v1/artworks"
+ARTIC_IIIF = "https://www.artic.edu/iiif/2"
+
+
+def from_artic(oid, eid):
+    """芝加哥艺术博物馆。走 IIIF，判权看 is_public_domain。
+
+    与克利夫兰同属「馆藏 API 可直接信任」那一类：它说这是中国商代鼎，
+    就是它库里那件，不存在同名张冠李戴。但**产地仍要过一道**——
+    该馆全文检索「China」会把法国、英国 Burslem（陶瓷产地，「china」即瓷器）
+    与美国的东西一并带回来，实测 12 件里只有 1 件是中国的。
+    这与大都会亚洲部混进泰国造像是同一类越界，只是成因不同。
+    """
+    d = _get(f"{ARTIC_API}/{oid}")["data"]
+    if not d.get("is_public_domain"):
+        sys.exit(f"芝加哥 {oid} 非公版（is_public_domain=false），本库不取")
+    place = str(d.get("place_of_origin") or "")
+    if not CN_CULTURE.search(place):
+        sys.exit(f"芝加哥 {oid} 产地 {place!r} 非中国——"
+                 f"该馆检索 China 会带回法/英/美的瓷器，本库范围是中国美术史，不取")
+    iid = d.get("image_id")
+    if not iid:
+        sys.exit(f"芝加哥 {oid} 无 IIIF 图像")
+    thumb, size = _save(f"{ARTIC_IIIF}/{iid}/full/843,/0/default.jpg", eid)
+    w, h = _jpeg_size(IMGDIR / Path(thumb).name)
+    img = {
+        "source": "artic",
+        "source_url": f"https://www.artic.edu/artworks/{oid}",
+        "credit": (d.get("credit_line") or "The Art Institute of Chicago")[:110],
+        # **写 PD 而不是 CC0，因为只核到了这一步。**
+        # 该馆 API 的 license_text 实测写的是「description 字段 CC BY 4.0、
+        # 其余数据 CC0」——那是对**元数据**的声明，没有直接说图像。
+        # 而 `is_public_domain: True` 直接支持的判断是「这件作品已进入公有领域」，
+        # 即 PD。图像本身是否另有 CC0 专项奉献，未经核实，故不写。
+        # 核到哪一步写哪一步，这是本库全部认知等级的同一条规矩。
+        "license": "PD",
+        "thumb": thumb,
+        # IIIF 全尺寸留给读者深看，本库不复制那份带宽
+        "iiif": f"{ARTIC_IIIF}/{iid}/full/full/0/default.jpg",
+        "full": f"{ARTIC_IIIF}/{iid}/full/1686,/0/default.jpg",
+        "w": w, "h": h,
+    }
+    meta = {"title": d.get("title"), "date": d.get("date_display"),
+            "culture": place, "technique": d.get("medium_display"),
+            "measurements": d.get("dimensions"),
+            "accession": d.get("main_reference_number")}
+    return img, size, meta
+
+
 def main():
     ap = argparse.ArgumentParser(description="构建期取图与判权")
-    ap.add_argument("source", choices=["find", "cma", "met", "wikimedia",
+    ap.add_argument("source", choices=["find", "cma", "met", "artic", "wikimedia",
                                        "auto", "auto-pending"])
     ap.add_argument("ref", nargs="?", default="", help="检索词 / 馆方 id / Commons 文件名 / 条目 id")
     ap.add_argument("--id", help="条目 id，用作缩略图文件名")
@@ -435,7 +484,8 @@ def main():
         return auto(a.ref, a.write)
     if not a.id:
         sys.exit("取图须给 --id")
-    fn = {"cma": from_cma, "met": from_met, "wikimedia": from_wikimedia}[a.source]
+    fn = {"cma": from_cma, "met": from_met, "artic": from_artic,
+          "wikimedia": from_wikimedia}[a.source]
     img, size, meta = fn(a.ref, a.id)
     print(json.dumps(img, ensure_ascii=False, indent=2))
     print(f'\n落盘 static/{img["thumb"]} · {size // 1024} KB · 许可 {img["license"]}',

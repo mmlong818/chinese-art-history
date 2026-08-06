@@ -383,7 +383,7 @@ def license_ok(s):
 
 IMAGE_SOURCES = {
     "wikimedia", "npm-taipei", "dpm", "shanghai", "nmc", "dunhuang",
-    "smithsonian", "met", "cleveland", "harvard", "princeton", "other",
+    "smithsonian", "met", "cleveland", "harvard", "princeton", "artic", "other",
     # 豆瓣相册转录的二维书画扫描。平面公版作品的忠实复制不产生新著作权，故可用；
     # 但这些扫描多为 600px 的网页显示件（已实测：豆瓣图床 raw 档与之字节相同，
     # 上游没有更大的），只能作图示，不足以论笔墨——见下方「图示与图版」。
