@@ -1,0 +1,694 @@
+{
+  "kind": "传世陶瓷名品",
+  "total": 98,
+  "note": "**artist_hint／period_hint／holder_hint 是本库派单时的初步判断，不是已核实的事实**——撰写者必须自行核实，核不到就按契约标 pend／gap，不得把本表当作可直接照抄的著录。",
+  "note2": "本库 `陶瓷` 现有 835 条，其中 800 余条是克利夫兰、芝加哥两馆的英文著录（题名如 Vase／Bowl／Dish），**与本表所列名品不是同一批东西**——**不要以为能靠改写既有著录交差**。开工前仍要逐条 grep 查重。",
+  "items": [
+    {
+      "name": "青釉羊形烛台",
+      "era_hint": "三国吴",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "南京博物院",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青釉神亭壶",
+      "era_hint": "西晋",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "南京博物院",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青釉鸡首壶",
+      "era_hint": "东晋越窑",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青釉莲花尊",
+      "era_hint": "北朝",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "中国国家博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "白釉绿彩长颈瓶",
+      "era_hint": "北齐范粹墓",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "河南博物院",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "白釉双龙柄联腹传瓶",
+      "era_hint": "隋",
+      "period_hint": "sui-tang",
+      "holder_hint": "中国国家博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "秘色瓷八棱净瓶",
+      "era_hint": "唐越窑",
+      "period_hint": "sui-tang",
+      "holder_hint": "法门寺博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "秘色瓷莲花碗",
+      "era_hint": "五代越窑",
+      "period_hint": "five-dynasties",
+      "holder_hint": "苏州博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "越窑青釉褐彩云纹五足炉",
+      "era_hint": "唐",
+      "period_hint": "sui-tang",
+      "holder_hint": "临安市文物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "邢窑白釉皮囊壶",
+      "era_hint": "唐",
+      "period_hint": "sui-tang",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "长沙窑釉下彩题诗壶",
+      "era_hint": "唐",
+      "period_hint": "sui-tang",
+      "holder_hint": "湖南省博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花花卉纹盘",
+      "era_hint": "唐巩县窑",
+      "period_hint": "sui-tang",
+      "holder_hint": "扬州博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "鲁山窑花瓷腰鼓",
+      "era_hint": "唐",
+      "period_hint": "sui-tang",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "三彩凤首壶",
+      "era_hint": "唐",
+      "period_hint": "sui-tang",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "汝窑天青釉无纹水仙盆",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "汝窑天青釉洗",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "汝窑天青釉三足樽承盘",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "汝窑莲花式温碗",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "汝窑天青釉弦纹樽",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "官窑青釉弦纹瓶",
+      "era_hint": "南宋",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "官窑粉青釉葵瓣口洗",
+      "era_hint": "南宋",
+      "period_hint": "southern-song",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "哥窑青釉鱼耳炉",
+      "era_hint": "宋",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "哥窑青釉葵瓣口盘",
+      "era_hint": "宋",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "哥窑青釉贯耳瓶",
+      "era_hint": "宋",
+      "period_hint": "southern-song",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "钧窑玫瑰紫釉葵花式花盆",
+      "era_hint": "宋",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "钧窑月白釉出戟尊",
+      "era_hint": "宋",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "钧窑天蓝釉红斑碗",
+      "era_hint": "宋",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "定窑白釉孩儿枕",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "定窑白釉刻花莲瓣纹龙首净瓶",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "定州市博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "定窑白釉印花云龙纹盘",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "定窑白釉划花莲纹碗",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "耀州窑青釉刻花牡丹纹瓶",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "耀州窑青釉刻花婴戏纹碗",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "陕西历史博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "磁州窑白地黑花婴戏纹枕",
+      "era_hint": "宋",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "磁州窑白地黑花「枕上诗」枕",
+      "era_hint": "宋",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "登封窑珍珠地划花双虎纹瓶",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "当阳峪窑绞胎小罐",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "建窑曜变天目盏",
+      "era_hint": "南宋",
+      "period_hint": "southern-song",
+      "holder_hint": "日本静嘉堂文库美术馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "建窑油滴天目盏",
+      "era_hint": "南宋",
+      "period_hint": "southern-song",
+      "holder_hint": "日本大阪市立东洋陶瓷美术馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "吉州窑木叶纹盏",
+      "era_hint": "南宋",
+      "period_hint": "southern-song",
+      "holder_hint": "江西省博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "吉州窑剪纸贴花盏",
+      "era_hint": "南宋",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "龙泉窑青釉琮式瓶",
+      "era_hint": "南宋",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "龙泉窑青釉舟形砚滴",
+      "era_hint": "南宋",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "龙泉窑青釉凤耳瓶",
+      "era_hint": "南宋",
+      "period_hint": "southern-song",
+      "holder_hint": "日本（多处）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "景德镇青白釉刻花注子温碗",
+      "era_hint": "北宋",
+      "period_hint": "northern-song",
+      "holder_hint": "安徽博物院",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青白釉观音坐像",
+      "era_hint": "元湖田窑",
+      "period_hint": "yuan",
+      "holder_hint": "首都博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花萧何月下追韩信梅瓶",
+      "era_hint": "元",
+      "period_hint": "yuan",
+      "holder_hint": "南京市博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花鬼谷子下山图罐",
+      "era_hint": "元",
+      "period_hint": "yuan",
+      "holder_hint": "私人收藏",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花四爱图梅瓶",
+      "era_hint": "元",
+      "period_hint": "yuan",
+      "holder_hint": "湖北省博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花云龙纹象耳瓶",
+      "era_hint": "元至正十一年铭",
+      "period_hint": "yuan",
+      "holder_hint": "大英博物馆（大维德基金会）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花缠枝牡丹纹罐",
+      "era_hint": "元",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花凤首扁壶",
+      "era_hint": "元",
+      "period_hint": "yuan",
+      "holder_hint": "首都博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "蓝釉白龙纹梅瓶",
+      "era_hint": "元",
+      "period_hint": "yuan",
+      "holder_hint": "扬州博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "釉里红开光花鸟纹罐",
+      "era_hint": "元",
+      "period_hint": "yuan",
+      "holder_hint": "河北博物院",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "卵白釉印花枢府款碗",
+      "era_hint": "元",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "釉里红缠枝牡丹纹碗",
+      "era_hint": "明洪武",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花压手杯",
+      "era_hint": "明永乐",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "甜白釉僧帽壶",
+      "era_hint": "明永乐",
+      "period_hint": "ming",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花海水江崖纹三足炉",
+      "era_hint": "明永乐",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花如意垂肩折枝花果纹梅瓶",
+      "era_hint": "明永乐",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花海水白龙纹扁瓶",
+      "era_hint": "明宣德",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花蓝查体梵文出戟盖罐",
+      "era_hint": "明宣德",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "宝石红釉僧帽壶",
+      "era_hint": "明宣德",
+      "period_hint": "ming",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花蟋蟀罐",
+      "era_hint": "明宣德",
+      "period_hint": "ming",
+      "holder_hint": "景德镇御窑博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "斗彩三秋杯",
+      "era_hint": "明成化",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "斗彩葡萄纹高足杯",
+      "era_hint": "明成化",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "斗彩海水异兽纹罐",
+      "era_hint": "明成化",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "娇黄釉盘",
+      "era_hint": "明弘治",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花阿拉伯文烛台",
+      "era_hint": "明正德",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "五彩鱼藻纹盖罐",
+      "era_hint": "明嘉靖",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "五彩镂空云凤纹瓶",
+      "era_hint": "明万历",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花人物故事筒瓶",
+      "era_hint": "明崇祯",
+      "period_hint": "ming",
+      "holder_hint": "上海博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "德化窑白釉何朝宗款观音像",
+      "era_hint": "明",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "五彩耕织图棒槌瓶",
+      "era_hint": "清康熙",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "郎窑红釉琵琶尊",
+      "era_hint": "清康熙",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "豇豆红釉太白尊",
+      "era_hint": "清康熙",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花十二月花神杯",
+      "era_hint": "清康熙",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "珐琅彩紫红地牡丹纹碗",
+      "era_hint": "清康熙",
+      "period_hint": "qing",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花万寿字尊",
+      "era_hint": "清康熙",
+      "period_hint": "qing",
+      "holder_hint": "南京博物院",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "素三彩海水云龙纹盘",
+      "era_hint": "清康熙",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "珐琅彩雉鸡牡丹纹碗",
+      "era_hint": "清雍正",
+      "period_hint": "qing",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "粉彩蝠桃纹橄榄瓶",
+      "era_hint": "清雍正",
+      "period_hint": "qing",
+      "holder_hint": "上海博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "粉彩过枝桃纹盘",
+      "era_hint": "清雍正",
+      "period_hint": "qing",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "天青釉弦纹瓶",
+      "era_hint": "清雍正",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "窑变釉弦纹瓶",
+      "era_hint": "清雍正",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "各种釉彩大瓶",
+      "era_hint": "清乾隆",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "粉彩镂空转心瓶",
+      "era_hint": "清乾隆",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "珐琅彩杏林春燕图碗",
+      "era_hint": "清乾隆",
+      "period_hint": "qing",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "青花缠枝莲纹赏瓶",
+      "era_hint": "清乾隆",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "仿木纹釉笔筒",
+      "era_hint": "清乾隆",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "茶叶末釉绶带耳葫芦瓶",
+      "era_hint": "清乾隆",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "粉彩九桃天球瓶",
+      "era_hint": "清乾隆",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "慎德堂款粉彩瓶",
+      "era_hint": "清道光",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "大雅斋款粉彩花鸟纹缸",
+      "era_hint": "清光绪",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "珠山八友瓷板画",
+      "era_hint": "民国",
+      "period_hint": "modern",
+      "holder_hint": "景德镇中国陶瓷博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "洪宪居仁堂制款瓷",
+      "era_hint": "民国",
+      "period_hint": "modern",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "建国瓷",
+      "era_hint": "1950年代",
+      "period_hint": "prc-early",
+      "holder_hint": "中国国家博物馆",
+      "kind_hint": "陶瓷"
+    },
+    {
+      "name": "7501 主席用瓷",
+      "era_hint": "1975",
+      "period_hint": "prc-early",
+      "holder_hint": "景德镇（多处）",
+      "kind_hint": "陶瓷"
+    }
+  ]
+}

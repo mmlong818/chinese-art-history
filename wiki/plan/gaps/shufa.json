@@ -1,0 +1,724 @@
+{
+  "kind": "传世名帖与名碑",
+  "total": 101,
+  "note": "**artist_hint／period_hint／holder_hint 是本库派单时的初步判断，不是已核实的事实**——撰写者必须自行核实，核不到就按契约标 pend／gap，不得把本表当作可直接照抄的著录。",
+  "note2": "`title_open: true` 者，本库无法预先确定一件有专名的代表作——**以撰写者核实到的一件确切作品立目，题名以核实为准**，并在报告中写明立了哪一件。**不要用「行书轴」这类通名当题名。**",
+  "items": [
+    {
+      "name": "平复帖",
+      "artist_hint": "陆机",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "孔侍中帖",
+      "artist_hint": "王羲之",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "日本前田育德会",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "频有哀祸帖",
+      "artist_hint": "王羲之",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "日本前田育德会",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "初月帖",
+      "artist_hint": "王羲之",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "辽宁省博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "姨母帖",
+      "artist_hint": "王羲之",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "辽宁省博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "远宦帖",
+      "artist_hint": "王羲之",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "上虞帖",
+      "artist_hint": "王羲之",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "上海博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "寒切帖",
+      "artist_hint": "王羲之",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "天津博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "行穰帖",
+      "artist_hint": "王羲之",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "普林斯顿大学艺术博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "万岁通天帖",
+      "artist_hint": "王氏一门书翰",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "辽宁省博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "洛神赋十三行",
+      "artist_hint": "王献之",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "首都博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "伯远帖",
+      "artist_hint": "王珣",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "出师颂",
+      "artist_hint": "索靖（传）",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "曹娥诔辞卷",
+      "artist_hint": "传王羲之",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "辽宁省博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "爨宝子碑",
+      "artist_hint": "无",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "云南曲靖",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "爨龙颜碑",
+      "artist_hint": "无",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "云南陆良",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "张猛龙碑",
+      "artist_hint": "无",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "山东曲阜孔庙",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "郑文公碑",
+      "artist_hint": "郑道昭",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "山东掖县云峰山",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "石门铭",
+      "artist_hint": "王远",
+      "period_hint": "wei-jin-nanbei",
+      "holder_hint": "汉中石门（现藏汉中博物馆）",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "汝南公主墓志铭",
+      "artist_hint": "虞世南（传）",
+      "period_hint": "sui-tang",
+      "holder_hint": "上海博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "孔子庙堂碑",
+      "artist_hint": "虞世南",
+      "period_hint": "sui-tang",
+      "holder_hint": "原碑已佚，唐拓与重刻本传世",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "化度寺碑",
+      "artist_hint": "欧阳询",
+      "period_hint": "sui-tang",
+      "holder_hint": "原石已佚，宋拓本传世",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "张翰帖",
+      "artist_hint": "欧阳询",
+      "period_hint": "sui-tang",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "卜商读书帖",
+      "artist_hint": "欧阳询",
+      "period_hint": "sui-tang",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "梦奠帖",
+      "artist_hint": "欧阳询",
+      "period_hint": "sui-tang",
+      "holder_hint": "辽宁省博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "雁塔圣教序",
+      "artist_hint": "褚遂良",
+      "period_hint": "sui-tang",
+      "holder_hint": "西安大雁塔",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "孟法师碑",
+      "artist_hint": "褚遂良",
+      "period_hint": "sui-tang",
+      "holder_hint": "原石已佚，唐拓本藏日本",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "倪宽赞",
+      "artist_hint": "传褚遂良",
+      "period_hint": "sui-tang",
+      "holder_hint": "国立故宫博物院（台北）｜**本库已有著录级 wd-q10888338（故書000054N），升级不新建**",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "阴符经",
+      "artist_hint": "传褚遂良",
+      "period_hint": "sui-tang",
+      "holder_hint": "传世墨迹本",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "温泉铭",
+      "artist_hint": "唐太宗",
+      "period_hint": "sui-tang",
+      "holder_hint": "法国国家图书馆（敦煌唐拓本）",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "晋祠铭",
+      "artist_hint": "唐太宗",
+      "period_hint": "sui-tang",
+      "holder_hint": "山西太原晋祠",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "肚痛帖",
+      "artist_hint": "张旭",
+      "period_hint": "sui-tang",
+      "holder_hint": "西安碑林（刻石）",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "郎官石柱记",
+      "artist_hint": "张旭",
+      "period_hint": "sui-tang",
+      "holder_hint": "原石已佚，宋拓本传世",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "苦笋帖",
+      "artist_hint": "怀素",
+      "period_hint": "sui-tang",
+      "holder_hint": "上海博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "小草千字文",
+      "artist_hint": "怀素",
+      "period_hint": "sui-tang",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "争座位帖",
+      "artist_hint": "颜真卿",
+      "period_hint": "sui-tang",
+      "holder_hint": "西安碑林（刻石）",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "自书告身帖",
+      "artist_hint": "颜真卿",
+      "period_hint": "sui-tang",
+      "holder_hint": "日本书道博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "多宝塔碑",
+      "artist_hint": "颜真卿",
+      "period_hint": "sui-tang",
+      "holder_hint": "西安碑林",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "麻姑仙坛记",
+      "artist_hint": "颜真卿",
+      "period_hint": "sui-tang",
+      "holder_hint": "原石已佚，拓本传世",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "颜家庙碑",
+      "artist_hint": "颜真卿",
+      "period_hint": "sui-tang",
+      "holder_hint": "西安碑林",
+      "kind_hint": "碑刻"
+    },
+    {
+      "name": "蒙诏帖",
+      "artist_hint": "柳公权",
+      "period_hint": "sui-tang",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "上阳台帖",
+      "artist_hint": "李白",
+      "period_hint": "sui-tang",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "灵飞经",
+      "artist_hint": "传钟绍京",
+      "period_hint": "sui-tang",
+      "holder_hint": "墨迹残卷分藏，刻本传世",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "神仙起居法",
+      "artist_hint": "杨凝式",
+      "period_hint": "five-dynasties",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "夏热帖",
+      "artist_hint": "杨凝式",
+      "period_hint": "five-dynasties",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "淳化阁帖",
+      "artist_hint": "刻帖",
+      "period_hint": "northern-song",
+      "holder_hint": "上海博物馆（安思远旧藏最善本）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "澄心堂纸帖",
+      "artist_hint": "蔡襄",
+      "period_hint": "northern-song",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "自书诗卷",
+      "artist_hint": "蔡襄",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "黄州寒食诗帖",
+      "artist_hint": "苏轼",
+      "period_hint": "northern-song",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "赤壁赋",
+      "artist_hint": "苏轼",
+      "period_hint": "northern-song",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "洞庭春色赋·中山松醪赋",
+      "artist_hint": "苏轼",
+      "period_hint": "northern-song",
+      "holder_hint": "吉林省博物院",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "李白仙诗卷",
+      "artist_hint": "苏轼",
+      "period_hint": "northern-song",
+      "holder_hint": "日本大阪市立美术馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "松风阁诗帖",
+      "artist_hint": "黄庭坚",
+      "period_hint": "northern-song",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "诸上座帖",
+      "artist_hint": "黄庭坚",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "廉颇蔺相如列传",
+      "artist_hint": "黄庭坚",
+      "period_hint": "northern-song",
+      "holder_hint": "大都会艺术博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "花气熏人帖",
+      "artist_hint": "黄庭坚",
+      "period_hint": "northern-song",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "蜀素帖",
+      "artist_hint": "米芾",
+      "period_hint": "northern-song",
+      "holder_hint": "国立故宫博物院（台北）｜**本库已有著录级 npm-p-912（宋米芾蜀素帖　卷），升级不新建**",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "苕溪诗帖",
+      "artist_hint": "米芾",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "研山铭",
+      "artist_hint": "米芾",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "多景楼诗册",
+      "artist_hint": "米芾",
+      "period_hint": "northern-song",
+      "holder_hint": "上海博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "珊瑚帖",
+      "artist_hint": "米芾",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "草书千字文",
+      "artist_hint": "赵佶",
+      "period_hint": "northern-song",
+      "holder_hint": "辽宁省博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "秾芳诗帖",
+      "artist_hint": "赵佶",
+      "period_hint": "northern-song",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "自书诗卷",
+      "artist_hint": "陆游",
+      "period_hint": "southern-song",
+      "holder_hint": "辽宁省博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "城南唱和诗卷",
+      "artist_hint": "朱熹",
+      "period_hint": "southern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "木鸡集序",
+      "artist_hint": "文天祥",
+      "period_hint": "southern-song",
+      "holder_hint": "辽宁省博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "华严经册",
+      "artist_hint": "张即之",
+      "period_hint": "southern-song",
+      "holder_hint": "安徽省博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "洛神赋",
+      "artist_hint": "赵孟頫",
+      "period_hint": "yuan",
+      "holder_hint": "天津博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "前后赤壁赋",
+      "artist_hint": "赵孟頫",
+      "period_hint": "yuan",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "胆巴碑",
+      "artist_hint": "赵孟頫",
+      "period_hint": "yuan",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "妙严寺记",
+      "artist_hint": "赵孟頫",
+      "period_hint": "yuan",
+      "holder_hint": "普林斯顿大学艺术博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "石鼓歌",
+      "artist_hint": "鲜于枢",
+      "period_hint": "yuan",
+      "holder_hint": "大都会艺术博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "李白古风诗卷",
+      "artist_hint": "康里巎巎",
+      "period_hint": "yuan",
+      "holder_hint": "日本东京国立博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "真镜庵募缘疏卷",
+      "artist_hint": "杨维桢",
+      "period_hint": "yuan",
+      "holder_hint": "上海博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "草书赤壁赋",
+      "artist_hint": "祝允明",
+      "period_hint": "ming",
+      "holder_hint": "上海博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "行书自作诗卷",
+      "artist_hint": "文徵明",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法",
+      "title_open": true
+    },
+    {
+      "name": "小楷南华经",
+      "artist_hint": "王宠",
+      "period_hint": "ming",
+      "holder_hint": "上海博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "草书诗轴",
+      "artist_hint": "徐渭",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法",
+      "title_open": true
+    },
+    {
+      "name": "行书杜甫诗册",
+      "artist_hint": "董其昌",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "草书千字文",
+      "artist_hint": "张瑞图",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "孝经颂",
+      "artist_hint": "黄道周",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "行草诗轴",
+      "artist_hint": "倪元璐",
+      "period_hint": "ming",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法",
+      "title_open": true
+    },
+    {
+      "name": "拟山园帖",
+      "artist_hint": "王铎",
+      "period_hint": "qing",
+      "holder_hint": "河南孟津（刻帖）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "行书轴",
+      "artist_hint": "八大山人",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法",
+      "title_open": true
+    },
+    {
+      "name": "六分半书",
+      "artist_hint": "郑燮",
+      "period_hint": "qing",
+      "holder_hint": "扬州博物馆",
+      "kind_hint": "书法",
+      "title_open": true
+    },
+    {
+      "name": "漆书",
+      "artist_hint": "金农",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法",
+      "title_open": true
+    },
+    {
+      "name": "隶书轴",
+      "artist_hint": "伊秉绶",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法",
+      "title_open": true
+    },
+    {
+      "name": "行书轴",
+      "artist_hint": "何绍基",
+      "period_hint": "qing",
+      "holder_hint": "湖南省博物馆",
+      "kind_hint": "书法",
+      "title_open": true
+    },
+    {
+      "name": "临石鼓文",
+      "artist_hint": "吴昌硕",
+      "period_hint": "modern",
+      "holder_hint": "浙江省博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "标准草书",
+      "artist_hint": "于右任",
+      "period_hint": "modern",
+      "holder_hint": "台北（多处）",
+      "kind_hint": "书法",
+      "title_open": true
+    },
+    {
+      "name": "华严经集联",
+      "artist_hint": "弘一",
+      "period_hint": "modern",
+      "holder_hint": "浙江省博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "文赋",
+      "artist_hint": "陆柬之",
+      "period_hint": "sui-tang",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "张好好诗",
+      "artist_hint": "杜牧",
+      "period_hint": "sui-tang",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "道服赞",
+      "artist_hint": "范仲淹",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "灼艾帖",
+      "artist_hint": "欧阳修",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "治平帖",
+      "artist_hint": "苏轼",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "闰中秋月诗帖",
+      "artist_hint": "赵佶",
+      "period_hint": "northern-song",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "落花诗册",
+      "artist_hint": "唐寅",
+      "period_hint": "ming",
+      "holder_hint": "苏州博物馆",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "啬庐妙翰",
+      "artist_hint": "傅山",
+      "period_hint": "qing",
+      "holder_hint": "国立故宫博物院（台北）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "篆书铙歌册",
+      "artist_hint": "赵之谦",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    },
+    {
+      "name": "篆书白氏草堂记",
+      "artist_hint": "邓石如",
+      "period_hint": "qing",
+      "holder_hint": "故宫博物院（北京）",
+      "kind_hint": "书法"
+    }
+  ]
+}
