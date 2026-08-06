@@ -878,6 +878,33 @@ def validate(c):
                                                f"（多门以「、」并列，主业在前）"))
         _check_sections(a, ARTIST_SECTIONS, w, c, out)
 
+    # 同一作者名下同题作品 → ERROR。**audit 只报告，拦不住新增。**
+    # 本会话已因此三次撞车: 手写路径与 wd- 采集路径撞 9 组（已合并）；
+    # 我据抽样委托新写 14 件，其中 8 件本库已有、另 2 件与 wd- 条目重复。
+    # 三条立目路径互不知晓，而重复条目会让「本库有多少件」这个数字本身失真。
+    # 放在校验器里，是因为**报告可以被忽略，ERROR 不能**。
+    #
+    # 只在作者明确时判：同题异作在中国画史极多（历代都有《山水图》《墨竹图》），
+    # 作者为空时无从分辨，报出来只会淹掉真重复。
+    # scope=family 的作品族条目本就该与其某一摹本同题，豁免。
+    _seen = {}
+    for wid, wk in c.works.items():
+        if wk.get("scope") == "family":
+            continue
+        a = wk.get("artist")
+        if not a or not wk.get("title"):
+            continue
+        key = (str(wk["title"]).strip(), a)
+        if key in _seen:
+            out.append(Problem("ERROR", f"work/{wid}",
+                               f"与 work/{_seen[key]} 同为「{a}」名下的「{wk['title']}」——"
+                               f"**疑为同一件物立了两条**。本库有三条立目路径（手写／wd- 采集／"
+                               f"按清单委托），互不去重已撞车三次。若确为两件不同的物"
+                               f"（如唐摹本与宋摹本），请在 title 里写明区别；"
+                               f"若一件涵盖多摹本，请标 scope=family。"))
+        else:
+            _seen[key] = wid
+
     for wid, wk in c.works.items():
         w = f"work/{wid}"
         _check_common(wk, w, c, out, ["title", "kind", "period", "holder"])

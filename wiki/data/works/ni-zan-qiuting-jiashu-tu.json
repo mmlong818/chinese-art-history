@@ -10,7 +10,7 @@
   "year_sort": 1355,
   "medium": "纸本水墨立轴",
   "holder": "故宫博物院（北京）",
-  "verification": "memory",
+  "verification": "museum",
   "updated": "2026-08-06",
   "image_status": "no-free-image",
   "sources": [
@@ -25,6 +25,10 @@
     {
       "ref": "dpm",
       "note": "现藏机构，无公开 API，官方藏品页须人工核对"
+    },
+    {
+      "ref": "dpm-digicol",
+      "note": "藏品号与馆方定名"
     }
   ],
   "sections": {
@@ -51,6 +55,14 @@
           [
             "现藏",
             "故宫博物院（北京）"
+          ],
+          [
+            "藏品号（故宫）",
+            "故00005402"
+          ],
+          [
+            "馆方定名",
+            "倪瓒秋亭嘉树图轴"
           ]
         ]
       },
@@ -63,6 +75,12 @@
       {
         "t": "gap",
         "text": "确切尺寸、完整款识文字，本库尚未逐条核对故宫博物院官方藏品页"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "**藏品号经故宫博物院藏品总目核对。**核过的只有两项: 馆方定名与藏品号一致。**尺寸、材质、递藏、题跋均未经核对**——故 verification 标 museum 是就「此物在馆方目录中确为此号」而言，不是就全部字段而言。核对渠道见 [[src:dpm-digicol]]；该馆藏品总目可按藏品号复核。",
+        "src": "dpm-digicol"
       }
     ],
     "commission": [
