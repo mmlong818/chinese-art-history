@@ -135,7 +135,7 @@
       "kind": "museum",
       "tier": 1,
       "url": "https://www.dpm.org.cn/",
-      "authority": "中国书画与宫廷工艺最重要的收藏机构。数字藏品页可查，**但无公开 API**（2026-08-04 实测仅 HTML），本库无法编程核查，凡引用须记具体藏品页 URL 供人工核对。图像一般不开放自由授权。",
+      "authority": "中国书画与宫廷工艺最重要的收藏机构。**无公开 API**；站点根 2026-08-06 实测可读，而藏品页 URL 模式本库尚未固定下来（`/collection/paint/{id}.html` 实测 404）。**本波已有代理经 WebFetch 取得藏品页并据以将条目升至 `museum`**，故此前「官网无法核对」的注记过强。图版一般不提供自由授权。",
       "verified": true
     },
     {
@@ -144,7 +144,7 @@
       "kind": "museum",
       "tier": 1,
       "url": "https://www.npm.gov.tw/",
-      "authority": "宋元书画与宫廷器物的另一半核心收藏。**实测 SSL 证书链验证失败**，本库脚本无法访问；须人工在浏览器中核对。",
+      "authority": "元明书画与宫廷器物的第一等收藏。**本库抓取脚本实测 SSL 证书链验证失败**，但 **2026-08-06 实测 WebFetch 可达**：`digitalarchive.npm.gov.tw/Painting/Content?pid=&Dept=` 返回完整著录（品名、作者、年代、质地、分段尺寸、文物统一编号）。**「无法访问」只对脚本成立，对人工核对不成立**——本库此前多条作品据旧注记标为不可核，应逐条重核。",
       "verified": true
     },
     {
@@ -162,7 +162,7 @@
       "kind": "museum",
       "tier": 1,
       "url": "https://www.shanghaimuseum.net/",
-      "authority": "青铜与书画的重要收藏。**实测 SSL 握手超时**，脚本无法访问，须人工核对。",
+      "authority": "青铜、书画的重要收藏。**本库脚本实测 SSL 握手超时**；**WebFetch 是否可达本库尚未实测**——不要照抄「无法访问」，用之前先自行试一次。",
       "verified": true
     },
     {
@@ -1842,6 +1842,266 @@
       "authority": "南宋人叶寘所撰笔记，原书已佚，其中论宋代名窑一段（记「本朝以定州白磁器有芒不堪用，遂命汝州造青窑器」）经后世文献（如《坦斋笔衡》佚文辑录、清代《南窑笔记》等转引）流传，是本库讨论定窑「芒口」被宋人视为缺陷、以及汝窑因此得宠这一因果关系时最早的同时代文字依据之一，也是本库 data/classes/ru-yao.json、data/classes/guan-yao.json 两条类目条目已引用同一段文字的最终出处。本库现有引用（ru-yao.json「概览」一节、guan-yao.json「概览」一节、data/works/ding-yao-haier-zhen.json「工艺」一节）均以文字直接引述并说明出自《坦斋笔衡》，未挂 src/ref 属性，理由即此 id 尚未登记。",
       "note": "原书已佚，今所见均为后世转引文字，具体转引版本谱系（何书何卷辑录、文字是否历代传抄有异文）本库未核实，仅据通行转述登记条目框架，待人工核实一手转引来源后补全。",
       "verified": false
+    },
+    {
+      "id": "imperial-collection-japan",
+      "title": "宫内厅三の丸尚藏馆（日本皇室藏品，Museum of the Imperial Collections, Sannomaru Shozokan）",
+      "kind": "museum",
+      "tier": 1
+    },
+    {
+      "id": "nanjing-university-museum",
+      "title": "南京大学考古与艺术博物馆（原金陵大学，1934年获福开森捐赠《勘书图》等文物）",
+      "kind": "museum",
+      "tier": 1
+    },
+    {
+      "id": "wusheng-shishi",
+      "title": "无声诗史",
+      "authors": "姜绍书（明末清初）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "明代画家品评汇编，多记逸事与并称（如「南陈北崔」「波臣派」肖像技法之说均见转引此书一系），是研究明代中晚期画家生平与同代评价的常引一手材料之一。",
+      "note": "本库尚未查阅原文，凡引用均标明系转引通行画史转述，未逐字核对底本与卷次。",
+      "verified": false
+    },
+    {
+      "id": "qinghe-shuhua-fang",
+      "title": "清河书画舫",
+      "authors": "张丑（明末）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "明末重要的书画鉴藏著录，记多件晚明书画的递藏与款印，是讨论「代笔」一类鉴藏公案（如董其昌与赵左、沈士充）时常被引用的同时代材料之一。",
+      "note": "本库尚未查阅原文，凡引用均标明系转引通行画史转述，未逐字核对底本与卷次。",
+      "verified": false
+    },
+    {
+      "id": "wang-yuanqi-lutai-tihuagao",
+      "title": "麓台题画稿",
+      "authors": "王原祁（清）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "王原祁本人画跋汇编，「龙脉」「开合起伏」「熟中生」等核心画论均出此，是判断其方法论主张最直接的一手文字依据。data/artists/wang-yuanqi.json 已引其语录但未正式登记信源 id，本条目补登记。",
+      "note": "版本与辑本本库未核实，异文情况本库亦未逐字核对。",
+      "verified": false
+    },
+    {
+      "id": "wang-hui-qinghui-huaba",
+      "title": "清晖画跋（王翚论画语录，通行归入此题）",
+      "authors": "王翚（清）",
+      "kind": "primary",
+      "tier": 2,
+      "authority": "「以元人笔墨，运宋人丘壑，而泽以唐人气韵，乃为大成」一语的通行出处，本库据 data/artists/wang-hui.json 已有引用（该处仅标『题跋，传』未落实具体篇目）。本库未核对是否确系《清晖画跋》原文抑或后人辑录转引，故 tier 定为 2 而非一手确证的 1。",
+      "note": "篇目归属本身有转引可能，见本波各条目争议字段的具体说明；不作确证处理。",
+      "verified": false
+    },
+    {
+      "id": "chen-duxiu-meishu-geming",
+      "title": "美术革命——答吕澂",
+      "authors": "陈独秀",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "载《新青年》第6卷第1号（1918年1月），新文化运动时期对「四王」摹古传统最集中的公开批判文本之一，是本库处理清初四王评价史「二十世纪被翻转」这一层时的核心一手材料。",
+      "note": "原文具体措辞本库未逐字核对最初刊本，转引自通行画史著作与文献选编时版本细节或有出入。",
+      "verified": false
+    },
+    {
+      "id": "anhui-museum",
+      "title": "安徽博物院",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.ahm.cn/",
+      "authority": "皖籍书画（含新安画派、弘仁）与徽州文物的重要收藏机构，馆名近年已由「安徽省博物馆」改为「安徽博物院」。本库未实测其站点可达性与是否提供开放数据，引用前须人工核对具体藏品页。",
+      "verified": false
+    },
+    {
+      "id": "sen-oku-hakukokan",
+      "title": "泉屋博古館（京都，住友collection／Sumitomo Collection）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://sen-oku.or.jp/",
+      "authority": "日本关西住友家族旧藏中国书画与青铜器的重要私人系统美术馆，京都本馆与东京分馆均有藏品。本库未实测其站点可达性与是否提供开放数据及自由授权图像，引用前须人工核对具体藏品页。",
+      "verified": false
+    },
+    {
+      "id": "zhengxie-banqiao-runge",
+      "title": "板桥润格（郑燮自订画价告白）",
+      "authors": "郑燮（清）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "郑燮晚年在扬州卖画时自撰、悬于室内的明码标价告白（大幅六两、中幅四两、小幅二两、条幅对联一两、扇子斗方五钱一类），是清代文人画家商业化生存极罕见的一手价目材料，原文多见于《板桥集》附录及清人笔记转录。",
+      "note": "本库仅据通行传世文本转录大意与常见文句，未回校《郑板桥集》权威校注本或原刻，各本文字互有出入（尤其『任渠话旧论交接』一联的异文），具体字句引用时须以校注本核实为准，本库未做逐字核校。",
+      "verified": false
+    },
+    {
+      "id": "nie-chongzheng-qinggong-huihua",
+      "title": "清代宫廷绘画",
+      "authors": "聂崇正",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "聂崇正为故宫博物院研究员，是清代宫廷绘画（郎世宁及『海西法』画家群体、如意馆体制、线法画、合笔画、军功纪实图等）研究领域的权威学者之一，本波（第18桶·清宫廷绘画与外销画）多项制度性判断以其研究方向为主要参照。",
+      "note": "具体版本、出版社与出版年份本次未核实，本库仅据学界通行认知登记该学者及其研究方向，正文引用时均以文字提及『聂崇正』其人及书名，未加 [[src:...]] 链接，待协调方合并本文件后再补正式引用。",
+      "verified": false
+    },
+    {
+      "id": "neiwufu-huojidang",
+      "title": "清宫内务府造办处《活计档》",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "清代内务府造办处逐日登记各作坊承旨承做事项的原始档案，是清宫『奉旨着某某画』一类署名记载的直接出处，本波多条清宫绘画条目在讨论『署名制度首先是皇帝意志』这一判断时，以此档案的性质与内容框架作为背景依据。",
+      "note": "本库未直接核阅档案原件，具体某条谕旨的原文与卷宗号均未核实，仅作为制度性事实（清宫绘画承旨机制的存在本身）的背景信源使用，不用于坐实任何具体年月或人名的记载。",
+      "verified": false
+    },
+    {
+      "id": "crossman-china-trade-arts",
+      "title": "The Decorative Arts of the China Trade: Paintings, Furnishings and Exotic Curiosities",
+      "authors": "Carl L. Crossman",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "英语学界研究广州十三行贸易时期外销工艺美术（含外销画、通草画、玻璃画）最重要的基础性专著之一，长期被同领域研究反复征引，本波外销画各条目据此转述外销画生产体制、题材类型与画坊组织的通行认识。",
+      "note": "具体版本、出版年与页码本次未核实，本库仅据学界通行认知登记该著作，未逐条核对原书页码。",
+      "verified": false
+    },
+    {
+      "id": "cheng-cunjie-waixiaohua-yanjiu",
+      "title": "十九世纪中国外销通商口岸商馆画研究",
+      "authors": "程存洁",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "中文学界系统研究广州及通商口岸外销画（含通草画、玻璃画、商馆油画）生产、题材、画坊组织与买家群体的代表性专著，本波外销画各条目据此转述中文学界对这一课题的通行认识。",
+      "note": "具体出版社、版本与页码本次未核实，本库仅据学界通行认知登记该著作。",
+      "verified": false
+    },
+    {
+      "id": "peabody-essex-museum",
+      "title": "Peabody Essex Museum",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.pem.org/",
+      "authority": "美国收藏广州贸易时期外销艺术品（外销画、通草画、玻璃画、家具、银器等）规模最大、最系统的专门机构之一，前身即塞勒姆东印度海事博物馆，藏品多直接来自当年中美贸易商船船长与商人的直接携归，是本波多条外销画条目的举例现藏机构。",
+      "note": "本库未逐条核对该馆具体藏品页编号与图像授权状态，正文中相关条目 image_status 一律标 no-free-image，不预先假定该馆已开放自由授权图像。",
+      "verified": false
+    },
+    {
+      "id": "guangdong-museum",
+      "title": "广东省博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.gdmuseum.com/",
+      "authority": "中国大陆收藏广州十三行外销艺术品（外销画、外销瓷、外销银器等）的核心机构之一，藏品直接对应广州口岸贸易史，是本波多条外销画条目的举例现藏机构。",
+      "note": "本库未逐条核对该馆具体藏品页编号与图像授权状态。",
+      "verified": false
+    },
+    {
+      "id": "mfa-boston",
+      "title": "Museum of Fine Arts, Boston（波士顿美术馆）",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "藏赵令穰《湖庄清夏图》等北宋末文人小景山水名件。本库未核实其官网 API 或数字藏品页的可编程访问方式，仅作机构指认；影像与具体数字须人工核对官方出版物或藏品页。"
+    },
+    {
+      "id": "fong-issues-authenticity-chinese-painting",
+      "title": "Issues of Authenticity in Chinese Painting",
+      "authors": "Judith G. Smith, Wen C. Fong 编",
+      "publisher": "The Metropolitan Museum of Art / Harry N. Abrams",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "1999年大都会博物馆「中国书画鉴定问题」研讨会论文集，系统收录围绕传董源《溪岸图》真伪问题（Wen Fong 主张五代真迹说，James Cahill 等提出可能系20世纪张大千一系仿作的质疑）的正反双方论文，是本库处理该件归属争议的主要依据。本库未逐篇核对论文集页码与具体论证细节，仅据通行转述登记书目与双方立场大要。",
+      "note": "版次、页码与各篇论文具体标题本库未核实，待人工核对后补全精确引用。"
+    },
+    {
+      "id": "yamato-bunkakan",
+      "title": "大和文华馆（奈良，Yamato Bunkakan）",
+      "kind": "museum",
+      "tier": 1
+    },
+    {
+      "id": "yutai-huashi",
+      "title": "玉台画史",
+      "authors": "汤漱玉 辑（清），汪远孙 校（清）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "清代唯一一部专辑历代女性画家的传录，分「宫掖」「名媛」「姬侍」「名妓」四类编次。本库引用它，理由不是它记载周全（它本身依赖前代画史转抄拼合，考订薄弱），而是它的**存在本身就是史料**：正史与主流画史（《无声诗史》《国朝画征录》一类）多把女性画家附于父兄夫子条目之下、多记德行而略技法，才逼出这样一部专收女性的补编——体例的偏差，比它收录的内容本身更值得记。",
+      "note": "本库未查阅原书，凡引用均据通行转述（分类四目、成书背景），未逐条核对具体传记文字与所据底本，卷数与版本亦未核实。",
+      "verified": false
+    },
+    {
+      "id": "weidner-views-from-jade-terrace",
+      "title": "Views from Jade Terrace: Chinese Women Artists, 1300-1912",
+      "authors": "Marsha Weidner, Ellen Johnston Laing, Irving Yucheng Lo, Christina Chu, James Robinson",
+      "publisher": "Indianapolis Museum of Art / Rizzoli",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "1988年同名巡展图录，是英语学界研究元明清女性画家最常被引用的综合性著作之一，系统处理了本库这一批条目涉及的多数画家（文俶、马守真、薛素素、李因、陈书、恽冰、马荃等），并正面讨论了她们依附家族／依附青楼身份而进入画史书写的机制，以及名妓书画因市场需求被大量托名的现象。",
+      "note": "本库未逐页核对具体论证与页码，仅据学界通行认知登记书目、编者与大要立场，正文引用一律注明系转引通行学界认知，未核对原书页码与具体措辞。",
+      "verified": false
+    },
+    {
+      "id": "dinggao-xiezhen-mijue",
+      "title": "丁皋《写真秘诀》（乾隆年间成书，论肖像画面部比例测算与烘染程序的专门画论）",
+      "kind": "treatise",
+      "tier": 2
+    },
+    {
+      "id": "british-museum",
+      "title": "British Museum（大英博物馆，在线藏品页）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.britishmuseum.org/collection/object/",
+      "authority": "本库 2026-08-06 实测：`www.britishmuseum.org/collection/object/{id}` 与藏品检索页对本库 WebFetch 一律返回 HTTP 403 Forbidden，多次重试（不同藏品号、不同 URL 形式）结果一致，判定为对自动抓取的拦截而非个别页面故障。本库因此**未能直接核对该馆藏品页**，条目中涉及大英博物馆藏品的数字与题记内容，转引自可独立核校的第三方来源（IDP 索引页在搜索引擎中的摘要、Wikimedia Commons 文件页、公开发表的第二手著录），逐条注明来源级别，一律不升 verification 为 museum。",
+      "verified": true
+    },
+    {
+      "id": "idp-dunhuang",
+      "title": "International Dunhuang Project（国际敦煌项目，idp.bl.uk）",
+      "kind": "reference",
+      "tier": 2,
+      "url": "https://idp.bl.uk/",
+      "authority": "英、法、俄、中多馆敦煌文献与绢画的联合索引数据库，收录斯坦因、伯希和等收集品的馆方著录信息。本库 2026-08-06 实测：直接请求其藏品页一律返回 HTTP 403 Forbidden，未能独立核校原页；本库转引搜索引擎对该数据库页面的摘要文本作参考，注明为二手转引，不作为 museum 级核实依据。",
+      "verified": true
+    },
+    {
+      "id": "guimet",
+      "title": "Musée national des arts asiatiques – Guimet（吉美国立亚洲艺术博物馆）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.guimet.fr/",
+      "authority": "本库 2026-08-06 实测：博物馆主站（guimet.fr）可正常抓取，但其藏品数据库子站（collections.guimet.fr）多次请求均返回连接中断（socket closed），未能取得任何藏品记录页面内容。条目中涉及吉美博物馆藏品的信息转引自学术会议摘要（如法兰西学院讲座页）与 IDP 索引在搜索引擎中的摘要片段，均为二手转引，不升 verification 为 museum。",
+      "verified": true
+    },
+    {
+      "id": "shanxi-museum",
+      "title": "山西博物院",
+      "kind": "museum",
+      "tier": 1,
+      "url": "http://www.shanximuseum.com/",
+      "authority": "本库 2026-08-06 实测：包括藏品专题页（/collect/topic/shuiluhua.html）在内的多个页面均返回连接中断（socket closed），与本库此前对上海博物馆网站的实测结果同类——均未能区分是站点本身问题还是并发资源占用所致，本库不作坐实。条目中涉及该院所藏宝宁寺水陆画的具体数字，转引自中文维基百科条目与 Wikidata 结构化记录（后者可独立交叉核对到国家可移动文物普查登记号），均非该院官方页面直接核实，不升 verification 为 museum。",
+      "verified": true
+    },
+    {
+      "id": "philadelphia-museum",
+      "title": "Philadelphia Museum of Art（费城艺术博物馆）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://philamuseum.org/",
+      "authority": "本库 2026-08-06 实测：藏品页（/collection/object/{id}）可直接抓取并取得题名、断代区间、机构信息，但页面未暴露材质、尺寸、规范格式的藏品号等字段（或字段本身在该馆公开页面中从缺），本库据此仅将可读到的字段标记为已核，未读到的字段一律标 gap，不代填。",
+      "verified": true
+    },
+    {
+      "id": "wu-liancheng-baoningsi-shuiluhua",
+      "title": "吴连城，《山西右玉宝宁寺水陆画》",
+      "kind": "article",
+      "tier": 2,
+      "note": "《文物》1962年 Z1 期，DOI 10.13619/J.CNKI.CN11-1532/K.1962.Z1.012，CNKI 编号 WENW1962Z1012。宝宁寺水陆画最早的系统著录研究之一，经 Wikidata（Q63483841）交叉核对条目存在。",
+      "verified": true
+    },
+    {
+      "id": "wang-ruilei-mijin-jingang-baoningsi",
+      "title": "王瑞雷，《密集金刚于明代宫廷的传播——以山西右玉宝宁寺十六罗汉水陆画中藏文写经为中心》",
+      "kind": "article",
+      "tier": 2,
+      "note": "《美术研究》2021年第1期，DOI 10.13318/J.CNKI.MSYJ.2021.01.011，CNKI 编号 MUSE202101012。记宝宁寺水陆画中「十六罗汉」一组带藏文写经题记，经 Wikidata（Q119342422）交叉核对条目存在。",
+      "verified": true
     }
   ]
 }

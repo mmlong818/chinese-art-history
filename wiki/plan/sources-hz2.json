@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "id": "mfa-boston",
+      "title": "Museum of Fine Arts, Boston（波士顿美术馆）",
+      "kind": "museum",
+      "tier": 1,
+      "authority": "藏赵令穰《湖庄清夏图》等北宋末文人小景山水名件。本库未核实其官网 API 或数字藏品页的可编程访问方式，仅作机构指认；影像与具体数字须人工核对官方出版物或藏品页。"
+    },
+    {
+      "id": "fong-issues-authenticity-chinese-painting",
+      "title": "Issues of Authenticity in Chinese Painting",
+      "authors": "Judith G. Smith, Wen C. Fong 编",
+      "publisher": "The Metropolitan Museum of Art / Harry N. Abrams",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "1999年大都会博物馆「中国书画鉴定问题」研讨会论文集，系统收录围绕传董源《溪岸图》真伪问题（Wen Fong 主张五代真迹说，James Cahill 等提出可能系20世纪张大千一系仿作的质疑）的正反双方论文，是本库处理该件归属争议的主要依据。本库未逐篇核对论文集页码与具体论证细节，仅据通行转述登记书目与双方立场大要。",
+      "note": "版次、页码与各篇论文具体标题本库未核实，待人工核对后补全精确引用。"
+    }
+  ]
+}

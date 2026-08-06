@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "id": "british-museum",
+      "title": "British Museum（大英博物馆，在线藏品页）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.britishmuseum.org/collection/object/",
+      "authority": "本库 2026-08-06 实测：`www.britishmuseum.org/collection/object/{id}` 与藏品检索页对本库 WebFetch 一律返回 HTTP 403 Forbidden，多次重试（不同藏品号、不同 URL 形式）结果一致，判定为对自动抓取的拦截而非个别页面故障。本库因此**未能直接核对该馆藏品页**，条目中涉及大英博物馆藏品的数字与题记内容，转引自可独立核校的第三方来源（IDP 索引页在搜索引擎中的摘要、Wikimedia Commons 文件页、公开发表的第二手著录），逐条注明来源级别，一律不升 verification 为 museum。",
+      "verified": true
+    },
+    {
+      "id": "idp-dunhuang",
+      "title": "International Dunhuang Project（国际敦煌项目，idp.bl.uk）",
+      "kind": "reference",
+      "tier": 2,
+      "url": "https://idp.bl.uk/",
+      "authority": "英、法、俄、中多馆敦煌文献与绢画的联合索引数据库，收录斯坦因、伯希和等收集品的馆方著录信息。本库 2026-08-06 实测：直接请求其藏品页一律返回 HTTP 403 Forbidden，未能独立核校原页；本库转引搜索引擎对该数据库页面的摘要文本作参考，注明为二手转引，不作为 museum 级核实依据。",
+      "verified": true
+    },
+    {
+      "id": "guimet",
+      "title": "Musée national des arts asiatiques – Guimet（吉美国立亚洲艺术博物馆）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.guimet.fr/",
+      "authority": "本库 2026-08-06 实测：博物馆主站（guimet.fr）可正常抓取，但其藏品数据库子站（collections.guimet.fr）多次请求均返回连接中断（socket closed），未能取得任何藏品记录页面内容。条目中涉及吉美博物馆藏品的信息转引自学术会议摘要（如法兰西学院讲座页）与 IDP 索引在搜索引擎中的摘要片段，均为二手转引，不升 verification 为 museum。",
+      "verified": true
+    },
+    {
+      "id": "shanxi-museum",
+      "title": "山西博物院",
+      "kind": "museum",
+      "tier": 1,
+      "url": "http://www.shanximuseum.com/",
+      "authority": "本库 2026-08-06 实测：包括藏品专题页（/collect/topic/shuiluhua.html）在内的多个页面均返回连接中断（socket closed），与本库此前对上海博物馆网站的实测结果同类——均未能区分是站点本身问题还是并发资源占用所致，本库不作坐实。条目中涉及该院所藏宝宁寺水陆画的具体数字，转引自中文维基百科条目与 Wikidata 结构化记录（后者可独立交叉核对到国家可移动文物普查登记号），均非该院官方页面直接核实，不升 verification 为 museum。",
+      "verified": true
+    },
+    {
+      "id": "philadelphia-museum",
+      "title": "Philadelphia Museum of Art（费城艺术博物馆）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://philamuseum.org/",
+      "authority": "本库 2026-08-06 实测：藏品页（/collection/object/{id}）可直接抓取并取得题名、断代区间、机构信息，但页面未暴露材质、尺寸、规范格式的藏品号等字段（或字段本身在该馆公开页面中从缺），本库据此仅将可读到的字段标记为已核，未读到的字段一律标 gap，不代填。",
+      "verified": true
+    },
+    {
+      "id": "wu-liancheng-baoningsi-shuiluhua",
+      "title": "吴连城，《山西右玉宝宁寺水陆画》",
+      "kind": "article",
+      "tier": 2,
+      "note": "《文物》1962年 Z1 期，DOI 10.13619/J.CNKI.CN11-1532/K.1962.Z1.012，CNKI 编号 WENW1962Z1012。宝宁寺水陆画最早的系统著录研究之一，经 Wikidata（Q63483841）交叉核对条目存在。",
+      "verified": true
+    },
+    {
+      "id": "wang-ruilei-mijin-jingang-baoningsi",
+      "title": "王瑞雷，《密集金刚于明代宫廷的传播——以山西右玉宝宁寺十六罗汉水陆画中藏文写经为中心》",
+      "kind": "article",
+      "tier": 2,
+      "note": "《美术研究》2021年第1期，DOI 10.13318/J.CNKI.MSYJ.2021.01.011，CNKI 编号 MUSE202101012。记宝宁寺水陆画中「十六罗汉」一组带藏文写经题记，经 Wikidata（Q119342422）交叉核对条目存在。",
+      "verified": true
+    }
+  ]
+}

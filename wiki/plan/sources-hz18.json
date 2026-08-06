@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "id": "nie-chongzheng-qinggong-huihua",
+      "title": "清代宫廷绘画",
+      "authors": "聂崇正",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "聂崇正为故宫博物院研究员，是清代宫廷绘画（郎世宁及『海西法』画家群体、如意馆体制、线法画、合笔画、军功纪实图等）研究领域的权威学者之一，本波（第18桶·清宫廷绘画与外销画）多项制度性判断以其研究方向为主要参照。",
+      "note": "具体版本、出版社与出版年份本次未核实，本库仅据学界通行认知登记该学者及其研究方向，正文引用时均以文字提及『聂崇正』其人及书名，未加 [[src:...]] 链接，待协调方合并本文件后再补正式引用。",
+      "verified": false
+    },
+    {
+      "id": "neiwufu-huojidang",
+      "title": "清宫内务府造办处《活计档》",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "清代内务府造办处逐日登记各作坊承旨承做事项的原始档案，是清宫『奉旨着某某画』一类署名记载的直接出处，本波多条清宫绘画条目在讨论『署名制度首先是皇帝意志』这一判断时，以此档案的性质与内容框架作为背景依据。",
+      "note": "本库未直接核阅档案原件，具体某条谕旨的原文与卷宗号均未核实，仅作为制度性事实（清宫绘画承旨机制的存在本身）的背景信源使用，不用于坐实任何具体年月或人名的记载。",
+      "verified": false
+    },
+    {
+      "id": "crossman-china-trade-arts",
+      "title": "The Decorative Arts of the China Trade: Paintings, Furnishings and Exotic Curiosities",
+      "authors": "Carl L. Crossman",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "英语学界研究广州十三行贸易时期外销工艺美术（含外销画、通草画、玻璃画）最重要的基础性专著之一，长期被同领域研究反复征引，本波外销画各条目据此转述外销画生产体制、题材类型与画坊组织的通行认识。",
+      "note": "具体版本、出版年与页码本次未核实，本库仅据学界通行认知登记该著作，未逐条核对原书页码。",
+      "verified": false
+    },
+    {
+      "id": "cheng-cunjie-waixiaohua-yanjiu",
+      "title": "十九世纪中国外销通商口岸商馆画研究",
+      "authors": "程存洁",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "中文学界系统研究广州及通商口岸外销画（含通草画、玻璃画、商馆油画）生产、题材、画坊组织与买家群体的代表性专著，本波外销画各条目据此转述中文学界对这一课题的通行认识。",
+      "note": "具体出版社、版本与页码本次未核实，本库仅据学界通行认知登记该著作。",
+      "verified": false
+    },
+    {
+      "id": "peabody-essex-museum",
+      "title": "Peabody Essex Museum",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.pem.org/",
+      "authority": "美国收藏广州贸易时期外销艺术品（外销画、通草画、玻璃画、家具、银器等）规模最大、最系统的专门机构之一，前身即塞勒姆东印度海事博物馆，藏品多直接来自当年中美贸易商船船长与商人的直接携归，是本波多条外销画条目的举例现藏机构。",
+      "note": "本库未逐条核对该馆具体藏品页编号与图像授权状态，正文中相关条目 image_status 一律标 no-free-image，不预先假定该馆已开放自由授权图像。",
+      "verified": false
+    },
+    {
+      "id": "guangdong-museum",
+      "title": "广东省博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.gdmuseum.com/",
+      "authority": "中国大陆收藏广州十三行外销艺术品（外销画、外销瓷、外销银器等）的核心机构之一，藏品直接对应广州口岸贸易史，是本波多条外销画条目的举例现藏机构。",
+      "note": "本库未逐条核对该馆具体藏品页编号与图像授权状态。",
+      "verified": false
+    }
+  ]
+}

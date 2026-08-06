@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "anhui-museum",
+      "title": "安徽博物院",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.ahm.cn/",
+      "authority": "皖籍书画（含新安画派、弘仁）与徽州文物的重要收藏机构，馆名近年已由「安徽省博物馆」改为「安徽博物院」。本库未实测其站点可达性与是否提供开放数据，引用前须人工核对具体藏品页。",
+      "verified": false
+    },
+    {
+      "id": "sen-oku-hakukokan",
+      "title": "泉屋博古館（京都，住友collection／Sumitomo Collection）",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://sen-oku.or.jp/",
+      "authority": "日本关西住友家族旧藏中国书画与青铜器的重要私人系统美术馆，京都本馆与东京分馆均有藏品。本库未实测其站点可达性与是否提供开放数据及自由授权图像，引用前须人工核对具体藏品页。",
+      "verified": false
+    }
+  ]
+}

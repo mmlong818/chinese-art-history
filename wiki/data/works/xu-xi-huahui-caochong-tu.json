@@ -1,0 +1,65 @@
+{
+  "schema": "work/1",
+  "id": "xu-xi-huahui-caochong-tu",
+  "title": "花卉草虫图",
+  "title_orig": "花卉草蟲圖",
+  "kind": "画作",
+  "artist": "xu-xi",
+  "period": "five-dynasties",
+  "year": "题名归于徐熙（五代南唐），具体年代本库未核实，见争议字段",
+  "year_sort": 960,
+  "medium": "本库未核实具体材质与形制，见争议字段",
+  "holder": "国立故宫博物院（台北）",
+  "size": "",
+  "one_line": "题名徐熙、现藏台北故宫的一件花卉草虫题材作品，与 [[work:xu-xi-yutang-fugui-tu|玉堂富贵图]]、[[work:xu-xi-jihe-tu|芰荷图]]、[[work:xu-xi-rongque-tu|蓉雀图]] 并为该馆所藏『传徐熙』一组，本库同样不予坐实其画面面貌。",
+  "verification": "memory",
+  "updated": "2026-08-06",
+  "sources": [
+    {"ref": "tuhua-jianwen-zhi", "note": "徐熙技法与取材描述的原始出处"},
+    {"ref": "zhongguo-meishu-jianshi", "note": "五代花鸟画南北两路脉络的通行叙述"},
+    {"ref": "wangxun-zhongguo-meishushi", "note": "对本件归属的交叉核对"}
+  ],
+  "image_status": "no-free-image",
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["作者", "题名徐熙，本库未核实此题名的最早出处"],
+        ["材质与形制", "本库未核实"],
+        ["尺寸", "本库未核实，不填具体数字"],
+        ["画面主体", "花卉与草虫组合，具体品类本库未见高清影像可供逐一核对"],
+        ["现藏", "国立故宫博物院（台北）"]
+      ]},
+      {"t": "dating", "basis": "风格比对", "conf": "存疑", "text": "本件无独立于题名之外的纪年证据，本库未核实是否经过科技检测断代，标断代依据为风格比对，可靠度存疑。"}
+    ],
+    "commission": [
+      {"t": "gap", "text": "本件创作缘起、委托背景，史籍全无记载。"}
+    ],
+    "reading": [
+      {"t": "p", "text": "『花卉草虫』这一取材方向与已建 [[work:zhao-chang-xiesheng-jiedie-tu|写生蛱蝶图]]（传赵昌）在题材大类上接近，但两件传世的证据状态、画风面貌均不相同，本库不因题材相近就将二者的技法特征互相比附。"},
+      {"t": "stmt", "state": "pend", "text": "本件具体描绘的花卉、草虫品类，本库因未见高清影像，无法逐一核实，不作臆测性描述。"}
+    ],
+    "technique": [
+      {"t": "gap", "text": "本件技法细节本库未见高清影像可供核对，不转录二手转述冒充目验判断"}
+    ],
+    "colophons": [
+      {"t": "gap", "text": "本件历代题跋、鉴藏印的具体释文与钤盖先后，本库未逐一核对国立故宫博物院官方著录"}
+    ],
+    "provenance": [
+      {"t": "stmt", "state": "pend", "text": "本件递藏链具体细节本库未核实，不作推测性填写。"},
+      {"t": "gap", "text": "完整递藏链，待人工核对国立故宫博物院官方藏品页"}
+    ],
+    "reception": [
+      {"t": "p", "text": "本件与 [[work:xu-xi-yutang-fugui-tu|玉堂富贵图]]、[[work:xu-xi-jihe-tu|芰荷图]]、[[work:xu-xi-rongque-tu|蓉雀图]] 一并构成台北故宫『传徐熙』小组，四件画风、题材、证据强度各不相同，恰好说明『徐熙』这一名字下聚集的，是一组被后世鉴藏传统不断附加、而非同一手笔统一产出的作品群。"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "将本件与同馆所藏另外三件『传徐熙』作品并置比较，体会「名在而物不可系」——题名相同不代表画风统一、证据强度相当。"
+      ]},
+      {"t": "gap", "text": "国立故宫博物院官方网站近年实测 SSL 证书链验证失败，本库脚本无法直接核验其数字典藏页最新信息"}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "disp", "text": "**本件是否真为徐熙所作**：本库未见高清影像可供独立核实画面技法，仅据通行著录转引题名，不予坐实，立场与 [[artist:xu-xi|徐熙]] 条目一贯保持一致。", "src": "wangxun-zhongguo-meishushi"},
+      {"t": "gap", "text": "本件材质形制、尺寸、画面品类、完整递藏链，均待人工核对国立故宫博物院官方著录"}
+    ]
+  }
+}

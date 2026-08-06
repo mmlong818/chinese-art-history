@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": "yutai-huashi",
+      "title": "玉台画史",
+      "authors": "汤漱玉 辑（清），汪远孙 校（清）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "清代唯一一部专辑历代女性画家的传录，分「宫掖」「名媛」「姬侍」「名妓」四类编次。本库引用它，理由不是它记载周全（它本身依赖前代画史转抄拼合，考订薄弱），而是它的**存在本身就是史料**：正史与主流画史（《无声诗史》《国朝画征录》一类）多把女性画家附于父兄夫子条目之下、多记德行而略技法，才逼出这样一部专收女性的补编——体例的偏差，比它收录的内容本身更值得记。",
+      "note": "本库未查阅原书，凡引用均据通行转述（分类四目、成书背景），未逐条核对具体传记文字与所据底本，卷数与版本亦未核实。",
+      "verified": false
+    },
+    {
+      "id": "weidner-views-from-jade-terrace",
+      "title": "Views from Jade Terrace: Chinese Women Artists, 1300-1912",
+      "authors": "Marsha Weidner, Ellen Johnston Laing, Irving Yucheng Lo, Christina Chu, James Robinson",
+      "publisher": "Indianapolis Museum of Art / Rizzoli",
+      "kind": "survey",
+      "tier": 3,
+      "authority": "1988年同名巡展图录，是英语学界研究元明清女性画家最常被引用的综合性著作之一，系统处理了本库这一批条目涉及的多数画家（文俶、马守真、薛素素、李因、陈书、恽冰、马荃等），并正面讨论了她们依附家族／依附青楼身份而进入画史书写的机制，以及名妓书画因市场需求被大量托名的现象。",
+      "note": "本库未逐页核对具体论证与页码，仅据学界通行认知登记书目、编者与大要立场，正文引用一律注明系转引通行学界认知，未核对原书页码与具体措辞。",
+      "verified": false
+    }
+  ]
+}

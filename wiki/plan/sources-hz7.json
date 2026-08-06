@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": "mfa-boston",
+      "title": "波士顿美术馆（Museum of Fine Arts, Boston）",
+      "kind": "museum",
+      "tier": 1
+    },
+    {
+      "id": "yamato-bunkakan",
+      "title": "大和文华馆（奈良，Yamato Bunkakan）",
+      "kind": "museum",
+      "tier": 1
+    }
+  ]
+}

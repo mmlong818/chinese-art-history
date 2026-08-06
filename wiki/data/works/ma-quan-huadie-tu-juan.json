@@ -1,0 +1,86 @@
+{
+  "schema": "work/1",
+  "id": "ma-quan-huadie-tu-juan",
+  "title": "花蝶图卷",
+  "title_orig": "Flowers and Butterflies",
+  "kind": "画作",
+  "artist": "wd-q20101011",
+  "period": "qing",
+  "year": "馆方未给出具体纪年，仅标作者活动年代“18世纪上半叶”",
+  "year_sort": 1725,
+  "medium": "纸本设色，手卷",
+  "holder": "大都会艺术博物馆",
+  "size": "27.9 × 248.9 cm（馆方开放数据原始著录）",
+  "one_line": "马荃（字江香，活动于18世纪上半叶）没骨花蝶手卷，大都会艺术博物馆藏——本库直接核对馆方开放数据 API 落地藏品号、材质与尺寸，本幅无具体纪年。",
+  "verification": "museum",
+  "updated": "2026-08-06",
+  "sources": [
+    {"ref": "met", "note": "馆方开放数据 API 实测核对，藏品号 47.18.116，isPublicDomain 字段为 true"},
+    {"ref": "wikidata", "note": "结构化记录 Q78925555，本库注意到该条目 P571 给出 1724 年这一具体推测年份，而馆方 API 本身未提供确切纪年，两者不完全一致，本库以馆方 API 为准，不采信 Wikidata 的补推日期"},
+    {"ref": "guochao-huazhenglu", "note": "清代画家专录，本库未核原文，仅据通行说法转引马荃出身常熟马氏绘画世家的记载方式"}
+  ],
+  "image_status": "pending",
+  "image": {
+    "source": "met",
+    "source_url": "https://www.metmuseum.org/art/collection/search/36059",
+    "credit": "Metropolitan Museum of Art, From the Collection of A. W. Bahr, Purchase, Fletcher Fund, 1947（Open Access, CC0）",
+    "license": "CC0",
+    "attribution_required": false,
+    "thumb": "https://images.metmuseum.org/CRDImages/as/original/DT241272.jpg",
+    "full": "https://images.metmuseum.org/CRDImages/as/original/DT241272.jpg",
+    "w": 3811,
+    "h": 2243,
+    "alt": "花蝶图卷（马荃作，大都会艺术博物馆藏）"
+  },
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["馆方题名（英文，原文）", "Flowers and Butterflies"],
+        ["作者（馆方著录）", "Ma Quan（马荃），活动于18世纪上半叶"],
+        ["藏品号", "47.18.116"],
+        ["部门", "Asian Art（亚洲部）"],
+        ["分类", "Paintings（Handscroll）"],
+        ["入藏方式", "From the Collection of A. W. Bahr, Purchase, Fletcher Fund, 1947"]
+      ]},
+      {"t": "p", "text": "馆方藏品页：https://www.metmuseum.org/art/collection/search/36059——本库已通过大都会开放 API 实测取得本条结构化数据。中文题名“花蝶图卷”为本库据英文题名与画意拟译。"},
+      {"t": "kv", "rows": [["本库分期依据", "作者活动年代标18世纪上半叶，落入 qing"]]},
+      {"t": "dating", "basis": "文献著录", "conf": "不可考", "text": "馆方未给出本幅具体创作纪年，仅提供作者活动年代区间（18世纪上半叶）；Wikidata 交叉记录给出 1724 年这一具体年份，但未见其依据出处，本库不采信这一未注明依据的补推日期，仍标“不可考”。"}
+    ],
+    "commission": [
+      {"t": "gap", "text": "本卷委托背景、创作缘起，馆方著录未提供，本库亦未见其他一手材料。"}
+    ],
+    "reading": [
+      {"t": "p", "text": "手卷横向展开花卉与蝴蝶点景，构图随卷轴展阅次第推进，是没骨花蝶手卷常见的经营方式——具体各段花卉品种、构图节奏，本库未取得高清图版逐段核对，仅据馆方缩略图版做整体描述。"},
+      {"t": "stmt", "state": "pend", "text": "**家族师承细节本库未核实**：通行说法称马荃出身江苏常熟马氏绘画世家，其家学与没骨花鸟传统相关；但具体师承何人、与本库另一位同姓画家[[artist:wd-q3273465|马守真]]（明代南京人）**并无家族关系**——本库特别指出这一点，避免读者仅因同姓“马”而将两人混同，二人时代、籍贯、身份均不相同。"}
+    ],
+    "technique": [
+      {"t": "ul", "items": [
+        "**没骨设色（据画面观察与通行归纳）**：花卉不施墨线勾勒轮廓，直接以色彩渲染，蝴蝶点景笔法相对轻捷，是清初以来没骨花鸟一路在常熟、毗陵一带画家中的常见技法路数。",
+        "**手卷横向构图**：以横向展开的手卷形制安排多组折枝花卉与蝶蛾点景，与册页、扇页等小品在物理形制与观看方式上不同，手卷要求逐段展阅、首尾呼应的节奏处理。"
+      ]},
+      {"t": "gap", "text": "本库未取得本卷高清细部图版，未能做逐段笔法比对。"}
+    ],
+    "colophons": [
+      {"t": "gap", "text": "本卷题跋、印章、引首情况，馆方开放数据摘要未提供，本库未核实。"}
+    ],
+    "provenance": [
+      {"t": "prov", "when": "1947", "text": "经 A. W. Bahr 旧藏，由 Fletcher Fund 出资购入大都会艺术博物馆。"},
+      {"t": "gap", "text": "A. W. Bahr 收藏之前的完整递藏链，馆方开放数据未提供，本库未核实。"}
+    ],
+    "reception": [
+      {"t": "stmt", "state": "pend", "text": "**轶事记载与技艺评价须分开处理**：清人笔记一类通行说法称马荃曾因目疾致一目失明后仍持续作画，运笔精细不减——本库据通行说法转引这一轶事，但未核实其一手文献出处；即便属实，本库亦不因此类身体境遇的记载而调高或调低对其笔法本身的技术评价，二者是两件不同的事，本库遵循“身体境遇不转换为艺术评价”的一贯立场处理。"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "沿手卷展开次第观看各段花蝶布局，留意没骨设色在不同花卉品种上呈现的具体效果。",
+        "留意本卷与题为[[artist:wd-q3273465|马守真]]（明代南京，与马荃无家族关系）之间容易因同姓而产生的混淆，本条目已在“画面分析”一节specific指出二者并无关系。"
+      ]},
+      {"t": "gap", "text": "本库未取得馆方高清原图使用条款的进一步确认，image_status 暂标 pending。"}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "**创作年代不可考**：馆方仅提供作者活动年代区间，未给出本卷具体纪年；Wikidata 交叉记录的“1724年”未注明依据，本库不采信，仍标“不可考”。"},
+      {"t": "stmt", "state": "pend", "text": "**目疾轶事与技艺评价须分开**：见「评价与影响」一节，本库转引通行轶事但未核实一手依据，并明确不将身体境遇转换为艺术评价的加减分依据。"},
+      {"t": "gap", "text": "具体师承细节、题跋印章、完整递藏链——均需人工核对，本库现阶段未能取得。"}
+    ]
+  }
+}

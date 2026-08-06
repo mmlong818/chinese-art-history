@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": "wang-yuanqi-lutai-tihuagao",
+      "title": "麓台题画稿",
+      "authors": "王原祁（清）",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "王原祁本人画跋汇编，「龙脉」「开合起伏」「熟中生」等核心画论均出此，是判断其方法论主张最直接的一手文字依据。data/artists/wang-yuanqi.json 已引其语录但未正式登记信源 id，本条目补登记。",
+      "note": "版本与辑本本库未核实，异文情况本库亦未逐字核对。",
+      "verified": false
+    },
+    {
+      "id": "wang-hui-qinghui-huaba",
+      "title": "清晖画跋（王翚论画语录，通行归入此题）",
+      "authors": "王翚（清）",
+      "kind": "primary",
+      "tier": 2,
+      "authority": "「以元人笔墨，运宋人丘壑，而泽以唐人气韵，乃为大成」一语的通行出处，本库据 data/artists/wang-hui.json 已有引用（该处仅标『题跋，传』未落实具体篇目）。本库未核对是否确系《清晖画跋》原文抑或后人辑录转引，故 tier 定为 2 而非一手确证的 1。",
+      "note": "篇目归属本身有转引可能，见本波各条目争议字段的具体说明；不作确证处理。",
+      "verified": false
+    },
+    {
+      "id": "chen-duxiu-meishu-geming",
+      "title": "美术革命——答吕澂",
+      "authors": "陈独秀",
+      "kind": "primary",
+      "tier": 1,
+      "authority": "载《新青年》第6卷第1号（1918年1月），新文化运动时期对「四王」摹古传统最集中的公开批判文本之一，是本库处理清初四王评价史「二十世纪被翻转」这一层时的核心一手材料。",
+      "note": "原文具体措辞本库未逐字核对最初刊本，转引自通行画史著作与文献选编时版本细节或有出入。",
+      "verified": false
+    }
+  ]
+}
