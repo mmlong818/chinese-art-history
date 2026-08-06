@@ -1,0 +1,77 @@
+{
+  "schema": "work/1",
+  "id": "luo-pin-lizhi-tu",
+  "title": "荔枝图",
+  "title_orig": "荔枝圖",
+  "kind": "画作",
+  "artist": "luo-pin",
+  "period": "qing",
+  "year": "本库未见任何来源给出具体系年，Wikidata 结构化记录亦无系年字段",
+  "medium": "纸本，墨笔或设色（据 Wikidata P186=Q11472「纸」，本库未见故宫官方藏品页确认设色与否）",
+  "holder": "故宫博物院（北京）",
+  "size": "纵157.4厘米，横90.5厘米（据 Wikidata 结构化记录，本库未见故宫官方藏品页核实）",
+  "one_line": "扬州八怪之一罗聘所作的荔枝图立轴——本条据 Wikidata 结构化记录写成，故宫博物院官方网站未见此件可直接访问的藏品页，核实止步于结构化数据一层，未及馆藏页，是本库对罗聘作品的第三件完整级记录，也是首次落于故宫博物院（北京）（此前两件『现藏未定』）。",
+  "verification": "wikidata",
+  "updated": "2026-08-06",
+  "sources": [
+    {"ref": "wikidata", "note": "结构化记录 Q116459480：文物号 新00099511、材质、尺寸均取自此记录，本条无系年字段"},
+    {"ref": "wikimedia", "note": "图版来源，公版扫描"},
+    {"ref": "zhengxie-banqiao-runge", "note": "扬州画派职业卖画的市场生态背景材料，交叉核对罗聘作为『扬州八怪』一员的职业画家身份"}
+  ],
+  "image_status": "no-free-image",
+  "image": {
+    "source": "wikimedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E7%BD%97%E8%81%98%E8%8D%94%E6%9E%9D%E5%9B%BE%E8%BD%B4.png",
+    "credit": "Wikimedia Commons（来源标注为故宫博物院数字资源转载），标 PD",
+    "license": "PD",
+    "attribution_required": false,
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%E7%BD%97%E8%81%98%E8%8D%94%E6%9E%9D%E5%9B%BE%E8%BD%B4.png",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%E7%BD%97%E8%81%98%E8%8D%94%E6%9E%9D%E5%9B%BE%E8%BD%B4.png",
+    "w": 9428,
+    "h": 15748,
+    "alt": "荔枝图轴（故宫博物院藏，罗聘作）"
+  },
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["作者", "罗聘"],
+        ["材质", "纸本（据 Wikidata P186 字段，本库未见馆方原文确认设色与否）"],
+        ["形制", "立轴"],
+        ["现藏", "故宫博物院（北京），文物号 新00099511（据 Wikidata）"],
+        ["Wikidata", "Q116459480"]
+      ]},
+      {"t": "p", "text": "本库尝试访问故宫博物院官方藏品页 `www.dpm.org.cn/collection/paint/` 路径，Wikidata 结构化记录（P973）未提供该路径下对应本件的链接（仅提供『名画记』与『数字文物库』两个前端渲染页面链接，抓取只得到空壳）。故本条 `verification` 标为 `wikidata`，未及馆藏页原文。"},
+      {"t": "dating", "basis": "文献著录", "conf": "不可考", "text": "本库未见 Wikidata 或其他任何来源给出本幅具体系年，仅能据作者罗聘生平（1733—1799年）将其归入『清』这一分期，不作更精确的推断。"}
+    ],
+    "commission": [
+      {"t": "p", "text": "罗聘是[[artist:jin-nong|金农]]最重要的入室弟子、[[class:yangzhou-huapai|扬州画派]]中年辈最晚的一位（据本库[[artist:luo-pin|罗聘]]条目），扬州画派整体以职业卖画为生，本幅大概率属市上流通之作，但本库未核实本幅具体的受画对象。"},
+      {"t": "gap", "text": "本幅具体流通经过与受画对象，本库未见记载"}
+    ],
+    "reading": [
+      {"t": "gap", "text": "本库未取得本幅画面的一手描述（荔枝数量、枝叶构图、是否配有题诗），不作臆测性描述"}
+    ],
+    "technique": [
+      {"t": "p", "text": "本库未取得本幅具体的一手技法描述，仅能据罗聘整体画史定位（[[class:yangzhou-huapai|扬州画派]]『扬州八怪』一员，师承金农）推断其大概率延续该派『不拘常法、以书入画』的一般取径，但本条不将这一泛化推断当作本幅的具体技法分析。"},
+      {"t": "gap", "text": "本幅具体笔墨技法、设色与否、纸质科技检测数据，本库未见任何来源提供"}
+    ],
+    "colophons": [
+      {"t": "gap", "text": "本幅题跋、鉴藏印，本库未见任何来源提供清单或释文"}
+    ],
+    "provenance": [
+      {"t": "gap", "text": "本幅完整递藏经过，本库未见任何来源提供"}
+    ],
+    "reception": [
+      {"t": "p", "text": "本库已收罗聘另两件作品——《[[work:luo-pin-guiqu-tu|鬼趣图]]》（现状存疑，原件流传经过复杂）与《[[work:luo-pin-meihua|梅花图]]》（分藏多家机构及私人收藏，题材系列无单一藏所）——均未能确定单一现藏机构。本幅是本库首次记录罗聘作品明确归属故宫博物院（北京）单一馆藏，但因核实深度有限（止步于 Wikidata），本库对其在罗聘个人创作序列中的具体位置不作进一步论断。"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "本条核实深度有限，读者若需细看画面与题跋，建议径查故宫博物院相关出版物或权威图录自行核对。",
+        "可与本库已收《[[work:luo-pin-meihua|梅花图]]》对读，比较罗聘处理不同花果题材时的画法差异——但需注意二者本库核实深度均有限，对读结论应审慎。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "pend", "text": "**核实深度受限于站点结构**：故宫博物院官方藏品页路径下未见 Wikidata 提供对应本件的链接；『名画记』与『数字文物库』均为前端渲染页面，本库脚本抓取只得到空壳——这是站点结构本身的限制，不代表本件不存在于故宫馆藏。"},
+      {"t": "gap", "text": "画面内容、具体系年、技法细节、题跋鉴藏与递藏经过，本库均未取得任何一手材料"}
+    ]
+  }
+}

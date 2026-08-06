@@ -2102,6 +2102,46 @@
       "tier": 2,
       "note": "《美术研究》2021年第1期，DOI 10.13318/J.CNKI.MSYJ.2021.01.011，CNKI 编号 MUSE202101012。记宝宁寺水陆画中「十六罗汉」一组带藏文写经题记，经 Wikidata（Q119342422）交叉核对条目存在。",
       "verified": true
+    },
+    {
+      "id": "lin-meicun-sichou-shanshui-ditu",
+      "title": "蒙古山水地图（丝路山水地图研究）",
+      "authors": "林梅村",
+      "kind": "monograph",
+      "tier": 3,
+      "authority": "北京大学考古文博学院教授林梅村对本件（原题《蒙古山水地图》，近年通行改称《丝路山水地图》）的识读与考订研究，确立其绘制年代约在明嘉靖年间、非此前旧说；本波用以支撑本件『定名与断代经历过重新考订，非自始即以今名传世』这一判断。",
+      "note": "具体版本、出版社与出版年份本次未核实，仅据学界通行认知登记该学者及其研究方向；正文引用均以文字提及『林梅村』其人及研究结论，未加 [[src:...]] 之外的坐实细节，待协调方合并本文件后再补正式版本信息。",
+      "verified": false
+    },
+    {
+      "id": "zh-wikipedia",
+      "title": "中文维基百科",
+      "kind": "reference",
+      "tier": 4,
+      "url": "https://zh.wikipedia.org/",
+      "authority": "结构化程度低于 Wikidata 的自由内容百科，本波（辽宁省博物馆书画候选 ln-01）用于补充 Wikidata 结构化记录缺失的叙述性内容（如《竹林大士出山圖》的归属争议转述、《洛神赋图》辽宁本的断代与图式讨论）。**2026-08-06 实测**：`zh.wikipedia.org/wiki/竹林大士出山圖`、`zh.wikipedia.org/wiki/洛神赋图` 均可正常抓取并返回条目正文；`zh.wikipedia.org/wiki/獅頭鵝圖` 返回 404（该题目本身无独立条目，非站点被拦）——与本库此前『zh.wikipedia.org 有代理报告被拦』的记录不同，本次三次尝试两次成功、一次因条目不存在而非站点拒绝，应视为该站点本身多数情况下可读，此前『被拦』报告可能是特定条目或特定时段的个案，不宜一概而论。",
+      "note": "维基百科条目本身即为二手转述，其转引的具体学术出版物（如条目提及的『刘中玉』一说）本库均未回溯核实原文，引用时须注明『转引自维基百科条目转述』，不当作一手学术依据使用。",
+      "verified": true
+    },
+    {
+      "id": "daijin-360doc-caption",
+      "title": "戴进《达摩至慧能六代祖师像卷》网络转录图注（360doc.com 个人图文转载页）",
+      "kind": "web",
+      "tier": 4,
+      "url": "http://www.360doc.com/content/08/1009/21/37063_1736938.shtml",
+      "authority": "本页是 Wikimedia Commons 文件 File:Dai Jin. Six Patriarchs of Chan. Liaoning Provincial Museum..jpg 的 Credit 字段所指向的原始来源——一个个人图文转载/博客聚合类网站的 2008 年帖子，非辽宁省博物馆官方页面，也非经同行评议的出版物。该页给出的具体尺寸（纵33.8×横219.5厘米）与创作年代（约十五世纪中叶）本库未能找到独立的一手著录佐证，可靠性本库判定为本库四档最低一档，仅供参考，不作为确证依据单独使用；本库据此仅采信 Wikimedia Commons 图像文件本身的许可状态（Public Domain），不采信该页附带的具体数字。",
+      "verified": false,
+      "note": "本库 2026-08-06 经 Wikimedia Commons API（action=query, prop=imageinfo, iiprop=extmetadata）核实该页地址确系 Commons 文件页 Credit 字段的原文链接，但未直接抓取该页面本身核对其页面正文，仅转引 Commons 页面对其内容的转述。"
+    },
+    {
+      "id": "fu-shen-juran-cunshi-huaji-bijiao",
+      "title": "巨然存世畫蹟之比較研究",
+      "authors": "傅申",
+      "kind": "article",
+      "tier": 3,
+      "authority": "刊于《故宮季刊》第2卷第2期（1967年10月），页51-79，据台北故宫官方典藏页参考书目列出；本库尚未查阅原文具体论点，仅记录其存在，供后续核实后作为归属/真伪判断的信源",
+      "note": "本条由 wd-06 切片在升级 wd-q123383440（五代南唐巨然寒林晚岫圖）时提出，因馆方著录页本身列出这一比较研究文献；未登记前，data/works/wd-q123383440.json 正文未对其使用 [[src:...]] 链接，仅在文字中提及作者与篇名，待协调方合并本文件后再补链接",
+      "verified": false
     }
   ]
 }

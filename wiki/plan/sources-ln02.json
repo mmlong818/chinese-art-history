@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "daijin-360doc-caption",
+      "title": "戴进《达摩至慧能六代祖师像卷》网络转录图注（360doc.com 个人图文转载页）",
+      "kind": "web",
+      "tier": 4,
+      "url": "http://www.360doc.com/content/08/1009/21/37063_1736938.shtml",
+      "authority": "本页是 Wikimedia Commons 文件 File:Dai Jin. Six Patriarchs of Chan. Liaoning Provincial Museum..jpg 的 Credit 字段所指向的原始来源——一个个人图文转载/博客聚合类网站的 2008 年帖子，非辽宁省博物馆官方页面，也非经同行评议的出版物。该页给出的具体尺寸（纵33.8×横219.5厘米）与创作年代（约十五世纪中叶）本库未能找到独立的一手著录佐证，可靠性本库判定为本库四档最低一档，仅供参考，不作为确证依据单独使用；本库据此仅采信 Wikimedia Commons 图像文件本身的许可状态（Public Domain），不采信该页附带的具体数字。",
+      "verified": false,
+      "note": "本库 2026-08-06 经 Wikimedia Commons API（action=query, prop=imageinfo, iiprop=extmetadata）核实该页地址确系 Commons 文件页 Credit 字段的原文链接，但未直接抓取该页面本身核对其页面正文，仅转引 Commons 页面对其内容的转述。"
+    }
+  ]
+}

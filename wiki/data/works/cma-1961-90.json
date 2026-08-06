@@ -12,7 +12,7 @@
   "medium": "Hanging scroll; ink and color on silk",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1644」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-06",
+  "updated": "2026-08-07",
   "sources": [
     {
       "ref": "cleveland",
@@ -81,6 +81,11 @@
           "Suzuki, Kei 鈴木敬. Chūgoku kaiga sōgō zuroku [中國繪畫總合圖錄= Comprehensive Illustrated Catalog of Chinese Paintings], 第1卷. アメリカ·カナダ篇[= vol. 1 American and Canadian collections]. Tōkyō: Tōkyō Daigaku Shuppankai, 1982.（Mentioned: p. 285, no. 314）",
           "**馆方记录另有 4 条著录未在此列出。**"
         ]
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "**本条与 [[work:cui-zizhong-xujingyang-yijia-tu|完整级条目]] 同指一物**（藏品号相同、同馆）。本条是照录馆方著录的著录级壳，承担藏品号与馆方原始字段；阐释与判断在那一条。**本库保留两条而不合并**：壳的 id 已被外部引用，改 id 会断链；但读者不应把它们当成两件东西。\n\n这一组是**按藏品号**检出的——题名归一检不出它们，因为完整级条目用的是中文通行题名，而壳用的是馆方英文题名加藏品号。"
       }
     ],
     "dating": [

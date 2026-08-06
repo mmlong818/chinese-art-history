@@ -12,7 +12,7 @@
   "medium": "Hanging scroll; ink and light color on paper",
   "one_line": "克利夫兰美术馆藏画作，馆方断代作「1614」。**本条为著录级**：照录馆方记录，未作阐释。",
   "verification": "museum",
-  "updated": "2026-08-06",
+  "updated": "2026-08-07",
   "sources": [
     {
       "ref": "cleveland",
@@ -81,6 +81,11 @@
           "Ho, Wai-kam, Sherman E. Lee, Laurence Sickman, and Marc F. Wilson. Eight Dynasties of Chinese Painting: The Collections of the Nelson Gallery-Atkins Museum, Kansas City, and the Cleveland Museum of Art. Cleveland, OH: Cleveland Museum of Art, in cooperation with Indiana University Press, 1980.（Mentioned and Reproduced: cat. no. 203, pp. 260–261）",
           "**馆方记录另有 2 条著录未在此列出。**"
         ]
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "**本条与 [[work:ding-yunpeng-tiandu-xiaori-tu|完整级条目]] 同指一物**（藏品号相同、同馆）。本条是照录馆方著录的著录级壳，承担藏品号与馆方原始字段；阐释与判断在那一条。**本库保留两条而不合并**：壳的 id 已被外部引用，改 id 会断链；但读者不应把它们当成两件东西。\n\n这一组是**按藏品号**检出的——题名归一检不出它们，因为完整级条目用的是中文通行题名，而壳用的是馆方英文题名加藏品号。"
       }
     ],
     "dating": [

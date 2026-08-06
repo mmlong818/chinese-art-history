@@ -1,0 +1,20 @@
+这些是「完整级作品的 artist 指向著录级艺术家壳」造成的反事实构建 ERROR。
+格式：id|姓名|分期
+
+wd-q1064977|夏昶|ming
+wd-q11093587|朱倫瀚|qing
+wd-q16078415|陳邦彥|qing
+wd-q21810040|蔡嘉|qing
+wd-q2470693|柯九思|yuan
+wd-q2585778|陆治|ming
+wd-q3179590|閔貞|qing
+wd-q3206035|禹之鼎|qing
+wd-q3481876|盛懋|yuan
+wd-q3567211|文伯仁|ming
+wd-q5034347|曹知白|yuan
+wd-q5310070|杜琼|ming
+wd-q716959|蒋廷锡|qing
+wd-q773258|趙雍|yuan
+wd-q8070430|張照|qing
+wd-q8070453|张宗苍|qing
+wd-q890282|高凤翰|qing
