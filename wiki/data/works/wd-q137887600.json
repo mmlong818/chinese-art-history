@@ -8,7 +8,7 @@
   "holder": "国立故宫博物院（台北）",
   "one_line": "国立故宫博物院（台北）藏画作。**本条为著录级**：照录 Wikidata 的结构化记录，未作阐释。",
   "verification": "wikidata",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "wikidata",
@@ -40,6 +40,10 @@
           [
             "Wikidata",
             "Q137887600"
+          ],
+          [
+            "尺寸（Wikidata）",
+            "纵 25.3 × 横 445.2 公分"
           ]
         ]
       },

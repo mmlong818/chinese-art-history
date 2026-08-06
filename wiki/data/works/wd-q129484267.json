@@ -8,7 +8,7 @@
   "holder": "国立故宫博物院（台北）",
   "one_line": "国立故宫博物院（台北）藏书法。**本条为著录级**：照录 Wikidata 的结构化记录，未作阐释。",
   "verification": "wikidata",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "sources": [
     {
       "ref": "wikidata",
@@ -40,6 +40,22 @@
           [
             "Wikidata",
             "Q129484267"
+          ],
+          [
+            "馆方尺寸（公分）",
+            "132x32；40.4"
+          ],
+          [
+            "馆方质地",
+            "紙"
+          ],
+          [
+            "馆方数量",
+            "二軸"
+          ],
+          [
+            "馆方典藏页",
+            "https://digitalarchive.npm.gov.tw/Painting/Content?pid=31882&Dept=P"
           ]
         ]
       },
