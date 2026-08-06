@@ -1796,6 +1796,52 @@
       "authority": "唐英督理景德镇御窑厂期间自撰的纪事碑文，历数其督陶以来仿古创新的各类釉色与器型成就，是清代官窑史料中少见的带有具体负责人姓名与技术细节记载的一手材料。本库 taocheng-jishi-bei treatise 条目已引及此书，但此前未在 sources.json 正式登记。",
       "note": "原碑今日存佚状况、碑文原石文本与后世著作（如《南窑笔记》一类）转录文本是否一致、碑文所列釉色品种确切数目，本库均未核实，待合并入 sources.json 后回填到 taocheng-jishi-bei 条目的 sources 数组。　本库未核实版次与页码。",
       "verified": false
+    },
+    {
+      "id": "linan-museum",
+      "title": "临安博物馆",
+      "kind": "museum",
+      "tier": 2,
+      "url": "",
+      "authority": "越窑青釉褐彩器（水丘氏墓一系）的收藏地。**馆方站点本库未核到稳定 URL**，故 url 留空、tier 降一档；引用前须人工核对。",
+      "verified": false
+    },
+    {
+      "id": "nanjing-museum",
+      "title": "南京博物院",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.njmuseum.com/",
+      "authority": "六朝青瓷与明清器物的重要收藏。**本库未实测其站点可达性与是否提供开放数据**，引用前须人工核对具体藏品页。",
+      "verified": false
+    },
+    {
+      "id": "tianjin-museum",
+      "title": "天津博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "url": "http://www.tjbwg.com/",
+      "authority": "藏王羲之寒切帖（唐摹本）及白釉双龙柄联腹传瓶一系器物。**本库未实测**，引用前须人工核对。",
+      "verified": false
+    },
+    {
+      "id": "yangzhou-museum",
+      "title": "扬州博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "url": "http://www.yzmuseum.com/",
+      "authority": "唐代长沙窑、唐青花残片与元蓝釉白龙纹梅瓶的收藏地。**本库未实测**，引用前须人工核对。",
+      "verified": false
+    },
+    {
+      "id": "ye-zhi-tanzhai-biheng",
+      "title": "坦斋笔衡",
+      "authors": "叶寘（南宋）",
+      "kind": "primary",
+      "tier": 2,
+      "authority": "南宋人叶寘所撰笔记，原书已佚，其中论宋代名窑一段（记「本朝以定州白磁器有芒不堪用，遂命汝州造青窑器」）经后世文献（如《坦斋笔衡》佚文辑录、清代《南窑笔记》等转引）流传，是本库讨论定窑「芒口」被宋人视为缺陷、以及汝窑因此得宠这一因果关系时最早的同时代文字依据之一，也是本库 data/classes/ru-yao.json、data/classes/guan-yao.json 两条类目条目已引用同一段文字的最终出处。本库现有引用（ru-yao.json「概览」一节、guan-yao.json「概览」一节、data/works/ding-yao-haier-zhen.json「工艺」一节）均以文字直接引述并说明出自《坦斋笔衡》，未挂 src/ref 属性，理由即此 id 尚未登记。",
+      "note": "原书已佚，今所见均为后世转引文字，具体转引版本谱系（何书何卷辑录、文字是否历代传抄有异文）本库未核实，仅据通行转述登记条目框架，待人工核实一手转引来源后补全。",
+      "verified": false
     }
   ]
 }

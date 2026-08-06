@@ -1,0 +1,51 @@
+{
+  "note": "为 ciqi.json 切片（宋五大名窑 14 条：汝、官、哥、钧、定）拟增的信源候选，格式照 data/sources.json 的 items。本文件不由本次任务直接写入 sources.json，本次写作的 14 条正文全部未引用下列待定 id（引用未登记 id 会被 schema.py 判为死链），凡涉及《坦斋笔衡》处均以文字直接引述原文并说明出处朝代与作者，不带 src/ref 属性——按分工由另一处合并入 sources.json 后，再回填到 ding-yao-haier-zhen（定窑白釉孩儿枕）与 data/classes/ru-yao.json、guan-yao.json 等已引用同一段文字的既有条目。verified 标 false：本库未直接查阅原文一手版本，仅据通行转引登记条目框架。",
+  "items": [
+    {
+      "id": "linan-museum",
+      "title": "临安博物馆",
+      "kind": "museum",
+      "tier": 2,
+      "url": "",
+      "authority": "越窑青釉褐彩器（水丘氏墓一系）的收藏地。**馆方站点本库未核到稳定 URL**，故 url 留空、tier 降一档；引用前须人工核对。",
+      "verified": false
+    },
+    {
+      "id": "nanjing-museum",
+      "title": "南京博物院",
+      "kind": "museum",
+      "tier": 1,
+      "url": "https://www.njmuseum.com/",
+      "authority": "六朝青瓷与明清器物的重要收藏。**本库未实测其站点可达性与是否提供开放数据**，引用前须人工核对具体藏品页。",
+      "verified": false
+    },
+    {
+      "id": "tianjin-museum",
+      "title": "天津博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "url": "http://www.tjbwg.com/",
+      "authority": "藏王羲之寒切帖（唐摹本）及白釉双龙柄联腹传瓶一系器物。**本库未实测**，引用前须人工核对。",
+      "verified": false
+    },
+    {
+      "id": "yangzhou-museum",
+      "title": "扬州博物馆",
+      "kind": "museum",
+      "tier": 1,
+      "url": "http://www.yzmuseum.com/",
+      "authority": "唐代长沙窑、唐青花残片与元蓝釉白龙纹梅瓶的收藏地。**本库未实测**，引用前须人工核对。",
+      "verified": false
+    },
+    {
+      "id": "ye-zhi-tanzhai-biheng",
+      "title": "坦斋笔衡",
+      "authors": "叶寘（南宋）",
+      "kind": "primary",
+      "tier": 2,
+      "authority": "南宋人叶寘所撰笔记，原书已佚，其中论宋代名窑一段（记「本朝以定州白磁器有芒不堪用，遂命汝州造青窑器」）经后世文献（如《坦斋笔衡》佚文辑录、清代《南窑笔记》等转引）流传，是本库讨论定窑「芒口」被宋人视为缺陷、以及汝窑因此得宠这一因果关系时最早的同时代文字依据之一，也是本库 data/classes/ru-yao.json、data/classes/guan-yao.json 两条类目条目已引用同一段文字的最终出处。本库现有引用（ru-yao.json「概览」一节、guan-yao.json「概览」一节、data/works/ding-yao-haier-zhen.json「工艺」一节）均以文字直接引述并说明出自《坦斋笔衡》，未挂 src/ref 属性，理由即此 id 尚未登记。",
+      "note": "原书已佚，今所见均为后世转引文字，具体转引版本谱系（何书何卷辑录、文字是否历代传抄有异文）本库未核实，仅据通行转述登记条目框架，待人工核实一手转引来源后补全。",
+      "verified": false
+    }
+  ]
+}

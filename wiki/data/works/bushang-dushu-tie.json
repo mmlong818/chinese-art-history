@@ -1,0 +1,67 @@
+{
+  "schema": "work/1",
+  "id": "bushang-dushu-tie",
+  "title": "卜商读书帖",
+  "title_full": "《卜商帖》，又称《卜商读书帖》，行书，记孔子弟子卜商（字子夏）读书之事",
+  "kind": "书法",
+  "artist": "ouyang-xun",
+  "period": "sui-tang",
+  "year": "唐，具体书写年代不可考",
+  "year_sort": 630,
+  "medium": "行书，纸本墨迹",
+  "size": "本库未核实精确尺寸",
+  "holder": "故宫博物院（北京）",
+  "classes": ["xingshu"],
+  "one_line": "传欧阳询行书墨迹，内容记孔子弟子卜商（字子夏）读书之事，与《[[work:zhang-han-tie|张翰帖]]》《梦奠帖》并称「欧阳询三帖」——三帖作者归属的完整论证已在[[work:zhang-han-tie|张翰帖]]条目详述，本条目引用其结论，不重复展开。",
+  "verification": "memory",
+  "updated": "2026-08-06",
+  "image_status": "no-free-image",
+  "sources": [
+    {"ref": "zhongguo-meishu-jianshi", "note": "欧阳询行书墨迹的通行叙述与真伪问题"},
+    {"ref": "wangxun-zhongguo-meishushi", "note": "交叉核对"},
+    {"ref": "congwenjun-zhongguo-shufashi", "note": "欧阳询行书墨迹归属存疑的学术史梳理"}
+  ],
+  "sections": {
+    "basics": [
+      {"t": "kv", "rows": [
+        ["内容", "记孔子弟子卜商（字子夏）读书之事，具体文本本库未逐字核实转录"],
+        ["书体", "行书"],
+        ["现存性质", "纸本墨迹"],
+        ["传世归属", "传欧阳询书，与《[[work:zhang-han-tie|张翰帖]]》《梦奠帖》并称「欧阳询三帖」"],
+        ["现藏", "故宫博物院（北京）"]
+      ]},
+      {"t": "stmt", "state": "disp", "text": "本帖作者归属是否确属欧阳询，与《[[work:zhang-han-tie|张翰帖]]》面临同一类证据问题——均无本人款印或同时代记载坐实，现代学者中不乏疑为宋人依托书写或临仿之作的意见。**完整论证已在[[work:zhang-han-tie|张翰帖]]条目「基础信息」一节详述，本条目不重复展开，仅引用其结论**：本库标本帖归属「存疑，采历代相沿说法，不作确证坐实」。", "src": "congwenjun-zhongguo-shufashi"}
+    ],
+    "commission": [
+      {"t": "p", "text": "内容为节录或誊写与卜商读书相关的一段文字，性质与《[[work:zhang-han-tie|张翰帖]]》节录《晋书·张翰传》评语相近，均属节录前代典籍文字的书法作品，具体书写缘由与场合不可考。"}
+    ],
+    "reading": [
+      {"t": "p", "text": "文字涉孔子弟子卜商苦读之事，具体释文本库未逐字核实转录，不作展开引用。"}
+    ],
+    "technique": [
+      {"t": "p", "text": "用笔与结体特征与《[[work:zhang-han-tie|张翰帖]]》相近——瘦劲方硬中带流动，是欧阳询名下三件行书墨迹共享的风格取向，具体笔法细节比对本库未逐字展开。"}
+    ],
+    "colophons": [
+      {"t": "p", "text": "历代递藏累积有鉴藏印与题跋，具体内容本库未逐一核对官方著录，暂不列出，避免臆测。"}
+    ],
+    "provenance": [
+      {"t": "prov", "when": "清内府", "text": "据通行说法著录于《石渠宝笈》，清内府旧藏。"},
+      {"t": "prov", "when": "近现代", "text": "此后入藏故宫博物院（北京），具体入藏经过与流转细节，本库未核实到系统档案。"}
+    ],
+    "reception": [
+      {"t": "p", "text": "与《[[work:zhang-han-tie|张翰帖]]》《梦奠帖》并称「欧阳询三帖」，共同构成欧阳询传世行书墨迹的核心材料，但三帖归属本身存疑，本库提醒不宜过度倚重。"}
+    ],
+    "viewing": [
+      {"t": "ul", "items": [
+        "作者归属的完整论证参见[[work:zhang-han-tie|张翰帖]]条目，本条目不重复展开。",
+        "可与《[[work:zhang-han-tie|张翰帖]]》《梦奠帖》对照参看，体会三帖笔法的共通取向。",
+        "本条目现无可用自由授权图版，本库不伪造图片路径。"
+      ]}
+    ],
+    "disputes": [
+      {"t": "stmt", "state": "disp", "text": "本帖是否确为欧阳询真迹存疑，完整论证见[[work:zhang-han-tie|张翰帖]]条目「基础信息」一节，本条目不重复展开，本库标本帖归属「存疑，采历代相沿说法，不作确证坐实」。", "src": "congwenjun-zhongguo-shufashi"},
+      {"t": "stmt", "state": "pend", "text": "本帖具体书写年代、场合不可考，本库不采信任何一个具体年份为定论。"},
+      {"t": "gap", "text": "精确尺寸、具体释文全文、完整历代鉴藏印文列表，本库均未逐一核实"}
+    ]
+  }
+}
