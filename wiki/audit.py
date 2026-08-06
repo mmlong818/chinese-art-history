@@ -98,10 +98,16 @@ def dupes(c, rep):
         # 著录级豁免同名检查：馆方题名极多重复（同一批里三件都叫
         # Bodhisattva Guanyin），而它们确是三件不同的物，藏品号已附在题名里作区分。
         # 报出来只会淹掉真正的重复。
-        if depth_of(w) != "record":
+        # 作品族条目（scope=family）不参与两项检查，理由是它本就该与其某一摹本
+        # 同题同作者，也本就该借用那一本的图版:
+        # 《兰亭序》概念条目与神龙本、《洛神赋图》概念条目与故宫本皆属此形。
+        # **这两处从前是长期报警而无法消除的假阳性**——它们指向的不是数据错，
+        # 是契约缺一个字段区分「一件物」与「一个作品」。字段补上了，警报才该撤。
+        fam = w.get("scope") == "family"
+        if depth_of(w) != "record" and not fam:
             titles[(w["title"], w.get("artist") or w.get("site"))].append(w["id"])
         im = w.get("image") or {}
-        if im.get("thumb"):
+        if im.get("thumb") and not fam:
             thumbs[im["thumb"]].append(w["id"])
     for (t, a), ids in titles.items():
         if len(ids) > 1:
@@ -109,6 +115,29 @@ def dupes(c, rep):
     for t, ids in thumbs.items():
         if len(ids) > 1:
             rep("重复", f"同一张图被 {len(ids)} 个条目使用：{ids}")
+
+
+def holder_shape(c, rep):
+    """holder 里是否塞了叙述而非藏所。
+
+    `holder` 必填，而有些物确实没有单一藏所。契约已追认四个哨兵
+    （现藏未定／原址／已佚／分藏多处）——**用哨兵，缘由写进 stmt，不写进字段**。
+    这条检查防的是「因为必填而把整段解释塞进机构名」，实测发生过六七处。
+    """
+    from schema import HOLDER_SENTINEL
+    INST = re.compile(r"博物馆|博物院|美术馆|艺术馆|博古馆|图书馆|纪念馆|研究院|研究所|"
+                      r"档案馆|文物局|管理处|文管所|大学|中学|学院|大会堂|寺|宫|陵|窟|祠|"
+                      r"Museum|Gallery|Library|Institute|Collection|私人收藏|私藏")
+    bad = []
+    for w in c.works.values():
+        h = str(w.get("holder") or "")
+        if INST.search(h) or h.startswith(HOLDER_SENTINEL):
+            continue
+        if len(h) > 24 or "；" in h or "。" in h:
+            bad.append((w["id"], h[:44]))
+    for i, h in bad:
+        rep("藏所", f"{i} 的 holder 像一句话而非藏所：「{h}」"
+                    f"——请改用哨兵（现藏未定／原址／已佚／分藏多处），缘由写进 stmt")
 
 
 def thin(c, rep):
@@ -419,7 +448,7 @@ def foreign(c, rep):
 
 
 ORDER = ("范围", "覆盖", "待编", "重复", "稀薄", "单源", "信源", "态度",
-         "断代", "拓本", "重修", "核查", "图像", "外文", "未译", "深度")
+         "断代", "拓本", "重修", "核查", "图像", "外文", "未译", "藏所", "深度")
 
 def depth_mix(c, rep):
     """条目深度构成。**这一项存在的理由是防自欺。**
@@ -444,7 +473,16 @@ def depth_mix(c, rep):
                     f"著录级条目未经取舍，不可当作已审查过的内容引用；"
                     f"对外描述本库时须说明这个比例。")
 
-ACTIONABLE = ("范围", "重复", "稀薄", "外文", "未译")
+ACTIONABLE = ("范围", "重复", "稀薄", "外文", "未译", "藏所")
+
+# **打印只走 ORDER，计数只走 ACTIONABLE——两者脱节则findings 被计入却不显示。**
+# 实测发生过：新增「藏所」一类时只加进 ACTIONABLE，于是 30 条被算进「需处理 33」
+# 却一条也不打印，看上去像凭空多出三十条。同一形状今日撞过三次
+# （schema 声明的块 render 没接、图示级标记只加在一条渲染路径上、这里）。
+# 所以把它变成启动时就会炸的断言，而不是靠下次记得。
+assert set(ACTIONABLE) <= set(ORDER), (
+    f"ACTIONABLE 里有 ORDER 未收的类别，它们会被计数而不被打印："
+    f"{sorted(set(ACTIONABLE) - set(ORDER))}")
 
 
 def main():
@@ -456,6 +494,7 @@ def main():
 
     for check in (scope, dupes, thin, sourcing, epistemics, dating_health,
                   rubbing_health, relayer_health, verification, images,
+                  holder_shape,
                   image_files, foreign, depth_mix):
         check(c, rep)
 
