@@ -23,7 +23,13 @@
     南京博物院 njmuseum.com/api/…        展览列表为公开 JSON（见下）
 
 **无法编程核查的**：
-    故宫博物院、中国国家博物馆、数字敦煌  —— 仅有 HTML 页面，无公开 API
+    中国国家博物馆、数字敦煌              —— 仅有 HTML 页面，无公开 API
+    故宫博物院                            —— 有官方检索系统（digicol.dpm.org.cn 数字文物库、
+                                             zm-digicol.dpm.org.cn 藏品总目，共 186 万件，
+                                             类目 17 绘画／16 法书／1 碑帖），但**本库不作程序化采集**：
+                                             页面含 antiReptileFallBack() 反爬回退，
+                                             是站方有意部署的措施；无 robots.txt 可依。
+                                             只作人工核对的出处，见 src:dpm-digicol
 
 「国内各馆一律无 API」这句原先写在这里，**是错的**：南京博物院的
 `/api/exhibition/list` 实测返回 12 KB JSON，含展览名、展厅位置与会期，无需鉴权。
