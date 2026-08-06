@@ -117,6 +117,34 @@ def dupes(c, rep):
             rep("重复", f"同一张图被 {len(ids)} 个条目使用：{ids}")
 
 
+def focus(c, rep):
+    """范围与重心。**这一项存在的理由与 depth_mix 相同：防自欺。**
+
+    项目范围是「只以中国境内书画为主」，而本库一度走到 67% 海外藏品——
+    不是因为谁判断错了，是因为**可得性会悄悄替代重要性**：西方馆有 API、
+    有开放许可、有递藏与展览史，工具越顺手，重心就越容易挪过去。
+    这个偏差不表现为错误，只表现为重心移走，所以必须把比例摊在明面上，
+    否则「以中国境内书画为主」这句话会从事实变成愿望。
+    """
+    from schema import is_overseas
+    import collections
+    place = collections.Counter()
+    kind = collections.Counter()
+    for w in c.works.values():
+        place["海外" if is_overseas(w.get("holder")) else "境内或未定"] += 1
+        kind[w.get("kind") or "?"] += 1
+    tot = sum(place.values()) or 1
+    rep("重心", "作品藏地：" + "、".join(f"{k} {v}（{v*100//tot}%）"
+                                        for k, v in place.most_common()))
+    shuhua = kind.get("画作", 0) + kind.get("书法", 0)
+    rep("重心", f"书画（画作＋书法）{shuhua} 件，占 {shuhua*100//tot}%——"
+                f"项目重心在此；其余门类保留但不再扩充")
+    if place.get("海外", 0) * 2 > tot:
+        rep("重心", f"**海外藏品过半（{place['海外']}/{tot}）。**既有部分经决定原样保留，"
+                    f"且已冻结在 data/overseas-baseline.json、由校验器拦住新增；"
+                    f"但首页与分期索引的观感仍由它主导，扩充境内书画才是缩小这个比例的唯一办法。")
+
+
 def holder_shape(c, rep):
     """holder 里是否塞了叙述而非藏所。
 
@@ -448,7 +476,8 @@ def foreign(c, rep):
 
 
 ORDER = ("范围", "覆盖", "待编", "重复", "稀薄", "单源", "信源", "态度",
-         "断代", "拓本", "重修", "核查", "图像", "外文", "未译", "藏所", "深度")
+         "断代", "拓本", "重修", "核查", "图像", "外文", "未译", "藏所",
+         "重心", "深度")
 
 def depth_mix(c, rep):
     """条目深度构成。**这一项存在的理由是防自欺。**
@@ -494,7 +523,7 @@ def main():
 
     for check in (scope, dupes, thin, sourcing, epistemics, dating_health,
                   rubbing_health, relayer_health, verification, images,
-                  holder_shape,
+                  holder_shape, focus,
                   image_files, foreign, depth_mix):
         check(c, rep)
 

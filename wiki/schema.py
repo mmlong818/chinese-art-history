@@ -428,6 +428,56 @@ IMAGE_SOURCES = {
     "douban",
 }
 
+# ── 范围：只以中国境内书画为主，禁止再引入海外藏品 ──────────────────────
+#
+# **这是项目所有者定的范围，不是技术判断，不得以「数据可得」为由绕过。**
+#
+# 缘由与本库既有的那条「不对称」正相反：西方馆有 API、有开放许可、有递藏与展览史，
+# 于是**可得性会悄悄替代重要性**——工具好用的地方条目就多，而那恰恰不是
+# 中国美术史的重心。实测后果已经发生：全库 3279 件作品里 2204 件（67%）是海外藏品，
+# 其中 cma-／artic- 前缀 2019 条直接以克利夫兰与芝加哥的藏品号立目；
+# 海外那批又以器物为主（陶瓷 802、青铜 229、玉器 180），而本库的重心本应是书画。
+#
+# **一件事能做，不等于它是该做的那件事。**取图与档案采集工具越顺手，
+# 这个偏差就越隐蔽——它不表现为错误，只表现为库的重心悄悄挪走。
+#
+# 执行：
+#   一、不再新增以海外机构为 holder 的条目；
+#   二、`museum.py`（克利夫兰／芝加哥档案采集）与 `fetchimg.py` 的 cma／artic／met
+#       连接器**不得再用于新增条目**，仅可用于已有条目的核校；
+#   三、境内藏品缺图是权属现实（见 image_status），**不以「海外有图」为理由
+#       改用海外同类物顶替**；
+#   四、既有 2204 条海外条目**经项目所有者决定原样保留**，不删不改，
+#       但冻结在 `data/overseas-baseline.json`；此后新增的海外藏品条目由校验器拦下。
+#   五、「书画为主」的口径同经决定: 重心在画作与书法，**境内器物条目保留但不再扩充**。
+
+OVERSEAS_HOLDER = re.compile(
+    r"大都会|克利夫兰|芝加哥|波士顿|弗利尔|赛克勒|哈佛|普林斯顿|纳尔逊|阿特金|"
+    r"大英|维多利亚与艾伯特|V&A|吉美|赛努奇|柏林|科隆|斯德哥尔摩|苏黎世|"
+    r"东京国立|京都国立|奈良|大阪市立|根津|泉屋|静嘉堂|藤井|正倉院|正仓院|"
+    r"首尔|韩国国立|旧金山|西雅图|明尼阿波利斯|底特律|印第安纳|圣路易斯|"
+    r"华盛顿|史密森|美国|英国|法国|德国|日本|瑞典|瑞士|加拿大|澳大利亚|"
+    r"Museum|Gallery|Institute|Collection")
+# 境内标记优先：「故宫博物院（北京）」不含海外词，但「上海博物馆（Shanghai Museum）」
+# 会命中 Museum——先判境内，命中即不再判海外，否则会把国内馆误判成海外。
+DOMESTIC_HOLDER = re.compile(
+    r"故宫|国家博物馆|上海博物馆|南京博物院|辽宁省|吉林省|湖北省|湖南|"
+    r"河南|陕西|山西|甘肃|浙江|天津|首都博物馆|敦煌|云冈|龙门|麦积山|"
+    r"大足|国家图书馆|中国美术馆|台北|原址|现藏未定|已佚|分藏多处")
+
+
+def is_overseas(holder):
+    h = str(holder or "")
+    return bool(OVERSEAS_HOLDER.search(h)) and not DOMESTIC_HOLDER.search(h)
+
+
+def _overseas_baseline():
+    p = DATA / "overseas-baseline.json"
+    if not p.exists():
+        return None
+    return set(json.loads(p.read_text(encoding="utf-8")).get("ids") or [])
+
+
 # ── 图示与图版：本库的取舍 ────────────────────────────────────────────────
 #
 # **本库的图是图示（identification），不是图版（connoisseurship）。**
@@ -802,7 +852,12 @@ def depth_of(obj):
     return obj.get("depth") or "full"
 
 
+_OVERSEAS_OK = None
+
+
 def validate(c):
+    global _OVERSEAS_OK
+    _OVERSEAS_OK = _overseas_baseline()
     out = [Problem("ERROR", str(f), f"JSON 语法错误——{msg}") for f, msg in c.broken]
 
     for pid, p in c.periods.items():
@@ -826,6 +881,13 @@ def validate(c):
     for wid, wk in c.works.items():
         w = f"work/{wid}"
         _check_common(wk, w, c, out, ["title", "kind", "period", "holder"])
+        if is_overseas(wk.get("holder")) and _OVERSEAS_OK is not None                 and wid not in _OVERSEAS_OK:
+            out.append(Problem("ERROR", w,
+                               f"holder {wk.get('holder')!r} 判为海外机构，而本条不在"
+                               f"`data/overseas-baseline.json` 的冻结名单中。"
+                               f"**项目范围是只以中国境内书画为主，禁止再引入海外藏品**——"
+                               f"这不是技术判断，不得以「数据可得」为由绕过。"
+                               f"确需例外须显式改那个文件，那是一次有意的决定。"))
         if wk.get("scope") and wk["scope"] not in WORK_SCOPE:
             out.append(Problem("ERROR", w, f"scope 须为 {sorted(WORK_SCOPE)} 之一，"
                                           f"得到 {wk['scope']!r}"))
