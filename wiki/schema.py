@@ -885,9 +885,28 @@ def validate(c):
     #   李公麟那卷馆方作「仿韦偃牧放图」而本库作「临韦偃牧放图」（一字之差）；
     #   赵佶那轴馆方作「锦鸡芙蓉图」而本库作「芙蓉锦鸡图」（词序颠倒）。
     # **可靠证据是稳定标识符而非字形**（同 alias 那段的道理）。
-    # 只取键名含「藏品号」的 kv 行，不扫全文——正文里为比较而提及别件的藏品号，
+    # 只取键名是标识符类的 kv 行，不扫全文——正文里为比较而提及别件的藏品号，
     # 不该被当作本条的标识。
+    #
+    # **键名只认「藏品号」曾漏掉台北故宫全系。**该馆的稳定标识符叫「文物統一編號」，
+    # 字面不含「藏品号」三字，于是 244 条（文物統一編號 141 ／ 文物统一编号 103）
+    # 连同「作品號」30 条整体绕过了本查重——可比对标识符只有 306 个，实则 526 个。
+    # 后果不是抽象的: 髡残《茂林秋树图》把董源《龙宿郊民图》的 故畫000894
+    # 抄成了自己的号（真号 故畫001094），两条同号并存而契约一声不响。
+    # 故键名按标识符族匹配，不按单一字面。
+    _ACC_KEY = re.compile(r"藏品号|藏品號|文物統一編號|文物统一编号|作品號|作品号"
+                          r"|馆方对象编号|国际馆藏编号")
+
+    # 同一件物在库内有两种写法: 「故畫000916」与「故畫000916N000000000」。
+    # `N` 后九位是件内序号，全零即「整件」，故 N0{9} 与无后缀者须归一，
+    # 否则同物异写永不撞号。**只归一全零**——「故畫001119N000000022」是
+    # 《墨竹谱》册中第 22 开，与整册是父子而非同物，归一了就把册与开判成重复。
+    def _acc_norm(v):
+        m = re.match(r"^(故[畫画書书]\d{6})N0{9}$", v)
+        return m.group(1) if m else v
+
     _acc = {}
+    _acc_said = set()
     for wid, wk in c.works.items():
         for b in (wk.get("sections", {}).get("basics") or []):
             if not isinstance(b, dict) or b.get("t") != "kv":
@@ -895,9 +914,9 @@ def validate(c):
             for row in b.get("rows") or []:
                 if not (isinstance(row, list) and len(row) == 2):
                     continue
-                if "藏品号" not in str(row[0]):
+                if not _ACC_KEY.search(str(row[0])):
                     continue
-                no = str(row[1]).strip()
+                no = _acc_norm(str(row[1]).strip())
                 # 须像个标识符。**不能要求四位连码**——大都会的号形如「47.18.116」
                 # 「02.18.438」，是真标识符却无四位连码，那样判会把它们全漏掉。
                 # 改为: 含数字、不含「未核／不详／未见／本库」一类措辞、且不过长。
@@ -916,7 +935,12 @@ def validate(c):
                         hold = _v
                         break
                 key_acc = (hold, no)
+                # 一条常同时写「文物統一編號」与「藏品号」两行（值归一后相同），
+                # 逐行报会把一组撞号报成两条。按 (本条, 号) 去重后再报。
                 if key_acc in _acc and _acc[key_acc] != wid:
+                    if (wid, no) in _acc_said:
+                        continue
+                    _acc_said.add((wid, no))
                     out.append(Problem("ERROR", f"work/{wid}",
                                        f"藏品号「{no}」与 work/{_acc[key_acc]} 相同"
                                        f"（同属「{hold}」）——"
