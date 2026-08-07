@@ -65,6 +65,7 @@ dbgUrl 官方详情页）。但：
 import argparse
 import collections
 import json
+import re
 import sys
 import time
 import urllib.error
@@ -343,6 +344,96 @@ def stats():
               f"{r.get('dynastyName',''):<10} {r.get('dbgUrl','') or '（无官方页）'}")
 
 
+def xcheck():
+    """拿本机已抓的总目缓存，回核库内声明的故宫（北京）藏品号。**不发一次请求。**
+
+    这一步是「按藏品号对账、不按标题对账」的机械化：总目给的是号与馆方定名，
+    库内条目给的是号与本库作者名，两边只能靠号对齐，靠题名对不齐（馆方作
+    「锦鸡芙蓉图」而本库作「芙蓉锦鸡图」一类，字形差异一项就够漏检）。
+
+    报三类，且**三类的证据强度截然不同，不可混为一谈**：
+      号查不到   缓存只是抽样（约 3%），查不到基本等于「不在样本里」，
+                 **不是错号**。故只列出待查，不作断言——这一条最容易被误读成
+                 结论，实测 10 条里已知至少一条（新00146088）另有核实来源。
+      作者名不合 号在总目、但本库作者名不出现在馆方定名内。**这里才可能藏真错**:
+                 髡残《茂林秋树图》曾占用董源《龙宿郊民图》的 故畫000894，
+                 就是这一类（见 b91fa60）。但也有大量假阳性——
+                 馆方用本名而本库用字号（任颐／任伯年、吴俊卿／吴昌硕），
+                 故先用 name_alt 归一再报。
+      馆方不具名 馆方定名以「清人画」「宋人」一类起头，即馆方本身未具作者，
+                 而本库挂了具体作者。**这不是错，是归属分歧**，须并陈而非改字段。
+    """
+    import glob
+    cat = {}
+    for fn in (CACHE, CACHE.with_name(".dpm-sweep.json")):
+        if not fn.exists():
+            continue
+        for r in json.loads(fn.read_text(encoding="utf-8")).get("rows") or []:
+            no = (r.get("culturalRelicNo") or "").strip()
+            if no:
+                cat.setdefault(no, r.get("name") or "")
+    if not cat:
+        print("总目缓存为空，先跑 map / sweep"); return
+    root = Path(__file__).parent / "data"
+    names = {}
+    for f in glob.glob(str(root / "artists" / "*.json")):
+        a = json.loads(Path(f).read_text(encoding="utf-8"))
+        # 候选名 = 正名 ＋ name_alt 里「名／初名／又名／改名」后跟的汉字串。
+        # 馆方定名多用本名，本库多用行世的字号，不归一就会把同一人报成不合。
+        cand = {a.get("name") or ""}
+        for s in a.get("name_alt") or []:
+            cand |= set(re.findall(r"(?:初名|又名|改名|本名|名)([一-鿿]{1,3})", str(s)))
+        names[a["id"]] = {c for c in cand if c}
+    ANON = ("清人", "宋人", "元人", "明人", "唐人", "五代人", "佚名", "无款")
+    miss, bad, anon, ok = [], [], [], 0
+    for f in sorted(glob.glob(str(root / "works" / "*.json"))):
+        w = json.loads(Path(f).read_text(encoding="utf-8"))
+        hold = str(w.get("holder") or "")
+        if "故宫博物院" not in hold or "台北" in hold:
+            continue
+        for b in (w.get("sections", {}).get("basics") or []):
+            if not isinstance(b, dict) or b.get("t") != "kv":
+                continue
+            for row in b.get("rows") or []:
+                if not (isinstance(row, list) and len(row) == 2):
+                    continue
+                if not re.search(r"藏品号|藏品號", str(row[0])):
+                    continue
+                m = re.match(r"((?:故|新|书|書|标|资)\d{8}(?:-\d+/\d+)?)", str(row[1]).strip())
+                if not m:
+                    continue
+                no = m.group(1)
+                if no not in cat:
+                    miss.append((w["id"], no)); continue
+                off = cat[no]
+                cand = names.get(w.get("artist") or "", set())
+                if not cand or any(c in off for c in cand):
+                    ok += 1
+                elif off.startswith(ANON):
+                    anon.append((w["id"], no, sorted(cand)[0], off, "馆方未具名"))
+                elif [o for oid, ocs in names.items() if oid != w.get("artist")
+                      for o in ocs if len(o) > 1 and o in off]:
+                    # 馆方定名里出现的是**另一位本库在册画家**的名字，而非无主之作。
+                    # 这不是错号，是两说各指一人的归属分歧——《文苑图》馆方作
+                    # 「韩滉文苑图卷」而本库归周文矩，即此形。须并陈，不改字段，
+                    # 更不该混进「须查」里当成抄错号来处理。
+                    other = sorted({o for oid, ocs in names.items() if oid != w.get("artist")
+                                    for o in ocs if len(o) > 1 and o in off})[0]
+                    anon.append((w["id"], no, sorted(cand)[0], off, f"馆方归「{other}」"))
+                else:
+                    bad.append((w["id"], no, sorted(cand)[0], off))
+    print(f"总目缓存 {len(cat)} 号 · 库内声明故宫（北京）号 {ok+len(miss)+len(bad)+len(anon)} 条 · 对得上 {ok}\n")
+    print(f"[待查] 号不在缓存样本内 {len(miss)} 条——**抽样所限，不等于错号**")
+    for i, n in miss:
+        print(f"    {i:<40} {n}")
+    print(f"\n[归属分歧] 馆方与本库各指其人，或馆方未具名 {len(anon)} 条——并陈，勿改字段")
+    for i, n, c, o, why in anon:
+        print(f"    {i:<32} 本库「{c}」 {n}  {why}  馆方「{o}」")
+    print(f"\n[★须查] 号在总目而作者名与馆方定名不合 {len(bad)} 条——真错藏在这一类")
+    for i, n, c, o in bad:
+        print(f"    {i:<34} 本库「{c}」 {n}  馆方「{o}」")
+
+
 def main():
     ap = argparse.ArgumentParser(description="故宫藏品总目抽样索引（不做全量）")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -353,10 +444,12 @@ def main():
     w.add_argument("--from", dest="lo", type=int, required=True, help="起始记录偏移")
     w.add_argument("--to", dest="hi", type=int, required=True, help="结束记录偏移")
     sub.add_parser("stats")
+    sub.add_parser("xcheck")
     a = ap.parse_args()
     {"probe": probe, "sample": lambda: sample(a.pages),
      "map": lambda: map_space(a.step),
-     "sweep": lambda: sweep(a.lo, a.hi), "stats": stats}[a.cmd]()
+     "sweep": lambda: sweep(a.lo, a.hi), "stats": stats,
+     "xcheck": xcheck}[a.cmd]()
 
 
 if __name__ == "__main__":
