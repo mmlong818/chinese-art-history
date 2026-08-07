@@ -110,8 +110,20 @@ def dupes(c, rep):
         if im.get("thumb") and not fam:
             thumbs[im["thumb"]].append(w["id"])
     for (t, a), ids in titles.items():
-        if len(ids) > 1:
-            rep("重复", f"{a} 名下「{t}」出现 {len(ids)} 次：{ids}")
+        if len(ids) <= 1:
+            continue
+        # **作者为空时不能判同题重复。**同题＋同作者才是重复的线索，而 a 为 None
+        # 意味着「作者未定」——把若干 None 归成一组，等于拿「都不知道是谁」当作
+        # 「是同一个人」。实测这样报出的两组全是假阳性:
+        #   「山水图」三条实为程邃、孙逸、王之瑞三位新安派画家各一件；
+        #   「墨兰图」两条实为赵孟坚与郑思肖两人各一件。
+        # 五条的 artist 皆为 None，只因这五位本库尚无艺术家条目可挂。
+        # 同 alias 与藏品号那两段的道理: **可靠证据是稳定标识符，空值不是标识符。**
+        if not a:
+            rep("重复", f"同题「{t}」{len(ids)} 条而作者均未定，无从判断是否重复"
+                        f"（作者为空不作同一人计）：{ids}")
+            continue
+        rep("重复", f"{a} 名下「{t}」出现 {len(ids)} 次：{ids}")
     for t, ids in thumbs.items():
         if len(ids) > 1:
             rep("重复", f"同一张图被 {len(ids)} 个条目使用：{ids}")
