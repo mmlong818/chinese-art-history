@@ -38,7 +38,7 @@
       {
         "t": "stmt",
         "state": "disp",
-        "text": "本库对「明式」断代问题采取双重标注原则：条目的 period 字段须依据实际制作年代（如有证据支持清早期制作，应标 qing 而非 ming），「明式」作为风格描述可独立于 period 使用。本库现有 19 件 kind:家具 条目中，period:ming 者 12 件、period:qing 者 7 件，其中相当一部分即使 period 标 qing，风格上仍属明式范畴——「明式」与「period:qing」不是互斥关系，见「代表实例」。"
+        "text": "本库对「明式」断代问题采取双重标注原则：条目的 period 字段须依据实际制作年代（如有证据支持清早期制作，应标 qing 而非 ming），「明式」作为风格描述可独立于 period 使用。本库现有 19 件（截至 2026-08-04；**正文计数不随库自动更新**，实时数以生成页的清单为准） kind:家具 条目中，period:ming 者 12 件、period:qing 者 7 件，其中相当一部分即使 period 标 qing，风格上仍属明式范畴——「明式」与「period:qing」不是互斥关系，见「代表实例」。"
       }
     ],
     "definition": [

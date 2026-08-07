@@ -65,6 +65,17 @@ SLEEP = 2.0              # 秒。串行且不低于此值
 UA = ("china-art-history-archive/0.1 (non-commercial scholarly index of Chinese art "
       "history; metadata only, no image mirroring; contact via repository)")
 
+# —— 藏品号前缀本身是一条递藏线索，别浪费它 ——
+#
+# 故宫藏品号分两系: **「故」字号 = 1925 年建院时接收的清宫旧藏；
+# 「新」字号 = 1949 年以后征集、调拨、捐赠入藏。**
+#
+# 用处很实在: 新字号大概率**不见于《石渠宝笈》《大观录》《江村销夏录》**一类
+# 清代著录（那些著录的是清宫与清代私家所藏），所以查不到递藏不等于漏查，
+# 往往就是它本不在那批文献里。**据此可以诚实地写「无清宫著录线索」而不必编，
+# 也不必为凑 prov 块去攀附。**
+# 反之，故字号若查不到清宫著录，那才是真该继续查的信号。
+
 # 本库重心是境内书画。故宫总目的类目名是英文，这三项对应绘画／法书／碑帖。
 SHUHUA = {"Paintings", "Calligraphy", "Rubbings"}
 
