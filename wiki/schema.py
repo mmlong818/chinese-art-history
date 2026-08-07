@@ -878,6 +878,54 @@ def validate(c):
                                                f"（多门以「、」并列，主业在前）"))
         _check_sections(a, ARTIST_SECTIONS, w, c, out)
 
+    # 藏品号相同 → ERROR。**这一条比同题同作者硬得多，因为它比的是稳定标识符。**
+    # 实测: 与故宫藏品总目对账时，标题+作者匹配漏掉了 21 件已有条目，
+    # 而藏品号一项全部查出。漏的原因全是字形差异——
+    #   《洛神赋图》馆方定名「顾恺之洛神图卷」而本库题「宋人洛神赋图卷」（归属写法不同）；
+    #   李公麟那卷馆方作「仿韦偃牧放图」而本库作「临韦偃牧放图」（一字之差）；
+    #   赵佶那轴馆方作「锦鸡芙蓉图」而本库作「芙蓉锦鸡图」（词序颠倒）。
+    # **可靠证据是稳定标识符而非字形**（同 alias 那段的道理）。
+    # 只取键名含「藏品号」的 kv 行，不扫全文——正文里为比较而提及别件的藏品号，
+    # 不该被当作本条的标识。
+    _acc = {}
+    for wid, wk in c.works.items():
+        for b in (wk.get("sections", {}).get("basics") or []):
+            if not isinstance(b, dict) or b.get("t") != "kv":
+                continue
+            for row in b.get("rows") or []:
+                if not (isinstance(row, list) and len(row) == 2):
+                    continue
+                if "藏品号" not in str(row[0]):
+                    continue
+                no = str(row[1]).strip()
+                # 须像个标识符。**不能要求四位连码**——大都会的号形如「47.18.116」
+                # 「02.18.438」，是真标识符却无四位连码，那样判会把它们全漏掉。
+                # 改为: 含数字、不含「未核／不详／未见／本库」一类措辞、且不过长。
+                # 实测 32 条把占位话填进了「藏品号」字段（「本库未核实」
+                # 「本库未见馆方页公布正式编号」），与 holder 那个问题同形——
+                # 必填字段没有合法的「不详」写法，撰写者只能塞话进去。
+                if (not no or len(no) > 30 or not re.search(r"\d", no)
+                        or re.search(r"未核|不详|未见|待核|本库|无编号", no)):
+                    continue
+                # **键必须是「馆 + 号」而不是号本身。**实测撞出假阳性:
+                # 克利夫兰 1961.90 与芝加哥 1961.90 是两件不同的物——
+                # 各馆自成编号体系，号相同纯属巧合。只按号查重会拦住正当条目。
+                hold = str(wk.get("holder") or "")
+                for _k, _v in HOLDER_ALIAS.items():
+                    if _k in hold:
+                        hold = _v
+                        break
+                key_acc = (hold, no)
+                if key_acc in _acc and _acc[key_acc] != wid:
+                    out.append(Problem("ERROR", f"work/{wid}",
+                                       f"藏品号「{no}」与 work/{_acc[key_acc]} 相同"
+                                       f"（同属「{hold}」）——"
+                                       f"**同一藏品号即同一件物，两条条目必有一条多余**。"
+                                       f"若为册页的不同开，藏品号须带开次（如 -3/10）；"
+                                       f"若一条涵盖多摹本，标 scope=family。"))
+                else:
+                    _acc.setdefault(key_acc, wid)
+
     # 同一作者名下同题作品 → ERROR。**audit 只报告，拦不住新增。**
     # 本会话已因此三次撞车: 手写路径与 wd- 采集路径撞 9 组（已合并）；
     # 我据抽样委托新写 14 件，其中 8 件本库已有、另 2 件与 wd- 条目重复。
