@@ -1,8 +1,12 @@
 """故宫博物院藏品总目索引（zm-digicol.dpm.org.cn）——有硬预算的抽样，不做全量。
 
-    python dpm.py probe                  # 探接口现状与成本，只发 1 次请求
-    python dpm.py sample --pages 60      # 抽样，默认 60 页（12000 条），可改
-    python dpm.py stats                  # 统计已抽到的本地缓存
+    python dpm.py probe                      # 探接口现状与成本，只发 1 次请求
+    python dpm.py map --step 400             # 画全域类目分布图（24 次请求）
+    python dpm.py sweep --from 40000 --to 48000 # 只扫指定记录区间（偏移，非页号）
+    python dpm.py sample --pages 60          # 顺序抽样（map 之前的旧办法）
+    python dpm.py stats                      # 统计本地缓存
+
+**正当用法是先 map 后 sweep。**直接 sample 全域等于没做 map。
 
 —— 为什么是抽样而不是全量 ——
 
@@ -18,20 +22,36 @@ dbgUrl 官方详情页）。但：
   三、类目在返回顺序里交错（第一页就混着珐琅、铜器、绘画、金银器），
       **无法提前停**。
 
-三条合起来：要取全部绘画就得扫完全库 = **9,301 次请求、约 716 MB**。
-那不是「一次礼貌的抓取」，是实打实的负担，本库不做。
+起初据此判断「取全部绘画须扫完全库 = 9,301 次请求、约 700 MB」，因而只做抽样。
+**那个判断错了，错在第三条: 类目不是均匀交错，而是按类聚簇。**
+
+—— map 改变了成本结构，但第一次做错了 ——
+
+修正后的实测（2026-08-04，以**记录偏移**为单位，全库 1,860,076 条）:
+
+    偏移       0–16,000    陶瓷／铜器为主，夹杂书画（5–9/20）
+    偏移  40,000–48,000    **绘画 20/20**
+    偏移 112,000–120,000   **绘画 20/20**
+    偏移 160,000–184,000   **碑帖 20/20**
+    偏移 560,000–1,840,000 几乎全是陶瓷（约 130 万条）
+    其余                   织绣、古籍、金银器、玉器、宗教文物…书画 0/20
+
+**所以书画只住在三条带里，约 200 次请求覆盖约 4 万条**，而非盲扫 9,300 次。
+
+**第一次做错了，错在单位。**首版 map 用 pageSize=20 探、sweep 用 pageSize=200 扫，
+而 `page` 的含义取决于 `pageSize`——同一个「第 1900 页」相差十倍偏移。
+于是扫回 60,200 条而书画 0 条，**看着像数据矛盾，实则是我扫错了地方**。
+第二层错: map 的循环上界写 9301（pageSize=200 的总页数），在 pageSize=20 下
+共 93,004 页，故首版 map 只看了全库前 10%。
+现已改为对外一律用记录偏移说话（见 `_at()`），单位不可能再混。
 
 —— 这个工具做什么 ——
 
-在**硬预算内**抽样，用途有三，都不需要完整性：
-  1. 量出真实的类目与朝代分布，据此估算故宫书画的总量级；
-  2. 把抽到的书画（Paintings／Calligraphy／Rubbings）连同藏品号与官方页 URL
-     落到本地缓存，供本库条目**人工核对**（verification 由人核过再标，不由抓取标）；
-  3. 验证这条通道确实可用——以便日后若站方开放导出或过滤，能立刻接上。
-
-**完整名单的正路是站方自己的导出功能**：客户端代码里有 `/cultural/exportData`，
-说明站方本就设计了批量取数。用它得在浏览器里点，那是使用者自己的访问，
-一次导出即可，胜过本工具跑一万次。
+  1. `map` 画类目分布，据此把成本从 9,301 次压到几百次；
+  2. `sweep` 只扫书画页段，取 name／藏品号／类目／朝代／hasImage／官方页 URL；
+  3. 落到本地缓存，供本库条目**按藏品号对账**——藏品号是稳定标识符，
+     标题字形不是（实测「顾恺之／宋人洛神图卷」「临／仿韦偃牧放图」
+     「锦鸡／芙蓉锦鸡图」三处都是靠藏品号才认出同物的）。
 
 —— 礼貌约束（写死，不给调低的口子）——
 
@@ -43,9 +63,11 @@ dbgUrl 官方详情页）。但：
 """
 
 import argparse
+import collections
 import json
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -65,10 +87,32 @@ SLEEP = 2.0              # 秒。串行且不低于此值
 UA = ("china-art-history-archive/0.1 (non-commercial scholarly index of Chinese art "
       "history; metadata only, no image mirroring; contact via repository)")
 
-# —— 藏品号前缀本身是一条递藏线索，别浪费它 ——
+# —— 藏品号前缀是一条递藏线索，也是一个陷阱 ——
 #
-# 故宫藏品号分两系: **「故」字号 = 1925 年建院时接收的清宫旧藏；
-# 「新」字号 = 1949 年以后征集、调拨、捐赠入藏。**
+# **实测共五系**（36,400 条扫描样本，2026-08-04）:
+#
+#   故   16,190   1925 年建院时接收的清宫旧藏
+#   新   16,799   1949 年以后征集、调拨、捐赠入藏
+#   书    2,015   **古籍文献**——样本中该系 100% 为 Historical Documents
+#                （如《晚晴簃诗汇》逐页著录）。不属书画，出本库范围。
+#   标    1,164   **标本**——样本中该系 100% 为瓷片。研究标本，非完整器。
+#   资      232   **含义未经核实。**全为绘画与法书，作者为钱选、戴嵩、文伯仁、
+#                文嘉、方从义等。按「书＝书籍、标＝标本」的构词推测可能是「资料」，
+#                **但这是推测**: 若确为资料件（复制品／参考件），把它们当原作立目
+#                就是把复制品写成真迹。**故本库对「资」字号一律不立目，
+#                待向馆方或专业目录核实前缀含义后再定。**
+#
+# 「故」「新」两系的用处很实在: 新字号大概率**不见于《石渠宝笈》《大观录》
+# 《江村销夏录》**一类清代著录（那些著录的是清宫与清代私家所藏），
+# 所以查不到递藏不等于漏查，往往就是它本不在那批文献里。
+# **据此可以诚实地写「无清宫著录线索」而不必编，也不必为凑 prov 块去攀附。**
+# 反之，故字号若查不到清宫著录，那才是真该继续查的信号。
+#
+# **陷阱在去重上。**本库的藏品号去重一度只认「新」「故」两系
+# （正则 `新\d{8}|故\d{8}`），于是「书」「标」「资」三系共 3,411 条
+# 一条都匹配不上——**对账会把它们全部报成「本库尚无」，而其中可能已有条目。**
+# 下面这条正则覆盖五系，供对账使用。
+ACC_RE = r"(?:资(?:绘画|书法|甲骨|新)?|故|新|书|标)\d{5,8}(?:-\d+/\d+)?"
 #
 # 用处很实在: 新字号大概率**不见于《石渠宝笈》《大观录》《江村销夏录》**一类
 # 清代著录（那些著录的是清宫与清代私家所藏），所以查不到递藏不等于漏查，
@@ -104,6 +148,84 @@ def probe():
         print(f"  [{r.get('suggestCategoryName',''):<26}] {r.get('name','')[:26]:<28} "
               f"{r.get('culturalRelicNo',''):<12} 影像={r.get('hasImage')}")
     return d
+
+
+def _at(offset, size):
+    """按**记录偏移**取一页，而不是按页号。
+
+    页号是个陷阱: `page` 的含义取决于 `pageSize`——第 1900 页在 pageSize=20 下是
+    第 38,000 条附近，在 pageSize=200 下是第 380,000 条附近。**本工具第一版就栽在这里**:
+    map 用 pageSize=20 探出「热点在第 1900、2000 页」，sweep 却用 pageSize=200 去扫
+    同样的页号，扫的其实是完全不同的区域，结果 60,200 条里书画 0 条——
+    看着像数据矛盾，实则是单位没对齐。
+    还有第二层: map 的循环上界写 9301（那是 pageSize=200 的总页数），
+    在 pageSize=20 下总共 93,004 页，**故 map 只看了全库前 10%**。
+
+    所以对外一律用记录偏移说话，页号只在函数内部按 size 换算，单位不可能再混。
+    """
+    if offset % size:
+        raise ValueError(f"偏移 {offset} 不是 {size} 的整数倍，换算会错位")
+    return _post({"page": offset // size + 1, "pageSize": size})
+
+
+def map_space(step=100, probe_size=20):
+    """用少量请求把 9,301 页的类目分布探出来，据此只扫书画那几段。
+
+    **为什么值得先做这一步**: 实测返回顺序按类聚簇——前 40 页只得 642 件书画，
+    随后 60 页得了 4,926 件。既然聚簇，就不必为取书画而扫完全库。
+    每隔 step 页探一次、每次只取 probe_size 条，约 93 次请求即可画出全域分布，
+    **比盲扫 9,301 次省两个数量级**。
+
+    这一步也是对站方的礼貌: 少取、只取判断所需，而不是先搬回来再筛。
+    """
+    marks = []
+    TOTAL = 1860076
+    stride = step * PAGE_SIZE      # step 以「PAGE_SIZE 页」为单位，换成记录数
+    for off in range(0, TOTAL, stride):
+        try:
+            d = _at(off, probe_size) if off % probe_size == 0 else _post(
+                {"page": off // probe_size + 1, "pageSize": probe_size})
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 403):
+                print(f"偏移 {off} 遇 HTTP {e.code}——立即停止")
+                break
+            continue
+        except Exception:
+            continue
+        rows = d.get("rows") or []
+        if not rows:
+            break
+        n_sh = sum(1 for r in rows
+                   if (r.get("suggestCategoryName") or "") in SHUHUA)
+        top = collections.Counter(r.get("suggestCategoryName") or "?"
+                                 for r in rows).most_common(1)[0]
+        marks.append((off, n_sh, len(rows), top[0], top[1]))
+        time.sleep(SLEEP)
+    print(f"探了 {len(marks)} 个页点（每 {step} 页一次，各取 {probe_size} 条）")
+    print()
+    print(f"  {'记录偏移':>10}  {'书画/样':>8}  主导类目")
+    for off, n_sh, n, cat, c in marks:
+        bar = "█" * int(n_sh / max(1, probe_size) * 20)
+        print(f"  {off:>10,}  {n_sh:>3}/{n:<4}  {cat[:30]:<32} {bar}")
+    hot = [off for off, n_sh, n, _, _ in marks if n_sh * 2 >= n]
+    if hot:
+        runs, start = [], hot[0]
+        for a, b in zip(hot, hot[1:] + [None]):
+            if b is None or b - a > stride:
+                runs.append((start, a + stride)); start = b
+        print()
+        print("书画过半的记录区间（sweep 只扫这些）:")
+        tot = 0
+        for a, b in runs:
+            n_pg = (b - a) // PAGE_SIZE
+            print(f"   偏移 {a:>9,}–{b:<9,}  约 {b-a:>7,} 条 = {n_pg} 次请求")
+            tot += n_pg
+        print()
+        print(f"合计约 {tot} 次请求，对比盲扫 {1860076 // PAGE_SIZE:,} 次")
+    else:
+        print()
+        print("未见书画过半的页段——聚簇不明显，抽样策略需重估")
+    return marks
 
 
 def sample(pages):
@@ -145,6 +267,53 @@ def sample(pages):
     stats()
 
 
+def sweep(lo, hi):
+    """lo／hi 是**记录偏移**，不是页号。"""
+    """只扫指定页段。**这是 map 的用处所在。**
+
+    实测总目按类聚簇: 绘画住在约第 1900–2100 与 5400–5800 页，碑帖在 7900–9200，
+    其余各段书画为零。所以取绘画只需约 600 次请求，**而非盲扫 9,301 次**——
+    少两个数量级，也少给站方两个数量级的负担。
+
+    先 map 后 sweep 是本工具的正当用法; 直接 sweep 全域等于没做 map。
+    """
+    CACHE_S = CACHE.with_name(".dpm-sweep.json")
+    got, seen = [], set()
+    if CACHE_S.exists():
+        got = json.loads(CACHE_S.read_text(encoding="utf-8")).get("rows") or []
+        seen = {r.get("uuid") for r in got}
+        print(f"已有扫描缓存 {len(got)} 条，继续")
+    for off in range(lo - lo % PAGE_SIZE, hi + 1, PAGE_SIZE):
+        p = off // PAGE_SIZE + 1
+        try:
+            d = _at(off, PAGE_SIZE)
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 403):
+                print(f"第 {p} 页遇 HTTP {e.code}——**立即停止，不重试硬闯**")
+                break
+            print(f"第 {p} 页 HTTP {e.code}，停")
+            break
+        except Exception as e:
+            print(f"第 {p} 页 {type(e).__name__}，停")
+            break
+        rows = d.get("rows") or []
+        if not rows:
+            print(f"第 {p} 页无数据，停")
+            break
+        for r in rows:
+            if r.get("uuid") not in seen:
+                seen.add(r.get("uuid"))
+                got.append(r)
+        if (off - lo) % (25 * PAGE_SIZE) == 0:
+            n_sh = sum(1 for r in got
+                       if (r.get("suggestCategoryName") or "") in SHUHUA)
+            print(f"  第 {p} 页 · 累计 {len(got)} 条 · 其中书画 {n_sh}", flush=True)
+        time.sleep(SLEEP)
+    CACHE_S.write_text(json.dumps({"rows": got}, ensure_ascii=False), encoding="utf-8")
+    n_sh = sum(1 for r in got if (r.get("suggestCategoryName") or "") in SHUHUA)
+    print(f"扫描缓存 {len(got)} 条 → {CACHE_S.name}；其中书画 {n_sh} 条")
+
+
 def stats():
     if not CACHE.exists():
         sys.exit("尚无缓存，先跑 python dpm.py sample")
@@ -179,9 +348,15 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("probe")
     s = sub.add_parser("sample"); s.add_argument("--pages", type=int, default=60)
+    m = sub.add_parser("map"); m.add_argument("--step", type=int, default=100)
+    w = sub.add_parser("sweep")
+    w.add_argument("--from", dest="lo", type=int, required=True, help="起始记录偏移")
+    w.add_argument("--to", dest="hi", type=int, required=True, help="结束记录偏移")
     sub.add_parser("stats")
     a = ap.parse_args()
-    {"probe": probe, "sample": lambda: sample(a.pages), "stats": stats}[a.cmd]()
+    {"probe": probe, "sample": lambda: sample(a.pages),
+     "map": lambda: map_space(a.step),
+     "sweep": lambda: sweep(a.lo, a.hi), "stats": stats}[a.cmd]()
 
 
 if __name__ == "__main__":

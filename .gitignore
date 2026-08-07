@@ -11,3 +11,4 @@ wiki/dist-full/
 
 # 故宫藏品总目抽样缓存：本机数据，不入公开仓库
 wiki/.dpm-index.json
+wiki/.dpm-sweep.json

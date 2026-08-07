@@ -10,7 +10,7 @@
   "medium": "绢本水墨立轴",
   "holder": "故宫博物院（北京）",
   "image_status": "pending",
-  "verification": "memory",
+  "verification": "museum",
   "updated": "2026-08-06",
   "sources": [
     {
@@ -28,6 +28,10 @@
     {
       "ref": "dpm",
       "note": "现藏机构，无公开 API，官方藏品页须人工核对"
+    },
+    {
+      "ref": "dpm-digicol",
+      "note": "藏品号与馆方定名"
     }
   ],
   "sections": {
@@ -54,6 +58,14 @@
           [
             "现藏",
             "故宫博物院（北京）"
+          ],
+          [
+            "藏品号（故宫）",
+            "新00146948"
+          ],
+          [
+            "馆方定名",
+            "黄公望九峰雪霁图轴"
           ]
         ]
       },
@@ -67,6 +79,12 @@
         "t": "stmt",
         "state": "pend",
         "text": "本幅具体尺寸，本库尚未核对故宫博物院官方藏品页原文，不写死数字。"
+      },
+      {
+        "t": "stmt",
+        "state": "adopt",
+        "text": "**藏品号经故宫博物院藏品总目核对。**核过的只有两项: 馆方定名与藏品号一致。尺寸、材质、递藏、题跋均未核对。见 [[src:dpm-digicol]]（该信源已注明藏品总目与藏品页的定名可能不一致）。",
+        "src": "dpm-digicol"
       }
     ],
     "commission": [
