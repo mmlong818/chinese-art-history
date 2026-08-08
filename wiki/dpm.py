@@ -458,6 +458,121 @@ def xcheck():
         print(f"    {i:<34} 本库「{c}」 {n}  馆方「{o}」")
 
 
+def _strip_generic(t, artist_names=()):
+    """剥掉作者名与形制、体裁一类通用字，只留题名的辨识部分。
+
+    「唐寅孟蜀宫妓图轴」剥成「孟蜀宫妓」，「挥扇仕女图」剥成「挥扇仕女」——
+    否则两边都带着「图」「轴」「卷」，公共子串会被这些无辨识力的字撑起来。
+    """
+    for a in sorted(artist_names, key=len, reverse=True):
+        t = t.replace(a, "")
+    return re.sub(r"[图圖卷轴軸册冊页頁扇面本序帖书書画畫（）()]", "", t)
+
+
+def _lcs(a, b):
+    """最长公共子串长度。短、够用，不引依赖。"""
+    if not a or not b:
+        return 0
+    prev = [0] * (len(b) + 1)
+    best = 0
+    for i in range(1, len(a) + 1):
+        cur = [0] * (len(b) + 1)
+        for j in range(1, len(b) + 1):
+            if a[i - 1] == b[j - 1]:
+                cur[j] = prev[j - 1] + 1
+                best = max(best, cur[j])
+        prev = cur
+    return best
+
+
+def gaps():
+    """列出可立目的故宫书画候选，**并先把「其实已有、只是题名不同」的挡在前面。**
+
+    这一条是拿代价换来的。本会话七次栽在「以为缺而其实已有」，其中两次就发生在
+    照候选清单立目的当口:
+      唐寅《孟蜀宫妓图》新00146600 —— 库内已有《王蜀宫妓图》（王／孟一字之差）
+      周昉《纨扇仕女图》新00147478 —— 库内已有《挥扇仕女图》（纨／挥一字之差）
+    两次都是靠人工翻该画家已有作品才发现的; 按题名相似度自动查重两次都漏——
+    **差的那个字在词首或词中，任何「子串包含」判据都抓不到。**
+
+    所以本命令不假装能自动判定同物，而是把**风险清单**单列出来:
+    同一作者、同一收藏机构、而库内条目**没有藏品号**的，就是可能撞上的对象——
+    没有号就意味着没有稳定标识符可比，只剩题名，而题名恰恰不可靠。
+    这类候选一律标 ⚠，要求人工过目后再决定立目还是回填。
+
+    反过来，库内条目**已有藏品号**且与候选号不同的，可判为两件不同的物，
+    这正是「按藏品号对账」比按题名对账硬的地方。
+    """
+    import glob
+    cat = {}
+    for fn in (CACHE, CACHE.with_name(".dpm-sweep.json")):
+        if not fn.exists():
+            continue
+        for r in json.loads(fn.read_text(encoding="utf-8")).get("rows") or []:
+            no = (r.get("culturalRelicNo") or "").strip()
+            if no:
+                cat.setdefault(no, r)
+    if not cat:
+        print("总目缓存为空，先跑 map / sweep"); return
+    root = Path(__file__).parent / "data"
+    names, per = {}, {}
+    for f in glob.glob(str(root / "artists" / "*.json")):
+        a = json.loads(Path(f).read_text(encoding="utf-8"))
+        cand = {a.get("name") or ""}
+        for s in a.get("name_alt") or []:
+            cand |= set(re.findall(r"(?:初名|又名|改名|本名|名)([一-鿿]{1,3})", str(s)))
+        names[a["id"]] = {c for c in cand if len(c) >= 2}
+        per[a["id"]] = a.get("period")
+    have_no, byart = set(), collections.defaultdict(list)
+    for f in glob.glob(str(root / "works" / "*.json")):
+        w = json.loads(Path(f).read_text(encoding="utf-8"))
+        s = json.dumps(w, ensure_ascii=False)
+        nos = set(re.findall(ACC_RE, s))
+        have_no |= nos
+        if w.get("artist"):
+            byart[w["artist"]].append((w["id"], str(w.get("title") or ""),
+                                       str(w.get("holder") or ""), bool(nos)))
+    risky, fresh = [], []
+    for no, r in cat.items():
+        if no.startswith("资") or re.search(r"-\d+/\d+$", no):
+            continue                      # 立目禁令 + 册页单开不单独立目
+        if r.get("suggestCategoryName") not in ("Paintings", "Calligraphy"):
+            continue
+        if no in have_no:
+            continue
+        nm = str(r.get("name") or "")
+        for aid, cands in names.items():
+            if not any(nm.startswith(c) for c in cands):
+                continue
+            # 同作者、同馆、库内那条没有号，**且题名有实际重合** → 可能是同物异名。
+            # 只按「同作者同馆无号」配对会把毫不相干的两件也摆在一起
+            # （「董其昌书正阳门关侯庙碑卷」配「行书杜甫诗册」），
+            # **一份人人学会忽略的警告清单比没有清单更糟**，故加题名重合这道闸。
+            # 判据用最长公共子串而非「包含」——两次实际漏检差的那个字都在词首或词中：
+            #   孟蜀宫妓／王蜀宫妓 → 公共「蜀宫妓」3 字
+            #   纨扇仕女／挥扇仕女 → 公共「扇仕女」3 字
+            # 「包含」判据对这两例都失效，最长公共子串则都能抓到。
+            core = _strip_generic(nm, cands)
+            bare = [(i, t) for i, t, h, hasno in byart.get(aid, [])
+                    if not hasno and "故宫博物院" in h and "台北" not in h
+                    and _lcs(core, _strip_generic(t, cands)) >= 2]
+            row = (no, nm, r.get("suggestDynastyName") or "—", aid, bare)
+            (risky if bare else fresh).append(row)
+            break
+    print(f"总目缓存 {len(cat)} 号 · 故宫书画候选 {len(risky)+len(fresh)} 件"
+          f"（已排除资号与册页单开）\n")
+    print(f"⚠ 须人工过目 {len(risky)} 件——同作者同馆而库内条目无藏品号，"
+          f"**可能是同一件物的异名，勿直接立目**")
+    for no, nm, dy, aid, bare in sorted(risky)[:40]:
+        print(f"    {no:<14} {nm[:30]:<32} {dy}")
+        for i, t in bare[:3]:
+            print(f"        ↳ 库内无号条目：{i}（{t}）—— 是否同物？")
+    print(f"\n可立目 {len(fresh)} 件——该作者在故宫（北京）名下的库内条目都已有号，"
+          f"故候选号与它们必为不同物")
+    for no, nm, dy, aid, _ in sorted(fresh)[:30]:
+        print(f"    {no:<14} {nm[:34]:<36} {dy}")
+
+
 def main():
     ap = argparse.ArgumentParser(description="故宫藏品总目抽样索引（不做全量）")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -469,11 +584,12 @@ def main():
     w.add_argument("--to", dest="hi", type=int, required=True, help="结束记录偏移")
     sub.add_parser("stats")
     sub.add_parser("xcheck")
+    sub.add_parser("gaps")
     a = ap.parse_args()
     {"probe": probe, "sample": lambda: sample(a.pages),
      "map": lambda: map_space(a.step),
      "sweep": lambda: sweep(a.lo, a.hi), "stats": stats,
-     "xcheck": xcheck}[a.cmd]()
+     "xcheck": xcheck, "gaps": gaps}[a.cmd]()
 
 
 if __name__ == "__main__":
