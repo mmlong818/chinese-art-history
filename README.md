@@ -1,8 +1,8 @@
 ---
-摘要: 中国美术史可核查档案。当前项目在 wiki/——数据优先的多页静态站，六类实体（人/物/地/类/文/事），data/*.json 为唯一真相源，build.py 生成。不止书画：青铜、陶瓷、玉器、石窟、碑刻、画论同为一等实体。三条硬约束：断代必附依据与可靠度、窟寺必记重修层、石刻必注拓本谱系。条目分完整级与著录级两种体裁，不是详略之别。同物合并按藏品号对账，不按标题。根目录 index.html 为第一代单文件版，已冻结不再新增。
+摘要: 中国美术史可核查档案。当前项目在 wiki/——数据优先的多页静态站，六类实体（人/物/地/类/文/事），data/*.json 为唯一真相源，build.py 生成。不止书画：青铜、陶瓷、玉器、石窟、碑刻、画论同为一等实体。三条硬约束：断代必附依据与可靠度、窟寺必记重修层、石刻必注拓本谱系。条目分完整级与著录级两种体裁，不是详略之别。同物合并按藏品号对账，不按标题。第一代单文件版收在 v1/，已冻结不再新增。
 来源: self
 日期: 2026-08-08
-关联: wiki/README.md, wiki/schema.py, wiki/build.py, wiki/dpm.py, tools/validate.py
+关联: wiki/README.md, wiki/schema.py, wiki/build.py, wiki/dpm.py, v1/tools/validate.py
 ---
 
 # 中国美术史
@@ -15,12 +15,12 @@ python build.py                       # data/ → dist/，校验不过就不生�
 cd dist && python -m http.server 8733
 ```
 
-| | 第二代 · `wiki/`（当前） | 第一代 · `index.html`（冻结） |
+| | 第二代 · `wiki/`（当前） | 第一代 · `v1/`（冻结） |
 |---|---|---|
 | 形态 | 多页静态站，`data/*.json` → `build.py` | 单文件 HTML，约 8 MB，手写 |
 | 实体 | **六类**：人 / 物 / 地 / 类 / 文 / 事 | 三类：画家 / 作品 / 事件 |
 | 规模 | 艺术家 **1,232** · 作品 **4,962** · 遗址 150 · 类目 303 · 画论 42 · 事件 64 | 121 / 362 / 63 |
-| 校验 | `schema.py` 契约 + `audit.py` 内容自检 | `tools/validate.py` |
+| 校验 | `schema.py` 契约 + `audit.py` 内容自检 | `v1/tools/validate.py` |
 | 状态 | 在建 | **不再新增**，保留为迁移底本 |
 
 换架构不是因为第一代写得不好，是因为它装不下要加的东西：362 件作品零图版；
@@ -69,10 +69,11 @@ wiki/               当前项目（详见 wiki/README.md）
   verify.py           不占配额的事实核查
   dist/               产物，不入库，不手改
 
-index.html          第一代单文件版，约 8 MB，冻结
-tools/validate.py   第一代的结构校验器
-tools/entry.py      第一代的条目插入器（原子替换写入）
-archive/            更早的原型，不再维护
+v1/                 第一代，冻结不再新增
+  index.html          全部内容，单文件约 8 MB
+  tools/validate.py   结构校验器（移动后仍自洽：靠 dirname(dirname(__file__)) 定位）
+  tools/entry.py      条目插入器（原子替换写入）
+  archive/            更早的原型，不再维护
 ```
 
 ---
@@ -90,4 +91,4 @@ archive/            更早的原型，不再维护
 - **国内馆藏普遍无自由授权图像**：石窟摩崖标 `in-situ`；书画多标 `pending`（尚未找过）
   而非 `no-free-image`（找过而无）——**两者是不同强度的断言，不可混用**
 - **第一代作品层已到史实边界**：10 家确无第三件可补（作品全佚／传世仅一件／一作两本），
-  名单与理由固化在 `tools/validate.py` 的 `CEILING`，**不要试图补齐**
+  名单与理由固化在 `v1/tools/validate.py` 的 `CEILING`，**不要试图补齐**
